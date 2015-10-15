@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "디바이스가 Wi-Fi 네트워크에 연결되지 않았습니다. 모바일 네트워크에 연결하면 요금제에 따라 추가요금이 부과될 수 있습니다."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "공유"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "공유"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "[모바일 데이터]가 해제된 상태입니다. Wi-Fi 네트워크에 연결하거나, [모바일 데이터]를 실행한 후 다시 시도하세요."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "항목 %d개를 삭제합니다."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "이 항목을 삭제합니다."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "다운로드 중..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "저장공간이 부족합니다."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "취소하였습니다."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "다운로드하지 못하였습니다."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "완료하였습니다."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "추가"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "삭제하였습니다."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "SD 카드를 분리하였습니다."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "검색 중..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "네트워크에 연결할 수 없습니다."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "폴더 삭제"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "폴더 이름을 입력하세요."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "다운로드 앱"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "네트워크 연결 오류가 발생하여 통화를 종료하였습니다. 다시 연결할까요?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "확인"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "저장"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "예"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "아니요"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "바로가기 추가"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "삭제"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "바로가기 삭제"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "바로가기 이름 변경"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "검색"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "공유"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "저장공간 사용량"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "다시 보지 않기"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Byte"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "서버에 연결할 수 없습니다."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "프라이빗"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "바로가기 제거"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "배터리가 부족합니다."
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "파일 1개"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "내 앨범"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "추가"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "알림"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "모든 종류"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "사용 가능"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Byte"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "내용"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "추가 날짜"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "날짜"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "선택한 항목을 삭제할까요?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "문서"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "실행"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "파일 이름"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "파일 형식"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "폴더 이름"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "전송"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS 정보"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS 위도"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS 경도"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS 버전"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "이미지"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "불가능"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "개인"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "간격"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "마지막 수정"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "목록 및 상세정보"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "위치"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "메모리 카드 데이터 초기화 중..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "내 동영상 클립"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "휴대전화에 저장공간이 부족합니다. 일부 항목을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "파일이 없습니다"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "최근에 연 파일이 없습니다"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "최근 사용한 파일이 없습니다"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "파일 %d개"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "항목 %d개"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d개"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "가능"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "인쇄"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "이름 변경"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "권한 유효 상태"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "벨소리"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "공유"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "숨긴 파일 표시"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "사운드"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "저장공간 사용량"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "시간"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "시간 경과 후 횟수 계산"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "종류"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "제한 없음"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "위쪽"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "유효 횟수"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "판매자"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "동영상"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "배경화면"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "홈에 추가"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "여기로 내보내기"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "내 파일로 이동"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "홈"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "대체"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "모든 폴더 검색"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "여기에 설정"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "고급 검색"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "오디오"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "모바일 네트워크에 연결"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi 네트워크에 연결"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "횟수"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "폴더 이름을 입력하세요."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "지역"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "새 폴더"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "최근 파일"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "파일 제거"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "사운드&샷 사진 공유"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "저장공간"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "새 폴더를 추가할 수 없음"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "모두 선택"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "폴더 이름을 입력하세요"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "바로가기에 추가"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "이미지 파일로"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "동영상 파일로"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "발신자별 벨소리"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "압축"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "새 폴더 추가"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "날짜(최근 순)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "날짜(오래된 순)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "압축 해제"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "여기에 압축 해제"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "기본 벨소리"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "상세 보기"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "편집"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "압축 풀기"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "현재 폴더에 압축 풀기"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "폴더로 이동"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "파일 확장자 숨기기"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "항목"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "이름"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "정렬 기준"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "여기로 이동"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "이름"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "파일 위치 열기"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "프라이빗 페이지"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "음성 녹음"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "연락처에 추가"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "이름 변경"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "이름을 변경하였습니다."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "폴더 이름 변경"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "여기 저장"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "주변 디바이스 찾기"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "하나만 선택"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "링크 공유"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "파일 확장자 표시"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "분할"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "정렬 방식"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "썸네일 보기"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "보기 방식"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "목록 보기"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "썸네일 보기"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "파일 압축"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "항목 1개를 삭제합니다."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "가나다 순"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "삭제할까요?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "계속"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "복사하지 못하였습니다."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "삭제하지 못하였습니다."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "선택한 항목을 삭제할까요?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "가나다 역순"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM 파일은 보낼 수 없습니다."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM 파일은 실행할 수 없습니다."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "사용 중인 파일 이름입니다."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "사용 중인 폴더 이름입니다."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "형식"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "보낸 사람"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "내용 입력"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "파일 이름이 바르지 않습니다."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "불러오는 중..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "최대 폴더 수에 도달하였습니다."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "이동하지 못하였습니다."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "이름이 없습니다."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "힙메모리가 부족합니다."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "저장공간이 부족합니다. 일부 항목을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "저장공간이 부족합니다. %s을(를) 사용할 수 있습니다."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "여기에 붙여넣기"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "항목 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "승인되지 않았습니다."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "최근 파일 목록에서 제거할까요?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "바로가기에서 제거할까요?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "제거할까요?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "같은 파일 이름이 있습니다."
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "사용 중인 이름입니다."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "항목 선택"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "보내지 못하였습니다."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "바로가기를 추가하였습니다."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "대상 폴더가 현재 폴더의 하위 폴더입니다."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "대상 폴더가 현재 폴더와 동일합니다."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "디바이스 연결을 해제하였습니다."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "파일이 존재하지 않습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "복사할 수 없습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "이동할 수 없습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "네트워크 오류가 발생하여 작업을 수행할 수 없습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "통화 중에는 재생할 수 없습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM 컨텐츠를 벨소리 또는 알림 메시지로 설정할 수 없습니다."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "주변 디바이스를 찾으려면 Wi-Fi 네트워크 연결이 필요합니다. Wi-Fi에 연결한 후 다시 시도하세요."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "뒤로가기"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "복사"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "삭제"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "편집"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "이동"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "검색"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "정렬 방식"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "보기 방식"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "취소"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "취소"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "상세정보"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "모두"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "외장 저장공간"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "메모리 카드"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "전화"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "위로"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "압축하였습니다."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "압축을 해제하였습니다."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "파일 다운로드 중..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "파일을 압축하였습니다."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "파일을 압축 해제하였습니다."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "파일을 가져왔습니다."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "검색 가능한 디바이스가 없습니다. 백그라운드에서 계속해서 주변 디바이스를 검색합니다."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "디렉터리"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "연결"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "기본 알림음"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "수신"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "바로가기 추가"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "삭제할까요?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "이름 변경"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "제거"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "항목 삭제"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "항목 선택"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "검색 결과가 없습니다"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "%d개를 삭제할까요?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "삭제할까요?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "항목 1개를 선택하였습니다."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "입력한 문자가 바르지 않습니다. 다시 시도하세요."
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "항목 %d개를 선택하였습니다."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "무음"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "항목 선택"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "%d개까지 선택할 수 있습니다."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "다운로드"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "삭제할까요?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "이동"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "복사"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "이동 중..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "복사 중..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "삭제 중..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "작업을 수행하지 못하였습니다."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "이 항목만"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "이동하였습니다."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "복사하였습니다."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "정렬 방식"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "완료하지 못하였습니다."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "완료"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD 카드"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "디바이스 저장공간"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "퍼스널 저장공간에 추가"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "퍼스널 저장공간에서 제거"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "이 항목을 삭제할까요?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "프라이빗에서 제거"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "프라이빗으로 이동"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "최대 글자 수에 도달하였습니다."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "제거 중..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "퍼스널 저장공간"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "포맷을 완료하였습니다."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "이름(가나다 역순)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "이름(가나다 순)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "화면 캡처"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "검색 결과가 없습니다."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "메시지 알림"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "상세정보"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "이름을 입력하세요."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "내 파일"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "추가하였습니다."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "진행 중..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "지원되지 않는 파일 형식입니다."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "제거할까요?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "프라이빗 컨텐츠"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "복사 위치"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "이동 위치"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "바로가기를 추가하지 못하였습니다."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "저장공간이 부족합니다. 일부 항목을 삭제하세요."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "제거하였습니다."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "개인 저장공간"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "선택한 것이 없습니다."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "공유"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "보기 방식"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "목록"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "보기"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "저장 옵션"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "제거하지 못하였습니다."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "부모의 시청 지도가 필요한 등급"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "사용 중인 파일 이름입니다."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "음성"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi를 사용할 수 없습니다. 모바일 네트워크에 연결하면 요금제에 따라 추가요금이 부과될 수 있습니다."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "최대 글자 수(%d)에 도달하였습니다."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "준비 중..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d개 선택"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "항목 삭제"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "다운로드 항목이 없습니다"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "다운로드 완료"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "다운로드 관리자"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "항목을 다운로드하면 여기에 표시됩니다."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "다운로드 취소됨"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "다운로드 안 됨"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "디바이스에 저장공간이 부족합니다. %s 설정에서 일부 데이터를 삭제하거나 SD 카드를 삽입하세요."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "디바이스에 저장공간이 부족합니다. %s 설정에서 저장공간을 확보하고 다시 시도하세요."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "SD 카드에 저장공간이 부족합니다. %s 설정에서 일부 데이터를 삭제하거나 기본 저장 위치를 디바이스로 변경하세요."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "SD 카드에 저장공간이 부족합니다. %s 설정에서 일부 데이터를 삭제하고 다시 시도하세요."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "저장공간으로 이동"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "기본 저장공간 모두 사용"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "오래된 항목"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "저장공간"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "제거 중..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD 카드"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "디바이스 저장공간"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "서버에 알리는 중..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "항목 %d개를 삭제합니다."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "파일을 찾을 수 없습니다. 다시 다운로드하려면 [다운로드]를 누르세요."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "파일을 열 수 없음"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "이 파일을 열 수 있는 앱을 찾을 수 없습니다."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "다시 시도하려면 [다운로드]를 누르세요."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "항목 1개를 삭제합니다."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM 컨텐츠 실행 중..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "이 작업을 수행할 앱을 찾을 수 없습니다."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "저장 위치"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "가져오기"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "취소"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "확인"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "모두 선택"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d개 선택"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "다운로드"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "오늘"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "어제"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "삭제"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "대체"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "모든 항목에 적용"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "새 압축파일 추가"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "파일 압축 풀기"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "내 파일"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "웹"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "다운로드 기록"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "기록이 없습니다"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "간편 공유"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "앱을 설치할 수 없음"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "TPK 파일만 설치할 수 있습니다. 타이젠 스토어에서 다운로드한 앱만 설치할 것을 권장합니다."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "여기에서 이 항목을 삭제하면 Dropbox에서도 삭제됩니다. 항목 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "여기에서 이 항목을 삭제하면 Dropbox에서도 삭제됩니다. 항목 1개를 삭제합니다."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "이 항목을 이동하면 Dropbox에서 삭제됩니다. 항목 %d개를 이동합니다."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "이 항목을 이동하면 Dropbox에서 삭제됩니다. 항목 1개를 이동합니다."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "저장 위치 선택"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "중지"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "업로드"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "파일을 업로드하지 못하였습니다."
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "업로드 중지"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "다시 시도하려면 [업로드]를 누르세요."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "업로드를 중지하지만 파일은 삭제되지 않습니다."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "최근 본 파일"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "데이터를 저장할 수 없음"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "디바이스에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD 카드에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "업로드"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox 업로드"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "비공개"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "바이트"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "추가"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "홈"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "알람"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "기타"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "더보기"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "열기"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "알 수 없는 오류가 발생하였습니다."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "'.' 또는 '..'을 폴더 이름으로 설정할 수 없습니다."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "숨긴 파일 표시 안 함"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "숨긴 파일 표시"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "알 수 없음"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "사용 중인 바로가기 이름입니다."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "기본"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "파일"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "파일"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "폴더"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "폴더"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "시스템"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "이름"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "오디오 파일"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "문서"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "다운로드한 애플리케이션"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "이미지"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "동영상"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "취소"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "취소"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "추가"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "삭제"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "확인"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "제거"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "이름 변경"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "삭제"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "바로가기 추가"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "오디오 파일"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "복사"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "복사 위치"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "새 폴더 추가"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "바로가기 삭제"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "상세정보"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "문서"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "다운로드한 애플리케이션"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "이미지"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "이동"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "이동 위치"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d개 선택"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "최근 실행 파일"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "제거"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "이름 변경"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "바로가기"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "정렬"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "삭제"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "업로드"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "동영상"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "보기 방식"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "전체"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "바로가기"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "포함 항목"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "디바이스 저장공간"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "형식"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "위치"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD 카드"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "파일 확장자 표시"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "숨긴 파일 표시"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "크기"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "방식"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "판매자"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "파일이 없습니다"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "가나다 순"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "복사"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "새 폴더 추가"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "내림차 순"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "목록(자세히)"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "상세정보"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "다시 보지 않기"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "파일 형식"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "목록"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "이동"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "제거"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "크기"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "시간"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "형식"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "삭제"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "항목 1개를 제거합니다."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "바로가기 1개를 삭제합니다."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "복사 중..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "이동 중..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "항목 %d개를 제거합니다."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "바로가기 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "제거 중..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "로밍 중에 모바일 데이터를 사용하면 데이터 요금제에 따라 추가요금이 부과될 수 있습니다."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "사용 가능"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "만든 날짜"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "내용"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "전송"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "마지막 수정"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "해상도"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "총 크기"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "유효 기간"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "대상 폴더가 소스 폴더의 하위 폴더입니다."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "대상 폴더가 소스 폴더와 동일합니다."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "바로가기를 추가하지 못하였습니다."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "항목을 복사하지 못하였습니다."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "항목을 삭제하지 못하였습니다."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "항목을 이동하지 못하였습니다."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "항목을 제거하지 못하였습니다."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "사용 중인 파일 이름입니다."
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "최대 바로가기 수(%d)에 도달하였습니다."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "바로가기를 추가하였습니다."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "동일한 바로가기가 있습니다."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "새로고침"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "항목 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "앱 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s 앱을 삭제합니다."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "크기"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "목록 보기"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "사용 중인 폴더 이름입니다."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "로컬 저장공간"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "디바이스 저장공간"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "로그인되지 않았습니다."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "모든 파일"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "클라우드 저장공간"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "순서"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "바로가기"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "시간"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "삭제"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "포함 항목"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "No face detected"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "동일한 항목이 있습니다."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Unable to move. Destination folder same as source folder."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "새 폴더 추가"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "더보기"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "여기로 이동"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Paste here"
+
+msgid "IDS_PB_SK_SET"
+msgstr "설정"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "디바이스의 모든 앱에서 지원되지 않는 파일 형식입니다."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "파일 %d개를 삭제합니다."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "파일 보내기 완료"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "완료"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "취소"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "삭제"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "이름 변경"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "항목 선택"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "업로드한 항목이 없습니다"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "항목을 업로드하면, 여기에 표시됩니다."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "데이터를 저장할 수 없음"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD 카드에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "디바이스에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "오류가 발생하였습니다."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "저장공간을 모두 사용 중입니다."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropbox에서 항목 1개를 삭제합니다."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropbox에서 항목 %d개를 삭제합니다."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "[모바일 데이터]가 해제된 상태입니다. Wi-Fi 네트워크에 연결하거나 [모바일 데이터]를 실행한 후 다시 시도하세요."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "퍼스널 저장공간"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "경로"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "최대 글자 수 %d자에 도달하였습니다."
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "저장 위치 선택"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "다운로드 기록"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "다운로드 기록"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "다운로드 중..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "다운로드"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "다운로드 항목이 없습니다"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "다운로드 안 됨"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "만료일: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "만료일: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "파일 다운로드 안 됨"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "파일 다운로드를 다시 시도하거나 다운로드 대기 목록에서 항목을 제거하세요."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "다시 시도"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "제거"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "카테고리"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "사용 중인 이름"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "사용 중인 이름"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "대상 폴더에 동일한 파일 이름(%s)이 있습니다."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "대상 폴더에 동일한 폴더 이름(%s)이 있습니다."
+

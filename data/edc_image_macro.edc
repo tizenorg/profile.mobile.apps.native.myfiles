@@ -1,0 +1,144 @@
+/*
+* Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+
+#include "./edc_common.h"
+
+
+#define RESOURCE_IMAGE( FILE_NAME ) \
+   group { \
+      name: FILE_NAME; \
+      images.image: FILE_NAME COMP; \
+      parts { \
+         part { name: "image"; \
+            description { \
+               state: "default" 0.0; \
+               image.normal: FILE_NAME; \
+               aspect: 1 1; \
+               aspect_preference: BOTH; \
+            } \
+         } \
+      } \
+   }
+
+#define RESOURCE_IMAGE_BG(FILENAME, RED, GREEN, BLUE, ALPHA)                                    \
+        group {                                                         \
+                name: FILENAME;                                        \
+                images.image: FILENAME COMP;                            \
+                parts {                                                 \
+                        part {                                          \
+                                name: "image";                          \
+                                description {                           \
+                                        state: "default" 0.0;           \
+                                        image.normal: FILENAME;         \
+                                       color: RED GREEN BLUE ALPHA;         \
+                                        aspect: 1 1;                    \
+                                        aspect_preference: BOTH;       \
+                                }                                       \
+                        }                                               \
+                }                                                       \
+        }
+
+#define RESOURCE_IMAGE_LOSSY( FILE_NAME ) \
+   group { \
+      name: FILE_NAME; \
+      images.image: FILE_NAME LOSSY 85; \
+      parts { \
+         part { name: "image"; \
+            description { \
+               state: "default" 0.0; \
+               image.normal: FILE_NAME; \
+               aspect: 1 1; \
+               aspect_preference: BOTH; \
+            } \
+         } \
+      } \
+   }
+
+collections {
+	RESOURCE_IMAGE(DEFAULT_ICON);
+
+	RESOURCE_IMAGE(MF_ICON_FOLDER);
+	RESOURCE_IMAGE(MF_ICON_IMAGE);
+	RESOURCE_IMAGE(MF_ICON_VIDEO);
+	RESOURCE_IMAGE(MF_ICON_MUSIC);
+	RESOURCE_IMAGE(MF_ICON_SOFT_BACK);
+	RESOURCE_IMAGE(MF_ICON_SOFT_SEARCH_BACK);
+	RESOURCE_IMAGE(MF_ICON_SOFT_SEARCH_CANCEL);
+
+	RESOURCE_IMAGE(MF_ICON_SOUND);
+	RESOURCE_IMAGE(MF_ICON_PDF);
+	RESOURCE_IMAGE(MF_ICON_DOC);
+	RESOURCE_IMAGE(MF_ICON_PPT);
+	RESOURCE_IMAGE(MF_ICON_EXCEL);
+
+	//RESOURCE_IMAGE(MF_ICON_VOICE);
+	RESOURCE_IMAGE(MF_ICON_HTML);
+	RESOURCE_IMAGE(MF_ICON_FLASH);
+	RESOURCE_IMAGE(MF_ICON_TXT);
+	RESOURCE_IMAGE(MF_ICON_VCONTACT);
+
+	RESOURCE_IMAGE(MF_ICON_VCALENDAR);
+	RESOURCE_IMAGE(MF_ICON_VNOTE);
+	RESOURCE_IMAGE(MF_ICON_RSS);
+	RESOURCE_IMAGE(MF_ICON_JAVA);
+	RESOURCE_IMAGE(MF_ICON_ZIP);
+
+
+	RESOURCE_IMAGE(MF_ICON_VIDEO_PLAY);
+
+	RESOURCE_IMAGE(MF_ICON_TPK);
+
+	RESOURCE_IMAGE(MF_ICON_ITEM_MMC);
+
+	RESOURCE_IMAGE(MF_ICON_HWP);
+	RESOURCE_IMAGE(MF_ICON_EMAIL);
+	RESOURCE_IMAGE(MF_ICON_TASK);
+	RESOURCE_IMAGE(MF_ICON_SVG);
+	RESOURCE_IMAGE(MF_ICON_SNB);
+	RESOURCE_IMAGE(MF_ICON_MUSIC_THUMBNAIL);
+
+/****** root folder icon *******/
+        RESOURCE_IMAGE_BG(MF_ICON_ITEM_ROOT_PHONE, 0, 0 , 0 ,153);
+        RESOURCE_IMAGE_BG(MF_ICON_ITEM_ROOT_MMC, 0, 0 , 0 ,153);
+	RESOURCE_IMAGE(MF_ICON_ITEM_SHORTCUT);
+
+
+/******title icon ********/
+	RESOURCE_IMAGE(MF_TITLE_ICON_HOME);
+	RESOURCE_IMAGE(MF_TITLE_ICON_UPPER);
+
+	RESOURCE_IMAGE(MF_TITLE_ICON_SEARCH);
+
+	RESOURCE_IMAGE(MF_TITLE_ICON_SELECT_ALL);
+
+/********search category icon **************/
+	RESOURCE_IMAGE(IMG_ICON_SEARCH_CATEGORY_ALL);
+	RESOURCE_IMAGE(IMG_ICON_SEARCH_CATEGORY_IMG);
+	RESOURCE_IMAGE(IMG_ICON_SEARCH_CATEGORY_SND);
+	RESOURCE_IMAGE(IMG_ICON_SEARCH_CATEGORY_VIDEO);
+	RESOURCE_IMAGE(IMG_ICON_SEARCH_CATEGORY_DOC);
+
+/******* nocontents  icon **********************/
+	RESOURCE_IMAGE(IMG_ICON_IMG_NO_CONTENTS);
+	RESOURCE_IMAGE(IMG_ICON_MULTI_NO_CONTENTS);
+	RESOURCE_IMAGE(IMG_ICON_TEXT_NO_CONTENTS);
+	RESOURCE_IMAGE(IMG_ICON_DEV_NO_CONTENTS);
+
+
+}
+

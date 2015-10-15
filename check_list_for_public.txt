@@ -1,0 +1,43 @@
+1.change direcotry to RSA git directory
+   $ cd {RSA_GIT}/myfiles
+
+
+2. backup desktop icons/ public and private have different desktop icon. we should check in at private for temp. and then use desktop icon at public
+
+   data/org.tizen.myfiles.png <- I will send you later. you just use private one (just change png files name), 
+
+ 
+
+3. remove RSA code
+   $ rm * -rf
+
+ 
+
+4. copy Private code to RSA
+   $ cp {private_git}/myfiles/* ./ -R
+
+ 
+
+5. run script
+   $ cd myfiles
+   $ python ../feature_rm.py
+
+ 
+
+6. restore desktop icon(use data/org.tizen.myfiles.png, remove private png file)
+
+
+7. remove feature_rm.py file
+
+
+8. refine CMakeFiles.txt (remove some garbage lines)
+
+
+9. refine org.tizen.myfiles.xml (remove live-box description)
+
+
+10. build in RSA project (profile.tizendev of gbs)
+
+
+11. install binary & check!!
+

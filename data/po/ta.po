@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "உங்கள் சாதனம் Wi-Fi நெட்வொர்க்கிற்கு இணைக்கப்படவில்லை. மொபைல் நெட்வொர்க்கிற்கு இணைப்பதானது உங்கள் பணமளிப்புத் திட்டத்தின் அடிப்படையில் கூடுதல் கட்டணங்களை விளைவிக்கக்கூடும்."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "இதன்வழி பகிர்க"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "இதன் வழி பகிர்க"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "மொபைல் தரவு ஆஃப் செய்யப்பட்டது. மாறாக Wi-Fi நெட்வொர்க்குடன் இணைக்கவும், அல்லது மொபைல் தரவை ஆஃப் செய்துவிட்டு, மீண்டும் முயலவும்."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "இந்த உருப்படி நீக்கப்படும்."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "பதிவிறக்குகிறது..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "போதிய நினைவகம் இல்லை."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "இரத்தானது."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "பதிவிறக்கம் செயலில் இல்லை."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "வெற்றி."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "உருவாக்குக"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "நீக்கப்பட்டது."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "நினைவட்டை நீக்கப்பட்டது."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "தேடுதல்..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "நெட்வொர்க் இணைப்பில் பிழை."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "கோப்புறை நீக்குக"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "கோப்புறை பெயரை உள்ளிடுக."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "பதிவிறக்கிய பயன்பாடுகள்"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "நெட்வொர்க் இணைப்புப் பிழை ஏற்பட்டுள்ளது. அழைப்பு முடிந்துவிட்டது. நெட்வொர்க்கிற்கு மீண்டும் இணைக்கவா?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "சரி"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "சேமி"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ஆம்"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "இல்லை"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "குறுக்குவழியைச் சேர்க்கவும்"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "நீக்கவும்"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "குறுக்குவழியை நீக்கவும்"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "குறுக்குவழியை மறுபெயரிடவும்"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "தேடவும்"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "பகிர்க"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "சேமிப்பகப் பயன்பாடு"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "மீண்டும் காட்ட வேண்டாம்"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "பைட்"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "வழங்கியுடன் இணைக்க இயலாது."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "தனிப்பட்டது"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "குறுக்குவழியை அகற்றுக"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "மின்கலம் குறைந்துள்ளது"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 கோப்பு"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "எனது தொகுப்பு"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "இதிலிருந்து சேர்"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "விழிப்பூட்டல்கள்"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "ஏதேனும்"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "கிடைக்கக்கூடிய பயன்கள்"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "பைட்"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "உள்ளடக்கம்"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "உருவாக்கப்பட்ட தேதி"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "தேதி"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "தேர்வுசெய்யப்பட்ட உருப்படிகளை நீக்கவா?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "ஆவணங்கள்"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "செயற்படுத்துக"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "கோப்பு பெயர்"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "கோப்பு வகை"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "கோப்புறை பெயர்"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "பகிர்தல்"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "ஜிபிஎஸ் விபரம்"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "ஜிபிஎஸ் அட்சரேகை"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "ஜிபிஎஸ் தீர்க்கரேகை"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS பதிப்பு"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "படிமங்கள்"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "முடியாதது"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "தனிப்பட்ட"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "இடைவெளி"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "இறுதி மாற்றம்"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "பட்டியல் மற்றும் விவரங்கள்"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "இடம்"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC தரவு ஆரம்பிக்கப்படுகிறது..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "என் நிகழ்பட கிளிப்கள்"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "ஃபோனில் போதுமான நினைவகம் இல்லை. சில உருப்படிகளை அழித்து மீண்டும் முயலுக."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "கோப்புகள் இல்லை"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "சமீபத்தில் திறந்த கோப்புகள் எதுவுமில்லை"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "சமீபத்திய கோப்புகள் இல்லை"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d கோப்புகள்"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d உருப்படி"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d உருப்படிகள்"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "இயலும்"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "அச்சு"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "மறுபெயர்"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "சரியான நிலவரம்"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "ரிங்டோன்கள்"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "பகிர்க"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "மறைந்துள்ள கோப்புகளை காட்டுக"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "ஒலிகள்"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "சேமிப்பக பயன்பாடு"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "நேரம்"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "நேர எண்ணிக்கை"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "வகை"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "கணக்கற்ற"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "மேலே"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "செல்லுபடி"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "வென்டார்"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "நிகழ்படங்கள்"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "வால்பேப்பர்கள்"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "முகப்பில் சேர்க்கவும்"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "இங்கே ஏற்றுக"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "எனது கோப்புகளுக்குச் செல்"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "முகப்பு"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "இடமாற்று"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "எல்லா உறைகளையும் தேடுக"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "இங்கே அமைக்கவும்"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "மேம்படுத்தப்பட்ட தேடல்"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "கேட்பொலி"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "மொபைல் நெட்வொர்க்குடன் இணைக்கவும்"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi நெட்வொர்க்குடன் இணைக்கவும்"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "எண்ணுக"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "கோப்புறை பெயரை உள்ளிடுக."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "உள்ளமை"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "புதிய கோப்புறை"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "சமீபத்திய கோப்புகள்"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "கோப்பை அகற்றவும்"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "ஒலி & ஷாட் படங்களை பகிர்க"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "சேமிப்பகம்"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "கோப்புறையை உருவாக்க இயலவில்லை"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "எல்லாம் தேர்வு"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "கோப்புறைப் பெயரை உள்ளிடவும்"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "குறுக்குவழிகளில் சேர்க்கவும்"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "படிம கோப்புகளாக"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "நிகழ்பட கோப்புகளாக"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "அழைப்பவர் ரிங்டோன்"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "குறுக்குதல்"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "உறை உருவாக்குக"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "தேதி (மிக சமீபத்திய)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "தேதி (பழையது)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "குறுக்குதல் நீக்குக"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "இ.குறுக்குதல் நீக்குக"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "டீஃபால்ட் ரிங்டோன்"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "விரிவான காட்சி"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "திருத்துக"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "பிரித்தெடுக்கவும்"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "நடப்பு கோப்புறைக்கு பிரித்தெடுக்கவும்"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "கோப்புறைக்குச் செல்க"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "கோப்பு நீட்டிப்பை மறைக்கவும்"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "உருப்படிகள்"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "பெயர்"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "பட்டியல் படி"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "இங்கே நகர்த்துக"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "பெயர்"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "கோப்பு இருப்பிடத்தைத் திற"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "தனிப்பட்ட பக்கம்"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "ஒலியை பதிக"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "தொடர்புகளில் பதிக"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "மறுபெயரிடவும்"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "மறுபெயரிடப்பட்டது."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "கோப்புறை மறுபெயரிடுக"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "இங்கே சேமி"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "அருகில். சாதனம். ஸ்கேன் செய்க"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "தேர்வு செய்யப்பட்டது"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "இணைப்பை பகிர்க"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "கோப்பு விரிவாக்கத்தை காட்டுக"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "பிரி"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "இதன்படி வரிசையிடவும்"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "சிறுபடக் காட்சி"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "இதாக காண்க"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "பட்டியல் படி காண்க"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "சிறுபடமாக காண்க"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "சுருக்குக"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 உருப்படி நீக்கப்படும்."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "ஏறுவரிசை"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "நீக்கவா?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "தொடர்க"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "நகல் செய்தல் தோல்வி."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "தோல்வியுற்றதை நீக்கு."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "தேர்வுசெய்த உருப்படியை நீக்கவா?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "இறங்குவரிசை"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM கோப்பு. அனுப்ப இயலவில்லை."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM கோப்பு இல்லை."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "கோப்பின் பெயர் முன்பே பயனில் உள்ளது."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "கோப்புறை பெயர் முன்பே உள்ளது."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "வடிவம்"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "அனுப்புநர்"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "உள்ளீட்டு உரை"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "தவறான கோப்பின் பெயர்."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "லோடிங்..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "அதிகபட்ச கோப்புறையை அடைந்தது."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "நகர்த்தல் தோல்வி."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "பெயர் காலியாக உள்ளது."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "போதுமான ஹீப் நினைவகம் இல்லை."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "போதிய நினைவகம் இல்லை. சில உருப்படிகளை நீக்கி மீண்டும் முயலுக."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "போதுமான நினைவகம் இல்லை. %s கிடைக்கிறது"
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "இங்கே நகல்செய்க"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "அனுமதி மறுக்கப்பட்டது."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "சமீபத்திய கோப்புகள் பட்டியலில் இருந்து அகற்றவா?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "குறுக்குவழிகளில் இருந்து அகற்றவா?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "அகற்றவா?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "அதே கோப்புப் பெயர் முன்பே உள்ளது!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "இதே பெயர் முன்பே பயனிலுள்ளது."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "உருப்படி தேர்வுசெய்க"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "அனுப்புதல் தோல்வி."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "குறுக்குவழி சேர்க்கப்பட்டது."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "இலக்குக் கோப்புறை மூலக் கோப்புறையின் துணைக் கோப்புறையாகும்."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "இலக்குக் கோப்புறையும் மூலக் கோப்புறை போன்றதே."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "சாதனம் துண்டிக்கப்பட்டுள்ளது."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "இந்த கோப்பு கிடைக்கவில்லை."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "நகலெடுக்க இயலாது."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "நகர்த்த முடியவில்லை."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "இந்த செயலை செய்ய இயலவில்லை. நெட்வொர்க் பிழை ஏற்பட்டுள்ளது."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "அழைப்பின்போது இயக்க இயலாது."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM பாதுகாக்கப்பட்ட உள்ளடக்கத்தை ரிங்டோனாக அல்லது அறிவிப்பு விழிப்பூட்டலாக அமைக்க இயலவில்லை."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "அருகிலுள்ள சாதனங்களை தேட நீங்கள் ஒரு Wi-Fi நெட்வொர்க்குடன் இணைக்க வேண்டும். Wi-Fi வழியாக இணைத்து மீண்டும் முயற்சி செய்க."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "பின்"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "நகல்"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "நீக்கு"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "திரு."
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "நகர்த்து"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "தேடல்"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "இதன்படி வரிசை"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "இதாக காண்க"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ரத்து"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "ரத்து"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "விவரங்கள்"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "எல்லாம்"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "வெளியார்ந்த சேமிப்பகம்"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "நினைவட்டை"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "ஃபோன்"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "மேலே"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "குறுக்கப்பட்டது"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "குறுக்குதல் நீக்கப்பட்டது"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "கோப்பினை பதிவிறக்குகிறது..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "கோப்புகள் சுருக்கப்பட்டன"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "கோப்புகள் பிரித்தெடுக்கப்பட்டன"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "கோப்பு இறக்குமதி செய்யப்பட்டது."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "சாதனங்கள் எதுவும் காணப்படவில்லை. ஸ்கேனிங்கானது பின்னணியில் தொடரும்."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "அடைவு"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "இணைப்பு"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "டீஃபால்ட் அறிவிப்பு ஒலி"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "குறுக்குவழி சேர்."
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "உருப்படிகளை அழிக்கவா?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "மறுபெயர்"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "அகற்றுக"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "உருப்படி நீக்குக"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "உருப்படிகளை தேர்வுசெய்க"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "முடிவுகள் காணப்படவில்லை"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "%d உருப்படிகளை நீக்கவா?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "உருப்படியை அழிக்கவா?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 உருப்படி தேர்வுசெய்யப்பட்டது."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "தவறான எழுத்து உள்ளிடப்பட்டது. மீண்டும் முயலுக."
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d உருப்படிகள் தேர்வுசெய்யப்பட்டன."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "அமைதி"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "உருப்படி தேர்வுசெய்க"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "%d உருப்படிகள் வரை நீங்கள் தேர்வுசெய்யலாம்."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "பதிவிறக்கங்கள்"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "நீக்கவா?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "நகர்த்து"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "நகல்"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "நகர்கிறது..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "நகல் செய்கிறது..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "நீக்குகிறது…"
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "செயல்பாடு தோல்வி."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "தேர்வு செய்தது"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "நகர்ந்தது."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "நகலானது."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "இதன்படி வகை பிரி"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "தோல்வியுற்றது."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "முடிந்தது"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD அட்டை"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "சாதன நினைவகம்"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "தனிப்பட்ட சேமிப்பிடத்தில் சேர்க்கவும்"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "உங்கள் தனிப்பட்ட சேமிப்பகத்திலிருந்து அகற்றவும்"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "இந்த உருப்படியை நீக்கவா?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "தனிப்பட்டவையில் இருந்து அகற்றவும்"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "தனிப்பட்டதற்கு நகர்துக"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "அதிகபட்ச எழுத்துக்களின் எண்ணிக்கையை அடைந்தது."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "நீக்கப்படுகிறது..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "தனிப்பட்ட சேமிப்பகம்"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "முறைப்படுத்தல் முடிந்தது."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "பெயர் (Z முதல் A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "பெயர் (A முதல் Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "திரைப் பிடிப்பு"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "முடிவுகள் காணப்படவில்லை."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "தகவல் விழிப்பூட்டல்"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "விவரங்கள்"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "பெயரை உள்ளிடவும்."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "எனது கோப்புகள்"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "சேர்க்கப்பட்டது."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "செயலில்..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "ஆதரிக்கப்படாத கோப்பு வகை."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "அகற்றவா?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "தனிப்பட்ட உள்ளடக்கம்"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "நகல்செய்க"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "இங்கு நகர்த்துக"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "குறுக்குவழியை சேர்ப்பது தோல்வியுற்றது."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "போதுமான நினைவகம் இல்லை. சில உருப்படிகளை நீக்குக."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "நீக்கப்பட்டது."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "தனிப்பட்ட சேமிப்பகம்"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "எதுவும் தேர்வுசெய்யப்படவில்லை."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "பகிர்"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "இதாக காண்க"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "பட்டியல்"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "காண்."
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "இவ்வாறு சேமி"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "அகற்றுவதில் தோல்வி."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "ட்ராப்பாக்ஸ்"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "முதல் மதிப்பீடு"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "கோப்பின் பெயர் முன்பே பயனில் உள்ளது."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "குரல்"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi கிடைக்கவில்லை. மொபைல் நெட்வொர்க்குகளுடன் இணைப்பது உங்கள் பணமளிப்பு திட்டத்திற்கேற்ப கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும்."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "உருக்களின் அதிகபட்ச எண்ணிக்கை (%d) அடையப்பட்டுள்ளது."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "தயாராகிற..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d தேர்வாகியுள்ளன"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "உருப்படிகளை நீக்கவும்"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "பதிவிறக்கங்கள் இல்லை"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "பதிவிறக்கம் முடிந்தது"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "பதிவிறக்க மேலாளர்"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "உருப்படிகளை பதிவிறக்கிய பிறகு அவை இங்கு காட்டப்படும்."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "பதிவிறக்கம் ரத்துசெய்யப்பட்டது"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "பதிவிறக்கம் தோல்வியானது"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "உங்கள் சாதன சேமிப்பிடத்தில் போதுமான இடம் இல்லை. %s அமைவுகளுக்குச் சென்று சிறிதளவு தரவை நீக்குக அல்லது ஒரு SD அட்டை நுழைக்கவும்."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "உங்கள் சாதன சேமிப்பிடத்தில் போதுமான இடம் இல்லை. %s அமைவுகளுக்குச் சென்று சிறிதளவு சேமிப்பிடத்தை காலி செய்துவிட்டு மீண்டும் முயற்சிக்கவும்."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "உங்கள் SD அட்டையில் போதுமான இடமில்லை. %s அமைவுகளுக்குச் சென்று சிறிதளவு தரவை நீக்குக அல்லது சேமிப்பிடத்தை சாதனத்திற்கு மாற்றுக."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "உங்கள் SD அட்டையில் போதுமான இடமில்லை. %s அமைவுகளுக்குச் சென்று சிறிதளவு தரவை நீக்கிவிட்டு பிறகு முயற்சிக்கவும்."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "சேமிப்பகம் செல்க"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "டீஃபால்ட் சேமிப்பகம் நிரம்பியது"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "பழையது"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "சேமிப்பகம்"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "நீக்கப்படுகிறது..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD அட்டை"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "சாதன சேமிப்பகம்"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "வழங்கியிடம் தெரிவிக்கிறது..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "இந்தக் கோப்பைக் கண்டுபிடிக்க இயலாது. அதை மீண்டும் பதிவிறக்கம் செய்ய, பதிவிறக்கவும் என்பதை டேப் செய்யவும்."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "கோப்பைத் திறக்க இயலவில்லை"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "இந்தக் கோப்பைத் திறப்பதற்கான பயன்பாட்டைக் கண்டறிய இயலவில்லை."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "மீண்டும் முயல, பதிவிறக்கவும் என்பதை டேப் செய்யவும்."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 உருப்படி நீக்கப்படும்."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM உள்ளடக்கத்தைச் செயல்படுத்துகிறது..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "இந்தச் செயலை செய்வதற்கு பயன்பாட்டைக் கண்டறிய இயலவில்லை."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "சேமிப்பக இருப்பிடம்"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "இறக்குக"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "ரத்து"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "சரி"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "எல்லாம் தேர்வு"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d தேர்வு"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "பதிவிறக்குக"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "இன்று"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "நேற்று"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "நீக்கவும்"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "இடமாற்றம்"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "எல். உருப்படி. ப.படுத்துக"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "zip கோப்பினை உருவாக்குக"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "zip கோப்பைப் பிரித்தெடுக்கவும்"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "எனது கோப்புகள்"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "வலை"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "பதிவிறக்க வரலாறு"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "வரலாறு இல்லை"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "எளிய முறையில் பகிர்தல்"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "பயன்பாட்டை நிறுவ இயலவில்லை"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "TPK கோப்புகளை மட்டுமே நிறுவலாம். Tizen ஸ்டோரிலிருந்து பதிவிறக்கிய பயன்பாடுகளை மட்டுமே நிறுவுங்கள் என பரிந்துரைக்கிறோம்."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "இங்கிருந்து இந்த உருப்படிகளை நீக்குவது, ட்ராப்பாக்ஸிலிருந்தும் சேர்த்து நீக்கும். %d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "இங்கிருந்து இந்த உருப்படியை நீக்குவது, ட்ராப்பாக்ஸிலிருந்தும் சேர்த்து நீக்கும். 1 உருப்படி நீக்கப்படும்."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "இந்த உருப்படிகளை நகர்த்துவது இவற்றை ட்ராப்பாக்ஸில் இருந்து நீக்கும். %d உருப்படிகள் நகர்த்தப்படும்."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "இந்த உருப்படியை நகர்த்துவது இதை ட்ராப்பாக்ஸில் இருந்து நீக்கும். 1 உருப்படி நகர்த்தப்படும்."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "சேமிப்பக இடத்தை தேர்வு செய்க"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "நிறுத்துக"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "ஏற்றுக"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "கோப்பைப் பதிவேற்றுவது தோல்வியுற்றது"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "பதிவேற்றங்களை நிறுத்தவும்"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "மீண்டும் முயல, பதிவேற்றவும் என்பதை டேப் செய்யவும்."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "பதிவேற்றம் நின்றுவிடும், ஆனால் கோப்பு நீக்கப்படாது."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "சமீபத்தில் பார்த்தது"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "தரவை சேமிக்க இயலவில்லை"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "உங்கள் சாதன சேமிப்பகத்தில் போதுமான இடம் இல்லை. அமைவுகள் > பவர் மற்றும் சேமிப்பகம் > சேமிப்பகம் என்பதற்குச் செல்லவும், பின்னர் சில கோப்புகளை நீக்கிவிட்டு மீண்டும் முயலவும்."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "உங்கள் SD அட்டையில் போதுமான இடம் இல்லை. அமைவுகள் > பவர் மற்றும் சேமிப்பகம் > சேமிப்பகம் என்பதற்குச் செல்லவும், பின்னர் சில கோப்புகளை நீக்கிவிட்டு மீண்டும் முயலவும்."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "இங்கு பதிவேற்றவும்"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "ட்ராப்பாக்ஸ் பதிவேற்றங்கள்"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "தனிப்பட்டது"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "பைட்டுகள்"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "சேர்"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "வீடு"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "அலாரம்"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "மற்றவை"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "மேலும்"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "திறக்கவும்"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "அறியப்படாதப் பிழை."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "கோப்புறைப் பெயரை ‘.’ அல்லது ‘..’ என அமைக்க இயலாது."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "மறை. கோப்புகளை காட்ட வேண்டாம்"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "மறைக்கப்பட்ட கோப்புகள் காட்டுக"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "தெரியாத"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "குறுக்குவழி பெயர் ஏற்கனவே பயன்பாட்டில் உள்ளது."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "அடிப்படை"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "கோப்பு"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "கோப்புகள்"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "உறை"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "உறைகள்"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "சிஸ்டம்"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "பெயர்"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "கேட்பொலி கோப்புகள்"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "ஆவணங்கள்"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "பதிவிறக்கிய பயன்பாடுகள்"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "படிமங்கள்"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "நிகழ்படங்கள்"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "ரத்து"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "ரத்துசெய்க"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "உருவாக்குக"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "நீக்கவும்"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "சரி"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "அகற்றுக"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "மறுபெயரிடவும்"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "நிறுவல் நீக்கு"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "குறுக்குவழி சேர்."
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "கேட். கோப்."
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "நகல்"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "இதற்கு நகல் செய்க"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "கோப்புறை உருவாக்கவும்"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "குறுக்குவழி நீக்குக"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "விவரங்கள்"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "ஆவணங்கள்"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "பதிவிறக்கப்பட்ட பயன்பாடுகள்"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "படிமங்கள்"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "நகர்த்தல்"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "இங்கு நகர்த்துக"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d தேர்வு"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "சமீபத்திய கோப்புகள்"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "அகற்றுக"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "மறுபெயர்"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "கு.வழி"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "இதன்படி வரிசை"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "நிறுவல் நீக்கவும்"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "இங்கு பதிவேற்றவும்"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "நிகழ்படங்கள்"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "இதாக காண்க"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "எல்லாம்"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "ட்ராப்பாக்ஸ்"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "ட்ராப்பாக்ஸ்"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "குறுக்குவழி"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "கொண்டுள்ளது"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "சாதன சேமிப்பகம்"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "ட்ராப்பாக்ஸ்"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "வடிவமைப்பு"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "இடம்"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD அட்டை"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "கோப்பு விரிவாக்கம் காட்டுக"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "மறை. கோப்புகள் காட்டுக"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "அளவு"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "வகை"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "விற்பனையாளர்"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "கோப்புகள் இல்லை"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "ஏறுவரிசை"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "நகல்"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "கோப்புறை உருவாக்கவும்"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "இறங்குவரிசை"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "முழு விவரப் பட்டியல்"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "விவரங்கள்"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "மீண்டும் காட்ட வேண்டாம்"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "கோப்பு வகை"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "பட்டியல்"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "நகர்த்தவும்"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "அகற்றவும்"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "அளவு"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "நேரம்"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "வகை"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "நிறுவல் நீக்கவும்"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 உருப்படி அகற்றப்படும்."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 குறுக்குவழி நீக்கப்படும்."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "நகல் செய்கிறது..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "நகர்கிறது..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d உருப்படிகள் அகற்றப்படும்."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d குறுக்குவழிகள் நீக்கப்படும்."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "நீக்கப்படுகிறது..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ரோமிங்கில் இருக்கையில் மொபைல் தரவைப் பயன்படுத்தினால், உங்கள் கட்டணத் திட்டத்தைப் பொறுத்து கூடுதல் கட்டணங்கள் விதிக்கப்படலாம்."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "கிடைக்கும் பயன்கள்"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "உருவாக்கப்பட்ட தேதி"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "விளக்கம்"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "பகிர்தல்"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "இறுதியாக மாற்றியது"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "தெளிவுதிறன்"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "மொத்த அளவு"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "செல்லுபடிகாலம்"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "இலக்கு கோப்புறையானது மூலக் கோப்புறையின் துணைக் கோப்புறை ஆகும்."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "இலக்குக் கோப்புறையும் மூலக் கோப்புறையும் ஒன்றாக உள்ளன."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "குறுக்குவழியைச் சேர்ப்பது தோல்வியுற்றது."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "உருப்படியை நகல் செய்வது தோல்வியுற்றது."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "உருப்படியை நீக்குவது தோல்வியுற்றது."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "உருப்படியை நகர்த்துவது தோல்வியுற்றது."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "உருப்படியை அகற்றுவது தோல்வியுற்றது."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "கோப்புப் பெயர் ஏற்கனவே பயன்பாட்டிலுள்ளது."
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "குறுக்குவழிகளின் அதிகபட்ச எண்ணிக்கை (%d) அடைந்தது."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "குறுக்குவழி சேர்க்கப்பட்டது."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "குறுக்குவழி ஏற்கனவே உள்ளது."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "புதுப்பி."
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d பயன்பாடுகள் நிறுவல்நீக்கப்படும்."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s நிறுவல் நீக்கப்படும்."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "அளவு"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "பட்டியல் காட்சி"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "கோப்புறை பெயர் முன்பே பயனில் உள்ளது."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "உள் சேமிப்பகம்"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "சாதன சேமிப்பகம்"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "உள்நுழையவில்லை."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "எல்லா கோப்புகளும்"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "க்ளௌட் சேமிப்பகம்"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "வரிசை"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "கு.வழி"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "நேரம்"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "நிறுவல்நீக்குக"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "கொண்டுள்ளது"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "முகம் கண்டறியப்படவில்லை"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "முன்பே உள்ளது."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "நகர்த்த இயலாது. டெஸ்டினேஷன் உறை ஆதார உறை போன்றது தான்."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "உறை உருவாக்குக"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "மேலும்"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "இங்கே நகரத்து"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "இங்கே ஒட்டு"
+
+msgid "IDS_PB_SK_SET"
+msgstr "அமை"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "உங்கள் சாதனத்தில் உள்ள எந்தவொரு பயன்பாட்டிலும் இந்தக் கோப்பு வகை ஆதரிக்கப்படவில்லை."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d கோப்புகள் நீக்கப்படும்."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "அனுப்பப்பட்ட கோப்புகள்"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "முடிந்தது"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ரத்துசெய்க"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "நீக்குக"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "மறுபெயர்"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "உருப். தேர்வு செய்க"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "பதிவேற்றங்கள் எதுவுமில்லை"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "நீங்கள் உருப்படிகளைப் பதிவேற்றிய பிறகு, அவை இங்கே காட்டப்படும்."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "தரவை சேமிக்க இயலவில்லை"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "உங்கள் SD அட்டையில் போதுமான இடம் இல்லை. அமைவுகள் > பவர் மற்றும் சேமிப்பகம் > சேமிப்பகம் என்பதற்குச் செல்லவும், பின்னர் சில கோப்புகளை நீக்கிவிட்டு மீண்டும் முயலவும்."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "உங்கள் சாதன சேமிப்பகத்தில் போதுமான இடம் இல்லை. அமைவுகள் > பவர் மற்றும் சேமிப்பகம் > சேமிப்பகம் என்பதற்குச் செல்லவும், பின்னர் சில கோப்புகளை நீக்கிவிட்டு மீண்டும் முயலவும்."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "பிழை"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "நினைவகம் நிரம்பியது."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "ட்ராப்பாக்ஸில் இருந்து 1 உருப்படி நீக்கப்படும்."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "ட்ராப்பாக்ஸில் இருந்து %d உருப்படிகள் நீக்கப்படும்."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "மொபைல் தரவு ஆஃப் செய்யப்பட்டுள்ளது. Wi-Fi நெட்வொர்க்குடன் இணைத்து அல்லது மொபைல் தரவை ஆன் செய்து மீண்டும் முயலவும்."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "தனிப்பட்ட சேமிப்பகம்"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "பாதை"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "எழுத்துகளின் அதிகபட்ச எண்ணிக்கையை %d அடைந்தது."
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "சேமிப்பகம் தேர்வுசெய்க"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "பதிவிறக்க வரலாறு"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "பதிவிறக்க வரலாறு"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "பதிவிறக்குகிறது..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "பதிவிறக்கங்கள்"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "பதிவிறக்கங்கள் எதுவுமில்லை"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "பதிவிறக்கம் தோல்வியுற்றது"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "காலாவதியாகும் தேதி: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "காலாவதியாகும் தேதி: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "கோப்பைப் பதிவிறக்குதல் தோல்வி"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "கோப்புகளை மீண்டும் பதிவிறக்க முயலவும் அல்லது அதை பதிவிறக்க வரிசையிலிருந்து அகற்றவும்."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "மீண். முயலவும்"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "அகற்றுக"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "வகை"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "கோப்புறைப் பெயர் பயனிலுள்ளது"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "கோப்பு பெயர் பயனில் உள்ளது"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "கோப்புப் பெயர் (%s) ஆனது இலக்கிட கோப்புறையில் ஏற்கனவே பயனில் உள்ளது."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "கோப்புறை பெயர் (%s) ஆனது இலக்கிட கோப்புறையில் ஏற்கனவே பயனில் உள்ளது."
+

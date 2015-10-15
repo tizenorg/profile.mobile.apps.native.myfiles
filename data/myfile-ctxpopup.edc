@@ -1,0 +1,166 @@
+/*
+* Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+
+
+#define MF_EDC_IMAGE_POPUP_DORPDOWN_BG 		"00_popup_dropdown_bg.#.png"
+#define MF_EDC_IMAGE_POPUP_DORPDOWN_BG_LINE 		"00_popup_dropdown_bg_line.#.png"
+#define MF_EDC_IMAGE_POPUP_DORPDOWN_BG_EF 		"00_popup_dropdown_bg_ef.#.png"
+
+#define CTXPOPUP_SHADOW_LEFT_PADDING 14
+#define CTXPOPUP_SHADOW_RIGHT_PADDING 14
+#define CTXPOPUP_CONTENT_PADDING_WIDTH 1
+#define CTXPOPUP_CONTENT_PADDING_HEIGHT 1
+#define CTXPOPUP_CONTENT_PADDING_BOTTOM 1
+#define CTXPOPUP_SHADOW_BOTTOM_PADDING 14
+#define CTXPOPUP_MORE_WIDTH_MIN_INC 442
+
+#define MF_RES_IMG(image_name) image: image_name COMP
+
+
+
+group { name: "elm/ctxpopup/arrow/more_myfiles/default"; }
+
+///////////////////////////////////////////////////////////////////////////////
+group {
+   name: "elm/ctxpopup/base/more_myfiles/default";
+   images {
+      MF_RES_IMG(MF_EDC_IMAGE_POPUP_DORPDOWN_BG);
+      MF_RES_IMG(MF_EDC_IMAGE_POPUP_DORPDOWN_BG_LINE);
+      MF_RES_IMG(MF_EDC_IMAGE_POPUP_DORPDOWN_BG_EF);
+   }
+   parts {
+      part {
+         name:"frame_shadow_left_top_padding";
+         type:SPACER;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: CTXPOPUP_SHADOW_LEFT_PADDING 0;
+            max: CTXPOPUP_SHADOW_LEFT_PADDING 0;
+            rel2 { relative: 0 0; }
+            align: 0 0;
+            fixed: 1 1;
+         }
+      }
+      part {
+         name:"frame_shadow_right_bottom_padding";
+         type:SPACER;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: CTXPOPUP_SHADOW_RIGHT_PADDING CTXPOPUP_SHADOW_BOTTOM_PADDING;
+            max: CTXPOPUP_SHADOW_RIGHT_PADDING CTXPOPUP_SHADOW_BOTTOM_PADDING;
+            rel1{relative: 1 1;}
+            align: 1 1;
+            fixed: 1 1;
+         }
+      }
+      part {
+         name: "frame_bg";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         description {
+            state: "default" 0.0;
+            rel1 {to:"frame_shadow_left_top_padding";}
+            rel2 {to:"frame_shadow_right_bottom_padding";}
+            min: CTXPOPUP_MORE_WIDTH_MIN_INC 0;
+            image {
+               normal: MF_EDC_IMAGE_POPUP_DORPDOWN_BG;
+            }
+            color: 255 255 255 255;
+         }
+      }
+      part {
+         name: "frame_bg_line";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         description {
+            state: "default" 0.0;
+            rel1 {to:"frame_bg";}
+            rel2 {to:"frame_bg";}
+            image {
+               normal: MF_EDC_IMAGE_POPUP_DORPDOWN_BG_LINE;
+            }
+            color: 41 187 255 255;
+         }
+      }
+      part {
+         name: "frame_bg_ef";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         description {
+            state: "default" 0.0;
+            rel1.to: "frame_bg";
+            rel2.to: "frame_bg";
+            image.normal: MF_EDC_IMAGE_POPUP_DORPDOWN_BG_EF;
+         }
+      }
+      part {
+         name: "access.outline";
+         type: RECT;
+         scale: 1;
+         description { state: "default" 0.0;
+            fixed: 1 1;
+            rel1.to: "frame_bg";
+            rel2.to: "frame_bg";
+            color: 0 0 0 0;
+         }
+      }
+      part {
+         name:"content_left_top_padding";
+         type: SPACER;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: CTXPOPUP_CONTENT_PADDING_WIDTH CTXPOPUP_CONTENT_PADDING_HEIGHT;
+            max: CTXPOPUP_CONTENT_PADDING_WIDTH CTXPOPUP_CONTENT_PADDING_HEIGHT;
+            rel1 {to:"frame_shadow_left_top_padding";  relative: 1.0 1.0;}
+            align: 0 0;
+            fixed: 1 1;
+         }
+      }
+      part {
+         name:"content_right_bottom_padding";
+         type: SPACER;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: CTXPOPUP_CONTENT_PADDING_WIDTH CTXPOPUP_CONTENT_PADDING_BOTTOM;
+            max: CTXPOPUP_CONTENT_PADDING_WIDTH CTXPOPUP_CONTENT_PADDING_BOTTOM;
+            rel2 {to:"frame_shadow_right_bottom_padding";  relative: 0.0 0.0;}
+            align: 1 1;
+            fixed: 1 1;
+         }
+      }
+      part {
+         name: "elm.swallow.content";
+         type: SWALLOW;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            align: 0 0;
+            rel1 {to:"content_left_top_padding";  relative: 1.0 1.0;}
+            rel2 {to:"content_right_bottom_padding";  relative: 0.0 0.0;}
+         }
+      }
+   }
+}
+

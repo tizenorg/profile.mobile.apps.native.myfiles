@@ -1,0 +1,1079 @@
+/*
+* Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+
+#define GENGRID_DEFAULT_LEFT_TOP_PADDING_INC 2 2
+#define GENGRID_DEFAULT_RIGHT_BOTTOM_PADDING_INC 2 2
+#define GENGRID_DEFAULT_ITEM_BG_LEFT_TOP_PADDING_INC 1 1
+#define GENGRID_DEFAULT_ITEM_BG_RIGHT_BOTTOM_PADDING_INC 1 1
+#define GENGRID_DEFAULT_ITEM_REAL_BG_RIGHT_PADDING_INC 0 0
+#define GENGRID_DEFAULT_LEFT_TOP_FOCUS_PADDING_INC 2 2
+#define GENGRID_DEFAULT_RIGHT_BOTTOM_FOCUS_PADDING_INC 2 2
+
+#define GENGRID_GRID_TEXT2_LEFT_TOP_PADDING_INC 6 6
+#define GENGRID_GRID_TEXT2_RIGHT_BOTTOM_PADDING_INC 6 6
+#define GENGRID_GRID_TEXT2_ITEM_BG_LEFT_TOP_PADDING_INC 1 1
+#define GENGRID_GRID_TEXT2_ITEM_BG_RIGHT_BOTTOM_PADDING_INC 1 1
+#define GENGRID_GRID_TEXT2_ITEM_REAL_BG_RIGHT_PADDING_INC 0 0
+#define GENGRID_GRID_TEXT2_TEXT_LEFT_RIGHT_PADDING_INC 6 0
+#define GENGRID_GRID_TEXT2_LEFT_TOP_FOCUS_PADDING_INC 2 2
+#define GENGRID_GRID_TEXT2_RIGHT_BOTTOM_FOCUS_PADDING_INC 2 2
+#define GENGRID_PART_TEXTBLOCK_STYLE_COLOR_INC "#FAFAFAFF"
+#define GENGRID_EDIT_MODE_CHECK_SIZE_INC 63 63
+#define GENGRID_GRID_TEXT_SHADOW_COLOR_INC "#08080899"
+
+
+#define GENGRID_PART_BACKGROUND_COLOR_INC 0 0 0 0
+
+#define FOCUS_BORDER		8 8 8 8
+
+
+
+#define GENGRID_ITEM_SELECT_VI_EFFECT \
+} \
+description { state: "pressed" 0.0; \
+   inherit: "default" 0.0; \
+   map { \
+      on: 1; \
+      perspective: "persp1"; \
+      smooth: 0; \
+   } \
+} \
+description { state: "selected" 0.0; \
+   inherit: "default" 0.0; \
+   map { \
+      on: 1; \
+      perspective: "persp"; \
+      smooth: 1; \
+   }
+
+#define GENGRID_PROGRAM_ITEM_SELECT_VI_EFFECT( TARGET ) \
+      program { name: "vi_pressed"; \
+	 action: STATE_SET "pressed" 0.0; \
+	 TARGET \
+	 after: "vi_zoom_in"; \
+      } \
+      program { name: "vi_zoom_in"; \
+	 action: STATE_SET "selected" 0.0; \
+	 TARGET \
+	 transition: SIN_FAC 0.167 1.1; \
+      } \
+      program { name: "vi_zoom_out"; \
+	 action: STATE_SET "pressed" 0.0; \
+	 TARGET \
+	 transition: SIN_FAC 0.167 1.1; \
+	 after: "vi_default"; \
+      } \
+	program { name: "vi_default"; \
+		action: STATE_SET "default" 0.0; \
+		TARGET \
+	}
+
+
+#define GENGRID_PROGRAM_DEFAULT( TARGET ) \
+   program { name: "default"; \
+      signal: "elm,state,default"; \
+      source: "elm"; \
+      action: STATE_SET "default" 0.0; \
+      target: "focus_bg"; \
+      TARGET \
+   }
+
+#define GENGRID_PART_CHECK(PART) \
+      part { name: "check_top_left_padding"; \
+	 type: RECT; \
+	 mouse_events: 0; \
+	 scale: 1; \
+	 description { state: "default" 0.0; \
+	    visible: 0; \
+	    min: 2 2; \
+	    align: 0.0 0.0; \
+	    fixed: 1 1; \
+	    rel1 { \
+	       relative: 0.0 0.0; \
+	       to: PART; \
+	    } \
+	    rel2 { \
+	       relative: 0.0 0.0; \
+	       to: PART; \
+	    } \
+	 } \
+      } \
+      part { name: "check_bg_clip"; \
+	 type: RECT; \
+	 mouse_events: 0; \
+	 description { state: "default" 0.0; \
+	    visible: 0; \
+	 } \
+	 description { state: "visible" 0.0; \
+	    visible: 1; \
+	 } \
+      } \
+      part { name: "elm.check.bg"; \
+	 type: IMAGE; \
+	 mouse_events: 0; \
+	 scale: 1; \
+	 clip_to: "check_bg_clip"; \
+	 description { state: "default" 0.0; \
+	    min: 63 63; \
+	    align: 0.0 0.0; \
+	    fixed: 1 1; \
+	    rel1 { \
+	       relative: 1.0 1.0; \
+	       to: "check_top_left_padding"; \
+	    } \
+	    rel2 { \
+	       relative: 1.0 1.0; \
+	       to: "check_top_left_padding"; \
+	    } \
+		image.normal: "00_check_bg.png";\
+		color: 16 72 97 255;\
+	    fill.smooth : 0; \
+	 } \
+	 description { state: "pressed" 0.0; \
+	    inherit: "default" 0.0; \
+	    map { \
+	       on: 1; \
+	       perspective: "persp1"; \
+	       smooth: 0; \
+	    } \
+	color: 176 187 212 128;\
+	 } \
+	 description { state: "selected" 0.0; \
+	    inherit: "default" 0.0; \
+		color: 176 187 212 128;\
+	    map { \
+	       on: 1; \
+	       perspective: "persp"; \
+	       smooth: 0; \
+	    } \
+	 } \
+	 description { state: "disabled" 0.0; \
+	    inherit: "default" 0.0; \
+	    color: 16 72 97 77;\
+	 } \
+      } \
+	part { name: "bg2_effect";\
+	   mouse_events: 0;\
+	   scale: 1;\
+	   description { state: "default" 0.0;\
+	      visible: 0; \
+	      min: GENGRID_EDIT_MODE_CHECK_SIZE_INC;\
+	      align: 0.0 0.0;\
+	      fixed: 1 1;\
+	      rel1 {\
+		 relative: 1.0 1.0;\
+		 to: "check_top_left_padding";\
+	      }\
+	      rel2 {\
+		 relative: 1.0 1.0;\
+		 to: "check_top_left_padding";\
+	      }\
+	      image.normal: "00_check_bg_ef.png";\
+	   }\
+	description { state: "visible" 0.0;\
+	   inherit: "default" 0.0;\
+	   visible: 1; \
+	}\
+	   description { state: "pressed" 0.0;\
+	      inherit: "visible" 0.0;\
+		map { \
+		   on: 1; \
+		   perspective: "persp1"; \
+		   smooth: 0; \
+		} \
+	   }\
+	description { state: "selected" 0.0; \
+	   inherit: "visible" 0.0; \
+	   map { \
+	      on: 1; \
+	      perspective: "persp"; \
+	      smooth: 0; \
+	   } \
+	} \
+	   description { state: "disabled" 0.0;\
+	      inherit: "default" 0.0;\
+	      visible: 0;\
+	   }\
+	}\
+	part { name: "bg2_line";\
+	   mouse_events: 0;\
+	   scale: 1;\
+	   description { state: "default" 0.0;\
+		visible: 0; \
+	      min: GENGRID_EDIT_MODE_CHECK_SIZE_INC;\
+	      align: 0.0 0.0;\
+	      fixed: 1 1;\
+	      rel1 {\
+		 relative: 1.0 1.0;\
+		 to: "check_top_left_padding";\
+	      }\
+	      rel2 {\
+		 relative: 1.0 1.0;\
+		 to: "check_top_left_padding";\
+	      }\
+	      image.normal: "00_check_bg_line.png";\
+	      color: 255 255 255 77;\
+	   }\
+	   description { state: "visible" 0.0;\
+	      inherit: "default" 0.0;\
+	      visible: 1; \
+	   }\
+	   description { state: "pressed" 0.0;\
+	      inherit: "visible" 0.0;\
+		map { \
+		   on: 1; \
+		   perspective: "persp1"; \
+		   smooth: 0; \
+		} \
+	   }\
+	description { state: "selected" 0.0; \
+	   inherit: "visible" 0.0; \
+	   map { \
+	      on: 1; \
+	      perspective: "persp"; \
+	      smooth: 0; \
+	   } \
+	} \
+	   description { state: "disabled" 0.0;\
+	      inherit: "visible" 0.0;\
+	      color: 255 255 255 38;\
+	   }\
+	}\
+      part { name: "check_clip"; \
+	 type: RECT; \
+	 mouse_events: 0; \
+	 description { state: "default" 0.0; \
+	    visible: 0; \
+	    rel1.to: "elm.check.bg"; \
+	    rel2.to: "elm.check.bg"; \
+	    rel2.relative: 0.0 1.0; \
+	    color: 255 255 255 255; \
+	 } \
+	 description { state: "visible" 0.0; \
+	    inherit: "default" 0.0; \
+	    visible: 1; \
+	 } \
+	 description { state: "checked" 0.0; \
+	    inherit: "visible" 0.0; \
+	    rel2.relative: 1.0 1.0; \
+	 } \
+      } \
+      part { name: "elm.check"; \
+	 mouse_events: 0; \
+	 scale: 1; \
+	 clip_to: "check_clip"; \
+	 description { state: "default" 0.0; \
+	    rel1.to: "elm.check.bg"; \
+	    rel2.to: "elm.check.bg"; \
+	image.normal: "00_check_activate.png";\
+	color: 25 181 7 255;\
+	 } \
+	 description { state: "pressed" 0.0; \
+	    inherit: "default" 0.0; \
+	    map { \
+	       on: 1; \
+	       perspective: "persp1"; \
+	       smooth: 0; \
+	    } \
+	color: 25 181 7 255;\
+	 } \
+	 description { state: "selected" 0.0; \
+	    inherit: "default" 0.0; \
+	color: 25 181 7 255;\
+	    map { \
+	       on: 1; \
+	       perspective: "persp"; \
+	       smooth: 0; \
+	    } \
+	 } \
+	 description { state: "disabled" 0.0; \
+	    inherit: "default" 0.0; \
+	color: 153 153 153 255;\
+	 } \
+      }
+
+
+#define GENGRID_PROGRAM_CHECK \
+      program { name: "check_show"; \
+	 signal: "check,state,show"; \
+	 source: ""; \
+	 script { \
+	    set_int(check_mode, 1); \
+	    set_state(PART:"check_bg_clip", "visible", 0.0); \
+	    set_state(PART:"bg2_effect", "visible", 0.0); \
+	    set_state(PART:"bg2_line", "visible", 0.0); \
+	 } \
+      } \
+      program { name: "check_hide"; \
+	 signal: "check,state,hide"; \
+	 source: ""; \
+	 script { \
+	    set_int(check_mode, 0); \
+	    set_state(PART:"check_bg_clip", "default", 0.0); \
+	set_state(PART:"bg2_effect", "default", 0.0); \
+	set_state(PART:"bg2_line", "default", 0.0); \
+	 } \
+      } \
+      program { name: "check_on_no_effect"; \
+	 signal: "check,state,on,no_effect"; \
+	 source: ""; \
+	 script { \
+	    if (get_int(check_mode)) { \
+	       set_state(PART:"check_clip", "checked", 0.0); \
+	    } \
+	 } \
+      } \
+      program { name: "check_off"; \
+	 signal: "check,state,off"; \
+	 source: ""; \
+	 action: STATE_SET "default" 0.0; \
+	 target: "check_clip"; \
+      } \
+      program { name: "check_on"; \
+	 signal: "check,state,on"; \
+	 source: ""; \
+	 script { \
+	    if (get_int(check_mode)) { \
+	       set_state(PART:"check_clip", "visible", 0.0); \
+	       run_program(PROGRAM:"check_on_transit"); \
+	    } \
+	 } \
+      } \
+      program { name: "check_on_transit"; \
+	 action: STATE_SET "checked" 0.0; \
+	 transition: LINEAR 0.267; \
+	 target: "check_clip"; \
+      } \
+      program { name: "check_disabled"; \
+	 signal: "check,state,disabled"; \
+	 source: ""; \
+	 action: STATE_SET "disabled" 0.0; \
+	 target: "elm.check.bg"; \
+	 target: "elm.check"; \
+	 target: "bg2_effect";\
+	 target: "bg2_line";\
+      }\
+    program { name: "check_vi_pressed"; \
+       action: STATE_SET "pressed" 0.0; \
+	target: "bg2_line"; \
+       after: "check_zoom_in"; \
+    } \
+    program { name: "check_vi_zoom_in"; \
+       action: STATE_SET "selected" 0.0; \
+		    target: "bg2_line"; \
+       transition: SIN_FAC 0.167 1.1; \
+    } \
+    program { name: "check_vi_zoom_out"; \
+       action: STATE_SET "pressed" 0.0; \
+		    target: "bg2_line"; \
+       transition: SIN_FAC 0.167 1.1; \
+       after: "check_default"; \
+    } \
+    program { name: "check_pressed"; \
+	    script { \
+	       if (get_int(check_mode)) { \
+		  run_program(PROGRAM:"check_vi_pressed"); \
+	       } \
+	    } \
+    } \
+    program { name: "check_zoom_in"; \
+	       script { \
+		  if (get_int(check_mode)) { \
+		     run_program(PROGRAM:"check_vi_zoom_in"); \
+		  } \
+	       } \
+    } \
+    program { name: "check_zoom_out"; \
+		  script { \
+		     if (get_int(check_mode)) { \
+			run_program(PROGRAM:"check_vi_zoom_out"); \
+		     } \
+		  } \
+    } \
+      program { name: "check_default"; \
+	    action: STATE_SET "visible" 0.0; \
+	    target: "bg2_line";\
+      }
+
+
+#define GENGRID_IMG_MMC_ICON  		    "my_files_sd_card.png"
+#define GENGRID_IMG_VIDEO_PLAY_ICON  	"myfile_icon_video_play.png"
+#define GENGRID_IMG_FOCUS  			    "00_focus_01.#.png"
+#define GENGRID_FONT_STYLE_INC          "26"
+
+styles {	
+      style { name: "gengrid_textblock_style";
+	    base: "font=Tizen:style=Bold style=far_shadow,bottom shadow_color="GENGRID_GRID_TEXT_SHADOW_COLOR_INC" font_size="GENGRID_FONT_STYLE_INC" color=#FFFFFF align=center wrap=mixed ellipsis=1.0 text_class=T060E";
+	    tag: "br" "\n";
+	    tag: "ps" "ps";
+	    tag: "tab" "\t";
+	    tag: "b" "+ font_weight=Bold";
+	}
+}
+
+
+images {
+	image: GENGRID_IMG_MMC_ICON COMP;
+	image: GENGRID_IMG_VIDEO_PLAY_ICON COMP;
+	image: GENGRID_IMG_FOCUS COMP;
+	image: "00_check_activate.png" COMP;
+	image: "00_check_bg.png" COMP;
+	image: "00_check_bg_ef.png" COMP;
+	image: "00_check_focus.png" COMP;
+	image: "00_check_bg_line.png" COMP;
+}
+
+collections{
+	plugins {
+	      plugin {
+		 name: "touch_sound";  // Name run by RUN_PLUGIN
+		 source: "feedback";	 // External edje plugin name
+		 param: "1 0";
+
+	      }
+	}
+
+	group { name: "elm/gengrid/item/custom/default/default";
+	   data.item: "contents" "elm.swallow.icon elm.swallow.end elm.swallow.video";
+	   data.item: "focus_highlight" "on";
+	   script {
+	      public selected = 0;
+	      public check_mode = 0;
+	   }
+	   parts {
+	      part { name: "select_clip";
+		 type: RECT;
+		 description { state: "default" 0.0;
+		    visible: 0;
+		 }
+		 description { state: "selected" 0.0;
+		    visible: 0;
+		 }
+	      }
+	      part { name: "persp";
+		 type: RECT;
+		 description { state: "default" 0.0;
+		    min: 32 32;
+		    max: 32 32;
+		    fixed: 1 1;
+		    align: 0.5 0.5;
+		    color: 0 0 0 0;
+		    visible: 1;
+		    perspective {
+		       zplane: -70;
+		       focal: 1000;
+		    }
+		 }
+	      }
+	      part { name: "persp1";
+		 type: RECT;
+		 description { state: "default" 0.0;
+		    min: 32 32;
+		    max: 32 32;
+		    fixed: 1 1;
+		    align: 0.5 0.5;
+		    color: 0 0 0 0;
+		    visible: 1;
+		    perspective {
+		       zplane: 0;
+		       focal: 1000;
+		    }
+		 }
+	      }
+	      part { name: "bg";
+		 type: RECT;
+		 description { state: "default" 0.0;
+		    color: GENGRID_PART_BACKGROUND_COLOR_INC;
+		 }
+	      }
+	      part { name: "left_top_padding";
+		 type: SPACER;
+		 scale : 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_LEFT_TOP_PADDING_INC;
+		    align: 0.0 0.0;
+		    fixed: 1 1;
+		    rel1.to: "bg";
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "bg";
+		    }
+		 }
+	      }
+	      part { name: "right_bottom_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_RIGHT_BOTTOM_PADDING_INC;
+		    align: 1.0 1.0;
+		    fixed: 1 1;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "bg";
+		    }
+		    rel2.to: "bg";
+		 }
+	      }
+	      part { name: "item_bg";
+		 type: SWALLOW;
+		 description { state: "default" 0.0;
+		    visible: 0;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "left_top_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "right_bottom_padding";
+		    }
+		    //color_class: "W154"; [ToDo] obselete
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "item_bg_left_top_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_ITEM_BG_LEFT_TOP_PADDING_INC;
+		    align: 0.0 0.0;
+		    fixed: 1 1;
+		    rel1.to: "item_bg";
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "item_bg";
+		    }
+		 }
+	      }
+	      part { name: "item_bg_right_bottom_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_ITEM_BG_RIGHT_BOTTOM_PADDING_INC;
+		    align: 1.0 1.0;
+		    fixed: 1 1;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "item_bg";
+		    }
+		    rel2.to: "item_bg";
+		 }
+	      }
+	      part { name: "item_real_bg";
+		 type: RECT;
+		 description { state: "default" 0.0;
+		    visible: 0;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "item_bg_left_top_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "item_bg_right_bottom_padding";
+		    }
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "item_real_bg_left_top_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_ITEM_REAL_BG_RIGHT_PADDING_INC;
+		    align: 0.0 0.0;
+		    fixed: 1 1;
+		    rel1.to: "item_real_bg";
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "item_real_bg";
+		    }
+		 }
+	      }
+	      part { name: "item_real_bg_right_bottom_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_DEFAULT_ITEM_REAL_BG_RIGHT_PADDING_INC;
+		    align: 1.0 1.0;
+		    fixed: 1 1;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "item_real_bg";
+		    }
+		    rel2.to: "item_real_bg";
+		 }
+	      }
+	      part { name: "elm.swallow.icon";
+		 type: SWALLOW;
+		 description { state: "default" 0.0;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to: "item_real_bg_left_top_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "item_real_bg_right_bottom_padding";
+		    }
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "video_text_bg";
+		 type: SPACER;
+		 description { state: "default" 0.0;
+		    rel1 {
+		       relative: 0.0 1.0;
+		       to: "item_real_bg";
+		    }
+		    rel2 {
+		       relative: 1.0 1.0;
+		       to: "item_real_bg";
+		    }
+		 }
+	      }
+	      part { name: "elm.video_text.padding.left";
+		 scale: 1;
+		 type: SPACER;
+		 description { state: "default" 0.0;
+		    rel1 {
+		       relative: 0 0;
+		       to: "video_text_bg";
+		    }
+		    rel2 {
+		       relative: 0 1;
+		       to: "video_text_bg";
+		    }
+		 }
+	      }
+	      part { name: "elm.swallow.video";
+		 type: SWALLOW;
+		 description { state: "default" 0.0;
+		    rel1.to: "elm.swallow.icon";
+		    rel2.to: "elm.swallow.icon";
+		 }
+	      }
+	      part { name: "elm.swallow.end";
+		 type: SWALLOW;
+		 description { state: "default" 0.0;
+		    rel1.to: "elm.swallow.icon";
+		    rel2.to: "elm.swallow.icon";
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "reorder_bg";
+		 type: RECT;
+		 repeat_events: 1;
+		 mouse_events: 0;
+		 description { state: "default" 0.0;
+		    rel1.to: "item_bg";
+		    rel2.to: "item_bg";
+		    color: 0 0 0 0;
+		 }
+	      }
+	      part { name: "focus_bg";
+		 type: IMAGE;
+		 mouse_events: 0;
+		 description { state: "default" 0.0;
+		    visible: 0;
+		    rel1 {
+		       relative: 0.0 0.0;
+		       to: "elm.swallow.icon";
+		    }
+		    rel2 {
+		       relative: 1.0 1.0;
+		       to: "elm.swallow.icon";
+		    }
+		    image.normal: GENGRID_IMG_FOCUS;
+		    //color_class: "W061"; [ToDo] obselete
+		 }
+		 description { state: "enabled" 0.0;
+		    inherit: "default" 0.0;
+		    visible: 1;
+		 }
+	      }
+	   }
+	   programs {
+		   program { name: "selected";
+		      signal: "elm,state,selected";
+		      source: "elm";
+		      script {
+			 if (!get_int(selected)) {
+			    set_int(selected, 1);
+			    run_program(PROGRAM:"vi_pressed");
+			 }
+		      }
+		   }
+		   program { name: "unselected";
+		      signal: "elm,state,unselected";
+		      source: "elm";
+		      script {
+			 if (get_int(selected)) {
+			    set_int(selected, 0);
+			    run_program(PROGRAM:"vi_zoom_out");
+			 }
+		      }
+		   }
+		   GENGRID_PROGRAM_ITEM_SELECT_VI_EFFECT(
+		      target: "item_bg";
+		      target: "item_real_bg";
+		      target: "elm.swallow.icon";
+		      target: "elm.swallow.end";
+		   )
+	      program { name: "touch_snd";
+		 signal: "mouse,clicked,1";
+		 source: "elm.swallow.icon";
+		 action: RUN_PLUGIN "touch_sound";
+	      }
+	      program { name: "action_focus";
+		 signal: "elm,action,focus_highlight,show";
+		 source: "elm";
+		 action: STATE_SET "enabled" 0.0;
+		 target: "focus_bg";
+	      }
+	      program { name: "action_unfocus";
+		 signal: "elm,action,focus_highlight,hide";
+		 source: "elm";
+		 action: STATE_SET "default" 0.0;
+		 target: "focus_bg";
+	      }
+	   }
+	}
+
+	group { name: "elm/gengrid/item/custom/myfile/default";
+	   inherit: "elm/gengrid/item/custom/default/default";
+	   data.item: "texts" "elm.text";
+	   data.item: "contents" "elm.swallow.icon elm.swallow.inner_icon elm.swallow.end";
+
+	   parts {
+	      part { name: "left_top_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_LEFT_TOP_PADDING_INC;
+		 }
+	      }
+	      part { name: "right_bottom_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_RIGHT_BOTTOM_PADDING_INC;
+		 }
+	      }
+	      part { name: "item_bg";
+		 description { state: "default" 0.0;
+		    visible: 1;
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "item_bg_left_top_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_ITEM_BG_LEFT_TOP_PADDING_INC;
+		 }
+	      }
+	      part { name: "item_bg_right_bottom_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_ITEM_BG_RIGHT_BOTTOM_PADDING_INC;
+		 }
+	      }
+	      part { name: "item_real_bg_left_top_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_ITEM_REAL_BG_RIGHT_PADDING_INC;
+		 }
+	      }
+	      part { name: "item_real_bg_right_bottom_padding";
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_ITEM_REAL_BG_RIGHT_PADDING_INC;
+		 }
+	      }
+	      part { name: "text_left_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_TEXT_LEFT_RIGHT_PADDING_INC;
+		    align: 0.0 0.5;
+		    rel1 {
+		       relative: 0.0 0.0;
+		       to: "item_bg";
+		    }
+		    rel2 {
+		       relative: 0.0 1.0;
+		       to: "item_bg";
+		    }
+		 }
+	      }
+	      part { name: "text_right_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: GENGRID_GRID_TEXT2_TEXT_LEFT_RIGHT_PADDING_INC;
+		    align: 1.0 0.5;
+		    rel1 {
+		       relative: 1.0 0.0;
+		       to: "item_bg";
+		    }
+		    rel2 {
+		       relative: 1.0 1.0;
+		       to: "item_bg";
+		    }
+		 }
+	      }
+	      part { name: "text_bottom_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 10;
+		    align: 0.5 1.0;
+		    rel1 {
+		       relative: 0.0 1.0;
+		       to: "item_bg";
+		    }
+		    rel2 {
+		       relative: 1.0 1.0;
+		       to: "item_bg";
+		    }
+		 }
+	      }
+	      part
+	      {
+		      name:"file_icon_clipper";
+		      type:RECT;
+		      scale: 1;
+		      mouse_events: 1;
+		      description
+		      {
+			      state: "default" 0.0;
+			      rel1 {
+				 relative: 1.0 1.0;
+				 to: "item_real_bg_left_top_padding";
+			      }
+			      rel2 {
+				 relative: 0.0 0.0;
+				 to: "item_real_bg_right_bottom_padding";
+			      }
+		      }
+	      }
+
+	      part { name: "elm.swallow.icon";
+		 type: SWALLOW;
+		 clip_to: "file_icon_clipper";
+		 repeat_events: 1;
+		 description { state: "default" 0.0;
+			 rel1 { relative: 0.0 0.0; to:"file_icon_clipper";}
+			 rel2 { relative: 1.0 1.0; to:"file_icon_clipper";}
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part { name: "elm.swallow.inner_icon";
+		 type: SWALLOW;
+		 repeat_events: 1;
+		 clip_to: "file_icon_clipper";
+		 description
+		 {
+			 //state: "inner" 0.0;
+			 state: "default" 0.0;
+			 min: 81 81;
+			 max: 81 81;
+			 align: 0.5 0.5;
+			 rel1 {
+			    relative: 1.0 1.0;
+			    to: "file_icon_clipper";
+			 }
+			 rel2 {
+			    relative: 0.0 0.0;
+			    to: "file_icon_clipper";
+			 }
+			 GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+
+	      GENGRID_PART_CHECK("item_bg");
+	      part
+	      {
+		      name:"mmc_icon";
+		      type:IMAGE;
+		      scale: 1;
+		      description {
+			      state: "default" 0.0;
+			      visible: 0;
+			      min: 0 0;
+			      rel1 { relative: 0.0 0.0; }
+			      rel2 { relative: 0.0 0.0; }
+		      }
+
+		      description {
+			      state: "show" 0.0;
+			      inherit: "default" 0.0;
+			      min:45 45;
+			      fixed:1 1;
+			      visible: 1;
+			      rel1 { relative: (129/176) (3/176); to:"item_bg";}
+			      rel2 { relative: (174/176) (48/176); to:"item_bg";}
+			      image.normal: GENGRID_IMG_MMC_ICON;
+		      }
+	      }
+	      part
+	      {
+		      name:"video_play";
+		      type:IMAGE;
+		      scale: 1;
+		      description {
+			      state: "default" 0.0;
+			      visible: 0;
+			      min: 0 0;
+			      rel1 { relative: 0.0 0.0; }
+			      rel2 { relative: 0.0 0.0; }
+		      }
+		      description
+		      {
+			      state: "show" 0.0;
+			      inherit: "default" 0.0;
+			      visible: 1;
+			      min: 108 108;
+			      max: 108 108;
+			      align: 0.5 0.5;
+			      rel1 { relative: 0.0 0.0; to:"item_bg";}
+			      rel2 { relative: 1.0 1.0; to:"item_bg";}
+			      image.normal: GENGRID_IMG_VIDEO_PLAY_ICON;
+		      }
+	      }
+	      part { name: "elm.text";
+		 type: TEXTBLOCK;
+		 mouse_events: 0;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 26;
+		    align: 0.5 1.0;
+		    rel1 {
+		       relative: 1.0 0.0;
+		       to_x: "text_left_padding";
+		       to_y: "text_bottom_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to_x: "text_right_padding";
+		       to_y: "text_bottom_padding";
+		    }
+		    text {
+		       style: "gengrid_textblock_style";
+		       min: 0 1;
+		       align: 0.5 1.0;
+		    }
+		    GENGRID_ITEM_SELECT_VI_EFFECT
+		 }
+	      }
+	      part
+	      {
+		      name:"snd_bg";
+		      type:RECT;
+		      scale: 1;
+		      mouse_events: 1;
+		      description {
+			      state: "default" 0.0;
+			      visible: 1;
+			      rel1 { relative: 0.0 0.0; to:"item_bg";}
+			      rel2 { relative: 1.0 1.0; to:"item_bg";}
+			      color: 0 0 0 0;
+		      }
+	      }
+	   }
+	   programs {
+		   program { name: "selected";
+		      signal: "elm,state,selected";
+		      source: "elm";
+		      script {
+			 if (!get_int(selected)) {
+			    set_int(selected, 1);
+			    run_program(PROGRAM:"vi_pressed");
+			    run_program(PROGRAM:"check_pressed");
+			 }
+		      }
+		   }
+		   program { name: "unselected";
+		      signal: "elm,state,unselected";
+		      source: "elm";
+		      script {
+			 if (get_int(selected)) {
+			    set_int(selected, 0);
+			    run_program(PROGRAM:"vi_zoom_out");
+			    run_program(PROGRAM:"check_zoom_out");
+			 }
+		      }
+		   }
+		   GENGRID_PROGRAM_ITEM_SELECT_VI_EFFECT(
+		      target: "item_bg";
+		      target: "item_real_bg";
+		      target: "elm.swallow.icon";
+		      target: "elm.swallow.inner_icon";
+		      target: "elm.swallow.end";
+		      target: "elm.check";
+		      target: "elm.check.bg";
+		      target: "bg2_effect";
+		      target: "elm.text";
+		   )
+		GENGRID_PROGRAM_DEFAULT(
+		 target: "item_bg";
+		 target: "item_real_bg";
+		 target: "elm.swallow.icon";
+		 target: "elm.swallow.inner_icon";
+		 target: "elm.swallow.end";
+		 target: "elm.check";
+		 target: "elm.check.bg";
+		 target: "check_bg_clip";
+		 target: "bg2_line";
+		 target: "bg2_effect";
+		 target: "check_clip";
+	      )
+	      program { name: "touch_snd1";
+
+		    signal: "mouse,clicked,1";
+		    source: "snd_bg";
+		    action: RUN_PLUGIN "touch_sound";
+	      }
+	      program {
+		      name:"disable_mmc";
+		      signal: "elm.mmc.hide";
+		      source: "elm";
+		      action: STATE_SET "default" 0.0;
+		      target: "mmc_icon";
+	      }
+	      program {
+		      name:"enable_mmc";
+		      signal: "elm.mmc.show";
+		      source: "elm";
+		      action: STATE_SET "show" 0.0;
+		      target: "mmc_icon";
+	      }
+	      program {
+		      name:"disable_video_icon";
+		      signal: "elm.video.hide";
+		      source: "elm";
+		      action: STATE_SET "default" 0.0;
+		      target: "video_play";
+	      }
+	      program {
+		      name:"enable_video_icon";
+		      signal: "elm.video.show";
+		      source: "elm";
+		      action: STATE_SET "show" 0.0;
+		      target: "video_play";
+	      }
+	      program {
+		      name:"show_inner";
+		      signal: "elm.icon.inner";
+		      source: "elm";
+		      action: STATE_SET "inner" 0.0;
+		      target: "elm.swallow.icon";
+	      }
+
+	      GENGRID_PROGRAM_CHECK
+	   }
+	}
+}

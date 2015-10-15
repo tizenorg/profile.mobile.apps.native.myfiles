@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Enheten är inte ansluten till ett Wi-Fi-nätverk. Att ansluta till ett mobilt nätverk kan medföra ytterligare avgifter beroende på din betalningsplan."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Dela via"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Dela via"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobildata har slagits av. Anslut till ett Wi-Fi-nätverk istället eller slå på Mobildata och försök igen."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d objekt tas bort."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Det här objektet tas bort."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Laddar ned..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Minnet fullt."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Avbruten."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Hämtning misslyckades."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Slutfört."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Skapa"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Raderad."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Minneskort borttaget."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Söker..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Nätverksanslutningsfel."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Radera mapp"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Ange mappnamn."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Hämtade program"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Ett nätverksanslutningsfel har inträffat. Samtalet har avslutats. Vill du ansluta till nätverket igen?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Spara"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ja"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Nej"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Lägg till genväg"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Ta bort"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Ta bort genväg"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Ändra namn på genväg"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Sök"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Dela"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Lagringsanvändning"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Visa inte igen"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Byte"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Det går inte att ansluta till servern."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Privat"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Ta bort genväg"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Batteri lågt"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 fil"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Mitt album"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Lägg till från"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Påminnelser"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Alla"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Tillgängliga tillämpningar"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Byte"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Innehåll"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Skapad den"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Datum"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Radera markerade objekt?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "kB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokument"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Exekvera"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Filnamn"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Filtyp"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Mappnamn"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Vidarebefordra"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS-information"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS-latitud"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS-longitud"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS-version"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Bilder"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Ej möjlig"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Individuell"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Intervall"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Senast ändrad"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Lista och information"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Plats"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-data initieras..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mina videoklipp"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Otillräckligt telefonminne. Radera några filer och försök igen."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Inga filer"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Inga nyligen öppnade filer"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Inga senaste filer"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d filer"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d objekt"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d objekt"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Möjlig"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Skriv ut"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Namnb."
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Rättighetsstatus"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Ringsignaler"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "Dela"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Visa dolda filer"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Ljud"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Lagringsutrymme"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Tid"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Tidsgräns för räkning"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Typ"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Obegränsad"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Upp"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Giltighet"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Leverantör"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videoklipp"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Bakgrunder"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Lägg till på hem"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Exportera hit"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Gå till Mina filer"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Hem"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Ersätt"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Sök i alla mappar"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Ange här"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Avancerad sökning"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Ljud"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Anslut till mobila nätverk"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Anslut till Wi-Fi-nätvärk"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Antal"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Ange mappnamn."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Lokal"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Ny mapp"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Senaste filer"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Ta bort fil"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Dela ljud och bilder"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Lagring"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Kan inte skapa mapp"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Välj alla"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Ange mappnamn"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Lägg till i genvägar"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Som bildfiler"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Som videofiler"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Ringsignal till Foto-ID"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Komprimera"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Skapa mapp"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Datum (senaste)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Datum (äldsta)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Dekomprimera"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Dekomprimera här"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Standardringsignal"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detaljvy"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Redigera"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Extrahera"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Extrahera till aktuell mapp"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Gå till mapp"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Dölj filtillägg"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Objekt"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Namn"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Sortera efter"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Flytta hit"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Namn"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Öppna filplats"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Personlig sida"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Spela in ljud"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Registrera i Kontakter"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Byt namn"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Namnet bytt."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Byt mappnamn"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Spara här"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Skanna efter enheter i när."
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Markerade"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Dela länk"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Visa filtillägg"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Dela"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sortera efter"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Miniatyrer"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Visa som"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Visa som lista"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Visa som miniatyrbilder"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 objekt kommer att tas bort."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Stigande"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Radera?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Fortsätt"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopieringen misslyckades."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Radering misslyckades."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Radera markerat objekt?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "Fallande"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM-fil. Kan inte skicka."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM-filen är inte tillgänglig."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Filnamnet används redan."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Mappnamnet finns redan."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Från"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Ange text"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Ogiltigt filnamn."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Laddar..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Max antal mappar."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Det gick inte att flytta."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Namnet är tomt."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "För lite heap-minne."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Inte tillräckligt med minne. Ta bort några objekt och försök igen."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "För lite minne. %s tillgängligt."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Klistra in här"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d objekt raderas."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Tillstånd nekades."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Vill du ta bort från listan med nyligen använda filer?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Vill du ta bort från genvägar?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Ta bort?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Filnamnet finns redan."
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Detta namn används redan."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Välj objekt"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Sändning misslyckades."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Genväg tillagd."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Målmappen är en undermapp till källmappen."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Målmappen är samma som källmappen."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Enheten har kopplats bort."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Filen finns inte."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Det går inte att kopiera."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Det går inte att flytta."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Det går inte att utföra den här åtgärden. Ett nätverksfel inträffade."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Kan inte spela upp under samtal."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Det går inte att ställa in DRM-skyddat innehåll som ringsignaler eller meddelandevarningar."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Du måste vara ansluten till ett Wi-Fi-nätverk för att skanna efter enheter i närheten. Anslut via Wi-Fi och försök igen."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Åter"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopiera"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Ta bort"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Redigera"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Flytta"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Sök"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Sortera efter"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Visa som"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Avbryt"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Info"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Alla"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Externt minne"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Minneskort"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefon"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Uppåt"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Komprimerad."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Dekomprimerad."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Hämtar fil ..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Filer har komprimerats."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Filer har packats upp."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Filen har importerats."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Inga enheter hittades. Sökningen fortsätter i bakgrunden."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Katalog"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Anslut"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Standardljud"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Lägg till genväg"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Radera objekt?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Byt namn"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Ta bort"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Ta bort objekt"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Välj objekt"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Inga resultat hittades"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Radera %d objekt?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Radera objekt?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 valt objekt."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Ogiltigt tecken har angivits. Försök igen."
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d objekt valda."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Tyst"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Välj objekt"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "Du kan välja upp till %d objekt."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Nedladdningar"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Radera?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Flytta"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopiera"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Flyttar..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Kopierar..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Raderar..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Åtgärden misslyckades."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Markerade"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Flyttad."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Kopierad."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Sortera efter"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Misslyckades."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Klar"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kort"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Enhetsminne"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Lägg till i privat lagring"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Ta bort från din privata lagring"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Ta bort det här objektet?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Ta bort från Privat"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Flytta till Privat"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maximalt antal tecken har använts."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Tar bort..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Privat lagringsutrymme"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formatering klar."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Namn (Ö till A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Namn (A till Ö)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Skärmbild"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Inga resultat hittades."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Meddelandesignal"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Ange namn."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Mina filer"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "Tillagd."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Bearbetar..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Filtypen stöds inte."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Ta bort?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Privat innehåll"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopiera till"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Flytta till"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Det gick inte att lägga till genväg."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Minnet räcker inte. Radera några objekt."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Borttagen."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privat lagring"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Inget markerat."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Dela"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Visa som"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Lista"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Visa"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Spara som"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Det gick inte att ta bort."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Förälderrankning"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Filnamnet används redan."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Röst"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi är inte tillgängligt. Att ansluta till mobilnät kan medföra ytterligare avgifter beroende på din betalningsplan."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Högsta antalet tecken (%d) har uppnåtts."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Förber..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d valda"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Ta bort objekt"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Inga nedladdningar"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Hämtningen är klar"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Hämtningshanterare"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "När du har hämtat objekt kommer de att visas här."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Hämtningen avbröts"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Hämtningen misslyckades"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Det finns inte tillräckligt med utrymme på enhetens lagringsutrymme. Gå till inställningar för %s för att ta bort några data eller sätta i ett SD-kort."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme i enhetens lagringsutrymme. Gå till inställningar för %s för att frigöra lagringsutrymme och försök igen."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "Det finns inte tillräckligt med utrymme på ditt SD-kort. Gå till inställningar för %s för att ta bort några data, eller ändra standardlagringsplatsen på enheten."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme på ditt SD-kort. Gå till inställningar för %s för att ta bort några data och försök sedan igen."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Gå till Lagring"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Standardlagring full"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Äldre"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Lagring"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Tar bort..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD-kort"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Enhetslagring"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Aviserar servern ..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d objekt raderas."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Den här filen hittades inte. Tryck på Hämta om du vill försöka hämta den igen."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Kan inte öppna filen"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Det gick inte att hitta något program att öppna filen med."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Tryck på Hämta om du vill försöka igen."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 objekt kommer att tas bort."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktiverar DRM-innehåll ..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Inget program för att utföra åtgärden hittades."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Lagringsplats"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importera"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Avbryt"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Välj alla"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d valda"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Hämta"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Idag"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Igår"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Ta bort"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Ersätt"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Använd på alla objekt"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Skapa zip-fil"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Packa upp zip-fil"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mina filer"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Webb"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Nedladdningshistorik"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ingen historik"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Enkel delning"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Program kan inte installeras"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Enbart TPK-filer går att installera. Vi rekommenderar att du bara installerar program som du har hämtat från Tizen-butik."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Om du tar bort objekten här tas de också bort från Dropbox. %d objekt tas bort."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Om du tar objektet här tas det också bort från Dropbox. Ett objekt tas bort."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Om du flyttar objekten tas de bort från Dropbox. %d objekt flyttas."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Om du flyttar objektet tas det bort från Dropbox. 1 objekt flyttas."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Välj lagringsplats"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Stopp"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Överför"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Kan inte överföra filen"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Stoppa överföringar"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Tryck på Överför om du vill försöka igen."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Överföringen stoppas men filen tas inte bort."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Senast visade"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Går inte att spara data"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme på enhetens lagringsutrymme. Gå till Inställningar > Ström och lagring > Lagring och ta bort några filer. Försök sedan igen."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme på SD-kortet. Gå till Inställningar > Ström och lagring > Lagring och ta bort några filer. Försök sedan igen."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Överför till"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Överföringar till Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Privat"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "byte"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Lägg till"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Hem"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Alarm"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Annat"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Mer"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Öppna"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Okänt fel."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Det går inte att ange mappnamn som ”.” eller ”..”."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Visa inte dolda filer"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Visa dolda filer"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Okänd"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Genvägens namn används redan."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Grundläggande"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fil"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Filer"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mapp"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mappar"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "System"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Namn"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Ljudfiler"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokument"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Hämtade program"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Bilder"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videor"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Avbryt"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Avbryt"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Skapa"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Ta bort"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Ta bort"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Byt namn"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Avinstallera"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Lägg till genväg"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Ljudfiler"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopiera"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Kopiera till"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Skapa mapp"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Radera genväg"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokument"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Hämtade program"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Bilder"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Flytta"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Flytta till"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d valda"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Senaste filer"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Ta bort"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Byt namn"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Genvägar"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Sortera efter"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Avinstallera"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Överför till"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Videoklipp"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Visa som"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Alla"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Genvägar"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Innehåller"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Enhetslagring"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Plats"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD-kort"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Visa filtillägg"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Visa dolda filer"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Storlek"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Typ"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Leverantör"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Inga filer"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Stigande"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Kopiera"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Skapa mapp"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Fallande"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Detaljerad lista"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Visa inte igen"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Filtyp"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Lista"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Flytta"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Ta bort"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Storlek"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Tid"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Typ"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Avinstallera"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 objekt kommer att tas bort."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 genväg tas bort."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopierar..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Flyttar..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d objekt kommer att tas bort."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d genvägar kommer att tas bort."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Tar bort..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Användning av Mobila data under roaming kan medföra extra avgifter beroende på din betalningsplan."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Tillgängliga användningsområden"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Skapat den"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Beskrivning"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Vidarebefordra"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Senast ändrad"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Upplösning"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Total storlek"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Giltighet"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Målmappen är en undermapp till källmappen."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Målmappen är den samma som källmappen."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Det gick inte att lägga till genvägen."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Det gick inte att kopiera objektet."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Det gick inte att ta bort objektet."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Det gick inte att flytta objektet."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Det gick inte att ta bort objektet."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Filnamnet används redan."
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Det högsta antalet genvägar (%d) har uppnåtts."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Genvägen har lagts till."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Genvägen finns redan."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Uppdatera"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d objekt kommer att tas bort."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d program avinstalleras."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s kommer att avinstalleras."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Storlek"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Listvy"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Mappnamnet används redan."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Lokal lagring"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Enhetslagring"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Inte inloggad."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Alla filer"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Molnlagring"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Ordning"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Genvägar"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Tid"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Avinstallera"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Innehåller"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Inget ansikte hittades"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Finns redan."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Kan inte flytta. Målmappen är densamma som källmappen"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Skapa mapp"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Mer"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Flytta hit"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Klistra in här"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Ange"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Den här filtypen stöds inte av något program på enheten."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d filer kommer att tas bort."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Skickade filer"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "KLAR"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "AVBRYT"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "TA BORT"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Byt namn"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Välj objekt"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Inga överföringar"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "När du har överfört objekt visas de här."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Går inte att spara data"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme på SD-kortet. Gå till Inställningar > Ström och lagring > Lagring och ta bort några filer. Försök sedan igen."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Det finns inte tillräckligt med utrymme på enhetens lagringsutrymme. Gå till Inställningar > Ström och lagring > Lagring och ta bort några filer. Försök sedan igen."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Fel."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Minnet fullt."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 objekt kommer att tas bort från Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d objekt kommer att tas bort från Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobildata är har slagits av. Anslut till ett Wi-Fi-nätverk eller slå på Mobildata och försök igen."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Privat lagringsutrymme"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Sökväg"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Högsta antal tecken %d har uppnåtts."
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Välj lagringsplats"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Hämtningshistorik"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Hämtningshistorik"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Hämtar ..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Hämtningar"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Inga hämtningar"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Hämtningen misslyckades"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Sista delningsdatum: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Sista delningsdatum: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Det gick inte att hämta filen"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Försök hämta filen igen eller ta bort den från hämtningskön."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Försök igen"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Ta bort"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategori"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Mappnamnet används"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Filnamnet används redan"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Filnamnet (%s) används redan i målmappen."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Det här mappnamnet (%s) används redan i målmappen."
+

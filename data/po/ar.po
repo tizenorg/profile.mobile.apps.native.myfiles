@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "جهازك غير متصل بشبكة Wi-Fi. قد يترتب على الاتصال بشبكة هاتف محمول فرض تكاليف إضافية وفقا لخطة الدفع."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "مشاركة عبر"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "مشاركة عبر"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "تم إيقاف تشغيل بيانات الهاتف المحمول. بدلاً من ذلك، اتصل بشبكة Wi-Fi، أو شغّل بيانات الهاتف المحمول وحاول مرة أخرى."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "سيتم حذف %d من العناصر."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "سيتم حذف هذا العنصر."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "جاري التنزيل..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "الذاكرة لا تكفي."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "تم الإلغاء."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "التنزيل غير متوفر."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "تم النجاح."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "إنشاء"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "تم المسح."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "تم إخراج بطاقة الذاكرة."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "قيد البحث"
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Network connection error"
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "مسح المجلد"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "أدخل اسم المجلد."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "تطبيقات تم تنزيلها"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "حدث خطأ باتصال الشبكة. تم إنهاء المكالمة. هل تريد إعادة الاتصال بالشبكة؟"
+
+msgid "IDS_MF_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "حفظ"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "نعم"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "لا"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "إضافة اختصار"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "حذف"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "حذف الاختصار"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "إعادة تسمية الاختصار"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "البحث"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "مشاركة"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "المستخدم من وحدة التخزين"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "عدم العرض مرة أخرى"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "ب."
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "بايت"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "ج.ب"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "م.ب"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "يتعذر التوصيل بالخادم."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "خاص"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "إزالة اختصار"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "البطارية ضعيفة"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "ملف واحد"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "ألبومي"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "إضافة من"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "تنبيهات"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "أي"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "الاستخدامات المتوفرة"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "بايت"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "المحتويات"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "تاريخ الإنشاء"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "التاريخ"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "حذف العناصر المحددة؟"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "ك.ب"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "المستندات"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "تنفيذ"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "اسم الملف"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "نوع الملف"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "اسم المجلد"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "التحويل"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "معلومات GPS"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "خط عرض GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "خط طول GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "إصدار GPS"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "الصور"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "غير ممكن"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "فردي"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "الفترة"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "آخر تعديل"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "القائمة والتفاصيل"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "الموقع"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "يتم الآن تهيئة بيانات MMC..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "مشاهد الفيديو الخاصة"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "لا توجد مساحة كافية بذاكرة الهاتف. احذف بعض العناصر وحاول مرة أخرى."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "لا توجد ملفات"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "لا توجد ملفات تم فتحها مؤخرا"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "لا توجد ملفات أخيرة"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d ملفات"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d عنصر"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d عناصر"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "ممكن"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "طباعة"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "إعادة تسمية"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "حالة الحقوق"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "نغمات الرنين"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "مشاركة"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "إظهار الملفات المخفية"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "الأصوات"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "استخدام وحدة التخزين"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "التوقيت"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "عداد محدد زمنيا"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "النوع"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "غير محدود"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "أعلى"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "الصلاحية"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "التاجر"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "الفيديو"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "خلفيات الشاشة"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "إضافة للرئيسية"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "تصدير هنا"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "ذهاب إلى ملفاتي"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "الرئيسية"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "استبدال"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "بحث في جميع المجلدات"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "تعيين هنا"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "بحث متقدم"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "الصوت"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "الاتصال بشبكة المحمول"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "اتصال بشبكة Wi-Fi"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "العدد"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "أدخل اسم المجلد."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "محلي"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "مجلد جديد"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "الملفات الأخيرة"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "إزالة الملف"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "مشاركة صوت والتقاط صور"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "وجهة الحفظ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "يتعذر إنشاء المجلد"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "تحديد الكل"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "إدخال اسم المجلد"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "إضافة إلى الاختصارات"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "كملفات صور"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "كملفات فيديو"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "نغمة رنين المتصل"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "ضغط"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "إنشاء مجلد"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "التاريخ (الأحدث)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "التاريخ (الأقدم)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "فك الضغط"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "‏‫فك الضغط هنا"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "نغمة الرنين الافتراضية"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "عرض مفصل"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "تعديل"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "استخراج"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "استخراج إلى المجلد الحالي"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "انتقال إلى المجلد"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "إخفاء امتداد الملفات"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "عنصر"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "الاسم"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "فرز بواسطة"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "نقل إلى هنا"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "الاسم"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "فتح موقع الملف"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "الصفحة الشخصية"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "تسجيل صوت"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "تسجيل إلى جهات الاتصال"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "إعادة تسمية"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "تمت إعادة التسمية."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "تغيير اسم المجلد"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "الحفظ هنا"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "بحث عن أجهزة مجاورة‬"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "محدد"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "مشاركة الارتباط"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "إظهار امتداد الملفات"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "فصل"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "فرز حسب"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "عرض مختصر"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "عرض كـ"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "عرض عبر اللائحة"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "عرض عبر المختصرات"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "ضغط الملفات"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "سيتم حذف عنصر واحد."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "تصاعديا"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "مسح؟"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "متابعة"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "فشل النسخ."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "فشل المسح."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "هل تريد حذف العنصر المحدد؟"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "تنازليا"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "ملف DRM. يتعذر الإرسال."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "ملف DRM غير متوفر."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "تم استخدام اسم الملف مسبقا."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "اسم المجلد موجود مسبقا."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "هيئة"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "من"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "إدخال نص"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "اسم الملف غير صالح."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "جاري التحميل ..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "تجاوز الحد الأقصى لعدد المجلدات."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "فشل النقل."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "اسم فارغ."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "الذاكرة لا تكفي."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "مساحة الذاكرة غير كافية. احذف بعض العناصر وحاول مرة أخرى‬."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "الذاكرة لا تكفي. متوفر %s."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "لصق هنا"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "سيتم حذف %d عناصر."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "تم رفض الإذن."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "هل تريد الإزالة من قائمة الملفات الأخيرة؟"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "هل تريد الإزالة من الاختصارات؟"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "حذف؟"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "نفس اسم الملف موجود بالفعل!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "تم استخدام نفس الاسم مسبقا."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "اختيار عنصر"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "فشل الإرسال."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "تمت إضافة اختصار‬."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "مجلد الوجهة هو مجلد فرعي من مجلد المصدر."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "مجلد الوجهة هو نفس مجلد المصدر."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "تم فصل الجهاز"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "هذا الملف غير موجود."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "يتعذر النسخ."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "يتعذر النقل."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "يتعذر تنفيذ هذا الإجراء. حدث خطأ بالشبكة."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "يتعذر التشغيل أثناء المكالمة."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "يتعذر تعيين محتوى محمي بـ DRM كنغمة رنين أو كتنبيه إخطار."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "يجب الاتصال بشبكة Wi-Fi لمسح الأجهزة القريبة. قم بالاتصال عبر شبكة Wi-Fi وحاول مرة أخرى."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "رجوع"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "نسخ"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "مسح"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "تعديل"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "نقل"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "بحث"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "فرز حسب"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "عرض كـ"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "إلغاء"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "الكل"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "‏‫التخزين الخارجي"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "بطاقة الذاكرة"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "الهاتف"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "لأعلى"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "مضغوط"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "تم فك الضغط"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "تنزيل الملف..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "تم ضغط الملفات"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "تم استخراج الملفات"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "تم استيراد الملف"
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "لم يتم العثور على أي أجهزة. سيستمر البحث في الخلفية."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "الدليل"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "توصيل"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "صوت الإشعار الافتراضي"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "إلى"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "إضافة اختصار"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "حذف عناصر؟"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "تغيير الاسم"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "حذف"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "حذف العنصر"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "تحديد عناصر"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "لم يتم العثور علي اي نتيجة"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "هل تريد حذف %d عنصر (عناصر)؟"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "حذف عنصر؟"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "تم تحديد عنصر واحد."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "تم إدخال حرف غير صالح. حاول مرة أخرى."
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "تم تحديد %d عناصر."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "صامت"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "اختيار عنصر"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "يمكنك تحديد ما يصل إلى %d عناصر."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ملفات محملة"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "مسح؟"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "نقل"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "نسخ"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "جاري النقل..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "جاري النسخ..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "جاري المسح..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "فشلت العملية."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "محدد"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "تم النقل."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "تم النسخ."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "فرز حسب"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "فشل."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "تمت"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "بطاقة SD"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "ذاكرة الجهاز"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "إضافة إلى مساحة التخزين الشخصية"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "إزالة من مساحة التخزين الشخصية"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "هل تريد حذف هذا العنصر؟"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "إزالة من الخاص"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "نقل إلى الخاص"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "تم الوصول إلى أقصى عدد من الحروف."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "جاري الحذف..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "مساحة التخزين الشخصية"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "تمت التهيئة."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "الاسم (من ي إلى أ)‬"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "الاسم (من أ إلى ي)‬"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "التقاط الشاشة"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "لا توجد نتائج."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "منبه الرسالة"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "أدخل الاسم."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "ملفاتي"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "تمت الإضافة."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "جاري المعالجة..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "نوع ملف غير مدعوم."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "حذف؟"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "محتوى خاص"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "نسخ إلى"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "نقل إلى"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "فشلت إضافة اختصار."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "لا يوجد ذاكرة كافية. امسح بعض العناصر."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "تم الحذف."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "وحدة التخزين الخاصة"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "لم يتم تحديد أي شيء."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "مشاركة"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "عرض كـ"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "اللائحة"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "عرض"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "حفظ بإسم"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "فشلت الإزالة."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "التصنيف الأصلي"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "تم استخدام اسم الملف مسبقا."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "صوت"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "شبكة Wi-Fi غير متاحة. قد يترتب على الاتصال بشبكات الهاتف المحمول فرض رسوم إضافية وفقا لخطة الدفع التي تتبعها."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "تم الوصول إلى الحد الأقصى لعدد الأحرف (%d)"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "جارٍ التحضير..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "تم تحديد %d"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "حذف عناصر"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "لا توجد ملفات محملة"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "تم التنزيل"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "مدير التنزيل"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "بعد تنزيل العناصر، يتم عرضها هنا"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "تم إلغاء التنزيل"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "فشل التنزيل"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "ما من مساحة كافية على وحدة تخزين الجهاز. انتقل إلى ضبط %s لحذف بعض البيانات أو إدراج بطاقة SD."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "ما من مساحة كافية على وحدة تخزين الجهاز. انتقل إلى ضبط %s لإخلاء مساحة للتخزين ثم حاول مرة أخرى."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "ما من مساحة كافية على بطاقة SD. انتقل إلى ضبط %s لحذف بعض البيانات أو تغيير موقع التخزين الافتراضي إلى الجهاز."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "ما من مساحة كافية على بطاقة SD. انتقل إلى ضبط %s لحذف بعض البيانات ثم حاول مرة أخرى."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "انتقال إلى وحدة التخزين"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "التخزين الافتراضي ممتلئ"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "أقدم"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "مكان التخزين"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "جاري الحذف..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "بطاقة SD"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "وحدة تخزين الجهاز"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "جارٍ إشعار الخادم..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "سيتم حذف %d عناصر."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "لا يمكن العثور على هذا الملف. انقر فوق تنزيل لمحاولة تنزيله مرة أخرى."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "يتعذّر فتح الملف"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "يتعذّر العثور على تطبيق لفتح هذا الملف."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "انقر فوق تنزيل للمحاولة مرة أخرى."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "سيتم حذف عنصر واحد."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "جارٍ تنشيط محتوى DRM..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "يتعذر العثور على التطبيق للقيام بهذا الإجراء."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "موقع وحدة التخزين"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "استيراد"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "إلغاء"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "موافق"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "تحديد الكل"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "تم تحديد %d"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "تنزيل"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "اليوم"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "أمس"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "حذف"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "استبدال"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "التطبيق على كل العناصر"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "قم بإنشاء ملف من نوع zip"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "استخراج ملف من نوع zip"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ملفاتي"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "ويب"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "محفوظات التنزيل"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "فارغة"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "المشاركة البسيطة"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "يتعذر تثبيت التطبيق"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "يمكن فقط تثبيت ملفات TPK. نوصيك بتثبيت التطبيقات التي تم تنزيلها من متجر Tizen فقط."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "سيؤدي حذف هذه العناصر من هنا إلى حذفها من Dropbox أيضاً. سيتم حذف %d من العناصر."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "سيؤدي حذف هذا العنصر من هنا إلى حذفه من Dropbox أيضاً. سيتم حذف عنصر واحد."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "سيؤدي نقل هذه العناصر إلى حذفها من Dropbox. سيتم نقل %d من العناصر."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "سيؤدي نقل هذا العنصر إلى حذفه من Dropbox. سيتم نقل عنصر واحد."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "تحديد موقع التخزين"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "إيقاف"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "تحميل"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "فشل تحميل الملف"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "إيقاف التحميلات"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "انقر فوق تحميل للمحاولة مرة أخرى."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "سيتوقف التحميل، لكن لن يتم حذف الملف."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "تمت المشاهدة مؤخراً"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "يتعذر حفظ البيانات"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ما من مساحة كافية على وحدة تخزين الجهاز. انتقل إلى الضبط > الطاقة ووحدة التخزين > وحدة التخزين، ثم احذف بعض الملفات وحاول مرة أخرى."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ما من مساحة كافية على بطاقة SD. انتقل إلى الضبط > الطاقة ووحدة التخزين > وحدة التخزين، ثم احذف بعض الملفات وحاول مرة أخرى."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "تحميل إلى"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "التحميلات على Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "خاص"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "وحدات البايت"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "إضافة"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "المنزل"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "منبه"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "أخرى"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "المزيد"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "فتح"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "خطأ غير معروف."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "يتعذر ضبط اسم المجلد كـ ”.“ أو ”..“."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "عدم إظهار الملفات المخفية"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "إظهار الملفات المخفية"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "غير معروف"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "اسم الاختصار مستخدم بالفعل."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "أساسي"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "الملف"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "ملف"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "المجلد"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "المجلدات"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "النظام"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "الاسم"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "ملفات الصوت"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "المستندات"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "تطبيقات تم تنزيلها"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "الصور"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "مقاطع فيديو"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "إلغاء"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "إلغاء"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "إنشاء"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "حذف"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "موافق"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "إزالة"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "إعادة تسمية"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "إزالة التثبيت"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "إضافة اختصار"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "ملفات الصوت"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "نسخ"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "نسخ إلى"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "إنشاء مجلد"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "حذف الاختصار"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "المستندات"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "تطبيقات تم تنزيلها"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "الصور"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "نقل"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "نقل إلى"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "تم تحديد %d"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "الملفات الحالية"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "إزالة"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "إعادة تسمية"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "الاختصارات"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "فرز حسب"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "إلغاء التثبيت"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "تحميل إلى"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "الفيديو"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "عرض كـ"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "الكل"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "الاختصارات"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "المحتويات"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "وحدة تخزين الجهاز"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "تنسيق"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "الموقع"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "بطاقة SD"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "إظهار امتداد الملفات"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "إظهار الملفات المخفية"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "الحجم"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "نوع"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "المورد"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "ما من ملفات"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "تصاعديا"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "نسخ"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "إنشاء مجلد"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "تنازلياً"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "قائمة تفصيلية"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "عدم الإظهار مرة أخرى"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "نوع الملف"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "اللائحة"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "نقل"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "حذف"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "الحجم"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "التوقيت"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "النوع"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "إلغاء التثبيت"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "ستتم إزالة عنصر واحد."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "سيتم حذف اختصار واحد."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "جاري النسخ..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "جاري النقل..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "ستتم إزالة %d عناصر."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "سيتم حذف %d من الاختصارات"
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "جاري الحذف..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "قد يترتب على استخدام بيانات الهاتف المحمول أثناء التجوال فرض رسوم إضافية وفقًا لخطة الدفع."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "الاستخدامات المتوفرة"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "تم إنشاء التاريخ"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "الوصف"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "جارٍ إعادة التوجيه"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "آخر تعديل"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "الدقة"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "الحجم الإجمالي"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "الصلاحية"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "إن مجلد الوجهة هو مجلد فرعي لمجلد المصدر."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "إن المجلد الوجهة هو المجلد المصدر نفسه."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "فشلت إضافة الاختصار."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "فشل نسخ العنصر."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "فشل حذف العنصر."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "فشل نقل العنصر."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "فشلت إزالة العنصر."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "اسم الملف مستخدم بالفعل"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "تم بلوغ الحد الأقصى من عدد الاختصارات (%d)."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "تمت إضافة الاختصار."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "الاختصارات موجودة بالفعل"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "إنعاش"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "سيتم حذف %d من العناصر."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "سيتم إلغاء تثبيت %d من التطبيقات."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "سيتم إلغاء تثبيت %s."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "الحجم"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "عرض القائمة"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "إن اسم المجلد قيد الاستخدام بالفعل."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "وحدة التخزين المحلية"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "‏‫ذاكرة تخزين الجهاز"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "لم يتم تسجيل الدخول."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "كل الملفات"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "التخزين عبر السحابة"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "ترتيب"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "الاختصارات"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "التوقيت"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "إلغاء التثبيت"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "يحتوي على"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "لم يتم اكتشاف وجه"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "موجود مسبقا."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "يتعذر النقل. المجلد الوجهة نفس المجلد المصدر"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "إنشاء مجلد"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "المزيد"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "نقل إلى هنا"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "لصق هنا"
+
+msgid "IDS_PB_SK_SET"
+msgstr "ضبط"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "إن نوع الملف هذا غير مدعوم من قبل أي تطبيق على جهازك."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "سيتم حذف %d من الملفات."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "تم إرسال الملفات"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "تم"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "إلغاء"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "حذف"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "تغيير الاسم"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "تحديد عنصر"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "ما من تحميلات"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "ستظهر العناصر هنا بعد تحميلها."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "يتعذر حفظ البيانات"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ما من مساحة كافية على بطاقة SD. انتقل إلى الضبط > الطاقة ووحدة التخزين > وحدة التخزين، ثم احذف بعض الملفات وحاول مرة أخرى."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ما من مساحة كافية على وحدة تخزين الجهاز. انتقل إلى الضبط > الطاقة ووحدة التخزين > وحدة التخزين، ثم احذف بعض الملفات وحاول مرة أخرى."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "خطأ"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "امتلأت الذاكرة."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "سيتم حذف عنصر واحد من Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "سيتم حذف %d من العناصر من Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "بيانات الهاتف المحمول متوقفة عن التشغيل. اتصل بشبكة Wi-Fi أو قم بتشغيل بيانات الهاتف المحمول وحاول مرة أخرى."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "مساحة التخزين الشخصية"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "المسار"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "تم الوصول إلى الحد الأقصى من عدد الأحرف %d"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "تحديد التخزين"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "محفوظات التنزيل"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "محفوظات التنزيل"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "يتم التنزيل..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "التنزيلات"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "ما من تنزيلات"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "فشل التنزيل"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "تنتهي الصلاحية في: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "انتهت الصلاحية في: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "فشل تنزيل الملف"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "حاول تنزيل الملف مرة أخرى أو قم بإزالته من قائمة الانتظار للتنزيل."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "إعادة المحاولة"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "إزالة"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "فئة"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "تم مسبقاً استخدام اسم الملف"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "اسم الملف مستخدم بالفعل"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "اسم الملف هذا (%s) مستخدم مسبقاً في المجلد الوجهة."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "اسم المجلد هذا (%s) مستخدم مسبقاً في المجلد الوجهة."
+

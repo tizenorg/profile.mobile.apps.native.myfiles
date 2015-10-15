@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Вашето устройство не е свързано към Wi-Fi мрежа. Свързването към мобилна мрежа може да доведе до допълнителни такси, в зависимост от плана ви на таксуване."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Споделяне с"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Споделяне с"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Мобилните данни са изключени. Вместо това се свържете към Wi-Fi мрежа или включете мобилните данни и опитайте отново."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d елемента ще бъдат изтрити."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Този елемент ще бъде изтрит."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Смъкване..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Няма достатъчно памет."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Отменено."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Неуспешно изтегляне."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Успешно."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Създай"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Изтрито."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Карта с памет извадена."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Търсене..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Грешка във връзката с мрежата."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Изтриване на папка"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Въведете име на папка."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Изтеглени приложения"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Възникна грешка в мрежовата връзка. Повикването е прекратено. Повторно свързване към мрежата?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Запази"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Да"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Не"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Добавяне на пряк път"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Изтриване"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Изтриване на пряк път"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Преименуване на пряк път"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Търсене"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Споделяне"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Използване на паметта"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Не показвай повече"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Невъзможно свързване със сървър."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Лична"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Прем. бърза команда"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Изтощена батерия"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 файл"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Моят албум"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Добави от"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Автоматичен запис"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Всеки"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Налични употреби"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Съдържание"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Дата на създаване"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Дата"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Изтриване на избраните елементи?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Документи"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Изпълни"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Име на файл:"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Тип файл"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Име на папка"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Препращане"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "Данни от GPS"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "Географска ширина от GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "Географска дължина от GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS версия"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Изображения"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Невъзможно"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Индивидуален"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Интервал"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Последна промяна"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Списък и подробни данни"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Позиция"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC данните се инициализират..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Моите видеоклипове"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Няма достатъчно памет в паметта на телефона. Изтрийте някои елементи и опитайте отново."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Няма файлове"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Няма последно отворени файлове"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Няма скорошни файлове"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d файла"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d елемент"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d елемента"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Възможно"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Отпечатване"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Преим."
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Състояние на правата"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Мелодии"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "Споделям"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Покажи скритите файлове"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Звуци"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Изп. място за съхр."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Час"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Отброяване по време"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Неограничен"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Нагоре"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Валидност"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Доставчик"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видеоклипове"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Тапети"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Доб. към нач."
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Експортиране тук"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Отиди Моите файлове"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Начало"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Замени"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Търс. във всички папки"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Задайте тук"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Разширено търсене"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Звук"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Свързване към мобилна мрежа"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Свързване към Wi-Fi мрежа"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Броене"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Въведете име на папка."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Локално"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Ръчно"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Скорошни файлове"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Премахване на файл"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Сподели звук и снимки"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Устройство за съхранение на данни"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Не може да се създаде папка"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Избор на всичко"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Въведете име на папка"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Доб. към бут. за бърз дост."
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Като файлове с изображения"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Като видео файлове"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Тон за звънене за повикващ"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Компресиране"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Създаване на папка"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Дата (най-нови)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Дата (най-стари)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Декомпресиране"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Декомпресиране тук"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Тон на звънене по подразбиране"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Подробен изглед"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Редактиране"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Извличане"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Извличане в текуща папка"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Отиди на папка"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Скрий разшир. на файл"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Елементи"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Име"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Подреждане по"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Преместване тук"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Име"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Отвар. местополож. на файла"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Лична страница"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Запис на звук"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Регистрирай в Тел. указател"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Преименуване"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Преименувано."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Преименуване на папка"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Запиши тук"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Скан. за устройства наоколо"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Избрани"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Споделяне на връзка"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Покажи разширението на файл"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Разделяне"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Сортиране по"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Екран миниатюри"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Виж като"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Изглед в списък"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Изглед с миниатюри"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 елемент ще бъде изтрит."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Във възходящ ред"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Изтриване?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Продължи"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Копирането е неуспешно."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Неуспешно изтриване"
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Изтриване на избрания елемент?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "В низходящ ред"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM файл. Не може да се изпрати."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM файлът не е достъпен."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Името на файла вече е заето."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Името на папка вече същест- вува."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "От"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Въвеждане на текст"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Невалидно име на файл."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Зареждане"
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Максималният брой папки e достигнат."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Неуспешно преместване."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Името е празно."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Няма достатъчно динамична памет."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Няма достатъчно памет. Изтрийте някои елементи и опитайте отново."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Няма достатъчно памет. %s свободни."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Постави тук"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d елемента ще бъдат изтрити."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Отказано разрешение."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Премахване от списъка със скорошни файлове?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Премахване от Бърз достъп?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Премахване?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Такова име на файл вече съществува!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Такова име вече се използва."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Изберете елемент"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Неуспешно изпращане."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Бързата команда е добавена."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Папката – назначение е подпапка на папката - източник."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Папката – назначение е същата като папката - източник."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Връзката с устройството е прекъсната"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Файлът не съществува."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Не може да се копира."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Не може да се премести."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Това действие не може да се извърши. Възникна грешка в мрежата."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Не може да се възпроизведе по време на разговор."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Защитеното с DRM съдържание не може да се задава като тон на звънене или предупреждение за уведомяване."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Трябва да сте свързани към Wi-Fi мрежа, за да сканирате за близки устройства. Свържете се през Wi-Fi и опитайте отново."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "НАЗАД"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Копирай"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Изтрий"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Редактиране"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Мести"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Търсене"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Сортирай по"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Преглед като"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Отмени"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Отказ"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Детайли"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Всички"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Външна памет за съхр."
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Карта с памет"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Телефон"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Нагоре"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Компресирани са."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Декомпресирано е."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Изтегляне на файл..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Файловете са компресирани."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Файловете са извлечени."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Файлът е импортиран."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Няма открити устройства. Сканирането ще продължи във фонов режим."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Директория"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Свързване"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Звук по подр. уведомявания"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Добави бърз достъп"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Изтриване на елементите?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Преименуване"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Маxни"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Изтрий елемента"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Избор на елементи"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Няма намерени резултати"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Изтриване на %d елемента?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Изтриване на обекта?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "Избран е 1 елемент."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Въведен е невалиден знак. Опитайте отново"
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Избрани са %d елемента."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Тих"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Изберете елемент"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "Можете да изберете до %d елемента."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Изтеглени файлове"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Изтриване?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Мести"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Копирай"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Преместване"
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Копиране..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Изтриване..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Операцията е неуспешна."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Избран"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Преместено."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Копирано."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Сортиране по"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Неуспешно."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Готово"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD карта"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Памет на устройството"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Добавяне към лично място за съхранение"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Премахване от личното място за съхранение"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Изтривате ли този елемент?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Премахване от Лични"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Преместване в Лична"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Достигнат максимален брой знаци."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Премахване..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Лично място за съхранение"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Форматирането завършено."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Име (Я до А)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Име (A до Я)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Прихващане на екрана"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Няма намерени резултати."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Предупреждение за съобщение"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Детайли"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Въведете име."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Моите файлове"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "Добавен."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Обработване..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Неподдържан тип файл."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Премахване?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Лично съдържание"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Копиране в"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Премести в"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Неуспешно добавяне на бърза команда."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Няма достатъчно памет. Изтрийте някои елементи"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Премахнат."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Лично място за съхранение"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Нищо не е избрано."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Споделяне"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Пр. като"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Списък"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Виж"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Запиши като"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Неуспешно премахване."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Родителска оценка"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Името на файла вече е заето."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Обаждане"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Няма достъпна Wi-Fi. Свързването към мобилни мрежи може да доведе до допълнителни такси, в зависимост от плана ви на таксуване."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Достигнат е максималният брой знаци (%d)."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Подготв..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d избрани"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Изтриване на елементи"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Няма изтегляния"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Изтеглянето завършено"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Диспечер на изтегляне"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "След като изтеглите елементи, те ще се покажат тук."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Изтеглянето е отменено"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Изтеглянето неуспешно"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Няма достатъчно място в паметта на устройството ви. Отидете на Настройки на %s, за да изтриете някои данни, или поставете SD карта."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Няма достатъчно място в паметта на устройството ви. Отидете на Настройки на %s, за да освободите място за съхранение, след което опитайте отново."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "Няма достатъчно място на вашата SD карта. Отидете на Настройки на %s, за да изтриете данни, или променете мястото за съхранение по подразбиране на Устройство."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "Няма достатъчно място на вашата SD карта. Отидете в Настройки на %s, за да изтриете някои данни, след което опитайте отново."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Към Съхраняване"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Мястото за съхранение по подразбиране е пълно"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "По-стари"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Устройство за съхранение на данни"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Премахване..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD карта"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Памет на устройството"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Уведомяване на сървъра..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d елемента ще бъдат изтрити."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Този файл не може да се намери. Докоснете „Изтегляне“, за да опитате да го изтеглите отново."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Файлът не може да се отвори"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Не може да се намери приложение, което да отвори този файл."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Докоснете „Изтегляне“, за да опитате отново."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 елемент ще бъде изтрит."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Активиране на DRM съдържание..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Не може да се намери приложение, което да извърши това действие."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Местоположение на паметта"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Импортиране"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Отказ"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Избор на всичко"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d избрани"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Изтегляне"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Днес"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Вчера"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Изтриване"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Замест."
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Прилагане с всички елементи"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Създаване на zip файл"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Извличан на zip файл"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Моите файлове"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Уеб"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Хронология на изтегляния"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Няма история"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Опростено споделяне"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Прил. не може да се инсталира"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Само TPK файлове може да се инсталират. Препоръчваме да инсталирате само приложения, изтеглени от Магазин на Tizen."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Изтриването на тези елементи от тук също така ще ги изтрие от Dropbox. %d елемента ще бъдат изтрити."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Изтриването на този елемент от тук също така ще го изтрие от Dropbox. 1 елемент ще бъдат изтрит."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Преместването на тези елементи ще ги изтрие от Dropbox. %d елемента ще бъдат преместени."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Преместването на този елемент ще го изтрие от Dropbox. 1 елемент ще бъде преместен."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Изберете място за съхранение"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Стоп"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Качване"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Неуспешно качване на файла"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Спиране на качванията"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Докоснете „Качване“, за да опитате отново."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Качването ще спре, но файлът няма да се изтрие."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Последно разглеждани"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Данни не се записват"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Няма достатъчно място в паметта на устройството ви. Отидете в Настройки > Захранване и памет > Памет, след което изтрийте някои файлове и опитайте отново."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Няма достатъчно място в SD картата. Отидете в Настройки > Захранване и памет > Памет, след което изтрийте някои файлове и опитайте отново."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Качване в"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Качвания в Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Частен разгв."
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "байта"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Добави"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Дом"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Аларма"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Други"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Още"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Отваряне"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Неизвестна грешка."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Не може да се зададе име на папка като „.“ или „..“."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Без показване скрити файлове"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Показване на скрити файлове"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Няма информация"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Името на прекия път вече се използва."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Базово"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Файлове"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Папка"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Папки"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Системен"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Име"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Аудиофайлове"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Документи"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Изтеглени приложения"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Изображения"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Видеоклипове"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Отказ"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Отказ"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Създаване"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Изтриване"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Премаxване"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Преименуване"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Деинсталиране"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Добавяне пряк път"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Аудиофайлове"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Копиране"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Копиране в"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Създаване на папка"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Изтриване на бърза команда"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Детайли"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Документи"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Изтеглени приложения"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Изображения"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Преместване"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Премести в"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d избрани"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Скорошни файлове"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Премаxни"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Преименуване"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Бърз достъп"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Сортиране по"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Деинсталиране"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Качване в"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Видеоклипове"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Преглед като"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Всички"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Пряк път"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Съдържа"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Памет на устройството"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Местоположение"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD карта"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Показване на файлови разш."
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Показване скрити файлове"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Доставчик"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Няма файлове"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Във възходящ ред"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Копиране"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Създаване на папка"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Низходящо"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Подробен списък"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Детайли"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Не показвай повече"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Тип на файл"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Списък"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Преместване"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Премаxване"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Час"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Деинсталиране"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 елемент ще бъде премахнат."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 пряк път ще бъде изтрит."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Копиране..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Преместване"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d елемента ще бъдат премахнати."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "Ще бъдат изтрити %d бързи команди."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Премахване..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Използването на мобилни данни в роуминг може да доведе до допълнителни такси в зависимост от плана за плащане."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Налични начини на ползване"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Дата на създаване"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Описание"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Препращане"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Последна промяна"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Разделителна способност"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Общ размер"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Валидност"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Папката местоназначение е подпапка на папката източник."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Папката местоназначение е същата като папката източник."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Неуспешно добавяне на пряк път."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Копирането на елемента е неуспешно."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Неуспешно изтриване на елемент."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Неуспешно преместване на елемент."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Неуспешно премахване на елемент."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Името на файла вече се използва."
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Достигнат е максималният брой преки пътища (%d)."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Добавен е пряк път."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Бързата команда вече съществува."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Опресняване"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d елемента ще бъдат изтрити."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d приложения ще бъдат деинсталирани."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ще бъде деинсталирано."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Преглед в списък"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Името на папката вече се използва."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Локална памет"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Памет устр."
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Без влизане"
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Всички файлове"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Съхранение в облака"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Подреждане"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Бърз достъп"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Час"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Деинсталиране"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Съдържа"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Не е разпознато лице"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Вече съществува."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Не може да се премести. Папката – назначение е същата като папката - източник."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Създай папка"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Още"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Преместване тук"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Постави тук"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Настрой"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Файловият тип не се поддържа от никое приложение на вашето устройство."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d файла ще бъдат изтрити."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Изпратени файлове"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ГОТОВО"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ОТКАЗ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "ИЗТРИВАНЕ"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Преименуване"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Изберете елемент"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Няма качвания"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "След като качите елементи, те ще се покажат тук."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Данни не се записват"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Няма достатъчно място в SD картата. Отидете в Настройки > Захранване и памет > Памет, след което изтрийте някои файлове и опитайте отново."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Няма достатъчно място в паметта на устройството ви. Отидете в Настройки > Захранване и памет > Памет, след което изтрийте някои файлове и опитайте отново."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Грешка."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Паметта е заета."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 елемент ще се изтрие от Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d елемента ще се изтрият от Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Мобилните данни са изключени. Свържете се към Wi-Fi мрежа или включете мобилните данни и опитайте отново."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Лично място за съхранение"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Път"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Достигнат е максималният брой знаци %d."
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Избор на съхранение"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Хронология на изтегляния"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Хронология на изтегляния"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Изтегляне..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Изтегляния"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Няма изтегляния"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Изтеглянето неуспешно"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Изтича на: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Изтекло на: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Неуспешно изтегляне на файла"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Опитайте да изтеглите файла отново или го премахнете от опашката за изтегляния."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Нов опит"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Премахни"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Категория"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Името на папка се използва"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Името на файл се използва"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Това име на файл (%s) вече се използва в папката местоназначение."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Това име на папка (%s) вече се използва в папката местоназначение."
+

@@ -1,0 +1,1055 @@
+/*
+* Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+/************************************************
+ * Global size definitions.
+ * If GUI updated, please update size here.
+ ***********************************************/
+#define CATEGORY_ITEM_HEIGHT 137
+#define CATEGORY_ITEM_WIDTH 160
+#define CATEGORY_ITEM_TOP_PADDING_H 26
+#define CATEGORY_ITEM_BOTTOM_PADDING_H 26
+#define CATEGORY_ITEM_LEFT_PADDING_W 26
+#define CATEGORY_ITEM_RIGHT_PADDING_W 26
+
+#define CATEGORY_ITEM_DIVIDER_W 2
+#define CATEGORY_ITEM_DIVIDER_H 113
+#define CATEGORY_ITEM_DIVIDER_SIZE \
+        CATEGORY_ITEM_DIVIDER_W CATEGORY_ITEM_DIVIDER_H
+
+#define CATEGORY_ITEM_ICON_W 46
+#define CATEGORY_ITEM_ICON_H 46
+#define CATEGORY_ITEM_ICON_SIZE \
+        CATEGORY_ITEM_ICON_W CATEGORY_ITEM_ICON_H
+
+#define CATEGORY_ITEM_TEXT_TITLE_H 38
+
+#define CATEGORY_ITEM_TEXT_SIZE_H 32
+#define CATEGORY_ITEM_TEXT_SIZE_W 148
+
+/** Global size difinitions end here. */
+
+/** Icon relative positions */
+#define CATEGORY_ITEM_ICON_OFFSET1_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_RIGHT_PADDING_W-CATEGORY_ITEM_ICON_W)
+
+#define CATEGORY_ITEM_ICON_OFFSET1_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_BOTTOM_PADDING_H-CATEGORY_ITEM_ICON_H)
+
+#define CATEGORY_ITEM_ICON_OFFSET2_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_RIGHT_PADDING_W)
+
+#define CATEGORY_ITEM_ICON_OFFSET2_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_BOTTOM_PADDING_H)
+
+#define CATEGORY_ITEM_ICON_REL1_X \
+        (CATEGORY_ITEM_ICON_OFFSET1_X/CATEGORY_ITEM_WIDTH)
+
+#define CATEGORY_ITEM_ICON_REL1_Y \
+        (CATEGORY_ITEM_ICON_OFFSET1_Y/CATEGORY_ITEM_HEIGHT)
+
+#define CATEGORY_ITEM_ICON_REL2_X \
+        (CATEGORY_ITEM_ICON_OFFSET2_X/CATEGORY_ITEM_WIDTH)
+                
+#define CATEGORY_ITEM_ICON_REL2_Y \
+        (CATEGORY_ITEM_ICON_OFFSET2_Y/CATEGORY_ITEM_HEIGHT)
+
+#define CATEGORY_ITEM_ICON_REL1 \
+        CATEGORY_ITEM_ICON_REL1_X CATEGORY_ITEM_ICON_REL1_Y
+
+#define CATEGORY_ITEM_ICON_REL2 \
+        CATEGORY_ITEM_ICON_REL2_X CATEGORY_ITEM_ICON_REL2_Y
+
+/** Title relative positions. */
+#define CATEGORY_ITEM_TEXT_TITLE_OFFSET1_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_LEFT_PADDING_W)
+
+#define CATEGORY_ITEM_TEXT_TITLE_OFFSET1_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_TOP_PADDING_H)
+
+#define CATEGORY_ITEM_TEXT_TITLE_OFFSET2_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_RIGHT_PADDING_W)
+
+#define CATEGORY_ITEM_TEXT_TITLE_OFFSET2_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_TOP_PADDING_H-CATEGORY_ITEM_TEXT_TITLE_H)
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL1_X \
+        (CATEGORY_ITEM_TEXT_TITLE_OFFSET1_X/CATEGORY_ITEM_WIDTH)
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL1_Y \
+        (CATEGORY_ITEM_TEXT_TITLE_OFFSET1_Y/CATEGORY_ITEM_HEIGHT)
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL2_X \
+        (CATEGORY_ITEM_TEXT_TITLE_OFFSET2_X/CATEGORY_ITEM_WIDTH)
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL2_Y \
+        (CATEGORY_ITEM_TEXT_TITLE_OFFSET2_Y/CATEGORY_ITEM_HEIGHT)
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL1 \
+        CATEGORY_ITEM_TEXT_TITLE_REL1_X CATEGORY_ITEM_TEXT_TITLE_REL1_Y
+
+#define CATEGORY_ITEM_TEXT_TITLE_REL2 \
+        CATEGORY_ITEM_TEXT_TITLE_REL2_X CATEGORY_ITEM_TEXT_TITLE_REL2_Y
+
+/** Size text relative positions. */
+#define CATEGORY_ITEM_TEXT_SIZE_OFFSET1_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_LEFT_PADDING_W)
+
+#define CATEGORY_ITEM_TEXT_SIZE_OFFSET1_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_TOP_PADDING_H-CATEGORY_ITEM_TEXT_TITLE_H)
+
+#define CATEGORY_ITEM_TEXT_SIZE_OFFSET2_X \
+        (CATEGORY_ITEM_WIDTH-CATEGORY_ITEM_LEFT_PADDING_W-CATEGORY_ITEM_TEXT_SIZE_W)
+
+#define CATEGORY_ITEM_TEXT_SIZE_OFFSET2_Y \
+        (CATEGORY_ITEM_HEIGHT-CATEGORY_ITEM_TOP_PADDING_H-CATEGORY_ITEM_TEXT_TITLE_H-CATEGORY_ITEM_TEXT_SIZE_H)
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL1_X \
+        CATEGORY_ITEM_TEXT_SIZE_OFFSET1_X/CATEGORY_ITEM_WIDTH
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL1_Y \
+        CATEGORY_ITEM_TEXT_SIZE_OFFSET1_Y/CATEGORY_ITEM_HEIGHT
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL2_X \
+        CATEGORY_ITEM_TEXT_SIZE_OFFSET2_X/CATEGORY_ITEM_WIDTH
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL2_Y \
+        CATEGORY_ITEM_TEXT_SIZE_OFFSET2_Y/CATEGORY_ITEM_HEIGHT
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL1 \
+        CATEGORY_ITEM_TEXT_SIZE_REL1_X CATEGORY_ITEM_TEXT_SIZE_REL1_Y
+
+#define CATEGORY_ITEM_TEXT_SIZE_REL2 \
+        CATEGORY_ITEM_TEXT_SIZE_REL2_X CATEGORY_ITEM_TEXT_SIZE_REL2_Y
+
+#define CATEGORY_COLOR	0 0 0 0
+
+#define CATEGORY_COLOR_3 244 244 242 100
+#define CATEGORY_COLOR_4 229 229 227 100
+#define CATEGORY_COLOR_5 216 216 214 100
+
+#define BUTTON_DATE_TEXT_SIZE 30
+
+#define STYLE_TAGS \
+   tag:  "br" "\n";\
+   tag:  "ps" "ps";\
+   tag:  "tab" "\t";\
+   tag:  "b" "+ font_weight=Bold";
+
+
+
+styles{
+	style { name: "title_text";
+	   base: "font=Tizen:style=Regular font_size="BUTTON_DATE_TEXT_SIZE" color=#ffffff text_class=T023 ellipsis=0.0";
+	   STYLE_TAGS
+	}
+	style { name: "title_text_press";
+	   base: "font=Tizen:style=Regular font_size="BUTTON_DATE_TEXT_SIZE" color=#ffffff text_class=T023P ellipsis=0.0";
+	   STYLE_TAGS
+	}
+}
+
+#define GENERAL_CATEGORY_TOP(part_name)                              \
+	part {                                                          \
+                name: part_name"_bg";                                   \
+                type: RECT;                                             \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        visible: 0;                                     \
+                        rel1 { relative: 0.0 0.0; }                     \
+                        rel2 { relative: 1.0 0.12; }                     \
+                        color: 255 255 255 255;                           \
+		}                                                       \
+	}                                                               \
+        part {                                                          \
+                name: part_name"_title";                                \
+                type: TEXT;                                             \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        align: 0.5 0.5;                                   \
+                        rel1 {                                          \
+                                relative: 0.1 0.0;                \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 1.0 1.0;               \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        text {                                          \
+                                size: 24;                     \
+                                align: 0 0;                           \
+                        }                                               \
+                        color: 36 87 148 255;                            \
+                }                                                       \
+        }                                                               \
+
+#define GENERAL_CATEGORY_ITEM_PART(part_name, image_path, image_focus_path) \
+	part {                                                          \
+                name: part_name"_bg";                                   \
+                type: RECT;                                             \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        visible: 0;                                     \
+                        rel1 { relative: 0.0 0.17; }                     \
+                        rel2 { relative: 1.0 1.0; }                     \
+                        color: 255 255 255 255;                           \
+		}                                                       \
+	}                                                               \
+        part {                                                          \
+                name: part_name"_image";                                \
+                type: IMAGE;                                            \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        min: CATEGORY_ITEM_ICON_SIZE;                   \
+                        max: CATEGORY_ITEM_ICON_SIZE;                   \
+                        fixed: 1 1;                        \
+                        align: 0.5 0.5;                                 \
+                        rel1 {                                          \
+                                relative: 0.05 0.2;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 0.1 0.6;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        image { normal: image_path; }                   \
+                       color: 77 77 77 255;                         \
+                }                                                       \
+                 description {                                           \
+                        state: "landscape" 0.0;                           \
+                        min: CATEGORY_ITEM_ICON_SIZE;                   \
+                        max: CATEGORY_ITEM_ICON_SIZE;                   \
+                        align: 0.5 0.5;                                 \
+                        rel1 {                                          \
+                                relative: 0.07 0.2;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 0.02 0.6;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        image { normal: image_path; }                   \
+                       color: 77 77 77 255;                         \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                }                                                       \
+        }                                                               \
+        part {                                                          \
+                name: part_name"_title";                                \
+                type: TEXT;                                             \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        align: 0 0.5;                                   \
+                        rel1 {                                          \
+                                relative: 37/240 45/137;                \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 190/240 60/137;               \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        text {                                          \
+                               font:"Tizen:style=Regular";              \
+                               size:36;                 \
+                                align: 0 0.5;                           \
+                        }                                               \
+                        color: 0 0 0 255;                            \
+                }                                                       \
+                description {                                           \
+                        state: "landscape" 0.0;                           \
+                        align: 0 0.5;                                   \
+                        rel1 {                                          \
+                                relative: 23/240 45/137;                \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 190/240 60/137;               \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        text {                                          \
+                               font:"Tizen:style=Regular";              \
+                               size:36;                 \
+                                align: 0 0.5;                           \
+                        }                                               \
+                        color: 0 0 0 255;                            \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                        text {                                          \
+                               font:"Tizen:style=Regular";              \
+                               size:36;                 \
+                                align: 0 0.5;                           \
+                        }                                               \
+                        color: 0 0 0 255;                           \
+                }                                                       \
+        }                                                               \
+        part {                                                          \
+                name: part_name"_size";                                 \
+                type: TEXT;                                             \
+                mouse_events: 0;                                        \
+                scale: 1;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        align: 0 0.5;                                   \
+                        rel1 {                                          \
+                                relative: 190/240 45/137;                \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 240/240 85/137;               \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        text {                                          \
+                               font:"Tizen:style=Regular";              \
+                               size:24;                 \
+                                align: 0 0;                             \
+                        }                                               \
+                        color: 77 77 77 255;                            \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                        text {                                          \
+                               font:"Tizen:style=Regular";              \
+                               size:24;                 \
+                                align: 0 0;                             \
+                        }                                               \
+                        color: 21 108 148 255;                           \
+                }                                                       \
+        }
+
+#define GENERAL_TEXTBLOCK_CATEGORY_ITEM_PART(part_name, image_path, image_focus_path) \
+	part {                                                          \
+                name: part_name"_bg";                                   \
+                type: RECT;                                             \
+                mouse_events: 0;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        visible: 0;                                     \
+                        rel1 { relative: 0.0 0.0; }                     \
+                        rel2 { relative: 1.0 1.0; }                     \
+                        color: 255 255 255 255;                           \
+		}                                                       \
+	}                                                               \
+        part {                                                          \
+                name: part_name"_image";                                \
+                type: IMAGE;                                            \
+                mouse_events: 0;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        min: CATEGORY_ITEM_ICON_SIZE;                   \
+                        max: CATEGORY_ITEM_ICON_SIZE;                   \
+                        fixed: 1 1;					\
+                        align: 0.5 0.5;                                 \
+                        rel1 {                                          \
+                                relative: 0.03 0.2;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 0.1 0.6;      \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        image { normal: image_path; }                   \
+                       color: 0 0 0 255;                           \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                }                                                       \
+        }                                                               \
+        part {                                                          \
+                name: part_name"_title";                                \
+                type: TEXTBLOCK;                                             \
+                mouse_events: 0;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        align: 0.0 0.0;                                   \
+                        rel1 {                                          \
+				relative: 35/240 0;		\
+				to: part_name"_bg";			\
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 225/240 100/137;               \
+                                to: part_name"_bg";                     \
+                        }                                               \
+                        text {                                          \
+				style: "title_text";	\
+                        }                                               \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                        text {                                          \
+				style: "title_text_press";		\
+                        }                                               \
+                }                                                       \
+        }                                                               \
+        part {                                                          \
+                name: part_name"_size";                                 \
+                type: TEXT;                                             \
+                mouse_events: 0;                                        \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        align: 0 0.0;                                   \
+			rel1 {						\
+				relative: 200/240 0.2;		\
+				to_x: part_name"_bg";			\
+				to_y:part_name"_title";			\
+			}						\
+			rel2 {						\
+				relative: 240/240 1;		\
+				to: part_name"_bg";			\
+			}						\
+                        text {                                          \
+                                text_class: "T024";                     \
+                                align: 0 0;                             \
+                        }                                               \
+                        color: 77 77 77 255;                            \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                        text {                                          \
+                                text_class: "T024S";                    \
+                                align: 0 0;                             \
+                        }                                               \
+                        color: 21 108 148 255;                           \
+                }                                                       \
+        }
+
+#define GENERAL_CATEGORY_ITEM_BG_PART(part_name, port_color, land_color) \
+	part {                                                          \
+                name: part_name;                                        \
+                type: RECT;                                             \
+                mouse_events: 1;                                        \
+                scale: 1;                                               \
+                description {                                           \
+                        state: "default" 0.0;                           \
+                        rel1 { relative: 0.0 0.0; }                     \
+                        rel2 { relative: 1.0 1.0; }                     \
+                }                                                       \
+                description {                                           \
+                        state: "portrait" 0.0;                          \
+                        inherit: "default" 0.0;                         \
+                        color: port_color;                        \
+                }                                                       \
+                description {                                           \
+                        state: "landscape" 0.0;                         \
+                        inherit: "default" 0.0;                         \
+                        color: land_color;                        \
+                }                                                       \
+                description {                                           \
+                        state: "press" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                        color: 21 108 148 77;                            \
+                }                                                       \
+        }
+
+/* portrait divider only exist in portrait mode */
+#define DIVIDER_PART(divider_name, left, right)                         \
+        part {                                                          \
+                name: divider_name;                                     \
+                type: RECT;                                             \
+                description {                                           \
+                        state: "default" 0.0;                           \
+			fixed: 1 1;					\
+                        rel1 {                                          \
+                                relative: 1.0 0.0;                      \
+                                offset: -1 13;                          \
+                                to: left;                               \
+                        }                                               \
+                        rel2 {                                          \
+                                relative: 0.0 1.0;                      \
+                                offset: 1 -13;                          \
+                                to: right;                              \
+                        }                                               \
+                        color: 41 73 72 178.5;                            \
+                }                                                       \
+                description {                                           \
+                        state: "shown" 0.0;                             \
+                        inherit: "default" 0.0;                         \
+                }                                                       \
+                description {                                           \
+                        state: "hidden" 0.0;                            \
+                        visible: 0;                                     \
+                        min: 0 0;                                       \
+                        max: 0 0;                                       \
+                        fixed: 1 1;					\
+                        rel1 { relative: 0.0 0.0; }                     \
+                        rel2 { relative: 0.0 0.0; }                     \
+                }                                                       \
+        }
+
+#define GENERAL_CATEGORY_ITEM_PROGRAMS(part_name)                       \
+	program {                                                       \
+                name: part_name"_press";                                \
+                signal: "mouse,down,1";                                 \
+                source: part_name;                                      \
+                action: STATE_SET "press" 0.0;                          \
+                target: part_name;                                      \
+                target: part_name"_size";                               \
+	}                                                               \
+	program {                                                       \
+                name: part_name"_release";                              \
+                signal: "mouse,up,1";                                   \
+                source: part_name;                                      \
+                action: STATE_SET "default" 0.0;                        \
+                target: part_name"_size";                               \
+                after: part_name"_released";                            \
+	}                                                               \
+	program {                                                       \
+                name: part_name"_land";                              \
+                signal: "landscape";                                   \
+                source: part_name;                                      \
+                action: STATE_SET "landscape" 0.0;                        \
+                target: part_name"_image";                               \
+                target: part_name"_title";                               \
+	}                                                               \
+	program {                                                       \
+                name: part_name"_port";                              \
+                signal: "portrait";                                   \
+                source: part_name;                                      \
+                action: STATE_SET "default" 0.0;                        \
+                target: part_name"_image";                               \
+                target: part_name"_title";                               \
+	}                                                               \
+	program {                                                       \
+                name: part_name"_clicked";                              \
+                signal: "mouse,clicked,1";                              \
+                source: part_name;                                      \
+                action: SIGNAL_EMIT part_name",clicked" "background_signal"; \
+                after: "touch_snd";                                     \
+	}                                                               \
+        program {                                                       \
+                name: part_name"_released";                             \
+                source: part_name;                                      \
+                action: SIGNAL_EMIT part_name",released" "released_signal"; \
+	}                                                               \
+	program {                                                       \
+		name: "touch_snd";                                      \
+		signal: "elm,state,sound,play";                         \
+		source: "elm";                                          \
+		action: RUN_PLUGIN "touch_sound";                       \
+        }                                                               \
+        program {                                                       \
+                name : part_name",portrait";                            \
+                source: part_name;                                      \
+                signal: "portrait";                                     \
+                action: STATE_SET "portrait" 0.0;                       \
+                target: part_name;                                      \
+        }                                                               \
+        program {                                                       \
+                name : part_name",landscape";                           \
+                source: part_name;                                      \
+                signal: "landscape";                                    \
+                action: STATE_SET "landscape" 0.0;                      \
+                target: part_name;                                      \
+        }
+/*
+                script: {                                               \
+                        set_state(PART:part_name, "portrait", 0.0);     \
+                }                                                       \
+                script: {                                               \
+                        set_state(PART:part_name, "landscape", 0.0);    \
+                }                                                       \
+        }
+*/
+collections {
+	base_scale: 2.4;
+	plugins {
+                plugin {
+                        name   : "touch_sound";  /* Name run by RUN_PLUGIN */
+                        source : "feedback";	 /* External edje plugin name */
+                        param  : "FEEDBACK_TYPE_SOUND FEEDBACK_PATTERN_TAP";
+                }
+	}
+	sounds {
+		sample {
+			name: "button-pressed" RAW;
+			source: "button-pressed.wav";
+		}
+	}
+	images {
+		image: "U01_category_cell.png" COMP;
+		image: "U01_category_cell_press.#.png" COMP;
+		image: "U01_category_icon_images.png" COMP;
+		image: "U01_category_icon_images_h.png" COMP;
+		image: "U01_category_icon_videos.png" COMP;
+		image: "U01_category_icon_videos_h.png" COMP;
+		image: "U01_category_icon_documents.png" COMP;
+		image: "U01_category_icon_documents_h.png" COMP;
+		image: "U01_category_icon_sound.png" COMP;
+		image: "U01_category_icon_sound_h.png" COMP;
+		image: "U01_category_icon_all.png" COMP;
+		image: "U01_category_icon_all_h.png" COMP;
+		image: "U01_category_icon_recent.png" COMP;
+		image: "U01_category_icon_recent_h.png" COMP;
+	}
+	group {
+		name: "category_frame";
+		parts {
+			part {
+                                name: "category_rect";
+				type: RECT;
+				mouse_events: 0;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 1.0 0.12; }
+					color: 255 255 255 255;
+				}
+			}
+			part {
+                                name: "category_text";
+				type: SWALLOW;
+				mouse_events: 0;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.5; to:"category_rect";}
+					rel2 { relative: 0.3 0.1; to:"category_rect";}
+					}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+					visible: 1;
+				}
+				description {
+					state: "landscape" 0.0;
+					rel1 { relative: 0.0 0.5; to:"category_rect";}
+					rel2 { relative: 0.2 0.1; to:"category_rect";}
+				}
+			}
+			part {
+                                name: "bg";
+				type: RECT;
+				mouse_events: 0;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.12; }
+					rel2 { relative: 1.0 1.0; }
+					color: 255 255 255 255;
+				}
+			}
+                        
+			/* define the `All files' category */
+			part {
+                                name: "1";
+				type: SWALLOW;
+				mouse_events: 1;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1{
+						relative: 0.0 0.0;
+						to: "bg";
+                                        }
+					rel2{
+						relative: 1.0 1/5;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+						to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_3;
+				}
+				description {
+					state: "landscape" 0.0;
+					align: 0.5 0.5;
+					rel1 {
+                                                relative: 0.0 0.0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 1/5;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+                                        color: CATEGORY_COLOR_3;
+				}
+			}
+			   /* there is a divider between `all files' category and `image' category. */
+                        DIVIDER_PART("divider_recent_image", "1", "2");
+            
+			/* define the image category */
+			part {
+                                name: "2";
+				type: SWALLOW;
+				mouse_events: 1;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1{
+						relative: 0.0 1/5;
+                                                //offset: (CATEGORY_ITEM_DIVIDER_W/2) 0;
+						to: "bg";
+                                        }
+					rel2{
+						relative: 1.0 2/5;
+						to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_3;
+				}
+				description {
+					state: "landscape" 0.0;
+                                        color: CATEGORY_COLOR_3;
+					rel1 {
+                                                relative: 0.0 1/5;
+                                                //offset: (CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 2/5;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+				//	align: 0.5 0.5;
+				}
+			}
+
+                        /* there is a divider between `all files' category and `image' category. */
+                        DIVIDER_PART("divider_image_video", "2", "3");
+
+			/* define the video category */
+			part { name: "3";
+				type: SWALLOW;
+				mouse_events: 1;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1 {
+                                                relative: 0.0 2/5;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 3/5;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_4;
+				}
+				description {
+					state: "landscape" 0.0;
+					align: 0.5 0.5;
+					rel1 {
+                                                relative: 0.0 2/5;
+                                                offset: -1 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 3/5;
+                                                to: "bg";
+                                        }
+                                        color: CATEGORY_COLOR_3;
+				}
+			}
+
+                        /* there is a  divider between `category_image' and `category_video'
+                           only in landscape mode. */
+                        DIVIDER_PART("divider_video_audio", "3", "4");
+
+			/* define the audio category */
+			part {
+                                name: "4";
+				type: SWALLOW;
+				mouse_events: 1;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1 {
+                                                relative: 0.0 3/5;
+                                                //offset: (CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 4/5;
+                                                to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_4;
+				}
+				description {
+					state: "landscape" 0.0;
+					align: 0.5 0.5;
+                                        color: CATEGORY_COLOR_4;
+					rel1 {
+                                                relative: 0.0 3/5;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 4/5;
+                                                offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+				}
+			}
+
+                        /* there is a divider between `category_video'
+                           and `category_sound' only in portrait mode */
+                        DIVIDER_PART("divider_audio_document", "4", "5");
+
+			/* define the document category */
+			part {
+                                name: "5";
+				type: SWALLOW;
+				mouse_events: 1;
+				repeat_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1 {
+                                                relative: 0.0 4/5;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 1.0;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_5;
+				}
+				description {
+					state: "landscape" 0.0;
+					align: 0.5 0.5;
+                                        color: CATEGORY_COLOR_4;
+					rel1 {
+                                                relative: 0.0 4/5;
+                                                //offset: (CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 1.0;
+                                                //offset: -(CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+				}
+			}
+
+                        /* there is a divider between `category_sound'
+                           and `category_document' only in landscape mode */
+                      //  DIVIDER_PART("divider_document_download", "5", "6");
+
+                        /* define the `recent files' category */
+                      part {
+                                name: "6";
+                                type: SWALLOW;
+                                mouse_events: 1;
+                                repeat_events: 1;
+                                scale: 1;
+                                description {
+					state: "default" 0.0;
+                                        visible: 0;
+					rel1 {
+                                                relative: 0.0 5/6;
+                                                //offset: (CATEGORY_ITEM_DIVIDER_W/2) 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 1.0;
+                                                to: "bg";
+                                        }
+					align: 0.5 0.5;
+				}
+				description {
+					state: "portrait" 0.0;
+					inherit: "default" 0.0;
+                                        visible: 1;
+                                        color: CATEGORY_COLOR_5;
+				}
+				description {
+					state: "landscape" 0.0;
+					align: 0.5 0.5;
+                                        color: CATEGORY_COLOR_4;
+					rel1 {
+                                                relative: 0.0 5/6;
+                                                offset: -1 0;
+                                                to: "bg";
+                                        }
+					rel2 {
+                                                relative: 1.0 1.0;
+                                                to: "bg";
+                                        }
+				}
+                        }
+
+		} /*end parts*/
+
+		programs {
+		program {
+				name : "category_frame,landscape";
+				source: "category_frame";
+				signal: "landscape";
+				script: {
+					set_state(PART:"1", "landscape", 0.0);
+					set_state(PART:"2", "landscape", 0.0);
+					set_state(PART:"3", "landscape", 0.0);
+					set_state(PART:"4", "landscape", 0.0);
+					set_state(PART:"5", "landscape", 0.0);
+					set_state(PART:"category_text", "landscape", 0.0);
+					set_state(PART:"divider_recent_image", "shown", 0.0);
+					set_state(PART:"divider_image_video", "shown", 0.0);
+					set_state(PART:"divider_video_audio", "shown", 0.0);
+					set_state(PART:"divider_audio_document", "shown", 0.0);
+				}
+			}
+			program {
+				name : "category_frame,portrait";
+				source: "category_frame";
+				signal: "portrait";
+				script: {
+					set_state(PART:"1", "portrait", 0.0);
+					set_state(PART:"2", "portrait", 0.0);
+					set_state(PART:"3", "portrait", 0.0);
+					set_state(PART:"4", "portrait", 0.0);
+					set_state(PART:"5", "portrait", 0.0);
+					set_state(PART:"category_text", "portrait", 0.0);
+					set_state(PART:"divider_recent_image", "shown", 0.0);
+					set_state(PART:"divider_image_video", "shown", 0.0);
+					set_state(PART:"divider_video_audio", "shown", 0.0);
+					set_state(PART:"divider_audio_document", "shown", 0.0);
+				}
+			}
+		}
+	}/*end group : frame*/
+
+group {
+		name: "group_category_text";
+		parts {
+			GENERAL_CATEGORY_TOP("category_text");
+                }
+	}
+	group {
+		name: "group_category_image";
+		parts {
+			GENERAL_CATEGORY_ITEM_BG_PART("category_image", CATEGORY_COLOR_3, CATEGORY_COLOR_3);
+			GENERAL_CATEGORY_ITEM_PART("category_image",
+                                                   "U01_category_icon_images.png",
+                                                   "U01_category_icon_images_h.png");
+                }
+		programs {
+			GENERAL_CATEGORY_ITEM_PROGRAMS("category_image");
+		}
+	} /*end group : group_category_image*/
+
+	group {
+		name: "group_category_video";
+		parts {
+			GENERAL_CATEGORY_ITEM_BG_PART("category_video", CATEGORY_COLOR_4, CATEGORY_COLOR_3);
+			GENERAL_CATEGORY_ITEM_PART("category_video",
+                                                   "U01_category_icon_videos.png",
+                                                   "U01_category_icon_videos_h.png");
+                }
+		programs {
+			GENERAL_CATEGORY_ITEM_PROGRAMS("category_video");
+		}
+	}/*end group : group_category_video*/
+
+	group {
+		name: "group_category_sound";
+		parts {
+			GENERAL_CATEGORY_ITEM_BG_PART("category_sound", CATEGORY_COLOR_4, CATEGORY_COLOR_4);
+			GENERAL_CATEGORY_ITEM_PART("category_sound",
+                                                   "U01_category_icon_sound.png",
+                                                   "U01_category_icon_sound_h.png");
+                }
+		programs {
+			GENERAL_CATEGORY_ITEM_PROGRAMS("category_sound");
+		}
+	}/*end group : group_category_sound*/
+
+	group {
+		name: "group_category_document";
+		parts {
+			GENERAL_CATEGORY_ITEM_BG_PART("category_document", CATEGORY_COLOR_5, CATEGORY_COLOR_4);
+			GENERAL_CATEGORY_ITEM_PART("category_document",
+                                                   "U01_category_icon_documents.png",
+                                                   "U01_category_icon_documents_h.png");
+                }
+		programs {
+			GENERAL_CATEGORY_ITEM_PROGRAMS("category_document");
+		}
+	}/*end group : group_category_document */
+
+        group {
+		name: "group_category_recent";
+		parts {
+			GENERAL_CATEGORY_ITEM_BG_PART("category_recent", CATEGORY_COLOR_3, CATEGORY_COLOR_3);
+			GENERAL_CATEGORY_ITEM_PART("category_recent",
+                                                   "U01_category_icon_recent.png",
+                                                   "U01_category_icon_recent_h.png");
+                }
+		programs {
+			GENERAL_CATEGORY_ITEM_PROGRAMS("category_recent");
+		}
+	} /*end group : group_category_image*/    
+
+}//End collection
+//end file

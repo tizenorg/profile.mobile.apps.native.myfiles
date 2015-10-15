@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "თქვენი მოწყობილობა არ არის დაკავშირებული Wi-Fi ქსელთან. მობილურ ქსელთან დაკავშირებისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად"
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "გაზიარება"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "გაზიარება მეთოდით"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "მობილურ მონაცემთა ქსელი გამორთულია. სანაცვლოდ, დაუკავშირდით Wi-Fi ქსელს, ან ჩართეთ მობილური მონაცემები და ისევ სცადეთ."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d ელემენტი წაიშლება."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "ეს ელემენტი წაიშლება."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "ჩამოტვირთვა..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "მეხსიერება არ არის საკმარისი."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "გაუქმებულია."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "ვერ ჩამოიტვირთა."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "წარმატება"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "შექმნა"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "წაშლილია."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "მეხსიერების ბარათი ამოღებულია."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "იძებნება..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "ქსელთან დაკავშირების შეცდომა."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "საქაღალდის წაშლა"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "შეიყვანეთ საქაღალდის სახელი."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "ჩამოტვირთული პროგრამები"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "მოხდა ქსელთან დაკავშირების შეცდომა. ზარი დასრულდა. ისევ დაუკავშირდებით ქსელს?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "კი"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "შენახვა"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "დიახ"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "არა"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "ღილაკის დამატება"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "წაშლა"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "ღილაკის წაშლა"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "ღილაკის სახელის შეცვლა"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "ძებნა"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "გაზიარება"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "გამოყენებული მეხსიერება"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "აღარ მაჩვენო"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "ბიტი"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "სერვერი ვერ დაკავშირდა."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "პერსონალური"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "ღილაკის წაშლა"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "კვების ელემენტი იცლება"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 ფაილი"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "ჩემი ალბომი"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "დამატება ადგილიდან:"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "სიგნალები"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "ნებისმიერი"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "დასაშვები გამოყენება"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "ბიტი"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "შინაარსი"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "შექმნილი მონაცემები"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "თარიღი"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "წაშლით შერჩეულ ელემენტებს?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "დოკუმენტები"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "შესრულება"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "ფაილის სახელი"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "ფლ. ტიპი"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "საქაღალდის სახელი"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "გადამისამართება"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS ინფორმაცია"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS განედი"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS გრძედი"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS ვერსია"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "გამოსახულებები"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "შეუძლებელია"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "ინდივიდუალური"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "ინტერვალი"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "ბოლოს შესწორდა"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "სია და დეტალები"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "ადგილმდებარეობა"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "სრულდება MMC მონაცემთა ინიციალიზაცია..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "ჩემი ვიდეოკლიპები"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "ტელეფონში არ არის საკმარისი მეხსიერება. წაშალეთ ზოგიერთი ელემენტი და ისევ ცადეთ."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ფაილები არ არის"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "ბოლოდროს გახსნილი ფაილები არ არის"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "ბოლოდროინდელი ფაილები არ არის"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d ფაილი"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d ელემენტი"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d ელემენტი"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "შესაძლო"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "ამობეჭდვა"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "გდრქმ."
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "ნამდვილი სტატუსი"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "ზარის მელოდიები"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "გაზიარება"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "დამალული ფაილების ჩვენება"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "ხმები"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "გამოყენებული მეხს."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "დრო"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "შეყოვნებული დათვლა"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "ტიპი"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "შეუზღუდავი"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "ზემოთ"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "ქმედითობა"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "მომწოდებელი"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "ვიდეოები"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "ფონები"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "დაამატე საწყისზე"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "შეასრულეთ ექსპორტი აქ"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "ჩემს ფაილებზე გადას."
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "საწყისი გვერდი"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "შეცვლა"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "ყველა საქაღალდის ძებნა"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "აქ დადება"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "გაფართოებული ძიება"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "აუდიო"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "მობილურ ქსელთან დაკავშირება"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "დაუკავშირდით Wi-Fi ქსელს"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "დათვლა"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "შეიყვანეთ საქაღალდის სახელი."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "ადგილობრივი"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "ახალი საქაღალდე"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "ბოლოდროინდელი ფაილები"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "ფაილის წაშლა"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "გააზ. „ხმა და გადაღება“"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "მეხსიერება"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "ვერ შექმნით საქაღალდეს"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "ყველას არჩევა"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "ჩაწერეთ საქაღალდის სახელი"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "ღილაკებში დამატება"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "როგორც გრაფიკული ფაილები"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "როგორც ვიდეო ფაილები"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "აბონენტის ზარის მელოდია"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "დაარქივება"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "შექმენი საქაღალდე"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "თარიღი (უახლესი)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "თარიღი (ყველაზე ძველი)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "არქივიდან ამოღება"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "ამოიღეთ არქივიდან აქ"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "ავტომატურად შერჩეული ზარი"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "დეტალური დათვალიერება"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "შეცვლა"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "ამოღება"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "ამოღება და ჩადება მიმდინარე საქაღალდეში"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "საქაღალდეზე გადასვლა"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "გაფართოების დამალვა"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "ელემენტები"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "სახელი"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "ჩამონათვალი პარამეტრით"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "გადმოტანა"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "სახელი"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "ფაილის ადგილის გახსნა"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "პერსონალური გვერდი"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "ხმის ჩაწერა"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "რეგისტრაცია კონტაქტებში"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "გადარქმევა"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "სახელი შეიცვალა."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "საქაღალდის სახელის შეცვლა"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "შეინახეთ აქ"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "ახლო მოწყობილობების ძებნა"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "შერჩეული"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "ბმულის გაზიარება"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "ჩანდეს ფაილის გაფართოება"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "დაყოფა"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "დალაგება კრიტერიუმით"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "მიკროასლების ნახვა"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "დათვალიერება როგორც"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "დათვალიერება სიით"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "დათვალიერება პიქტოგრამებით"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ელემენტი წაიშლება."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "ზრდადი"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "გაგრძელება"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "გადაწერა არ მოხერხდა."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "წაშლა არ მოხერხდა."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "წაშლით არჩეულ ელემენტს?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "კლებადი"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM ფაილი. ვერ გაგზავნით."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM ფაილი მიუწვდომელია."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "ფაილის სახელი უკვე გამოყენებულია."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "საქაღალდის სახელი უკვე არსებობს."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ფორმატი"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "საიდან"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "შეყვანილი ტექსტი"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "ფაილის არასწორი დასახელება."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "იტვირთება..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "საქაღალდეების რაოდენობამ მაქსიმუმს მიაღწია."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "გადატანა ვერ შესრულდა."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "სახელი ცარიელია."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "არ არის საკმარისი მასიური მეხსიერება."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "არ არის საკმარისი მეხსიერება. წაშალეთ ზოგიერთი ელემენტი და ისევ ცადეთ."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "მეხსიერება არ არის საკმარისი. დარჩენილია %s."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "აქ ჩასვით"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ელემენტი წაიშლება."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ნებართვა უარყოფილია."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "წაიშალოს ბოლოდროინდელი ფაილების სიაში?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "მოცილდეს სწრაფი ღილაკებიდან?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "უკვე არსებობს ფაილი ამ სახელით!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "იგივე სახელი უკვე გამოყენებულია."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "ელემენტის არჩევა"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "ვერ გაიგზავნა."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "ღილაკი დაემატა."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "საბოლოო საქაღალდე დევს საწყის საქაღალდეში."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "საბოლოო საქაღალდე იგივე რაც საწყისი საქაღალდე."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "მოწყობილობა გამოირთო"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ფაილი არ არსებობს."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "ვერ დაკოპირდება."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "ვერ გადაადგილდება."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "ამ მოქმედების შესრულება შეუძლებელია. მოხდა ქსელის შეცდომა."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "ვერ დაუკრავთ ზარის დროს."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM-ით დაცული მასალის ზარის მელოდიად ან შეტყობინების სიგნალად დაყენება შეუძლებელია."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "ახლომდებარე მოწყობილობების მოსაძებნად, დაკავშირებული უნდა იყოთ Wi-Fi ქსელით. დაუკავშირდით Wi-Fi-ით და ისევ სცადეთ."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "უკან"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "ასლი"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "წაშლა"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "რედაქტირება"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "გადატანა"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "ძიება"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "დალაგება"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "ნახეთ როგორც"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "გაუქმ."
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "ყველა"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "გარე მეხსიერება"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "მეხსიერ. ბარათი"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "ტელეფონი"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "ზევით"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "დაარქივებული"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "არქივიდან ამოღებული"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "იტვირთება ფაილი..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "ფაილები დაარქივდა"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "ფაილები ამოღებულია არქივიდან"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "ფაილი იმპორტირდა."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "მოწყობილობები ვერ მოიძებნა. სკანირება გაგრძელდება ფონზე"
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "დირექტორია"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "დაკვშ."
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "შეტყობინების საწყისი ხმა"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "სწრაფი ღილაკის დამატება"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "წაშლით ელემენტებს?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "ხელახლა დასათაურება"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "წაშლა"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "ელემენტის წაშლა"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "ელემენტების არჩევა"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "შედეგები ვერ მოიძებნა"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "წაშლით %d ელემენტს?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "წაშლით ელემენტს?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "არჩეულია 1 ელემენტი."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "აკრეფილია არასწორი სიმბოლო. კიდევ მოსინჯეთ"
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "არჩეულია %d ელემენტი."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "ჩუმი"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "ელემენტის არჩევა"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "მაქსიმუმ %d ელემენტის არჩევა შეგიძლიათ."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "გადმოწერილები"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "გადატანა"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "ასლი"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "გადატანა..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "კოპირდება..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "წაშლა..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "ოპერაცია ვერ შესრულდა."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "შერჩეული"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "გადატანილია."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "დაკოპირდა."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "დალაგება კრიტერიუმით"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "ვერ შესრულდა."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "შესრულდა"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD ბარათი"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "აპარატის მეხსიერება"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "პერსონალურ მეხსიერებაში დამატება"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "პერსონალური მეხსიერებიდან ამოშლა"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "წაიშალოს ეს?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "პერსონალურიდან წაშლა"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "პერსონალურში გადატანა"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "იშლება..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "პერსონალური მეხსიერება"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "ფორმატირება დასრულდა."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "სახელი (ჰ-დან ა-მდე)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "სახელი (ა-დან ჰ-მდე)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "ეკრანის სურათი"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "შედეგები არ მოიძებნა."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "წერილის სიგნალი"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "ჩაწერეთ სახელი."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "ჩემი ფაილები"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "დამატებულია."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "მუშავდება..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "ფაილის ტიპი გაუთვალისწინებელია."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "პერსონალური მასალა"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "დაკოპირდეს ადგილზე"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "გადატანა ადგილზე"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "ღილაკი ვერ დაემატა."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "მეხსიერება საკმარისი არაა. წაშალეთ ზოგიერთი ელემენტი"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "წაშლილია."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "პირადი საცავი"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "არაფერია არჩეული."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "გაზიარება"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "ნახეთ"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "სია"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "ნახვა"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "შეინახოს როგორც"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "ვერ წაიშალა."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "მშობლის შეფასება"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "ფაილის სახელი უკვე გამოყენებულია."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "ხმა"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi მიუწვდომელია. მობილურ ქსელებთან დაკავშირებისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად"
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "მიღწეულია სიმბოლოთა მაქსიმალური რაოდენობა (%d)."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "მზადდება..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d არჩეულია"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "ელემენტების წაშლა"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "არაფერია ჩამოტვირთული"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ჩამოტვირთვა დასრულდა"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "ჩამოტვირთვის მმართველი"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "ჩამოტვირთვის შემდეგ შენაძენები გამოჩნდება აქ."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "ჩამოტვირთვა შეწყდა"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "ვერ ჩამოიტვირთა"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "აპარატის მეხსიერებაში არ არის საკმარისი ადგილი. გახსენით %s პარამეტრები და წაშალეთ ზოგიერთი მონაცემი, ან ჩადეთ SD ბარათი."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "აპარატის მეხსიერებაში არ არის საკმარისი ადგილი. გახსენით %s პარამეტრები და გაათავისუფლეთ ადგილი მეხსიერებაში, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "SD ბარათზე არ არის საკმარისი ადგილი. გახსენით %s პარამეტრები და წაშალეთ ზოგიერთი მონაცემი, ან შენახვის ნაგულისხმევ ადგილად აირჩიეთ მოწყობილობა."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "SD ბარათზე არ არის საკმარისი ადგილი. გახსენით %s პარამეტრები და წაშალეთ ზოგიერთი მონაცემი, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "საცავზე გადასვლა"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "აპარატის მეხსიერება სავსეა"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "შედარებით ძველი"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "მეხსიერება"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "იშლება..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SDბარათი"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "აპარატის მეხსიერება"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "სერვერის შეტყობინება..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ელემენტი წაიშლება."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "ეს ფაილი ვერ იძებნება. ჩამოტვირთვის მცდელობის გასამეორებლად, შეეხეთ „ჩამოტვირთვა“-ს."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "ფაილი ვერ იხსნება"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "პროგრამა ვერ მოიძებნა ამ ფაილის გასახსნელად."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "მცდელობის გასამეორებლად, შეეხეთ ჩამოტვირთვის ნიშანს."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ელემენტი წაიშლება."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "აქტიურდება DRM მასალა..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "პროგრამა ვერ მოიძებნა ამ მოქმედების შესასრულებლად."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "შენახვის ადგილი"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "იმპორტი"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "გაუქმება"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "ყველას არჩევა"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d არჩეულია"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ჩამოტვირთვა"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "დღეს"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "გუშინ"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "წაშლა"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "შეცვლა"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "გამოყენება ყველა ელემენტზე"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Zip ფაილის შექმნა"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Zip ფაილიდან ამოღება"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ჩემი ფაილები"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "ქსელი"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "ჩამოტვირთვების ისტორია"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "ისტორია ცარიელია"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "მარტივი გაზიარება"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "აპლიკაცია ვერ ინსტალირდება"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "მხოლოდ TPK ფაილის დაინსტალირებაა შესაძლებელი. გირჩევთ, დააინსტალიროთ მხოლოდ Tizen მაღაზიიდან ჩამოტვირთული აპლიკაციები."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "თუ ამ ელემენტებს წაშლით აქ, ისინი ასევე წაიშლება Dropbox-ში. %d ელემენტი წაიშლება."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "თუ ამ ელემენტს წაშლით აქ, ის ასევე წაიშლება Dropbox-ში. წაიშლება 1 ელემენტი."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "თუ ამ ელემენტებს გადაიტანთ, ისინი წაიშლება Dropbox-ში. გადავა %d ელემენტი."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "თუ ამ ელემენტს გადაიტანთ, ის წაიშლება Dropbox-ში. გადავა 1 ელემენტი."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "აირჩიეთ მეხსიერების ადგილი"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "გაჩერება"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "ატვირთვა"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "ფაილი ვერ აიტვირთა"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "ატვირთვების შეჩერება"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "შეეხეთ „ატვირთვა“-ს და ისევ სცადეთ."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "ატვირთვა გაჩერდება, მაგრამ ფაილი არ წაიშლება."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "ბოლოს ნანახი"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "მონაცემებს ვერ შეინახავთ"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "მოწყობილობის მეხსიერებაში არ არის საკმარისი ადგილი. გახსენით პარამეტრები > ენერგია და საცავი > მეხსიერება და წაშალეთ ზოგიერთი ფაილი, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD ბარათზე არ არის საკმარისი ადგილი. გახსენით პარამეტრები > ენერგია და საცავი > მეხსიერება და წაშალეთ ზოგიერთი ფაილი, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "ატვირთეთ ადგილზე"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox-ში ატვირთვები"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "პირადი"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "ბაიტი"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "დამატ."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "საწყისი გვერდი"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "სიგნალი"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "სხვები"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "სხვა"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "გახსნა"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "უცნობი შეცდომა."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "საქაღალდის სახელი არ შეიძლება იყოს ‘.’ ან ‘..’."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "არ გამოჩნდეს დამალული ფაილები"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "დამალული ფაილების ჩვენება"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "უცნობი"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "ღილაკის სახელი უკვე გამოყენებულია."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "ძირითადი"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "ფაილი"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "ფაილები"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "საქაღალდე"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "საქაღალდეები"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "სისტემა"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "სახელი"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "აუდიოფაილები"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "დოკუმენტები"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "ჩამოტვირთული აპლიკაციები"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "სურათები"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "ვიდეოები"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "გაუქმება"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "გაუქმება"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "შექმნა"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "წაშლა"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "კი"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "წაშლა"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "გადარქმევა"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "დეინსტალაცია"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "ღილაკის დამატება"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "აუდიოფაილები"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "ასლი"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "კოპირება ადგილზე"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "საქაღალდის შექმნა"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "ღილაკის წაშლა"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "დოკუმენტები"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "ჩამოტვირთული პროგრამები"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "გამოსახულებები"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "გადატანა"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "გადატანა"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d არჩეულია"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "ბოლოდროინდელი ფაილები"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "წაშლა"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "გადარქმევა"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "სწრაფი ღილაკები"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "დალაგება კრიტერიუმით"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "დეინსტალაცია"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "ატვირთეთ ადგილზე"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "ვიდეოები"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "ნახეთ როგორც"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "ყველა"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "ღილაკები"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "შეიცავს"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "აპარატის მეხსიერება"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "დაფორმატება"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "ლოკაცია"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD ბარათი"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "ფაილის გაფართოების ჩვენება"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "დამალული ფაილების ჩვენება"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "ზომა"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "ტიპი"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "მომწოდებელი"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "ფაილები არ არის"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "ზრდადი"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "ასლი"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "საქაღალდის შექმნა"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "კლებადი"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "დეტალური სია"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "აღარ მაჩვენო"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "ფაილის ტიპი"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "სია"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "გადატანა"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "წაშლა"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "ზომა"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "დრო"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "ტიპი"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "დეინსტალაცია"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 ელემენტი მოცილდება."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 ღილაკი წაიშლება."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "კოპირდება..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "გადატანა..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d ელემენტი მოცილდება."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "წაიშლება %d ღილაკი."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "იშლება..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "შესაძლოა, როუმინგში მობილურ მონაცემთა გამოყენებისთვის დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "შესაძლო გამოყენება"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "შექმნის თარიღი"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "აღწერა"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "გადამისამართება"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "ბოლოს შესწორდა"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "გარჩევადობა"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "საერთო ზომა"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "ქმედითობა"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "საბოლოო საქაღალდე დევს საწყის საქაღალდეში."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "სამიზნე საქაღალდე იგივეა, რაც საწყისი საქაღალდე."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "ღილაკი ვერ დაემატა."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "ელემენტი ვერ დაკოპირდა."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "ელემენტი ვერ წაიშალა."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "ელემენტი ვერ გადავიდა."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "ელემენტი ვერ წაიშალა."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "ფაილის სახელი უკვე გამოყენებულია"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "მიღწეულია ღილაკების მაქსიმალური რაოდენობა (%d)."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "ღილაკი დაემატა."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "ღილაკი უკვე არსებობს"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "განახლება"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d ელემენტი წაიშლება."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d აპლიკაციის ინსტალაცია გაუქმდება."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "შესრულდება %s პროგრამის დეინსტალაცია."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "ზომა"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "სიის ნახვა"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "საქაღალდის სახელი უკვე გამოყენებულია."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "ადგილობრივი მეხსიერება"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "აპარატის მეხს."
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "სისტემაში არ ხართ შესული."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "ყველა ფაილი"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "მეხსიერება გლობალურ ქსელში"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "რიგი"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "სწრაფი ღილაკები"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "დრო"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "ინსტალაციის გაუქმება"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "შეიცავს"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "სახე არ არის დადგენილი"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "უკვე არის."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "ვერ გადაიტანთ. საბოლოო და საწყისი საქაღალდეები ერთიდაიგივეა."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "საქაღალდის შექმნა"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "სხვა"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "გადაიტანეთ აქ"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "ჩასვით აქ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "დაყენება"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "ფაილი ამ ტიპს ვერ ხსნის ვერცერთი აპლიკაცია თქვენს მოწყობილობაში."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d ფაილი წაიშლება."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "ფაილები გაიგზავნა"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "მზადაა"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "გაუქმება"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "წაშლა"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "ხელახლა დასათაურება"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "აირჩიეთ ელემენტი"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "არაფერია ატვირთული"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "ატვირთვის შემდეგ, ატვირთულები გამოჩნდება აქ."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "მონაცემებს ვერ შეინახავთ"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD ბარათზე არ არის საკმარისი ადგილი. გახსენით პარამეტრები > ენერგია და საცავი > მეხსიერება და წაშალეთ ზოგიერთი ფაილი, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "მოწყობილობის მეხსიერებაში არ არის საკმარისი ადგილი. გახსენით პარამეტრები > ენერგია და საცავი > მეხსიერება და წაშალეთ ზოგიერთი ფაილი, შემდეგ კი ისევ სცადეთ."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "შეცდომა"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "მეხსიერება შევსებულია."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropbox-ში წაიშლება 1 რამ."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropbox-ში წაიშლება %d რამ."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "მობილურ მონაცემთა ქსელი გამორთულია. დაუკავშირდით Wi-Fi ქსელს, ან ჩართეთ მობილური მონაცემები და ისევ სცადეთ."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "პერსონალური მეხსიერება"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "ბილიკი"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა %d"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "აირჩიეთ მეხსიერება"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "ჩამოტვირთვების ისტორია"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "ჩამოტვირთვების ისტორია"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "იტვირთება..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "ჩამოტვირთვები"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "არაფერია ჩამოტვირთული"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "ვერ ჩამოიტვირთა"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "ვადა: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "ვადა გაუვიდა: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "ფაილი ვერ ჩამოიტვირთა"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "ისევ სცადეთ ფაილის ჩამოტვირთვა, ან წაშალეთ იგი ჩამოტვირთვების რიგში."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "ისევ ცდა"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "წაშლა"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "კატეგორია"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "საქაღალდის სახელი გამოყენებულია"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "ფაილის სახელი გამოყენებულია"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ამ ფაილის სახელი (%s) უკვე გამოყენებულია სამიზნე საქაღალდეში."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ამ საქაღალდის სახელი (%s) უკვე გამოყენებულია სამიზნე საქაღალდეში."
+

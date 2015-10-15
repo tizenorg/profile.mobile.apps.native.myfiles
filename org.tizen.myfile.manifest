@@ -1,0 +1,18 @@
+<manifest>
+        <define>
+              <domain name="org.tizen.myfile" />
+	      <request>
+                <smack request="pkgmgr::info" type="r"/>
+		<smack request="_" type="rwx" />
+       	      </request>
+        </define>
+        <assign>
+              <filesystem path="/usr/share/icons/default/small/org.tizen.myfile.png" label="_" />
+	      <filesystem path="/usr/share/applications/org.tizen.myfile.desktop" label="_" />
+	      <filesystem path="/usr/apps/org.tizen.myfile/shared/res/image/Myfiles_1x1.png" label="_" />
+	      <filesystem path="/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db*" label="org.tizen.myfile::myfile-media.db"/>
+        </assign>
+        <request>
+                <domain name="org.tizen.myfile" />
+        </request>
+</manifest>

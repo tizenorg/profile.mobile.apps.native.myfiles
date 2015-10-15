@@ -1,0 +1,2468 @@
+/*
+* Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+
+
+#include "./edc_common.h"
+
+#define IMG_THUBMNAIL_BG				"myfile_thumbnail_bg.png"
+#define IMG_SELECT_ALL  					"myfile_icon_select_all.png"
+#define IMG_MMC_ICON  					"my_files_sd_card.png"
+#define IMG_VIDEO_PLAY_ICON  					"myfile_icon_video_play.png"
+
+
+
+
+images {
+	image: IMG_THUBMNAIL_BG COMP;
+	image: IMG_SELECT_ALL COMP;
+	image: IMG_MMC_ICON COMP;
+	image: IMG_VIDEO_PLAY_ICON COMP;
+}
+
+
+
+collections {
+
+	plugins {
+	      plugin {
+		 name: "touch_sound";  // Name run by RUN_PLUGIN
+		 source: "feedback";	 // External edje plugin name
+		 param: "FEEDBACK_TYPE_SOUND FEEDBACK_PATTERN_TAP";
+
+	      }
+	}
+	sounds {
+		sample {
+			name: "button-pressed" RAW;
+			source: "button-pressed.wav";
+		}
+	}
+
+#include "myfile-ctxpopup.edc"
+#include "myfile-expand-title.edc"
+#include "myfile-toolbar.edc"
+	/* for genlist  multi_item style*/
+
+
+	group
+	{
+		name:"thumbnail_only";
+		parts
+		{
+			part
+			{
+				name:"base";
+				type:RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 1.0 1.0; }
+					color: 8 8 8 0;
+				}
+			}
+			part
+			{
+				name:"bg";
+				type:RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:"base";}
+					rel2 { relative: 1.0 1.0; to:"base";}
+					color: 8 8 8 0;
+				}
+			}
+			part
+			{
+				name:"file_icon_clipper";
+				type:RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+				}
+			}
+
+			part
+			{
+				name:"thumbnail";
+				type:SWALLOW;
+				clip_to: "file_icon_clipper";
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; to:"file_icon_clipper";}
+					rel2 { relative: 1.0 1.0; to:"file_icon_clipper";}
+				}
+			}
+			part
+			{
+				name:"default_thumbnail";
+				type:SWALLOW;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+				}
+			}
+
+			part
+			{
+				name:"video_play";
+				type:IMAGE;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					visible: 0;
+					min: 0 0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 0.0 0.0; }
+				}
+				description
+				{
+					state: "show" 0.0;
+					inherit: "default" 0.0;
+					visible: 1;
+					min: THUMBNAIL_WIDTH THUMBNAIL_WIDTH;
+					max: THUMBNAIL_WIDTH THUMBNAIL_WIDTH;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+					image.normal: IMG_VIDEO_PLAY_ICON;
+				}
+			}		
+			part
+			{
+				name: "myfile.memory_icon_multi.sub";
+				type: SWALLOW;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative:0.0 0.0; to:"thumbnail";}
+					rel2 { relative:1.0 1.0; to:"thumbnail";}
+				}
+			}
+		}
+		programs {
+			program {
+				name:"disable_video_icon";
+				signal: "elm.video.hide";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "video_play";
+			}
+			program {
+				name:"enable_video_icon";
+				signal: "elm.video.show";
+				source: "elm";
+				action: STATE_SET "show" 0.0;
+				target: "video_play";
+			}
+
+		}
+	}
+
+/********** gengrid content layout **************/
+	group
+	{
+		name:"gengrid_content";
+		min: MF_GENGRID_CONTENT_W MF_GENGRID_CONTENT_H;
+		max: MF_GENGRID_CONTENT_W MF_GENGRID_CONTENT_H;
+		parts
+		{
+			part
+			{
+				name:"bg";
+				type:IMAGE;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 1.0 1.0; }
+					image.normal: IMG_THUBMNAIL_BG;
+
+				}
+			}
+			part
+			{
+				name:"folder_icon";
+				type:SWALLOW;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					min: 72 72;
+					max: 72 72;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+				}
+			}
+			part
+			{
+				name:"file_icon_clipper";
+				type:RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+				}
+			}
+
+			part
+			{
+				name:"file_icon";
+				type:SWALLOW;
+				clip_to: "file_icon_clipper";
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; to:"file_icon_clipper";}
+					rel2 { relative: 1.0 1.0; to:"file_icon_clipper";}
+				}
+			}
+			part
+			{
+				name:"mmc_icon";
+				type:IMAGE;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					visible: 0;
+					min: 0 0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 0.0 0.0; }
+				}
+
+				description {
+					state: "show" 0.0;
+					inherit: "default" 0.0;
+					min:45 45;
+					fixed:1 1;
+					visible: 1;
+					rel1 { relative: (129/176) (3/176); to:"bg";}
+					rel2 { relative: (174/176) (48/176); to:"bg";}
+					image.normal: IMG_MMC_ICON;
+				}
+			}		
+			part
+			{
+				name:"video_play";
+				type:IMAGE;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					visible: 0;
+					min: 0 0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 0.0 0.0; }
+				}
+				description
+				{
+					state: "show" 0.0;
+					inherit: "default" 0.0;
+					visible: 1;
+					min: 108 108;
+					max: 108 108;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:"bg";}
+					rel2 { relative: 1.0 1.0; to:"bg";}
+					image.normal: IMG_VIDEO_PLAY_ICON;
+				}
+			}
+
+		}
+		programs {
+			program {
+				name:"disable_mmc";
+				signal: "elm.mmc.hide";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "mmc_icon";
+			}
+			program {
+				name:"enable_mmc";
+				signal: "elm.mmc.show";
+				source: "elm";
+				action: STATE_SET "show" 0.0;
+				target: "mmc_icon";
+			}
+			program {
+				name:"disable_video_icon";
+				signal: "elm.video.hide";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "video_play";
+			}
+			program {
+				name:"enable_video_icon";
+				signal: "elm.video.show";
+				source: "elm";
+				action: STATE_SET "show" 0.0;
+				target: "video_play";
+			}
+
+		}
+	}
+
+
+	/************** progressbar popup****************/
+			group { name: "popup_center_progressview";
+#define DEMO_POPUP_PROGRESSVIEW_CONTENT_MIN 200 5
+#define DEMO_POPUP_PROGRESSVIEW_PROGRESSBAR_MIN 200 6
+#define DEMO_POPUP_PROGRESSVIEW_TITLE_MIN 200 28
+#define DEMO_POPUP_PROGRESSVIEW_TEXT_LEFT_RIGHT_MAX 142 28
+		   parts {
+		      part { name: "pad_t";
+			 type: SPACER;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    align: 0.5 0.0;
+			    min: 0 40;
+			    fixed: 0 1;
+			    rel1 {
+			       relative: 1.0 0.0;to_x: "pad_l";
+			    }
+			    rel2 {
+			       relative: 0.0 0.0;to_x: "pad_r";
+			    }
+			 }
+		      }
+		      part { name: "pad_l";
+			 type: SPACER;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    min: 29 0;
+			    max: 29 0;
+			    fixed: 1 0;
+			    rel1 {
+			       relative: 0.0 0.0;
+			    }
+			    rel2 {
+			       relative: 0.0 1.0;
+			    }
+			    align: 0.0 0.0;
+			 }
+		      }
+		      part { name: "pad_r";
+			 type: SPACER;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    min: 29 0;
+			    max: 29 0;
+			    fixed: 1 0;
+			    rel1 {
+			       relative: 1.0 0.0;
+			    }
+			    rel2 {
+			       relative: 1.0 1.0;
+			    }
+			    align: 1.0 0.0;
+			 }
+		      }
+		      part { name: "pad_b";
+			 type: SPACER;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    align: 0.0 1.0;
+			    min: 0 10;
+			    fixed: 0 1;
+			    rel1 {
+			       relative: 1.0 1.0;
+			       to_x: "pad_l";
+			    }
+			    rel2 {
+			       relative: 0.0 1.0;
+			       to_x: "pad_r";
+			    }
+			 }
+		      }
+		      part { name: "elm.title";
+			 type: TEXT;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    min: DEMO_POPUP_PROGRESSVIEW_TITLE_MIN;
+			    fixed: 1 1;
+			    text {
+			       min: 0 0;
+			       align: 0.0 0.0;
+			       text_class: "T058";
+			       size : 15;
+			    }
+			    color: 0 0 0 255;
+			    align: 0.5 0.0;
+			    rel1 {
+			       relative: 0.5 0.4;
+			       to: "pad_t";
+			    }
+			    rel2 {
+			       relative: 1.0 0.6;
+			       to: "pad_t";
+			    }
+			 }
+		      }
+		      
+		   part { name: "elm.title.filename";
+			 type: TEXT;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    min: DEMO_POPUP_PROGRESSVIEW_TITLE_MIN;
+			    fixed: 1 1;
+			    text {
+			       min: 0 0;
+			       align: 0.0 0.0;
+			       text_class: "T058";
+			       size : 12;
+			    }
+			   	  color: 0 0 0 255;
+			      align: 0.5 0.0;
+			    rel1 {
+			       relative: 0.0 0.0;
+			       to: "elm.swallow.content";
+			    }
+			    rel2 {
+			       relative: 1.0 0.0;
+			       to: "elm.swallow.content";
+			    }
+			 }
+		      }
+		      
+		      part{ name:"elm.swallow.progressbar";
+				 type: SWALLOW;
+				 scale: 1;
+				 description { state: "default" 0.0;					
+				    max: DEMO_POPUP_PROGRESSVIEW_PROGRESSBAR_MIN;
+				    align: 0.0 0.5;
+				    rel1 {
+			       		relative: 0.0 0.4;
+					to_x: "pad_l";
+			       		to_y: "pad_t";
+			    		}
+			    	    rel2 {
+			       		relative: 0.1 0.8;
+			       		to: "pad_t";
+			            }
+				 }
+		      }
+		      
+		      part{ name:"elm.swallow.content";
+				 type: SWALLOW;
+				 scale: 1;
+				 description { state: "default" 0.0;
+				    min: DEMO_POPUP_PROGRESSVIEW_CONTENT_MIN;
+				    align: 0.5 0.5;
+				    fixed: 1 0;
+				    rel1 {
+				       relative: 1.0 1.0;
+				       to_x: "pad_l";
+				       to_y: "pad_t";
+				    }
+				    rel2 {
+				       relative: 0.0 0.0;
+				       to_x: "pad_r";
+				       to_y: "pad_b";
+				    }
+				 }
+		      }	      
+		      
+		      
+		      part { name: "elm.text.left";
+			 type: TEXT;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    max: DEMO_POPUP_PROGRESSVIEW_TEXT_LEFT_RIGHT_MAX;
+			    text {
+		       min: 0 0;
+		       align: 0.0 1.0;
+		       text_class: "T057";
+		       size : 10;
+		    }
+		    color: 0 0 0 255;
+			    align: 0.0 1.0;
+			    rel1 {
+			       relative: 0.0 0.1;
+			       to: "elm.swallow.content";
+			    }
+			    rel2 {
+				relative: 0.4 1.0;
+			       to: "elm.swallow.content";
+			    }
+			 }
+		      }
+		      part { name: "elm.text.right";
+			 type: TEXT;
+			 scale: 1;
+			 description { state: "default" 0.0;
+			    max: DEMO_POPUP_PROGRESSVIEW_TEXT_LEFT_RIGHT_MAX;
+			    text {
+		       min: 0 0;
+		       align: 1.0 1.0;
+		       text_class: "T058";
+		       size : 10;
+		    }
+		    color: 8 8 8 255;
+		    align: 1.0 1.0;
+		    rel1 {
+		       relative: 0.4 0.1;
+		       to: "elm.swallow.content";
+		    }
+			    rel2 {
+			       relative: 1.0 1.0;
+			       to: "elm.swallow.content";
+			    }
+			 }
+		      }
+		   }
+#undef DEMO_POPUP_PROGRESSVIEW_CONTENT_MIN
+#undef DEMO_POPUP_PROGRESSVIEW_TITLE_MIN
+#undef DEMO_POPUP_PROGRESSVIEW_TEXT_LEFT_RIGHT_MAX
+		}
+
+
+group { name: "popup_new_folder";
+	parts {
+	   part { name: "base";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 0 50;
+		 fixed: 1 0;
+	      }
+	   }
+	   part { name: "content_top_padding";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 0 5;
+		 fixed: 0 1;
+		 align: 0.0 0.0;
+		 rel1 {
+		    relative: 1.0 0.0;
+		    to_x: "content_left_padding";
+		 }
+		 rel2 {
+		    relative: 0.0 0.0;
+		    to_x: "content_right_padding";
+		 }
+	      }
+	   }
+	   part { name: "content_left_padding";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 20 0;
+		 fixed: 1 0;
+		 align: 0.0 0.0;
+		 rel1 {
+		    to: "base";
+		    relative: 0.0 0.0;
+		 }
+		 rel2 {
+		    to: "base";
+		    relative: 0.0 1.0;
+		 }
+	      }
+	   }
+	   part { name: "content_right_padding";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 20 0;
+		 fixed: 1 0;
+		 align: 1.0 0.0;
+		 rel1 {
+		    to: "base";
+		    relative: 1.0 0.0;
+		 }
+		 rel2 {
+		    to: "base";
+		    relative: 1.0 1.0;
+		 }
+	      }
+	   }
+	   part { name: "content_bottom_padding";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 0 5;
+		 fixed: 0 1;
+		 align: 0.0 1.0;
+		 rel1 {
+		    relative: 1.0 1.0;
+		    to_x: "content_left_padding";
+		 }
+		 rel2 {
+		    relative: 0.0 1.0;
+		    to_x: "content_right_padding";
+		 }
+	      }
+	   }
+	   part { name: "content_field";
+	      type: SPACER;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 min: 0 40;
+		 fixed: 0 1;
+		 align: 0.5 0.0;
+		 rel1 {
+		    relative: 0.0 1.0;
+		    to: "content_top_padding";
+		 }
+		 rel2.to: "content_top_padding";
+	      }
+	   }
+	   part { name: "elm.swallow.content";
+	      type: SWALLOW;
+	      scale: 1;
+	      description { state: "default" 0.0;
+		 fixed: 1 1;
+		 align: 0.5 0.5;
+		 rel1.to: "content_field";
+		 rel2.to: "content_field";
+	      }
+	   }
+	}
+		     }
+
+
+
+	group { name: "root_layout";
+	   parts {
+		part { name: "background";
+			type: RECT;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 255 255 255 255;
+			}
+		}
+
+		part {
+			name: "category";
+			type: SWALLOW;
+			scale: 1;
+			repeat_events: 0;
+			description {
+				state: "default" 0.0;
+				min, 0 ROOT_CATEGORY_H;
+				fixed,0  1;
+				align: 0.5 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 0.0; }
+			}
+			description {
+				state: "horizon" 0.0;
+				inherit: "default" 0.0;
+				min, 0 ROOT_CATEGORY_LANDSCAPE_H;
+				fixed,0  1;
+				align: 0.5 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 0.0; }
+			}
+			description {
+				state: "hide" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+				min: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 0.0 0.0; }
+			}
+		}
+		part {
+			name: "tabbar";
+			type: SWALLOW;
+			scale: 1;
+			repeat_events: 1;
+			description {
+				state: "default" 0.0;
+				min, 0 ROOT_SEG_H;
+				fixed,0  1;
+				align: 0.5 0.0;
+				rel1 { relative: 0.0 1.0; to:"category";}
+				rel2 { relative: 1.0 1.0; to:"category";}
+			}
+			description {
+				state: "hide" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+				min: 0 0;
+				rel1 { relative: 0.0 1.0; to:"category";}
+				rel2 { relative: 1.0 1.0; to:"category";}
+			}
+		}
+		part {
+			name: "elm.swallow.content";
+			type: SWALLOW;
+			scale: 1;
+			repeat_events: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.5 0;
+				fixed: 0 1;
+				rel1 { relative: 0.0 1.0; to_y: "tabbar";}
+				rel2 { relative: 1.0 1.0;}
+			}
+			description {
+				state: "hide" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+				min: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 0.0 0.0; }
+			}
+			description {
+				state: "only" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+			}
+		}
+	   }
+	   programs {
+			program {
+			   name:"disable_category";
+			   signal: "elm.category.hide";
+			   source: "elm";
+			   action: STATE_SET "hide" 0.0;
+			   target: "category";
+			}
+			program {
+				name:"enable_category";
+				signal: "elm.category.show";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "category";
+			}
+			program {
+				name:"enable_horizon_category";
+				signal: "elm.category.horizon";
+				source: "elm";
+				action: STATE_SET "horizon" 0.0;
+				target: "category";
+			}
+			program {
+			   name:"disable_tabbar";
+			   signal: "elm.tabbar.hide";
+			   source: "elm";
+			   action: STATE_SET "hide" 0.0;
+			   target: "tabbar";
+			}
+			program {
+				name:"enable_tabbar";
+				signal: "elm.tabbar.show";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "tabbar";
+			}
+			program {
+				name:"disable_conent";
+				signal: "elm.content.hide";
+				source: "elm";
+				action: STATE_SET "hide" 0.0;
+				target: "elm.swallow.content";
+			}
+			program {
+				name:"enable_conent";
+				signal: "elm.content.show";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "elm.swallow.content";
+			}
+			program {
+				name:"only_conent";
+				signal: "elm.content.only";
+				source: "elm";
+				action: STATE_SET "only" 0.0;
+				target: "elm.swallow.content";
+			}
+		}
+	}
+
+	group { name: "view_layout";
+	   parts {
+		part { name: "background";
+			type: RECT;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 255 255 255 0;
+			}
+		}
+
+		part {
+			name: "pathinfo";
+			type: SWALLOW;
+			scale: 1;
+			repeat_events: 1;
+			description {
+				state: "default" 0.0;
+				min: 0 GROUP_INDEX_H;
+				fixed: 0  1;
+				align: 0.5 0.5;
+				rel1 { relative: 0.0 0.0; to:"background";}
+				rel2 { relative: 1.0 0.05; to:"background";}
+			}
+			description {
+				state: "hide" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+				min: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 0.0 0.0; }
+			}
+		}
+		part {
+			name: "elm.swallow.content";
+			type: SWALLOW;
+			scale: 1;
+			repeat_events: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.5 0;
+				fixed: 0 1;
+				rel1 { relative: 0.0 1.0; to_y: "pathinfo";}
+				rel2 { relative: 1.0 1.0;}
+			}
+			description {
+				state: "hide" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+				min: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 0.0 0.0; }
+			}
+			description {
+				state: "only" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+			}
+		}
+		part { name: "search_icon";
+                  type: SWALLOW;
+	              scale:1;
+	              description {
+	              	state: "default" 0.0;
+					rel1 { relative: 0.0 0.85; to:"background";}
+					rel2 { relative: 0.99 0.99; to:"background";}
+					}
+					description {
+	              	state: "landscape" 0.0;
+					rel1 { relative: 0.0 0.75; to:"background";}
+					rel2 { relative: 0.99 0.99; to:"background";}
+					}
+		}
+	   }
+	   programs {
+			program {
+				name:"disable_pathinfo";
+				signal: "elm.pathinfo.hide";
+				source: "elm";
+				action: STATE_SET "hide" 0.0;
+				target: "pathinfo";
+			}
+			program {
+				name:"float_land";
+				signal: "float_land";
+				source: "search_icon";
+				action: STATE_SET "landscape" 0.0;
+				target: "search_icon";
+			}
+			program {
+				name:"float_port";
+				signal: "float_port";
+				source: "search_icon";
+				action: STATE_SET "default" 0.0;
+				target: "search_icon";
+			}
+			program {
+				name:"enable_pathinfo";
+				signal: "elm.pathinfo.show";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "pathinfo";
+			}
+			program {
+				name:"disable_conent";
+				signal: "elm.content.hide";
+				source: "elm";
+				action: STATE_SET "hide" 0.0;
+				target: "elm.swallow.content";
+			}
+			program {
+				name:"enable_conent";
+				signal: "elm.content.show";
+				source: "elm";
+				action: STATE_SET "default" 0.0;
+				target: "elm.swallow.content";
+			}
+			program {
+				name:"only_conent";
+				signal: "elm.content.only";
+				source: "elm";
+				action: STATE_SET "only" 0.0;
+				target: "elm.swallow.content";
+			}
+		}
+	}
+
+	group { name: "search_view_layout";
+	   parts {
+		part { name: "background";
+			type: RECT;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 255 255 255 0;
+			}
+		}
+		part {
+			    name: "search_bar";
+			    type: SWALLOW;
+			    scale: 1;
+			    description {
+			       state: "default" 0.0;
+			       min: 0 SEARCHBAR_H_INC;
+			       fixed: 0 1;
+			       align: 0.5 0.0;
+			       visible:1;
+			       rel1 { relative: 0.0 0.0; to:"background";}
+			       rel2 { relative: 1.0 0.0; to:"background";}
+			       color: 255 255 255 255;
+			    }
+			    description {
+			       state: "hide" 0.0;
+			       min: 0 0;
+			       max: 0 0;
+			       visible: 0;
+			       rel1 { relative: 0.0 0.0; to:"background";}
+			       rel2 { relative: 1.0 0.0; to:"background";}
+			       color: 255 255 255 255;
+			    }
+		}
+        part {
+           name: "elm.swallow.content";
+           type: SWALLOW;
+           scale: 1;
+           repeat_events: 1;
+           description { state: "default" 0.0;
+              align: 0.5 0.0;
+      		  fixed: 0 1;
+              rel1 { relative: 0.0 1.0; to_y:"search_bar";}
+              rel2 { relative: 1.0 1.0;}
+           }
+            description { state: "hide" 0.0;
+              rel1 { relative: 0.0 0.4; to_y:"search_bar";}
+              rel2 { relative: 1.0 1.0;}
+           }
+        }
+	   }
+	   programs {
+			program {
+				name: "hide";
+				source: "search_bar";
+				signal: "hide";
+				action: STATE_SET "hide" 0.0;
+				target: "search_bar";
+			}
+			program {
+				name: "show";
+				source: "elm.swallow.content";
+				signal: "show";
+				action: STATE_SET "hide" 0.0;
+				target: "elm.swallow.content";
+			}
+		}
+	}
+
+group { name: "ad_search_view_layout";
+   parts {
+	part { name: "background";
+		type: RECT;
+		mouse_events: 0;
+		scale: 1;
+		description {
+			state: "default" 0.0;
+			rel1 { relative: 0.0 0.0; }
+			rel2 { relative: 1.0 1.0; }
+			color: 255 255 255 255;
+		}
+	}
+	part {
+	   name: "elm.swallow.content";
+	   type: SWALLOW;
+	   scale: 1;
+	   repeat_events: 1;
+	   description { state: "default" 0.0;
+	      align: 0.5 0.0;
+		  fixed: 0 1;
+	      rel1 { relative: 0.0 0.0; offset: 0 10;}
+	      rel2 { relative: 1.0 1.0;}
+	   }
+	}
+	part {
+		name: "elm.swallow.nocontent";
+		type: SWALLOW;
+		scale: 1;
+		repeat_events: 1;
+		description { state: "default" 0.0;
+			align: 0.5 0.0;
+			fixed: 0 1;
+			rel1 { relative: 0.0 0.0; offset: 0 10;}
+			rel2 { relative: 1.0 1.0;}
+		}
+	}
+   }
+}
+
+
+		group { name: "popup_progress_text";
+		   parts{
+		   	part { name: "base";
+		         type: RECT;
+		         scale: 1;
+		         description { state: "default" 0.0;
+		            min: 0 150*LITE_SCALE_H;
+		            fixed: 1 0;
+		            visible: 0;
+		         }
+		       }
+			  part { name: "elm.title";
+				 type: TEXT;
+				 scale : 1;
+				 description { state: "default" 0.0;
+					max: 480*LITE_SCALE_W 50*LITE_SCALE_H;
+					fixed: 1 1;
+					text {
+					   font: FONT_NANE;
+					   text_class:"tizen";
+					   size: 42;
+					   min: 0 0;
+					   align: 0.5 0.5;
+					  }
+					color: WHITE_COLOR;
+					align: 0.5 1.0;
+					/*rel1 {
+					   relative: 0.0 0.15;
+					}
+					rel2 {
+					   relative: 1.0 0.0;
+					}*/
+					rel1 {
+					   relative: 0.0 0.0;
+					   to: "base";
+					}
+					rel2 {
+					   relative: 1.0 0.5;
+					   to: "base";
+					}
+				 }
+			  }
+			 part { name:"elm.swallow.content";
+		         type: SWALLOW;
+		         scale : 1;
+		         description { state: "default" 0.0;
+		            align: 0.5 0;
+		            rel1 {
+		               relative: 0.0 0.5;
+		               to: "base";
+		            }
+		            rel2 {
+		               relative: 1.0 1.0;
+		               to: "base";
+		            }
+		         }
+		      }
+
+		   }
+		}
+
+/*********** recent files item layout **************/
+
+group {
+	name: "myfile_search_layout";
+	parts
+	{
+		part
+		{
+			name: "bg";
+			mouse_events: 0;
+			type: RECT;
+			description
+			{
+				state: "default" 0.0;
+				visible: 1;
+				min: 0 58;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0;}
+				//color: SEARCHBAR_BG_COLOR;
+				color: 255 255 255 255;
+			}
+		}
+
+		part
+		{
+			name: "outer_rect_search";
+			type: RECT;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.0 0.5;
+				//min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.1 0.0;
+					offset: 10 10;
+					to: "bg";
+				}
+				rel2
+				{
+					relative: 1.0 1.0;
+					offset: -10 -10;
+					to: "bg";
+				}
+				color:0 0 0 255;
+			}
+			description {
+				state: "landscape" 0.0;
+				align: 0.0 0.5;
+				//min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.05 0.0;
+					offset: 10 10;
+					to: "bg";
+				}
+				rel2
+				{
+					relative: 1.0 1.0;
+					offset: -10 -10;
+					to: "bg";
+				}
+				color:0 0 0 255;
+			}
+		}
+
+		part
+		{
+			name: "inner_rect_search";
+			type: RECT;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.0 0.5;
+				//min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.0 0.0;
+					offset: 2 2;
+					to: "outer_rect_search";
+				}
+				rel2
+				{
+					relative: 1.0 1.0;
+					offset: -3 -3;
+					to: "outer_rect_search";
+				}
+				color:255 255 255 255;
+			}
+		}
+
+		part
+		{
+			name: "elm.swallow.content";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.0 0.5;
+				//fixed: 1 1;
+				//min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.0 0.0;
+					offset: 2 2;
+					to: "inner_rect_search";
+				}
+				rel2
+				{
+					relative: 0.9 1.0;
+					//offset: -3 -3;
+					to: "inner_rect_search";
+				}
+			}
+			description {
+				state: "landscape" 0.0;
+				//align: 0.0 0.5;
+				//fixed: 1 1;
+				min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.0 0.0;
+					offset: 2 2;
+					to: "inner_rect_search";
+				}
+				rel2
+				{
+					relative: 0.95 1.0;
+					//offset: -3 -3;
+					to: "inner_rect_search";
+				}
+			}
+		}
+		part
+		{
+			name: "elm.swallow.cross";
+			type: SWALLOW;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				fixed: 1 1;
+		//		min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.9 0.0;
+					to: "inner_rect_search";
+				}
+				rel2
+				{
+					relative: 1.0 1.0;
+					offset: -3 -3;
+					to: "inner_rect_search";
+				}
+			//	min: 50 50;
+			}
+			description {
+				state: "landscape" 0.0;
+				align: 1 0;
+				fixed: 1 1;
+			//	min: 0 SEARCHBAR_HEIGHT_INC;
+				rel1
+				{
+					relative: 0.94 0.0;
+					offset: 1 1;
+					to: "inner_rect_search";
+				}
+				rel2
+				{
+					relative: 1.0 1.0;
+					offset: -3 -3;
+					to: "inner_rect_search";
+				}
+			//	min: 50 50;
+			}
+		}
+		part
+		{
+			name: "back_button";
+			type: SWALLOW;
+			mouse_events: 1;
+			description
+			{
+				state: "default" 0.0;
+				rel1
+				{
+					relative: 0.0 0.3;
+					to: "bg";
+				}
+				rel2
+				{
+					relative: 0.0 0.78;
+					to: "outer_rect_search";
+				}
+				fixed: 1 1;
+			}
+		}
+	}
+	programs {
+			program {
+				name: "search_landscape";
+				source: "bg";
+				signal: "set_landscape";
+				action: STATE_SET "landscape" 0.0;
+				target: "outer_rect_search";
+				target: "elm.swallow.content";
+				target: "elm.swallow.cross";
+			}
+			program {
+				name: "search_portrait";
+				source: "bg";
+				signal: "set_portrait";
+				action: STATE_SET "default" 0.0;
+				target: "outer_rect_search";
+				target: "elm.swallow.content";
+				target: "elm.swallow.cross";
+			}
+			program
+			{
+				name: "touch_snd_1";
+				source: "elm.swallow.cross";
+				signal: "mouse,down,1";
+				action: RUN_PLUGIN "touch_sound";
+			}
+			program {
+				name: "touch_snd";
+				source: "back_button";
+				signal: "mouse,down,1";
+				action: RUN_PLUGIN "touch_sound";
+			}
+		}
+}
+
+/*   date time popup style     */
+#define DATETIME_PADDING_HEIGHT 30*LITE_SCALE_H
+#define DATETIME_TOP_PADDING_HEIGHT 30*LITE_SCALE_H
+#define DATETIME_PICKER_PADDING_HEIGHT 100*LITE_SCALE_H
+#define DATETIME_BUTTON_WIDTH 550*LITE_SCALE_W
+#define DATETIME_TEXT_HEIGHT 60*LITE_SCALE_H
+#define DATETIME_TEXT_COLOR 173 170 165 255
+#define DATETIME_TEXT_SIZE 14 //24
+
+#define DATETIME_PICKER(_pos, _after, str)\
+   part {\
+      name: "picker"#_pos;\
+      type: SWALLOW;\
+      scale: 1;\
+      description {\
+         state: "default" 0.0;\
+         align: 0.0 0.0;\
+         fixed: 1 1;\
+         rel1 { relative: 0 1; to: "text_padding"#_pos; }\
+         rel2 { relative: 1 1; to: "text_padding"#_pos; }\
+      }\
+   }\
+   part {\
+      name: "text_padding"#_pos;\
+      type: SPACER;\
+      scale: 1;\
+      description {\
+         state: "default" 0.0;\
+         align: 0.0 0.0;\
+         min: 0 30;\
+         fixed: 0 1;\
+         rel1 { relative: 0 1; to: "text"#_pos; }\
+         rel2 { relative: 1 1; to: "text"#_pos; }\
+      }\
+   }\
+   part {\
+      name: "text"#_pos;\
+      type: TEXT;\
+      scale: 1;\
+      description {\
+         state: "default" 0.0;\
+         align: 0.0 0.0;\
+         fixed: 0 1;\
+         min: 0 DATETIME_PADDING_HEIGHT;\
+         rel1 { relative: 0 1; to: "padding"#_after; }\
+         rel2 { relative: 1 1; to: "padding"#_after; }\
+         color: DATETIME_TEXT_COLOR;\
+         text {\
+            font: "Tizen:style=Roman";\
+            size: DATETIME_TEXT_SIZE;\
+            min:  1 0;\
+            align: 0.0 0.0;\
+            text: str;\
+         }\
+      }\
+   }\
+   part {\
+      name: "padding"#_pos;\
+      type: SPACER;\
+      scale: 1;\
+      description {\
+         state: "default" 0.0;\
+         min: 0 DATETIME_PADDING_HEIGHT;\
+         fixed: 0 1;\
+         align: 0.5 0.0;\
+         rel1 { relative: 0.0 1.0; to_x: "padding"#_after; to_y: "picker"#_pos; }\
+         rel2 { relative: 1.0 1.0; to_x: "padding"#_after; to_y: "picker"#_pos; }\
+      }\
+   }
+
+
+group {
+  name: "date_time";
+  parts {
+     part {
+        name: "padding0";
+        type: SPACER;
+        scale: 1;
+        description {
+           state: "default" 0.0;
+           min: 0 DATETIME_TOP_PADDING_HEIGHT;
+           fixed: 0 1;
+           align: 0.5 0.0;
+           rel1.relative: 0.065 0;
+           rel2.relative: 1 0;
+        }
+     }
+     DATETIME_PICKER(1, 0, " From")
+     DATETIME_PICKER(2, 1, " To")
+     part {
+        name: "bottom.padding";
+        type: SPACER;
+        scale: 1;
+        description {
+           state: "default" 0.0;
+           min: 0 DATETIME_TOP_PADDING_HEIGHT;
+           align: 0.5 1.0;
+           rel1 { to: "padding2"; relative: 0 1; }
+        }
+     }
+  }
+}
+
+	group { name: "popup_processingview_1button";
+#define DEMO_POPUP_PROCESSINGVIEW1BUTTON_CONTENT_MIN 568 132
+	   styles {
+	      style { name: "popup_processing_text_style";
+		 base: "font=Tizen:style=Bold font_size=36 align=left color=#FFFFFF wrap=none ellipsis=1.0 text_class=T123";
+		 tag:  "br" "\n";
+		 tag:  "tab" "\t";
+	      }
+	   }
+	   parts {
+	      part { name: "base";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: DEMO_POPUP_PROCESSINGVIEW1BUTTON_CONTENT_MIN;
+		    fixed: 1 0;
+		 }
+	      }
+	      part { name: "pad_t";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    align: 0.5 0.0;
+		    min: 0 32;
+		    fixed: 0 1;
+		    rel1 {
+		       relative: 1.0 0.0;to_x: "pad_l";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;to_x: "pad_r";
+		    }
+		 }
+	      }
+	      part { name: "pad_l";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 65 0;
+		    max: 65 0;
+		    fixed: 1 0;
+		    rel1 {
+		       relative: 0.0 0.0;
+		       to: "base";
+		    }
+		    rel2 {
+		       relative: 0.0 1.0;
+		       to: "base";
+		    }
+		    align: 0.0 0.0;
+		 }
+	      }
+	      part { name: "pad_r";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 65 0;
+		    max: 65 0;
+		    fixed: 1 0;
+		    rel1 {
+		       relative: 1.0 0.0;
+		       to: "base";
+		    }
+		    rel2 {
+		       relative: 1.0 1.0;
+		       to: "base";
+		    }
+		    align: 1.0 0.0;
+		 }
+	      }
+	      part { name: "pad_b";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    align: 0.0 1.0;
+		    min: 0 32;
+		    fixed: 0 1;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to_x: "pad_l";
+		    }
+		    rel2 {
+		       relative: 0.0 1.0;
+		       to_x: "pad_r";
+		    }
+		 }
+	      }
+	      part {
+		 name: "spacing";
+		 scale: 1;
+		 type: SPACER;
+		 description { state: "default" 0.0;
+		    align: 0.0 0.5;
+		    min: 79 79;
+		    max: 79 79;
+		    fixed: 1 1;
+		    rel1 {
+		       relative: 0.0 1.0;
+		       to: "pad_t";
+		    }
+		    rel2 {
+		       relative: 1.0 0.0;
+		       to: "pad_b";
+		    }
+		 }
+	      }
+	      part { name: "elm.text";
+		 type: TEXTBLOCK;
+		 scale : 1;
+		 description { state: "default" 0.0;
+		    align: 0.5 0.5;
+		    fixed: 1 1;
+		    text {
+		     style: "popup_processing_text_style";
+		     min: 0 1;
+		     max: 1 1;
+		    }
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to_x: "spacing";
+		       to_y: "pad_t";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to_x: "pad_r";
+		       to_y: "pad_b";
+		    }
+		 }
+	      }
+	      part { name:"pad_before_text";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 16 132;
+		    max: 16 132;
+		    fixed: 1 1;
+		    align: 1.0 0.0;
+		    rel1 {
+		       relative: 0.0 0.0;
+		       to: "elm.text";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "elm.text";
+		    }
+		 }
+	      }
+	      part { name:"elm.swallow.content";
+		 type: SWALLOW;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 63 63;
+		    max: 63 63;
+		    fixed: 1 1;
+		    align: 1.0 0.15;
+		    rel1 {
+		       relative: 0.0 0.0;
+		       to: "pad_before_text";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to: "pad_before_text";
+		    }
+		 }
+	      }
+	   }
+	}
+#define DEMO_POPUP_ENTRYPASSWORDVIEW_2BUTTON_BG_MIN 0 223
+	group { name: "entrypasswordview_2button";
+#define DEMO_POPUP_ENTRYPASSWORDVIEW_2BUTTON_BG_MIN 0 223
+	   parts {
+	      part { name: "base";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: DEMO_POPUP_ENTRYPASSWORDVIEW_2BUTTON_BG_MIN;
+		    fixed: 1 0;
+		 }
+	      }
+	      part { name: "content_top_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 42;
+		    fixed: 0 1;
+		    align: 0.0 0.0;
+		    rel1 {
+		       relative: 1.0 0.0;
+		       to_x: "content_left_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 0.0;
+		       to_x: "content_right_padding";
+		    }
+		 }
+	      }
+	      part { name: "content_left_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 47 0;
+		    fixed: 1 0;
+		    align: 0.0 0.0;
+		    rel1 {
+		       to: "base";
+		       relative: 0.0 0.0;
+		    }
+		    rel2 {
+		       to: "base";
+		       relative: 0.0 1.0;
+		    }
+		 }
+	      }
+	      part { name: "content_right_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 47 0;
+		    fixed: 1 0;
+		    align: 1.0 0.0;
+		    rel1 {
+		       to: "base";
+		       relative: 1.0 0.0;
+		    }
+		    rel2 {
+		       to: "base";
+		       relative: 1.0 1.0;
+		    }
+		 }
+	      }
+	      part { name: "content_bottom_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 42;
+		    fixed: 0 1;
+		    align: 0.0 1.0;
+		    rel1 {
+		       relative: 1.0 1.0;
+		       to_x: "content_left_padding";
+		    }
+		    rel2 {
+		       relative: 0.0 1.0;
+		       to_x: "content_right_padding";
+		    }
+		 }
+	      }
+	      part { name: "content_field";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 66;
+		    fixed: 0 1;
+		    align: 0.5 0.0;
+		    rel1 {
+		       relative: 0.0 1.0;
+		       to: "content_top_padding";
+		    }
+		    rel2.to: "content_top_padding";
+		 }
+	      }
+	      part { name: "elm.swallow.content";
+		 type: SWALLOW;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 66;
+		    fixed: 1 1;
+		    align: 0.5 0.5;
+		    rel1.to: "content_field";
+		    rel2.to: "content_field";
+		 }
+	      }
+	      part { name: "end_top_padding";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 28;
+		    fixed: 0 1;
+		    align: 0.0 0.0;
+		    rel1 {
+		       to: "content_field";
+		       relative: 0.0 1.0;
+		    }
+		    rel2.to: "content_field";
+		 }
+	      }
+	      part { name: "end_field";
+		 type: SPACER;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    min: 0 63;
+		    fixed: 0 1;
+		    align: 0.0 0.0;
+		    rel1 {
+		       to: "end_top_padding";
+		       relative: 0.0 1.0;
+		    }
+		    rel2.to: "end_top_padding";
+		 }
+	      }
+	      part { name: "elm.swallow.end";
+		 type: SWALLOW;
+		 scale: 1;
+		 description { state: "default" 0.0;
+		    fixed: 1 1;
+		    align: 0.0 0.5;
+		    rel1.to: "end_field";
+		    rel2.to: "end_field";
+		 }
+	      }
+	   }
+#undef DEMO_POPUP_ENTRYPASSWORDVIEW_2BUTTON_BG_MIN
+	}
+group { name: "popup_checkview";
+	   parts {
+	      part { name: "pad_t";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            align: 0.5 0.0;
+	            min: 0 32;
+	            fixed: 0 1;
+	            rel1 {
+	               relative: 1.0 0.0;to_x: "pad_l";
+	            }
+	            rel2 {
+	               relative: 0.0 0.0;to_x: "pad_r";
+	            }
+	         }
+	      }
+	      part { name: "pad_l";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            min: 26 0;
+	            max: 26 0;
+	            fixed: 1 0;
+	            rel1 {
+	               relative: 0.0 0.0;
+	            }
+	            rel2 {
+	               relative: 0.0 1.0;
+	            }
+	            align: 0.0 0.0;
+	         }
+	      }
+	      part { name: "pad_r";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            min: 26 0;
+	            max: 26 0;
+	            fixed: 1 0;
+	            rel1 {
+	               relative: 1.0 0.0;
+	            }
+	            rel2 {
+	               relative: 1.0 1.0;
+	            }
+	            align: 1.0 0.0;
+	         }
+	      }
+	      part { name: "elm.swallow.content";
+	         type: SWALLOW;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            fixed: 1 0;
+	            rel1 {
+	               relative: 1.0 1.0;
+	               to_x: "pad_l";
+	               to_y: "pad_t";
+	            }
+	            rel2 {
+	               relative: 0.0 0.0;
+	               to_x: "pad_r";
+	               to_y: "pad_b";
+	            }
+	         }
+	      }
+	      part { name: "bottom_pad";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            align: 0.0 1.0;
+	            min: 0 32;
+	            fixed: 0 1;
+	            rel1 {
+	               relative: 1.0 1.0;
+	               to_x: "pad_l";
+	            }
+	            rel2 {
+	               relative: 0.0 1.0;
+	               to_x: "pad_r";
+	            }
+	         }
+	      }
+	      part { name: "pad_b";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            align: 0.0 1.0;
+	            min: 0 121;
+	            fixed: 0 1;
+	            rel1 {
+	               relative: 0.0 0.0;
+	               to: "bottom_pad";
+	            }
+	            rel2 {
+	               relative: 1.0 0.0;
+	               to: "bottom_pad";
+	            }
+	         }
+	      }
+	      part { name: "end_field";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            align: 0.0 1.0;
+	            min: 0 100;
+	            fixed: 0 1;
+	            rel1 {
+	               relative: 0.0 1.0;
+	               to: "pad_b";
+	            }
+	            rel2 {
+	               relative: 1.0 1.0;
+	               to: "pad_b";
+	            }
+	         }
+	      }
+	      part { name: "elm.swallow.end";
+	         type: SWALLOW;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	            fixed: 1 1;
+	            align: 0.0 0.5;
+	            rel1.to: "end_field";
+	            rel2.to: "end_field";
+	         }
+	      }
+	   }
+	}
+
+#define POPUP_CONTENT_DEFAULT_PADDING_TOP_MIN_INC 18
+#define POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 18
+#define POPUP_CONTENT_DEFAULT_PADDING_RIGHT_MIN_INC 18
+#define POPUP_CONTENT_DEFAULT_PADDING_BOTTOM_MIN_INC 18
+#define POPUP_EDITFIELD_LAYOUT_MINMAX_HEIGHT_INC 64
+
+#define POPUP_IMAGE_VIEW_LAYOUT_BG_MIN_INC 0 74
+#define POPUP_IMAGE_SWALLOW_CONTENT_PADDING_BOTTOM_MIN_INC 0 15
+#define POPUP_DESCRIPTION_DEFAULT_TEXT_FONT_SIZE_INC 24
+#define POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC 0 108
+#define POPUP_CHECK_VIEW_LAYOUT_BOTTOM_MIN_INC 0 54
+#define POPUP_CHECK_VIEW_SWALLOW_END_MIN_INC 24 24
+#define POPUP_CHECK_VIEW_LAYOUT_MIN_INC 0 160
+
+group { name: "popup_checkview_layout";
+   parts {
+      part { name: "bg";
+         scale: 1;
+         type: SPACER;
+         description { state: "default" 0.0;
+            min: POPUP_CHECK_VIEW_LAYOUT_MIN_INC;
+            fixed: 1 0;
+         }
+      }
+      part { name: "pad_l";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 0;
+            fixed: 1 0;
+            rel1.relative: 0.0 0.0;
+            rel2.relative: 0.0 1.0;
+            align: 0.0 0.0;
+         }
+      }
+      part { name: "pad_r";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_CONTENT_DEFAULT_PADDING_RIGHT_MIN_INC 0;
+            fixed: 1 0;
+            rel1.relative: 1.0 0.0;
+            rel2.relative: 1.0 1.0;
+            align: 1.0 0.0;
+         }
+      }
+      part { name: "elm.swallow.content";
+         type: SWALLOW;
+         scale: 1;
+         description { state: "default" 0.0;
+            fixed: 0 1;
+            min: POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC;
+            align: 0.5 0.0;
+            rel2 {
+               relative: 1.0 0.0;
+               to: "pad_b";
+            }
+         }
+      }
+      part { name: "pad_b";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            align: 0.0 1.0;
+            min: POPUP_CHECK_VIEW_LAYOUT_BOTTOM_MIN_INC;
+            fixed: 0 1;
+            rel1.relative: 0.0 1.0;
+         }
+      }
+      part { name: "elm.swallow.end";
+         type: SWALLOW;
+         scale: 1;
+         description { state: "default" 0.0;
+            align: 0.0 0.5;
+            min: POPUP_CHECK_VIEW_SWALLOW_END_MIN_INC;
+            fixed: 1 1;
+            rel1 {
+               relative: 1.0 1.0;
+               to_x: "pad_l";
+               to_y: "pad_b";
+            }
+            rel2 {
+               relative: 0.0 0.0;
+               to_x: "pad_r";
+               to_y: "pad_b";
+            }
+         }
+      }
+   }
+}
+
+#define POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MIN_INC 40 40
+#define POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MAX_INC 40 40
+#define POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_PADDING_AFTER_INC 10 60
+#define POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_TEXT_MIN_INC 0 60
+#define POPUP_PROCESSING_VIEW_LAYOUT_BG_MIN_INC 0 60
+group { name: "processing_view_layout";
+   styles {
+      style { name: "popup_processing_style";
+         base: "font=Tizen:style=Regular align=left font_size="POPUP_TEXT_FONT_SIZE" color=#FFFFFF wrap=mixed ellipsis=1.0 text_class=T123";
+         tag:  "br" "\n";
+         tag:  "tab" "\t";
+      }
+   }
+   parts {
+      part { name: "bg";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_PROCESSING_VIEW_LAYOUT_BG_MIN_INC;
+            fixed: 1 0;
+         }
+      }
+      part { name: "pad_l";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 0;
+            fixed: 1 0;
+            rel1.relative: 0.0 0.0;
+            rel2.relative: 0.0 1.0;
+            align: 0.0 0.0;
+         }
+      }
+      part { name: "pad_r";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 0;
+            fixed: 1 0;
+            rel1.relative: 1.0 0.0;
+            rel2.relative: 1.0 1.0;
+            align: 1.0 0.0;
+         }
+      }
+      part { name: "processing";
+         type: SWALLOW;
+         scale: 1;
+         description { state: "default" 0.0;
+            fixed: 1 1;
+            min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MIN_INC;
+            max: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MAX_INC;
+            rel1 {
+               relative: 1.0 0.0;
+               to_x: "pad_l";
+            }
+            rel2 {
+               relative: 0.0 1.0;
+               to_x: "pad_r";
+            }
+            align: 0.0 0.5;
+         }
+      }
+      part { name: "pad_after_processing";
+         type: SPACER;
+         scale: 1;
+         description { state: "default" 0.0;
+            fixed: 1 1;
+            min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_PADDING_AFTER_INC;
+            rel1 {
+               relative: 1.0 0.0;
+               to: "processing";
+            }
+            rel2.to: "processing";
+            align: 0.0 0.5;
+         }
+      }
+      part { name: "elm.text";
+         type: TEXTBLOCK;
+         scale: 1;
+         description { state: "default" 0.0;
+            min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_TEXT_MIN_INC;
+            fixed: 0 1;
+            rel1 {
+               relative: 1.0 0.0;
+               to: "pad_after_processing";
+            }
+            rel2 {
+               relative: 0.0 1.0;
+               to_x: "pad_r";
+            }
+            align: 0.0 0.5;
+            text {
+               style: "popup_processing_style";
+               min: 0 1;
+            }
+         }
+      }
+   }
+}
+#define SELECT_ALL_PART_H					54
+#define SELECT_ALL_PART_PADDING_L                               15
+#define SELECT_ALL_PART_PADDING_R                               10
+#define SELECT_ALL_TXT_PADDING_R                               	25
+#define SELECT_ALL_ICON_SIZE                               	22
+#define SELECT_ALL_PART_PADDING_T                               0
+#define SELECT_ALL_PART_PADDING_B                               0
+#define SELECT_ALL_PART_INDEX_H                               	1
+
+group {
+	name: "select.all.layout";
+
+	parts {
+		part {
+			name: "base";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				min: 0 SELECT_ALL_PART_H;
+				max: -1 SELECT_ALL_PART_H;
+				align: 0.5 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 0.0; }
+				visible: 0;
+			}
+		}
+		part {
+			name: "text.bg";
+			type: RECT;
+			scale : 1;
+			description {
+				state: "default" 0.0;
+				fixed: 0 1;
+				min: 0 (SELECT_ALL_PART_H-SELECT_ALL_PART_INDEX_H);
+				max: -1 (SELECT_ALL_PART_H-SELECT_ALL_PART_INDEX_H);
+				align: 0.5 0.5;
+				color: 255 255 255 255;
+				rel1 { relative: 0.0 0.0; to: "base"; }
+				rel2 { relative: 1.0 1.0; to: "base"; }
+			}
+		}
+		part { name: "pad.left";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				min: SELECT_ALL_PART_PADDING_L 0;
+				max: SELECT_ALL_PART_PADDING_L -1;
+				fixed: 1 0;
+				align: 0.0 0.5;
+				//rel2.relative: 0.0 1.0;
+				rel1 { relative: 0.0 0.0; to: "text.bg"; }
+				rel2 { relative: 0.0 1.0; to: "text.bg"; }
+				visible: 0;
+			}
+		}
+		part { name: "pad.right";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				min: SELECT_ALL_PART_PADDING_R 0;
+				max: SELECT_ALL_PART_PADDING_R -1;
+				fixed: 1 0;
+				align: 1.0 0.5;
+				//rel1.relative: 1 0;
+				rel1 { relative: 1.0 0.0; to: "text.bg"; }
+				rel2 { relative: 1.0 1.0; to: "text.bg"; }
+				visible: 0;
+			}
+		}
+		part { name: "pad.top";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				min: 0 SELECT_ALL_PART_PADDING_T;
+				max: -1 SELECT_ALL_PART_PADDING_T;
+				fixed: 0 1;
+				align: 0.5 0.0;
+				//rel2.relative: 1.0 0.0;
+				rel1 { relative: 0.0 0.0; to: "text.bg"; }
+				rel2 { relative: 1.0 0.0; to: "text.bg"; }
+				visible: 0;
+			}
+		}
+		part { name: "pad.bottom";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				min: 0 SELECT_ALL_PART_PADDING_B;
+				max: -1 SELECT_ALL_PART_PADDING_B;
+				fixed: 0 1;
+				align: 0.5 1.0;
+				//rel1.relative: 0.0 1.0;
+				rel1 { relative: 0.0 1.0; to: "text.bg"; }
+				rel2 { relative: 1.0 1.0; to: "text.bg"; }
+				visible: 0;
+			}
+		}
+
+		part {
+			name: "elm.swallow.bg";
+			type: RECT;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				min: SELECT_ALL_ICON_SIZE SELECT_ALL_ICON_SIZE;
+				max: SELECT_ALL_ICON_SIZE SELECT_ALL_ICON_SIZE;
+				fixed: 1 1;
+				align: 1.0 0.5;
+				rel1 {	relative: 0 1.0;
+					to_x: "pad.right";
+			       		to_y: "pad.top";
+				}
+				rel2 {	relative: 0 0.0;
+						to_x: "pad.right";
+						to_y: "pad.bottom";
+				}
+				visible: 0;
+			}
+		}
+		part {
+			name: "elm.icon";
+			type: SWALLOW;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { relative: 0.0 0.0; to: "elm.swallow.bg"; }
+				rel2 { relative: 1.0 1.0; to: "elm.swallow.bg"; }
+			}
+		}
+
+		part {
+			name: "elm.text";
+			type: TEXT;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				align: 0.0 0.5;
+				fixed: 1 0;
+				rel1 {	relative: 1 1;
+						to_x: "pad.left";
+			       		to_y: "pad.top";
+				}
+				rel2 {	relative: 0 0;
+						to_x: "elm.swallow.bg";
+						to_y: "pad.bottom";
+				}
+
+				color: 77 77 77 255;
+
+				text {
+					align: 0.0 0.5;
+					min: 0 1;
+					//text_class: "T024";
+					size: 18;
+				}
+			}
+		}
+
+		part {
+			name: "index.bar";
+			type: RECT;
+			scale : 1;
+			description {
+			   state: "default" 0.0;
+			   min: 0 SELECT_ALL_PART_INDEX_H;
+			   max: -1 SELECT_ALL_PART_INDEX_H;
+			   fixed: 0 1;
+			   align: 0.5 1.0;
+			   color: 217 217 217 255;
+			   rel1 { relative: 0.0 1.0; to: "text.bg";}
+			   rel2 { relative: 1.0 1.0; to: "base";}
+			   visible: 1;
+			}
+		}
+
+	}
+	/*programs {
+		program { name: "image_clicked";
+			source: "elm.icon";
+			signal: "mouse,clicked,1";
+			action: PLAY_SAMPLE "button-pressed" 1.0;
+		}
+	}*/
+}
+group
+{
+    name: "navi_layout";
+    parts
+    {
+        part
+        {
+            name: "background";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description
+            {
+                state: "default" 0.0;
+                rel1.relative: 0.0 0.0;
+                rel2.relative: 1.0 1.0;
+               // color: COLOR_TRANSPARENT;
+            }
+        }
+
+        part
+        {
+            name: "header_box";
+            type: SWALLOW;
+            scale: 1;
+            description
+            {
+                state: "default" 0.0;
+                fixed: 0 0;
+                align: 0.0 0.0;
+                fixed: 1 1;
+                rel1
+                {
+                    relative: 0.0 0.0;
+                }
+                rel2.relative: 1.0 0.0;
+            }
+        }
+
+        part
+        {
+            name: "content";
+            type: SWALLOW;
+            scale: 1;
+            description
+            {
+                state: "default" 0.0;
+                align: 0.5 0.0;
+                rel1
+                {
+                    relative: 0.0 1.0;
+                    to_y:"header_box";
+                }
+                rel2
+                {
+                    relative: 1.0 1.0;
+                }
+            }
+        }
+    }
+}
+group { name : "default_thumb_bg";
+			parts {
+			part { name : "thumb_bg_rect";
+				type : RECT;
+				description {
+					state: "default" 0.0;
+					color: 200 200 200 225;
+					align : 0 0;
+				}
+			}
+			part { name : "thumb_swallow";
+				type: SWALLOW;
+				description {
+					state: "default" 0.0;
+					rel1 {
+						relative : 0 0;
+						to_x:"thumb_bg_rect";
+					}
+					rel2 {
+						relative : 1 1 ;
+						to_y:"thumb_bg_rect";
+					}
+					align : 0 0;
+				}
+			}
+		}
+	}
+
+#define POPUP_CONTENT_DEFAULT_PADDING_LEFT_RIGHT_MIN_INC 15
+#define POPUP_CONTENT_DEFAULT_PADDING_TOP_BOTTOM_MIN_INC 27
+#define POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC 0 90
+#define POPUP_CHECK_VIEW_LAYOUT_MIN_INC 0 90
+
+	group {
+		name: "popup_confirmation_layout";
+		parts {
+			part {
+				name: "bg";
+				scale: 1;
+				type: SPACER;
+				description {
+					state: "default" 0.0;
+					min: POPUP_CHECK_VIEW_LAYOUT_MIN_INC;
+					fixed: 0 1;
+				}
+			}
+			part {
+				name: "pad_l";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_RIGHT_MIN_INC 0;
+					fixed: 1 0;
+					rel1.relative: 0.0 0.0;
+					rel2.relative: 0.0 1.0;
+					align: 0.0 0.0;
+				}
+			}
+			part {
+				name: "pad_r";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_RIGHT_MIN_INC 0;
+					fixed: 1 0;
+					rel1.relative: 1.0 0.0;
+					rel2.relative: 1.0 1.0;
+					align: 1.0 0.0;
+				}
+			}
+			part {
+				name: "elm.swallow.content";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC;
+					align: 0.5 0.0;
+					rel2 {
+						relative: 1.0 0.0;
+						to: "elm.swallow.end";
+					}
+				}
+			}
+			part {
+				name: "pad_b";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 0 POPUP_CONTENT_DEFAULT_PADDING_TOP_BOTTOM_MIN_INC;
+					fixed: 0 1;
+					rel1.relative: 0.0 1.0;
+					rel1.relative: 1.0 1.0;
+					align: 0.0 1.0;
+				}
+			}
+			part {
+				name: "elm.swallow.end";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.0 1.0;
+					rel1 {
+						relative: 1.0 0.0;
+						to_x: "pad_l";
+						to_y: "pad_b";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						to_x: "pad_r";
+						to_y: "pad_b";
+					}
+				}
+			}
+		}
+	}
+}

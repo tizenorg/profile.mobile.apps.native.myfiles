@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Cihazınız Wi-Fi ağına bağlı değil. Mobil ağa bağlanmak ödeme planınıza bağlı olarak ek ücretle sonuçlanabilir."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Paylaşma şekli"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Paylaşma şekli"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobil veri kapatıldı. Bunun yerine Wi-Fi ağına bağlanın veya Mobil veriyi etkinleştirip tekrar deneyin."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d öğe silinecek."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Bu öğe silinecek."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "İndiriliyor..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Yeterli hafıza yok."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "İptal edildi."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "İndirme başarısız."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Başarılı."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Oluştur"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Silindi."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Hafıza kartı çıkarıldı."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Aranıyor..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Ağ bağlantısı hatası var."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Klasörü sil"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Klasör adını girin."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "İndirilmiş uygulamalar"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Ağ bağlantı hatası oluştu. Çağrı sonlandırıldı. Ağa tekrar bağlanılsın mı?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "Tamam"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Kaydet"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Evet"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Hayır"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Kısayol ekle"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Kısayolu sil"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Kısayolu yeniden adlandır"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Ara"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Paylaş"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Hafıza kullanımı"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Tekrar gösterme"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Bayt"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Sunucuya bağlanamıyor."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Özel"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Kısayolu kaldır"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Batarya zayıf"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 dosya"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Albümüm"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Şuradan ekle:"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Uyarılar"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Herhangi"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Mevcut kullanımlar"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Bayt"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "İçindekiler"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Oluşturulma tarihi"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Tarih"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Seçilen öğeler silinsin mi?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Belgeler"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Uygulama"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Dosya adı"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Dsya türü"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Klasör adı"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "İletme"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS bilgileri"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS enlem"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS boylam"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS versiyonu"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Resimler"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "İmkansız"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Kişisel"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Aralık"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Son değiştirilme"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Liste ve ayrıntılar"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Konum"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC verileri başlatılıyor..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Video kliplerim"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Telefon belleğinde yeterli yer yok. Bazı öğeleri silin ve tekrar deneyin."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Dosya yok"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Son açılan kitap yok"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Yeni dosya yok"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d dosya"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d öğe"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d öğe"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Mümkün"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Yazdır"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Y. adl"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Hak durumu"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Zil sesleri"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "Paylaşıma aç"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Gizli dosyaları göster"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Sesler"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Kullanılan kayt yeri"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Saat"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Zamanlı sayım"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Tür"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Sınırsız"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Yukarı"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Geçerlilik"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Sağlayıcı"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videolar"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Duvar kağıtları"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Ana sayfaya ekle"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Buraya aktar"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Dosyalarım’a git"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "A.Syf"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Değiştir"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Tüm klasörleri ara"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Buraya ayarla"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Gelişmiş arama"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Ses"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Mobil ağa bağlan"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi ağına bağlanın"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "sayım"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Klasör adını girin."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Yerel"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Yeni klasör"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Son dosyalar"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Dosyayı kaldır"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Sesli fotoğrafları paylaş"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Kayıt yeri"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Klasör oluşturulamıyor"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Tümünü seç"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Klasör adını girin"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Kısayollara ekle"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Resim dosyası olarak"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Video dosyası olarak"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Arayan zil sesi tonu"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Sıkıştır"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Klasör oluştur"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Tarih (En yeni)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Tarih (En eski)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Aç"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Buraya çıkart"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Varsayılan zil sesi"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Ayrıntılı görünüm"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Düzenle"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Çıkart"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Geçerli klasöre çıkart"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Hedef klasör"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Dosya uzntılrını gizle"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Öğe"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "İsim"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Listele"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Buraya taşı"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "İsim"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Dosya konumunu aç"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Kişisel sayfa"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Ses kaydet"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Rehbere Kaydet"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Yeniden adlandır"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Yeniden adlandırıldı."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Klasörü yeniden adlandır"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Buraya kaydet"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Yakın cihazları tara"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Seçili"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Bağlantıyı paylaş"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Dosya uzantılarını göster"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Ayır"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sıralama ölçütü"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Küçük resim görünümü"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Farklı görüntüle"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Liste şeklinde göster"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Küçük resim görünümü"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 öğe silinecek."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Artan"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Sil?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Devam"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopyalama başarısız."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Silinemedi."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Seçilen öğe silinsin mi?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "Azalan"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM dosyası gönderilemiyor."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM dosyası kullanılamıyor."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Dosya adı kullanılıyor."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Dosya adı zaten var."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Biçim"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Kimden"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Giriş metni"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Dosya adı geçersiz."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Yükleniyor..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Maksimum dosya sayısına ulaşıldı."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Taşıma başarısız."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Ad alanı boş."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Yeterli küme hafızası yok."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Yeterli bellek yok. Bazı öğeleri silin ve tekrar deneyin."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Yeterli hafıza yok. %s kullanılabilir."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Buraya yapıştır"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d öğe silinecek."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "İzin reddedildi."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Son dosyalar listesinden kaldır?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Kısayollardan kaldır?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Kaldır?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Aynı dosya adı zaten var!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "İsim zaten kullanımda."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Öğe seç"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Gönderme Başarısız."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Kısayol eklendi."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Hedef klasör kaynak klasörün alt klasörüdür."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Hedef klasör kaynak klasör ile aynı."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Cihaz bağlantısı kesildi"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Dosya yok."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Kopyalanamıyor."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Taşınamıyor."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Bu eylem gerçekleştirilemiyor. Ağ hatası oluştu."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Görüşme sırasında çalınamaz."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM korumalı içerik zil sesi veya bildirim uyarısı olarak belirlenemedi."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Yakındaki cihazları taramak için bir Wi-Fi ağına bağlı olmanız gerekir. Wi-Fi ile bağlanın ve tekrar deneyin."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Geri"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopyala"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Düzenle"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Taşı"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Bul"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Sırala"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Böyle göster"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "İptal"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Ayrıntılar"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Hepsi"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Harici bellek"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Hafıza kartı"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefon"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Yukarı"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Sıkıştırılmış"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Açılmış"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Dosya indiriliyor..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Dosyalar sıkıştırıldı"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Dosyaları çıkartıldı"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Dosya içe aktarıldı"
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Hiçbir cihaz bulunamadı. Tarama arkaplanda devam edecek."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Dizin"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Bağlan"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Varsayılan bildirim sesi"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Kısayol ekle"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Öğeler silinsin mi?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Yeniden adlandır"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Kaldır"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Öğeyi sil"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Öğeleri seç"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Sonuç bulunamadı"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "%d öğeleri silinsin mi?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Öğe silinsin mi?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 öğe seçildi."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Geçersiz karakter girildi. Yeniden deneyin."
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d öğe seçildi."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Sessiz"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Öğe seç"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "%d öğeye kadar seçebilirsiniz."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "İndirilenler"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Sil?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Taşı"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopyala"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Taşıyor..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Kopyalanıyor..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Siliniyor..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "İşlem başarısız."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Seçili"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Taşındı."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Kopyalandı."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Sıralama ölçütü"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Başarısız oldu."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Tamam"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD kart"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Cihaz hafızası"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Kişisel depolamaya ekle"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Kişisel depolamadan kaldır"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Bu öğe silinsin mi?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Özelden Kaldır"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Özel'e taşı"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maksimum karakter sayısına ulaşıldı."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Çıkartılıyor..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Kişisel bellek"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Biçimlendirme tamamlandı."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Ad (Z'den A'ya)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Ad (A'dan Z'ye)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Ekran yakalama"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Sonuç bulunamadı."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Mesaj uyarısı"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Ayrıntılar"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "İsim girin."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Dosyalarım"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "Eklendi."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Uygulanıyor..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Dosya türü desteklenmiyor."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Kaldır?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Özel içerik"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Şuraya kopyala"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Şuraya taşı"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kısayol eklenemedi."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Yeterli hafıza yok. Bazı öğeleri silin."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Kaldırıldı."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Özel depolama"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Bir şey seçilmedi."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Paylaş"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Göster"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Liste"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Göster"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Frklı kyt"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Kaldırılamadı."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "DropBox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Ebeveyn sıralaması"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Dosya adı kullanılıyor."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Ses"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi ağı yok. Mobil ağlara bağlanmak ödeme planınıza bağlı olarak ek ücretle sonuçlanabilir."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Maksimum karakter sayısına (%d) ulaşıldı"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Hzrlnıyor..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d seçildi"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Öğeleri sil"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "İndirme yok"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "İndirme tamamlandı"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "İndirme Yöneticisi"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Öğeleri indirdikten sonra burada gösterileceklerdir"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "İndirme iptal edildi"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "İndirme başarısız"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Cihazınızın belleğinde yeterli alan yok. Bazı verileri silmek veya bir SD kart takmak için %s ayarlarına gidin."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Cihazınızın belleğinde yeterli alan yok. Depolama alanı açmak için %s ayarlarına gidin, ardından tekrar deneyin."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "SD kartınızda yeterli alan yok. Bazı verileri silmek için %s ayarlarına gidin veya varsayılan depolama konumunu Cihaz olarak değiştirin."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "SD kartınızda yeterli alan yok. Bazı verileri silmek için %s ayarlarına gidin, ardından tekrar deneyin."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Belleğe git"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Varsayılan bellek dolu"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Daha eski"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Kayıt yeri"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Çıkartılıyor..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD kart"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Cihaz hafızası"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Sunucuya bildiriliyor..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d öğe silinecek."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Bu dosya bulunamıyor. Tekrar indirmeyi denemek için İndir'e dokunun."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Dosya açılamıyor"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Bu dosyayı açacak bir uygulama bulunamadı."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Tekrar denemek için İndir öğesine dokunun."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 öğe silinecek."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM içeriği etkinleştiriliyor..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Bu eylemi gerçekleştirecek uygulama bulunamadı."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Kaydetme konumu"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "İçeri aktar"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "İptal"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Tamam"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Tümünü seç"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d seçildi"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "İndir"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Bugün"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Dün"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Değiştr"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Tüm öğelere uygula"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Zip dosyası oluştur"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Zip dosyasını çıkarın"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Dosyalarım"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "İndirme geçmişi"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Geçmiş yok"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Basit paylaşım"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Uygulama yüklenemiyor"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Yalnızca TPK dosyaları yüklenebilir. Yalnızca Tizen Store'dan indirilen uygulamaları yüklemenizi öneririz."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Bu öğeler, buradan silindiğinde Dropbox'tan da silinir. %d öğe silinecek."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Bu öğe, buradan silindiğinde Dropbox'tan da silinir. 1 öğe silinecek."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Bu öğeler taşınırsa Dropbox'tan silinirler. %d öğe taşınacak."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Bu öğe taşınırsa Dropbox'tan silinir. 1 öğe taşınacak."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Saklama yerini seçin"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Durdur"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Yükle"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Dosya yüklenemedi"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Yüklemeleri durdur"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Tekrar denemek için Yükle öğesine dokunun."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Yükleme durdurulacak, fakat dosya silinmeyecek."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Son görüntülenenler"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Veriler kaydedilemiyor"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Cihazınızın hafızasında yeterli alan yok. Ayarlar > Güç ve hafıza > Hafıza bölümüne gidin, ardından bazı dosyaları silip tekrar deneyin."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD kartınızda yeterli alan yok. Ayarlar > Güç ve hafıza > Hafıza bölümüne gidin, ardından bazı dosyaları silip tekrar deneyin."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Yükleme yeri"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox yüklemeleri"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Özel"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "bayt"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Ekle"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Ev"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Alarm"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Diğerleri"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Daha fazla"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Aç"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Hata bilinmiyor."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Klasör ismi ‘.’ veya ‘..’ olarak belirlenemez."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Gizli dosyaları gösterme"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Gizli dosyaları göster"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Bilinmeyen"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Kısayol ismi zaten kullanılıyor."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Temel"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Dosya"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Dosya"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Klasör"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Klasörler"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistem"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "İsim"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Ses dosyaları"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Belgeler"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "İndirilen uygulamalar"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Resimler"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videolar"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "İptal"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "İptal et"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Oluştur"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Sil"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "Tamam"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Kaldır"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Yndn ismlendir"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Kaldır"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Kısayol ekle"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Ses dosyaları"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopyala"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Kopyalama konumu"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Klasör oluştur"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Kısayolu sil"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Ayrıntılar"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Belgeler"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "İndirilen uygulamalar"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Resimler"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Taşı"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Farklı yere taşı"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d seçildi"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Son dosyalar"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Kaldır"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Yeniden adlandır"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Kısayollar"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Sıralama ölçütü"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Kaldır"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Yükleme yeri"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Videolar"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Farklı görüntüle"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Tümü"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Kısayollar"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "İçerik"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Cihaz hafızası"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Biçim"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Yer"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD kart"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Dosya uzntlrn göster"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Gizli dosyaları göster"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Boyut"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Tür"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Sağlayıcı"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Dosya yok"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Artan"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Kopyala"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Klasör oluştur"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Azalan"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Ayrıntılı liste"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Ayrıntılar"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Tekrar gösterme"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Dosya türü"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Listele"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Taşı"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Kaldır"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Boyut"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Saat"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Tür"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Kaldır"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 öğe kaldırılacak."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 kısayol silinecek."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopyalanıyor..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Taşıyor..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d öğe kaldırılacak."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d kısayolları silinecek"
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Çıkartılıyor..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Dolaşım sırasında Mobil verileri kullanmak ödeme planınıza bağlı olarak ek ücretlerin uygulanmasına neden olabilir."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Mevcut kullanımlar"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Oluşturulduğu tarih"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Açıklama"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Yönlendirme"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Son değiştirilme"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Çözünürlük"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Toplam boyut"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Geçerlilik"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Hedef klasör, kaynak klasörün alt klasörüdür."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Hedef klasörü kaynak klasörle aynı."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kısayol eklenemedi."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Öğe kopyalanamadı."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Öğe silinemedi."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Öğe taşınamadı."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Öğe kaldırılamadı."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Dosya adı kullanılıyor"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Maksimum kısayol sayısına (%d) ulaşıldı."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Kısayol eklendi."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Kısayol zaten var"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Yenile"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d öğe silinecek."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d uygulama kaldırılacak."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s kaldırılacak."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Boyut"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Liste görünümü"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Klasör ismi zaten kullanımda."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Yerel depolama"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Cihaz belleği"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Oturum açılmadı."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Tüm dosyalar"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Bulut depolama"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Liste"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Kısayollar"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Saat"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Kaldır"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "İçindekiler"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Yüz algılanamadı"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Zaten var."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Taşınamıyor. Hedef klasör kaynak klasörle aynı"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Klasör oluştur"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Daha fazla"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Buraya taşı"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Buraya yapıştır"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Ayarla"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Bu dosya türü, cihazınızdaki hiçbir uygulama tarafından desteklenmiyor."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d dosyaları silinecek."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Dosyalar gönderildi"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "BİTTİ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "İPTAL"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "SİL"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Yeniden adlandır"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Öğe seç"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Yükleme yok"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Yüklediğiniz öğeler burada gösterilir."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Veriler kaydedilemiyor"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD kartınızda yeterli alan yok. Ayarlar > Güç ve hafıza > Hafıza bölümüne gidin, ardından bazı dosyaları silip tekrar deneyin."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Cihazınızın hafızasında yeterli alan yok. Ayarlar > Güç ve hafıza > Hafıza bölümüne gidin, ardından bazı dosyaları silip tekrar deneyin."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Hata"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Bellek dolu."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 öğe Dropbox'tan silinecek."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d öğe Dropbox'tan silinecek."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobil verisi kapalı. Bir Wi-Fi ağına bağlanın veya Mobil verisini etkinleştirip tekrar deneyin."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Kişisel bellek"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Yol"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Maksimum karakter sayısına %d ulaşıldı"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Kayıt yeri seç"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "İndirme geçmişi"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "İndirme geçmişi"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "İndiriliyor..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "İndirilenler"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "İndirme yok"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "İndirme başarısız"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Süre dolum tarihi: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Sürenin dolduğu tarih: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Dosya indirilemedi"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Dosyayı tekrar indirmeyi deneyin veya indirme listesinden kaldırın."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Tekrar dene"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Kaldır"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategori"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Klasör adı kullanılıyor"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Dosya adı kullanılıyor"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Bu dosya ismi (%s) zaten hedef klasörde kullanılıyor."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Bu klasör ismi (%s) zaten hedef klasörde kullanılıyor."
+

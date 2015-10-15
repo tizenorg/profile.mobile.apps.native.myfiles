@@ -1,0 +1,1665 @@
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ваше устройство не подключено к сети Wi-Fi. За подключение к мобильной сети может взиматься дополнительная плата (в зависимости от вашего тарифного плана)"
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Отправить через"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Отправить через"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Мобильные данные включены. Подключитесь к сети Wi-Fi или включите мобильные данные и повторите попытку."
+
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Элементы (%d) будут удалены."
+
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Этот элемент будет удален."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Загрузка..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Недостаточно памяти."
+
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Отменено."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Загрузка невозможна."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Успешно"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Создать"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Удалено."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Карта памяти извлечена."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Поиск..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Ошибка подключения к сети."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Удалить папку"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Введите имя папки."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Загруж. прилож."
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Ошибка подключения к сети. Вызов был завершен. Подключиться к сети еще раз?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Соxранить"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Да"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Нет"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Добавить ярлык"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Удалить"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Удалить ярлык"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Переименовать ярлык"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Поиск"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Отправить"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Использование хранилища"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Больше не показывать"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "б"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "Гб"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "МБ"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Невозможно подключиться к серверу."
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Личное"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Удалить ярлык"
+
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Аккумулятор разряжен"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 файл"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Мой альбом"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Добавить из"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Оповещения"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Любой"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Доступно"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Содержимое"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Дата создания"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Дата"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Удалить выбранные элементы?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "КБ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Документы"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Запуск"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Имя файла"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Тип файла"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Имя папки"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Пересылка"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "Информация GPS"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "Широта по GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "Долгота по GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "Версия GPS"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Картинки"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Невозможно"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Индивидуальный"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Интервал"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Последнее изменение"
+
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Подробный список"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Расположение"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Инициализация данных MMC..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Мои видеоклипы"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Недостаточно памяти телефона. Удалите ненужные элементы и повторите попытку."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Нет файлов"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "В последнее время файлы не открывались"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "В последнее время файлы не открывались"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "Файлы: %d"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d элемент"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "Эл-ов: %d"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Возможно"
+
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Печать"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Переим."
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Состояние прав"
+
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Мелодии звонка"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "Поделиться"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Показать скрытые файлы"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Звуки"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Использование памяти"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Время"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Счетчик"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Не ограничено"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Вверх"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Период действия"
+
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Поставщик"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видео"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Обои"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Доб. на главный"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Экспортировать сюда"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Перейти в “Мои файлы”"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Домой"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Заменить"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Поиск по всем папкам"
+
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Выбрать этот путь"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Расширенный поиск"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Аудио"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Подключение к мобильной сети"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Подключение к сети Wi-Fi"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Количество"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Введите имя папки."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Локальный"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Новая папка"
+
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Последние файлы"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Удалить файл"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Отправить 'Фото со звуком'"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Память"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Не удалось создать папку"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Выбрать все"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Введите имя папки"
+
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Добавить к ярлыкам"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Как изображение"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Как видеофайл"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Мелодия контакта"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Сжать"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Создать папку"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Дата (сначала последние)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Дата (сначала старые)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Распаковать"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Распаковать сюда"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Мелодия по умолчанию"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Просмотр сведений"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Изменить"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Извлечь"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Извлечь в текущую папку"
+
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Перейти к папке"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Скрыть расширения"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Элементы"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Имя"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Сортировка по"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Переместить сюда"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Имя"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Открыть папку с файлом"
+
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Личная страница"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Записать звук"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Добавить в Контакты"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Переименовать"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Переименовано."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Переименовать папку"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Сохранить здесь"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Поиск устройств поблизости"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Выбрано"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Отправить ссылку"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Показать расширения файлов"
+
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Разделить"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Сортировать по"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Эскизы"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Вид просмотра"
+
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Просмотр в виде списка"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Просмотр по эскизам"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Сжать"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Будет удален 1 элемент."
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "По возрастанию"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Удалить?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Продолжить"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Сбой копирования."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Сбой удаления."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Удалить выбранный элемент?"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "По убыванию"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "Файл DRM. Невозможно отправить."
+
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "Файл DRM недоступен."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Имя файла уже используется."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Имя папки уже существует."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "От"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Введите текст"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Неверное имя файла"
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Загрузка..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Достигнуто макс. количество папок."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Сбой перемещения."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Имя не задано."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Недостаточно динамической памяти."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Недостаточно памяти. Удалите ненужные элементы и повторите попытку."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Недостаточно памяти. Свободная память: %s."
+
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Вставить сюда"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Элементы (%d) будут удалены."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Разрешение не получено."
+
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Удалить из списка последних файлов?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Удалить из ярлыков?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Удалить?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Файл с таким именем уже существует!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Имя уже используется."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Выберите элемент"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Сбой передачи."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Ярлык добавлен."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Папка назначения является вложенной в исходной папке."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Папка назначения совпадает с исходной папкой."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Устройство отключено."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Файл не существует."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Невозможно скопировать."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Невозможно переместить."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Невозможно выполнить это действие. Произошла ошибка сети."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Воспроизведение во время вызова невозможно."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Не удалось установить содержимое, защищенное DRM, в качестве мелодии звонка или сигнала уведомления."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Для поиска устройств, которые находятся рядом, требуется подключение к Wi-Fi. Подключитесь к Wi-Fi и повторите попытку."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Назад"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Копир."
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Удалить"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Изменить"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Переместить"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Поиск"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Сортировка"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Вид"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Отмена"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Отмена"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Сведения"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Все"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Внешний носитель"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Карта памяти"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Телефон"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Вверх"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Сжато"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Распаковано"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Загрузка файла..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Файлы сжаты"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Файлы извлечены"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Файл импортирован."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Устройства не найдены. Сканирование будет продолжено в фоновом режиме"
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Каталог"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Подключить"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Стандартное уведомление"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Добавить ссылку"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Удалить элементы?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Переименовать"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Удалить"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Удалить элемент"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Выберите элементы"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Ничего не найдено"
+
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Удалить %d элем.?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Удалить элемент?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "Выбран 1 элемент."
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Введен недопустимый символ. Повторите попытку"
+
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Выбрано элементов: %d."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Без звука"
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Выберите элемент"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "Можно выбрать до %d элементов."
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Загрузки"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Удалить?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Переместить"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Копировать"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Перемещение..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Копирование..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Удаление..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Сбой операции."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Выбранное"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Перемещено."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Скопировано."
+
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Сортировать по"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Сбой."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Готово"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Карта памяти SD"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Память устройства"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Добавить в личное хранилище"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Удалить из личного хранилища"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Удалить этот элемент?"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Удалить из приватного режима"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Добавить в приватный режим"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Достигнуто максимальное число символов."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Удаление..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Личное хранилище"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Форматирование завершено."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Имя (от Я до А)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Имя (от А до Я)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Снимок экрана"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Ничего не найдено."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Сигнал сообщения"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Свойства"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Введите название."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Мои файлы"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "Добавлено."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Обработка..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Неподдерживаемый тип файла"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Удалить?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Частное содержимое"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Копировать"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Переместить"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Не удалось добавить ярлык."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Недостаточно памяти. Удалите некоторые элементы"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Удалено."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Приватное хранилище"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ничего не выбрано."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Отправить"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Вид"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Список"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Просмотр"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Сохранить как"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Удаление невозможно."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Родительский контроль"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Имя файла уже используется."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Голос"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Сеть Wi-Fi недоступна. За подключение к мобильной сети может взиматься дополнительная плата (в зависимости от вашего тарифного плана)"
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Достигнуто максимальное число символов (%d)."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Подготовка..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "Выбрано: %d"
+
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Удалить элементы"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Нет загрузок"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Загрузка завершена"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Диспетчер загрузки"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Здесь отображаются загруженные элементы."
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Загрузка отменена"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Сбой загрузки"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Недостаточно места в памяти устройства. Вставьте карту памяти SD или перейдите в меню %s, чтобы удалить некоторые данные."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Недостаточно места в памяти устройства. Перейдите в меню %s, чтобы освободить место, затем повторите попытку."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "Недостаточно места на карте памяти SD. Перейдите в меню %s, чтобы удалить некоторые данные, или измените место хранения по умолчанию на “Устройство”."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "Недостаточно места на карте памяти SD. Перейдите в меню %s, чтобы удалить некоторые данные, затем повторите попытку."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Перейти в “Хранил.”"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Хранилище по умолчанию заполнено"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Старые"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Память"
+
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Удаление..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "Карта памяти"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Память устройства"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Уведомление сервера..."
+
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Элементы (%d) будут удалены."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Не удается найти этот файл. Нажмите “Загрузка”, чтобы снова загрузить его."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Не удалось открыть файл"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Не удалось найти приложение для открытия этого файла."
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Нажмите “Загрузить”, чтобы повторить попытку."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "Будет удален 1 элемент."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Активация содержимого DRM..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Не удается найти приложение для выполнения этого действия."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Место хранения"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Импорт"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Отмена"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ОК"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Выбрать все"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "Выбрано: %d"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Загрузка"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Сегодня"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Вчера"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Удалить"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Замен."
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Применить ко всем элементам"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Создать ZIP-файл"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Извлечь ZIP-файл"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Мои файлы"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Интернет"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Журнал загрузок"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Нет записей"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Обмен файлами"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Невозможно установ. приложение"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Можно установить только TPK-файлы. Мы рекомендуем устанавливать приложения, загружаемые из только Tizen Store."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Удаление этих элементов отсюда приведет также к их удалению из Dropbox. Будет удалено элементов: %d."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Удаление этого элемента отсюда приведет также к его удалению из Dropbox. 1 элемент будет удален."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Перемещение этих элементов приведет к их удалению из Dropbox. Будет перемещено элементов: %d."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Перемещение этого элемента приведет к его удалению из Dropbox. 1 элемент будет перемещен."
+
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Выбор места хранения"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Стоп"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Загрузка"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Не удалось отправить файл"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Остановка отправок"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Нажмите “Отправить”, чтобы повторить попытку."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Отправка остановится, но файл не будет удален."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Недавно\nпросмотр."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Сбой сохранения данных"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Недостаточно места в памяти устройства. Откройте “Параметры” > “Питание и хранилище” > “Хранилище”, удалите часть файлов и повторите попытку."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Недостаточно места на карте памяти SD. Откройте “Параметры” > “Питание и хранилище” > “Хранилище”, удалите часть файлов и повторите попытку."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Отправить в"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Отправка в Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Частный"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "байт"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Добав."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Домашний"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Будильник"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Прочее"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Опции"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Открыть"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Неизвестная ошибка"
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Невозможно использовать ‘.’ или ‘..’ в качестве имени папки."
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Не показывать скрытые файлы"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Показать скрытые файлы"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Неизвестно"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Имя ярлыка уже используется."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Основной"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Файлы"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Папка"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Папки"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Система"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Имя"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Аудиофайлы"
+
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Документы"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Загруженные\nприложения"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Изображения"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Видео"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Отмена"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Отмена"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Создать"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Удалить"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "ОК"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Удалить"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Переименовать"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Удалить"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Добавить ярлык"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Аудиофайлы"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Копировать"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Копировать"
+
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Создать папку"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Удалить ярлык"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Свойства"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Документы"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Загруженные приложения"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Картинки"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Переместить"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Переместить"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "Выбрано: %d"
+
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Последние файлы"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Удалить"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Переименовать"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Ярлыки"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Сортировать по"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Удалить"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Отправить в"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Видео"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Вид"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Все"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Ярлыки"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Содержание"
+
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Память устройства"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Расположение"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "Карта памяти SD"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Показывать расширения"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Показывать скрытые файлы"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Поставщик"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Нет файлов"
+
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "По возрастанию"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Копировать"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Создать папку"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "По убыванию"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Подробный список"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Свойства"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Больше не показывать"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Тип файла"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Список"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Переместить"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Удалить"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Время"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Тип"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Удалить"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 элемент будет удален."
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "Будет удален 1 ярлык."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Копирование..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Перемещение..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Выбранные элементы (%d) будут удалены."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "Ярлыки (%d) будут удалены."
+
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Удаление..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "За использование мобильных данных в роуминге может взиматься дополнительная плата (в зависимости от вашего тарифного плана)."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Доступные действия"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Дата создания"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Описание"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Переадресация"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Последнее изменение"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Разрешение"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Общий размер"
+
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Период действия"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Папка назначения вложена в исходную папку."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Папка назначения совпадает с исходной."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Не удалось добавить ярлык."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Не удается скопировать элемент."
+
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Не удалось удалить элемент."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Не удалось переименовать элемент."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Не удалось удалить элемент."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Имя файла уже используется"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Достигнуто максимальное количество ярлыков (%d)."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Ярлык добавлен."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Ярлык уже существует"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Обновить"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "Элементы (%d) будут удалены."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "Будет удалено приложений: %d."
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Приложение %s будет удалено."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Размер"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Список"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Имя папки уже используется."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Локальное хранилище"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Память устр."
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Вход не выполнен."
+
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Все файлы"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Облачное хранилище"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Порядок"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Ярлыки"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Время"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Удалить"
+
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Содержит"
+
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Лицо не обнаружено"
+
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
+
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Уже существует."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Невозможно переместить. Папка назначения совпадает с исходной папкой."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Создать папку"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Опции"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Переместить сюда"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Вставить сюда"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Применить"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Этот тип файла не поддерживается приложениями на вашем устройстве."
+
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Файлы (%d) будут удалены."
+
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Файлы отправлены"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ГОТОВО"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ОТМЕНА"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "УДАЛИТЬ"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Переименовать"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Выберите элемент"
+
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Нет отправок"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Здесь выводятся отправленные элементы."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Сбой сохранения данных"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Недостаточно места на карте памяти SD. Откройте “Параметры” > “Питание и хранилище” > “Хранилище”, удалите часть файлов и повторите попытку."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Недостаточно места в памяти устройства. Откройте “Параметры” > “Питание и хранилище” > “Хранилище”, удалите часть файлов и повторите попытку."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Ошибка"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Память заполнена."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Из Dropbox будет удален 1 элемент."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Из Dropbox будет удалено %d эл."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Передача мобильных данных отключена. Подключитесь к сети Wi-Fi или включите мобильные данные и повторите попытку."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Личное хранилище"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Путь"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Достигнуто максимальное число символов (%d)"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Выберите память"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Журнал загрузок"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Журнал загрузок"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Загрузка..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Загрузки"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Нет загрузок"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Сбой загрузки"
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Истекает: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Истекло: %s"
+
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Не удалось загрузить файл"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Повторите попытку загрузки файла или удалите его из очереди."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Повторить"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Удалить"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Категория"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Имя папки уже используется"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Имя файла используется"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Файл с таким именем (%s) уже есть в папке назначения."
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Папка с таким именем (“%s”) уже есть в конечной папке."
+

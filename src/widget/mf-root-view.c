@@ -545,7 +545,7 @@ void mf_root_view_create(void *data)
 	}
 #if 0	//tizen_3.0
 	Evas_Object *float_button = eext_floatingbutton_add(ap->mf_MainWindow.pNaviLayout);
-	Evas_Object *btn = elm_button_add(ap->mf_MainWindow.pNaviLayout);
+	Evas_Object *btn = elm_button_add(float_button);
 	if (float_button && btn) {
 		elm_object_part_content_set(float_button, "button1", btn);
 		Evas_Object *search_image = elm_image_add(float_button);

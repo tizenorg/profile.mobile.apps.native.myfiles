@@ -63,5 +63,6 @@ void mf_launch_item_share(void *data, Evas_Object * obj, void *event_info);
 char * mf_launch_item_size_calculate(double size);
 void mf_launch_service_timer_del();
 void mf_launch_load_storage(void *data);
+void mf_launch_add_recent_files(void *data, const char *path);
 
 #endif //__DEF_MYFILE_LAUNCH_H_

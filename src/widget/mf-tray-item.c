@@ -597,19 +597,6 @@ static void __mf_category_item_released(void *data, Evas_Object *o, const char *
 	MF_TRACE_END;
 }
 
-static void __mf_category_all_item_clicked(void *data, Evas_Object *o, const char *emission, const char *source)
-{
-	MF_TRACE_BEGIN;
-	struct appdata *ap = (struct appdata *)mf_get_appdata();
-	if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
-	    || ap->mf_Status.more == MORE_EDIT_RENAME) {
-		return;
-	}
-
-	mf_view_update(ap);
-	MF_TRACE_END;
-}
-
 static void __mf_category_recent_item_clicked(void *data, Evas_Object *o, const char *emission, const char *source)
 {
 	MF_TRACE_BEGIN;

@@ -54,7 +54,6 @@ void mf_callback_category_filter_cb(void *data, Evas_Object *obj, void *event_in
 static void __mf_search_entry_text_del_cb(void *data, Evas *e, Evas_Object *obj, void *event_info)
 {
 	struct appdata *ap = (struct appdata *)data;
-	Evas_Object *icon = NULL;
 	if (!elm_entry_is_empty(ap->mf_MainWindow.pSearchEntry)) {
 		elm_entry_entry_set(ap->mf_MainWindow.pSearchEntry, "");
 	}
@@ -136,7 +135,6 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 
 	Evas_Object *sb = NULL;
 	Evas_Object *en = NULL;
-	Evas_Object *icon = NULL;
 
 	sb = elm_layout_add(parent);
 
@@ -175,7 +173,7 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 	evas_object_size_hint_weight_set(back_btn, EVAS_HINT_EXPAND, 0);
 	evas_object_size_hint_align_set(back_btn, EVAS_HINT_FILL, 0.0);
 	evas_object_show(back_btn);
-	evas_object_smart_callback_add(back_btn, "clicked", __mf_search_entry_text_del_cb, ap);
+	evas_object_smart_callback_add(back_btn, "clicked", (Evas_Smart_Cb)__mf_search_entry_text_del_cb, ap);
 	ap->mf_MainWindow.pSearchLayout = back_btn;
 
 	static Elm_Entry_Filter_Limit_Size limit_filter_data;

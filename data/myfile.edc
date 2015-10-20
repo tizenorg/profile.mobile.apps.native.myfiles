@@ -2375,8 +2375,7 @@ group { name : "default_thumb_bg";
 
 #define POPUP_CONTENT_DEFAULT_PADDING_LEFT_RIGHT_MIN_INC 15
 #define POPUP_CONTENT_DEFAULT_PADDING_TOP_BOTTOM_MIN_INC 27
-#define POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC 0 90
-#define POPUP_CHECK_VIEW_LAYOUT_MIN_INC 0 90
+#define POPUP_VIEW_LAYOUT_CONTENT_MIN_INC 0 90
 
 	group {
 		name: "popup_confirmation_layout";
@@ -2387,7 +2386,7 @@ group { name : "default_thumb_bg";
 				type: SPACER;
 				description {
 					state: "default" 0.0;
-					min: POPUP_CHECK_VIEW_LAYOUT_MIN_INC;
+					min: POPUP_VIEW_LAYOUT_CONTENT_MIN_INC;
 					fixed: 0 1;
 				}
 			}
@@ -2423,7 +2422,7 @@ group { name : "default_thumb_bg";
 				scale: 1;
 				description {
 					state: "default" 0.0;
-					min: POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC;
+					min: POPUP_VIEW_LAYOUT_CONTENT_MIN_INC;
 					align: 0.5 0.0;
 					rel2 {
 						relative: 1.0 0.0;

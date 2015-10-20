@@ -55,5 +55,6 @@ void mf_edit_list_item_reset(void *data);
 void mf_edit_select_all_check_set(Eina_Bool state);
 void mf_edit_view_select_all_layout_prepend(void *data);
 void mf_edit_list_item_sel_by_list_data(mf_list_data_t *selected, Evas_Object * obj,  Eina_Bool is_update_checkbox);
+void mf_edit_file_list_item_remove(void *data);
 
 #endif //__MF_EDIT_VIEW_H_DEF__

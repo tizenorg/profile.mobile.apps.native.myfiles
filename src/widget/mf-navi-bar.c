@@ -477,7 +477,7 @@ void mf_navi_add_back_button(void *data, Eina_Bool (*func)(void *data, Elm_Objec
 	if (ap->mf_Status.view_type != mf_view_root) {
 		Evas_Object *pBackButton = NULL;
 		pBackButton = __mf_navi_bar_backbutton_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pWindow);
-		evas_object_smart_callback_add(pBackButton, "clicked", func, ap);
+		evas_object_smart_callback_add(pBackButton, "clicked", (Evas_Smart_Cb)func, ap);
 
 		if (pBackButton) {
 			Evas_Object *unset = elm_object_item_part_content_unset(ap->mf_MainWindow.pNaviItem, "prev_btn");

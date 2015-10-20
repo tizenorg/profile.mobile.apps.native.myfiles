@@ -52,7 +52,7 @@ struct _mf_edit_sound_image_t {
 	char **files;
 	int count;
 };
-
+void mf_launch_add_recent_files(void *data, const char *path);
 /*
 static void __mf_launch_ug_layout_cb(ui_gadget_h ug, enum ug_mode mode, void *priv)
 {

@@ -478,6 +478,7 @@ void mf_root_view_append_mmc_item_after_phone(Evas_Object *parent, fsNodeInfo *p
 	return;
 }
 
+#if 0 //for tizen 3.0
 static Eina_Bool __mf_root_view_launch_search(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
@@ -498,6 +499,7 @@ static void mf_root_view_enter_search_routine(void *data, Evas_Object * obj, voi
 	mf_ecore_idler_del(ap->mf_Status.float_button_idler);
 	ap->mf_Status.float_button_idler = ecore_idler_add((Ecore_Task_Cb)__mf_root_view_launch_search, ap);
 }
+#endif
 
 void mf_root_view_create(void *data)
 {

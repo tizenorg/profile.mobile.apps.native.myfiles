@@ -40,7 +40,6 @@
 #define ICON_NORMAL_SIZE_HEIGHT		180.0f
 
 #define LAYOUT_SWALLOW_BG		"swallow.bg"
-#define LAYOUT_INFO_SHORTCUT_ITEM_ICON     "swallow.icon"
 
 #define MF_CATEGORY_LAYOUT_EDJ EDJ_PATH"/myfile_category.edj"
 #define MF_CATEGORY_LAYOUT_GROUP "category_frame"
@@ -570,8 +569,7 @@ static void __mf_category_item_clicked(void *data, Evas_Object *o, const char *e
 	struct appdata *ap = (struct appdata *)mf_get_appdata();
 	int category = (int) data;
 	mf_debug("the category = %d", category);
-	if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
-	    || ap->mf_Status.more == MORE_EDIT_RENAME) {
+	if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		return;
 	}
 
@@ -601,8 +599,7 @@ static void __mf_category_recent_item_clicked(void *data, Evas_Object *o, const 
 {
 	MF_TRACE_BEGIN;
 	struct appdata *ap = (struct appdata *)mf_get_appdata();
-	if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
-	    || ap->mf_Status.more == MORE_EDIT_RENAME) {
+	if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		return;
 	}
 

@@ -271,18 +271,6 @@ static void __mf_context_popup_item_append(Evas_Object *parent, void *data, mf_c
 		item = elm_ctxpopup_item_append(ctxpopup, LABEL_RENAME, image, mf_callback_edit_rename_cb, data);
 		mf_object_item_translate_set(item, LABEL_RENAME);
 		break;
-	case mf_context_popup_item_add_shortcut:
-		item = elm_ctxpopup_item_append(ctxpopup, MF_LABEL_ADD_TO_SHORTCUT, image, mf_callback_edit_add_to_shortcut_cb, data);
-		mf_object_item_translate_set(item, MF_LABEL_ADD_TO_SHORTCUT);
-		break;
-	case mf_context_popup_item_delete_shortcut:
-		item = elm_ctxpopup_item_append(ctxpopup, MF_LABEL_DELETE_SHORTCUT, image, mf_callback_edit_delete_shortcut_cb, data);
-		mf_object_item_translate_set(item, MF_LABEL_DELETE_SHORTCUT);
-		break;
-	case mf_context_popup_item_rename_shortcut:
-		item = elm_ctxpopup_item_append(ctxpopup, MF_LABEL_RENAME_SHORTCUT, image, mf_callback_edit_rename_shortcut_cb, data);
-		mf_object_item_translate_set(item, MF_LABEL_RENAME_SHORTCUT);
-		break;
 	case mf_context_popup_item_remove_recent:
 		item = elm_ctxpopup_item_append(ctxpopup, MF_LABEL_REMOVE, image, mf_callback_edit_delete_recent_cb, data);
 		mf_object_item_translate_set(item, MF_LABEL_REMOVE);
@@ -475,14 +463,6 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 
 			//1 Storage Usage
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_storage_usage);
-			//1 Add shortcut
-			//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_add_shortcut);
-			int count = 0;
-			mf_media_get_short_count(ap->mf_MainWindow.mfd_handle, &count);
-			if (count > 0) {
-				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete_shortcut);
-				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename_shortcut);
-			}
 			//1 Setting
 			//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_setting);
 		} else if (ap->mf_Status.view_type == mf_view_storage) {
@@ -581,8 +561,6 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 							__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_new_folder);
                                 //1 Rename
                                 __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename);
-				//1 Add shortcut
-                            //    __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_add_shortcut);
                                 //1 Edit
                                 //__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_edit);
 
@@ -637,8 +615,7 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 
 	} else if (ap->mf_Status.more == MORE_INTERNAL_MOVE ||
 			ap->mf_Status.more == MORE_INTERNAL_COPY  ||
-			ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS ||
-		     ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
+			ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS) {
 		//1 Create
 		__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_new_folder);
 	}

@@ -198,8 +198,6 @@ struct _myfileStatus {
 	int check;
 	mf_request_type req;
 
-	bool is_from_shortcut;
-	char* shortcut_from_path;
 	bool ToTop;
 
 	Eina_Bool flagNoContent;
@@ -266,7 +264,6 @@ struct _myfileFileOperation {
 	Eina_List *file_list;
 	Eina_List *category_list;
 	Eina_List *recent_list;
-	Eina_List *shortcut_list;
 
 	mf_cancel *pCancel;
 	mf_fo_request *pRequest;

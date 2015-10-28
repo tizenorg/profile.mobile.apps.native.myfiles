@@ -61,8 +61,7 @@ static void __mf_gengrid_icon_clicked(void *data, Evas_Object *obj, void *event_
 			|| ap->mf_Status.more == MORE_EDIT_MOVE
 			|| ap->mf_Status.more == MORE_EDIT_DELETE
 			|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
-			|| ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
-		    || ap->mf_Status.more == MORE_EDIT_DETAIL
+			|| ap->mf_Status.more == MORE_EDIT_DETAIL
 			) {
 			return;
 		}

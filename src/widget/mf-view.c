@@ -255,7 +255,6 @@ void mf_view_refresh(void *data)
 		ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE ||
 		ap->mf_Status.more == MORE_DATA_COPYING || ap->mf_Status.more == MORE_DATA_MOVING ||
 		ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS
-		|| ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT
 		|| ap->mf_Status.more == MORE_EDIT_RENAME) {
 		mf_error();
 		if (ap->mf_Status.view_type == mf_view_root) {
@@ -348,15 +347,6 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 	m_TempItem->list_type = pNode->list_type;
 	m_TempItem->thumbnail_type = MF_THUMBNAIL_DEFAULT;
 	m_TempItem->pNode = pNode;
-	if (ap->mf_Status.view_type == mf_view_root && pNode->list_type == mf_list_shortcut) {
-		//do nothing
-	} else {
-		if (!(m_TempItem->real_thumb_flag && m_TempItem->thumb_path)) {
-			//mf_genlist_get_thumbnail(m_TempItem);
-			//SECURE_ERROR("================= thumbnail is [%s]", m_TempItem->thumb_path);
-		}
-	}
-
 	Elm_Object_Item *it = NULL;
 
 	if (view_style == MF_VIEW_SYTLE_LIST_DETAIL) {
@@ -569,7 +559,6 @@ char *mf_view_item_data_get(void *data, int data_type)
 		switch (list_type) {
 		case mf_list_normal:
 		case mf_list_recent_files:
-		case mf_list_shortcut:
 			fullpath = ((mfItemData_s *)item_data)->m_ItemName->str;
 			break;
 

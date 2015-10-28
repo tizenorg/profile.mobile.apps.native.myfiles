@@ -103,8 +103,6 @@ void mf_callback_hardkey_more_cb(void *data, Elm_Object_Item *it, const char *em
 void mf_callback_hardkey_back_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_item_copy_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_item_move_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_item_add_to_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_item_remove_from_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_setting_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_new_folder_save_cb(void *data, Evas_Object *obj, void *event_info);
 void mf_callback_longpress_rename_cb(void *data, Evas_Object * obj, void *event_info);
@@ -134,18 +132,11 @@ void mf_callback_move_to_private_button_from_edit_view_cb(void *data, Evas_Objec
 void mf_callback_edit_copy_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_edit_move_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_edit_delete_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_edit_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_edit_rename_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_edit_add_to_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_do_add_to_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_warning_popup_cb(void *data, Evas_Object * obj, void *event_info);
 int mf_callback_idle_rename(void *data);
-void mf_callback_edit_delete_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_do_delete_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_edit_rename_shortcut_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_edit_delete_recent_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_do_delete_recent_files(void *data, Evas_Object * obj, void *event_info);
-void mf_callback_delete_shortcut_confirm_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_delete_recent_files_confirm_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_edit_unintall_cb(void *data, Evas_Object * obj, void *event_info);
 void mf_callback_unsupported_app_cb(void *data, Evas_Object * obj, void *event_info);

@@ -113,7 +113,6 @@ static void __mf_callback_dir_pipe_cb(void *data, void *buffer, unsigned int nby
 	    || ap->mf_Status.more == MORE_EDIT
 	    || ap->mf_Status.more == MORE_EDIT_COPY
 	    || ap->mf_Status.more == MORE_EDIT_MOVE
-	    || ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT
 	    || ap->mf_Status.more == MORE_EDIT_DELETE
 	    || ap->mf_Status.more == MORE_THUMBNAIL_RENAME
 	      || ap->mf_Status.more == MORE_EDIT_DETAIL)) {

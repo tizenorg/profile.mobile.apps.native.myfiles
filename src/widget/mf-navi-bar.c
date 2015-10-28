@@ -378,7 +378,6 @@ void mf_navi_bar_title_set(void *data)
 		|| ap->mf_Status.more == MORE_EDIT_COPY
 		|| ap->mf_Status.more == MORE_EDIT_MOVE
 		|| ap->mf_Status.more == MORE_EDIT_DELETE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
 		|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
 	   ) {
 		if (more == MORE_EDIT) {

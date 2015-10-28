@@ -45,12 +45,6 @@ collections {
 
 	      }
 	}
-	sounds {
-		sample {
-			name: "button-pressed" RAW;
-			source: "button-pressed.wav";
-		}
-	}
 
 #include "myfile-ctxpopup.edc"
 #include "myfile-expand-title.edc"
@@ -2276,13 +2270,6 @@ group {
 		}
 
 	}
-	/*programs {
-		program { name: "image_clicked";
-			source: "elm.icon";
-			signal: "mouse,clicked,1";
-			action: PLAY_SAMPLE "button-pressed" 1.0;
-		}
-	}*/
 }
 group
 {

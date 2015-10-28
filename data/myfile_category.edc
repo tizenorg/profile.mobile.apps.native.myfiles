@@ -590,12 +590,6 @@ collections {
                         param  : "FEEDBACK_TYPE_SOUND FEEDBACK_PATTERN_TAP";
                 }
 	}
-	sounds {
-		sample {
-			name: "button-pressed" RAW;
-			source: "button-pressed.wav";
-		}
-	}
 	images {
 		image: "U01_category_cell.png" COMP;
 		image: "U01_category_cell_press.#.png" COMP;

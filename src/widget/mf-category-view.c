@@ -82,7 +82,6 @@ static void __mf_category_item_sel(void *data, Evas_Object * obj, void *event_in
 			|| ap->mf_Status.more == MORE_EDIT_COPY
 			|| ap->mf_Status.more == MORE_EDIT_MOVE
 		    || ap->mf_Status.more == MORE_EDIT_DETAIL
-			|| ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT
 			|| ap->mf_Status.more == MORE_EDIT_DELETE
 		) {
 			MF_TRACE_END;
@@ -615,8 +614,8 @@ void mf_category_list_update_cb (media_content_error_e error, int pid,
                     mf_view_get_pre_state(ap) != MORE_SEARCH &&
                     (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_EDIT ||
                      ap->mf_Status.more == MORE_SHARE_EDIT || ap->mf_Status.more == MORE_EDIT_COPY ||
-                     ap->mf_Status.more == MORE_EDIT_MOVE || ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT ||
-                     ap->mf_Status.more == MORE_EDIT_DELETE || ap->mf_Status.more == MORE_EDIT_DETAIL))
+                     ap->mf_Status.more == MORE_EDIT_MOVE || ap->mf_Status.more == MORE_EDIT_DELETE ||
+                     ap->mf_Status.more == MORE_EDIT_DETAIL))
                 {   /* if it is rename state, don't refresh list */
                     if (mf_callback_monitor_media_db_update_flag_get()) {
                         mf_callback_monitor_media_db_update_flag_set(EINA_FALSE);
@@ -639,7 +638,6 @@ void mf_category_list_update_cb (media_content_error_e error, int pid,
                         pre_more == MORE_SHARE_EDIT ||
                         pre_more == MORE_EDIT_COPY ||
                         pre_more == MORE_EDIT_MOVE ||
-                        pre_more == MORE_EDIT_ADD_SHORTCUT ||
                         pre_more == MORE_EDIT_DELETE ||
                         pre_more == MORE_EDIT_DETAIL)
                     {
@@ -656,7 +654,6 @@ void mf_category_list_update_cb (media_content_error_e error, int pid,
                     if (pre_more == MORE_EDIT ||
                         pre_more == MORE_EDIT_COPY ||
                         pre_more == MORE_EDIT_MOVE ||
-                        pre_more == MORE_EDIT_ADD_SHORTCUT ||
                         pre_more == MORE_EDIT_DELETE ||
                         pre_more == MORE_EDIT_DETAIL)
                     {
@@ -704,7 +701,6 @@ void mf_category_list_update_cb (media_content_error_e error, int pid,
                     ap->mf_Status.more == MORE_EDIT_COPY ||
                     ap->mf_Status.more == MORE_EDIT_MOVE ||
                     ap->mf_Status.more == MORE_EDIT_DETAIL ||
-                    ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT ||
                     ap->mf_Status.more == MORE_EDIT_DELETE))
             {
                 Eina_List *file_list = NULL;
@@ -1026,7 +1022,6 @@ void mf_category_view_create_vew_as(void *data, bool flag_show)
 	if (ap->mf_FileOperation.file_list) {
 		mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.file_list), MYFILE_TYPE_FSNODE);
 	}
-	mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.shortcut_list), MYFILE_TYPE_FSNODE);
 	newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, false);
 	elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
 	//mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
@@ -1063,7 +1058,6 @@ void mf_category_view_create(void *data, bool flag_show)
 	if (ap->mf_FileOperation.file_list) {
 		mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.file_list), MYFILE_TYPE_FSNODE);
 	}
-	mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.shortcut_list), MYFILE_TYPE_FSNODE);
 
 	ap->mf_Status.pPreNaviItem = ap->mf_MainWindow.pNaviItem;
 
@@ -1085,27 +1079,6 @@ void mf_category_view_create(void *data, bool flag_show)
 	} else {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_push(ap->mf_MainWindow.pNaviBar, NULL, NULL, NULL, ap->mf_MainWindow.pNaviLayout, MF_NAVI_STYLE_ENABLE);
 	}
-//	Evas_Object *pImage = elm_image_add(ap->mf_MainWindow.pNaviBar);
-//	elm_image_file_set(pImage, EDJ_IMAGE, MF_ICON_SOFT_BACK);
-//	elm_image_resizable_set(pImage, EINA_TRUE, EINA_TRUE);
-//	evas_object_show(pImage);
-//
-//	Evas_Object *btn = elm_button_add(ap->mf_MainWindow.pNaviBar);
-//	elm_object_content_set(btn, pImage);
-//	elm_object_style_set(btn, "transparent");
-//	evas_object_smart_callback_add(btn, "clicked", mf_category_view_back_cb, ap);
-//	elm_object_item_part_content_set(ap->mf_MainWindow.pNaviItem, "title_left_btn", btn);
-
-//	Evas_Object *search_image = elm_image_add(ap->mf_MainWindow.pNaviLayout);
-//	elm_image_file_set(search_image, EDJ_IMAGE, MF_TITLE_ICON_SEARCH);
-//	elm_image_resizable_set(search_image, EINA_TRUE, EINA_TRUE);
-//	evas_object_show(search_image);
-//
-//	Evas_Object *btn1 = elm_button_add(ap->mf_MainWindow.pNaviLayout);
-//	elm_object_content_set(btn1, search_image);
-//	evas_object_smart_callback_add(btn1, "clicked", mf_search_bar_enter_search_routine, ap);
-//	elm_object_part_content_set(ap->mf_MainWindow.pNaviLayout, "search_icon", btn1);
-//	ap->mf_MainWindow.pButton = btn1;
 
 	mf_navi_add_back_button(ap, mf_category_view_navi_back_cb);
 	mf_category_view_set_ctrl_button(ap);

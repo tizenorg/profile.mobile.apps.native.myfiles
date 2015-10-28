@@ -409,7 +409,6 @@ void mf_edit_gengrid_item_sel_cb(void *data, Evas_Object * obj, void *event_info
 	&& ap->mf_Status.more != MORE_EDIT_COPY
 	&& ap->mf_Status.more != MORE_EDIT_MOVE
 	&& ap->mf_Status.more != MORE_EDIT_DELETE
-	&& ap->mf_Status.more != MORE_EDIT_DELETE_SHORTCUT
 	&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
 	&& ap->mf_Status.more != MORE_EDIT_UNINSTALL
 	    && ap->mf_Status.more != MORE_EDIT_DETAIL
@@ -475,7 +474,6 @@ void mf_edit_list_item_sel_by_list_data(mf_list_data_t *selected, Evas_Object * 
 		&& ap->mf_Status.more != MORE_EDIT_COPY
 		&& ap->mf_Status.more != MORE_EDIT_MOVE
 		&& ap->mf_Status.more != MORE_EDIT_DELETE
-		&& ap->mf_Status.more != MORE_EDIT_DELETE_SHORTCUT
 		&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
 		&& ap->mf_Status.more != MORE_EDIT_UNINSTALL
 		&& ap->mf_Status.more != MORE_EDIT_DETAIL
@@ -486,11 +484,6 @@ void mf_edit_list_item_sel_by_list_data(mf_list_data_t *selected, Evas_Object * 
 	if (obj) {
 		Evas_Object *popup = evas_object_data_get(obj, "popup"); // Get popup
 		if (popup) return;  // If popup exists, do nothing
-	}
-	if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT) {
-		if (selected->list_type != mf_list_shortcut) {
-			return;
-		}
 	}
 
 	if (selected->file_type == FILE_TYPE_DIR) {
@@ -770,8 +763,6 @@ void mf_edit_view_title_button_set(void *data)
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_delete_cb, ap);
 		} else if (ap->mf_Status.more == MORE_SHARE_EDIT) {
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_share_cb, ap);
-		} else if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT) {
-			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_delete_shortcut_confirm_cb, ap);
 		} else if (ap->mf_Status.more == MORE_EDIT_DELETE_RECENT) {
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_delete_recent_files_confirm_cb, ap);
 		} else if (ap->mf_Status.more == MORE_EDIT_UNINSTALL) {
@@ -924,13 +915,13 @@ void mf_edit_view_refresh(void *data, Eina_List **file_list, Eina_List **folder_
 	if (select_info_func != NULL) {
 		select_info_func(ap);
 	}
-	if (ap->mf_Status.more != MORE_EDIT_DELETE_SHORTCUT) {
-		mf_edit_view_select_all_layout_prepend(ap);
-		if (count == edit_count)
-			mf_edit_select_all_check_set(EINA_TRUE);
-		else
-			mf_edit_select_all_check_set(EINA_FALSE);
-	}
+
+	mf_edit_view_select_all_layout_prepend(ap);
+	if (count == edit_count)
+		mf_edit_select_all_check_set(EINA_TRUE);
+	else
+		mf_edit_select_all_check_set(EINA_FALSE);
+
 	mf_edit_view_title_button_set(ap);
 
 	mf_edit_view_ctrlbar_state_set(ap);

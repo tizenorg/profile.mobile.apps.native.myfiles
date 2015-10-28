@@ -115,7 +115,6 @@ collections {
 /****** root folder icon *******/
         RESOURCE_IMAGE_BG(MF_ICON_ITEM_ROOT_PHONE, 0, 0 , 0 ,153);
         RESOURCE_IMAGE_BG(MF_ICON_ITEM_ROOT_MMC, 0, 0 , 0 ,153);
-	RESOURCE_IMAGE(MF_ICON_ITEM_SHORTCUT);
 
 
 /******title icon ********/

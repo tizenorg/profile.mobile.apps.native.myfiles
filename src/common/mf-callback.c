@@ -73,7 +73,6 @@ int g_mf_create_thumbnail_count = 0;
 #define MF_MAX_MAKE_THUNBNAIL_COUNT 10
 
 void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info);
-static void mf_callback_shortcut_rename_save_cb(void *data, Evas_Object *obj, void *event_info);
 static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage);
 Eina_Bool mf_callback_is_duplicated_without_case(Eina_List *folder_list, char *name);
 
@@ -281,56 +280,28 @@ void mf_callback_upper_click_cb(void *data, Evas_Object *obj, void *event_info)
 	mf_fs_monitor_remove_dir_watch();
 
 	GString *parent_path = NULL;
-
-	if (ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
-		if (ap->mf_Status.view_type == mf_view_storage) {
-			return;
-		} else if (ap->mf_Status.view_type == mf_view_normal && mf_fm_svc_wrapper_is_root_path(ap->mf_Status.path->str)) {
-			ap->mf_Status.view_type = mf_view_storage;
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-		} else {
-			mf_debug("ap->mf_Status.path->str = %s, ap->mf_Status.shortcut_from_path=%s", ap->mf_Status.path->str, ap->mf_Status.shortcut_from_path);
-			parent_path = mf_fm_svc_wrapper_get_file_parent_path(ap->mf_Status.path);
-
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = NULL;
-			ap->mf_Status.path = parent_path;
-		}
+	mf_error("ap->mf_Status.preViewType is [%d] view_type is [%d] ", ap->mf_Status.preViewType, ap->mf_Status.view_type);
+	if (ap->mf_Status.view_type == mf_view_storage) {
+		ap->mf_Status.view_type = mf_view_root;
+		g_string_free(ap->mf_Status.path, TRUE);
+		ap->mf_Status.path = g_string_new(PHONE_FOLDER);
+	} else if (ap->mf_Status.view_type == mf_view_normal && mf_fm_svc_wrapper_is_root_path(ap->mf_Status.path->str)) {
+		ap->mf_Status.view_type = mf_view_root;
+		g_string_free(ap->mf_Status.path, TRUE);
+		ap->mf_Status.path = g_string_new(PHONE_FOLDER);
+	} else if (ap->mf_Status.view_type == mf_view_root_category) {
+		ap->mf_Status.view_type = mf_view_root;
+		g_string_free(ap->mf_Status.path, TRUE);
+		ap->mf_Status.path = g_string_new(PHONE_FOLDER);
+	} else if (ap->mf_Status.view_type == mf_view_recent) {
+		ap->mf_Status.view_type = mf_view_root;
+		g_string_free(ap->mf_Status.path, TRUE);
+		ap->mf_Status.path = g_string_new(PHONE_FOLDER);
 	} else {
-		mf_error("ap->mf_Status.preViewType is [%d] view_type is [%d] ", ap->mf_Status.preViewType, ap->mf_Status.view_type);
-		if (ap->mf_Status.view_type == mf_view_storage) {
-			ap->mf_Status.view_type = mf_view_root;
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-		} else if (ap->mf_Status.view_type == mf_view_normal && mf_fm_svc_wrapper_is_root_path(ap->mf_Status.path->str)) {
-			ap->mf_Status.view_type = mf_view_root;
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-		} else if (ap->mf_Status.view_type == mf_view_root_category) {
-			ap->mf_Status.view_type = mf_view_root;
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-		} else if (ap->mf_Status.view_type == mf_view_recent) {
-			ap->mf_Status.view_type = mf_view_root;
-			g_string_free(ap->mf_Status.path, TRUE);
-			ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-		} else {
-		//	mf_debug("ap->mf_Status.path->str = %s, ap->mf_Status.shortcut_from_path=%s", ap->mf_Status.path->str, ap->mf_Status.shortcut_from_path);
-			if (ap->mf_Status.is_from_shortcut == true &&
-					(ap->mf_Status.path != NULL && ap->mf_Status.shortcut_from_path != NULL && strcmp(ap->mf_Status.path->str, ap->mf_Status.shortcut_from_path) == 0)) {
-				ap->mf_Status.view_type = mf_view_root;
-				g_string_free(ap->mf_Status.path, TRUE);
-				ap->mf_Status.path = g_string_new(PHONE_FOLDER);
-
-			} else {
-				parent_path = mf_fm_svc_wrapper_get_file_parent_path(ap->mf_Status.path);
-
-				g_string_free(ap->mf_Status.path, TRUE);
-				ap->mf_Status.path = NULL;
-				ap->mf_Status.path = parent_path;
-			}
-		}
+		parent_path = mf_fm_svc_wrapper_get_file_parent_path(ap->mf_Status.path);
+		g_string_free(ap->mf_Status.path, TRUE);
+		ap->mf_Status.path = NULL;
+		ap->mf_Status.path = parent_path;
 	}
 	SAFE_FREE_CHAR(ap->mf_Status.entry_path);
 	ap->mf_Status.entry_more = MORE_DEFAULT;
@@ -361,24 +332,12 @@ void mf_callback_click_cb(struct appdata *data, mfAction key, GString *path)
 
 	if (mf_fm_svc_wrapper_is_dir(path)) {
 		if (ap->mf_Status.view_type == mf_view_storage || ap->mf_Status.view_type == mf_view_root) {
-			{
 			if (path->str != NULL) {
-				mf_debug("~~~~~~~~~~~ ap->mf_Status.view_type [%d]  ap->mf_Status.is_from_shortcut is [%d]", ap->mf_Status.view_type, ap->mf_Status.is_from_shortcut);
 				mf_debug("~~~~~~~~~~~  path->str [%s]", path->str);
-				if (ap->mf_Status.view_type == mf_view_root && strcmp(path->str, PHONE_FOLDER) != 0 && strcmp(path->str, MEMORY_FOLDER) != 0) {
-					ap->mf_Status.is_from_shortcut = true;
-					mf_debug("~~~~~~~~~~~  ap->mf_Status.is_from_shortcut [%d]", ap->mf_Status.is_from_shortcut);
-						if (ap->mf_Status.shortcut_from_path != NULL) {
-							free(ap->mf_Status.shortcut_from_path);
-							ap->mf_Status.shortcut_from_path = NULL;
-						}
-						ap->mf_Status.shortcut_from_path = (char*)g_strdup(path->str);
-				}
 				SAFE_FREE_GSTRING(ap->mf_Status.path);
 				ap->mf_Status.path = g_string_new(path->str);
 				ap->mf_Status.view_type = mf_view_normal;
 				mf_view_refresh(ap);
-                            }
 			}
 		} else {
 			GString *new_path = NULL;
@@ -511,11 +470,6 @@ void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 		break;
 		/* when cancle rename, just destory the rename relative, and then the mode will change to Edit
 		   then do what cancle edit do, so here not need "break" */
-	case MORE_EDIT_ADD_SHORTCUT:
-		ap->mf_Status.view_type = ap->mf_Status.preViewType;
-		ap->mf_Status.more = MORE_DEFAULT;
-		mf_view_update(ap);
-		break;
 	case MORE_SHARE_EDIT:
 		ap->mf_Status.more = MORE_DEFAULT;
 		SAFE_FREE_CHAR(ap->mf_Status.entry_path);
@@ -550,7 +504,6 @@ void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 		/*4.    set tab enable */
 		//mf_navi_bar_title_set(ap);
 		break;
-	case MORE_EDIT_DELETE_SHORTCUT:
 	case MORE_EDIT_DELETE_RECENT:
 		ap->mf_Status.more = MORE_DEFAULT;
 		SAFE_FREE_CHAR(ap->mf_Status.entry_path);
@@ -1014,18 +967,15 @@ void mf_callback_rename_save_cb(void *ad, Evas_Object *obj, void *event_info)
 				}
 				if (ap->mf_Status.more == MORE_RENAME) {
 					__mf_callback_refresh_rename(ap, from, to);
-					mf_update_shortcut(ap->mf_MainWindow.mfd_handle, to->str, from->str);
 				} else if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME || ap->mf_Status.more == MORE_EDIT_RENAME) {
 					elm_object_focus_set(ap->mf_MainWindow.pEntry, EINA_FALSE);
 					evas_object_del(ap->mf_MainWindow.pEntry);
 					ap->mf_MainWindow.pEntry = NULL;
 					if (ap->mf_Status.view_type == mf_view_root_category) {
 						mf_util_update_item_from_list_by_name(&ap->mf_FileOperation.category_list, from->str, to->str);
-						mf_update_shortcut(ap->mf_MainWindow.mfd_handle, to->str, from->str);
 						if (ap->mf_Status.more == MORE_DEFAULT) {
 							__mf_callback_refresh_rename(ap, from, to);
 							SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
-							mf_update_shortcut(ap->mf_MainWindow.mfd_handle, to->str, from->str);
 							goto NORMAL_EXIT;
 						}
 					}
@@ -1036,12 +986,10 @@ void mf_callback_rename_save_cb(void *ad, Evas_Object *obj, void *event_info)
 					if (mf_view_get_pre_state(ap) == MORE_SEARCH) {// || mf_view_get_pre_state(ap) == MORE_DEFAULT) {//ap->mf_Status.view_type == mf_view_root_category) {
 						__mf_callback_refresh_rename(ap, from, to);
 						SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
-						mf_update_shortcut(ap->mf_MainWindow.mfd_handle, to->str, from->str);
 						goto NORMAL_EXIT;
 					}
 					// int view_style = mf_view_style_get(ap);  /* blocked becoz not used */
 					SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
-					mf_update_shortcut(ap->mf_MainWindow.mfd_handle, to->str, from->str);
 					ap->mf_Status.EnterFrom = strdup(to->str);
 					mf_error("ap->mf_Status.EnterFrom = %s", ap->mf_Status.EnterFrom);
 					mf_view_state_reset_state_with_pre(ap);
@@ -1539,21 +1487,6 @@ void mf_callback_edit_delete_cb(void *data, Evas_Object *obj, void *event_info)
 	MF_TRACE_END;
 }
 
-void mf_callback_edit_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	struct appdata *ap = (struct appdata *)data;
-	mf_retm_if(ap == NULL, "ap is NULL");
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
-
-	ap->mf_Status.more = MORE_EDIT_ADD_SHORTCUT;
-	__mf_callback_edit_share_view(ap);
-
-	/*disable all the tab item if tab exists */
-	MF_TRACE_END;
-}
-
 void mf_callback_edit_rename_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	MF_TRACE_BEGIN;
@@ -1585,106 +1518,6 @@ void mf_callback_edit_rename_cb(void *data, Evas_Object *obj, void *event_info)
 
 	/*disable all the tab item if tab exists */
 	MF_TRACE_END;
-}
-
-void mf_callback_edit_add_to_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
-	int count = 0;
-	mf_media_get_short_count(ap->mf_MainWindow.mfd_handle, &count);
-	mf_error("count is [%d]", count);
-	if (count >= 20) {
-		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABE_MAX_COUNT_REACH, MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
-	} else {
-		ap->mf_Status.more = MORE_EDIT_ADD_SHORTCUT;
-		ap->mf_Status.preViewType = ap->mf_Status.view_type;
-		if (ap->mf_Status.view_type == mf_view_root) {
-			ap->mf_Status.view_type = mf_view_storage;
-		}
-		mf_view_update(ap);
-	}
-	MF_TRACE_END;
-}
-
-void mf_callback_edit_delete_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
-	ap->mf_Status.more = MORE_EDIT_DELETE_SHORTCUT;
-	if (ap->mf_Status.view_type == mf_view_root) {
-		__mf_callback_edit_share_view(ap);
-	}
-	MF_TRACE_END;
-}
-
-void mf_callback_edit_rename_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
-	ap->mf_Status.more = MORE_EDIT_RENAME;
-	if (ap->mf_Status.view_type == mf_view_root) {
-		//__mf_callback_edit_share_view(ap);
-		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
-		mf_navi_bar_title_content_set(ap, LABEL_RENAME);
-	}
-	MF_TRACE_END;
-}
-
-void mf_callback_do_delete_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	Evas_Object *btn = (Evas_Object *)obj;
-	const char *label = elm_object_text_get(btn);
-
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pDeleteConfirmPopup);
-	if (g_strcmp0(label, mf_util_get_text(LABEL_CANCEL)) != 0) {
-		Eina_List * selected_list = mf_edit_folder_list_get();
-		mf_list_data_t *item_data = NULL;
-		Elm_Object_Item *it = NULL;
-		Eina_List * l = NULL;
-		EINA_LIST_FOREACH(selected_list, l, it) {
-			if (it) {
-				item_data = elm_object_item_data_get(it);
-					{
-					mfItemData_s *select_item = (mfItemData_s *)item_data;
-					if (select_item && select_item->m_ItemName && select_item->m_ItemName->str) {
-						mf_util_db_remove_shortcut(ap->mf_MainWindow.mfd_handle, select_item->m_ItemName->str);
-					}
-				}
-			}
-		}
-		ap->mf_Status.more = MORE_DEFAULT;
-		mf_view_update(ap);
-	}
-	MF_TRACE_END;
-}
-
-void mf_callback_delete_shortcut_confirm_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	int count = mf_edit_file_count_get();
-	if (count > 1) {
-		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, MF_LABEL_DELETE_SHORTCUT,
-								       MF_LABEL_DELETE_SHORTCUTS_Q,
-								       LABEL_CANCEL, LABEL_DELETE, mf_callback_do_delete_shortcut_cb, ap, count);
-	} else {
-		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, MF_LABEL_DELETE_ITEM,
-								       MF_LABEL_DELETE_THIS_SHORTCUT,
-								       LABEL_CANCEL, LABEL_DELETE, mf_callback_do_delete_shortcut_cb, ap, count);
-	}
 }
 
 void mf_callback_edit_delete_recent_cb(void *data, Evas_Object *obj, void *event_info)
@@ -1759,29 +1592,6 @@ void mf_callback_delete_recent_files_confirm_cb(void *data, Evas_Object *obj, vo
 								       MF_LABEL_DELETE_THIS_RECENT,
 								       LABEL_CANCEL, MF_LABEL_REMOVE, mf_callback_do_delete_recent_files, ap, count);
 	}
-}
-
-void mf_callback_do_add_to_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-
-		{
-		int location = mf_fm_svc_wrapper_get_location(ap->mf_Status.path->str);
-		bool find = mf_util_db_find_shortcut(ap->mf_MainWindow.mfd_handle, ap->mf_Status.path->str, mf_file_get(ap->mf_Status.path->str), location);
-		mf_error("find is [%d]", find);
-		if (find) {
-			ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABEL_SHORTCUT_ALREADY_INUSE, MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
-		} else {
-			mf_util_db_add_shortcut(ap->mf_MainWindow.mfd_handle, ap->mf_Status.path->str, mf_file_get(ap->mf_Status.path->str), location);
-			mf_popup_indicator_popup(ap, mf_util_get_text(MF_LABEL_SHORTCUT_ADDED));
-			ap->mf_Status.more = MORE_DEFAULT;
-			mf_view_update(ap);
-		}
-	}
-
-	MF_TRACE_END;
 }
 
 void mf_callback_edit_unintall_cb(void *data, Evas_Object *obj, void *event_info)
@@ -1905,11 +1715,7 @@ void mf_callback_rename_create_cb(void *data, Evas_Object *obj, void *event_info
 	mf_view_state_set_with_pre(ap, MORE_THUMBNAIL_RENAME);
 
 	mf_popup_rename_func_reset();
-	if (params->list_type == mf_list_shortcut) {
-		mf_popup_rename_func_set(mf_callback_shortcut_rename_save_cb, params, mf_callback_cancel_cb, ap);
-	} else {
-		mf_popup_rename_func_set(mf_callback_rename_save_cb, params, mf_callback_cancel_cb, ap);
-	}
+	mf_popup_rename_func_set(mf_callback_rename_save_cb, params, mf_callback_cancel_cb, ap);
 
 	ap->mf_MainWindow.pNewFolderPopup = mf_popup_create_rename_popup(params, LABEL_RENAME_CHAP);
 	elm_object_focus_set(ap->mf_MainWindow.pEntry, EINA_TRUE);
@@ -3135,7 +2941,6 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 	if (ap->mf_Status.view_type == mf_view_recent) {
 	    mf_recent_view_content_refresh(ap);
 	}
-	mf_media_delete_shortcut_by_type(ap->mf_MainWindow.mfd_handle, MYFILE_MMC);
 	if (ap->mf_MainWindow.pNewFolderPopup) {
 		mf_list_data_t *item_data = (mf_list_data_t *)evas_object_data_get(ap->mf_MainWindow.pNewFolderPopup, "item_data");
 		if (item_data && item_data->storage_type == MYFILE_MMC) {
@@ -3190,7 +2995,6 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		case MORE_RENAME:
 		case MORE_EDIT_COPY:
 		case MORE_EDIT_MOVE:
-		case MORE_EDIT_ADD_SHORTCUT:
 		case MORE_EDIT_DELETE:
 		case MORE_EDIT_DETAIL:
 		case MORE_EDIT_RENAME:
@@ -3221,7 +3025,6 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		case MORE_RENAME:
 		case MORE_EDIT_COPY:
 		case MORE_EDIT_MOVE:
-		case MORE_EDIT_ADD_SHORTCUT:
 		case MORE_EDIT_DELETE:
 		case MORE_EDIT_DETAIL:
 		case MORE_EDIT_RENAME:
@@ -3292,7 +3095,6 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		case MORE_SHARE_EDIT:
 		case MORE_EDIT_COPY:
 		case MORE_EDIT_MOVE:
-		case MORE_EDIT_ADD_SHORTCUT:
 		case MORE_EDIT_DELETE:
 		case MORE_EDIT_DETAIL:
 		case MORE_EDIT_RENAME:
@@ -3473,9 +3275,6 @@ void mf_callback_backbutton_clicked_cb(void *data, Evas_Object *obj, void *event
 		} else {
 			mf_callback_upper_click_cb(ap, NULL, NULL);
 		}
-	} else if (ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
-		mf_callback_upper_click_cb(ap, NULL, NULL);
-		SAFE_FREE_CHAR(ap->mf_Status.entry_path);
 	} else {
 		mf_callback_cancel_cb(ap, NULL, NULL);
 	}
@@ -3775,8 +3574,7 @@ void mf_callback_more_button_cb(void *data, Evas_Object *obj, void *event_info)
 		} else if (ap->mf_Status.more == MORE_INTERNAL_MOVE
 		    || ap->mf_Status.more == MORE_DATA_MOVING
 		    || ap->mf_Status.more == MORE_INTERNAL_COPY
-		    || ap->mf_Status.more == MORE_DATA_COPYING
-		    || ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
+		    || ap->mf_Status.more == MORE_DATA_COPYING) {
 			if (ap->mf_Status.view_type != mf_view_root && ap->mf_Status.view_type != mf_view_storage) {
 				mf_context_popup_create_more(ap, more);
 			}
@@ -4172,79 +3970,6 @@ void mf_callback_hardkey_more_cb(void *data, Elm_Object_Item *it, const char *em
 	mf_callback_more_button_cb(data, NULL, NULL);
 }
 
-void mf_callback_item_add_to_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	mfItemData_s *item_data = (mfItemData_s *) data;
-	struct appdata *ap = (struct appdata *)item_data->ap;
-	mf_retm_if(ap == NULL, "ap is NULL");
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
-	bool find = mf_util_db_find_shortcut(ap->mf_MainWindow.mfd_handle, item_data->m_ItemName->str, mf_file_get(item_data->m_ItemName->str), item_data->storage_type);
-	if (find) {
-		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABE_POP_ALREADY_EXISTS, MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
-	}else {
-		mf_util_db_add_shortcut(ap->mf_MainWindow.mfd_handle, item_data->m_ItemName->str, mf_file_get(item_data->m_ItemName->str), item_data->storage_type);
-		mf_popup_indicator_popup(ap, mf_util_get_text(MF_LABEL_SHORTCUT_ADDED));
-	}
-
-	MF_TRACE_END;
-}
-
-static void __mf_callback_shortcut_confirm_delete(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	mf_list_data_t *list_data = (mf_list_data_t *) data;
-	struct appdata *ap = (struct appdata *)list_data->ap;
-	mf_retm_if(ap == NULL, "ap is NULL");
-
-	Evas_Object *btn = (Evas_Object *)obj;
-	const char *label = elm_object_text_get(btn);
-	if (g_strcmp0(label, mf_util_get_text(LABEL_CANCEL)) == 0) {
-
-		if (ap->mf_MainWindow.pNormalPopup) {
-			evas_object_del(ap->mf_MainWindow.pNormalPopup);
-			ap->mf_MainWindow.pNormalPopup = NULL;
-		}
-	} else {
-		if (ap->mf_MainWindow.pNormalPopup) {
-			evas_object_del(ap->mf_MainWindow.pNormalPopup);
-			ap->mf_MainWindow.pNormalPopup = NULL;
-		}
-
-		{
-			mfItemData_s *item_data = (mfItemData_s *) data;
-			mf_util_db_remove_shortcut(ap->mf_MainWindow.mfd_handle, item_data->m_ItemName->str);
-		}
-		if (list_data->item) {
-			elm_object_item_del(list_data->item);
-		}
-	}
-	MF_TRACE_END;
-}
-
-void mf_callback_item_remove_from_shortcut_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mf_retm_if(data == NULL, "data is NULL");
-	mf_list_data_t *item_data = (mf_list_data_t *) data;
-	struct appdata *ap = (struct appdata *)item_data->ap;
-	mf_retm_if(ap == NULL, "ap is NULL");
-
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
-	ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap,
-								POPMODE_TEXT_TWO_BTN,
-								MF_LABEL_REMOVE_SHORTCUT,
-								MF_LABEL_REMOVE_FROM_SHORTCUT,
-								LABEL_CANCEL,
-								MF_LABEL_REMOVE,
-								NULL,
-								__mf_callback_shortcut_confirm_delete,
-								item_data);
-	MF_TRACE_END;
-}
-
 static void __mf_callback_recent_files_confirm_delete(void *data, Evas_Object *obj, void *event_info)
 {
 	mf_retm_if(data == NULL, "data is NULL");
@@ -4316,124 +4041,6 @@ void mf_callback_setting_cb(void *data, Evas_Object *obj, void *event_info)
 	mf_view_refresh(ap);
 
 	MF_TRACE_END;
-}
-
-static void mf_callback_shortcut_rename_save_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	MF_TRACE_BEGIN;
-	mfItemData_s *item_data = (mfItemData_s *)data;
-	mf_retm_if(item_data == NULL, "ap is NULL");
-	struct appdata *ap = (struct appdata *)item_data->ap;
-	mf_retm_if(ap == NULL, "ap is NULL");
-
-	char *name = NULL;
-	Evas_Object *pEntry = NULL;
-	const char *entry_data = NULL;
-	int ret = MYFILE_ERR_NONE;
-	const char *message = NULL;
-	char *pName = NULL;
-	char *strstrip_name = NULL;
-	if (ap->mf_Status.more != MORE_THUMBNAIL_RENAME) {
-		MF_TRACE_END;
-		return;
-	}
-
-	pEntry = ap->mf_MainWindow.pEntry;
-
-	entry_data = elm_entry_entry_get(pEntry);
-	if (entry_data) {
-		strstrip_name = elm_entry_markup_to_utf8(entry_data);
-		name = g_strstrip(strstrip_name);
-		if (name == NULL) {
-			message = MF_RENAME_MSG_GET_NAME_FAILED;
-			goto INVAILD_NAME_EXIT;
-		}
-		if (strlen(name)==0) {
-			message = MF_POPUP_MSG_NAME_INVALID;	/*TODO */
-			goto INVAILD_NAME_EXIT;
-		}
-		if (strlen(name) == 0) {
-			SAFE_FREE_CHAR(strstrip_name);
-			goto INVAILD_NAME_EXIT;
-		}
-	} else {
-		message = MF_RENAME_MSG_GET_NAME_FAILED;
-		goto INVAILD_NAME_EXIT;
-	}
-
-	if (strlen(name)) {
-		pName = g_strdup(name);
-		CHAR_CHECK_NULL_GOTO(pName, ALLOC_FAILED_EXIT);
-
-		switch (mf_util_is_valid_name_check(pName)) {
-
-		case MF_INTERNAL_FILE_NAME_EMPTY:
-		case MF_INTERNAL_FILE_NAME_IGNORE:
-			message = MF_MSG_SET_NAME_DOT;
-			goto INVAILD_NAME_EXIT;
-		case MF_INTERNAL_FILE_NAME_CHUG:
-			message = MF_MSG_SET_NAME_ALL_SPACE;
-			goto INVAILD_NAME_EXIT;
-		case MF_INTERNAL_FILE_NAME_MAX_LENGTH:
-			message = MF_LABEL_MAX_CHARACTER_REACHED;
-			goto INVAILD_NAME_EXIT;
-		case MF_INTERNAL_FILE_NAME_INVALID_CHAR:
-			message = MF_MSG_ILLEGAL_CHAR;
-			goto INVAILD_NAME_EXIT;
-		case MF_INTERNAL_FILE_NAME_NULL:
-			message = MF_MSG_NO_NAME_WARNING;
-			goto INVAILD_NAME_EXIT;
-		default:
-			break;
-		}
-		bool find = mf_util_db_find_shortcut_display_name(ap->mf_MainWindow.mfd_handle, pName);
-		if (find) {
-			message = MF_LABE_POP_ALREADY_EXISTS;
-			goto INVAILD_NAME_EXIT;
-		}
-
-		ret = mf_media_shortcut_update_name(ap->mf_MainWindow.mfd_handle, pName, item_data->m_ItemName->str);
-		if (ret != MFD_ERROR_NONE) {
-			message = MF_MSG_UNKNOW_REASON_RENAME_FAILED;
-			goto INVAILD_NAME_EXIT;
-		} else {
-			elm_object_focus_set(ap->mf_MainWindow.pEntry, EINA_FALSE);
-			evas_object_del(ap->mf_MainWindow.pEntry);
-			ap->mf_MainWindow.pEntry = NULL;
-			elm_genlist_item_update(item_data->item);
-			SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
-			mf_view_state_reset_state_with_pre(ap);
-			goto NORMAL_EXIT;
-		}
-	} else {
-		goto NORMAL_EXIT;
-	}
-NORMAL_EXIT:
-	if (ap->mf_Status.view_type == mf_view_root)
-		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_FALSE, EINA_FALSE);
-	SAFE_FREE_CHAR(strstrip_name);
-	SAFE_FREE_CHAR(pName);
-	MF_TRACE_END;
-	return;
-
-INVAILD_NAME_EXIT:
-	SAFE_FREE_CHAR(strstrip_name);
-	SAFE_FREE_CHAR(pName);
-	mf_callback_entry_unfocus(ap->mf_MainWindow.pEntry);
-	mf_popup_second_popup_create(ap, ap->mf_MainWindow.pWindow, message,
-				     MF_BUTTON_LABEL_OK, mf_popup_show_vk_cb, ap);
-
-
-	MF_TRACE_END;
-	return;
-
-ALLOC_FAILED_EXIT:
-	SAFE_FREE_CHAR(strstrip_name);
-	SAFE_FREE_CHAR(pName);
-	mf_util_operation_alloc_failed(ap);
-	MF_TRACE_END;
-	return;
-
 }
 
 void mf_callback_item_storage_usage_cb(void *data, Evas_Object *obj, void *event_info)

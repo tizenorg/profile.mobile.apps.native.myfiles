@@ -244,13 +244,6 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 	mf_error("part=%s", part);
 	if (strcmp(part, "elm.text.main.left") == 0) {
 		/* supporting multi-lang for default folders */
-		if (params->list_type == mf_list_shortcut) {
-			char *name = NULL;
-			mf_media_shortcut_list_get_display_name(params->ap->mf_MainWindow.mfd_handle, params->m_ItemName->str, &name);
-			if (name) {
-				return name;
-			}
-		}
 		if (g_strcmp0(params->m_ItemName->str, PHONE_FOLDER) == 0) {
 			return g_strdup(mf_util_get_text(MF_LABEL_DEVICE_MEMORY));
 		} else if (g_strcmp0(params->m_ItemName->str, MEMORY_FOLDER) == 0) {
@@ -281,13 +274,6 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
            return g_strdup(mf_file_get(params->m_ItemName->str));
 		 */
 	} else if (strcmp(part, "elm.text.main.left.top") == 0) {
-		if (params->list_type == mf_list_shortcut) {
-			char *name = NULL;
-			mf_media_shortcut_list_get_display_name(params->ap->mf_MainWindow.mfd_handle, params->m_ItemName->str, &name);
-			if (name) {
-				return name;
-			}
-		}
 		if (g_strcmp0(params->m_ItemName->str, PHONE_FOLDER) == 0) {
 			return g_strdup(mf_util_get_text(MF_LABEL_DEVICE_MEMORY));
 		} else if (g_strcmp0(params->m_ItemName->str, MEMORY_FOLDER) == 0) {
@@ -469,28 +455,10 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			return NULL;
 		}
 	} else if (!strcmp(part, "elm.icon.2")) {
-		if (ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT) {
-			mf_error("params->list_type is [%d]", params->list_type);
-			if (params->list_type == mf_list_shortcut) {
-				Evas_Object *content = elm_layout_add(obj);
-				elm_layout_theme_set(content, "layout", "list/C/type.2", "default");
-
-				Evas_Object *check = NULL;
-				check = elm_check_add(obj);
-				elm_object_style_set(check, "default");
-				elm_object_focus_set(check, EINA_FALSE);
-				elm_check_state_pointer_set(check, &params->m_checked);
-				evas_object_repeat_events_set(check, EINA_TRUE);
-				evas_object_propagate_events_set(check, EINA_FALSE);
-
-				elm_layout_content_set(content, "elm.swallow.content", check);
-				return content;
-			}
-		} else if (ap->mf_Status.more == MORE_SHARE_EDIT
+		if (ap->mf_Status.more == MORE_SHARE_EDIT
 				|| ap->mf_Status.more == MORE_EDIT_DELETE
 				|| ap->mf_Status.more == MORE_EDIT_COPY
 				|| ap->mf_Status.more == MORE_EDIT_MOVE
-				|| ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
 				|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
 				|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
 				|| ap->mf_Status.more == MORE_EDIT_DETAIL)
@@ -763,8 +731,7 @@ void mf_genlist_gl_selected(void *data, Evas_Object *obj, void *event_info)
 		elm_genlist_item_selected_set(item, FALSE);
 
 		if (ap->mf_Status.more == MORE_EDIT_RENAME) {
-			if (ap->mf_Status.view_type == mf_view_root
-					&& selected->list_type != mf_list_shortcut)
+			if (ap->mf_Status.view_type == mf_view_root)
 				return;
 			ap->mf_FileOperation.rename_item = item;
 			mf_callback_idle_rename(selected);
@@ -777,7 +744,6 @@ void mf_genlist_gl_selected(void *data, Evas_Object *obj, void *event_info)
 				&& ap->mf_Status.more != MORE_EDIT_MOVE
 				&& ap->mf_Status.more != MORE_EDIT_DETAIL
 				&& ap->mf_Status.more != MORE_EDIT_DELETE
-				&& ap->mf_Status.more != MORE_EDIT_DELETE_SHORTCUT
 				&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
 		) {
 			if (selected->storage_type == MYFILE_PHONE
@@ -789,13 +755,6 @@ void mf_genlist_gl_selected(void *data, Evas_Object *obj, void *event_info)
 					return;
 				}
 			}
-
-			if (ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT
-					&& selected->file_type != FILE_TYPE_DIR) {
-				/** shortcut can only be added to directory */
-				return;
-			}
-
 			mf_callback_click_cb(data, MFACTION_CLICK, selected->m_ItemName);
 		}
 	}
@@ -1100,7 +1059,6 @@ Evas_Object *mf_genlist_create_list(void *data,Evas_Object *parent)
 	case MORE_DECOMPRESS:
 	case MORE_DECOMPRESS_HERE:
 	case MORE_INTERNAL_DECOMPRESS:
-	case MORE_EDIT_ADD_SHORTCUT:
 		evas_object_smart_callback_add(genlist, "selected", mf_edit_list_item_sel_cb, ap);
 		if (view_style == MF_VIEW_SYTLE_LIST_DETAIL) {
 			mf_genlist_create_itc_style(&ap->mf_gl_style.itc, mf_item_itc_type_normal_list_details);

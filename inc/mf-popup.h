@@ -32,11 +32,9 @@ enum __mf_operation_item_type_e {
 	mf_operation_item_move,
 	mf_operation_item_delete,
 	mf_operation_item_download,
-	mf_operation_item_addto_shortcut,
 	mf_operation_item_compress,
 	mf_operation_item_decompress,
 	mf_operation_item_decompress_here,
-	mf_operation_item_remove,
 	mf_operation_item_remove_recent,
 };
 

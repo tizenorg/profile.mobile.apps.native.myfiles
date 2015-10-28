@@ -174,9 +174,6 @@ enum _MORE_TYPE {			/* softkey / contextual popup */
 	MORE_EDIT_COPY, 	
 	MORE_EDIT_MOVE, 	
 	MORE_EDIT_RENAME,		
-	MORE_EDIT_ADD_SHORTCUT,
-
-	MORE_EDIT_DELETE_SHORTCUT, 	
 	MORE_EDIT_DELETE_RECENT,
 	MORE_EDIT_UNINSTALL,	
 	MORE_EDIT_DELETE,
@@ -210,7 +207,6 @@ enum _LAUNCH_TYPE {
 typedef enum __mf_list_type mf_list_type;
 enum __mf_list_type {
 	mf_list_recent_files = 0,
-	mf_list_shortcut,
 	mf_list_normal,
 };
 
@@ -302,8 +298,6 @@ int mf_util_get_rotate_state_by_angle(int angle);
 void mf_util_generate_saved_files_list(void *data, int type);
 void mf_util_free_data(void **data, int type);
 
-char *mf_util_get_shortcut();
-void mf_util_add_shortcut(char *path);
 void mf_util_item_remove_invalid_category_items(Eina_List **list);
 void mf_util_db_add_recent_files(MFDHandle *handle, const char *path, const char *name, int storage, const char *thumbnail);
 void mf_util_db_get_recent_files(MFDHandle *handle, void *data);
@@ -312,10 +306,6 @@ void mf_util_rotation_flag_set(bool rotation);
 void mf_util_rotation_flag_get(int *rotation);
 
 void mf_util_check_pnode_list_items_exists(Eina_List **list);
-void mf_util_db_remove_shortcut(MFDHandle *handle, char *shortcut);
-bool mf_util_db_find_shortcut(MFDHandle *handle, const char *path, const char *name, int storage);
-bool mf_util_db_find_shortcut_display_name(MFDHandle *handle, const char *name);
-void mf_util_db_add_shortcut(MFDHandle *handle, const char *path, const char *name, int storage);
 void mf_util_db_remove_recent_files(MFDHandle *handle, char *recent_file);
 void mf_util_db_add_recent_files(MFDHandle *handle, const char *path, const char *name, int storage, const char *thumbnail);
 void mf_util_generate_list_prepend(Eina_List **list, const char *path, int file_type, int list_type);

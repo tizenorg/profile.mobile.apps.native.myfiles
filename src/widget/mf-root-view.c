@@ -44,7 +44,6 @@ static Elm_Object_Item *category_item = NULL;
 static Elm_Object_Item *local_index_item = NULL;
 static Elm_Object_Item *cloud_index_item = NULL;
 static Elm_Object_Item *first_index_item = NULL;
-static Elm_Object_Item *shortcut_index_item = NULL;
 static Evas_Object *root_category = NULL;
 static Evas_Object *box_root_category = NULL;
 
@@ -225,28 +224,6 @@ Elm_Object_Item *__mf_root_view_group_index_create(void *data, Evas_Object *genl
 	return m_TempItem->item;
 }
 
-void __mf_root_view_shortcut_items_append(void *data)
-{
-	mf_retm_if(data == NULL, "data is NULL");
-	struct appdata *ap = (struct appdata *)data;
-	Evas_Object *genlist = ap->mf_MainWindow.pNaviGenlist;
-	int view_style = mf_view_style_get(ap);
-	mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.shortcut_list), MYFILE_TYPE_FSNODE);
-	mf_util_generate_saved_files_list(ap, mf_list_shortcut);
-	shortcut_index_item = NULL;
-	if (eina_list_count(ap->mf_FileOperation.shortcut_list) > 0) {
-		shortcut_index_item = __mf_root_view_group_index_create(ap, genlist, MF_LABEL_SHORTCUT);
-		if (view_style == MF_VIEW_SYTLE_LIST_DETAIL) {
-			mf_genlist_create_itc_style(&ap->mf_gl_style.itc, mf_item_itc_type_normal_list_details);
-			mf_genlist_create_itc_style(&ap->mf_gl_style.userfolderitc, mf_item_itc_type_normal_list_details);
-		} else {
-			mf_genlist_create_itc_style(&ap->mf_gl_style.itc, mf_item_itc_type_normal_list);
-			mf_genlist_create_itc_style(&ap->mf_gl_style.userfolderitc, mf_item_itc_type_normal_list);
-		}
-		mf_genlist_create_list_default_style(genlist, ap, ap->mf_FileOperation.shortcut_list, NULL);
-	}
-}
-
 void __mf_root_view_local_storage_items_append(void *data)
 {
 	mf_retm_if(data == NULL, "data is NULL");
@@ -354,7 +331,6 @@ static Evas_Object *__mf_root_view_content_create(void *data)
 	//int view_style = mf_view_style_get(ap);
 
 	content = ap->mf_MainWindow.pNaviGenlist;
-	__mf_root_view_shortcut_items_append(ap);
 	__mf_root_view_local_storage_items_append(ap);
 	__mf_root_view_cloud_storage(ap);
 
@@ -514,7 +490,6 @@ void mf_root_view_create(void *data)
 	local_index_item = NULL;
 	mf_navi_bar_reset_navi_obj(ap);
 	ap->mf_Status.pPreNaviItem = ap->mf_MainWindow.pNaviItem;
-	ap->mf_Status.is_from_shortcut = false;
 
 	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, EDJ_NAME, "view_layout");
 	mf_navi_bar_layout_state_set(ap->mf_MainWindow.pNaviLayout, mf_navi_layout_content_only);

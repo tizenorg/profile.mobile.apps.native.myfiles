@@ -86,8 +86,6 @@ void mf_storage_view_create(void *data)
 	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, EDJ_NAME, "view_layout");
 
 	mf_navi_bar_layout_state_set(ap->mf_MainWindow.pNaviLayout, mf_navi_layout_normal);
-	
-	mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.shortcut_list), MYFILE_TYPE_FSNODE);
 
 	Evas_Object *newContent = mf_storage_view_create_content(ap);
 	evas_object_show(newContent);
@@ -124,12 +122,8 @@ void mf_storage_view_create(void *data)
 	Evas_Object *btn = mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, NULL, ap);
 	elm_object_disabled_set(btn, EINA_TRUE);
 	elm_object_part_content_set(ap->mf_MainWindow.pNaviLayout, "pathinfo", pathinfo);
-	if (ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
-		mf_navi_bar_title_content_set(ap, MF_LABEL_ADD_TO_SHORTCUT);
-	} else {
-		mf_navi_bar_title_content_set(ap, MF_LABEL_SELECT_STORAGE);
-		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
-	}
+	mf_navi_bar_title_content_set(ap, MF_LABEL_SELECT_STORAGE);
+	elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
 
 	t_end;
 	/*temp data free*/

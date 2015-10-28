@@ -84,7 +84,6 @@ if [ ! -f %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db ]
         rm -rf %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db*
 then
         sqlite3 %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db 'PRAGMA journal_mode = PERSIST;
-        CREATE TABLE shortcut(path TEXT, name VARCHAR(256), storage_type INT, primary key (path), unique(path) );
         CREATE TABLE recent_files(path TEXT, name VARCHAR(256), storage_type INT, thumbnail_path TEXT,primary key (path), unique(path) );
         CREATE TABLE ringtone(path TEXT, name VARCHAR(256), storage_type INT, primary key (path), unique(path) );
         CREATE TABLE alert(path TEXT, name VARCHAR(256), storage_type INT, primary key (path), unique(path) );'

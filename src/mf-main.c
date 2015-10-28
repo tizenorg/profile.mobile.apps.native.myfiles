@@ -916,7 +916,6 @@ static void __mf_language_changed_cb(app_event_info_h event_info, void *user_dat
 		|| ap->mf_Status.more == MORE_EDIT_COPY
 		|| ap->mf_Status.more == MORE_EDIT_MOVE
 		|| ap->mf_Status.more == MORE_EDIT_DELETE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE_SHORTCUT
 		|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
 		|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
 

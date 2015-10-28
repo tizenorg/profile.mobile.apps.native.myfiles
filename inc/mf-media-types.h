@@ -37,13 +37,6 @@ typedef void MFDHandle;		/**< Handle */
  */
 
 #if 1
-//1 Shortcut
-typedef struct _MFSitem
-{
-	char *path;
-	char *name;
-	int storage_type;
-}MFSitem;
 
 typedef struct _MFRitem
 {
@@ -53,7 +46,6 @@ typedef struct _MFRitem
 	char *thumbnail;
 }MFRitem;
 
-typedef bool (*mf_shortcut_item_cb)(MFSitem *Sitem, void *user_data);
 typedef bool (*mf_recent_files_item_cb)(MFRitem *Ritem, void *user_data);
 
 #endif

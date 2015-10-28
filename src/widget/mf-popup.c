@@ -778,11 +778,7 @@ Evas_Object *mf_popup_create_rename_popup(void *data, char *context)
 		ap->mf_FileOperation.to_rename = NULL;
 	}
 	char *file_name = NULL;
-	if (params->list_type == mf_list_shortcut) {
-		mf_media_shortcut_list_get_display_name(params->ap->mf_MainWindow.mfd_handle, params->m_ItemName->str, &file_name);
-	} else {
-		file_name = g_strdup(params->m_ItemName->str);
-	}
+	file_name = g_strdup(params->m_ItemName->str);
 	ap->mf_FileOperation.to_rename = g_string_new(file_name);
 	SAFE_FREE_CHAR(ap->mf_FileOperation.file_name_suffix);
 
@@ -1196,12 +1192,6 @@ static void __mf_popup_operation_item_create(Evas_Object *genlist, void *data, m
 	case mf_operation_item_download:
 		mf_elm_popup_item_append(genlist, mf_util_get_text(MF_LABEL_DOWNLOAD), NULL, NULL, data);
 		break;
-	case mf_operation_item_addto_shortcut:
-		mf_elm_popup_item_append(genlist, mf_util_get_text(MF_LABEL_ADD_TO_SHORTCUT), NULL, mf_callback_item_add_to_shortcut_cb, data);
-		break;
-	case mf_operation_item_remove:
-		mf_elm_popup_item_append(genlist, mf_util_get_text(MF_LABEL_REMOVE), NULL, mf_callback_item_remove_from_shortcut_cb, data);
-		break;
 	case mf_operation_item_remove_recent:
 		mf_elm_popup_item_append(genlist, mf_util_get_text(MF_LABEL_REMOVE), NULL, mf_callback_item_remove_from_recent_files_cb, data);
 		break;
@@ -1280,18 +1270,6 @@ static void __mf_popup_operation_items_generate(void *data, Evas_Object *genlist
 			__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
 
 			break;
-		case mf_list_shortcut:
-			{
-				//1 Remove
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_remove);
-
-				//1 Rename
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
-
-				//1 Details
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
-			}
-			break;
 		case mf_list_normal:
 			//1 Details
 			__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
@@ -1328,8 +1306,6 @@ static void __mf_popup_operation_items_generate(void *data, Evas_Object *genlist
 
 	} else {
 			if (item_data->file_type == FILE_TYPE_DIR) {
-				//1 Shortcut
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_addto_shortcut);
 
 				//1 Delete
 				__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
@@ -1440,7 +1416,7 @@ Evas_Object *mf_popup_create_operation_item_pop(void *data)
 	char *title = NULL;
 
 	if (item_data->list_type == mf_list_normal
-	    || item_data->list_type == mf_list_shortcut || item_data->list_type == mf_list_recent_files) {
+	    || item_data->list_type == mf_list_recent_files) {
 		if (item_data->storage_type == MYFILE_PHONE
 		    || item_data->storage_type == MYFILE_MMC
 		) {
@@ -1450,16 +1426,7 @@ Evas_Object *mf_popup_create_operation_item_pop(void *data)
 				return NULL;
 			}
 		}
-
-		if (item_data->list_type == mf_list_shortcut) {
-			char *temp_title = NULL;
-			{
-				mf_media_shortcut_list_get_display_name(item_data->ap->mf_MainWindow.mfd_handle, ((mfItemData_s *)item_data)->m_ItemName->str, &temp_title);
-			}
-			title = elm_entry_utf8_to_markup(temp_title);//Fixed P140321-05456 by jian12.li
-			SAFE_FREE_CHAR(temp_title);
-			temp_title = NULL;
-		} else if (g_strcmp0(((mfItemData_s *)item_data)->m_ItemName->str, PHONE_FOLDER) == 0) {
+		if (g_strcmp0(((mfItemData_s *)item_data)->m_ItemName->str, PHONE_FOLDER) == 0) {
 			title = g_strdup(MF_LABEL_DEVICE_MEMORY);
 		} else if (g_strcmp0(((mfItemData_s *)item_data)->m_ItemName->str, MEMORY_FOLDER) == 0) {
 			title = g_strdup(MF_LABEL_SD_CARD);

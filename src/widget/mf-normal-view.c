@@ -169,10 +169,6 @@ void mf_normal_view_create(void *data)
 		mf_naviframe_left_cancel_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_cancel_cb, ap);
 		mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_move_here_cb, ap);
 		mf_navi_bar_title_content_set(ap, LABEL_MOVE_TO);
-	} else if (ap->mf_Status.more == MORE_EDIT_ADD_SHORTCUT) {
-		mf_naviframe_left_cancel_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_cancel_cb, ap);
-		mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_do_add_to_shortcut_cb, ap);
-		mf_navi_bar_title_content_set(ap, MF_LABEL_ADD_TO_SHORTCUT);
 	} else if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
 		mf_navi_bar_title_content_set(ap, LABEL_RENAME);

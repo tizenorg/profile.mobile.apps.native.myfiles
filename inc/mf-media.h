@@ -27,23 +27,14 @@ extern "C" {
 
 int mf_media_connect(MFDHandle **handle);
 int mf_media_disconnect(MFDHandle *handle);
-int mf_media_find_shortcut(MFDHandle *mfd_handle, const char *shortcut_path,const char *shortcut_name, int storage_type);
-int mf_media_find_shortcut_display_name(MFDHandle *mfd_handle,const char *shortcut_name);
-int mf_media_add_shortcut(MFDHandle *mfd_handle, const char *shortcut_path, const char *shortcut_name, int storage_type);
-int mf_media_delete_shortcut(MFDHandle *mfd_handle, const char *path);
-int mf_media_delete_shortcut_by_type(MFDHandle *mfd_handle, int storage_type);
 int mf_media_add_recent_files(MFDHandle *mfd_handle, const char *path, const char *name, int storage_type, const char *thumbnail_path);
 int mf_media_delete_recent_files(MFDHandle *mfd_handle, const char *path);
 int mf_media_delete_recent_files_by_type(MFDHandle *mfd_handle, int storage_type);
 int mf_media_update_recent_files_thumbnail(MFDHandle *mfd_handle, const char *thumbnail, const char *new_thumbnail);
-int mf_media_foreach_shortcut_list(MFDHandle *mfd_handle, mf_shortcut_item_cb callback, void *user_data);
 int mf_media_foreach_recent_files_list(MFDHandle *mfd_handle, mf_recent_files_item_cb callback, void *user_data);
 int mf_media_get_short_count(MFDHandle *mfd_handle, int *count);
 int mf_media_get_recent_files_count(MFDHandle *mfd_handle, int *count);
-int mf_destroy_shortcut_item(MFSitem *sitem);
 int mf_destroy_recent_files_item(MFRitem *ritem);
-int mf_media_shortcut_update_name(MFDHandle *mfd_handle, char *name, const char *fullpath);
-int mf_media_shortcut_list_get_display_name(MFDHandle *mfd_handle, const char *fullpath, char **name);
 int mf_media_find_recent_file(MFDHandle *mfd_handle, const char *path);
 
 #ifdef __cplusplus

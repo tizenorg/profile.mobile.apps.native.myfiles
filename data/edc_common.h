@@ -96,7 +96,6 @@
 /***************** root icon *************/
 #define MF_ICON_ITEM_ROOT_PHONE "myfile_icon_root_folder_device_memory.png"
 #define MF_ICON_ITEM_ROOT_MMC	"my_files_sd_card.png"
-#define MF_ICON_ITEM_SHORTCUT	"my_files_folder_favorite.png"
 
 #define MF_ICON_ITEM_MMC	    "myfile_icon_folder_sdcard.png"
 

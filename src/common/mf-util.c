@@ -53,7 +53,6 @@
 #define MF_EXTENSION_STATE  "extension_state"
 #define MF_HIDDEN_STATE		"hiden_state"
 #define MF_RECENT_FILE		"recent_file"
-#define MF_SHORTCUT		    "shortcut"
 
 #define MF_VIBRATION_DEVICE     0
 #define MF_VIBRATION_DURATION   500
@@ -699,16 +698,15 @@ void mf_util_normal_item_data_free(mfItemData_s **item_data)
 void do_list_pointer_protect(Eina_List *list)
 {
 	struct appdata *ap =  mf_get_appdata();
-    
-	/*mf_warning("list =  %p", list);
-	mf_warning("ap->search_result_folder_list =  %p", ap->mf_FileOperation.search_result_folder_list);
-	mf_warning("ap->search_result_file_list =  %p", ap->mf_FileOperation.search_result_file_list);
-	mf_warning("ap->folder_list =  %p", ap->mf_FileOperation.folder_list);
-	mf_warning("ap->file_list =  %p", ap->mf_FileOperation.file_list);
-	mf_warning("ap->category_list =  %p", ap->mf_FileOperation.category_list);
-	mf_warning("ap->recent_list =  %p", ap->mf_FileOperation.recent_list);
-	mf_warning("ap->shortcut_list =  %p", ap->mf_FileOperation.shortcut_list);*/
-	
+
+	/*mf_warning("list = %p", list);
+	mf_warning("ap->search_result_folder_list = %p", ap->mf_FileOperation.search_result_folder_list);
+	mf_warning("ap->search_result_file_list = %p", ap->mf_FileOperation.search_result_file_list);
+	mf_warning("ap->folder_list = %p", ap->mf_FileOperation.folder_list);
+	mf_warning("ap->file_list = %p", ap->mf_FileOperation.file_list);
+	mf_warning("ap->category_list = %p", ap->mf_FileOperation.category_list);
+	mf_warning("ap->recent_list = %p", ap->mf_FileOperation.recent_list);*/
+
 	if (list==ap->mf_FileOperation.search_result_folder_list)
 		ap->mf_FileOperation.search_result_folder_list = NULL;
 	if (list==ap->mf_FileOperation.search_result_file_list)
@@ -721,8 +719,6 @@ void do_list_pointer_protect(Eina_List *list)
 		ap->mf_FileOperation.category_list = NULL;
 	if (list==ap->mf_FileOperation.recent_list)
 		ap->mf_FileOperation.recent_list = NULL;
-	if (list==ap->mf_FileOperation.shortcut_list)
-		ap->mf_FileOperation.shortcut_list = NULL;
 
 }
 
@@ -1122,22 +1118,6 @@ void mf_util_set_recent_file(char *path)
     return;
 }
 
-
-char *mf_util_get_shortcut()
-{
- //   int ret = -1;
-    char *shortcut = NULL;
-
-    preference_get_string(MF_SHORTCUT, &shortcut);
-    if (shortcut == NULL || strlen(shortcut) == 0) {
-        mf_debug("shortcut is null");
-        return NULL;
-    }
-    mf_debug("shortcut : %s", shortcut);
-
-    return shortcut;
-}
-
 bool mf_util_db_get_recent_files_cb(MFRitem *Ritem, void *user_data)
 {
 	struct appdata *ap = (struct appdata *)user_data;
@@ -1167,55 +1147,12 @@ void mf_util_db_remove_recent_files(MFDHandle *handle, char *recent_file)
 	mf_media_delete_recent_files(handle, recent_file);
 }
 
-bool mf_util_db_get_shortcut_cb(MFSitem *Sitem, void *user_data)
-{
-	struct appdata *ap = (struct appdata *)user_data;
-	if (Sitem && Sitem->path) {
-		if (mf_file_exists(Sitem->path)) {
-			mf_util_generate_list(&ap->mf_FileOperation.shortcut_list, g_strdup(Sitem->path), FILE_TYPE_DIR, mf_list_shortcut);
-		} else {
-			mf_media_delete_shortcut(ap->mf_MainWindow.mfd_handle, Sitem->path);
-		}
-	}
-	return true;
-}
-
-void mf_util_db_get_shortcut_files(MFDHandle *handle, void *data)
-{
-	mf_media_foreach_shortcut_list(handle, mf_util_db_get_shortcut_cb, data);
-}
-
-bool mf_util_db_find_shortcut(MFDHandle *handle, const char *path, const char *name, int storage)
-{
-	int find = mf_media_find_shortcut(handle, path, name, storage);
-	return (find == 1?true:false);
-}
-
-bool mf_util_db_find_shortcut_display_name(MFDHandle *handle, const char *name)
-{
-	int find = mf_media_find_shortcut_display_name(handle, name);
-	return (find == 1?true:false);
-}
-
-void mf_util_db_add_shortcut(MFDHandle *handle, const char *path, const char *name, int storage)
-{
-	mf_media_add_shortcut(handle, path, name, storage);
-}
-
-void mf_util_db_remove_shortcut(MFDHandle *handle, char *shortcut)
-{
-	mf_media_delete_shortcut(handle, shortcut);
-}
-
 void mf_util_generate_saved_files_list(void *data, int type)
 {
 	struct appdata *ap = (struct appdata *)data;
 	switch (type) {
 	case mf_list_recent_files:
 		mf_util_db_get_recent_files(ap->mf_MainWindow.mfd_handle, data);
-		break;
-	case mf_list_shortcut:
-		mf_util_db_get_shortcut_files(ap->mf_MainWindow.mfd_handle, data);
 		break;
 	}
 }

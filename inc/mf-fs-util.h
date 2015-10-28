@@ -123,7 +123,6 @@
 /******* Root Folder Icon *******/
 #define MF_ICON_ITEM_ROOT_PHONE		"myfile_icon_root_folder_device_memory.png"
 #define MF_ICON_ITEM_ROOT_MMC		"my_files_sd_card.png"
-#define MF_ICON_ITEM_SHORTCUT		"my_files_folder_favorite.png"
 
 /************ Search Category Icon ***********/
 #define IMG_ICON_SEARCH_CATEGORY_ALL    "myfile_search_category_all.png"

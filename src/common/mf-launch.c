@@ -102,25 +102,25 @@ static int __mf_launch_get_share_files(mf_launch_share_u *selected_files, Eina_L
 	Eina_List *l = NULL;
 	char *first_file = NULL;
 	GString *fullpath = NULL;
-		EINA_LIST_FOREACH(selected_list, l, fullpath) {
-			if (fullpath != NULL) {
-				if (first_file == NULL && selected_files->multi_files == NULL) {
-					first_file = g_strdup(fullpath->str);
-				} else {
-					if (selected_files->multi_files == NULL) {
-						selected_files->multi_files = calloc(eina_list_count(selected_list), sizeof(char *));
-						if (selected_files->multi_files) {
-							selected_files->multi_files[0] = g_strdup(first_file);
-							SAFE_FREE_CHAR(first_file);
-							selected_files->multi_files[file_count] = g_strdup(fullpath->str);
-						}
-					} else {
+	EINA_LIST_FOREACH(selected_list, l, fullpath) {
+		if (fullpath != NULL) {
+			if (first_file == NULL && selected_files->multi_files == NULL) {
+				first_file = g_strdup(fullpath->str);
+			} else {
+				if (selected_files->multi_files == NULL) {
+					selected_files->multi_files = calloc(eina_list_count(selected_list), sizeof(char *));
+					if (selected_files->multi_files) {
+						selected_files->multi_files[0] = g_strdup(first_file);
+						SAFE_FREE_CHAR(first_file);
 						selected_files->multi_files[file_count] = g_strdup(fullpath->str);
 					}
+				} else {
+					selected_files->multi_files[file_count] = g_strdup(fullpath->str);
 				}
-				file_count++;
 			}
+			file_count++;
 		}
+	}
 
 	if (first_file) {
 		selected_files->single_file = first_file;
@@ -147,7 +147,7 @@ void mf_launch_item_share_file(void *data, Evas_Object * obj, void *event_info)
 		mf_error(" app_control_create failed");
 		return ;
 	}
-	mf_error("item_data->m_ItemName->str is %s",item_data->m_ItemName->str);
+	mf_error("item_data->m_ItemName->str is %s", item_data->m_ItemName->str);
 
 	char prefix_file[BUFF_SIZE] = {0,};
 	snprintf(prefix_file, BUFF_SIZE, "%s%s", MF_SHARE_FILE_PREFIX, item_data->m_ItemName->str);
@@ -165,14 +165,14 @@ void mf_launch_item_share_file(void *data, Evas_Object * obj, void *event_info)
 	}
 	//app_control_add_extra_data_array(handle, MF_SHARE_SVC_FILE_PATH, &item_data->m_ItemName->str, 1);
 	app_control_add_extra_data(handle, MF_SHARE_SVC_FILE_PATH, item_data->m_ItemName->str);
-/*
-	ret = app_control_set_window(handle, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
-	if (ret != APP_CONTROL_ERROR_NONE) {
-		app_control_destroy(handle);
-		mf_debug("app_control_set_window()... [0x%x]", ret);
-		return;
-	}
-*/
+	/*
+		ret = app_control_set_window(handle, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
+		if (ret != APP_CONTROL_ERROR_NONE) {
+			app_control_destroy(handle);
+			mf_debug("app_control_set_window()... [0x%x]", ret);
+			return;
+		}
+	*/
 	ret = app_control_send_launch_request(handle, NULL, NULL);
 	if (ret == APP_CONTROL_ERROR_APP_NOT_FOUND) {
 		mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_LABEL_NO_APP, NULL, NULL, NULL, NULL, NULL);
@@ -212,7 +212,7 @@ void mf_launch_item_share(void *data, Evas_Object * obj, void *event_info)
 	mf_info("pLongpressPopup is deleted");
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
 	//other files will share directly
-	mf_launch_item_share_file(data,obj,event_info);
+	mf_launch_item_share_file(data, obj, event_info);
 	MF_TRACE_END;
 }
 
@@ -338,13 +338,13 @@ bool mf_launch_share(void *data)
 	} else {
 		goto END;
 	}
-/*
-	ret = app_control_set_window(handle, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
-	if (ret != APP_CONTROL_ERROR_NONE) {
-		mf_debug("app_control_set_window()... [0x%x]", ret);
-		goto END;
-	}
-*/
+	/*
+		ret = app_control_set_window(handle, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
+		if (ret != APP_CONTROL_ERROR_NONE) {
+			mf_debug("app_control_set_window()... [0x%x]", ret);
+			goto END;
+		}
+	*/
 
 	ret = app_control_set_launch_mode(handle, APP_CONTROL_LAUNCH_MODE_GROUP);
 	if (ret != APP_CONTROL_ERROR_NONE) {
@@ -484,13 +484,13 @@ void mf_launch_load_storage(void *data)
 		mf_debug("app_control_set_operation()... [0x%x]", ret);
 		goto END;
 	}
-/*
-	ret = app_control_set_window(app_control, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
-	if (ret != APP_CONTROL_ERROR_NONE) {
-		mf_debug("app_control_set_uri()... [0x%x]", ret);
-		goto END;
-	}
-*/
+	/*
+		ret = app_control_set_window(app_control, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
+		if (ret != APP_CONTROL_ERROR_NONE) {
+			mf_debug("app_control_set_uri()... [0x%x]", ret);
+			goto END;
+		}
+	*/
 	ret = app_control_set_app_id(app_control, STORAGE_UG_NAME);
 	if (ret != APP_CONTROL_ERROR_NONE) {
 		mf_debug("app_control_set_uri()... [0x%x]", ret);
@@ -576,7 +576,7 @@ void mf_launch_add_recent_files(void *data, const char *path)
 		if (list) {
 			int index = 0;
 			int list_len = eina_list_count(list);
-			for (; (list_len-index) >= RECENT_FILES_COUNT_MAX; index++) {
+			for (; (list_len - index) >= RECENT_FILES_COUNT_MAX; index++) {
 				char *cross_path = eina_list_nth(list, index);
 				mf_media_delete_recent_files(ap->mf_MainWindow.mfd_handle, cross_path);
 			}
@@ -618,10 +618,10 @@ void mf_launch_load_ug_myfile(void *data)
 	app_control_add_extra_data(app_control, "file_type", ap->mf_Bundle.file_type);
 	app_control_add_extra_data(app_control, "marked_mode", ap->mf_Bundle.marked_mode);
 	//ug = ug_create(NULL, MYFILE_UG_NAME, UG_MODE_FULLVIEW, service, &cbs);
-/*
-	ret = app_control_set_window(app_control, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
-	mf_retm_if(ret != APP_CONTROL_ERROR_NONE, "service create failed");
-*/
+	/*
+		ret = app_control_set_window(app_control, elm_win_xwindow_get(ap->mf_MainWindow.pWindow));
+		mf_retm_if(ret != APP_CONTROL_ERROR_NONE, "service create failed");
+	*/
 	ret = app_control_set_app_id(app_control, MYFILE_UG_NAME);
 	if (ret != APP_CONTROL_ERROR_NONE) {
 		app_control_destroy(app_control);
@@ -690,8 +690,8 @@ int mf_launch_service(void *data, char *path)
 			app_control_add_extra_data(app_control, "Path", path);
 			app_control_set_launch_mode(app_control, APP_CONTROL_LAUNCH_MODE_GROUP);
 		} else if (category == FILE_TYPE_SOUND
-				|| category == FILE_TYPE_MUSIC
-				|| category == FILE_TYPE_VOICE) {
+		           || category == FILE_TYPE_MUSIC
+		           || category == FILE_TYPE_VOICE) {
 
 			mf_debug("category  is sound");
 			app_control_add_extra_data(app_control, "View By", "By Folder");
@@ -700,19 +700,19 @@ int mf_launch_service(void *data, char *path)
 
 			if (sort_type ==   MYFILE_SORT_BY_NAME_A2Z) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_NAME_A2Z");
-			} else if(sort_type ==	 MYFILE_SORT_BY_SIZE_S2L) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_SIZE_S2L) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_SIZE_S2L");
-			} else if(sort_type ==	 MYFILE_SORT_BY_DATE_O2R) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_DATE_O2R) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_DATE_O2R");
-			} else if(sort_type ==	 MYFILE_SORT_BY_TYPE_A2Z) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_TYPE_A2Z) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_TYPE_A2Z");
-			} else if(sort_type ==	 MYFILE_SORT_BY_NAME_Z2A) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_NAME_Z2A) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_NAME_Z2A");
-			} else if(sort_type ==	 MYFILE_SORT_BY_SIZE_L2S) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_SIZE_L2S) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_SIZE_L2S");
-			} else if(sort_type ==	 MYFILE_SORT_BY_DATE_R2O) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_DATE_R2O) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_DATE_R2O");
-			} else if(sort_type ==	 MYFILE_SORT_BY_TYPE_Z2A) {
+			} else if (sort_type ==	 MYFILE_SORT_BY_TYPE_Z2A) {
 				app_control_add_extra_data(app_control, "sort_type", "MYFILE_SORT_BY_TYPE_Z2A");
 			}
 			if (ap->mf_Status.view_type != mf_view_root_category) {
@@ -752,7 +752,7 @@ int mf_launch_service(void *data, char *path)
 			ap->mf_Status.launch_path = g_strdup(path);
 			mf_debug("app_control_send_launch_request()... [0x%x]", ret);
 			/*reflesh recent files list in root view */
-			mf_info("ap->mf_Status.view_type is %d, ap->mf_Status.flag_tab is %d",ap->mf_Status.view_type,ap->mf_Status.flag_tab);
+			mf_info("ap->mf_Status.view_type is %d, ap->mf_Status.flag_tab is %d", ap->mf_Status.view_type, ap->mf_Status.flag_tab);
 			if (ap->mf_Status.view_type == mf_view_root && ap->mf_Status.flag_tab == MF_TAB_RIGHT && ap->mf_Status.more == MORE_DEFAULT) {
 				//__mf_root_view_recent_files_content_create(ap);
 			}

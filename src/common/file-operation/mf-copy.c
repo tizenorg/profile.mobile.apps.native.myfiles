@@ -189,7 +189,7 @@ static void __mf_copy_req_cb(mf_fo_request *req, void *data)
 		g_mutex_lock(&cp_handle->lock);
 		if (ap->mf_Status.check == 1) {
 			gint64 end_time;
-			end_time = g_get_monotonic_time () + 5 * G_TIME_SPAN_SECOND;
+			end_time = g_get_monotonic_time() + 5 * G_TIME_SPAN_SECOND;
 			while (mf_request_flag_get(req)) {
 				if (!g_cond_wait_until(&cp_handle->cond, &cp_handle->lock, end_time)) {
 					mf_fo_loge("g_cond_wait_until is timeout, time is %lld", end_time);
@@ -293,7 +293,7 @@ static void *__mf_copy_thread_func(void *data)
 						mf_fo_loge("Fail to get size of %s", s_path);
 
 						__mf_copy_msg_cb(MF_MSG_ERROR, s_path, 0,
-								 (MF_FO_ERR_SRC_CLASS | _mf_fo_errno_to_mferr(-errcode)), cp_handle);
+						                 (MF_FO_ERR_SRC_CLASS | _mf_fo_errno_to_mferr(-errcode)), cp_handle);
 
 						goto ERROR_END_THREAD;
 					} else {
@@ -324,7 +324,7 @@ static void *__mf_copy_thread_func(void *data)
 				cp_handle->msg.current = s_path;
 				g_mutex_unlock(&cp_handle->lock);
 				ret = _mf_copy_copy_internal(s_path, cp_handle->dst_dir, cp_handle->cancel,
-							     __mf_copy_msg_cb, __mf_copy_req_cb, cp_handle);
+				                             __mf_copy_msg_cb, __mf_copy_req_cb, cp_handle);
 
 				if (ret > 0) {
 					if (cp_handle->cancel) {
@@ -342,7 +342,7 @@ static void *__mf_copy_thread_func(void *data)
 		}
 		c_stop = __mf_copy_get_time();
 		mf_fo_logi("## Total src size - %lld byte, size time : %lf sec, copy time : %lf sec",
-			   cp_handle->msg.total_size, s_stop - s_start, c_stop - c_start);
+		           cp_handle->msg.total_size, s_stop - s_start, c_stop - c_start);
 		if (cancelled) {
 			__mf_copy_msg_cb(MF_MSG_CANCELLED, NULL, 0, 0, cp_handle);
 		}
@@ -365,7 +365,7 @@ ERROR_END_THREAD:
 		g_mutex_lock(&cp_handle->lock);
 
 		int media_content_ret = media_content_scan_folder(cp_handle->dst_dir, true, __mf_media_scan_folder_completed_cb, cp_handle);
-		if(media_content_ret !=MEDIA_CONTENT_ERROR_NONE) {
+		if (media_content_ret != MEDIA_CONTENT_ERROR_NONE) {
 			mf_error("media_content_scan_folder() is failed, media_content_ret = [%d]", media_content_ret);
 			g_mutex_unlock(&cp_handle->lock);
 		} else {

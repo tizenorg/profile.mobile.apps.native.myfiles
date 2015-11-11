@@ -175,13 +175,14 @@ void mf_util_action_storage_insert(void *data, char *pItemLabel)
 	fsNodeInfo *pNode = NULL;
 
 	if ((ap->mf_Status.view_type == mf_view_storage || ap->mf_Status.view_type == mf_view_root)
-	    && (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS)) {
+	        && (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS)) {
 		Evas_Object *parent = NULL;
 		parent = ap->mf_MainWindow.pNaviGenlist;
 		if ((ap->mf_Status.iStorageState & MYFILE_MMC) && !__mf_util_storage_exist_check(parent, MYFILE_MMC)) {
 			pNode = (fsNodeInfo *) malloc(sizeof(fsNodeInfo));
-			if (pNode == NULL)
+			if (pNode == NULL) {
 				return;
+			}
 			memset(pNode, 0, sizeof(fsNodeInfo));
 			/*set path */
 			pNode->path = g_strdup(STORAGE_PARENT);
@@ -219,7 +220,7 @@ void mf_util_operation_alloc_failed(void *data)
 	struct appdata *ap = (struct appdata *)data;
 
 	ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_MSG_MEMORY_NOT_ENOUGH,
-							       NULL, NULL, NULL, (Evas_Smart_Cb) elm_exit, NULL);
+	                                 NULL, NULL, NULL, (Evas_Smart_Cb) elm_exit, NULL);
 }
 
 /******************************
@@ -264,7 +265,7 @@ void mf_util_refresh_screen(void *data)
 				} else {
 					mf_gengrid_align_set(ap->mf_MainWindow.pNaviGengrid, count);
 				}
-			}else{//Fixed P140416-05429  by jian12.li
+			} else { //Fixed P140416-05429  by jian12.li
 				int count = elm_genlist_items_count(ap->mf_MainWindow.pNaviGenlist);
 				if (count == 0) {
 					ap->mf_Status.flagNoContent = EINA_TRUE;
@@ -313,7 +314,7 @@ void mf_util_refresh_screen(void *data)
 		}
 		SAFE_FREE_CHAR(ap->mf_Status.entry_path);
 		ap->mf_Status.entry_more = MORE_DEFAULT;
-			/*3.    refresh the content of the view */
+		/*3.    refresh the content of the view */
 		if (ap->mf_Status.view_type != mf_view_root_category && ap->mf_Status.more != MORE_SEARCH) {
 			mf_navi_bar_recover_info_box(ap);
 		}
@@ -391,7 +392,7 @@ void mf_util_refresh_screen(void *data)
 			} else if (ap->mf_Status.view_type == mf_view_recent) {
 				mf_navi_bar_title_content_set(ap, MF_LABEL_RECTENT_FILES);
 			} else {
-				mf_navi_bar_title_content_set(ap,ap->mf_MainWindow.naviframe_title);
+				mf_navi_bar_title_content_set(ap, ap->mf_MainWindow.naviframe_title);
 				elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
 			}
 		} else if (ap->mf_Status.more != MORE_EDIT_RENAME) {
@@ -406,8 +407,8 @@ void mf_util_refresh_screen(void *data)
 
 	} else {
 		if (ap->mf_Status.view_type == mf_view_root_category
-		    && (ap->mf_Status.more == MORE_COMPRESS || ap->mf_Status.more == MORE_DECOMPRESS
-		        || ap->mf_Status.more == MORE_DECOMPRESS_HERE)) {
+		        && (ap->mf_Status.more == MORE_COMPRESS || ap->mf_Status.more == MORE_DECOMPRESS
+		            || ap->mf_Status.more == MORE_DECOMPRESS_HERE)) {
 			ap->mf_Status.more = MORE_DEFAULT;
 			message =  MF_LABEL_SUCCESS;
 			mf_category_view_create(ap, true);
@@ -473,20 +474,19 @@ void mf_util_refresh_screen(void *data)
 
 EXIT_WITH_POPUP:
 	mf_error("ap->mf_FileOperation.message_type is [%d] message is [%s]",
-                ap->mf_FileOperation.message_type, message);
-    if (message == NULL)
-    {
-        mf_error("Message NULL..!!");
-        return;
-    }
+	         ap->mf_FileOperation.message_type, message);
+	if (message == NULL) {
+		mf_error("Message NULL..!!");
+		return;
+	}
 
 	if (ap->mf_FileOperation.message_type == message_type_notification) {
 		mf_popup_indicator_popup(ap, mf_util_get_text(message));
 		ap->mf_FileOperation.pOperationMsg = NULL;
 	} else {
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL,
-								       message, MF_BUTTON_LABEL_OK,
-								       NULL, NULL, mf_callback_warning_popup_cb, ap);
+		                                 message, MF_BUTTON_LABEL_OK,
+		                                 NULL, NULL, mf_callback_warning_popup_cb, ap);
 		ap->mf_FileOperation.pOperationMsg = NULL;
 	}
 
@@ -518,7 +518,7 @@ bool mf_util_check_forbidden_operation(void *data)
 	 **    1.  Recursion move/copy
 	 **    2.  move with same file in the same folder
 	 */
-		MF_TRACE_BEGIN
+	MF_TRACE_BEGIN
 
 	mf_retvm_if(data == NULL, false, "passed data is NULL");
 	struct appdata *ap = (struct appdata *)data;
@@ -609,8 +609,8 @@ int mf_util_check_disk_space(void *data)
 	 */
 	if (free_space == 0) {
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL,
-								       MF_LABE_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN, MF_BUTTON_LABEL_OK,
-								       NULL, NULL, mf_callback_warning_popup_cb, ap);
+		                                 MF_LABE_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN, MF_BUTTON_LABEL_OK,
+		                                 NULL, NULL, mf_callback_warning_popup_cb, ap);
 		mf_debug("Not Enough free size\n");
 		return MYFILE_ERR_NO_FREE_SPACE;
 	}
@@ -687,8 +687,8 @@ void mf_util_normal_item_data_free(mfItemData_s **item_data)
 			ret = media_info_cancel_thumbnail((*item_data)->media);
 		}
 		if (ret == MEDIA_CONTENT_ERROR_NONE) {
-		     media_info_destroy((*item_data)->media);
-		    (*item_data)->media = NULL;
+			media_info_destroy((*item_data)->media);
+			(*item_data)->media = NULL;
 		}
 	}
 	free((*item_data));
@@ -707,18 +707,24 @@ void do_list_pointer_protect(Eina_List *list)
 	mf_warning("ap->category_list = %p", ap->mf_FileOperation.category_list);
 	mf_warning("ap->recent_list = %p", ap->mf_FileOperation.recent_list);*/
 
-	if (list==ap->mf_FileOperation.search_result_folder_list)
+	if (list == ap->mf_FileOperation.search_result_folder_list) {
 		ap->mf_FileOperation.search_result_folder_list = NULL;
-	if (list==ap->mf_FileOperation.search_result_file_list)
+	}
+	if (list == ap->mf_FileOperation.search_result_file_list) {
 		ap->mf_FileOperation.search_result_file_list = NULL;
-	if (list==ap->mf_FileOperation.folder_list)
+	}
+	if (list == ap->mf_FileOperation.folder_list) {
 		ap->mf_FileOperation.folder_list = NULL;
-	if (list==ap->mf_FileOperation.file_list)
+	}
+	if (list == ap->mf_FileOperation.file_list) {
 		ap->mf_FileOperation.file_list = NULL;
-	if (list==ap->mf_FileOperation.category_list)
+	}
+	if (list == ap->mf_FileOperation.category_list) {
 		ap->mf_FileOperation.category_list = NULL;
-	if (list==ap->mf_FileOperation.recent_list)
+	}
+	if (list == ap->mf_FileOperation.recent_list) {
 		ap->mf_FileOperation.recent_list = NULL;
+	}
 
 }
 
@@ -777,43 +783,45 @@ void mf_util_free_eina_list_with_data(Eina_List **list, MYFILE_CONTENT_TYPE type
 
 static void __mf_util_icu_set_default_timezone_id()
 {
-        i18n_uchar utimezone_id [MYFILE_ICU_ARR_LENGTH] = {0};
-        char timezone_buffer[MYFILE_ICU_ARR_LENGTH] = {0};
-        char timezone_id[MYFILE_ICU_ARR_LENGTH] = {0};
-        char *buffer = NULL;
-        int timezone_str_size;
-        int retcode = -1;
+	i18n_uchar utimezone_id [MYFILE_ICU_ARR_LENGTH] = {0};
+	char timezone_buffer[MYFILE_ICU_ARR_LENGTH] = {0};
+	char timezone_id[MYFILE_ICU_ARR_LENGTH] = {0};
+	char *buffer = NULL;
+	int timezone_str_size;
+	int retcode = -1;
 
-        retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_TIMEZONE, &buffer);
-		if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-                mf_error("[ERR] failed to get the timezone");
+	retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_TIMEZONE, &buffer);
+	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
+		mf_error("[ERR] failed to get the timezone");
+	}
+	if (buffer) {
+		strncpy(timezone_id, buffer, sizeof(timezone_id) - 1);
+	}
+	timezone_str_size = readlink("/opt/etc/localtime", timezone_buffer, sizeof(timezone_buffer) - 1);
+	SAFE_FREE_CHAR(buffer);
+
+	if (timezone_str_size > 0) {
+		char *ptr, *sp, *zone = NULL, *city = NULL;
+		ptr = strtok_r(timezone_buffer, "/", &sp);
+
+		while ((ptr = strtok_r(NULL, "/", &sp))) {
+			zone = city;
+			city = ptr;
 		}
-        if (buffer)
-                strncpy(timezone_id, buffer, sizeof(timezone_id)-1);
-        timezone_str_size = readlink("/opt/etc/localtime", timezone_buffer, sizeof(timezone_buffer)-1);
-        SAFE_FREE_CHAR(buffer);
 
-        if (timezone_str_size > 0) {
-                char *ptr, *sp, *zone= NULL, *city= NULL;
-                ptr = strtok_r(timezone_buffer, "/", &sp);
+		if (zone != NULL && city != NULL) {
+			if (strcmp("zoneinfo", zone) == 0) {
+				snprintf(timezone_id, MYFILE_ICU_ARR_LENGTH, "%s", city);
+			} else {
+				snprintf(timezone_id, MYFILE_ICU_ARR_LENGTH, "%s/%s", zone, city);
+			}
+		}
+	}
 
-                while ((ptr = strtok_r(NULL, "/", &sp))) {
-                        zone = city;
-                        city = ptr;
-                }
-
-                if (zone != NULL && city != NULL) {
-                        if (strcmp("zoneinfo", zone) == 0)
-                                snprintf(timezone_id, MYFILE_ICU_ARR_LENGTH, "%s", city);
-                        else
-                                snprintf(timezone_id, MYFILE_ICU_ARR_LENGTH, "%s/%s", zone, city);
-                }
-        }
-
-        if (*timezone_id) {
-                i18n_ustring_copy_ua_n(utimezone_id, timezone_id, sizeof(timezone_buffer)/2);
-                retcode = i18n_ucalendar_set_default_timezone(utimezone_id);
-        }
+	if (*timezone_id) {
+		i18n_ustring_copy_ua_n(utimezone_id, timezone_id, sizeof(timezone_buffer) / 2);
+		retcode = i18n_ucalendar_set_default_timezone(utimezone_id);
+	}
 }
 
 int mf_util_icu_init(void *data)
@@ -861,7 +869,7 @@ int mf_util_icu_init(void *data)
 		if (find) {
 			int diff = find - region;
 			if (diff > 0) {
-				region[diff-1] = '\0';
+				region[diff - 1] = '\0';
 			}
 		}
 	}
@@ -896,7 +904,7 @@ int mf_util_icu_init(void *data)
 	SAFE_FREE_CHAR(region);
 	MF_TRACE_END;
 	return MYFILE_ERR_NONE;
-	}
+}
 
 void mf_util_icu_finalize(void *data)
 {
@@ -938,7 +946,7 @@ char *mf_util_icu_translate(void *data, i18n_udate date, bool is_init_checking)
 	int32_t formattedLength;
 
 	status = i18n_udate_format_date(ap->mf_Status.formatter, date, formatted, MYFILE_ICU_ARR_LENGTH,
-                                  NULL, &formattedLength);
+	                                NULL, &formattedLength);
 
 	if ((status != I18N_ERROR_NONE) || (formattedLength <= 0)) {
 		mf_debug("firmatterdLength < 0");
@@ -956,173 +964,169 @@ char *mf_util_icu_translate(void *data, i18n_udate date, bool is_init_checking)
 
 int mf_util_get_pref_value(MYFILE_PREF_TYPE type, int *value)
 {
-    int ret = MYFILE_ERR_NONE;
-    switch (type) {
-        case PREF_TYPE_SORT_TYPE:
-        {
-            ret = preference_get_int(MF_LIST_BY, value);
-            if (ret < 0) {
-                mf_warning("fail to get list_by value, set it default");
-                ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
-                *value = MYFILE_SORT_BY_DATE_R2O;
-                mf_debug("set int : %d", ret);
-            } else {
-                if (*value <= MYFILE_SORT_BY_NONE || *value >= MYFILE_SORT_BY_MAX) 
-                {
-                    mf_warning("invaild list by type[%d], set it default", *value);
-                    ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
-                    mf_debug("set int : %d", ret);
-                    *value = MYFILE_SORT_BY_DATE_R2O;
-                }
-            }
-            return MYFILE_ERR_NONE;
-        }
-            break;
+	int ret = MYFILE_ERR_NONE;
+	switch (type) {
+	case PREF_TYPE_SORT_TYPE: {
+		ret = preference_get_int(MF_LIST_BY, value);
+		if (ret < 0) {
+			mf_warning("fail to get list_by value, set it default");
+			ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
+			*value = MYFILE_SORT_BY_DATE_R2O;
+			mf_debug("set int : %d", ret);
+		} else {
+			if (*value <= MYFILE_SORT_BY_NONE || *value >= MYFILE_SORT_BY_MAX) {
+				mf_warning("invaild list by type[%d], set it default", *value);
+				ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
+				mf_debug("set int : %d", ret);
+				*value = MYFILE_SORT_BY_DATE_R2O;
+			}
+		}
+		return MYFILE_ERR_NONE;
+	}
+	break;
 
-        case PREF_TYPE_VIEW_STYLE:
-            ret = preference_get_int(MF_VIEW_STYLE, value);
-            if (ret <  0) {
-                mf_warning("fail to get list_by value, set it default");
-                ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
-                *value = MF_VIEW_STYLE_LIST;
-                mf_debug("ret %d", ret);
-            } else {
-                if (*value < MF_VIEW_STYLE_LIST || *value > MF_VIEW_STYLE_THUMBNAIL) {
-                    mf_warning("invaild list by type[%d], set it default", *value);
-                    ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
-                    *value = MF_VIEW_STYLE_LIST;
-                    mf_debug("ret %d", ret);
-                }
-            }
-            break;
+	case PREF_TYPE_VIEW_STYLE:
+		ret = preference_get_int(MF_VIEW_STYLE, value);
+		if (ret <  0) {
+			mf_warning("fail to get list_by value, set it default");
+			ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
+			*value = MF_VIEW_STYLE_LIST;
+			mf_debug("ret %d", ret);
+		} else {
+			if (*value < MF_VIEW_STYLE_LIST || *value > MF_VIEW_STYLE_THUMBNAIL) {
+				mf_warning("invaild list by type[%d], set it default", *value);
+				ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
+				*value = MF_VIEW_STYLE_LIST;
+				mf_debug("ret %d", ret);
+			}
+		}
+		break;
 
-        case PREF_TYPE_EXTENSION_STATE:
-            ret = preference_get_int(MF_EXTENSION_STATE, value);
-            if (ret < 0) {
-                mf_warning("fail to get list_by value, set it default");
-                ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
-                *value = MF_EXTENSION_SHOW;
-                mf_debug("ret : %d", ret);
-            } else {
-                if (*value < MF_EXTENSION_SHOW || *value > MF_EXTENSION_HIDE) 
-                {
-                    mf_warning("invaild list by type[%d], set it default", *value);
-                    ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
-                    *value = MF_EXTENSION_SHOW;
-                    mf_debug("ret : %d", ret);
-                }
-            }
-            break;
-        case PREF_TYPE_HIDEN_STATE:
-            ret = preference_get_int(MF_HIDDEN_STATE, value);
-            if (ret < 0) {
-                mf_warning("fail to get list_by value, set it default");
-                ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
-                *value = MF_HIDEN_HIDE;
-                mf_debug("ret : %d", ret);
-            } else {
-                if (*value < MF_HIDEN_SHOW|| *value > MF_HIDEN_HIDE) {
-                    mf_warning("invaild list by type[%d], set it default", *value);
-                    ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
-                    *value = MF_HIDEN_HIDE;
-                    mf_debug("ret : %d", ret);
-                }
-            }
-            break;
+	case PREF_TYPE_EXTENSION_STATE:
+		ret = preference_get_int(MF_EXTENSION_STATE, value);
+		if (ret < 0) {
+			mf_warning("fail to get list_by value, set it default");
+			ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
+			*value = MF_EXTENSION_SHOW;
+			mf_debug("ret : %d", ret);
+		} else {
+			if (*value < MF_EXTENSION_SHOW || *value > MF_EXTENSION_HIDE) {
+				mf_warning("invaild list by type[%d], set it default", *value);
+				ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
+				*value = MF_EXTENSION_SHOW;
+				mf_debug("ret : %d", ret);
+			}
+		}
+		break;
+	case PREF_TYPE_HIDEN_STATE:
+		ret = preference_get_int(MF_HIDDEN_STATE, value);
+		if (ret < 0) {
+			mf_warning("fail to get list_by value, set it default");
+			ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
+			*value = MF_HIDEN_HIDE;
+			mf_debug("ret : %d", ret);
+		} else {
+			if (*value < MF_HIDEN_SHOW || *value > MF_HIDEN_HIDE) {
+				mf_warning("invaild list by type[%d], set it default", *value);
+				ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
+				*value = MF_HIDEN_HIDE;
+				mf_debug("ret : %d", ret);
+			}
+		}
+		break;
 
-        default:
-            mf_debug("No case");
-            break;
-    }
+	default:
+		mf_debug("No case");
+		break;
+	}
 
-    if (ret != MYFILE_ERR_NONE) {
-        ret = MYFILE_ERR_STORAGE_GET_FAILED;
-        mf_warning("MYFILE_ERR_STORAGE_GET_FAILED");
-    }
+	if (ret != MYFILE_ERR_NONE) {
+		ret = MYFILE_ERR_STORAGE_GET_FAILED;
+		mf_warning("MYFILE_ERR_STORAGE_GET_FAILED");
+	}
 
-    return ret;
+	return ret;
 }
 
 void mf_util_set_sort_type(int value)
 {
-    int ret = -1;
+	int ret = -1;
 
-    if (value <= MYFILE_SORT_BY_NONE || value >= MYFILE_SORT_BY_MAX)
-    {
-        ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
-        mf_warning("invaild list by type[%d], set it default, %d", value, ret);
-    } else {
-        ret = preference_set_int(MF_LIST_BY, value);
-        mf_debug("value is [%d], [%d]", value, ret);
-    }
+	if (value <= MYFILE_SORT_BY_NONE || value >= MYFILE_SORT_BY_MAX) {
+		ret = preference_set_int(MF_LIST_BY, MYFILE_SORT_BY_DATE_R2O);
+		mf_warning("invaild list by type[%d], set it default, %d", value, ret);
+	} else {
+		ret = preference_set_int(MF_LIST_BY, value);
+		mf_debug("value is [%d], [%d]", value, ret);
+	}
 
-    return;
+	return;
 }
 
 void mf_util_set_extension_state(int value)
 {
-    int ret = -1;
+	int ret = -1;
 
-    if (value <= MF_EXTENSION_NONE || value >= MF_EXTENSION_MAX) {
-        ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
-        mf_warning("invaild list by type[%d], set it default : %d", value, ret);
-    } else {
-        ret = preference_set_int(MF_EXTENSION_STATE, value);
-        mf_debug("value is [%d], [%d]", value, ret);
-    }
+	if (value <= MF_EXTENSION_NONE || value >= MF_EXTENSION_MAX) {
+		ret = preference_set_int(MF_EXTENSION_STATE, MF_EXTENSION_SHOW);
+		mf_warning("invaild list by type[%d], set it default : %d", value, ret);
+	} else {
+		ret = preference_set_int(MF_EXTENSION_STATE, value);
+		mf_debug("value is [%d], [%d]", value, ret);
+	}
 
-    return;
+	return;
 }
 
 void mf_util_set_hiden_state(int value)
 {
-    int ret = -1;
+	int ret = -1;
 
-    if (value <= MF_HIDEN_NONE || value >= MF_HIDEN_MAX) {
-        ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
-        mf_warning("invaild hiden by type[%d], set it default : %d", value, ret);
-    } else {
-        ret = preference_set_int(MF_HIDDEN_STATE, value);
-        mf_debug("value is [%d] [%d]", value, ret);
-    }
+	if (value <= MF_HIDEN_NONE || value >= MF_HIDEN_MAX) {
+		ret = preference_set_int(MF_HIDDEN_STATE, MF_HIDEN_HIDE);
+		mf_warning("invaild hiden by type[%d], set it default : %d", value, ret);
+	} else {
+		ret = preference_set_int(MF_HIDDEN_STATE, value);
+		mf_debug("value is [%d] [%d]", value, ret);
+	}
 
-    return;
+	return;
 }
 
 void mf_util_set_view_style(int value)
 {
-    int ret = -1;
+	int ret = -1;
 
-    if (value < MF_VIEW_STYLE_LIST || value > MF_VIEW_STYLE_THUMBNAIL) {
-        ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
-        mf_warning("invaild list by type[%d], set it default : %d", value, ret);
-    } else {
-        ret = preference_set_int(MF_VIEW_STYLE, value);
-        mf_debug("value is [%d], [%d]", value, ret);
-    }
+	if (value < MF_VIEW_STYLE_LIST || value > MF_VIEW_STYLE_THUMBNAIL) {
+		ret = preference_set_int(MF_VIEW_STYLE, MF_VIEW_STYLE_LIST);
+		mf_warning("invaild list by type[%d], set it default : %d", value, ret);
+	} else {
+		ret = preference_set_int(MF_VIEW_STYLE, value);
+		mf_debug("value is [%d], [%d]", value, ret);
+	}
 
-    return;
+	return;
 }
 
 void mf_util_set_recent_file(char *path)
 {
-    if (path == NULL) {
-        mf_debug("path NULL");
-        return;
-    }
+	if (path == NULL) {
+		mf_debug("path NULL");
+		return;
+	}
 
-    int ret = -1;
-    ret = preference_set_string(MF_RECENT_FILE, path);
-    mf_debug("ret is [%d]", ret);
+	int ret = -1;
+	ret = preference_set_string(MF_RECENT_FILE, path);
+	mf_debug("ret is [%d]", ret);
 
-    return;
+	return;
 }
 
 bool mf_util_db_get_recent_files_cb(MFRitem *Ritem, void *user_data)
 {
 	struct appdata *ap = (struct appdata *)user_data;
 	if (Ritem && Ritem->path) {
-		SECURE_ERROR("Ritem->path is [%s]mf_file_exists is [%d] access(dst_dir, R_OK | W_OK) is [%d] ",Ritem->path, mf_file_exists(Ritem->path),  access(Ritem->path, R_OK | W_OK));
+		SECURE_ERROR("Ritem->path is [%s]mf_file_exists is [%d] access(dst_dir, R_OK | W_OK) is [%d] ", Ritem->path, mf_file_exists(Ritem->path),  access(Ritem->path, R_OK | W_OK));
 		if (mf_file_exists(Ritem->path)) {
 			mf_util_generate_list_prepend(&ap->mf_FileOperation.recent_list, g_strdup(Ritem->path), FILE_TYPE_ETC, mf_list_recent_files);
 		} else {
@@ -1184,12 +1188,12 @@ void mf_util_exception_func(void *data)
 	case MORE_DATA_COPYING:
 		ap->mf_Status.more = MORE_INTERNAL_COPY;
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT, NULL,
-								       MF_MSG_COPY_FAILED2, NULL, NULL, NULL, (Evas_Smart_Cb)mf_callback_exception_popup_cb, ap);
+		                                 MF_MSG_COPY_FAILED2, NULL, NULL, NULL, (Evas_Smart_Cb)mf_callback_exception_popup_cb, ap);
 		break;
 	case MORE_DATA_MOVING:
 		ap->mf_Status.more = MORE_INTERNAL_MOVE;
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT, NULL,
-								       MF_MSG_MOVE_FAILED3, NULL, NULL, NULL, (Evas_Smart_Cb)mf_callback_exception_popup_cb, ap);
+		                                 MF_MSG_MOVE_FAILED3, NULL, NULL, NULL, (Evas_Smart_Cb)mf_callback_exception_popup_cb, ap);
 		break;
 	case MORE_DELETE:
 		ap->mf_Status.more = MORE_DEFAULT;
@@ -1238,31 +1242,32 @@ EXIT:
 
 void mf_util_set_pm_lock(void *data, Eina_Bool isLock)
 {
-    MF_TRACE_BEGIN;
-    mf_retm_if(data == NULL, "data is NULL");
+	MF_TRACE_BEGIN;
+	mf_retm_if(data == NULL, "data is NULL");
 
-    int ret = -1;
-    struct appdata *ap = (struct appdata *)data;
+	int ret = -1;
+	struct appdata *ap = (struct appdata *)data;
 
-    if (ap->mf_Status.flagLCDLock != isLock) {
-        if (ap->mf_Status.flagLCDLock == EINA_TRUE) {
-            ap->mf_Status.flagLCDLock = EINA_FALSE;
-        } else {
-            ap->mf_Status.flagLCDLock = EINA_TRUE;
-        }
+	if (ap->mf_Status.flagLCDLock != isLock) {
+		if (ap->mf_Status.flagLCDLock == EINA_TRUE) {
+			ap->mf_Status.flagLCDLock = EINA_FALSE;
+		} else {
+			ap->mf_Status.flagLCDLock = EINA_TRUE;
+		}
 
-        if (ap->mf_Status.flagLCDLock) {
-            mf_debug("lock the LCD_OFF");
-            ret = device_power_request_lock(POWER_LOCK_CPU, 0);
-        } else {
-            mf_debug("unlock the LCD_OFF");
-            ret = device_power_release_lock(POWER_LOCK_CPU);
-        }
+		if (ap->mf_Status.flagLCDLock) {
+			mf_debug("lock the LCD_OFF");
+			ret = device_power_request_lock(POWER_LOCK_CPU, 0);
+		} else {
+			mf_debug("unlock the LCD_OFF");
+			ret = device_power_release_lock(POWER_LOCK_CPU);
+		}
 
-        if (ret != 0)
-            mf_debug("fail to lock(unlock)");
-    }
-    MF_TRACE_END;
+		if (ret != 0) {
+			mf_debug("fail to lock(unlock)");
+		}
+	}
+	MF_TRACE_END;
 }
 
 long mf_util_character_count_get(const char *original)
@@ -1270,13 +1275,13 @@ long mf_util_character_count_get(const char *original)
 	mf_retvm_if(original == NULL, 0, "input string is NULL");
 	long count = 0;
 	char *utf8_form = g_locale_to_utf8(original, -1, NULL, NULL, NULL);
-	if (utf8_form == NULL)
+	if (utf8_form == NULL) {
 		return count;
-	else {
-		  count = g_utf8_strlen(utf8_form, -1);
-		  free(utf8_form);
-		  mf_debug("utf8 count is %ld", count);
-		  return count;
+	} else {
+		count = g_utf8_strlen(utf8_form, -1);
+		free(utf8_form);
+		mf_debug("utf8 count is %ld", count);
+		return count;
 	}
 }
 
@@ -1296,7 +1301,7 @@ gboolean mf_util_is_file_selected(Eina_List **source, GString *path)
 			mf_debug("source_path is [%s] path is [%s]", source_path->str, path->str);
 			if (g_strcmp0(source_path->str, path->str) == 0) {
 				flag = TRUE;
-				mf_debug("flag is [%d]source_path is [%s] path is [%s]",flag, source_path->str, path->str);
+				mf_debug("flag is [%d]source_path is [%s] path is [%s]", flag, source_path->str, path->str);
 				*source = eina_list_remove(*source, source_path);
 				g_string_free(source_path, TRUE);
 				source_path = NULL;
@@ -1314,7 +1319,7 @@ gboolean mf_util_is_file_selected(Eina_List **source, GString *path)
 	return flag;
 }
 
-int mf_util_generate_list_data(const char *path, Eina_List **dir_list ,Eina_List ** file_list)
+int mf_util_generate_list_data(const char *path, Eina_List **dir_list , Eina_List ** file_list)
 {
 	MF_TRACE_BEGIN;
 	mf_retvm_if(path == NULL, 0, "input path is NULL");
@@ -1344,8 +1349,8 @@ int mf_util_generate_file_list(void *data)
 	Eina_List *dir_list = NULL;
 	int error_code = 0;
 
-	mf_retvm_if (ap->mf_Status.path == NULL, MYFILE_ERR_INVALID_ARG, "ap->mf_Status.path is NULL");
-	mf_retvm_if (ap->mf_Status.path->str == NULL, MYFILE_ERR_INVALID_ARG, "ap->mf_Status.path->str is NULL");
+	mf_retvm_if(ap->mf_Status.path == NULL, MYFILE_ERR_INVALID_ARG, "ap->mf_Status.path is NULL");
+	mf_retvm_if(ap->mf_Status.path->str == NULL, MYFILE_ERR_INVALID_ARG, "ap->mf_Status.path->str is NULL");
 
 	error_code = mf_util_generate_list_data(ap->mf_Status.path->str, &dir_list, &file_list);
 	if (error_code != MYFILE_ERR_NONE) {
@@ -1377,8 +1382,9 @@ int mf_util_generate_root_view_file_list(void *data, Eina_List **list, int stora
 	mf_retvm_if(data == NULL, 0, "data is null");
 
 	pNode = (fsNodeInfo *) malloc(sizeof(fsNodeInfo));
-	if (pNode == NULL)
+	if (pNode == NULL) {
 		return 0;
+	}
 
 	/*set path */
 	memset(pNode, 0, sizeof(fsNodeInfo));
@@ -1428,7 +1434,7 @@ void mf_util_sort_the_file_list(void *data)
 
 	/*need to sort folder items only By Name and Date*/
 	if (iSortTypeValue == MYFILE_SORT_BY_NAME_A2Z || iSortTypeValue == MYFILE_SORT_BY_NAME_Z2A || iSortTypeValue == MYFILE_SORT_BY_DATE_R2O
-	    || iSortTypeValue == MYFILE_SORT_BY_DATE_O2R) {
+	        || iSortTypeValue == MYFILE_SORT_BY_DATE_O2R) {
 		mf_fs_oper_sort_list(&ap->mf_FileOperation.folder_list, iSortTypeValue);
 	} else {
 		mf_fs_oper_sort_list(&ap->mf_FileOperation.folder_list, MYFILE_SORT_BY_NAME_A2Z);
@@ -1468,8 +1474,8 @@ const char *mf_util_search_markup_keyword(const char *string, char *searchword, 
 	int i = 0;
 	bool found = false;
 	gchar *markup_text_start = NULL;
-	gchar *markup_text_end= NULL;
-	gchar *markup_text= NULL;
+	gchar *markup_text_end = NULL;
+	gchar *markup_text = NULL;
 
 	int r = 222;
 	int g = 111;
@@ -1481,7 +1487,7 @@ const char *mf_util_search_markup_keyword(const char *string, char *searchword, 
 	mf_retvm_if(result == NULL, NULL, "result is NULL");
 
 	char *translate_keyword = elm_entry_markup_to_utf8(searchword);
-	if (g_utf8_validate(string,-1,NULL)) {
+	if (g_utf8_validate(string, -1, NULL)) {
 		strncpy(pstr, string, DEF_BUF_LEN);
 
 		word_len = strlen(pstr);
@@ -1518,12 +1524,12 @@ const char *mf_util_search_markup_keyword(const char *string, char *searchword, 
 		}
 
 		*result = found;
-		memset(return_string, 0x00, DEF_BUF_LEN+1);
+		memset(return_string, 0x00, DEF_BUF_LEN + 1);
 		bool is_valid_length = ((i + search_len) <= word_len);//Fixed P131112-02074
 		if (found && is_valid_length) {
 			if (i == 0) {
 				markup_text = g_markup_escape_text(&pstr[0], search_len);
-				markup_text_end = g_markup_escape_text(&pstr[search_len], word_len-search_len);
+				markup_text_end = g_markup_escape_text(&pstr[search_len], word_len - search_len);
 				mf_retvm_if(markup_text == NULL, NULL, "markup_text is NULL");
 				mf_retvm_if(markup_text_end == NULL, NULL, "markup_text_end is NULL");
 
@@ -1534,7 +1540,7 @@ const char *mf_util_search_markup_keyword(const char *string, char *searchword, 
 				markup_text_start = g_markup_escape_text(&pstr[0], i);
 				markup_text = g_markup_escape_text(&pstr[i], search_len);
 
-				markup_text_end =  g_markup_escape_text(&pstr[i+search_len], word_len-(i+search_len));
+				markup_text_end =  g_markup_escape_text(&pstr[i + search_len], word_len - (i + search_len));
 				mf_retvm_if(markup_text_start == NULL, NULL, "markup_text_start is NULL");
 				mf_retvm_if(markup_text == NULL, NULL, "markup_text is NULL");
 				mf_retvm_if(markup_text_end == NULL, NULL, "markup_text_end is NULL");
@@ -1562,10 +1568,11 @@ char *mf_util_get_text(const char *ID)
 	MF_CHECK_NULL(ID);
 	char *str;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		str = dgettext("sys_string", ID);
-	else
+	} else {
 		str = gettext(ID);
+	}
 
 	return str;
 }
@@ -1744,8 +1751,7 @@ bool mf_util_is_rotation_lock(void)
 void mf_util_free_data(void **data, int type)
 {
 	switch (type) {
-	case MYFILE_TYPE_FSNODE:
-	{
+	case MYFILE_TYPE_FSNODE: {
 		if (*data != NULL) {
 			SAFE_FREE_CHAR(((fsNodeInfo *)(*data))->path);
 			SAFE_FREE_CHAR(((fsNodeInfo *)(*data))->name);
@@ -1755,9 +1761,8 @@ void mf_util_free_data(void **data, int type)
 			*data = NULL;
 		}
 	}
-		break;
-	case MYFILE_TYPE_ITEM_DATA:
-	{
+	break;
+	case MYFILE_TYPE_ITEM_DATA: {
 		if (*data != NULL) {
 			SAFE_FREE_GSTRING(((mfItemData_s *)(*data))->m_ItemName);
 			SAFE_FREE_CHAR(((mfItemData_s *)(*data))->size);
@@ -1773,7 +1778,7 @@ void mf_util_free_data(void **data, int type)
 			*data = NULL;
 		}
 	}
-		break;
+	break;
 	default:
 		break;
 	}

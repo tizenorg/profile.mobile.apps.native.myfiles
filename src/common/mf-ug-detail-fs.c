@@ -155,28 +155,27 @@ int mf_ug_detaill_fs_get_file_stat(const char *filename, Node_Info **node)
 	struct stat statbuf = {0};
 	struct tm tmtime;
 
-	if (!filename || !node)
+	if (!filename || !node) {
 		return UG_MYFILE_ERR_GET_STAT_FAIL;
+	}
 
-	if (stat(filename, &statbuf) == -1)
+	if (stat(filename, &statbuf) == -1) {
 		return UG_MYFILE_ERR_GET_STAT_FAIL;
+	}
 
-	if (*node == NULL)
+	if (*node == NULL) {
 		return UG_MYFILE_ERR_GET_STAT_FAIL;
+	}
 
- 	(*node)->size = (LONG_LONG_UNSIGNED_INT)statbuf.st_size;
- 	//(*node)->size = (LONG_LONG_UNSIGNED_INT)12*1024*1024*1024;//for testing for 12G
- 	time_t temptime = statbuf.st_mtime;
+	(*node)->size = (LONG_LONG_UNSIGNED_INT)statbuf.st_size;
+	//(*node)->size = (LONG_LONG_UNSIGNED_INT)12*1024*1024*1024;//for testing for 12G
+	time_t temptime = statbuf.st_mtime;
 
-	if (temptime == 0 && !g_strcmp0(filename, UG_MEMORY_FOLDER))
-	{
-		if(stat(UG_MEMORY_DEV_FOLDER, &statbuf) == -1)
-		{
+	if (temptime == 0 && !g_strcmp0(filename, UG_MEMORY_FOLDER)) {
+		if (stat(UG_MEMORY_DEV_FOLDER, &statbuf) == -1) {
 			temptime = time(NULL);
 			localtime_r(&temptime, &tmtime);
-		}
-		else
-		{
+		} else {
 			temptime = statbuf.st_mtime;
 		}
 	}
@@ -188,8 +187,9 @@ int mf_ug_detaill_fs_get_file_stat(const char *filename, Node_Info **node)
 
 int mf_ug_detail_fs_is_dir(const char *filepath)
 {
-	if (filepath == NULL)
+	if (filepath == NULL) {
 		return EINA_FALSE;
+	}
 
 	return mf_is_dir(filepath);
 }
@@ -210,12 +210,14 @@ int mf_ug_detail_fs_is_dir(const char *filepath)
 int  mf_ug_detail_fs_get_file_ext(const char *filepath, char *file_ext)
 {
 
-	if (filepath == NULL || file_ext == NULL)
+	if (filepath == NULL || file_ext == NULL) {
 		return UG_MYFILE_ERR_SRC_ARG_INVALID;
+	}
 
 	const char *filename = mf_file_get(filepath);
-	if (filename == NULL)
+	if (filename == NULL) {
 		return UG_MYFILE_ERR_INVALID_FILE_NAME;
+	}
 
 	char *pdot = strrchr(filename, '.');
 	if (!pdot) {
@@ -240,47 +242,58 @@ int  mf_ug_detail_fs_get_file_ext(const char *filepath, char *file_ext)
 static File_Type __mf_ug_detail_fs_get_category_by_file_ext(const char *file_ext, const char *fullpath)
 {
 	int i = 0;
-	if (file_ext == NULL)
+	if (file_ext == NULL) {
 		return FILE_TYPE_ETC;
+	}
 
-	if (file_ext[0] == '.')
+	if (file_ext[0] == '.') {
 		i = 1;
+	}
 
 	switch (file_ext[i]) {
 	case 'a':
 	case 'A':
-		if (strcasecmp("ASF", &file_ext[i]) == 0)
-			return FILE_TYPE_VIDEO;	/*2010.3.12. dsp.shin appended*/
+		if (strcasecmp("ASF", &file_ext[i]) == 0) {
+			return FILE_TYPE_VIDEO;    /*2010.3.12. dsp.shin appended*/
+		}
 
-		if (strcasecmp("AMR", &file_ext[i]) == 0)
+		if (strcasecmp("AMR", &file_ext[i]) == 0) {
 			return FILE_TYPE_VOICE;
+		}
 
-		if (strcasecmp("AWB", &file_ext[i]) == 0)
-			return FILE_TYPE_VOICE;	/*2009.4.8 han. open wideband amr*/
+		if (strcasecmp("AWB", &file_ext[i]) == 0) {
+			return FILE_TYPE_VOICE;    /*2009.4.8 han. open wideband amr*/
+		}
 
-		if (strcasecmp("AAC", &file_ext[i]) == 0)
+		if (strcasecmp("AAC", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
-		if (strcasecmp("AVI", &file_ext[i]) == 0)
+		if (strcasecmp("AVI", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("AAC", &file_ext[i]) == 0)
-			return FILE_TYPE_MUSIC;	/*2010.4.12 shyeon.kim appended*/
+		if (strcasecmp("AAC", &file_ext[i]) == 0) {
+			return FILE_TYPE_MUSIC;    /*2010.4.12 shyeon.kim appended*/
+		}
 
 		break;
 	case 'b':
 	case 'B':
-		if (strcasecmp("BMP", &file_ext[i]) == 0)
+		if (strcasecmp("BMP", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
 		break;
 	case 'd':
 	case 'D':
-		if (strcasecmp("DOC", &file_ext[i]) == 0)
+		if (strcasecmp("DOC", &file_ext[i]) == 0) {
 			return FILE_TYPE_DOC;
+		}
 
-		if (strcasecmp("DOCX", &file_ext[i]) == 0)
+		if (strcasecmp("DOCX", &file_ext[i]) == 0) {
 			return FILE_TYPE_DOC;
+		}
 
 		if (strcasecmp("DIVX", &file_ext[i]) == 0) {
 			{
@@ -290,119 +303,150 @@ static File_Type __mf_ug_detail_fs_get_category_by_file_ext(const char *file_ext
 		break;
 	case 'g':
 	case 'G':
-		if (strcasecmp("GIF", &file_ext[i]) == 0)
+		if (strcasecmp("GIF", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
-		if (strcasecmp("G72", &file_ext[i]) == 0)
+		if (strcasecmp("G72", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
 		break;
 	case 'h':
 	case 'H':
-		if (strcasecmp("H263", &file_ext[i]) == 0)
+		if (strcasecmp("H263", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
-		if (strcasecmp("HTML", &file_ext[i]) == 0)
+		if (strcasecmp("HTML", &file_ext[i]) == 0) {
 			return FILE_TYPE_HTML;
+		}
 
-		if (strcasecmp("HTM", &file_ext[i]) == 0)
+		if (strcasecmp("HTM", &file_ext[i]) == 0) {
 			return FILE_TYPE_HTML;
+		}
 
 		break;
 	case 'i':
 	case 'I':
-		if (strcasecmp("IMY", &file_ext[i]) == 0)
+		if (strcasecmp("IMY", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("IPK", &file_ext[i]) == 0)
+		if (strcasecmp("IPK", &file_ext[i]) == 0) {
 			return FILE_TYPE_APP;
+		}
 
 		break;
 	case 'j':
 	case 'J':
 		/*2009.5.7 han. added for java*/
-		if (strcasecmp("JAD", &file_ext[i]) == 0)
+		if (strcasecmp("JAD", &file_ext[i]) == 0) {
 			return FILE_TYPE_JAVA;
+		}
 
-		if (strcasecmp("JAR", &file_ext[i]) == 0)
+		if (strcasecmp("JAR", &file_ext[i]) == 0) {
 			return FILE_TYPE_JAVA;
+		}
 
-		if (strcasecmp("JPG", &file_ext[i]) == 0)
+		if (strcasecmp("JPG", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
-		if (strcasecmp("JPEG", &file_ext[i]) == 0)
+		if (strcasecmp("JPEG", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
 		/*2008.5.1 han. MTA issue.*/
-		if (strcasecmp("JPE", &file_ext[i]) == 0)
+		if (strcasecmp("JPE", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
 		break;
 	case 'm':
 	case 'M':
-		if (strcasecmp("MMF", &file_ext[i]) == 0)
+		if (strcasecmp("MMF", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("MP3", &file_ext[i]) == 0)
+		if (strcasecmp("MP3", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
-		if (strcasecmp("MID", &file_ext[i]) == 0)
+		if (strcasecmp("MID", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("MIDI", &file_ext[i]) == 0)
+		if (strcasecmp("MIDI", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("MP4", &file_ext[i]) == 0)
+		if (strcasecmp("MP4", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
 		/*"mp4" may be music*/
-		if (strcasecmp("MPG", &file_ext[i]) == 0)
+		if (strcasecmp("MPG", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("MPEG", &file_ext[i]) == 0)
+		if (strcasecmp("MPEG", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("M4A", &file_ext[i]) == 0)
+		if (strcasecmp("M4A", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
-		if (strcasecmp("M3G", &file_ext[i]) == 0)
+		if (strcasecmp("M3G", &file_ext[i]) == 0) {
 			return FILE_TYPE_FLASH;
+		}
 
-		if (strcasecmp("MXMF", &file_ext[i]) == 0)
+		if (strcasecmp("MXMF", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("MKV", &file_ext[i]) == 0)
-			return FILE_TYPE_VIDEO;	/*2010.4.12 shyeon.kim appended*/
+		if (strcasecmp("MKV", &file_ext[i]) == 0) {
+			return FILE_TYPE_VIDEO;    /*2010.4.12 shyeon.kim appended*/
+		}
 
-		if (strcasecmp("MKA", &file_ext[i]) == 0)
-			return FILE_TYPE_MUSIC;	/*2010.4.12 shyeon.kim appended*/
+		if (strcasecmp("MKA", &file_ext[i]) == 0) {
+			return FILE_TYPE_MUSIC;    /*2010.4.12 shyeon.kim appended*/
+		}
 
 		break;
 	case 'o':
 	case 'O':
-		if (strcasecmp("opml", &file_ext[i]) == 0)
+		if (strcasecmp("opml", &file_ext[i]) == 0) {
 			return FILE_TYPE_RSS;
+		}
 
 		break;
 	case 'p':
 	case 'P':
-		if (strcasecmp("PNG", &file_ext[i]) == 0)
+		if (strcasecmp("PNG", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
-		if (strcasecmp("PJPEG", &file_ext[i]) == 0)
+		if (strcasecmp("PJPEG", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
-		if (strcasecmp("PDF", &file_ext[i]) == 0)
+		if (strcasecmp("PDF", &file_ext[i]) == 0) {
 			return FILE_TYPE_PDF;
+		}
 
-		if (strcasecmp("PPT", &file_ext[i]) == 0)
+		if (strcasecmp("PPT", &file_ext[i]) == 0) {
 			return FILE_TYPE_PPT;
+		}
 
-		if (strcasecmp("PPTX", &file_ext[i]) == 0)
+		if (strcasecmp("PPTX", &file_ext[i]) == 0) {
 			return FILE_TYPE_PPT;
+		}
 
-		if (strcasecmp("PEM", &file_ext[i]) == 0)
+		if (strcasecmp("PEM", &file_ext[i]) == 0) {
 			return FILE_TYPE_CERTIFICATION;
+		}
 
 		break;
 		/* 2008.3.5 han.*/
@@ -411,98 +455,124 @@ static File_Type __mf_ug_detail_fs_get_category_by_file_ext(const char *file_ext
 		break;
 	case 's':
 	case 'S':
-		if (strcasecmp("SDP", &file_ext[i]) == 0)
+		if (strcasecmp("SDP", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("SPM", &file_ext[i]) == 0)
+		if (strcasecmp("SPM", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("SMP", &file_ext[i]) == 0)
+		if (strcasecmp("SMP", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("SPF", &file_ext[i]) == 0)
+		if (strcasecmp("SPF", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("SWF", &file_ext[i]) == 0)
+		if (strcasecmp("SWF", &file_ext[i]) == 0) {
 			return FILE_TYPE_FLASH;
+		}
 
-		if (strcasecmp("SCN", &file_ext[i]) == 0)
+		if (strcasecmp("SCN", &file_ext[i]) == 0) {
 			return FILE_TYPE_MOVIE_MAKER;
+		}
 
-		if (strcasecmp("SVG", &file_ext[i]) == 0)
+		if (strcasecmp("SVG", &file_ext[i]) == 0) {
 			return FILE_TYPE_SVG;
+		}
 
-		if (strcasecmp("SVGZ", &file_ext[i]) == 0)
-			return FILE_TYPE_SVG;	/* 2009.4.17 han.*/
+		if (strcasecmp("SVGZ", &file_ext[i]) == 0) {
+			return FILE_TYPE_SVG;    /* 2009.4.17 han.*/
+		}
 
 		break;
 	case 't':
 	case 'T':
-		if (strcasecmp("TXT", &file_ext[i]) == 0)
+		if (strcasecmp("TXT", &file_ext[i]) == 0) {
 			return FILE_TYPE_TXT;
+		}
 
-		if (strcasecmp("THM", &file_ext[i]) == 0)
+		if (strcasecmp("THM", &file_ext[i]) == 0) {
 			return FILE_TYPE_THEME;
+		}
 
 		break;
 	case 'v':
 	case 'V':
-		if (strcasecmp("VCF", &file_ext[i]) == 0)
+		if (strcasecmp("VCF", &file_ext[i]) == 0) {
 			return FILE_TYPE_VCONTACT;
+		}
 
-		if (strcasecmp("VCS", &file_ext[i]) == 0)
+		if (strcasecmp("VCS", &file_ext[i]) == 0) {
 			return FILE_TYPE_VCALENDAR;
+		}
 
-		if (strcasecmp("VNT", &file_ext[i]) == 0)
+		if (strcasecmp("VNT", &file_ext[i]) == 0) {
 			return FILE_TYPE_VNOTE;
+		}
 
-		if (strcasecmp("VBM", &file_ext[i]) == 0)
+		if (strcasecmp("VBM", &file_ext[i]) == 0) {
 			return FILE_TYPE_VBOOKMARK;
+		}
 
 		break;
 	case 'w':
 	case 'W':
-		if (strcasecmp("WAV", &file_ext[i]) == 0)
-			return FILE_TYPE_SOUND;	/*modified by dsp.shin, 2010.3.13. to support music player*/
+		if (strcasecmp("WAV", &file_ext[i]) == 0) {
+			return FILE_TYPE_SOUND;    /*modified by dsp.shin, 2010.3.13. to support music player*/
+		}
 
 		/*2008.10.17 han.*/
-		if (strcasecmp("WBMP", &file_ext[i]) == 0)
+		if (strcasecmp("WBMP", &file_ext[i]) == 0) {
 			return FILE_TYPE_IMAGE;
+		}
 
-		if (strcasecmp("WGT", &file_ext[i]) == 0)
+		if (strcasecmp("WGT", &file_ext[i]) == 0) {
 			return FILE_TYPE_WGT;
+		}
 
-		if (strcasecmp("WMA", &file_ext[i]) == 0)
+		if (strcasecmp("WMA", &file_ext[i]) == 0) {
 			return FILE_TYPE_MUSIC;
+		}
 
-		if (strcasecmp("WMV", &file_ext[i]) == 0)
+		if (strcasecmp("WMV", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
 		break;
 	case 'x':
 	case 'X':
-		if (strcasecmp("XLS", &file_ext[i]) == 0)
+		if (strcasecmp("XLS", &file_ext[i]) == 0) {
 			return FILE_TYPE_EXCEL;
+		}
 
-		if (strcasecmp("XLSX", &file_ext[i]) == 0)
+		if (strcasecmp("XLSX", &file_ext[i]) == 0) {
 			return FILE_TYPE_EXCEL;
+		}
 
-		if (strcasecmp("XMF", &file_ext[i]) == 0)
+		if (strcasecmp("XMF", &file_ext[i]) == 0) {
 			return FILE_TYPE_SOUND;
+		}
 
-		if (strcasecmp("XHTML", &file_ext[i]) == 0)
+		if (strcasecmp("XHTML", &file_ext[i]) == 0) {
 			return FILE_TYPE_HTML;
+		}
 
 		break;
 	case '3':
-		if (strcasecmp("3GP", &file_ext[i]) == 0)
+		if (strcasecmp("3GP", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("3GPP", &file_ext[i]) == 0)
+		if (strcasecmp("3GPP", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
-		if (strcasecmp("3G2", &file_ext[i]) == 0)
+		if (strcasecmp("3G2", &file_ext[i]) == 0) {
 			return FILE_TYPE_VIDEO;
+		}
 
 		/*"3GP", "3GPP" may be music*/
 		break;
@@ -514,8 +584,9 @@ static File_Type __mf_ug_detail_fs_get_category_by_file_ext(const char *file_ext
 int mf_ug_detail_fs_get_file_type(const char *filepath, File_Type * category)
 {
 
-	if (filepath == NULL || category == NULL)
+	if (filepath == NULL || category == NULL) {
 		return UG_MYFILE_ERR_SRC_ARG_INVALID;
+	}
 
 	int i = 0;
 	int flag = 0;
@@ -571,8 +642,9 @@ int mf_ug_detail_fs_get_file_type(const char *filepath, File_Type * category)
 *********************/
 int mf_ug_detail_fs_get_store_type(const char *filepath, Mf_Storage *store_type)
 {
-	if (filepath == NULL || store_type == NULL)
+	if (filepath == NULL || store_type == NULL) {
 		return UG_MYFILE_ERR_SRC_ARG_INVALID;
+	}
 
 	if (g_str_has_prefix(filepath, UG_PHONE_FOLDER)) {
 		*store_type = D_MYFILE_PHONE;
@@ -601,8 +673,9 @@ int mf_ug_detail_fs_get_store_type(const char *filepath, Mf_Storage *store_type)
 *********************/
 int mf_ug_detail_fs_get_logi_path(const char *full_path, char *path)
 {
-	if (full_path == NULL || path == NULL)
+	if (full_path == NULL || path == NULL) {
 		return UG_MYFILE_ERR_STORAGE_TYPE_ERROR;
+	}
 
 	Mf_Storage store_type = 0;
 	int root_len = 0;
@@ -623,8 +696,9 @@ int mf_ug_detail_fs_get_logi_path(const char *full_path, char *path)
 	/*size of path is UG_MYFILE_DIR_PATH_LEN_MAX+1*/
 	g_strlcpy(path, full_path + root_len, UG_MYFILE_DIR_PATH_LEN_MAX);
 
-	if (strlen(path) == 0)
+	if (strlen(path) == 0) {
 		g_strlcpy(path, "/", UG_MYFILE_DIR_PATH_LEN_MAX);
+	}
 
 
 	return UG_MYFILE_ERR_NONE;
@@ -635,8 +709,9 @@ GString *mf_ug_detail_fs_parse_file_type(GString * path)
 	GString *catetory = NULL;
 	File_Type category_t = FILE_TYPE_NONE;
 
-	if (path != NULL)
+	if (path != NULL) {
 		mf_ug_detail_fs_get_file_type(path->str, &category_t);
+	}
 
 	switch (category_t) {
 	case FILE_TYPE_NONE:						   /**< Default */
@@ -777,8 +852,9 @@ GString *mf_ug_detail_fs_parse_file_type(GString * path)
 ******************************/
 int mf_ug_detail_fs_get_list_len(const Eina_List *list)
 {
-	if (list == NULL)
+	if (list == NULL) {
 		return 0;
+	}
 
 	return eina_list_count(list);
 }
@@ -787,8 +863,9 @@ View_Style mf_ug_detail_fs_get_view_type(char *path, GString * category)
 {
 	myfile_dlog("%s %d\n", __func__, __LINE__);
 
-	if (path == NULL)
+	if (path == NULL) {
 		return VIEW_NONE;
+	}
 
 	if (mf_ug_detail_fs_is_dir(path)) {
 		return VIEW_DIR;
@@ -810,20 +887,23 @@ View_Style mf_ug_detail_fs_get_view_type(char *path, GString * category)
 static int __mf_ug_detail_fs_get_parent_path(const char *path, char *parent_path)
 {
 
-	if (path == NULL || parent_path == NULL)
+	if (path == NULL || parent_path == NULL) {
 		return UG_MYFILE_ERR_SRC_ARG_INVALID;
+	}
 	/*parent_path size is UG_MYFILE_DIR_PATH_LEN_MAX+1*/
 	g_strlcpy(parent_path, path, UG_MYFILE_DIR_PATH_LEN_MAX);
 
 	const char *name = NULL;
 	name = mf_file_get(path);
-	if (name == NULL)
+	if (name == NULL) {
 		return UG_MYFILE_ERR_SRC_ARG_INVALID;
+	}
 
 	parent_path[strlen(parent_path) - strlen(name) - 1] = '\0';
 
-	if (strlen(parent_path) == 0)
+	if (strlen(parent_path) == 0) {
 		g_strlcpy(parent_path, "/", UG_MYFILE_DIR_PATH_LEN_MAX);
+	}
 
 	myfile_dlog("%s %d\n", __func__, __LINE__);
 
@@ -837,12 +917,14 @@ GString *mf_ug_detail_fs_get_parent(char *fullpath)
 	char path[UG_MYFILE_DIR_PATH_LEN_MAX + 1] = { '\0', };
 	int error_code = 0;
 
-	if (fullpath == NULL)
+	if (fullpath == NULL) {
 		return NULL;
+	}
 
 	error_code = __mf_ug_detail_fs_get_parent_path(fullpath, path);
-	if (error_code != 0)
+	if (error_code != 0) {
 		return NULL;
+	}
 
 	ret = g_string_new(path);
 	myfile_dlog("%s %d\n", __func__, __LINE__);
@@ -865,8 +947,9 @@ GString *mf_ug_detail_fs_get_parent(char *fullpath)
 *********************/
 int mf_ug_detail_fs_read_dir(char *path, Eina_List **dir_list, Eina_List **file_list)
 {
-	if (path == NULL)
+	if (path == NULL) {
 		return UG_MYFILE_ERR_DIR_OPEN_FAIL;
+	}
 
 	DIR *pDir = NULL;
 	struct dirent ent_struct;
@@ -878,29 +961,32 @@ int mf_ug_detail_fs_read_dir(char *path, Eina_List **dir_list, Eina_List **file_
 	int ret = 0;
 	pDir = opendir(path);
 
-	if (pDir == NULL)
+	if (pDir == NULL) {
 		return UG_MYFILE_ERR_DIR_OPEN_FAIL;
+	}
 
 	while ((readdir_r(pDir, &ent_struct, &ent) == 0) && ent) {
 		if (strncmp(ent->d_name, ".", 1) == 0 || strcmp(ent->d_name, "..") == 0) {
 			continue;
 		}
 		/*only deal with dirs and regular files*/
-		if ((ent->d_type & DT_DIR) == 0 && (ent->d_type & DT_REG) == 0)
+		if ((ent->d_type & DT_DIR) == 0 && (ent->d_type & DT_REG) == 0) {
 			continue;
+		}
 
 #ifdef	DEBUG_FOLDER_OPTION
 		if ((ent->d_type & DT_DIR) != 0) {
 			if ((strlen(path) == strlen(UG_PHONE_FOLDER)) && (g_strcmp0(path, UG_PHONE_FOLDER) == 0) &&
-			    (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (g_strcmp0(ent->d_name, DEBUG_FOLDER) == 0)) {
+			        (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (g_strcmp0(ent->d_name, DEBUG_FOLDER) == 0)) {
 				continue;
 			}
 		}
 #endif
 		Node_Info *pNode = (Node_Info *) malloc(sizeof(Node_Info));
 
-		if (pNode == NULL)
+		if (pNode == NULL) {
 			continue;
+		}
 
 		memset(pNode, 0, sizeof(Node_Info));
 		/*get path*/
@@ -969,8 +1055,9 @@ int mf_ug_detail_fs_get_file_list(GString *folder_name, Eina_List **dir_list, Ei
 
 	myfile_dlog("%s %d\n", __func__, __LINE__);
 
-	if (folder_name == NULL || folder_name->str == NULL || folder_name->len == 0)
+	if (folder_name == NULL || folder_name->str == NULL || folder_name->len == 0) {
 		return 0;
+	}
 
 	int error_code = 0;
 	if (folder_name != NULL) {
@@ -990,7 +1077,7 @@ LONG_LONG_UNSIGNED_INT mf_ug_detail_fs_get_storage_size(char *path)
 		if (statvfs(path, &statbuf) == -1) {
 			return use_space;
 		} else {
-			use_space = (statbuf.f_blocks - statbuf.f_bfree)*statbuf.f_bsize;
+			use_space = (statbuf.f_blocks - statbuf.f_bfree) * statbuf.f_bsize;
 		}
 	}
 	return use_space;
@@ -1007,8 +1094,9 @@ LONG_LONG_UNSIGNED_INT mf_ug_detail_fs_get_folder_size(char *path)
 
 	if (mf_ug_detail_fs_is_dir(path)) {
 		size = mf_ug_detail_fs_get_storage_size(path);
-		if (size != 0)
+		if (size != 0) {
 			return size;
+		}
 
 		int error_code = 0;
 		error_code = mf_ug_detail_fs_get_file_list(fullpath, &dir_list, &file_list);
@@ -1021,8 +1109,9 @@ LONG_LONG_UNSIGNED_INT mf_ug_detail_fs_get_folder_size(char *path)
 			for (i = 0; i < file_list_len; i++) {
 				Node_Info *pNode = NULL;
 				pNode = (Node_Info *) eina_list_nth(file_list, i);
-				if (pNode == NULL)
+				if (pNode == NULL) {
 					continue;
+				}
 				size += pNode->size;
 			}
 			i = 0;
@@ -1030,8 +1119,9 @@ LONG_LONG_UNSIGNED_INT mf_ug_detail_fs_get_folder_size(char *path)
 				Node_Info *pNode = NULL;
 				char *full_path = NULL;
 				pNode = (Node_Info *) eina_list_nth(dir_list, i);
-				if (pNode == NULL)
+				if (pNode == NULL) {
 					continue;
+				}
 				full_path =  g_strconcat(pNode->path, "/", pNode->name, NULL);
 				myfile_dlog("full_path is [%s]\n", full_path);
 				size += (mf_ug_detail_fs_get_folder_size(full_path));

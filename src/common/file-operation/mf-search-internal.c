@@ -90,8 +90,9 @@ inline static void __mf_search_args_free(ms_args_t *args)
 			args->root_path = NULL;
 		}
 
-		if (args->needle)
+		if (args->needle) {
 			g_free(args->needle);
+		}
 
 		g_free(args);
 	}
@@ -123,12 +124,12 @@ inline static void __mf_search_result_free(mf_search_result_t *result)
 #ifdef CHECK_RESTRICTED_PATH
 gboolean __mf_search_check_licet_path(const char *path)
 {
-	return (gboolean) (strstr(path, ROOT_UMS) || strstr(path, ROOT_MMC));
+	return (gboolean)(strstr(path, ROOT_UMS) || strstr(path, ROOT_MMC));
 }
 #endif /*CHECK_RESTRICTED_PATH*/
 
 
- /*This function is for testing and should be revised for performance before applying*/
+/*This function is for testing and should be revised for performance before applying*/
 static inline gboolean __has_nonspacing_mark(const char *nstr)
 {
 	if (nstr) {
@@ -165,8 +166,9 @@ static gboolean __mf_search_NFD_strstr(const char *str, const char *needle)
 		}
 	}
 
-	if (s_len < n_len)
+	if (s_len < n_len) {
 		return FALSE;
+	}
 
 	if (__has_nonspacing_mark(str)) {
 		const char *p_str = str;
@@ -207,15 +209,15 @@ next:
 			p_str = g_utf8_next_char(p_str);
 		}
 	} else {
-		return (gboolean) (!(!strstr(str, needle)));
+		return (gboolean)(!(!strstr(str, needle)));
 	}
 	return FALSE;
 }
 
 static GList *__mf_search_do_find(const char *root,
-	const char *needle,
-	mf_search_option option,
-	ms_handle_t *handle)
+                                  const char *needle,
+                                  mf_search_option option,
+                                  ms_handle_t *handle)
 {
 	DIR *directory = NULL;
 	GList *candidate = NULL;
@@ -292,7 +294,7 @@ static GList *__mf_search_do_find(const char *root,
 								result->is_end = FALSE;
 								__mf_search_thread_unlock(handle);
 
-							}else {
+							} else {
 								free(path);
 								path = NULL;
 							}
@@ -336,7 +338,7 @@ static GList *__mf_search_do_find(const char *root,
 				}
 				/* we are not going to search /opt/media/SLP_Debug folder */
 				if ((strlen(result->current_dir) == strlen(PHONE_FOLDER)) && (strcmp(result->current_dir, PHONE_FOLDER) == 0)
-				    && (strlen(entry->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(entry->d_name, DEBUG_FOLDER) == 0)) {
+				        && (strlen(entry->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(entry->d_name, DEBUG_FOLDER) == 0)) {
 					SECURE_DEBUG("[%s] is hidden folder. Skip it", entry->d_name);
 					continue;
 				}
@@ -357,8 +359,7 @@ static GList *__mf_search_do_find(const char *root,
 					if (up_name && needle) {
 						up_needle = g_utf8_strup(needle, strlen(needle));
 						gchar *nor_str = g_utf8_strup(up_name, strlen(up_name));
-						if (__mf_search_NFD_strstr(nor_str, up_needle))
-						{
+						if (__mf_search_NFD_strstr(nor_str, up_needle)) {
 							__mf_search_thread_lock(handle);
 							result->dir_list = g_list_append(result->dir_list, (gpointer) g_strdup(path));
 							result->is_end = FALSE;
@@ -504,14 +505,14 @@ int _mf_search_init(ms_handle_t **handle)
 }
 
 int _mf_search_start(ms_handle_t *handle,
-	const char **root_path,
-	unsigned int path_num,
-	const char *needle,
-	mf_search_option option,
-	void *user_data,
-	mf_search_filter_cb func,
-	int category,
-	int item_count)
+                     const char **root_path,
+                     unsigned int path_num,
+                     const char *needle,
+                     mf_search_option option,
+                     void *user_data,
+                     mf_search_filter_cb func,
+                     int category,
+                     int item_count)
 {
 	ms_args_t *args = NULL;
 	mf_search_result_t *result = NULL;
@@ -568,8 +569,8 @@ int _mf_search_start(ms_handle_t *handle,
 		}
 #endif /*CHECK_RESTRICTED_PATH*/
 		if (g_file_test(path, G_FILE_TEST_EXISTS | G_FILE_TEST_IS_DIR)
-		    && ((l_opt & MF_SEARCH_OPT_HIDDEN) || strncmp(path, ".", 1))
-		    && TRUE) {
+		        && ((l_opt & MF_SEARCH_OPT_HIDDEN) || strncmp(path, ".", 1))
+		        && TRUE) {
 			gchar *new_path = NULL;
 			gssize len = strlen(path);
 
@@ -723,8 +724,8 @@ void _mf_search_finalize(ms_handle_t **handle)
 	if (ms_handle->state == MF_SEARCH_STATE_SEARCH) {
 		mf_search_stop((mf_search_handle)ms_handle);
 	}
-/*      __mf_search_cmd_lock(ms_handle); */
-/*      __mf_search_cmd_unlock(ms_handle); */
+	/*      __mf_search_cmd_lock(ms_handle); */
+	/*      __mf_search_cmd_unlock(ms_handle); */
 
 	g_mutex_clear(&ms_handle->cmd_lock);
 

@@ -59,7 +59,7 @@ int mf_media_add_recent_files(MFDHandle *mfd_handle, const char *path, const cha
 	}
 
 	ret = mf_insert_recent_file(mfd_handle, path, name, storage_type, thumbnail_path);
-        if (ret != MFD_ERROR_NONE) {
+	if (ret != MFD_ERROR_NONE) {
 		mf_debug("insert content info into folder table failed");
 		return ret;
 	}
@@ -77,7 +77,7 @@ int mf_media_delete_recent_files(MFDHandle *mfd_handle, const char *path)
 	}
 
 	ret = mf_delete_recent_files(mfd_handle, path);
-        if (ret != MFD_ERROR_NONE) {
+	if (ret != MFD_ERROR_NONE) {
 		mf_debug("delete device info into devices table failed");
 		return ret;
 	}
@@ -95,7 +95,7 @@ int mf_media_delete_recent_files_by_type(MFDHandle *mfd_handle, int storage_type
 	}
 
 	ret = mf_delete_recent_files_by_type(mfd_handle, storage_type);
-        if (ret != MFD_ERROR_NONE) {
+	if (ret != MFD_ERROR_NONE) {
 		mf_debug("delete device info into devices table failed");
 		return ret;
 	}
@@ -113,9 +113,9 @@ int mf_media_update_recent_files_thumbnail(MFDHandle *mfd_handle, const char *th
 	}
 
 	ret = mf_update_recent_files_thumbnail(mfd_handle, thumbnail, new_thumbnail);
-        if (ret != MFD_ERROR_NONE) {
+	if (ret != MFD_ERROR_NONE) {
 		mf_debug
-			("update device icon failed");
+		("update device icon failed");
 		return ret;
 	}
 
@@ -133,7 +133,7 @@ int mf_media_foreach_recent_files_list(MFDHandle *mfd_handle, mf_recent_files_it
 	}
 
 	ret = mf_foreach_recent_files_list(mfd_handle, callback, user_data);
-        if (ret != MFD_ERROR_NONE && ret != MFD_ERROR_DB_NO_RECORD) {
+	if (ret != MFD_ERROR_NONE && ret != MFD_ERROR_DB_NO_RECORD) {
 		mf_debug("foreach content list fail");
 		return ret;
 	}
@@ -151,9 +151,9 @@ int mf_media_get_recent_files_count(MFDHandle *mfd_handle, int *count)
 	}
 
 	ret = mf_get_recent_files_count(mfd_handle, count);
-        if (ret != MFD_ERROR_NONE && ret != MFD_ERROR_DB_NO_RECORD) {
+	if (ret != MFD_ERROR_NONE && ret != MFD_ERROR_DB_NO_RECORD) {
 		mf_debug
-			("foreach content list fail");
+		("foreach content list fail");
 		return ret;
 	}
 

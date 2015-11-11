@@ -71,13 +71,13 @@ Eina_Bool __mf_fs_monitor_dir_pipe_add_cb(void *data)
 		SAFE_FREE_CHAR(ap->mf_Status.EnterFrom);
 		ap->mf_Status.EnterFrom = mf_genlist_first_item_name_get(ap->mf_MainWindow.pNaviGenlist);
 	}
-	if (ap->mf_Status.more == MORE_EDIT 
-		|| ap->mf_Status.more == MORE_SHARE_EDIT
-		|| ap->mf_Status.more == MORE_EDIT_COPY
-		|| ap->mf_Status.more == MORE_EDIT_MOVE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE
-	    || ap->mf_Status.more == MORE_EDIT_DETAIL
-		) {
+	if (ap->mf_Status.more == MORE_EDIT
+	        || ap->mf_Status.more == MORE_SHARE_EDIT
+	        || ap->mf_Status.more == MORE_EDIT_COPY
+	        || ap->mf_Status.more == MORE_EDIT_MOVE
+	        || ap->mf_Status.more == MORE_EDIT_DELETE
+	        || ap->mf_Status.more == MORE_EDIT_DETAIL
+	   ) {
 		pre_more = ap->mf_Status.more;
 		ap->mf_Status.more = MORE_DEFAULT;
 		folder_list = mf_edit_get_selected_folder_list();
@@ -85,13 +85,13 @@ Eina_Bool __mf_fs_monitor_dir_pipe_add_cb(void *data)
 	}
 	mf_object_box_clear(ap->mf_MainWindow.pNaviBox);
 	mf_view_update(ap);
-	if (pre_more == MORE_EDIT 
-		|| pre_more == MORE_SHARE_EDIT
-		|| pre_more == MORE_EDIT_COPY
-		|| pre_more == MORE_EDIT_MOVE
-		|| pre_more == MORE_EDIT_DELETE
-	    || pre_more == MORE_EDIT_DETAIL
-		) {
+	if (pre_more == MORE_EDIT
+	        || pre_more == MORE_SHARE_EDIT
+	        || pre_more == MORE_EDIT_COPY
+	        || pre_more == MORE_EDIT_MOVE
+	        || pre_more == MORE_EDIT_DELETE
+	        || pre_more == MORE_EDIT_DETAIL
+	   ) {
 		ap->mf_Status.more = pre_more;
 		mf_edit_view_refresh(ap, &file_list, &folder_list);
 	}
@@ -108,14 +108,14 @@ static void __mf_callback_dir_pipe_cb(void *data, void *buffer, unsigned int nby
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
 	if (!(ap->mf_Status.more == MORE_DEFAULT
-	    || ap->mf_Status.more == MORE_INTERNAL_COPY
-	    || ap->mf_Status.more == MORE_INTERNAL_MOVE
-	    || ap->mf_Status.more == MORE_EDIT
-	    || ap->mf_Status.more == MORE_EDIT_COPY
-	    || ap->mf_Status.more == MORE_EDIT_MOVE
-	    || ap->mf_Status.more == MORE_EDIT_DELETE
-	    || ap->mf_Status.more == MORE_THUMBNAIL_RENAME
-	      || ap->mf_Status.more == MORE_EDIT_DETAIL)) {
+	        || ap->mf_Status.more == MORE_INTERNAL_COPY
+	        || ap->mf_Status.more == MORE_INTERNAL_MOVE
+	        || ap->mf_Status.more == MORE_EDIT
+	        || ap->mf_Status.more == MORE_EDIT_COPY
+	        || ap->mf_Status.more == MORE_EDIT_MOVE
+	        || ap->mf_Status.more == MORE_EDIT_DELETE
+	        || ap->mf_Status.more == MORE_THUMBNAIL_RENAME
+	        || ap->mf_Status.more == MORE_EDIT_DETAIL)) {
 		return;
 	}
 	if (ap->mf_Status.view_type == mf_view_root || ap->mf_Status.view_type == mf_view_root_category || ap->mf_Status.view_type == mf_view_storage) {
@@ -138,8 +138,9 @@ static void __mf_callback_dir_pipe_cb(void *data, void *buffer, unsigned int nby
 			fs_monitor_update_timer = ecore_timer_add(1, (Ecore_Task_Cb)__mf_fs_monitor_dir_pipe_add_cb, ap);
 			SAFE_FREE_CHAR(fs_monitor_update_item_name);
 		}
-		if (msg->name)
+		if (msg->name) {
 			free(msg->name);
+		}
 		mf_inotify_handle_request_handled_send();
 	}
 }
@@ -166,7 +167,7 @@ int mf_fs_monitor_add_dir_watch(const char *path, void *data)
 
 	SAFE_FREE_CHAR(fs_monitor_dir_path);
 	SAFE_FREE_CHAR(fs_monitor_update_item_name);
-	
+
 	SAFE_DEL_ECORE_TIMER(fs_monitor_update_timer);
 	monitor_refresh_start_flag = EINA_FALSE;
 	fs_monitor_dir_path = g_strdup(path);
@@ -194,7 +195,7 @@ int mf_fs_monitor_create(void *data)
 	if (fs_monitor_pipe) {
 		ecore_pipe_del(fs_monitor_pipe);
 	}
-	
+
 	SAFE_DEL_ECORE_TIMER(fs_monitor_update_timer);
 	monitor_refresh_start_flag = EINA_FALSE;
 

@@ -34,10 +34,11 @@ void mf_detail_widget_object_text_set(Evas_Object *obj, const char *ID, const ch
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = "sys_string";
-	else
+	} else {
 		domain = DETAIL_UG_PKGNAME;
+	}
 
 	elm_object_domain_translatable_part_text_set(obj, part, domain, ID);
 }
@@ -47,10 +48,11 @@ void mf_detail_widget_object_item_text_set(Elm_Object_Item *item, const char *ID
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = "sys_string";
-	else
+	} else {
 		domain = DETAIL_UG_PKGNAME;
+	}
 	elm_object_item_domain_translatable_part_text_set(item, part, domain, ID);
 }
 
@@ -58,10 +60,11 @@ void mf_detail_widget_object_item_translate_set(Elm_Object_Item *item, const cha
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = "sys_string";
-	else
+	} else {
 		domain = DETAIL_UG_PKGNAME;
+	}
 
 	elm_object_item_domain_text_translatable_set(item, domain, EINA_TRUE);
 }
@@ -204,9 +207,10 @@ void mf_ug_detail_view_destroy_data(void *data)
 void mf_detail_data_destroy(void *data)
 {
 	MF_TRACE_BEGIN;
-	if (data == NULL)
+	if (data == NULL) {
 		return;
-	
+	}
+
 	struct appdata *ap = (struct appdata *)data;
 	if (ap->mf_Status.detail) {
 		mf_ug_detail_view_destroy_data(ap->mf_Status.detail);
@@ -227,29 +231,29 @@ static void _mf_update_size_string(struct detailData *detail, char *filesize)
 		unit = strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_B));
 		if (unit != NULL && strstr(unit, mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_B))) {//Sometimes, the string isn't translated.
 			size = detail->mf_Info.dsize;
-			strncpy(unit ,"B", sizeof("B"));
+			strncpy(unit , "B", sizeof("B"));
 		}
-		
+
 	} else if (detail->mf_Info.unit_num == UG_SIZE_KB) {
 		unit = strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_K));
 		if (unit != NULL && strstr(unit, mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_K))) {//Sometimes, the string isn't translated.
 			size = 1024 * detail->mf_Info.dsize;
-			strncpy(unit ,"KB", sizeof("KB"));
+			strncpy(unit , "KB", sizeof("KB"));
 		}
 	} else if (detail->mf_Info.unit_num == UG_SIZE_MB) {
 		unit = strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_M));
 		if (unit != NULL && strstr(unit, mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_M))) {//Sometimes, the string isn't translated.
 			size = 1024 * 1024 * detail->mf_Info.dsize;
-			strncpy(unit ,"MB", sizeof("MB"));
+			strncpy(unit , "MB", sizeof("MB"));
 		}
 	} else if (detail->mf_Info.unit_num == UG_SIZE_GB) {
 		unit = strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_G));
-		if (unit !=NULL && strstr(unit, mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_G))) {//Sometimes, the string isn't translated.
-			size = 1024 * 1024 * 1024 *detail->mf_Info.dsize;
-			strncpy(unit ,"GB", sizeof("GB"));
+		if (unit != NULL && strstr(unit, mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_SIZE_G))) { //Sometimes, the string isn't translated.
+			size = 1024 * 1024 * 1024 * detail->mf_Info.dsize;
+			strncpy(unit , "GB", sizeof("GB"));
 		}
 	}
-	
+
 	snprintf(filesize, UG_FILE_SIZE_LEN_MAX, "%.1f %s (%.0f bytes)", detail->mf_Info.dsize, unit, size);
 	SAFE_FREE_CHAR(unit);
 //	snprintf(filesize, UG_FILE_SIZE_LEN_MAX, "%llu %s", detail->mf_Info.dsize, unit);
@@ -280,7 +284,7 @@ static char *__mf_ug_detail_view_get_gl_label(void *data, Evas_Object *obj, cons
 
 	struct detailData *detail = (struct detailData *)params->detail;
 	ug_detail_retvm_if(detail == NULL, NULL, "detail is NULL");
-	
+
 	if (strcmp(part, "elm.text.main.left.top") == 0) {
 		if (params->m_ItemName && params->m_ItemName->str) {
 			return strdup(mf_detail_widget_get_text(params->m_ItemName->str));
@@ -425,8 +429,9 @@ static void __mf_ug_detail_view_del_gl(void *data, Evas_Object * obj)
 static char *__mf_ug_detail_view_get_gl_label_title(void *data, Evas_Object *obj, const char *part)
 {
 	UG_DETAIL_TRACE_BEGIN;
-	if (!strcmp(part, "elm.text.main"))
+	if (!strcmp(part, "elm.text.main")) {
 		return strdup(data);
+	}
 
 	return NULL;
 }
@@ -484,8 +489,8 @@ mf_ug_detail_view_create_genlist(Evas_Object *parent, void *data)
 {
 
 	UG_DETAIL_TRACE_BEGIN;
-	ug_detail_retvm_if(parent == NULL,NULL, "parent is NULL");
-	ug_detail_retvm_if(data == NULL,NULL,  "data is NULL");
+	ug_detail_retvm_if(parent == NULL, NULL, "parent is NULL");
+	ug_detail_retvm_if(data == NULL, NULL,  "data is NULL");
 	struct detailData *detail = (struct detailData *) data;
 
 	Evas_Object *genlist = NULL;
@@ -495,7 +500,7 @@ mf_ug_detail_view_create_genlist(Evas_Object *parent, void *data)
 	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
 
 	evas_object_smart_callback_add(genlist, "language,changed",
-						   __mf_ug_genlist_lang_changed, detail);
+	                               __mf_ug_genlist_lang_changed, detail);
 
 	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -570,8 +575,9 @@ static void __mf_ug_detail_view_create_genlist_folder(void *data, Evas_Object *g
 
 	for (index = 0; index < 5; index++) {
 		m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-		if (m_TempItem == NULL)
+		if (m_TempItem == NULL) {
 			continue;
+		}
 
 		memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
 
@@ -610,8 +616,9 @@ static void __mf_ug_detail_view_create_genlist_multi(void *data, Evas_Object *ge
 
 	for (index = 0; index < 2; index++) {
 		m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-		if (m_TempItem == NULL)
+		if (m_TempItem == NULL) {
 			continue;
+		}
 
 		memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
 
@@ -640,41 +647,41 @@ static void __mf_ug_detail_view_create_genlist_multi(void *data, Evas_Object *ge
 ******************************/
 static void __mf_ug_detail_view_create_genlist_gps(void *data)
 {
-/*
-	UG_DETAIL_TRACE_BEGIN;
-	struct detailData *detail = (struct detailData *)data;
-	ug_detail_retm_if(detail == NULL, "detail is NULL");
+	/*
+		UG_DETAIL_TRACE_BEGIN;
+		struct detailData *detail = (struct detailData *)data;
+		ug_detail_retm_if(detail == NULL, "detail is NULL");
 
-	Evas_Object *genlist = NULL;
-	int index = 0;
-	Elm_Object_Item *git = NULL;
-	Elm_Object_Item *it = NULL;
-	struct MF_LIST_Item_S *m_TempItem = NULL;
-	char *m_ItemName[FILE_EXIF_INFO_NUM] = { '\0' };
+		Evas_Object *genlist = NULL;
+		int index = 0;
+		Elm_Object_Item *git = NULL;
+		Elm_Object_Item *it = NULL;
+		struct MF_LIST_Item_S *m_TempItem = NULL;
+		char *m_ItemName[FILE_EXIF_INFO_NUM] = { '\0' };
 
-	ug_detail_retm_if(genlist == NULL, "genlist is NULL");
+		ug_detail_retm_if(genlist == NULL, "genlist is NULL");
 
-	m_ItemName[0] = MF_UG_DETAIL_LABEL_LATITUDE;
-	m_ItemName[1] = MF_UG_DETAIL_LABEL_LONGITUDE;
+		m_ItemName[0] = MF_UG_DETAIL_LABEL_LATITUDE;
+		m_ItemName[1] = MF_UG_DETAIL_LABEL_LONGITUDE;
 
-	git = elm_genlist_item_append(genlist, &detail->mf_Status.title_itc, strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_INFORMATION)),
-				      NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(git, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+		git = elm_genlist_item_append(genlist, &detail->mf_Status.title_itc, strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_INFORMATION)),
+					      NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+		elm_genlist_item_select_mode_set(git, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 
-	for (index = 0; index < FILE_EXIF_INFO_NUM; index++) {
-		m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-		if (m_TempItem == NULL)
-			continue;
+		for (index = 0; index < FILE_EXIF_INFO_NUM; index++) {
+			m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
+			if (m_TempItem == NULL)
+				continue;
 
-		memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
-		m_TempItem->m_ItemName = g_string_new(m_ItemName[index]);
-		m_TempItem->detail = detail;
-		it = elm_genlist_item_append(genlist, &detail->mf_Status.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-		elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+			memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
+			m_TempItem->m_ItemName = g_string_new(m_ItemName[index]);
+			m_TempItem->detail = detail;
+			it = elm_genlist_item_append(genlist, &detail->mf_Status.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+			elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 
-	}
-	UG_DETAIL_TRACE_END;
-	*/
+		}
+		UG_DETAIL_TRACE_END;
+		*/
 }
 
 /******************************
@@ -708,7 +715,7 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 	ug_detail_retm_if(genlist == NULL, "genlist is NULL");
 
 	if (detail->mf_Status.view_type == VIEW_FILE_NORMAL
-	) {
+	   ) {
 
 		char *m_ItemName[FOLDER_NORMDETILES_NUM] = { '\0' };
 		m_ItemName[0] = MF_UG_DETAIL_LABEL_NAME;
@@ -718,8 +725,9 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 		m_ItemName[3] = MF_UG_DETAIL_LABEL_LOCATION;
 		for (index = 0; index < FOLDER_NORMDETILES_NUM; index++) {
 			m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-			if (m_TempItem == NULL)
+			if (m_TempItem == NULL) {
 				continue;
+			}
 
 			memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
 
@@ -727,19 +735,18 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 			m_TempItem->detail = detail;
 			if (index == 0 || index == 4) {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.multiline_itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			} else {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			}
 		}
 
-	}
-	else if (
-		 detail->mf_Status.view_type == VIEW_FILE_IMAGE
-		 || detail->mf_Status.view_type == VIEW_FILE_VIDEO) {
+	} else if (
+	    detail->mf_Status.view_type == VIEW_FILE_IMAGE
+	    || detail->mf_Status.view_type == VIEW_FILE_VIDEO) {
 
 		char *m_ItemName[FILE_DETILES_NUM] = { '\0' };
 		m_ItemName[0] = MF_UG_DETAIL_LABEL_NAME;
@@ -750,8 +757,9 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 		m_ItemName[3] = MF_UG_DETAIL_LABEL_LOCATION;
 		for (index = 0; index < FILE_DETILES_NUM; index++) {
 			m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-			if (m_TempItem == NULL)
+			if (m_TempItem == NULL) {
 				continue;
+			}
 
 			memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
 
@@ -759,11 +767,11 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 			m_TempItem->detail = detail;
 			if (index == 0 || index == FILE_DETILES_NUM - 1) {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.multiline_itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			} else {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			}
 		}
@@ -779,13 +787,14 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 		m_ItemName[3] = MF_UG_DETAIL_LABEL_LOCATION;
 
 		git = elm_genlist_item_append(genlist, &detail->mf_Status.title_itc, strdup(mf_detail_widget_get_text(MF_UG_DETAIL_LABEL_BASIC)),
-					      NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+		                              NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
 		elm_genlist_item_select_mode_set(git, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 
 		for (index = 0; index < FILE_DETILES_NUM; index++) {
 			m_TempItem = (struct MF_LIST_Item_S *) malloc(sizeof(struct MF_LIST_Item_S));
-			if (m_TempItem == NULL)
+			if (m_TempItem == NULL) {
 				continue;
+			}
 
 			memset(m_TempItem, 0, sizeof(struct MF_LIST_Item_S));
 
@@ -794,11 +803,11 @@ static void __mf_ug_detail_view_create_genlist_file(void *data, Evas_Object *gen
 
 			if (index == 0 || index == FILE_DETILES_NUM - 1) {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.multiline_itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			} else {
 				it = elm_genlist_item_append(genlist, &detail->mf_Status.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE,
-							     NULL, NULL);
+				                             NULL, NULL);
 				elm_genlist_item_select_mode_set(it, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 			}
 		}
@@ -922,8 +931,8 @@ void mf_ug_detail_get_params_path(Eina_List **dest_list, const char *path_list)
 }
 
 void mf_ug_detail_get_multi_information(Eina_List *list, int *total_file_count,
-					int *total_folder_count,
-					unsigned long long int *total_size)
+                                        int *total_folder_count,
+                                        unsigned long long int *total_size)
 {
 	Eina_List *l = NULL;
 	char *file_path = NULL;
@@ -938,8 +947,9 @@ void mf_ug_detail_get_multi_information(Eina_List *list, int *total_file_count,
 			} else {
 				file_count++;
 				Node_Info *pNode = (Node_Info *) malloc(sizeof(Node_Info));
-				if (pNode == NULL)
+				if (pNode == NULL) {
 					return;
+				}
 
 				memset(pNode, 0, sizeof(Node_Info));
 				mf_ug_detaill_fs_get_file_stat(file_path, &pNode);
@@ -963,7 +973,7 @@ struct detailData *
 mf_ug_detail_multi_info_extract(const char *path)
 {
 	UG_DETAIL_TRACE_BEGIN;
-	ug_detail_retvm_if(path == NULL,false, "path is null");
+	ug_detail_retvm_if(path == NULL, false, "path is null");
 
 	Eina_List *path_list = NULL;
 	int file_count = 0;
@@ -980,7 +990,7 @@ mf_ug_detail_multi_info_extract(const char *path)
 
 	mf_ug_detail_get_params_path(&path_list, path);
 	mf_ug_detail_get_multi_information(path_list, &file_count,
-					   &folder_count, &original_size);
+	                                   &folder_count, &original_size);
 	size = (double)original_size;
 
 	while (size >= BASIC_SIZE) {

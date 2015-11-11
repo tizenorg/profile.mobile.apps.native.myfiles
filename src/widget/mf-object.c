@@ -302,13 +302,14 @@ Evas_Object *mf_object_unset_part_content(Evas_Object *parent, const char *part)
 }
 
 Evas_Object *mf_object_create_button(Evas_Object *parent, const char *style,
-				   const char *caption, Evas_Object *icon,
-				   Evas_Smart_Cb func,
-				   void *data,
-				   Eina_Bool flag_propagate)
+                                     const char *caption, Evas_Object *icon,
+                                     Evas_Smart_Cb func,
+                                     void *data,
+                                     Eina_Bool flag_propagate)
 {
-	if (!parent)
+	if (!parent) {
 		return NULL;
+	}
 
 	Evas_Object *btn;
 
@@ -322,8 +323,9 @@ Evas_Object *mf_object_create_button(Evas_Object *parent, const char *style,
 		mf_object_text_set(btn, caption, NULL);
 	}
 
-	if (icon)
+	if (icon) {
 		elm_object_content_set(btn, icon);
+	}
 
 	evas_object_propagate_events_set(btn, flag_propagate);
 
@@ -399,16 +401,17 @@ void mf_object_text_set(Evas_Object *obj, const char *ID, const char *part)
 	mf_retm_if(obj == NULL, "obj is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = PKGNAME_SYSTEM;
-	else
-		domain = NULL;//PKGNAME_MYFILE;
+	} else {
+		domain = NULL;    //PKGNAME_MYFILE;
+	}
 
 	elm_object_domain_translatable_part_text_set(obj, part, domain, ID);
 	//elm_object_domain_part_text_translatable_set(obj, part, domain, EINA_TRUE);
 }
 
-Evas_Object *mf_object_create_select_all_btn(Evas_Object *parent,void *data)
+Evas_Object *mf_object_create_select_all_btn(Evas_Object *parent, void *data)
 {
 	mf_retvm_if(parent == NULL, NULL, "parent is NULL");
 
@@ -457,7 +460,7 @@ Evas_Object *mf_object_create_box(Evas_Object *parent)
 }
 
 void mf_object_create_select_all_layout(Evas_Object *pParent, Evas_Smart_Cb pChangeFunc,
-	Evas_Object_Event_Cb pMouseDownFunc, void *pUserData, Evas_Object **pCheckBox, Evas_Object **pSelectLayout)
+                                        Evas_Object_Event_Cb pMouseDownFunc, void *pUserData, Evas_Object **pCheckBox, Evas_Object **pSelectLayout)
 {
 	Evas_Object *pSelectAllLayout = elm_layout_add(pParent);
 	//elm_layout_theme_set(pSelectAllLayout, "genlist", "item", "select_all/default");

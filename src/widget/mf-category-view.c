@@ -75,15 +75,16 @@ static void __mf_category_item_sel(void *data, Evas_Object * obj, void *event_in
 			elm_genlist_item_selected_set(item, FALSE);
 		}
 		//when longpressed, selected is called too ,so now if longpress popup exists,selected callbackwill return directly
-		if (ap->mf_MainWindow.pLongpressPopup != NULL)
+		if (ap->mf_MainWindow.pLongpressPopup != NULL) {
 			return;
+		}
 		if (ap->mf_Status.more == MORE_EDIT
-			|| ap->mf_Status.more == MORE_SHARE_EDIT
-			|| ap->mf_Status.more == MORE_EDIT_COPY
-			|| ap->mf_Status.more == MORE_EDIT_MOVE
-		    || ap->mf_Status.more == MORE_EDIT_DETAIL
-			|| ap->mf_Status.more == MORE_EDIT_DELETE
-		) {
+		        || ap->mf_Status.more == MORE_SHARE_EDIT
+		        || ap->mf_Status.more == MORE_EDIT_COPY
+		        || ap->mf_Status.more == MORE_EDIT_MOVE
+		        || ap->mf_Status.more == MORE_EDIT_DETAIL
+		        || ap->mf_Status.more == MORE_EDIT_DELETE
+		   ) {
 			MF_TRACE_END;
 			return;
 		}
@@ -105,7 +106,7 @@ static Eina_Bool __mf_launch_service_idler_cb(void *data)
 	mf_debug("ret is %d\n", ret);
 	if (ret) {
 		ap->mf_MainWindow.pNormalPopup =
-			mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_LABEL_UNSUPPORT_FILE_TYPE, NULL, NULL, NULL, NULL, NULL);
+		    mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_LABEL_UNSUPPORT_FILE_TYPE, NULL, NULL, NULL, NULL, NULL);
 	}
 	return ECORE_CALLBACK_CANCEL;
 }
@@ -242,7 +243,7 @@ mfItemData_s *mf_category_media_data_generate(media_data_s *media_data)
 					item_data->thumb_path = g_strdup(MF_ICON_SOUND);
 					item_data->thumbnail_type = MF_THUMBNAIL_DEFAULT;
 					item_data->real_thumb_flag = TRUE;
-				} else if (media_data->thumbnail_path && mf_file_exists(media_data->thumbnail_path) && strcmp(media_data->thumbnail_path,MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB)) {
+				} else if (media_data->thumbnail_path && mf_file_exists(media_data->thumbnail_path) && strcmp(media_data->thumbnail_path, MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB)) {
 					item_data->thumb_path = g_strdup(media_data->thumbnail_path);
 					item_data->thumbnail_type = MF_THUMBNAIL_THUMB;
 					item_data->real_thumb_flag = TRUE;
@@ -408,16 +409,17 @@ void mf_view_refresh_edit_status_for_category_list(Eina_List *category_list)
 		mfItemData_s *item_data_tmp = NULL;
 		Eina_List *l = NULL;
 		EINA_LIST_FOREACH(category_list, l, item_data_tmp) {
-				if (item_data_tmp) {
-					if (g_strcmp0(itemData->m_ItemName->str, item_data_tmp->m_ItemName->str) == 0) {
-						if (itemData->m_checked == true)
-							item_data_tmp->m_checked = true;
-						//mf_debug("itemData->m_ItemName->str1111 is [%s]", itemData->m_ItemName->str);
-						//mf_debug("item_data_tmp->m_checked is [%d]", item_data_tmp->m_checked);
-						break;
+			if (item_data_tmp) {
+				if (g_strcmp0(itemData->m_ItemName->str, item_data_tmp->m_ItemName->str) == 0) {
+					if (itemData->m_checked == true) {
+						item_data_tmp->m_checked = true;
 					}
+					//mf_debug("itemData->m_ItemName->str1111 is [%s]", itemData->m_ItemName->str);
+					//mf_debug("item_data_tmp->m_checked is [%d]", item_data_tmp->m_checked);
+					break;
 				}
 			}
+		}
 		if (view_type == MF_VIEW_STYLE_THUMBNAIL) {
 			it = elm_gengrid_item_next_get(it);
 		} else {
@@ -532,223 +534,209 @@ void mf_category_search_item_update(void *data, char *path, media_content_db_upd
 	}
 }
 
-void mf_category_list_update_cb (media_content_error_e error, int pid, 
-                                 media_content_db_update_item_type_e update_item,
-                                 media_content_db_update_type_e update_type, media_content_type_e media_type,
-                                 char *uuid, char *path, char *mime_type, void *user_data)
+void mf_category_list_update_cb(media_content_error_e error, int pid,
+                                media_content_db_update_item_type_e update_item,
+                                media_content_db_update_type_e update_type, media_content_type_e media_type,
+                                char *uuid, char *path, char *mime_type, void *user_data)
 {
-    int pre_more = MORE_DEFAULT;
-    Evas_Object *newContent = NULL;
-    struct appdata *ap = (struct appdata *)mf_get_appdata();
+	int pre_more = MORE_DEFAULT;
+	Evas_Object *newContent = NULL;
+	struct appdata *ap = (struct appdata *)mf_get_appdata();
 
-    mf_debug("update_item : [%d] update_type : [%d] media_type : [%d]",
-              update_item, update_type, media_type);
+	mf_debug("update_item : [%d] update_type : [%d] media_type : [%d]",
+	         update_item, update_type, media_type);
 
-    if (ap->mf_Status.view_type == mf_view_recent) {
-    	if(mf_view_is_item_exists_by_name(ap, path)) {
-    		mf_recent_view_create(ap);
-    		return;
-    	}
-    }
-    if (ap->mf_Status.more == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_SEARCH)
-    {
-        mf_category_search_item_update(user_data, path, update_item, update_type, uuid);
-        return;
-    }
+	if (ap->mf_Status.view_type == mf_view_recent) {
+		if (mf_view_is_item_exists_by_name(ap, path)) {
+			mf_recent_view_create(ap);
+			return;
+		}
+	}
+	if (ap->mf_Status.more == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_SEARCH) {
+		mf_category_search_item_update(user_data, path, update_item, update_type, uuid);
+		return;
+	}
 
-    switch (update_type)
-    {
-        case MEDIA_CONTENT_INSERT://go through.
-        {
-            mf_debug("MEDIA_CONTENT_INSERT");
-            /* TODO : need to add lists, not to update whole lists */
-            //break;//go through.
-        }
-        case MEDIA_CONTENT_UPDATE:
-        {
-            mf_debug("MEDIA_CONTENT_UPDATE");
+	switch (update_type) {
+	case MEDIA_CONTENT_INSERT: { //go through.
+		mf_debug("MEDIA_CONTENT_INSERT");
+		/* TODO : need to add lists, not to update whole lists */
+		//break;//go through.
+	}
+	case MEDIA_CONTENT_UPDATE: {
+		mf_debug("MEDIA_CONTENT_UPDATE");
 
-            if ((ap->mf_Status.more == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_SEARCH) &&
-                (ap->mf_Status.search_filter!=NULL))
-            {
-                if (!ap->mf_Status.b_run_background) {
-                    mf_category_view_refresh_space_size_set(true);
-                    mf_category_size_update(ap);
-                    return;
-                }
+		if ((ap->mf_Status.more == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_SEARCH) &&
+		        (ap->mf_Status.search_filter != NULL)) {
+			if (!ap->mf_Status.b_run_background) {
+				mf_category_view_refresh_space_size_set(true);
+				mf_category_size_update(ap);
+				return;
+			}
 
-                if (mf_is_dir(path)) {
-                    mf_category_view_refresh_space_size_set(true);
-                    mf_category_size_update(ap);
-                    return;
-                }
+			if (mf_is_dir(path)) {
+				mf_category_view_refresh_space_size_set(true);
+				mf_category_size_update(ap);
+				return;
+			}
 
-                if (mf_util_NFD_strstr(mf_file_get(path), ap->mf_Status.search_filter))
-                {
-                    media_info_h handle = NULL;
-                    int ret = media_info_get_media_from_db(uuid, &handle);
+			if (mf_util_NFD_strstr(mf_file_get(path), ap->mf_Status.search_filter)) {
+				media_info_h handle = NULL;
+				int ret = media_info_get_media_from_db(uuid, &handle);
 
-                    if (ret == MEDIA_CONTENT_ERROR_NONE)
-                    {
-                        media_data_s *media_data = mf_media_data_get_by_media_handle(handle);
-                        if (media_data) {
-                            mf_view_item_popup_check(ap, path);
-                            if (!mf_util_NFD_strstr(media_data->display_name, ap->mf_Status.search_filter)) {
-                                mf_view_item_delete_by_name(ap, path);
-                            } else {
-                                mf_view_search_item_update(ap, path, media_data->fullpath);
-                            }
-                            mf_media_data_item_free(&media_data);
-                        }
-                    }
+				if (ret == MEDIA_CONTENT_ERROR_NONE) {
+					media_data_s *media_data = mf_media_data_get_by_media_handle(handle);
+					if (media_data) {
+						mf_view_item_popup_check(ap, path);
+						if (!mf_util_NFD_strstr(media_data->display_name, ap->mf_Status.search_filter)) {
+							mf_view_item_delete_by_name(ap, path);
+						} else {
+							mf_view_search_item_update(ap, path, media_data->fullpath);
+						}
+						mf_media_data_item_free(&media_data);
+					}
+				}
 
-                    if (handle) {
-                        media_info_destroy(handle);
-                        handle = NULL;
-                    }
-                }
-            }
-            else
-            {
-                if (ap->mf_Status.view_type == mf_view_root_category &&
-                    mf_view_get_pre_state(ap) != MORE_SEARCH &&
-                    (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_EDIT ||
-                     ap->mf_Status.more == MORE_SHARE_EDIT || ap->mf_Status.more == MORE_EDIT_COPY ||
-                     ap->mf_Status.more == MORE_EDIT_MOVE || ap->mf_Status.more == MORE_EDIT_DELETE ||
-                     ap->mf_Status.more == MORE_EDIT_DETAIL))
-                {   /* if it is rename state, don't refresh list */
-                    if (mf_callback_monitor_media_db_update_flag_get()) {
-                        mf_callback_monitor_media_db_update_flag_set(EINA_FALSE);
-                        mf_category_view_refresh_space_size_set(true);
-                        return;
-                    }
+				if (handle) {
+					media_info_destroy(handle);
+					handle = NULL;
+				}
+			}
+		} else {
+			if (ap->mf_Status.view_type == mf_view_root_category &&
+			        mf_view_get_pre_state(ap) != MORE_SEARCH &&
+			        (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_EDIT ||
+			         ap->mf_Status.more == MORE_SHARE_EDIT || ap->mf_Status.more == MORE_EDIT_COPY ||
+			         ap->mf_Status.more == MORE_EDIT_MOVE || ap->mf_Status.more == MORE_EDIT_DELETE ||
+			         ap->mf_Status.more == MORE_EDIT_DETAIL)) {
+				/* if it is rename state, don't refresh list */
+				if (mf_callback_monitor_media_db_update_flag_get()) {
+					mf_callback_monitor_media_db_update_flag_set(EINA_FALSE);
+					mf_category_view_refresh_space_size_set(true);
+					return;
+				}
 
-                    Eina_List *file_list = NULL;
-                    int pre_more = ap->mf_Status.more;
+				Eina_List *file_list = NULL;
+				int pre_more = ap->mf_Status.more;
 
-                    if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME) {
-                        mf_view_state_reset_state_with_pre(ap);
-                    }
+				if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME) {
+					mf_view_state_reset_state_with_pre(ap);
+				}
 
-                    if (ap->mf_MainWindow.pNewFolderPopup) {
-                        SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
-                    }
+				if (ap->mf_MainWindow.pNewFolderPopup) {
+					SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
+				}
 
-                    if (pre_more == MORE_EDIT ||
-                        pre_more == MORE_SHARE_EDIT ||
-                        pre_more == MORE_EDIT_COPY ||
-                        pre_more == MORE_EDIT_MOVE ||
-                        pre_more == MORE_EDIT_DELETE ||
-                        pre_more == MORE_EDIT_DETAIL)
-                    {
-                        ap->mf_Status.more = MORE_DEFAULT;
-                        file_list = mf_edit_get_selected_file_list();
-                    }
+				if (pre_more == MORE_EDIT ||
+				        pre_more == MORE_SHARE_EDIT ||
+				        pre_more == MORE_EDIT_COPY ||
+				        pre_more == MORE_EDIT_MOVE ||
+				        pre_more == MORE_EDIT_DELETE ||
+				        pre_more == MORE_EDIT_DETAIL) {
+					ap->mf_Status.more = MORE_DEFAULT;
+					file_list = mf_edit_get_selected_file_list();
+				}
 
-                    elm_box_clear(ap->mf_MainWindow.pNaviBox);
-                    newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, true);
-                    elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
-                    evas_object_show(newContent);
-                    //mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
+				elm_box_clear(ap->mf_MainWindow.pNaviBox);
+				newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, true);
+				elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
+				evas_object_show(newContent);
+				//mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
 
-                    if (pre_more == MORE_EDIT ||
-                        pre_more == MORE_EDIT_COPY ||
-                        pre_more == MORE_EDIT_MOVE ||
-                        pre_more == MORE_EDIT_DELETE ||
-                        pre_more == MORE_EDIT_DETAIL)
-                    {
-                        if (!ap->mf_Status.flagNoContent) {
-                            ap->mf_Status.more = pre_more;
-                            mf_edit_view_refresh(ap, &file_list, NULL);
-                        } else {
-                            mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
-                            mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
-                        }
-                    } else if (pre_more == MORE_SHARE_EDIT) {
-                        if (!ap->mf_Status.flagNoContent) {
-                            ap->mf_Status.more = pre_more;
-                            mf_edit_view_refresh(ap, &file_list, NULL);
-                        } else {
-                            mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
-                            mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
-                        }
-                    }
-                }
-            }
+				if (pre_more == MORE_EDIT ||
+				        pre_more == MORE_EDIT_COPY ||
+				        pre_more == MORE_EDIT_MOVE ||
+				        pre_more == MORE_EDIT_DELETE ||
+				        pre_more == MORE_EDIT_DETAIL) {
+					if (!ap->mf_Status.flagNoContent) {
+						ap->mf_Status.more = pre_more;
+						mf_edit_view_refresh(ap, &file_list, NULL);
+					} else {
+						mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
+						mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
+					}
+				} else if (pre_more == MORE_SHARE_EDIT) {
+					if (!ap->mf_Status.flagNoContent) {
+						ap->mf_Status.more = pre_more;
+						mf_edit_view_refresh(ap, &file_list, NULL);
+					} else {
+						mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
+						mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
+					}
+				}
+			}
+		}
 
-            mf_category_view_refresh_space_size_set(true);
-            mf_category_size_update(ap);
-            //mf_storage_refresh(ap);
-        }
-            break;
+		mf_category_view_refresh_space_size_set(true);
+		mf_category_size_update(ap);
+		//mf_storage_refresh(ap);
+	}
+	break;
 
-        case MEDIA_CONTENT_DELETE:
-        {
-            if (ap->mf_MainWindow.pDeleteConfirmPopup) {
-                SAFE_FREE_OBJ(ap->mf_MainWindow.pDeleteConfirmPopup);
-                ap->mf_FileOperation.idle_delete_item = NULL;
-            }
-            mf_category_list_item_remove(path, media_type);
-            mf_category_view_refresh_space_size_set(true);
-            if (ap->mf_Status.more == MORE_IDLE_DELETE) {
-                return;
-            }
-            if (ap->mf_Status.view_type == mf_view_root_category && mf_view_get_pre_state(ap) != MORE_SEARCH
-                && (ap->mf_Status.more == MORE_DEFAULT ||
-                    ap->mf_Status.more == MORE_EDIT ||
-                    ap->mf_Status.more == MORE_SHARE_EDIT ||
-                    ap->mf_Status.more == MORE_THUMBNAIL_RENAME ||
-                    ap->mf_Status.more == MORE_EDIT_COPY ||
-                    ap->mf_Status.more == MORE_EDIT_MOVE ||
-                    ap->mf_Status.more == MORE_EDIT_DETAIL ||
-                    ap->mf_Status.more == MORE_EDIT_DELETE))
-            {
-                Eina_List *file_list = NULL;
-                if (mf_callback_monitor_media_db_update_flag_get()) {
-                    return;
-                }
+	case MEDIA_CONTENT_DELETE: {
+		if (ap->mf_MainWindow.pDeleteConfirmPopup) {
+			SAFE_FREE_OBJ(ap->mf_MainWindow.pDeleteConfirmPopup);
+			ap->mf_FileOperation.idle_delete_item = NULL;
+		}
+		mf_category_list_item_remove(path, media_type);
+		mf_category_view_refresh_space_size_set(true);
+		if (ap->mf_Status.more == MORE_IDLE_DELETE) {
+			return;
+		}
+		if (ap->mf_Status.view_type == mf_view_root_category && mf_view_get_pre_state(ap) != MORE_SEARCH
+		        && (ap->mf_Status.more == MORE_DEFAULT ||
+		            ap->mf_Status.more == MORE_EDIT ||
+		            ap->mf_Status.more == MORE_SHARE_EDIT ||
+		            ap->mf_Status.more == MORE_THUMBNAIL_RENAME ||
+		            ap->mf_Status.more == MORE_EDIT_COPY ||
+		            ap->mf_Status.more == MORE_EDIT_MOVE ||
+		            ap->mf_Status.more == MORE_EDIT_DETAIL ||
+		            ap->mf_Status.more == MORE_EDIT_DELETE)) {
+			Eina_List *file_list = NULL;
+			if (mf_callback_monitor_media_db_update_flag_get()) {
+				return;
+			}
 
-                if (ap->mf_Status.more == MORE_EDIT ||
-                    ap->mf_Status.more == MORE_SHARE_EDIT ||
-                    ap->mf_Status.more == MORE_EDIT_COPY ||
-                    ap->mf_Status.more == MORE_EDIT_MOVE ||
-                    ap->mf_Status.more == MORE_EDIT_DELETE ||
-                    ap->mf_Status.more == MORE_EDIT_DETAIL
-                  )
-                {
-                    pre_more = ap->mf_Status.more;
-                    ap->mf_Status.more = MORE_DEFAULT;
-                    file_list = mf_edit_get_selected_file_list();
-                }
+			if (ap->mf_Status.more == MORE_EDIT ||
+			        ap->mf_Status.more == MORE_SHARE_EDIT ||
+			        ap->mf_Status.more == MORE_EDIT_COPY ||
+			        ap->mf_Status.more == MORE_EDIT_MOVE ||
+			        ap->mf_Status.more == MORE_EDIT_DELETE ||
+			        ap->mf_Status.more == MORE_EDIT_DETAIL
+			   ) {
+				pre_more = ap->mf_Status.more;
+				ap->mf_Status.more = MORE_DEFAULT;
+				file_list = mf_edit_get_selected_file_list();
+			}
 
-                mf_object_box_clear(ap->mf_MainWindow.pNaviBox);
-                newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, true);
-                elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
-                //mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
+			mf_object_box_clear(ap->mf_MainWindow.pNaviBox);
+			newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, true);
+			elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
+			//mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
 
-                if (pre_more == MORE_EDIT || pre_more == MORE_SHARE_EDIT
-                        || pre_more == MORE_EDIT_COPY
-                        || pre_more == MORE_EDIT_MOVE
-                        || pre_more == MORE_EDIT_DELETE
-                        || pre_more == MORE_EDIT_DETAIL
-                  ) {
-                    if (!ap->mf_Status.flagNoContent) {
-                        ap->mf_Status.more = pre_more;
-                        mf_edit_view_refresh(ap, &file_list, NULL);
-                    } else {
-                        mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
-                        mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
-                    }
-                }
-            }
-            //mf_storage_refresh(ap);
-        }
-            break;
+			if (pre_more == MORE_EDIT || pre_more == MORE_SHARE_EDIT
+			        || pre_more == MORE_EDIT_COPY
+			        || pre_more == MORE_EDIT_MOVE
+			        || pre_more == MORE_EDIT_DELETE
+			        || pre_more == MORE_EDIT_DETAIL
+			   ) {
+				if (!ap->mf_Status.flagNoContent) {
+					ap->mf_Status.more = pre_more;
+					mf_edit_view_refresh(ap, &file_list, NULL);
+				} else {
+					mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
+					mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
+				}
+			}
+		}
+		//mf_storage_refresh(ap);
+	}
+	break;
 
-        default:
-            mf_debug("Invalid Case : %d", update_type);
-            break;
-    }
+	default:
+		mf_debug("Invalid Case : %d", update_type);
+		break;
+	}
 }
 
 void mf_category_list_destory()
@@ -778,8 +766,8 @@ static Evas_Object *__mf_category_media_content_create(Eina_List *category_list,
 		ap->mf_MainWindow.pNaviGengrid = mf_gengrid_create_grid(ap->mf_MainWindow.pNaviBar);
 		mf_category_gen_style_set();
 		parent = ap->mf_MainWindow.pNaviGengrid;
-                evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "language,changed", mf_gengrid_gl_lang_changed, ap);
-                //evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "longpressed", mf_gengrid_thumbs_longpressed, ap);
+		evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "language,changed", mf_gengrid_gl_lang_changed, ap);
+		//evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "longpressed", mf_gengrid_thumbs_longpressed, ap);
 		evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "selected", __mf_category_item_sel, ap);
 		evas_object_smart_callback_add(ap->mf_MainWindow.pNaviGengrid, "realized", mf_gengrid_realized, ap);
 
@@ -861,14 +849,14 @@ Eina_List *mf_category_list_generate(Eina_List *file_list)
 	Eina_List *category_list = NULL;
 
 	EINA_LIST_FOREACH(file_list, l, media_data) {
-                if (media_data) {
-                        mfItemData_s *item_data = NULL;
-                        item_data = mf_category_media_data_generate(media_data);
-                        if (item_data) {
-                                mf_debug("============= name is [%s]", item_data->m_ItemName->str);
-                                category_list = eina_list_append(category_list, item_data);
-                        }
-                }
+		if (media_data) {
+			mfItemData_s *item_data = NULL;
+			item_data = mf_category_media_data_generate(media_data);
+			if (item_data) {
+				mf_debug("============= name is [%s]", item_data->m_ItemName->str);
+				category_list = eina_list_append(category_list, item_data);
+			}
+		}
 	}
 	return category_list;
 }
@@ -881,15 +869,15 @@ Evas_Object *mf_category_get_from_media_db(void *data, int category, bool is_use
 	mf_retvm_if(ap == NULL, NULL, "input data error");
 	Eina_List *media_list = NULL;
 	Eina_List *category_list = NULL;
-	
+
 	mf_media_data_list_free(&mf_category_file_list);
 	mf_media_category_list_get(category, &media_list);
-	
+
 	int sort_type = 0;
 	mf_util_get_pref_value(PREF_TYPE_SORT_TYPE, &sort_type);
 	mf_media_data_sort_list(&media_list, sort_type);
 	mf_category_file_list = media_list;
-	category_list = mf_category_list_generate(media_list);   
+	category_list = mf_category_list_generate(media_list);
 
 	if (is_use_previous_state) {
 		mf_view_refresh_edit_status_for_category_list(category_list);
@@ -986,9 +974,9 @@ static int mf_category_view_content_create(void *data)
 	struct appdata *ap = (struct appdata *)data;
 	Evas_Object *newContent = mf_category_get_from_media_db(ap, ap->mf_Status.category_type, false);
 	elm_box_pack_end(ap->mf_MainWindow.pNaviBox, newContent);
-	//mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);   
-	SAFE_FREE_OBJ(mf_category_view_popup);   
-	mf_category_view_idler = NULL; 
+	//mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, newContent);
+	SAFE_FREE_OBJ(mf_category_view_popup);
+	mf_category_view_idler = NULL;
 
 	return ECORE_CALLBACK_CANCEL;
 }
@@ -999,7 +987,7 @@ void mf_category_view_create_vew_as(void *data, bool flag_show)
 	t_start;
 	struct appdata *ap = (struct appdata *)data;
 
-	mf_retm_if (ap->mf_MainWindow.pNaviBar == NULL, "ap->mf_MainWindow.pNaviBar is NULL");
+	mf_retm_if(ap->mf_MainWindow.pNaviBar == NULL, "ap->mf_MainWindow.pNaviBar is NULL");
 	Evas_Object *newContent = NULL;
 	//Evas_Object *pathinfo = NULL;
 	ap->mf_Status.view_type = mf_view_root_category;
@@ -1045,7 +1033,7 @@ void mf_category_view_create(void *data, bool flag_show)
 		return;
 	}
 
-	mf_retm_if (ap->mf_MainWindow.pNaviBar == NULL, "ap->mf_MainWindow.pNaviBar is NULL");
+	mf_retm_if(ap->mf_MainWindow.pNaviBar == NULL, "ap->mf_MainWindow.pNaviBar is NULL");
 	Evas_Object *newContent = NULL;
 	ap->mf_Status.view_type = mf_view_root_category;
 	//int view_style = mf_view_style_get(ap);
@@ -1105,7 +1093,7 @@ void mf_category_view_create(void *data, bool flag_show)
 
 	}
 	//Evas_Object *pathinfo = mf_genlist_create_path_info(ap->mf_MainWindow.pNaviLayout, ap->mf_Status.categorytitle, EINA_FALSE);
-	
+
 	//elm_object_part_content_set(ap->mf_MainWindow.pNaviLayout, "pathinfo", pathinfo);
 	//elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_FALSE, EINA_FALSE);
 	mf_navi_bar_title_content_set(ap, LABEL_MYFILE_CHAP);

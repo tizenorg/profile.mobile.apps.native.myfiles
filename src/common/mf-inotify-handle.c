@@ -132,28 +132,34 @@ static gpointer __mf_inotify_handle_watch_thread(gpointer user_data)
 
 			mf_inotify_event s_event = MF_INOTI_NONE;
 			SECURE_DEBUG("mask=%x dir=%s len=%d name=%s",
-				 pevent->mask, (pevent->mask & IN_ISDIR) ? "yes" : "no", pevent->len, (pevent->len) ? pevent->name : NULL);
+			             pevent->mask, (pevent->mask & IN_ISDIR) ? "yes" : "no", pevent->len, (pevent->len) ? pevent->name : NULL);
 
 			if (pevent->len && strncmp(pevent->name, ".", 1) == 0) {
 				s_event = MF_INOTI_NONE;
 			} else if (pevent->mask & IN_ISDIR) {
-				if (pevent->mask & IN_DELETE_SELF)
+				if (pevent->mask & IN_DELETE_SELF) {
 					s_event = MF_INOTI_DELETE_SELF;
+				}
 
-				if (pevent->mask & IN_MOVE_SELF)
+				if (pevent->mask & IN_MOVE_SELF) {
 					s_event = MF_INOTI_MOVE_SELF;
+				}
 
-				if (pevent->mask & IN_CREATE)
+				if (pevent->mask & IN_CREATE) {
 					s_event = MF_INOTI_CREATE;
+				}
 
-				if (pevent->mask & IN_DELETE)
+				if (pevent->mask & IN_DELETE) {
 					s_event = MF_INOTI_DELETE;
+				}
 
-				if (pevent->mask & IN_MOVED_FROM)
+				if (pevent->mask & IN_MOVED_FROM) {
 					s_event = MF_INOTI_MOVE_OUT;
+				}
 
-				if (pevent->mask & IN_MOVED_TO)
+				if (pevent->mask & IN_MOVED_TO) {
 					s_event = MF_INOTI_MOVE_IN;
+				}
 			} else {
 				if (pevent->mask & IN_CREATE) {
 					s_event = MF_INOTI_NONE;
@@ -169,14 +175,17 @@ static gpointer __mf_inotify_handle_watch_thread(gpointer user_data)
 					handle->prev_event = 0;
 				}
 
-				if (pevent->mask & IN_DELETE)
+				if (pevent->mask & IN_DELETE) {
 					s_event = MF_INOTI_DELETE;
+				}
 
-				if (pevent->mask & IN_MOVED_FROM)
+				if (pevent->mask & IN_MOVED_FROM) {
 					s_event = MF_INOTI_MOVE_OUT;
+				}
 
-				if (pevent->mask & IN_MOVED_TO)
+				if (pevent->mask & IN_MOVED_TO) {
 					s_event = MF_INOTI_MOVE_IN;
+				}
 			}
 
 			mf_debug("s_event : %d, prev_event: %x, callback : %p", s_event, handle->prev_event, handle->callback);

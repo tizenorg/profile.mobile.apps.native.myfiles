@@ -47,36 +47,36 @@ static bool __mf_storage_main_media_item_cb(media_info_h media, void *data)
 		mf_file_attr_get_file_category(file_path, &file_type);
 		//mf_error(">>>>file_path = %s, file_type=%d, FILE_TYPE_DOC=%d,FILE_TYPE_TXT=%d", file_path, file_type, FILE_TYPE_DOC,FILE_TYPE_TXT);
 		switch (file_type) {
-			case FILE_TYPE_DOC:
-			case FILE_TYPE_PDF:
-			case FILE_TYPE_PPT:
-			case FILE_TYPE_EXCEL:
-			case FILE_TYPE_TXT:
-			case FILE_TYPE_HWP:
-			case FILE_TYPE_SPD:
-			case FILE_TYPE_SNB:{
-				//mf_error(">>>>file_type = %d", file_type);
-				if (!mf_file_exists(file_path)) {
-					free(file_path);
-					file_path = NULL;
-					return true;
-				}
-				if (file_path != NULL) {
-					free(file_path);
-					file_path = NULL;
-				}
-
-				media_info_get_size(media, &size);
-				//mf_error(">>>>size = %d", size);
-				status->total_size += size;
-				break;
+		case FILE_TYPE_DOC:
+		case FILE_TYPE_PDF:
+		case FILE_TYPE_PPT:
+		case FILE_TYPE_EXCEL:
+		case FILE_TYPE_TXT:
+		case FILE_TYPE_HWP:
+		case FILE_TYPE_SPD:
+		case FILE_TYPE_SNB: {
+			//mf_error(">>>>file_type = %d", file_type);
+			if (!mf_file_exists(file_path)) {
+				free(file_path);
+				file_path = NULL;
+				return true;
 			}
-			default:
-				if (file_path != NULL) {
-					free(file_path);
-					file_path = NULL;
-				}
-				break;
+			if (file_path != NULL) {
+				free(file_path);
+				file_path = NULL;
+			}
+
+			media_info_get_size(media, &size);
+			//mf_error(">>>>size = %d", size);
+			status->total_size += size;
+			break;
+		}
+		default:
+			if (file_path != NULL) {
+				free(file_path);
+				file_path = NULL;
+			}
+			break;
 		}
 	} else {
 		char *file_path = NULL;
@@ -90,8 +90,9 @@ static bool __mf_storage_main_media_item_cb(media_info_h media, void *data)
 			free(file_path);
 			return true;
 		}
-		if (file_path != NULL)
+		if (file_path != NULL) {
 			free(file_path);
+		}
 
 		media_info_get_size(media, &size);
 		status->total_size += size;
@@ -321,45 +322,49 @@ void __mf_storage_main_pipe_cb(void *data, void *buffer, unsigned int nbyte)
 	mf_debug("update_info : %d", update_info->type);
 
 	switch (update_info->type) {
-		case MF_STORAGE_IMAGE:{
-			if (storage_status->update_cb)
-				storage_status->update_cb(mf_tray_item_category_image, update_info, storage_status->pUserData);
+	case MF_STORAGE_IMAGE: {
+		if (storage_status->update_cb) {
+			storage_status->update_cb(mf_tray_item_category_image, update_info, storage_status->pUserData);
+		}
 
-			storage_status->image_size_info.total_size = update_info->total_size;
-			storage_status->image_size_info.type= update_info->type;
-			break;
-			}
-		case MF_STORAGE_VIDEO:{
-			if (storage_status->update_cb)
-				storage_status->update_cb(mf_tray_item_category_video, update_info, storage_status->pUserData);
-			storage_status->video_size_info.total_size = update_info->total_size;
-			storage_status->video_size_info.type= update_info->type;
-			break;
-			}
-		case MF_STORAGE_SOUND:{
-			if (storage_status->update_cb)
-				storage_status->update_cb(mf_tray_item_category_sounds, update_info, storage_status->pUserData);
-			storage_status->sound_size_info.total_size = update_info->total_size;
-			storage_status->sound_size_info.type= update_info->type;
-			break;
-			}
-		case MF_STORAGE_DOCUMENT:{
-			if (storage_status->update_cb)
-				storage_status->update_cb(mf_tray_item_category_document, update_info, storage_status->pUserData);
-			storage_status->document_size_info.total_size = update_info->total_size;
-			storage_status->document_size_info.type= update_info->type;
-			break;
-			}
-		case MF_STORAGE_RECENT:{
-				/*if (storage_status->update_cb)
-					storage_status->update_cb(mf_tray_item_category_recent, update_info, storage_status->pUserData);
-				storage_status->recent_size_info.total_size = update_info->total_size;
-				storage_status->recent_size_info.type= update_info->type;*/
-				break;
-				}
-		default:
-			mf_error("wrong update type");
-			break;
+		storage_status->image_size_info.total_size = update_info->total_size;
+		storage_status->image_size_info.type = update_info->type;
+		break;
+	}
+	case MF_STORAGE_VIDEO: {
+		if (storage_status->update_cb) {
+			storage_status->update_cb(mf_tray_item_category_video, update_info, storage_status->pUserData);
+		}
+		storage_status->video_size_info.total_size = update_info->total_size;
+		storage_status->video_size_info.type = update_info->type;
+		break;
+	}
+	case MF_STORAGE_SOUND: {
+		if (storage_status->update_cb) {
+			storage_status->update_cb(mf_tray_item_category_sounds, update_info, storage_status->pUserData);
+		}
+		storage_status->sound_size_info.total_size = update_info->total_size;
+		storage_status->sound_size_info.type = update_info->type;
+		break;
+	}
+	case MF_STORAGE_DOCUMENT: {
+		if (storage_status->update_cb) {
+			storage_status->update_cb(mf_tray_item_category_document, update_info, storage_status->pUserData);
+		}
+		storage_status->document_size_info.total_size = update_info->total_size;
+		storage_status->document_size_info.type = update_info->type;
+		break;
+	}
+	case MF_STORAGE_RECENT: {
+		/*if (storage_status->update_cb)
+			storage_status->update_cb(mf_tray_item_category_recent, update_info, storage_status->pUserData);
+		storage_status->recent_size_info.total_size = update_info->total_size;
+		storage_status->recent_size_info.type= update_info->type;*/
+		break;
+	}
+	default:
+		mf_error("wrong update type");
+		break;
 	}
 }
 
@@ -397,60 +402,59 @@ static void *__mf_storage_main_thread_start_routine(void *data)
 		}
 
 		switch (type) {
-			case MF_STORAGE_IMAGE:
-			{
-				double images_size = __mf_storage_main_picture_status_get();
-				mf_debug("images_size = %f", images_size);
+		case MF_STORAGE_IMAGE: {
+			double images_size = __mf_storage_main_picture_status_get();
+			mf_debug("images_size = %f", images_size);
 
-				Update_Info images_info;
-				memset(&images_info, 0, sizeof(Update_Info));
-				images_info.type = MF_STORAGE_IMAGE;
-				images_info.total_size = images_size;
-				if (storage_status->pipe)
-					ecore_pipe_write(storage_status->pipe, &images_info, sizeof(images_info));
+			Update_Info images_info;
+			memset(&images_info, 0, sizeof(Update_Info));
+			images_info.type = MF_STORAGE_IMAGE;
+			images_info.total_size = images_size;
+			if (storage_status->pipe) {
+				ecore_pipe_write(storage_status->pipe, &images_info, sizeof(images_info));
 			}
-			break;
-			case MF_STORAGE_VIDEO:
-			{
-				double video_size = __mf_storage_main_video_status_get();
-				mf_debug("video_size = %f", video_size);
+		}
+		break;
+		case MF_STORAGE_VIDEO: {
+			double video_size = __mf_storage_main_video_status_get();
+			mf_debug("video_size = %f", video_size);
 
-				Update_Info video_info;
-				memset(&video_info, 0, sizeof(Update_Info));
-				video_info.type = MF_STORAGE_VIDEO;
-				video_info.total_size = video_size;
-				if (storage_status->pipe)
-					ecore_pipe_write(storage_status->pipe, &video_info, sizeof(video_info));
+			Update_Info video_info;
+			memset(&video_info, 0, sizeof(Update_Info));
+			video_info.type = MF_STORAGE_VIDEO;
+			video_info.total_size = video_size;
+			if (storage_status->pipe) {
+				ecore_pipe_write(storage_status->pipe, &video_info, sizeof(video_info));
 			}
-			break;
-			case MF_STORAGE_SOUND:
-			{
-				double sound_size = __mf_storage_main_sound_status_get();
-				mf_debug("sound_size = %f", sound_size);
+		}
+		break;
+		case MF_STORAGE_SOUND: {
+			double sound_size = __mf_storage_main_sound_status_get();
+			mf_debug("sound_size = %f", sound_size);
 
-				Update_Info sound_info;
-				memset(&sound_info, 0, sizeof(Update_Info));
-				sound_info.type = MF_STORAGE_SOUND;
-				sound_info.total_size = sound_size;
-				if (storage_status->pipe)
-					ecore_pipe_write(storage_status->pipe, &sound_info, sizeof(sound_info));
+			Update_Info sound_info;
+			memset(&sound_info, 0, sizeof(Update_Info));
+			sound_info.type = MF_STORAGE_SOUND;
+			sound_info.total_size = sound_size;
+			if (storage_status->pipe) {
+				ecore_pipe_write(storage_status->pipe, &sound_info, sizeof(sound_info));
 			}
-			break;
-			case MF_STORAGE_DOCUMENT:
-			{
-				double document_size = __mf_storage_main_document_status_get();
-				mf_debug("document_size = %f", document_size);
+		}
+		break;
+		case MF_STORAGE_DOCUMENT: {
+			double document_size = __mf_storage_main_document_status_get();
+			mf_debug("document_size = %f", document_size);
 
-				Update_Info document_info;
-				memset(&document_info, 0, sizeof(Update_Info));
-				document_info.type = MF_STORAGE_DOCUMENT;
-				document_info.total_size = document_size;
-				if (storage_status->pipe)
-					ecore_pipe_write(storage_status->pipe, &document_info, sizeof(document_info));
+			Update_Info document_info;
+			memset(&document_info, 0, sizeof(Update_Info));
+			document_info.type = MF_STORAGE_DOCUMENT;
+			document_info.total_size = document_size;
+			if (storage_status->pipe) {
+				ecore_pipe_write(storage_status->pipe, &document_info, sizeof(document_info));
 			}
-			break;
-			case MF_STORAGE_RECENT:
-			{
+		}
+		break;
+		case MF_STORAGE_RECENT: {
 			/*double recent_size = __mf_storage_main_recent_status_get();
 				mf_debug("recent_size = %f", recent_size);
 
@@ -460,13 +464,12 @@ static void *__mf_storage_main_thread_start_routine(void *data)
 				recent_info.total_size = recent_size;
 				if (storage_status->pipe)
 					ecore_pipe_write(storage_status->pipe, &recent_info, sizeof(Update_Info));*/
-			}
+		}
+		break;
+		default: {
+			mf_debug("type = %d", type);
 			break;
-			default:
-			{
-				mf_debug("type = %d", type);
-				break;
-			}
+		}
 		}
 		pthread_mutex_lock(&storage_status->update_mutex);
 		storage_status->type++;
@@ -518,16 +521,13 @@ int mf_storage_create(void* app_data)
 		storage_status->pipe = NULL;
 	}
 	storage_status->pipe = ecore_pipe_add(__mf_storage_main_pipe_cb, storage_status);
-	if (storage_status->pipe)
-	{
+	if (storage_status->pipe) {
 		int ret = pthread_create(&storage_status->tid, NULL, __mf_storage_main_thread_start_routine, storage_status);
 		if (ret != 0) {
 			mf_error("fail to pthread_create");
 		}
 		mf_debug("thread id = %ld", storage_status->tid);
-	}
-	else
-	{
+	} else {
 		mf_error("fail to ecore_pipe_add");
 	}
 	MF_TRACE_END;
@@ -543,8 +543,9 @@ int mf_storage_destroy(void* app_data)
 
 	pthread_mutex_lock(&storage_status->update_data_mutex);
 	storage_status->is_update_data = false;
-	if (ap->mf_Status.view_type != mf_view_root || ap->mf_Status.more != MORE_DEFAULT)
+	if (ap->mf_Status.view_type != mf_view_root || ap->mf_Status.more != MORE_DEFAULT) {
 		storage_status->update_cb = NULL;
+	}
 	pthread_mutex_unlock(&storage_status->update_data_mutex);
 
 	pthread_mutex_lock(&storage_status->exit_mutex);
@@ -555,8 +556,7 @@ int mf_storage_destroy(void* app_data)
 	storage_status->type = MF_STORAGE_SLEEP;
 	//pthread_cond_signal(&storage_status->wait_cond);
 	pthread_mutex_unlock(&storage_status->update_mutex);
-	if (storage_status->tid > 0)
-	{
+	if (storage_status->tid > 0) {
 		void *thread_ret = NULL;
 		ret = pthread_join(storage_status->tid, &thread_ret);
 		if (ret != 0) {
@@ -611,7 +611,7 @@ int mf_storage_refresh(void* app_data)
 bool mf_storage_get_recent_files_size_cb(MFRitem *Ritem, void *user_data)
 {
 	if (Ritem && Ritem->path) {
-		SECURE_ERROR("Ritem->path is [%s]mf_file_exists is [%d] access(dst_dir, R_OK | W_OK) is [%d] ",Ritem->path, mf_file_exists(Ritem->path),  access(Ritem->path, R_OK | W_OK));
+		SECURE_ERROR("Ritem->path is [%s]mf_file_exists is [%d] access(dst_dir, R_OK | W_OK) is [%d] ", Ritem->path, mf_file_exists(Ritem->path),  access(Ritem->path, R_OK | W_OK));
 		if (mf_file_exists(Ritem->path)) {
 			off_t size = 0;
 			mf_file_attr_get_file_size(Ritem->path, &size);

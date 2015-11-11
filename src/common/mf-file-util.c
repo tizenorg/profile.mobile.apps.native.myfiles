@@ -25,10 +25,11 @@ static mode_t default_mode = S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S
 const char *mf_file_get(const char path[])
 {
 	char *file = NULL;
-	if ((file = strrchr(path, '/')))
+	if ((file = strrchr(path, '/'))) {
 		file++;
-	else
+	} else {
 		file = (char *) path;
+	}
 
 	return file;
 }
@@ -43,8 +44,9 @@ char *mf_dir_get(const char path[])
 	if (!p) {
 		return strdup(path);
 	}
-	if (p == buf)
+	if (p == buf) {
 		return strdup("/");
+	}
 	*p = 0;
 	return strdup(buf);
 }
@@ -53,10 +55,11 @@ int mf_file_exists(const char *path)
 {
 	struct stat info = {0,};
 
-	if (stat(path, &info) == 0)
+	if (stat(path, &info) == 0) {
 		return 1;
-	else
+	} else {
 		return 0;
+	}
 }
 
 Eina_Bool mf_is_dir(const char *path)
@@ -84,15 +87,15 @@ int mf_is_dir_empty(const char *path)
 	DIR *dirp = NULL;
 
 	dirp = opendir(path);
-	if (!dirp)
+	if (!dirp) {
 		return -1;
+	}
 
 	while ((readdir_r(dirp, &ent_struct, &dp) == 0) && dp) {
-			  if (stat(dp->d_name, &info) == 0 && (strcmp(dp->d_name, ".")) && (strcmp(dp->d_name, "..")))
-			  {
-			  	closedir(dirp);
-			  	return 0;
-			  }
+		if (stat(dp->d_name, &info) == 0 && (strcmp(dp->d_name, ".")) && (strcmp(dp->d_name, ".."))) {
+			closedir(dirp);
+			return 0;
+		}
 	}
 	closedir(dirp);
 	return 1;
@@ -100,22 +103,24 @@ int mf_is_dir_empty(const char *path)
 
 int mf_mkdir(const char *dir)
 {
-	if (mkdir(dir, default_mode) < 0)
+	if (mkdir(dir, default_mode) < 0) {
 		return 0;
-	else
+	} else {
 		return 1;
+	}
 }
 
 static int
 mf_mkpath_if_not_exists(const char *path)
 {
 	struct stat st = {0,};
-	if (stat(path, &st) < 0)
+	if (stat(path, &st) < 0) {
 		return mf_mkdir(path);
-	else if (!S_ISDIR(st.st_mode))
+	} else if (!S_ISDIR(st.st_mode)) {
 		return 0;
-	else
+	} else {
 		return 1;
+	}
 }
 
 int mf_mkpath(const char *path)
@@ -123,17 +128,20 @@ int mf_mkpath(const char *path)
 	char ss[PATH_MAX] = {0,};
 	unsigned int i = 0;
 
-	if (mf_is_dir(path))
+	if (mf_is_dir(path)) {
 		return 1;
+	}
 
 	for (i = 0; path[i] != '\0'; ss[i] = path[i], i++) {
-		if (i == sizeof(ss) - 1)
+		if (i == sizeof(ss) - 1) {
 			return 0;
+		}
 
 		if ((path[i] == '/') && (i > 0)) {
 			ss[i] = '\0';
-			if (!mf_mkpath_if_not_exists(ss))
+			if (!mf_mkpath_if_not_exists(ss)) {
 				return 0;
+			}
 		}
 	}
 	ss[i] = '\0';
@@ -160,21 +168,23 @@ char *mf_strip_ext(const char *path)
 	return file;
 }
 
-int mf_file_unlink (const char *filename)
+int mf_file_unlink(const char *filename)
 {
 	int status = unlink(filename);
-	if (status < 0)
+	if (status < 0) {
 		return 0;
-	else
+	} else {
 		return 1;
+	}
 }
 
 int mf_file_size(const char *filename)
 {
 	struct stat info = {0,};
 	if (stat(filename, &info) == 0) {
-		if (!S_ISDIR(info.st_mode))
+		if (!S_ISDIR(info.st_mode)) {
 			return info.st_size;
+		}
 	}
 
 	return 0;
@@ -183,10 +193,11 @@ int mf_file_size(const char *filename)
 int mf_file_rmdir(const char *filename)
 {
 	int status = rmdir(filename);
-	if (status < 0)
+	if (status < 0) {
 		return 0;
-	else
+	} else {
 		return 1;
+	}
 }
 
 Eina_List *mf_file_ls(const char *dir)
@@ -198,8 +209,9 @@ Eina_List *mf_file_ls(const char *dir)
 	Eina_List *list = NULL;
 
 	dirp = opendir(dir);
-	if (!dirp)
+	if (!dirp) {
 		return NULL;
+	}
 
 	while ((readdir_r(dirp, &ent_struct, &dp) == 0) && dp) {
 		if ((strcmp(dp->d_name , ".")) && (strcmp(dp->d_name , ".."))) {
@@ -232,15 +244,17 @@ int mf_file_recursive_rm(const char *dir)
 		if (dirp) {
 			while ((readdir_r(dirp, &ent_struct, &dp) == 0) && dp) {
 				if ((strcmp(dp->d_name , ".")) && (strcmp(dp->d_name, ".."))) {
-					if (!mf_file_recursive_rm(dp->d_name))
+					if (!mf_file_recursive_rm(dp->d_name)) {
 						ret = 0;
+					}
 				}
 			}
 			closedir(dirp);
 		}
 
-		if (!mf_file_rmdir(dir))
+		if (!mf_file_rmdir(dir)) {
 			ret = 0;
+		}
 
 		return ret;
 	} else {
@@ -248,7 +262,7 @@ int mf_file_recursive_rm(const char *dir)
 	}
 }
 
-int mf_file_cp(const char *src,const char *dst)
+int mf_file_cp(const char *src, const char *dst)
 {
 	FILE *f1 = NULL;
 	FILE *f2 = NULL;
@@ -258,15 +272,18 @@ int mf_file_cp(const char *src,const char *dst)
 	size_t num;
 	int ret = 1;
 
-	if (!realpath(src, realpath1))
+	if (!realpath(src, realpath1)) {
 		return 0;
+	}
 
-	if (realpath(dst, realpath2) && !strcmp(realpath1, realpath2))
+	if (realpath(dst, realpath2) && !strcmp(realpath1, realpath2)) {
 		return 0;
+	}
 
 	f1 = fopen(src, "rb");
-	if (!f1)
+	if (!f1) {
 		return 0;
+	}
 
 	f2 = fopen(dst, "wb");
 	if (!f2) {
@@ -275,8 +292,9 @@ int mf_file_cp(const char *src,const char *dst)
 	}
 
 	while ((num = fread(buf, 1, sizeof(buf), f1)) > 0) {
-		if (fwrite(buf, 1, num, f2) != num)
+		if (fwrite(buf, 1, num, f2) != num) {
 			ret = 0;
+		}
 	}
 
 	fclose(f1);
@@ -288,14 +306,15 @@ int mf_file_cp(const char *src,const char *dst)
 int mf_file_mv(const char *src, const char *dst)
 {
 	struct stat info = {0,};
-	if (stat(dst, &info) == 0)
+	if (stat(dst, &info) == 0) {
 		return 0;
+	}
 
 	if (rename(src, dst)) {
 		memset(&info, 0x00, sizeof(struct stat));
 		if (stat(src, &info) == 0) {
 			if (S_ISREG(info.st_mode)) {
-	 			mf_file_cp(src, dst);
+				mf_file_cp(src, dst);
 				if (chmod(dst, info.st_mode) < 0) {
 					mf_debug("failed to set attributes");
 				}
@@ -313,8 +332,9 @@ int mf_file_mv(const char *src, const char *dst)
 int mf_remove(const char *filename)
 {
 	int status = remove(filename);
-	if (status < 0)
+	if (status < 0) {
 		return 0;
-	else
+	} else {
 		return 1;
+	}
 }

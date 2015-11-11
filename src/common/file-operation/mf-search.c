@@ -54,14 +54,14 @@ int mf_search_init(mf_search_handle *handle)
 }
 
 int mf_search_start(mf_search_handle handle,
-		    const char **root_path,
-		    unsigned int path_num,
-		    const char *needle,
-		    mf_search_option option,
-		    void *user_data,
-		    mf_search_filter_cb func,
-		    int category,
-		    int item_count)
+                    const char **root_path,
+                    unsigned int path_num,
+                    const char *needle,
+                    mf_search_option option,
+                    void *user_data,
+                    mf_search_filter_cb func,
+                    int category,
+                    int item_count)
 {
 	int ret = 0;
 	if (!handle) {

@@ -61,8 +61,9 @@ void mf_edit_select_all_check_set(Eina_Bool state)
 void mf_edit_folder_list_append(void *data)
 {
 	if (edit_folder_list) {
-		if (eina_list_data_find(edit_folder_list, data) == NULL)
+		if (eina_list_data_find(edit_folder_list, data) == NULL) {
 			edit_folder_list = eina_list_append(edit_folder_list, data);
+		}
 	} else {
 		edit_folder_list = eina_list_append(edit_folder_list, data);
 	}
@@ -101,8 +102,9 @@ Eina_List * mf_edit_folder_list_get()
 void mf_edit_file_list_append(void *data)
 {
 	if (edit_file_list) {
-		if (eina_list_data_find(edit_file_list, data) == NULL)
+		if (eina_list_data_find(edit_file_list, data) == NULL) {
 			edit_file_list = eina_list_append(edit_file_list, data);
+		}
 	} else {
 		edit_file_list = eina_list_append(edit_file_list, data);
 	}
@@ -229,7 +231,7 @@ void mf_edit_list_item_reset(void *data)
 
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	
+
 	Evas_Object *genlist = NULL;
 	Elm_Object_Item *it = NULL;
 	mf_list_data_t *item_data = NULL;
@@ -240,7 +242,7 @@ void mf_edit_list_item_reset(void *data)
 	mf_edit_select_all_set(EINA_FALSE);
 	mf_edit_count_set(0);
 
-	
+
 	edit_count = elm_genlist_items_count(genlist);
 	selected_all = EINA_FALSE;
 	it = elm_genlist_first_item_get(genlist);
@@ -281,7 +283,7 @@ void mf_edit_view_select_info_create(void *data)
 		label = g_strdup(MF_LABEL_SELECT_ITEMS);
 	}
 	mf_object_item_text_set(ap->mf_MainWindow.pNaviItem, label, "elm.text.title");
-        SAFE_FREE_CHAR(label);
+	SAFE_FREE_CHAR(label);
 
 }
 
@@ -291,8 +293,7 @@ static void mf_edit_item_sel_all_press_cb(void *data, Evas_Object *obj, void *ev
 		Eina_Bool state = elm_check_state_get(pSelectAllCheckBox);
 		if (state) {
 			elm_object_signal_emit(pSelectAllCheckBox, "elm,activate,check,off", "elm");
-		}
-		else {
+		} else {
 			elm_object_signal_emit(pSelectAllCheckBox, "elm,activate,check,on", "elm");
 		}
 
@@ -339,7 +340,7 @@ void mf_edit_item_sel_all_cb(void *data, Evas_Object * obj, void *event_info)
 				}
 				elm_check_state_set(it_data->pCheckBox, it_data->m_checked);
 			}
-		//	elm_genlist_item_update(it);
+			//	elm_genlist_item_update(it);
 			it = elm_genlist_item_next_get(it);
 		}
 		//elm_genlist_realized_items_update(ap->mf_MainWindow.pNaviGenlist);
@@ -404,18 +405,18 @@ void mf_edit_gengrid_item_sel_cb(void *data, Evas_Object * obj, void *event_info
 	struct appdata *ap = (struct appdata *)selected->ap;
 	mf_retm_if(ap == NULL, "input parameter data error");
 	int view_style = mf_view_style_get(ap);
-        if (ap->mf_Status.more != MORE_EDIT
-                && ap->mf_Status.more != MORE_SHARE_EDIT
-	&& ap->mf_Status.more != MORE_EDIT_COPY
-	&& ap->mf_Status.more != MORE_EDIT_MOVE
-	&& ap->mf_Status.more != MORE_EDIT_DELETE
-	&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
-	&& ap->mf_Status.more != MORE_EDIT_UNINSTALL
-	    && ap->mf_Status.more != MORE_EDIT_DETAIL
-       ) {
+	if (ap->mf_Status.more != MORE_EDIT
+	        && ap->mf_Status.more != MORE_SHARE_EDIT
+	        && ap->mf_Status.more != MORE_EDIT_COPY
+	        && ap->mf_Status.more != MORE_EDIT_MOVE
+	        && ap->mf_Status.more != MORE_EDIT_DELETE
+	        && ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
+	        && ap->mf_Status.more != MORE_EDIT_UNINSTALL
+	        && ap->mf_Status.more != MORE_EDIT_DETAIL
+	   ) {
 		MF_TRACE_END;
-                return;
-        }
+		return;
+	}
 	if (selected->file_type == FILE_TYPE_DIR) {
 		if (mf_edit_folder_list_item_exists(item)) {
 			selected->m_checked = false;
@@ -470,20 +471,22 @@ void mf_edit_list_item_sel_by_list_data(mf_list_data_t *selected, Evas_Object * 
 	int view_style = mf_view_style_get(ap);
 
 	if (ap->mf_Status.more != MORE_EDIT
-		&& ap->mf_Status.more != MORE_SHARE_EDIT
-		&& ap->mf_Status.more != MORE_EDIT_COPY
-		&& ap->mf_Status.more != MORE_EDIT_MOVE
-		&& ap->mf_Status.more != MORE_EDIT_DELETE
-		&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
-		&& ap->mf_Status.more != MORE_EDIT_UNINSTALL
-		&& ap->mf_Status.more != MORE_EDIT_DETAIL
-	) {
+	        && ap->mf_Status.more != MORE_SHARE_EDIT
+	        && ap->mf_Status.more != MORE_EDIT_COPY
+	        && ap->mf_Status.more != MORE_EDIT_MOVE
+	        && ap->mf_Status.more != MORE_EDIT_DELETE
+	        && ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
+	        && ap->mf_Status.more != MORE_EDIT_UNINSTALL
+	        && ap->mf_Status.more != MORE_EDIT_DETAIL
+	   ) {
 		return;
 	}
 
 	if (obj) {
 		Evas_Object *popup = evas_object_data_get(obj, "popup"); // Get popup
-		if (popup) return;  // If popup exists, do nothing
+		if (popup) {
+			return;    // If popup exists, do nothing
+		}
 	}
 
 	if (selected->file_type == FILE_TYPE_DIR) {
@@ -620,10 +623,10 @@ void mf_edit_view_list_update(void *data)
 					if (itemData->file_type == FILE_TYPE_DIR) {
 						it = elm_gengrid_item_next_get(it);
 						elm_object_item_del(itemData->item);
-					}else {
+					} else {
 						it = elm_gengrid_item_next_get(it);
 					}
-				}else {
+				} else {
 					it = elm_gengrid_item_next_get(it);
 				}
 			}
@@ -766,9 +769,9 @@ void mf_edit_view_title_button_set(void *data)
 		} else if (ap->mf_Status.more == MORE_EDIT_DELETE_RECENT) {
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_delete_recent_files_confirm_cb, ap);
 		} else if (ap->mf_Status.more == MORE_EDIT_UNINSTALL) {
-	#ifdef MYFILE_DOWNLOAD_APP_FEATURE
+#ifdef MYFILE_DOWNLOAD_APP_FEATURE
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_download_app_uninstall_cb, ap);
-	#endif
+#endif
 		} else if (ap->mf_Status.more == MORE_EDIT_DETAIL) {
 			mf_debug("detail callback");
 			mf_naviframe_right_save_button_create(ap->mf_MainWindow.pNaviBar, ap->mf_MainWindow.pNaviItem, mf_callback_details_cb, ap);
@@ -895,7 +898,7 @@ void mf_edit_view_refresh(void *data, Eina_List **file_list, Eina_List **folder_
 		}
 		edit_count = elm_gengrid_items_count(ap->mf_MainWindow.pNaviGengrid);
 	}
-	
+
 	if (view_style != MF_VIEW_STYLE_THUMBNAIL) {
 		elm_genlist_realized_items_update(ap->mf_MainWindow.pNaviGenlist);
 	} else {
@@ -917,10 +920,11 @@ void mf_edit_view_refresh(void *data, Eina_List **file_list, Eina_List **folder_
 	}
 
 	mf_edit_view_select_all_layout_prepend(ap);
-	if (count == edit_count)
+	if (count == edit_count) {
 		mf_edit_select_all_check_set(EINA_TRUE);
-	else
+	} else {
 		mf_edit_select_all_check_set(EINA_FALSE);
+	}
 
 	mf_edit_view_title_button_set(ap);
 
@@ -939,15 +943,15 @@ void mf_edit_view_create(void *data)
 	mf_edit_select_all_set(EINA_FALSE);
 	mf_edit_count_set(0);
 	char *title = NULL;
-	
+
 	elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
 	mf_edit_select_all_callback_set(mf_edit_item_sel_all_cb);
 	mf_edit_select_info_func_set(mf_edit_view_select_info_create);
-	if(ap->mf_Status.extra != MORE_SEARCH) {
+	if (ap->mf_Status.extra != MORE_SEARCH) {
 		mf_edit_view_select_all_layout_prepend(ap);
 		title = g_strdup_printf(mf_util_get_text(MF_LABEL_SELECTED), 0);
 	} else {
-		title =mf_util_get_text(MF_LABEL_SELECT_ITEMS);
+		title = mf_util_get_text(MF_LABEL_SELECT_ITEMS);
 	}
 	mf_edit_view_list_update(ap);
 	mf_navi_bar_title_content_set(ap, title);

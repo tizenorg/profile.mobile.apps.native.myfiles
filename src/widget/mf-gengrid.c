@@ -46,8 +46,9 @@ static void __mf_gengrid_icon_clicked(void *data, Evas_Object *obj, void *event_
 		elm_gengrid_item_selected_set(item, EINA_FALSE);
 	}
 
-	if (ap->mf_MainWindow.pLongpressPopup != NULL)
+	if (ap->mf_MainWindow.pLongpressPopup != NULL) {
 		return;
+	}
 
 	if (item != NULL) {
 		mfItemData_s *selected = (mfItemData_s *) elm_object_item_data_get(item);
@@ -55,14 +56,14 @@ static void __mf_gengrid_icon_clicked(void *data, Evas_Object *obj, void *event_
 		mf_retm_if(selected->m_ItemName == NULL, "selected->m_ItemName is NULL");
 		mf_retm_if(selected->m_ItemName->str == NULL, "selected->m_ItemName->str is NULL");
 
-		if (ap->mf_Status.more == MORE_EDIT 
-			|| ap->mf_Status.more == MORE_SHARE_EDIT
-			|| ap->mf_Status.more == MORE_EDIT_COPY
-			|| ap->mf_Status.more == MORE_EDIT_MOVE
-			|| ap->mf_Status.more == MORE_EDIT_DELETE
-			|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
-			|| ap->mf_Status.more == MORE_EDIT_DETAIL
-			) {
+		if (ap->mf_Status.more == MORE_EDIT
+		        || ap->mf_Status.more == MORE_SHARE_EDIT
+		        || ap->mf_Status.more == MORE_EDIT_COPY
+		        || ap->mf_Status.more == MORE_EDIT_MOVE
+		        || ap->mf_Status.more == MORE_EDIT_DELETE
+		        || ap->mf_Status.more == MORE_EDIT_UNINSTALL
+		        || ap->mf_Status.more == MORE_EDIT_DETAIL
+		   ) {
 			return;
 		}
 
@@ -78,18 +79,18 @@ static void __mf_gengrid_icon_clicked(void *data, Evas_Object *obj, void *event_
 
 void mf_gengrid_realized(void *data, Evas_Object *obj, void *event_info)
 {
-	
+
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = (struct appdata*)data;
-	
+
 	if (ap->mf_Status.more == MORE_EDIT
-	|| ap->mf_Status.more == MORE_SHARE_EDIT
-	|| ap->mf_Status.more == MORE_EDIT_COPY
-	|| ap->mf_Status.more == MORE_EDIT_MOVE
-	|| ap->mf_Status.more == MORE_EDIT_DELETE
-	|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
-	    || ap->mf_Status.more == MORE_EDIT_DETAIL
-	) {
+	        || ap->mf_Status.more == MORE_SHARE_EDIT
+	        || ap->mf_Status.more == MORE_EDIT_COPY
+	        || ap->mf_Status.more == MORE_EDIT_MOVE
+	        || ap->mf_Status.more == MORE_EDIT_DELETE
+	        || ap->mf_Status.more == MORE_EDIT_UNINSTALL
+	        || ap->mf_Status.more == MORE_EDIT_DETAIL
+	   ) {
 		mf_list_data_t *list_data = (mf_list_data_t *)elm_object_item_data_get(event_info);
 		elm_object_item_signal_emit(event_info, "check,state,show", "");
 		if (list_data->m_checked) {
@@ -123,8 +124,9 @@ void mf_gengrid_create_grid_items(void *data, Evas_Object *grid, Eina_List *file
 		char *real_name = NULL;
 
 		fsNodeInfo *pNode = (fsNodeInfo *)pData;
-		if (pNode == NULL)
+		if (pNode == NULL) {
 			continue;
+		}
 		real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
 
 		if (real_name == NULL) {
@@ -152,7 +154,7 @@ void mf_gengrid_create_grid_items(void *data, Evas_Object *grid, Eina_List *file
 		m_TempItem->list_type = pNode->list_type;
 		m_TempItem->ap = ap;
 		if (ap->mf_Status.more == MORE_INTERNAL_COPY_MOVE || ap->mf_Status.more == MORE_INTERNAL_COPY  || ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS
-				    || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_DATA_COPYING || ap->mf_Status.more == MORE_DATA_MOVING) {
+		        || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_DATA_COPYING || ap->mf_Status.more == MORE_DATA_MOVING) {
 			mf_debug();
 			it = elm_gengrid_item_append(grid, &gic, m_TempItem, NULL, NULL);
 		} else {
@@ -208,11 +210,11 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 	if (!strcmp(part, "elm.swallow.icon")) {
 		Evas_Object *thumb = NULL;
 
-			if (!(params->real_thumb_flag && params->thumb_path)) {
-				mf_genlist_get_thumbnail(params);
-			}
+		if (!(params->real_thumb_flag && params->thumb_path)) {
+			mf_genlist_get_thumbnail(params);
+		}
 		if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND) {
-			if (params->thumb_path && mf_file_exists(params->thumb_path) && strcmp(params->thumb_path,MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
+			if (params->thumb_path && mf_file_exists(params->thumb_path) && strcmp(params->thumb_path, MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
 				SAFE_FREE_CHAR(params->thumb_path);
 				params->thumb_path = g_strdup(MF_ICON_MUSIC_THUMBNAIL);
 				params->thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
@@ -233,12 +235,13 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 			int isOriginalImage = (params->m_ItemName->str && params->thumb_path && strcmp(params->thumb_path, params->m_ItemName->str) == 0);
 			if (isOriginalImage == 0) {
 				mf_file_attr_get_file_size(params->thumb_path, &size);
-				if (size < 4*1024*1024)
+				if (size < 4 * 1024 * 1024) {
 					elm_image_file_set(thumb, params->thumb_path, NULL);
-			}else{
-				if (g_is_refresh_at_grid == false)
+				}
+			} else {
+				if (g_is_refresh_at_grid == false) {
 					mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
-				else{
+				} else {
 					if (params->pNode && params->pNode->thumbnail_path) {//For supporting the otg thumbnail
 						mf_debug("params->pNode->thumbnail_path=%s", params->pNode->thumbnail_path);
 						thumb = elm_image_add(obj);
@@ -246,65 +249,68 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
 						elm_image_smooth_set(thumb, EINA_FALSE);
 						elm_image_file_set(thumb, params->pNode->thumbnail_path, NULL);
-					}else if (params->thumb_path) {
+					} else if (params->thumb_path) {
 						thumb = elm_image_add(obj);
 						elm_image_prescale_set(thumb, MF_ICON_SIZE);
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
 						elm_image_smooth_set(thumb, EINA_FALSE);
 
-						if (params->file_type == FILE_TYPE_IMAGE)
+						if (params->file_type == FILE_TYPE_IMAGE) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
-						else if (params->file_type == FILE_TYPE_VIDEO)
+						} else if (params->file_type == FILE_TYPE_VIDEO) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
-						else
+						} else {
 							elm_image_file_set(thumb, params->thumb_path, NULL);
-					}else{
+						}
+					} else {
 						return NULL;
 					}
 				}
 				g_is_refresh_at_grid = true;
 			}
 		} else {
-				thumb = elm_image_add(obj);
-				elm_image_prescale_set(thumb, MF_ICON_SIZE);
-				elm_image_fill_outside_set(thumb, EINA_TRUE);
-				elm_image_smooth_set(thumb, EINA_FALSE);
-				//Checking file size, if more than 4M, don't display it, it will be very slow.
-				off_t size = 0;//Comment it, for P140606-04570, some times at efl, it will crash at png file.
-				int isOriginalImage = (params->m_ItemName->str && params->thumb_path && strcmp(params->thumb_path, params->m_ItemName->str) == 0);
-				if (isOriginalImage == 0) {
-					mf_file_attr_get_file_size(params->thumb_path, &size);
-					if (size < 4*1024*1024)
-						elm_image_file_set(thumb, params->thumb_path, NULL);
-				}else{
-					if (g_is_refresh_at_grid == false)
-						mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
-					else{
-						if (params->pNode && params->pNode->thumbnail_path) {//For supporting the otg thumbnail
-							mf_debug("params->pNode->thumbnail_path=%s", params->pNode->thumbnail_path);
-							thumb = elm_image_add(obj);
-							elm_image_prescale_set(thumb, MF_ICON_SIZE);
-							elm_image_fill_outside_set(thumb, EINA_TRUE);
-							elm_image_smooth_set(thumb, EINA_FALSE);
-							elm_image_file_set(thumb, params->pNode->thumbnail_path, NULL);
-						}else if (params->thumb_path) {
-							thumb = elm_image_add(obj);
-							elm_image_prescale_set(thumb, MF_ICON_SIZE);
-							elm_image_fill_outside_set(thumb, EINA_TRUE);
-							elm_image_smooth_set(thumb, EINA_FALSE);
-
-							if (params->file_type == FILE_TYPE_IMAGE)
-								elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
-							else if (params->file_type == FILE_TYPE_VIDEO)
-								elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
-							else
-								elm_image_file_set(thumb, params->thumb_path, NULL);
-						}else{
-							return NULL;
-						}
-					}
-					g_is_refresh_at_grid = true;
+			thumb = elm_image_add(obj);
+			elm_image_prescale_set(thumb, MF_ICON_SIZE);
+			elm_image_fill_outside_set(thumb, EINA_TRUE);
+			elm_image_smooth_set(thumb, EINA_FALSE);
+			//Checking file size, if more than 4M, don't display it, it will be very slow.
+			off_t size = 0;//Comment it, for P140606-04570, some times at efl, it will crash at png file.
+			int isOriginalImage = (params->m_ItemName->str && params->thumb_path && strcmp(params->thumb_path, params->m_ItemName->str) == 0);
+			if (isOriginalImage == 0) {
+				mf_file_attr_get_file_size(params->thumb_path, &size);
+				if (size < 4 * 1024 * 1024) {
+					elm_image_file_set(thumb, params->thumb_path, NULL);
 				}
+			} else {
+				if (g_is_refresh_at_grid == false) {
+					mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
+				} else {
+					if (params->pNode && params->pNode->thumbnail_path) {//For supporting the otg thumbnail
+						mf_debug("params->pNode->thumbnail_path=%s", params->pNode->thumbnail_path);
+						thumb = elm_image_add(obj);
+						elm_image_prescale_set(thumb, MF_ICON_SIZE);
+						elm_image_fill_outside_set(thumb, EINA_TRUE);
+						elm_image_smooth_set(thumb, EINA_FALSE);
+						elm_image_file_set(thumb, params->pNode->thumbnail_path, NULL);
+					} else if (params->thumb_path) {
+						thumb = elm_image_add(obj);
+						elm_image_prescale_set(thumb, MF_ICON_SIZE);
+						elm_image_fill_outside_set(thumb, EINA_TRUE);
+						elm_image_smooth_set(thumb, EINA_FALSE);
+
+						if (params->file_type == FILE_TYPE_IMAGE) {
+							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+						} else if (params->file_type == FILE_TYPE_VIDEO) {
+							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+						} else {
+							elm_image_file_set(thumb, params->thumb_path, NULL);
+						}
+					} else {
+						return NULL;
+					}
+				}
+				g_is_refresh_at_grid = true;
+			}
 
 		}
 
@@ -337,7 +343,7 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 			elm_image_smooth_set(thumb, EINA_FALSE);
 			elm_image_preload_disabled_set(thumb, EINA_FALSE);
 		} else {
-				return NULL;
+			return NULL;
 		}
 
 		if (params->file_type != FILE_TYPE_DIR) {
@@ -352,7 +358,7 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 		evas_object_show(thumb);
 		return thumb;
 	}
-   	return NULL;
+	return NULL;
 }
 
 char *mf_gengrid_item_label_get(void *data, Evas_Object * obj, const char *part)
@@ -365,13 +371,13 @@ char *mf_gengrid_item_label_get(void *data, Evas_Object * obj, const char *part)
 
 	mf_error("===================== label get entry");
 	if (ap->mf_Status.view_type == mf_view_root_category) {
-			if (ap->mf_Status.more != MORE_SEARCH && mf_view_get_pre_state(ap) != MORE_SEARCH) {
-				if (ap->mf_Status.category_type == mf_tray_item_category_image
-					|| ap->mf_Status.category_type == mf_tray_item_category_video) {
-					if (params->thumbnail_type != MF_THUMBNAIL_DEFAULT) {
-						is_apply_filename = false;
-					}
+		if (ap->mf_Status.more != MORE_SEARCH && mf_view_get_pre_state(ap) != MORE_SEARCH) {
+			if (ap->mf_Status.category_type == mf_tray_item_category_image
+			        || ap->mf_Status.category_type == mf_tray_item_category_video) {
+				if (params->thumbnail_type != MF_THUMBNAIL_DEFAULT) {
+					is_apply_filename = false;
 				}
+			}
 		}
 	}
 	if (is_apply_filename && strcmp(part, "elm.text") == 0) {
@@ -390,8 +396,7 @@ char *mf_gengrid_item_label_get(void *data, Evas_Object * obj, const char *part)
 					MF_TRACE_END;
 					file_name = g_strdup(markup_name);
 				}
-			}
-			else if (params->ap->mf_Status.iExtensionState == MF_EXTENSION_HIDE && !mf_file_attr_is_dir(params->m_ItemName->str)) {
+			} else if (params->ap->mf_Status.iExtensionState == MF_EXTENSION_HIDE && !mf_file_attr_is_dir(params->m_ItemName->str)) {
 				file_name = mf_fm_svc_get_file_name(params->m_ItemName);
 			} else {
 				file_name = g_strdup(mf_file_get(params->m_ItemName->str));
@@ -416,7 +421,7 @@ char *mf_gengrid_item_label_get(void *data, Evas_Object * obj, const char *part)
 						}
 					}
 					return file_name_tmp;
-				}else{
+				} else {
 					if (file_name) {
 						char *translate_label = elm_entry_utf8_to_markup(file_name);
 						if (translate_label) {
@@ -427,7 +432,7 @@ char *mf_gengrid_item_label_get(void *data, Evas_Object * obj, const char *part)
 					}
 					return file_name;
 				}
-			}else{
+			} else {
 				return strdup(_(""));
 			}
 		}
@@ -491,13 +496,13 @@ Evas_Object *mf_gengrid_create(Evas_Object *parent, void *data)
 	Evas_Object *grid = NULL;
 	grid = mf_gengrid_create_grid(parent);
 	int gengrid_len = eina_list_count(ap->mf_FileOperation.file_list) + eina_list_count(ap->mf_FileOperation.folder_list);
-	mf_error("gengrid length = %d",gengrid_len);
+	mf_error("gengrid length = %d", gengrid_len);
 	mf_gengrid_align_set(grid, gengrid_len);
 	mf_gengrid_gen_style_set();
 	return grid;
 }
 
-Evas_Object *mf_gengrid_create_grid (Evas_Object *parent)
+Evas_Object *mf_gengrid_create_grid(Evas_Object *parent)
 {
 	MF_TRACE_BEGIN;
 	mf_retvm_if(parent == NULL, NULL, "parent is NULL");
@@ -509,17 +514,17 @@ Evas_Object *mf_gengrid_create_grid (Evas_Object *parent)
 	//elm_object_focus_set(grid, EINA_FALSE);
 	elm_object_focus_allow_set(grid, EINA_TRUE);
 
-   	elm_gengrid_horizontal_set(grid, EINA_FALSE);
+	elm_gengrid_horizontal_set(grid, EINA_FALSE);
 	elm_scroller_bounce_set(grid, EINA_FALSE, EINA_TRUE);
 	elm_scroller_policy_set(grid, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
-   	elm_gengrid_multi_select_set(grid, EINA_TRUE);
+	elm_gengrid_multi_select_set(grid, EINA_TRUE);
 	evas_object_show(grid);
 	g_is_refresh_at_grid = false;
 	return grid;
 }
 
 void mf_gengrid_create_list_default_style(Evas_Object *pGengrid, void *data, Eina_List *dir_list,
-				Eina_List *file_list)
+        Eina_List *file_list)
 {
 
 	MF_TRACE_BEGIN;
@@ -532,26 +537,26 @@ void mf_gengrid_create_list_default_style(Evas_Object *pGengrid, void *data, Ein
 	Eina_List *l = NULL;
 
 	EINA_LIST_FOREACH(dir_list, l, pNode) {
-                if (pNode) {
-                        it = mf_view_item_append(pGengrid, pNode, ap);
-                        mf_error();
-                        if (ap->mf_Status.ToTop) {
-                                elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_TOP);
-                                ap->mf_Status.ToTop = false ;
-                        }
-                }
+		if (pNode) {
+			it = mf_view_item_append(pGengrid, pNode, ap);
+			mf_error();
+			if (ap->mf_Status.ToTop) {
+				elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_TOP);
+				ap->mf_Status.ToTop = false ;
+			}
+		}
 	}
 	/*	add file items into the genlist */
 
 	EINA_LIST_FOREACH(file_list, l, pNode) {
-                if (pNode) {
-					mf_view_item_append(pGengrid, pNode, ap);
-                }
+		if (pNode) {
+			mf_view_item_append(pGengrid, pNode, ap);
+		}
 	}
 }
 
 void mf_gengrid_thumbs_longpressed(void *data, Evas_Object *obj,
-				    void *event_info)
+                                   void *event_info)
 {
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
@@ -592,7 +597,7 @@ Evas_Object *mf_gengrid_create_list(void *data, Evas_Object *parent)
 		dir_list = ap->mf_FileOperation.folder_list;
 	}
 
-	gengrid = mf_gengrid_create(parent,ap);
+	gengrid = mf_gengrid_create(parent, ap);
 
 	evas_object_smart_callback_add(gengrid, "language,changed", mf_gengrid_gl_lang_changed, ap);
 

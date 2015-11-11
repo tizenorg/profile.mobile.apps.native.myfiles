@@ -270,7 +270,7 @@ static void *__mf_move_thread_func(void *data)
 						mf_fo_loge("Fail to get size of %s", s_path);
 
 						__mf_move_msg_cb(MF_MSG_ERROR, s_path, 0,
-								 (MF_FO_ERR_SRC_CLASS | _mf_fo_errno_to_mferr(-errcode)), handle);
+						                 (MF_FO_ERR_SRC_CLASS | _mf_fo_errno_to_mferr(-errcode)), handle);
 
 
 						goto ERROR_END_THREAD;
@@ -281,7 +281,7 @@ static void *__mf_move_thread_func(void *data)
 						if (stat(s_path, &src_info)) {
 
 							__mf_move_msg_cb(MF_MSG_ERROR, handle->dst_dir, 0,
-									 (MF_FO_ERR_DST_CLASS | _mf_fo_errno_to_mferr(errno)), handle);
+							                 (MF_FO_ERR_DST_CLASS | _mf_fo_errno_to_mferr(errno)), handle);
 
 							goto ERROR_END_THREAD;
 						}
@@ -291,7 +291,7 @@ static void *__mf_move_thread_func(void *data)
 								n_size -= size;
 							} else {
 								mf_fo_loge("remain size [%lld], needed size [%lld], current item size [%lld] -[%s]",
-									   r_size, n_size, size, s_path);
+								           r_size, n_size, size, s_path);
 
 
 								int err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_SPACE);
@@ -348,7 +348,7 @@ static void *__mf_move_thread_func(void *data)
 		}
 		c_stop = __mf_move_get_time();
 		mf_fo_logi("## Total src size - %lld byte, size time : %lf sec, move time : %lf sec",
-			   handle->msg.total_size, s_stop - s_start, c_stop - c_start);
+		           handle->msg.total_size, s_stop - s_start, c_stop - c_start);
 
 		if (cancelled) {
 			__mf_move_msg_cb(MF_MSG_CANCELLED, NULL, 0, 0, handle);

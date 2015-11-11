@@ -55,7 +55,7 @@ mf_detail_view_back_cb(void *data, Evas_Object *obj, void *event_info)
 
 	mf_detail_data_destroy(ap);
 
-	mf_retm_if(ap->mf_MainWindow.pNaviBar == NULL,"ap->mf_MainWindow.pNaviBar is NULL");
+	mf_retm_if(ap->mf_MainWindow.pNaviBar == NULL, "ap->mf_MainWindow.pNaviBar is NULL");
 	if (ap->mf_Status.more == MORE_DEFAULT) {
 		ap->mf_Status.view_type = ap->mf_Status.preViewType;
 		mf_view_update(ap);
@@ -82,7 +82,7 @@ mf_detail_view_content_create(void *data)
 		ap->mf_MainWindow.pNaviGenlist = NULL;
 	} else {
 		Evas_Object *genlist = mf_ug_detail_view_create_genlist(ap->mf_MainWindow.pNaviLayout,
-									ap->mf_Status.detail);
+		                       ap->mf_Status.detail);
 		mf_ug_detail_view_process_genlist(ap->mf_Status.detail, genlist);
 		evas_object_show(genlist);
 
@@ -122,15 +122,15 @@ void mf_detail_view_create(void *data)
 	MF_TA_ACUM_ITEM_BEGIN("123456 push naviframe item", 0);
 	if (ap->mf_Status.pPreNaviItem) {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_insert_after(ap->mf_MainWindow.pNaviBar,
-									      ap->mf_Status.pPreNaviItem,
-									      "", NULL, NULL,
-									      ap->mf_MainWindow.pNaviLayout,
-									      MF_NAVI_STYLE_ENABLE);
+		                              ap->mf_Status.pPreNaviItem,
+		                              "", NULL, NULL,
+		                              ap->mf_MainWindow.pNaviLayout,
+		                              MF_NAVI_STYLE_ENABLE);
 	} else {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_push(ap->mf_MainWindow.pNaviBar,
-								      NULL, NULL, NULL,
-								      ap->mf_MainWindow.pNaviLayout,
-								      MF_NAVI_STYLE_ENABLE);
+		                              NULL, NULL, NULL,
+		                              ap->mf_MainWindow.pNaviLayout,
+		                              MF_NAVI_STYLE_ENABLE);
 	}
 
 //	Evas_Object *pImage = elm_image_add(ap->mf_MainWindow.pNaviBar);

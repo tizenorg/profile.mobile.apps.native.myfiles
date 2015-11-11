@@ -24,7 +24,7 @@ int _mf_focus_ui_set_dual_focus_order(Evas_Object *curr, Evas_Object *next, mf_f
 	mf_retvm_if(next == NULL, 0, "next is NULL");
 
 	if (elm_object_focus_allow_get(curr) != EINA_TRUE ||
-		elm_object_focus_allow_get(next) != EINA_TRUE) {
+	        elm_object_focus_allow_get(next) != EINA_TRUE) {
 		mf_debug("Input elm object is not focusable!");
 		return -1;
 	}

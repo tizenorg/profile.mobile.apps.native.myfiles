@@ -39,21 +39,20 @@ static mf_thumb_gen_h g_thumb_gen = NULL;
 #define MF_THUMBNAIL_DEBUG mf_debug
 char *thumb_request_id = NULL;
 
-typedef struct _ThumbGen 
-{
-    char    *szMediaURL;
-    bool    bIsRealize;
+typedef struct _ThumbGen {
+	char    *szMediaURL;
+	bool    bIsRealize;
 
-    char    *szSaveDir;
-    bool    bIsStart;
-    bool    bIscancel;
-    void    *pUserData;
+	char    *szSaveDir;
+	bool    bIsStart;
+	bool    bIscancel;
+	void    *pUserData;
 
-    mf_thumb_gen_progress_cb	progress_cb;
-    mf_thumb_gen_complete_cb	complete_cb;
-    mf_thumb_gen_cancel_cb		cancel_cb;
+	mf_thumb_gen_progress_cb	progress_cb;
+	mf_thumb_gen_complete_cb	complete_cb;
+	mf_thumb_gen_cancel_cb		cancel_cb;
 
-    Eina_List * file_list;
+	Eina_List * file_list;
 }   ThumbGen;
 
 
@@ -72,115 +71,112 @@ static void _mf_thumb_gen_unlock()
 
 static int myfile_thumb_update_filelist(ThumbGen *pThumbGen)
 {
-    if (pThumbGen == NULL) {
-        return 0;
-    }
+	if (pThumbGen == NULL) {
+		return 0;
+	}
 
-    _mf_thumb_gen_lock();
-    if (pThumbGen->bIsRealize == FALSE) {
-        mf_debug(" == pThumbGen->bIsRealize is Fail ==");
-        _mf_thumb_gen_unlock();
-        return 0;
-    }
+	_mf_thumb_gen_lock();
+	if (pThumbGen->bIsRealize == FALSE) {
+		mf_debug(" == pThumbGen->bIsRealize is Fail ==");
+		_mf_thumb_gen_unlock();
+		return 0;
+	}
 
-    _mf_thumb_gen_unlock();
-    mf_retvm_if(pThumbGen->file_list == NULL, MYFILE_ERR_INVALID_ARG, "pThumbGen->file_list is null");
+	_mf_thumb_gen_unlock();
+	mf_retvm_if(pThumbGen->file_list == NULL, MYFILE_ERR_INVALID_ARG, "pThumbGen->file_list is null");
 
-    fsNodeInfo *pNode = NULL;
-    Eina_List *l = NULL;
-    int i = 0;
-    char *path = pThumbGen->szMediaURL;
-    Eina_List *file_list = pThumbGen->file_list;
-    Eina_List *list_tmp = file_list;
-    int file_count = eina_list_count(file_list) ;
+	fsNodeInfo *pNode = NULL;
+	Eina_List *l = NULL;
+	int i = 0;
+	char *path = pThumbGen->szMediaURL;
+	Eina_List *file_list = pThumbGen->file_list;
+	Eina_List *list_tmp = file_list;
+	int file_count = eina_list_count(file_list) ;
 
-    thumbnail_h thumb_handle;
-    while (true)
-    {
-        list_tmp = file_list->prev;
-        MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>list_tmp = %p", list_tmp);
-        if (list_tmp == NULL)
-            break;
-        else
-            file_list = file_list->prev;
-    }
+	thumbnail_h thumb_handle;
+	while (true) {
+		list_tmp = file_list->prev;
+		MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>list_tmp = %p", list_tmp);
+		if (list_tmp == NULL) {
+			break;
+		} else {
+			file_list = file_list->prev;
+		}
+	}
 
-    MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>path = %s", path);
-    MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>file_list = %x", pThumbGen->file_list);
-    MF_THUMBNAIL_DEBUG("\nfile count is [%d]", file_count);
+	MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>path = %s", path);
+	MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>file_list = %x", pThumbGen->file_list);
+	MF_THUMBNAIL_DEBUG("\nfile count is [%d]", file_count);
 
-    EINA_LIST_FOREACH(file_list, l, pNode) {
-        if (pNode) {
-            //Make thumbnail begining............................
-            if (pThumbGen->bIscancel == true) {
-                goto EXIT;
-            }
+	EINA_LIST_FOREACH(file_list, l, pNode) {
+		if (pNode) {
+			//Make thumbnail begining............................
+			if (pThumbGen->bIscancel == true) {
+				goto EXIT;
+			}
 
-            if (pNode != NULL && pNode->name != NULL && pNode->path != NULL) 
-            {
-                MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->path = %s, pNode->name=%s", pNode->path, pNode->name);
+			if (pNode != NULL && pNode->name != NULL && pNode->path != NULL) {
+				MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->path = %s, pNode->name=%s", pNode->path, pNode->name);
 
-                switch (pNode->type)
-                {
-                    case FILE_TYPE_IMAGE:
-                    case FILE_TYPE_VIDEO:
-                    {
-                        if (mf_util_is_low_memory(PHONE_FOLDER, MF_STORAGE_SIZE_MIN)) {
-                            goto EXIT;
-                        }
+				switch (pNode->type) {
+				case FILE_TYPE_IMAGE:
+				case FILE_TYPE_VIDEO: {
+					if (mf_util_is_low_memory(PHONE_FOLDER, MF_STORAGE_SIZE_MIN)) {
+						goto EXIT;
+					}
 
-                        pNode->thumbnail_path = calloc(1, sizeof(char) * MF_FILE_NAME_MAX_LENGTH);
-                        if (pNode->thumbnail_path != NULL) {
-                        	MF_THUMBNAIL_DEBUG("\n>>>>>1");
-                        	snprintf(pNode->thumbnail_path, MF_FILE_NAME_MAX_LENGTH - 1, MF_THUMB_FILE_NAME_STR, pNode->name);
-                        	MF_THUMBNAIL_DEBUG("\n>>>>>2");
-                        	char tmp_path[MF_FILE_NAME_MAX_LENGTH + 1] = {0};
-                        	MF_THUMBNAIL_DEBUG("\n>>>>>3");
-                        	snprintf(tmp_path, MF_FILE_NAME_MAX_LENGTH - 1, "%s/%s", pNode->path, pNode->name);
-                        	MF_THUMBNAIL_DEBUG("\n>>>>>4");
-                        	MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->thumbnail_path1 = %s", pNode->thumbnail_path);
-                        	thumbnail_util_create(&thumb_handle);
-                        	if (thumb_handle) {
-								thumbnail_util_set_path(thumb_handle, tmp_path);
-								int ret = thumbnail_util_extract(thumb_handle, _mf_thumbnail_completed_cb, pNode, &thumb_request_id);
-								//int ret = thumbnail_request_save_to_file(tmp_path, pNode->thumbnail_path);
-								if (ret == THUMBNAIL_UTIL_ERROR_NONE) {
-									mf_thumb_gen_progress_cb func = pThumbGen->progress_cb;
-									if (func && pThumbGen->bIscancel == false) {
-										func(true, i, pNode);
-									} else {
-										goto EXIT;
-									}
+					pNode->thumbnail_path = calloc(1, sizeof(char) * MF_FILE_NAME_MAX_LENGTH);
+					if (pNode->thumbnail_path != NULL) {
+						MF_THUMBNAIL_DEBUG("\n>>>>>1");
+						snprintf(pNode->thumbnail_path, MF_FILE_NAME_MAX_LENGTH - 1, MF_THUMB_FILE_NAME_STR, pNode->name);
+						MF_THUMBNAIL_DEBUG("\n>>>>>2");
+						char tmp_path[MF_FILE_NAME_MAX_LENGTH + 1] = {0};
+						MF_THUMBNAIL_DEBUG("\n>>>>>3");
+						snprintf(tmp_path, MF_FILE_NAME_MAX_LENGTH - 1, "%s/%s", pNode->path, pNode->name);
+						MF_THUMBNAIL_DEBUG("\n>>>>>4");
+						MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->thumbnail_path1 = %s", pNode->thumbnail_path);
+						thumbnail_util_create(&thumb_handle);
+						if (thumb_handle) {
+							thumbnail_util_set_path(thumb_handle, tmp_path);
+							int ret = thumbnail_util_extract(thumb_handle, _mf_thumbnail_completed_cb, pNode, &thumb_request_id);
+							//int ret = thumbnail_request_save_to_file(tmp_path, pNode->thumbnail_path);
+							if (ret == THUMBNAIL_UTIL_ERROR_NONE) {
+								mf_thumb_gen_progress_cb func = pThumbGen->progress_cb;
+								if (func && pThumbGen->bIscancel == false) {
+									func(true, i, pNode);
+								} else {
+									goto EXIT;
 								}
-								thumbnail_util_destroy(thumb_handle);
-                        	}
-                        }
-                        if (pThumbGen->bIscancel == true) {
-                            goto EXIT;
-                        }
-                        MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->thumbnail_path2 = %s", pNode->thumbnail_path);
-                        break;
-                    }
-                    default:
-                        break;
-                }
-            }
-            i++;
-            //End........................................................
-        }
-    }
+							}
+							thumbnail_util_destroy(thumb_handle);
+						}
+					}
+					if (pThumbGen->bIscancel == true) {
+						goto EXIT;
+					}
+					MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pNode->thumbnail_path2 = %s", pNode->thumbnail_path);
+					break;
+				}
+				default:
+					break;
+				}
+			}
+			i++;
+			//End........................................................
+		}
+	}
 
-    pThumbGen->bIsStart = FALSE;
-    mf_thumb_gen_complete_cb func = pThumbGen->complete_cb;
+	pThumbGen->bIsStart = FALSE;
+	mf_thumb_gen_complete_cb func = pThumbGen->complete_cb;
 
-    if (func && pThumbGen->bIscancel == false) {
-     //  func(file_count, pThumbGen->pUserData);
-    }
+	if (func && pThumbGen->bIscancel == false) {
+		//  func(file_count, pThumbGen->pUserData);
+	}
 
 EXIT:
-    pthread_exit(0);
-    thumbnail_util_destroy(thumb_handle);
-    return MYFILE_ERR_NONE;
+	pthread_exit(0);
+	thumbnail_util_destroy(thumb_handle);
+	return MYFILE_ERR_NONE;
 }
 
 
@@ -529,8 +525,7 @@ static Eina_Bool __mf_make_thumbnail_done(void *data)
 
 	if (view_style != MF_VIEW_STYLE_THUMBNAIL && ap->mf_MainWindow.pNaviGenlist != NULL) {
 		elm_genlist_realized_items_update(ap->mf_MainWindow.pNaviGenlist);
-	}
-	else if (view_style == MF_VIEW_STYLE_THUMBNAIL && ap->mf_MainWindow.pNaviGengrid != NULL) {
+	} else if (view_style == MF_VIEW_STYLE_THUMBNAIL && ap->mf_MainWindow.pNaviGengrid != NULL) {
 		elm_gengrid_realized_items_update(ap->mf_MainWindow.pNaviGengrid);
 	}
 
@@ -555,7 +550,7 @@ static Eina_Bool __mf_make_thumbnail_progress(void *data)
 		//elm_genlist_realized_items_update(ap->mf_MainWindow.pNaviGenlist);
 		fsNodeInfo *pNode = data;
 		elm_genlist_item_fields_update(pNode->item, "elm.icon.1", ELM_GENLIST_ITEM_FIELD_CONTENT);
-	}else if (view_style == MF_VIEW_STYLE_THUMBNAIL && ap->mf_MainWindow.pNaviGengrid != NULL) {
+	} else if (view_style == MF_VIEW_STYLE_THUMBNAIL && ap->mf_MainWindow.pNaviGengrid != NULL) {
 		//elm_genlist_realized_items_update(ap->mf_MainWindow.pNaviGenlist);
 		fsNodeInfo *pNode = data;
 		elm_gengrid_item_update(pNode->item);
@@ -565,10 +560,10 @@ static Eina_Bool __mf_make_thumbnail_progress(void *data)
 
 Ecore_Pipe *g_mf_thumbnail_progress_pipe = NULL;//Fix the bug, when clicking the image again and again quickly, there will be problem.
 
-typedef enum{
-	THUMBNAIL_UPDATE_PROGRESS,
-	THUMBNAIL_UPDATE_COMPLETE,
-}thumbnail_progress_state_e;
+typedef enum {
+    THUMBNAIL_UPDATE_PROGRESS,
+    THUMBNAIL_UPDATE_COMPLETE,
+} thumbnail_progress_state_e;
 
 typedef struct {
 	int download_id;
@@ -649,8 +644,9 @@ void mf_view_refresh_thumbnail_for_other_memory(void *data, Eina_List *file_list
 	MF_THUMBNAIL_DEBUG("\n>>>>>>>>>>>> is_at_otg is [%d]", is_at_otg);
 	if (is_at_otg) {//Only for otg, we will update the thumbnail
 		MF_THUMBNAIL_DEBUG(">>>>>>>>>>>> path is [%s]", ap->mf_Status.path->str);
-		if (g_mf_thumbnail_progress_pipe == NULL)
+		if (g_mf_thumbnail_progress_pipe == NULL) {
 			g_mf_thumbnail_progress_pipe = ecore_pipe_add(__mf_thumbnail_progress_pipe_handler, data);
+		}
 
 		mf_thumb_gen_h thumb_gen = mf_thumb_gen_create(ap->mf_Status.path->str);
 		g_thumb_gen = thumb_gen;

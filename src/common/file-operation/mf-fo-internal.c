@@ -36,11 +36,11 @@
 GSList *dir_list = NULL;
 #ifndef SAFE_FREE
 #define SAFE_FREE(x) do { \
-				if ((x) != NULL) {\
-					free(x); \
-					x = NULL;\
-				} \
-			} while (0)
+		if ((x) != NULL) {\
+			free(x); \
+			x = NULL;\
+		} \
+	} while (0)
 #endif
 
 #ifndef NAME_MAX
@@ -106,7 +106,7 @@ static int __get_directory_hierarchies(const char *pathname, const struct stat *
 {
 	mf_fo_dir_list_info *info = NULL;
 	mf_debug("pathname is [%s]\t type is [%d]\t size is [%ld]",
-		pathname, type, statptr->st_size);
+	         pathname, type, statptr->st_size);
 
 	switch (type) {
 
@@ -201,12 +201,12 @@ char *_mf_fo_get_next_unique_dirname(const char *name, int *errcode)
 	}
 
 	new_name = malloc(sizeof(char) * p_max);
-	
+
 
 	if (new_name) {
 		int next_num = 0;
 		long n_max = 0;
-              memset(new_name, 0, sizeof(char) * p_max);
+		memset(new_name, 0, sizeof(char) * p_max);
 		n_max = __mf_fo_get_name_max();
 
 		do {
@@ -494,8 +494,9 @@ int _mf_fo_errno_to_mferr(int err_no)
 
 void _mf_fo_free_directory_hierarchies(GSList **glist)
 {
-	if (*glist == NULL)
+	if (*glist == NULL) {
 		return;
+	}
 	GSList *list = *glist;
 	while (list) {
 		mf_fo_dir_list_info *info = NULL;

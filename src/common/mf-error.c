@@ -24,7 +24,7 @@ int mf_error_erron_to_mferror(int err_no)
 	int err = MYFILE_ERR_NONE;
 	char buf[256] = {0,};
 	char *str = (char *)strerror_r(err_no, buf, 256);
-	
+
 	mf_error("err_no is [%d] error - %s", err_no, str);
 	switch (err_no) {
 #ifdef EINVAL

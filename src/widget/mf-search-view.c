@@ -286,7 +286,7 @@ void mf_search_view_create(void *data)
 		//mf_navi_bar_title_content_set(ap, LABEL_MYFILE);
 	}
 	//
-	
+
 	elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_FALSE, EINA_FALSE);
 	evas_object_show(ap->mf_MainWindow.pSearchEntry);
 

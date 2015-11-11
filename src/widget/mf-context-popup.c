@@ -41,10 +41,10 @@ static Evas_Object *searchfilter_ctxpopup = NULL;
 #define MF_CTXPOPUP_STYLE_MORE "more/default"
 
 enum __context_popup_type {
-	CONTEXT_POPUP_TYPE_NONE,
-	CONTEXT_POPUP_TYPE_MORE,
-	CONTEXT_POPUP_TYPE_SEARCH_FILTER,
-	CONTEXT_POPUP_TYPE_MAX
+    CONTEXT_POPUP_TYPE_NONE,
+    CONTEXT_POPUP_TYPE_MORE,
+    CONTEXT_POPUP_TYPE_SEARCH_FILTER,
+    CONTEXT_POPUP_TYPE_MAX
 };
 
 static void _move_ctxpopup_all(void *data, Evas_Object *parent, Evas_Object *ctxpopup)
@@ -64,32 +64,32 @@ static void _move_ctxpopup_all(void *data, Evas_Object *parent, Evas_Object *ctx
 		int changed_angle = elm_win_rotation_get(ap->mf_MainWindow.pWindow);
 		mf_error("changed_angle is [%d]", changed_angle);
 		switch (changed_angle) {
-			case APP_DEVICE_ORIENTATION_270:
-			case APP_DEVICE_ORIENTATION_90:
-			{//landscape
-				x=  x + (w /2)+7;
-				y=  y + (h /2);
-				mf_error("x is [%d] y is [%d]", x, y);
-				break;
-			}
-			case APP_DEVICE_ORIENTATION_180:
-			case APP_DEVICE_ORIENTATION_0 :
-			{//portrait
+		case APP_DEVICE_ORIENTATION_270:
+		case APP_DEVICE_ORIENTATION_90: {
+			//landscape
+			x =  x + (w / 2) + 7;
+			y =  y + (h / 2);
+			mf_error("x is [%d] y is [%d]", x, y);
+			break;
+		}
+		case APP_DEVICE_ORIENTATION_180:
+		case APP_DEVICE_ORIENTATION_0 : {
+			//portrait
 
-				x=  x + (w /2);
-				//y=  y + h - 4;
-				y = y+h+12;
-				mf_error("x is [%d] y is [%d]", x, y);
-				break;
-			}
-			default:
-				break;
+			x =  x + (w / 2);
+			//y=  y + h - 4;
+			y = y + h + 12;
+			mf_error("x is [%d] y is [%d]", x, y);
+			break;
+		}
+		default:
+			break;
 		}
 		evas_object_move(ctxpopup, x , y);
 		elm_ctxpopup_direction_priority_set(ctxpopup, ELM_CTXPOPUP_DIRECTION_DOWN,
-						ELM_CTXPOPUP_DIRECTION_LEFT,
-						ELM_CTXPOPUP_DIRECTION_RIGHT,
-						ELM_CTXPOPUP_DIRECTION_UP);
+		                                    ELM_CTXPOPUP_DIRECTION_LEFT,
+		                                    ELM_CTXPOPUP_DIRECTION_RIGHT,
+		                                    ELM_CTXPOPUP_DIRECTION_UP);
 		//end*/
 	} else {
 		evas_object_move(ctxpopup, touch_x, touch_y);
@@ -107,18 +107,18 @@ static void _move_more_ctxpopup(void *data, Evas_Object *win, Evas_Object *ctxpo
 	elm_win_screen_size_get(win, NULL, NULL, &w, &h);
 	pos = elm_win_rotation_get(win);
 	switch (pos) {
-		case 0:
-		case 180:
-			x = w / 2;
-			y = h;
+	case 0:
+	case 180:
+		x = w / 2;
+		y = h;
 		break;
-		case 90:
-			x = h / 2;
-			y = w;
-			break;
-		case 270:
-			x = h / 2;
-			y = w;
+	case 90:
+		x = h / 2;
+		y = w;
+		break;
+	case 270:
+		x = h / 2;
+		y = w;
 		break;
 	}
 	//elm_win_screen_size_get(win, NULL, NULL, &w, &h);
@@ -162,7 +162,7 @@ void mf_context_popup_get_position(Evas_Object *obj, const char *label, int *x, 
 		if (g_strcmp0(button_label, label) == 0) {
 			Evas_Object *icon = elm_toolbar_item_object_get(pItem);
 			evas_object_geometry_get(icon, &x_position, &y_position, &w, NULL);
-			*x = x_position+w/2;
+			*x = x_position + w / 2;
 			*y = y_position;
 			return;
 		}
@@ -220,7 +220,7 @@ static void __mf_context_popup_item_append(Evas_Object *parent, void *data, mf_c
 	case mf_context_popup_item_view_by:
 		item = elm_ctxpopup_item_append(ctxpopup, LABEL_VIEW_AS, image, mf_callback_view_as_cb, data);
 		mf_object_item_translate_set(item, LABEL_VIEW_AS);
-        break;
+		break;
 	case mf_context_popup_item_sort_by:
 		item = elm_ctxpopup_item_append(ctxpopup, LABEL_SORT_BY, image, mf_callback_list_by_view_cb, data);
 		mf_object_item_translate_set(item, LABEL_SORT_BY);
@@ -286,12 +286,12 @@ static void __mf_context_popup_item_append(Evas_Object *parent, void *data, mf_c
 //Added by jian12.li, for fixing the context popup is rotated problem, when rotate context popup, press the back key, it will be show again.
 
 static void __mf_ctxpopup_parent_resize_cb(void *data, Evas *e,
-					   Evas_Object *obj, void *ei)
+        Evas_Object *obj, void *ei)
 {
 	MF_TRACE_BEGIN;
 	mf_retm_if(!data, "data is NULL");
 	evas_object_data_set((Evas_Object *)data, MF_CTXPOPUP_OBJ_ROTATE_KEY,
-			     (void*)true);
+	                     (void*)true);
 }
 
 static void __mf_ctxpopup_search_filter_rotate_cb(void *data, Evas_Object *obj, void *ei)
@@ -314,7 +314,7 @@ static void __mf_ctxpopup_search_filter_hide_cb(void *data, Evas_Object *obj, vo
 	struct appdata *ap = (struct appdata *)data;
 
 	bool ct_rotate = (bool)evas_object_data_get(obj,
-						    MF_CTXPOPUP_OBJ_ROTATE_KEY);
+	                 MF_CTXPOPUP_OBJ_ROTATE_KEY);
 	if (!ct_rotate) {
 		mf_debug("ctxpopup is dismissed");
 		evas_object_del(obj);
@@ -325,7 +325,7 @@ static void __mf_ctxpopup_search_filter_hide_cb(void *data, Evas_Object *obj, vo
 		/* when "dismissed" cb is called next time,
 		  * ctxpopup should be dismissed if device is not rotated. */
 		evas_object_data_set(obj, MF_CTXPOPUP_OBJ_ROTATE_KEY,
-				     (void*)false);
+		                     (void*)false);
 		/* If ctxpopup is not dismissed, then it must be shown again.
 		  * Otherwise "dismissed" cb will be called one more time. */
 		if (searchfilter_ctxpopup) {
@@ -343,7 +343,7 @@ static void __mf_ctxpopup_hide_cb(void *data, Evas_Object *obj, void *ei)
 	struct appdata *ap = (struct appdata *)data;
 
 	bool ct_rotate = (bool)evas_object_data_get(obj,
-						    MF_CTXPOPUP_OBJ_ROTATE_KEY);
+	                 MF_CTXPOPUP_OBJ_ROTATE_KEY);
 
 	if (!ct_rotate) {
 		mf_debug("ctxpopup is dismissed");
@@ -354,7 +354,7 @@ static void __mf_ctxpopup_hide_cb(void *data, Evas_Object *obj, void *ei)
 		/* when "dismissed" cb is called next time,
 		  * ctxpopup should be dismissed if device is not rotated. */
 		evas_object_data_set(obj, MF_CTXPOPUP_OBJ_ROTATE_KEY,
-				     (void*)false);
+		                     (void*)false);
 		/* If ctxpopup is not dismissed, then it must be shown again.
 		  * Otherwise "dismissed" cb will be called one more time. */
 		if (ap->mf_MainWindow.pContextPopup) {
@@ -392,16 +392,16 @@ static void __mf_ctxpopup_del_cb(void *data, Evas *e, Evas_Object *obj, void *ei
 	evas_object_data_del(ctxpopup, MF_CTXPOPUP_OBJ_MORE_BTN_KEY);
 	evas_object_data_del(ctxpopup, MF_CTXPOPUP_OBJ_ROTATE_KEY);
 	evas_object_smart_callback_del(ctxpopup, "dismissed",
-				       __mf_ctxpopup_hide_cb);
+	                               __mf_ctxpopup_hide_cb);
 	evas_object_event_callback_del(ap->mf_MainWindow.pWindow,
-				       EVAS_CALLBACK_RESIZE,
-				       __mf_ctxpopup_parent_resize_cb);
+	                               EVAS_CALLBACK_RESIZE,
+	                               __mf_ctxpopup_parent_resize_cb);
 
 	evas_object_smart_callback_del(elm_object_top_widget_get(ctxpopup),
-				       "rotation,changed",
-				       __mf_ctxpopup_rotate_cb);
+	                               "rotation,changed",
+	                               __mf_ctxpopup_rotate_cb);
 	evas_object_event_callback_del(ctxpopup, EVAS_CALLBACK_DEL,
-				       __mf_ctxpopup_del_cb);
+	                               __mf_ctxpopup_del_cb);
 	/*evas_object_smart_callback_del(ap->maininfo.naviframe,
 				       "ctxpopup,items,update",
 				       __mf_ctxpopup_items_update_cb);*/
@@ -419,16 +419,16 @@ static int __mf_ctxpopup_add_callbacks(void *data, Evas_Object *ctxpopup)
 	//evas_object_event_callback_del(ap->mf_MainWindow.pWindow, EVAS_CALLBACK_RESIZE, mf_ug_resize_more_ctxpopup_cb);
 	//evas_object_event_callback_add(ap->mf_MainWindow.pWindow, EVAS_CALLBACK_RESIZE, (Evas_Object_Event_Cb)mf_ug_resize_more_ctxpopup_cb, ap);
 	evas_object_smart_callback_add(ctxpopup, "dismissed",
-				       __mf_ctxpopup_hide_cb, data);
+	                               __mf_ctxpopup_hide_cb, data);
 	evas_object_smart_callback_add(elm_object_top_widget_get(ctxpopup),
-				       "rotation,changed",
-				       __mf_ctxpopup_rotate_cb, data);
+	                               "rotation,changed",
+	                               __mf_ctxpopup_rotate_cb, data);
 	evas_object_event_callback_add(ap->mf_MainWindow.pWindow,
-				       EVAS_CALLBACK_RESIZE,
-				       __mf_ctxpopup_parent_resize_cb,
-				       ctxpopup);
+	                               EVAS_CALLBACK_RESIZE,
+	                               __mf_ctxpopup_parent_resize_cb,
+	                               ctxpopup);
 	evas_object_event_callback_add(ctxpopup, EVAS_CALLBACK_DEL,
-				       __mf_ctxpopup_del_cb, data);
+	                               __mf_ctxpopup_del_cb, data);
 	/*evas_object_smart_callback_add(ap->mf_MainWindow.pWindow,
 				       "ctxpopup,items,update",
 				       __mf_ctxpopup_items_update_cb, ctxpopup);*/
@@ -451,9 +451,9 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 	elm_object_style_set(ctxpopup, "more/default");
 
 	elm_ctxpopup_direction_priority_set(ctxpopup, ELM_CTXPOPUP_DIRECTION_UP,
-					 ELM_CTXPOPUP_DIRECTION_UNKNOWN,
-					 ELM_CTXPOPUP_DIRECTION_UNKNOWN,
-					 ELM_CTXPOPUP_DIRECTION_UNKNOWN);
+	                                    ELM_CTXPOPUP_DIRECTION_UNKNOWN,
+	                                    ELM_CTXPOPUP_DIRECTION_UNKNOWN,
+	                                    ELM_CTXPOPUP_DIRECTION_UNKNOWN);
 	ap->mf_MainWindow.pContextPopup = ctxpopup;
 
 	if (ap->mf_Status.more == MORE_DEFAULT) {
@@ -475,22 +475,22 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 			//1 Setting
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_setting);
 		} else if (ap->mf_Status.view_type == mf_view_root_category) {
-                        //1 Search
-                        __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_search);
+			//1 Search
+			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_search);
 			if (ap->mf_Status.flagNoContent == EINA_FALSE) {
-                                //1 Share
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_share);
+				//1 Share
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_share);
 
-                                //1 Delete
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete);
-                                //1 Move
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_move);
-                                //1 Copy
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_copy);
-                                //1 Rename
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename);
-                                //1 Edit
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_edit);
+				//1 Delete
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete);
+				//1 Move
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_move);
+				//1 Copy
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_copy);
+				//1 Rename
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename);
+				//1 Edit
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_edit);
 			}
 			//1 View by
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_view_by);
@@ -514,7 +514,7 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 				ap->mf_Status.flagNoContent = EINA_TRUE;
 			}
 			//1 Search
-			 __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_search);
+			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_search);
 
 			if (ap->mf_Status.flagNoContent == EINA_FALSE) {
 				//1 Share
@@ -548,21 +548,21 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 					//1 Share
 					__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_share);
 				}
-                                //1 Delete
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete);
-                                //1 Move
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_move);
-                                //1 Copy
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_copy);
+				//1 Delete
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete);
+				//1 Move
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_move);
+				//1 Copy
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_copy);
 			}
 
 			if (ap->mf_Status.flagNoContent == EINA_FALSE) {
 				//1 Create
-							__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_new_folder);
-                                //1 Rename
-                                __mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename);
-                                //1 Edit
-                                //__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_edit);
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_new_folder);
+				//1 Rename
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_rename);
+				//1 Edit
+				//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_edit);
 
 				//1 View by
 				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_view_by);
@@ -571,9 +571,9 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 				//1 Details
 				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_details);
 
-			}else{
+			} else {
 				//1 View by
-								__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_view_by);
+				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_view_by);
 				//1 Sort by
 				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_sort_by);
 			}
@@ -583,13 +583,13 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 
 			//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_setting);
 		}
-	} else if (ap->mf_Status.more == MORE_SEARCH){
+	} else if (ap->mf_Status.more == MORE_SEARCH) {
 		if (ap->mf_Status.flagNoContent == EINA_FALSE) {
 			//delete
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_delete);
 			//1 Share
 			if (!(ap->mf_FileOperation.search_result_file_list == NULL ||
-					eina_list_count(ap->mf_FileOperation.search_result_file_list) == 0)) {
+			        eina_list_count(ap->mf_FileOperation.search_result_file_list) == 0)) {
 				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_share);
 			}
 			//1 Move
@@ -605,7 +605,7 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 		}
 
 	} else if (ap->mf_Status.more == MORE_EDIT) {
-	return;
+		return;
 		//1 Copy
 		//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_copy); //fix P130916-02998 by ray
 
@@ -614,14 +614,13 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 		//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_move); // fix P130916-02998  by ray
 
 	} else if (ap->mf_Status.more == MORE_INTERNAL_MOVE ||
-			ap->mf_Status.more == MORE_INTERNAL_COPY  ||
-			ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS) {
+	           ap->mf_Status.more == MORE_INTERNAL_COPY  ||
+	           ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS) {
 		//1 Create
 		__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_new_folder);
 	}
 
-	if (ctxpopup)
-	{
+	if (ctxpopup) {
 		__mf_ctxpopup_add_callbacks(ap, ctxpopup);
 	}
 	_move_more_ctxpopup(ap, ap->mf_MainWindow.pWindow, ctxpopup);
@@ -743,14 +742,14 @@ Evas_Object *mf_context_popup_search_filter(Evas_Object *parent, void *user_data
 	evas_object_show(ctxpopup);
 
 	evas_object_smart_callback_add(ctxpopup, "dismissed",
-		__mf_ctxpopup_search_filter_hide_cb, user_data);
+	                               __mf_ctxpopup_search_filter_hide_cb, user_data);
 	evas_object_smart_callback_add(elm_object_top_widget_get(ctxpopup),
-				       "rotation,changed",
-				       __mf_ctxpopup_search_filter_rotate_cb, ap);
+	                               "rotation,changed",
+	                               __mf_ctxpopup_search_filter_rotate_cb, ap);
 	evas_object_event_callback_add(ap->mf_MainWindow.pWindow,
-				       EVAS_CALLBACK_RESIZE,
-				       __mf_ctxpopup_parent_resize_cb,
-				       ctxpopup);
+	                               EVAS_CALLBACK_RESIZE,
+	                               __mf_ctxpopup_parent_resize_cb,
+	                               ctxpopup);
 
 	return ctxpopup;
 }

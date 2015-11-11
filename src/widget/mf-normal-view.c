@@ -172,9 +172,8 @@ void mf_normal_view_create(void *data)
 	} else if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
 		mf_navi_bar_title_content_set(ap, LABEL_RENAME);
-	}
-	else {
-		mf_navi_bar_title_content_set(ap,ap->mf_MainWindow.naviframe_title);
+	} else {
+		mf_navi_bar_title_content_set(ap, ap->mf_MainWindow.naviframe_title);
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
 	}
 	//mf_navi_bar_title_set(ap);

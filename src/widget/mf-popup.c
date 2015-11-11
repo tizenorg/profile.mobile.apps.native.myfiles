@@ -110,8 +110,9 @@ void mf_popup_ok_button_set(Evas_Object *obj)
 void mf_popup_entry_string_set(char *string)
 {
 	SAFE_FREE_CHAR(entry_string);
-	if (string)
+	if (string) {
 		entry_string = g_strdup(string);
+	}
 }
 
 char *mf_popup_entry_string_get()
@@ -206,14 +207,15 @@ static char *__mf_popup_view_as_genlist_label_get(void *data, Evas_Object * obj,
 }
 
 static void __gl_popup_viewby_radio_smart_cb(void *data,
-				       Evas_Object *obj,
-				       void *vi)
+        Evas_Object *obj,
+        void *vi)
 {
 	MF_TRACE_BEGIN;
 	mf_debug("radio show has finished by smart callback.");
 	ListByData_s *params = (ListByData_s *) data;
-	if (params == NULL)
+	if (params == NULL) {
 		return;
+	}
 	__mf_popup_view_as_genlist_change(params);
 	MF_TRACE_END;
 }
@@ -223,8 +225,9 @@ static void __gl_popup_viewby_radio_signal_cb(void *data, Evas_Object *obj, cons
 	MF_TRACE_BEGIN;
 	mf_debug("radio show has finished by signal callback.");
 	ListByData_s *params = (ListByData_s *) data;
-	if (params == NULL)
+	if (params == NULL) {
 		return;
+	}
 	__mf_popup_view_as_genlist_change(params);
 	MF_TRACE_END;
 }
@@ -250,7 +253,7 @@ static Evas_Object *__mf_popup_view_as_genlist_icon_get(void *data, Evas_Object 
 
 		evas_object_smart_callback_add(radio, "changed", __gl_popup_viewby_radio_smart_cb, params);
 		elm_object_signal_callback_add(radio, "elm,action,radio,toggle", "",
-				__gl_popup_viewby_radio_signal_cb, params);
+		                               __gl_popup_viewby_radio_signal_cb, params);
 		evas_object_show(radio);
 		return radio;
 	}
@@ -421,10 +424,10 @@ static void __mf_popup_progress_del_cb(void *data, Evas *e, Evas_Object *obj, vo
 	struct appdata *ap = (struct appdata *)data;
 
 	if (ap->mf_Status.more == MORE_SEARCH ||
-	    (ap->mf_Status.view_type == mf_view_root_category && ap->mf_Status.more != MORE_SEARCH)) {
-	    	if (ap->mf_Status.flagSearchStart) {
+	        (ap->mf_Status.view_type == mf_view_root_category && ap->mf_Status.more != MORE_SEARCH)) {
+		if (ap->mf_Status.flagSearchStart) {
 			//mf_search_bar_stop(ap);
-	    	}
+		}
 	}
 	if (mf_progress_bar_timer != NULL) {
 		ecore_timer_del(mf_progress_bar_timer);
@@ -457,7 +460,7 @@ static void __mf_popup_normal_del_cb(void *data, Evas *e, Evas_Object *obj, void
 		SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
 	}
 	if (ap->mf_MainWindow.pPopupBox) {
-			SAFE_FREE_OBJ(ap->mf_MainWindow.pPopupBox);
+		SAFE_FREE_OBJ(ap->mf_MainWindow.pPopupBox);
 	}
 	if (ap->mf_MainWindow.pDeleteConfirmPopup) {
 		SAFE_FREE_OBJ(ap->mf_MainWindow.pDeleteConfirmPopup);
@@ -631,13 +634,13 @@ Evas_Object *mf_popup_entry_create(Evas_Object *parent)
 	eext_entry_selection_back_event_allow_set(en, EINA_TRUE);
 	elm_entry_scrollable_set(en, EINA_TRUE);
 	elm_scroller_policy_set(en, ELM_SCROLLER_POLICY_OFF,
-						ELM_SCROLLER_POLICY_AUTO);
+	                        ELM_SCROLLER_POLICY_AUTO);
 	elm_object_signal_emit(en, "elm,action,hide,search_icon", "");
 	elm_object_part_text_set(en, "elm.guide", "");
 
 	elm_entry_single_line_set(en, EINA_TRUE);
 	evas_object_size_hint_weight_set(en, EVAS_HINT_EXPAND,
-					 EVAS_HINT_EXPAND);
+	                                 EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(en, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	elm_entry_prediction_allow_set(en, EINA_FALSE);
 	evas_object_show(en);
@@ -814,20 +817,20 @@ Evas_Object *mf_popup_create_rename_popup(void *data, char *context)
 	elm_object_signal_emit(en, "elm,action,hide,search_icon", "");
 
 	Evas_Object *btn1 = mf_object_create_button(popup,
-						    NULL, //"popup_button/default",
-						    LABEL_CANCEL,
-						    NULL,
-						    (Evas_Smart_Cb)rename_cancel_cb,
-						    rename_cancel_params,
-						    EINA_FALSE);
+	                    NULL, //"popup_button/default",
+	                    LABEL_CANCEL,
+	                    NULL,
+	                    (Evas_Smart_Cb)rename_cancel_cb,
+	                    rename_cancel_params,
+	                    EINA_FALSE);
 
 	Evas_Object *btn2 = mf_object_create_button(popup,
-						    NULL, //"popup_button/default",
-						     LABEL_RENAME,//Change MF_LABEL_DONE to MF_BUTTON_LABEL_OK for fixing(P131029-02752).
-						    NULL,
-						    (Evas_Smart_Cb)mf_callback_rename_save_cb,
-						    rename_save_params,
-						    EINA_FALSE);
+	                    NULL, //"popup_button/default",
+	                    LABEL_RENAME,//Change MF_LABEL_DONE to MF_BUTTON_LABEL_OK for fixing(P131029-02752).
+	                    NULL,
+	                    (Evas_Smart_Cb)mf_callback_rename_save_cb,
+	                    rename_save_params,
+	                    EINA_FALSE);
 	ok_button = btn2;
 
 	elm_object_part_content_set(popup, "button1", btn1);
@@ -856,8 +859,8 @@ Evas_Object *mf_popup_create_new_folder_popup(void *data, char *context)
 	popup = elm_popup_add(ap->mf_MainWindow.pMainLayout);
 	elm_object_signal_emit(popup, "elm,action,center_popup,entry", "");
 
-	 Evas_Object *layout = mf_popup_entry_layout_create(popup);
-	 elm_object_content_set(popup, layout);
+	Evas_Object *layout = mf_popup_entry_layout_create(popup);
+	elm_object_content_set(popup, layout);
 
 	Evas_Object *en = NULL;
 	en = mf_popup_entry_create(layout);
@@ -878,26 +881,26 @@ Evas_Object *mf_popup_create_new_folder_popup(void *data, char *context)
 	elm_entry_input_panel_return_key_type_set(en, ELM_INPUT_PANEL_RETURN_KEY_TYPE_DONE);
 
 	Evas_Object *btn1 = mf_object_create_button(popup,
-						    NULL, //"popup_button/default",
-						    LABEL_CANCEL,
-						    NULL,
-						    (Evas_Smart_Cb)__mf_popup_new_folder_cancel_cb,
-						    ap,
-						    EINA_FALSE);
+	                    NULL, //"popup_button/default",
+	                    LABEL_CANCEL,
+	                    NULL,
+	                    (Evas_Smart_Cb)__mf_popup_new_folder_cancel_cb,
+	                    ap,
+	                    EINA_FALSE);
 	Evas_Object *btn2 = mf_object_create_button(popup,
-						    NULL, //"popup_button/default",
-						    MF_LABEL_CREATE,//Change MF_LABEL_DONE to MF_BUTTON_LABEL_OK for fixing(P131029-02752).
-						    NULL,
-						    (Evas_Smart_Cb)mf_callback_new_folder_save_cb,
-						    ap,
-						    EINA_FALSE);
+	                    NULL, //"popup_button/default",
+	                    MF_LABEL_CREATE,//Change MF_LABEL_DONE to MF_BUTTON_LABEL_OK for fixing(P131029-02752).
+	                    NULL,
+	                    (Evas_Smart_Cb)mf_callback_new_folder_save_cb,
+	                    ap,
+	                    EINA_FALSE);
 	ok_button = btn2;
 
 	elm_object_part_content_set(popup, "button1", btn1);
 	elm_object_part_content_set(popup, "button2", btn2);
 	mf_object_text_set(popup, context, "title,text");
 
-	elm_object_part_content_set(layout,"elm.swallow.content", en);
+	elm_object_part_content_set(layout, "elm.swallow.content", en);
 
 	evas_object_show(popup);
 	evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, mf_popup_new_folder_del_cb, ap);
@@ -931,11 +934,11 @@ progressbar_timer_cb(void *data)
 }*/
 
 Evas_Object *mf_popup_center_processing(void *data,
-				   const char *context,
-				   const char *first_btn_text,
-				   Evas_Smart_Cb func,
-				   void *param,
-				   Eina_Bool flag_backwork)
+                                        const char *context,
+                                        const char *first_btn_text,
+                                        Evas_Smart_Cb func,
+                                        void *param,
+                                        Eina_Bool flag_backwork)
 {
 	mf_error("==================================");
 	Evas_Object *popup;
@@ -1011,64 +1014,64 @@ Evas_Object *mf_popup_center_processing(void *data,
 }
 
 Evas_Object *mf_popup_text(void *data,
-				   const char *context, Evas_Object_Event_Cb func,
-				   void *param)
+                           const char *context, Evas_Object_Event_Cb func,
+                           void *param)
 {
-		mf_error("==================================");
-		Evas_Object *popup;
-		struct appdata *ap;
+	mf_error("==================================");
+	Evas_Object *popup;
+	struct appdata *ap;
 
-		ap = (struct appdata *) data;
-		popup = elm_popup_add(ap->mf_MainWindow.pMainLayout);
+	ap = (struct appdata *) data;
+	popup = elm_popup_add(ap->mf_MainWindow.pMainLayout);
 
-		Evas_Object *box = elm_box_add(popup);
-		elm_box_horizontal_set(box, EINA_TRUE);
-		evas_object_size_hint_weight_set(box, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-		evas_object_size_hint_align_set(box, EVAS_HINT_FILL, EVAS_HINT_FILL);
-		elm_box_align_set(box, 0.5, 0.5);
-		elm_box_padding_set(box, 16, 0);
+	Evas_Object *box = elm_box_add(popup);
+	elm_box_horizontal_set(box, EINA_TRUE);
+	evas_object_size_hint_weight_set(box, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	evas_object_size_hint_align_set(box, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	elm_box_align_set(box, 0.5, 0.5);
+	elm_box_padding_set(box, 16, 0);
 
-		// [UI] progress icon
-		Evas_Object *progressbar = elm_progressbar_add(popup);
-		elm_object_style_set(progressbar, "process_large");/* "toolbar_process" or "pending_list" or "list_prosess" */
-		//evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, 0.5);
-		//evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-		elm_progressbar_pulse(progressbar, EINA_TRUE);
-		evas_object_show(progressbar);
-		elm_box_pack_end(box, progressbar);
+	// [UI] progress icon
+	Evas_Object *progressbar = elm_progressbar_add(popup);
+	elm_object_style_set(progressbar, "process_large");/* "toolbar_process" or "pending_list" or "list_prosess" */
+	//evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, 0.5);
+	//evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	elm_progressbar_pulse(progressbar, EINA_TRUE);
+	evas_object_show(progressbar);
+	elm_box_pack_end(box, progressbar);
 
-		// [UI] text
-		Evas_Object *label = elm_label_add(popup);
-		//elm_object_text_set(label, context);/* "Loading..." */
-		mf_object_text_set(label, context, NULL);
-		evas_object_show(label);
-		elm_box_pack_end(box, label);
+	// [UI] text
+	Evas_Object *label = elm_label_add(popup);
+	//elm_object_text_set(label, context);/* "Loading..." */
+	mf_object_text_set(label, context, NULL);
+	evas_object_show(label);
+	elm_box_pack_end(box, label);
 
 
-		// [UI] add table
-		Evas_Object *table = elm_table_add(popup);
-		evas_object_show(table);
-		elm_table_homogeneous_set(table, EINA_FALSE);
+	// [UI] add table
+	Evas_Object *table = elm_table_add(popup);
+	evas_object_show(table);
+	elm_table_homogeneous_set(table, EINA_FALSE);
 
-		Evas_Object *rect_up;// rect as a padding
-		rect_up = evas_object_rectangle_add(evas_object_evas_get(popup));
-		evas_object_size_hint_min_set(rect_up, ELM_SCALE_SIZE(100), ELM_SCALE_SIZE(20));
+	Evas_Object *rect_up;// rect as a padding
+	rect_up = evas_object_rectangle_add(evas_object_evas_get(popup));
+	evas_object_size_hint_min_set(rect_up, ELM_SCALE_SIZE(100), ELM_SCALE_SIZE(20));
 
-		Evas_Object *rect_down;// rect as a padding
-		rect_down = evas_object_rectangle_add(evas_object_evas_get(popup));
-		evas_object_size_hint_min_set(rect_down, ELM_SCALE_SIZE(100), ELM_SCALE_SIZE(20));
+	Evas_Object *rect_down;// rect as a padding
+	rect_down = evas_object_rectangle_add(evas_object_evas_get(popup));
+	evas_object_size_hint_min_set(rect_down, ELM_SCALE_SIZE(100), ELM_SCALE_SIZE(20));
 
-		// box
-		elm_table_pack(table, rect_up, 0, 0, 2, 1);// rect as a padding
-		elm_table_pack(table, box, 0, 1, 2, 1);
-		elm_table_pack(table, rect_down, 0, 2, 2, 1);// rect as a padding
-		evas_object_show(box);
-		elm_object_content_set(popup, table);
-		eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
+	// box
+	elm_table_pack(table, rect_up, 0, 0, 2, 1);// rect as a padding
+	elm_table_pack(table, box, 0, 1, 2, 1);
+	elm_table_pack(table, rect_down, 0, 2, 2, 1);// rect as a padding
+	evas_object_show(box);
+	elm_object_content_set(popup, table);
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 
-		evas_object_show(popup);
-		evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, (Evas_Object_Event_Cb)func, param);
-		return popup;
+	evas_object_show(popup);
+	evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, (Evas_Object_Event_Cb)func, param);
+	return popup;
 }
 
 /******************************
@@ -1107,10 +1110,11 @@ static Evas_Object *__mf_popup_sort_by_box_set(Evas_Object *parent, Evas_Object 
 	//pos = elm_win_rotation_get(mf_get_appdata()->mf_MainWindow.pWindow);
 
 	int max_item_num = item_cnt;
-	if (max_item_num > ITEM_MAX_COUNT)
+	if (max_item_num > ITEM_MAX_COUNT) {
 		max_item_num = ITEM_MAX_COUNT;
+	}
 	evas_object_size_hint_min_set(box, -1,
-					ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(max_item_num)));
+	                              ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(max_item_num)));
 
 	evas_object_show(content);
 	elm_box_pack_end(box, content);
@@ -1126,10 +1130,11 @@ static Evas_Object *__mf_popup_box_set(Evas_Object *parent, Evas_Object *content
 	evas_object_size_hint_weight_set(box, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
 	int max_item_num = item_cnt;
-	if (max_item_num > ITEM_MAX_COUNT)
+	if (max_item_num > ITEM_MAX_COUNT) {
 		max_item_num = ITEM_MAX_COUNT;
+	}
 	evas_object_size_hint_min_set(box, ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_WIDTH),
-					ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(max_item_num)));
+	                              ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(max_item_num)));
 
 	evas_object_show(content);
 	elm_box_pack_end(box, content);
@@ -1141,10 +1146,10 @@ int g_popup_item_index = 0;
 
 void
 mf_elm_popup_item_append(Evas_Object *obj,
-                      const char *label,
-                      Evas_Object *icon,
-                      Evas_Smart_Cb func,
-                      const void *data)
+                         const char *label,
+                         Evas_Object *icon,
+                         Evas_Smart_Cb func,
+                         const void *data)
 {
 	struct appdata * ap = (struct appdata *) mf_get_appdata();
 	Elm_Object_Item *it = NULL;
@@ -1155,7 +1160,7 @@ mf_elm_popup_item_append(Evas_Object *obj,
 		item_data->ap = ap;
 		item_data->title = g_strdup(label);
 		it = elm_genlist_item_append(obj, ap->mf_gl_style.popup_itc, (void *)item_data, NULL,
-						 ELM_GENLIST_ITEM_NONE, func, data);
+		                             ELM_GENLIST_ITEM_NONE, func, data);
 
 		item_data->item = it;
 
@@ -1211,46 +1216,46 @@ static void __mf_popup_operation_items_generate(void *data, Evas_Object *genlist
 
 	if (ap->mf_Status.more == MORE_SEARCH) {
 		{
-				if (item_data->file_type == FILE_TYPE_DIR) {
-					//1 Delete
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
+			if (item_data->file_type == FILE_TYPE_DIR) {
+				//1 Delete
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
 
-					//1 Rename
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
+				//1 Rename
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
 
-					//1 Move
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
+				//1 Move
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
 
-					//1 Copy
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
+				//1 Copy
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
 
-					//1 Details
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
-				}else {
-					//1 Go to folder
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_goto_folder);
+				//1 Details
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+			} else {
+				//1 Go to folder
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_goto_folder);
 
-					//1 Share
-					{
-						__mf_popup_operation_item_create(genlist, data, mf_operation_item_share);
-					}
-
-
-					//1 Delete
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
-
-					//1 Rename
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
-
-					//1 Move
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
-
-					//1 Copy
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
-
-					//1 Details
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+				//1 Share
+				{
+					__mf_popup_operation_item_create(genlist, data, mf_operation_item_share);
 				}
+
+
+				//1 Delete
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
+
+				//1 Rename
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
+
+				//1 Move
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
+
+				//1 Copy
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
+
+				//1 Details
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+			}
 		}
 	} else if (ap->mf_Status.view_type == mf_view_root) {
 		switch (type) {
@@ -1305,47 +1310,47 @@ static void __mf_popup_operation_items_generate(void *data, Evas_Object *genlist
 		}
 
 	} else {
-			if (item_data->file_type == FILE_TYPE_DIR) {
+		if (item_data->file_type == FILE_TYPE_DIR) {
 
-				//1 Delete
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
+			//1 Delete
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
 
-				//1 Rename
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
+			//1 Rename
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
 
-				//1 Move
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
+			//1 Move
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
 
-				//1 Copy
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
+			//1 Copy
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
 
-				//1 Compress
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_compress);
+			//1 Compress
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_compress);
 
-				//1 Details
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
-			} else {
-				//1 Share
-				{
-					__mf_popup_operation_item_create(genlist, data, mf_operation_item_share);
-				}
-
-
-				//1 Delete
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
-
-				//1 Rename
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
-
-				//1 Move
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
-
-				//1 Copy
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
-
-				//1 Details
-				__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+			//1 Details
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+		} else {
+			//1 Share
+			{
+				__mf_popup_operation_item_create(genlist, data, mf_operation_item_share);
 			}
+
+
+			//1 Delete
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_delete);
+
+			//1 Rename
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_rename);
+
+			//1 Move
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_move);
+
+			//1 Copy
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_copy);
+
+			//1 Details
+			__mf_popup_operation_item_create(genlist, data, mf_operation_item_details);
+		}
 	}
 	MF_TRACE_END;
 }
@@ -1395,7 +1400,7 @@ static Evas_Object *__mf_popup_genlist_icon_get(void *data, Evas_Object * obj, c
 		elm_radio_value_set(radio, ap->mf_Status.iRadioValue);
 
 		/* elm_object_signal_callback_add(radio, "elm,action,show,finished", "elm", */
-						/* __gl_popup_viewby_radio_cb, params); */
+		/* __gl_popup_viewby_radio_cb, params); */
 
 		evas_object_show(radio);
 		return radio;
@@ -1416,10 +1421,10 @@ Evas_Object *mf_popup_create_operation_item_pop(void *data)
 	char *title = NULL;
 
 	if (item_data->list_type == mf_list_normal
-	    || item_data->list_type == mf_list_recent_files) {
+	        || item_data->list_type == mf_list_recent_files) {
 		if (item_data->storage_type == MYFILE_PHONE
-		    || item_data->storage_type == MYFILE_MMC
-		) {
+		        || item_data->storage_type == MYFILE_MMC
+		   ) {
 			if (!mf_file_exists(((mfItemData_s *)item_data)->m_ItemName->str)) {
 				mf_popup_indicator_popup(NULL, mf_util_get_text(MF_LABEL_FILE_NOT_EXIST));
 				elm_object_item_del(item_data->item);
@@ -1450,18 +1455,18 @@ Evas_Object *mf_popup_create_operation_item_pop(void *data)
 		return NULL;
 	}
 
-	elm_object_style_set(popup,"indicator_norepeatevent");
+	elm_object_style_set(popup, "indicator_norepeatevent");
 	elm_object_focus_set(popup, EINA_FALSE);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
 	if (title) {
-			mf_object_text_set(popup, title, "title,text");//Fixed P140321-05456 by jian12.li
-			/*char *temp_utf8 = elm_entry_utf8_to_markup(title);
-			  if (temp_utf8) {
-			  elm_object_part_text_set(popup, "title,text", temp_utf8);
-			  free(temp_utf8);
-			  }*/
-			SAFE_FREE_CHAR(title);
+		mf_object_text_set(popup, title, "title,text");//Fixed P140321-05456 by jian12.li
+		/*char *temp_utf8 = elm_entry_utf8_to_markup(title);
+		  if (temp_utf8) {
+		  elm_object_part_text_set(popup, "title,text", temp_utf8);
+		  free(temp_utf8);
+		  }*/
+		SAFE_FREE_CHAR(title);
 	}
 
 	//elm_object_style_set(popup,"content_no_vhpad");
@@ -1522,7 +1527,7 @@ Evas_Object *mf_popup_create_operation_item_pop(void *data)
 	return popup;
 }
 #endif
-Evas_Object *mf_popup_share_as_video_or_image(void *func_for_video,void *func_for_image, void *data)
+Evas_Object *mf_popup_share_as_video_or_image(void *func_for_video, void *func_for_image, void *data)
 {
 	MF_TRACE_BEGIN
 	mfItemData_s *item_data = (mfItemData_s *)data;
@@ -1533,13 +1538,13 @@ Evas_Object *mf_popup_share_as_video_or_image(void *func_for_video,void *func_fo
 	Evas_Object *popup = NULL;
 	popup = elm_popup_add(ap->mf_MainWindow.pWindow);
 	mf_retvm_if(popup == NULL, NULL, "popup is NULL");
-	elm_object_style_set(popup,"indicator_norepeatevent");
+	elm_object_style_set(popup, "indicator_norepeatevent");
 	elm_object_focus_set(popup, EINA_FALSE);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_object_part_text_set(popup, "title,text", mf_util_get_text(MF_LABEL_SHARE_SOUND_AND_SHOT_PICS));
 
-	elm_popup_item_append(popup,mf_util_get_text(MF_LABEL_SHARE_AS_VIDEO_FILES), NULL, func_for_video, data);
-	elm_popup_item_append(popup,mf_util_get_text(MF_LABEL_SHARE_AS_IMAGE_FILES) , NULL, func_for_image, data);
+	elm_popup_item_append(popup, mf_util_get_text(MF_LABEL_SHARE_AS_VIDEO_FILES), NULL, func_for_video, data);
+	elm_popup_item_append(popup, mf_util_get_text(MF_LABEL_SHARE_AS_IMAGE_FILES) , NULL, func_for_image, data);
 	evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, (Evas_Object_Event_Cb)__mf_popup_longpress_del_cb, ap);
 	evas_object_smart_callback_add(popup, "block,clicked", (Evas_Smart_Cb)__mf_popup_block_clicked_cb, NULL);
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
@@ -1642,7 +1647,7 @@ void mf_popup_del_by_timeout(void *data, Evas_Object *obj, void *event_info)
 }*/
 
 Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, const char *context, const char *first_btn_text, const char *second_btn_text,
-				   const char *third_btn_text, Evas_Smart_Cb func, void *param)
+                                   const char *third_btn_text, Evas_Smart_Cb func, void *param)
 {
 	MF_TRACE_BEGIN;
 	Evas_Object *popup = NULL;
@@ -1653,7 +1658,7 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 	Evas_Object *btn1 = NULL;
 	Evas_Object *btn2 = NULL;
 	int index = 0;
-	int listby_selected= 0;
+	int listby_selected = 0;
 	ap = (struct appdata *)data;
 	mf_retvm_if(ap == NULL, NULL, "ap is NULL");
 
@@ -1678,7 +1683,7 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 		elm_popup_timeout_set(popup, 3);
 		if (func != NULL) {
 			evas_object_smart_callback_add(popup, "timeout", (Evas_Smart_Cb)func, param);
-		}else{
+		} else {
 			evas_object_smart_callback_add(popup, "timeout", (Evas_Smart_Cb)mf_popup_del_by_timeout, ap);
 		}
 		break;
@@ -1691,19 +1696,19 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 	case POPMODE_TEXT_TWO_BTN:
 	case POPMODE_TITLE_TEXT_TWO_BTN:
 		btn1 = mf_object_create_button(popup,
-						NULL, //"popup_button/default",
-						first_btn_text,
-						NULL,
-						(Evas_Smart_Cb)func,
-						param,
-						EINA_FALSE);
+		                               NULL, //"popup_button/default",
+		                               first_btn_text,
+		                               NULL,
+		                               (Evas_Smart_Cb)func,
+		                               param,
+		                               EINA_FALSE);
 		btn2 = mf_object_create_button(popup,
-						NULL, //"popup_button/default",
-						second_btn_text,
-						NULL,
-						(Evas_Smart_Cb)func,
-						param,
-						EINA_FALSE);
+		                               NULL, //"popup_button/default",
+		                               second_btn_text,
+		                               NULL,
+		                               (Evas_Smart_Cb)func,
+		                               param,
+		                               EINA_FALSE);
 		elm_object_part_content_set(popup, "button1", btn1);
 		elm_object_part_content_set(popup, "button2", btn2);
 		break;
@@ -1711,12 +1716,12 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 	case POPMODE_TEXT_BTN:
 	case POPMODE_TITLE_TEXT_BTN:
 		btn1 = mf_object_create_button(popup,
-						NULL, //"popup_button/default",
-						first_btn_text,
-						NULL,
-						(Evas_Smart_Cb)func,
-						param,
-						EINA_FALSE);
+		                               NULL, //"popup_button/default",
+		                               first_btn_text,
+		                               NULL,
+		                               (Evas_Smart_Cb)func,
+		                               param,
+		                               EINA_FALSE);
 		elm_object_focus_set(btn1, EINA_TRUE);
 		elm_object_part_content_set(popup, "button1", btn1);
 		break;
@@ -1751,13 +1756,14 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 		for (index = 0; index < 2; index++) {
 			Elm_Object_Item *it = NULL;
 			ListByData_s *item_data = calloc(sizeof(ListByData_s), sizeof(char));
-			if (item_data == NULL)
+			if (item_data == NULL) {
 				continue;
+			}
 			memset(item_data, 0x00, sizeof(ListByData_s));
 			item_data->index = index;
 			item_data->ap = ap;
 			it = elm_genlist_item_append(genlist, ap->mf_gl_style.listby_itc, (void *)item_data, NULL,
-						     ELM_GENLIST_ITEM_NONE, __mf_popup_view_as_genlist_select, popup);
+			                             ELM_GENLIST_ITEM_NONE, __mf_popup_view_as_genlist_select, popup);
 			item_data->item = it;
 			evas_object_smart_callback_add(genlist, "language,changed", mf_genlist_gl_lang_changed, item_data);
 		}
@@ -1814,19 +1820,19 @@ Evas_Object *mf_popup_create_delete_confirm_popup(void *data, char *title, const
 	}
 
 	btn1 = mf_object_create_button(popup,
-					NULL, //"popup_button/default",
-					first_btn_text,
-					NULL,
-					(Evas_Smart_Cb)func,
-					param,
-					EINA_FALSE);
+	                               NULL, //"popup_button/default",
+	                               first_btn_text,
+	                               NULL,
+	                               (Evas_Smart_Cb)func,
+	                               param,
+	                               EINA_FALSE);
 	btn2 = mf_object_create_button(popup,
-					NULL, //"popup_button/default",
-					second_btn_text,
-					NULL,
-					(Evas_Smart_Cb)func,
-					param,
-					EINA_FALSE);
+	                               NULL, //"popup_button/default",
+	                               second_btn_text,
+	                               NULL,
+	                               (Evas_Smart_Cb)func,
+	                               param,
+	                               EINA_FALSE);
 	elm_object_part_content_set(popup, "button1", btn1);
 	elm_object_part_content_set(popup, "button2", btn2);
 	evas_object_show(popup);
@@ -1864,12 +1870,12 @@ Evas_Object *mf_popup_warning_popup_create(void *data, Evas_Object *parent, char
 	}
 
 	btn1 = mf_object_create_button(second_popup,
-					NULL, //"popup_button/default",
-					btn_text,
-					NULL,
-					(Evas_Smart_Cb)func,
-					param,
-					EINA_FALSE);
+	                               NULL, //"popup_button/default",
+	                               btn_text,
+	                               NULL,
+	                               (Evas_Smart_Cb)func,
+	                               param,
+	                               EINA_FALSE);
 	elm_object_part_content_set(second_popup, "button1", btn1);
 	evas_object_show(second_popup);
 	evas_object_event_callback_add(second_popup, EVAS_CALLBACK_DEL, __mf_popup_second_popup_del_cb, ap);
@@ -1905,12 +1911,12 @@ Evas_Object *mf_popup_second_popup_create(void *data, Evas_Object *parent, const
 	}
 
 	btn1 = mf_object_create_button(second_popup,
-					NULL, //"popup_button/default",
-					btn_text,
-					NULL,
-					(Evas_Smart_Cb)func,
-					param,
-					EINA_FALSE);
+	                               NULL, //"popup_button/default",
+	                               btn_text,
+	                               NULL,
+	                               (Evas_Smart_Cb)func,
+	                               param,
+	                               EINA_FALSE);
 	elm_object_focus_set(btn1, EINA_TRUE);
 	elm_object_part_content_set(second_popup, "button1", btn1);
 	evas_object_show(second_popup);
@@ -1931,8 +1937,9 @@ void mf_popup_indicator_popup(void *data, const char *text)
 	mf_retm_if(text == NULL, "text is NULL");
 	char *notification = mf_util_get_text(text);
 	int ret = notification_status_message_post(notification);
-	if (notification != NULL)
+	if (notification != NULL) {
 		mf_debug("indicator popup message : %s", notification);
+	}
 
 	mf_debug("notification_status_message_post()... [0x%x]!", ret);
 	if (ret != 0) {
@@ -1958,8 +1965,7 @@ static void _go_check_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 	Eina_Bool state = elm_check_state_get(obj);
 	if (state) {
 		elm_object_signal_emit(obj, "elm,activate,check,off", "elm");
-	}
-	else {
+	} else {
 		elm_object_signal_emit(obj, "elm,activate,check,on", "elm");
 	}
 
@@ -1967,13 +1973,13 @@ static void _go_check_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 }
 
 Evas_Object *mf_popup_check_view_popup(void *data,
-	const char *title,
-	const char *text,
-	const char *check_text,
-	const char *first_btn_text,
-	const char *second_btn_text,
-	Evas_Smart_Cb func,
-	void *param)
+                                       const char *title,
+                                       const char *text,
+                                       const char *check_text,
+                                       const char *first_btn_text,
+                                       const char *second_btn_text,
+                                       Evas_Smart_Cb func,
+                                       void *param)
 {
 	Evas_Object *popup;
 	Evas_Object *layout;
@@ -1991,7 +1997,7 @@ Evas_Object *mf_popup_check_view_popup(void *data,
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	if (title) {
-			mf_object_text_set(popup, title, "title,text");
+		mf_object_text_set(popup, title, "title,text");
 	}
 	/* layout */
 	layout = elm_layout_add(popup);
@@ -2037,22 +2043,22 @@ Evas_Object *mf_popup_check_view_popup(void *data,
 	evas_object_show(popup);
 	if (first_btn_text && func) {
 		btn1 = mf_object_create_button(popup,
-						"popup_button/default",
-						first_btn_text,
-						NULL,
-						(Evas_Smart_Cb)func,
-						param,
-						EINA_FALSE);
+		                               "popup_button/default",
+		                               first_btn_text,
+		                               NULL,
+		                               (Evas_Smart_Cb)func,
+		                               param,
+		                               EINA_FALSE);
 		elm_object_part_content_set(popup, "button1", btn1);
 	}
 	if (second_btn_text && func) {
 		btn2 = mf_object_create_button(popup,
-						"popup_button/default",
-						second_btn_text,
-						NULL,
-						(Evas_Smart_Cb)func,
-						param,
-						EINA_FALSE);
+		                               "popup_button/default",
+		                               second_btn_text,
+		                               NULL,
+		                               (Evas_Smart_Cb)func,
+		                               param,
+		                               EINA_FALSE);
 		elm_object_part_content_set(popup, "button2", btn2);
 	}
 	evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, __mf_popup_normal_del_cb, ap);
@@ -2064,8 +2070,9 @@ Evas_Object *mf_popup_check_view_popup(void *data,
 void
 __mf_popup_view_as_genlist_change(ListByData_s *params)
 {
-	if (params == NULL)
+	if (params == NULL) {
 		return;
+	}
 
 	elm_radio_value_set(params->ap->mf_Status.pRadioGroup, params->index);
 	int iViewAsType = __mf_popup_get_view_as_type(params->index);
@@ -2200,9 +2207,9 @@ static Evas_Object *__mf_sort_by_gl_icon(void *data, Evas_Object * obj, const ch
 		//evas_object_propagate_events_set(radio, EINA_FALSE);
 		elm_object_signal_emit(radio, "elm,event,pass,enabled", "elm");
 		evas_object_size_hint_align_set(radio,
-					EVAS_HINT_FILL, EVAS_HINT_FILL);
+		                                EVAS_HINT_FILL, EVAS_HINT_FILL);
 		evas_object_size_hint_weight_set(radio,
-					EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+		                                 EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
 		elm_layout_content_set(layout, "elm.swallow.content", radio);
 		evas_object_show(radio);
@@ -2347,9 +2354,9 @@ static void __mf_check_clicked_cb(void *data, Evas_Object *obj, void *event_info
 
 	struct appdata *ap = mf_get_appdata();
 	if (elm_check_state_get(obj)) {
-		ap->mf_Status.check=1;
+		ap->mf_Status.check = 1;
 	} else {
-		ap->mf_Status.check=0;
+		ap->mf_Status.check = 0;
 	}
 
 	MF_TRACE_END;
@@ -2371,7 +2378,7 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	Evas_Object *popup = elm_popup_add(ap->mf_MainWindow.pWindow);
 	mf_retvm_if(popup == NULL, NULL, "POPUP is NULL");
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
-	ap->mf_Status.check=0;
+	ap->mf_Status.check = 0;
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	mf_object_text_set(popup, title, "title,text");
 	/* layout */
@@ -2405,26 +2412,26 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	Evas_Object *btn2 = NULL;
 	Evas_Object *btn3 = NULL;
 	btn1 = mf_object_create_button(popup,
-					NULL,
-					MF_POPUP_BUTTON_CANCEL,
-					NULL,
-					(Evas_Smart_Cb)func1,
-					ap,
-					EINA_FALSE);
+	                               NULL,
+	                               MF_POPUP_BUTTON_CANCEL,
+	                               NULL,
+	                               (Evas_Smart_Cb)func1,
+	                               ap,
+	                               EINA_FALSE);
 	btn2 = mf_object_create_button(popup,
-					NULL,
-					MF_LABEL_REPLACE,
-					NULL,
-					(Evas_Smart_Cb)func2,
-					param,
-					EINA_FALSE);
+	                               NULL,
+	                               MF_LABEL_REPLACE,
+	                               NULL,
+	                               (Evas_Smart_Cb)func2,
+	                               param,
+	                               EINA_FALSE);
 	btn3 = mf_object_create_button(popup,
-							NULL,
-							LABEL_RENAME,
-							NULL,
-							(Evas_Smart_Cb)func3,
-							param,
-							EINA_FALSE);
+	                               NULL,
+	                               LABEL_RENAME,
+	                               NULL,
+	                               (Evas_Smart_Cb)func3,
+	                               param,
+	                               EINA_FALSE);
 	elm_object_part_content_set(popup, "button1", btn1);
 	elm_object_part_content_set(popup, "button2", btn2);
 	elm_object_part_content_set(popup, "button3", btn3);
@@ -2487,15 +2494,15 @@ Evas_Object *mf_popup_sort_by_create(char *title, Evas_Smart_Cb func, void *para
 	//Elm_Object_Item *it = NULL;
 	for (index = 0; index < 4; index++) {
 		elm_genlist_item_append(genlist, ap->mf_gl_style.listby_itc, (void *)index, NULL,
-						 ELM_GENLIST_ITEM_NONE, __mf_sort_by_gl_select, (void *)index);
+		                        ELM_GENLIST_ITEM_NONE, __mf_sort_by_gl_select, (void *)index);
 
 	}
 
 	elm_genlist_item_append(genlist, ap->mf_gl_style.order_itc, NULL, NULL,
-					 ELM_GENLIST_ITEM_NONE, NULL, NULL);
+	                        ELM_GENLIST_ITEM_NONE, NULL, NULL);
 	for (index = 4; index < 6; index++) {
 		elm_genlist_item_append(genlist, ap->mf_gl_style.listby_itc, (void *)index, NULL,
-						 ELM_GENLIST_ITEM_NONE, __mf_sort_by_gl_select, (void *)index);
+		                        ELM_GENLIST_ITEM_NONE, __mf_sort_by_gl_select, (void *)index);
 	}
 	box = __mf_popup_sort_by_box_set(popup, genlist, 6);
 	ap->mf_MainWindow.pPopupBox = box;
@@ -2506,19 +2513,19 @@ Evas_Object *mf_popup_sort_by_create(char *title, Evas_Smart_Cb func, void *para
 	Evas_Object *btn1 = NULL;
 	Evas_Object *btn2 = NULL;
 	btn1 = mf_object_create_button(popup,
-					"popup",
-					LABEL_CANCEL,
-					NULL,
-					(Evas_Smart_Cb)__mf_sort_by_button_cb,
-					ap,
-					EINA_FALSE);
+	                               "popup",
+	                               LABEL_CANCEL,
+	                               NULL,
+	                               (Evas_Smart_Cb)__mf_sort_by_button_cb,
+	                               ap,
+	                               EINA_FALSE);
 	btn2 = mf_object_create_button(popup,
-					"popup",
-					MF_BUTTON_LABEL_OK,
-					NULL,
-					(Evas_Smart_Cb)__mf_sort_by_button_cb,
-					ap,
-					EINA_FALSE);
+	                               "popup",
+	                               MF_BUTTON_LABEL_OK,
+	                               NULL,
+	                               (Evas_Smart_Cb)__mf_sort_by_button_cb,
+	                               ap,
+	                               EINA_FALSE);
 	elm_object_part_content_set(popup, "button1", btn1);
 	elm_object_part_content_set(popup, "button2", btn2);
 

@@ -139,48 +139,48 @@ static struct _ftype_by_mime mime_type[] = {
 
 static void __mf_ug_detail_media_set_default_timezone_id()
 {
-        i18n_uchar utimezone_id [UG_ICU_ARR_LENGTH] = {0};
-        char timezone_buffer[UG_ICU_ARR_LENGTH] = {0};
-        char timezone_id[UG_ICU_ARR_LENGTH] = {0};
-        char *buffer = NULL;
-        int timezone_str_size;
-        int retcode = -1;
+	i18n_uchar utimezone_id [UG_ICU_ARR_LENGTH] = {0};
+	char timezone_buffer[UG_ICU_ARR_LENGTH] = {0};
+	char timezone_id[UG_ICU_ARR_LENGTH] = {0};
+	char *buffer = NULL;
+	int timezone_str_size;
+	int retcode = -1;
 
-        retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_TIMEZONE, &buffer);
-        if (retcode != SYSTEM_SETTINGS_ERROR_NONE)
-        {
-                mf_error("[ERR] failed to get the timezone");
-        }
-        if (buffer)
-                strncpy(timezone_id, buffer, sizeof(timezone_id)-1);
-        timezone_str_size = readlink("/opt/etc/localtime", timezone_buffer, sizeof(timezone_buffer)-1);
-        free(buffer);
+	retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_TIMEZONE, &buffer);
+	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
+		mf_error("[ERR] failed to get the timezone");
+	}
+	if (buffer) {
+		strncpy(timezone_id, buffer, sizeof(timezone_id) - 1);
+	}
+	timezone_str_size = readlink("/opt/etc/localtime", timezone_buffer, sizeof(timezone_buffer) - 1);
+	free(buffer);
 
-        if (timezone_str_size > 0) {
-                char *ptr, *sp, *zone= NULL, *city= NULL;
-                ptr = strtok_r(timezone_buffer, "/", &sp);
+	if (timezone_str_size > 0) {
+		char *ptr, *sp, *zone = NULL, *city = NULL;
+		ptr = strtok_r(timezone_buffer, "/", &sp);
 
-                while ((ptr = strtok_r(NULL, "/", &sp)))
-                {
-                        zone = city;
-                        city = ptr;
-                }
+		while ((ptr = strtok_r(NULL, "/", &sp))) {
+			zone = city;
+			city = ptr;
+		}
 
-                if (zone != NULL && city != NULL) {
-                        if (strcmp("zoneinfo", zone) == 0)
-                                snprintf(timezone_id, UG_ICU_ARR_LENGTH, "%s", city);
-                        else
-                                snprintf(timezone_id, UG_ICU_ARR_LENGTH, "%s/%s", zone, city);
-                }
-        }
+		if (zone != NULL && city != NULL) {
+			if (strcmp("zoneinfo", zone) == 0) {
+				snprintf(timezone_id, UG_ICU_ARR_LENGTH, "%s", city);
+			} else {
+				snprintf(timezone_id, UG_ICU_ARR_LENGTH, "%s/%s", zone, city);
+			}
+		}
+	}
 
-        if (*timezone_id) {
-                i18n_ustring_copy_ua_n(utimezone_id, timezone_id, sizeof(timezone_buffer)/2);
-                retcode = i18n_ucalendar_set_default_timezone(utimezone_id);
-                if (retcode != I18N_ERROR_NONE) {
-                    myfile_dlog("Failed to set default time zone[%d]!", retcode);
-                }
-        }
+	if (*timezone_id) {
+		i18n_ustring_copy_ua_n(utimezone_id, timezone_id, sizeof(timezone_buffer) / 2);
+		retcode = i18n_ucalendar_set_default_timezone(utimezone_id);
+		if (retcode != I18N_ERROR_NONE) {
+			myfile_dlog("Failed to set default time zone[%d]!", retcode);
+		}
+	}
 }
 
 static char *__mf_ug_detail_media_get_best_pattern(const char *locale, i18n_uchar *customSkeleton, i18n_udate date)
@@ -193,11 +193,12 @@ static char *__mf_ug_detail_media_get_best_pattern(const char *locale, i18n_ucha
 	char formattedString[UG_ICU_ARR_LENGTH] = {0,};
 	int32_t bestPatternLength, formattedLength;
 
-        __mf_ug_detail_media_set_default_timezone_id();
+	__mf_ug_detail_media_set_default_timezone_id();
 
 	status = i18n_udatepg_create(locale, &generator);
-	if ((status != I18N_ERROR_NONE) || (generator == NULL))
+	if ((status != I18N_ERROR_NONE) || (generator == NULL)) {
 		return NULL;
+	}
 
 	status = i18n_udatepg_get_best_pattern(generator, customSkeleton, i18n_ustring_get_length(customSkeleton), bestPattern, UG_ICU_ARR_LENGTH, &bestPatternLength);
 	if (bestPatternLength <= 0) {
@@ -205,7 +206,7 @@ static char *__mf_ug_detail_media_get_best_pattern(const char *locale, i18n_ucha
 		return NULL;
 	}
 
-	status= i18n_udate_create(I18N_UDATE_MEDIUM, I18N_UDATE_MEDIUM, locale, NULL, -1, bestPattern, -1, &formatter);
+	status = i18n_udate_create(I18N_UDATE_MEDIUM, I18N_UDATE_MEDIUM, locale, NULL, -1, bestPattern, -1, &formatter);
 	if ((status != I18N_ERROR_NONE) || (formatter == NULL)) {
 		i18n_udatepg_destroy(generator);
 		return NULL;
@@ -222,8 +223,9 @@ static char *__mf_ug_detail_media_get_best_pattern(const char *locale, i18n_ucha
 	i18n_udatepg_destroy(generator);
 	i18n_udate_destroy(formatter);
 
-	if (strlen(formattedString) == 0)
+	if (strlen(formattedString) == 0) {
 		return NULL;
+	}
 
 	return g_strdup(formattedString);
 }
@@ -235,12 +237,12 @@ char *mf_ug_detail_media_get_icu_date(i18n_udate date)
 	i18n_uchar customSkeleton[UG_ICU_ARR_LENGTH] = { 0, };
 	int skeletonLength = 0;
 	bool timeformat = false;
-        int retcode = -1;
+	int retcode = -1;
 
-        retcode = system_settings_get_value_bool(SYSTEM_SETTINGS_KEY_LOCALE_TIMEFORMAT_24HOUR, &timeformat);
-        if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-                myfile_dlog("Failed to get timeformat info[%d]!", retcode);
-        }
+	retcode = system_settings_get_value_bool(SYSTEM_SETTINGS_KEY_LOCALE_TIMEFORMAT_24HOUR, &timeformat);
+	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
+		myfile_dlog("Failed to get timeformat info[%d]!", retcode);
+	}
 
 	if (timeformat == false) {
 		skeleton = g_strdup(UG_DATE_FORMAT_12);
@@ -272,7 +274,7 @@ char *mf_ug_detail_media_get_icu_date(i18n_udate date)
 		if (find) {
 			int diff = find - region;
 			if (diff > 0) {
-				region[diff-1] = '\0';
+				region[diff - 1] = '\0';
 			}
 		}
 	}
@@ -370,8 +372,9 @@ void mf_ug_detail_media_get_file_location(void *data, char *path)
 	}
 
 	logic_path = (char *)malloc(UG_MYFILE_DIR_PATH_LEN_MAX + 1);
-	if (logic_path == NULL)
+	if (logic_path == NULL) {
 		return;
+	}
 
 	memset(logic_path, 0, UG_MYFILE_DIR_PATH_LEN_MAX + 1);
 
@@ -434,13 +437,13 @@ static void __mf_ug_detail_media_get_file_contains(void *data, char *path)
 			int count = 1;
 			EINA_LIST_FOREACH(file_list, l, filenode) {
 				if (filenode) {
-					ug_detail_debug("[file %d [%s]]",count, filenode->name);
+					ug_detail_debug("[file %d [%s]]", count, filenode->name);
 					count++;
 				}
 			}
 			count = 1;
 			EINA_LIST_FOREACH(dir_list, l, filenode) {
-				ug_detail_debug("[folder %d [%s]]",count, filenode->name);
+				ug_detail_debug("[folder %d [%s]]", count, filenode->name);
 				count++;
 			}
 			buf = g_strdup_printf("%d %s %s %d %s", file_list_len, MF_UG_DETAIL_LABELL_FILES, ",", dir_list_len, MF_UG_DETAIL_LABELL_FOLDERS);
@@ -474,11 +477,13 @@ static void __mf_ug_detail_media_get_file_size(void *data, Node_Info *pNode, cha
 	}
 	/** malloc for File_size */
 
-	if (pNode != NULL)
+	if (pNode != NULL) {
 		original_size = pNode->size;
+	}
 
-	if (mf_ug_detail_fs_is_dir(path))
+	if (mf_ug_detail_fs_is_dir(path)) {
 		original_size = mf_ug_detail_fs_get_folder_size(path);
+	}
 
 	size = (double)original_size;
 
@@ -506,8 +511,9 @@ static void __mf_ug_detail_media_get_file_date(void *data, Node_Info *pNode)
 	}
 	ap->mf_Info.create_date = (char *)malloc(UG_FILE_CREATE_DATE_MAX + 1);
 
-	if (ap->mf_Info.create_date == NULL)
+	if (ap->mf_Info.create_date == NULL) {
 		return;
+	}
 
 	memset(ap->mf_Info.create_date, 0, UG_FILE_CREATE_DATE_MAX + 1);
 
@@ -583,8 +589,9 @@ void mf_ug_detail_media_get_file_ext(void *data, char *path)
 
 		ap->mf_Info.file_ext = (char *)malloc(UG_FILE_EXT_LEN_MAX);
 
-		if (ap->mf_Info.file_ext == NULL)
+		if (ap->mf_Info.file_ext == NULL) {
 			return;
+		}
 		memset(ap->mf_Info.file_ext, 0, UG_FILE_EXT_LEN_MAX);
 
 		int ret = mf_ug_detail_fs_get_file_ext(path, ap->mf_Info.file_ext);
@@ -625,16 +632,19 @@ static int __mf_ug_detail_media_get_exif_gps_info(const char *file_full_path, do
 	//ExifIfd ifd;
 	ExifTag tag;
 	char buf[UG_EXIF_ARR_LENGTH + 1] = { 0, };
-	if (file_full_path == NULL)
+	if (file_full_path == NULL) {
 		return -1;
+	}
 
-	if (gps_value == NULL)
+	if (gps_value == NULL) {
 		return -1;
+	}
 
 	/** get exifdata*/
 	ed = exif_data_new_from_file(file_full_path);
-	if (!ed)
+	if (!ed) {
 		return -1;
+	}
 
 	//ifd = ifdtype;
 	tag = tagtype;
@@ -720,13 +730,15 @@ static int __mf_ug_detail_media_get_exif_gps_info(const char *file_full_path, do
 static bool __mf_ug_detail_media_extract_image_meta_latitude(char *file_full_path, double *lat)
 {
 	double value = 0.0;
-	if (file_full_path == NULL || lat == NULL)
+	if (file_full_path == NULL || lat == NULL) {
 		return false;
+	}
 
 	/** check if the file exists*/
 	int ret = access(file_full_path, 0);
-	if (ret == -1)
+	if (ret == -1) {
 		return false;
+	}
 
 	/** get laitude value by path*/
 	if (__mf_ug_detail_media_get_exif_gps_info(file_full_path, &value, EXIF_IFD_GPS, EXIF_TAG_GPS_LATITUDE) == 0) {
@@ -756,13 +768,15 @@ static bool __mf_ug_detail_media_extract_image_meta_latitude(char *file_full_pat
 static bool __mf_ug_detail_media_extract_image_meta_lontitude(char *file_full_path, double *lon)
 {
 	double value = 0.0;
-	if (file_full_path == NULL || lon == NULL)
+	if (file_full_path == NULL || lon == NULL) {
 		return false;
+	}
 
 	/** check if the file exists*/
 	int ret = access(file_full_path, 0);
-	if (ret == -1)
+	if (ret == -1) {
 		return false;
+	}
 
 	/** get lontitude by path*/
 	if (__mf_ug_detail_media_get_exif_gps_info(file_full_path, &value, EXIF_IFD_GPS, EXIF_TAG_GPS_LONGITUDE) == 0) {
@@ -795,8 +809,9 @@ void mf_ug_detail_media_get_common_info(void *data, char *path)
 	myfile_dlog("*******************%s %d\n", __func__, __LINE__);
 
 	Node_Info *pNode = (Node_Info *) malloc(sizeof(Node_Info));
-	if (pNode == NULL)
+	if (pNode == NULL) {
 		return;
+	}
 
 	memset(pNode, 0, sizeof(Node_Info));
 	mf_ug_detaill_fs_get_file_stat(path, &pNode);

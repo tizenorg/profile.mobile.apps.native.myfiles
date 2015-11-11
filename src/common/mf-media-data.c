@@ -36,9 +36,10 @@ static int __mf_media_data_sort_by_size_cb_L2S(const void *d1, const void *d2);
 
 void mf_media_data_item_free(media_data_s **item_data)
 {
-	if (*item_data == NULL)
+	if (*item_data == NULL) {
 		return;
-	
+	}
+
 	SAFE_FREE_CHAR((*item_data)->fullpath);
 	SAFE_FREE_CHAR((*item_data)->display_name);
 	SAFE_FREE_CHAR((*item_data)->thumbnail_path);
@@ -84,15 +85,15 @@ media_data_s *mf_media_data_get_by_media_handle(media_info_h media)
 	}
 
 
-	if (content_type == MEDIA_CONTENT_TYPE_IMAGE) /* The device's internal storage */
+	if (content_type == MEDIA_CONTENT_TYPE_IMAGE) { /* The device's internal storage */
 		item_data->file_type = FILE_TYPE_IMAGE;
-	else if (content_type == MEDIA_CONTENT_TYPE_VIDEO) /* The device's external storage */
+	} else if (content_type == MEDIA_CONTENT_TYPE_VIDEO) { /* The device's external storage */
 		item_data->file_type = FILE_TYPE_VIDEO;
-	else if (content_type == MEDIA_CONTENT_TYPE_SOUND)
+	} else if (content_type == MEDIA_CONTENT_TYPE_SOUND) {
 		item_data->file_type = FILE_TYPE_SOUND;
-	else if (content_type == MEDIA_CONTENT_TYPE_MUSIC) /* The cloud storage - 101 */
+	} else if (content_type == MEDIA_CONTENT_TYPE_MUSIC) { /* The cloud storage - 101 */
 		item_data->file_type = FILE_TYPE_MUSIC;
-	else if (content_type == MEDIA_CONTENT_TYPE_OTHERS) {
+	} else if (content_type == MEDIA_CONTENT_TYPE_OTHERS) {
 		fsFileType ftype = FILE_TYPE_NONE;
 		int ret = mf_file_attr_get_file_category(item_data->fullpath, &ftype);
 		if (ret != MYFILE_ERR_NONE || ftype == FILE_TYPE_NONE || ftype == FILE_TYPE_ETC) {
@@ -100,70 +101,71 @@ media_data_s *mf_media_data_get_by_media_handle(media_info_h media)
 		}
 
 		item_data->file_type = ftype;
-	}
-	else {
+	} else {
 		mf_debug("content_type[%d]!", content_type);
 	}
 
 
 
 	switch (item_data->file_type) {
-		case FILE_TYPE_IMAGE:
-		case FILE_TYPE_VIDEO:
-		case FILE_TYPE_MUSIC:
-		case FILE_TYPE_SOUND:
-		case FILE_TYPE_DOC:
-		case FILE_TYPE_PDF:
-		case FILE_TYPE_PPT:
-		case FILE_TYPE_EXCEL:
-		case FILE_TYPE_TXT:
-		case FILE_TYPE_HWP:
-		case FILE_TYPE_SPD:
-		case FILE_TYPE_SNB:
-			if (mf_file_exists(item_data->fullpath)) {//Fixed the P131126-04292, sometimes, if the file isn't existed
-				//if (content_type != MEDIA_CONTENT_TYPE_SOUND && content_type != MEDIA_CONTENT_TYPE_MUSIC) {//For sound file, don't need to get thumbnail.
-					int retcode = media_info_get_thumbnail_path(media, &(item_data->thumbnail_path));
-					if (retcode != MEDIA_CONTENT_ERROR_NONE) {
-						mf_debug("Get media thumbnail path failed!![%d]", retcode);
-						goto MF_LOCAL_FAILED;
-					}
-				//}
-				//mf_debug("thumb_url: %s", item_data->thumbnail_path);
-
-				media_content_storage_e storage_type = 0;
-				if (media_info_get_storage_type(media, &storage_type) != MEDIA_CONTENT_ERROR_NONE) {
-					mf_debug("Get storage type failed!");
-					goto MF_LOCAL_FAILED;
-				}
-				if (storage_type == MEDIA_CONTENT_STORAGE_INTERNAL) /* The device's internal storage */
-					item_data->storage_type = MYFILE_PHONE;
-				else if (storage_type == MEDIA_CONTENT_STORAGE_EXTERNAL) /* The device's external storage */
-					item_data->storage_type = MYFILE_MMC;
-				else
-					mf_debug("Undefined mode[%d]!", storage_type);
-				unsigned long long file_size = 0;
-				media_info_get_size(media, &file_size);
-				item_data->size = file_size;
-
-				time_t added_time = {0};
-				int ret = media_info_get_modified_time(media, &added_time);
-				if (ret == MEDIA_CONTENT_ERROR_NONE)//Fix prevent problem
-					item_data->create_date = added_time;
-
-				return item_data;
-			} else{
-				mf_media_data_item_free(&item_data);
+	case FILE_TYPE_IMAGE:
+	case FILE_TYPE_VIDEO:
+	case FILE_TYPE_MUSIC:
+	case FILE_TYPE_SOUND:
+	case FILE_TYPE_DOC:
+	case FILE_TYPE_PDF:
+	case FILE_TYPE_PPT:
+	case FILE_TYPE_EXCEL:
+	case FILE_TYPE_TXT:
+	case FILE_TYPE_HWP:
+	case FILE_TYPE_SPD:
+	case FILE_TYPE_SNB:
+		if (mf_file_exists(item_data->fullpath)) {//Fixed the P131126-04292, sometimes, if the file isn't existed
+			//if (content_type != MEDIA_CONTENT_TYPE_SOUND && content_type != MEDIA_CONTENT_TYPE_MUSIC) {//For sound file, don't need to get thumbnail.
+			int retcode = media_info_get_thumbnail_path(media, &(item_data->thumbnail_path));
+			if (retcode != MEDIA_CONTENT_ERROR_NONE) {
+				mf_debug("Get media thumbnail path failed!![%d]", retcode);
+				goto MF_LOCAL_FAILED;
 			}
-			break;
-		default:
+			//}
+			//mf_debug("thumb_url: %s", item_data->thumbnail_path);
+
+			media_content_storage_e storage_type = 0;
+			if (media_info_get_storage_type(media, &storage_type) != MEDIA_CONTENT_ERROR_NONE) {
+				mf_debug("Get storage type failed!");
+				goto MF_LOCAL_FAILED;
+			}
+			if (storage_type == MEDIA_CONTENT_STORAGE_INTERNAL) { /* The device's internal storage */
+				item_data->storage_type = MYFILE_PHONE;
+			} else if (storage_type == MEDIA_CONTENT_STORAGE_EXTERNAL) { /* The device's external storage */
+				item_data->storage_type = MYFILE_MMC;
+			} else {
+				mf_debug("Undefined mode[%d]!", storage_type);
+			}
+			unsigned long long file_size = 0;
+			media_info_get_size(media, &file_size);
+			item_data->size = file_size;
+
+			time_t added_time = {0};
+			int ret = media_info_get_modified_time(media, &added_time);
+			if (ret == MEDIA_CONTENT_ERROR_NONE) { //Fix prevent problem
+				item_data->create_date = added_time;
+			}
+
+			return item_data;
+		} else {
 			mf_media_data_item_free(&item_data);
-			break;
-       }
-       return NULL;
+		}
+		break;
+	default:
+		mf_media_data_item_free(&item_data);
+		break;
+	}
+	return NULL;
 
 MF_LOCAL_FAILED:
-       mf_media_data_item_free(&item_data);
-       return NULL;
+	mf_media_data_item_free(&item_data);
+	return NULL;
 
 }
 

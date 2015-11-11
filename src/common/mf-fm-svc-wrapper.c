@@ -37,15 +37,15 @@
 #define MF_PATH_INFO_LEN_THRESHOLD		4
 #define MF_PATH_INFO_SEP			elm_entry_utf8_to_markup("/")
 typedef struct {
-         int len_orig;
-         int len_trans;
-         char *original;
-         char *transfer;
-         bool flag_trans;
+	int len_orig;
+	int len_trans;
+	char *original;
+	char *transfer;
+	bool flag_trans;
 } pNode;
 
-static int __mf_fm_svc_wrapper_get_unique_name(const char *default_dir_full_path, char *original_file_name, 
-                                               char **unique_file_name, int file_name_type, void *data);
+static int __mf_fm_svc_wrapper_get_unique_name(const char *default_dir_full_path, char *original_file_name,
+        char **unique_file_name, int file_name_type, void *data);
 /*********************
 **Function name:	__mf_fm_svc_wrapper_COMESFROM
 **Parameter:
@@ -185,15 +185,15 @@ int mf_fm_svc_wrapper_detect_recursion(GString *from, GString *to)
 	}
 
 	GString *from_parent = mf_fm_svc_wrapper_get_file_parent_path(from);
-        if (from_parent == NULL) {
-                return ret;
-        }
+	if (from_parent == NULL) {
+		return ret;
+	}
 
 	GString *to_parent = mf_fm_svc_wrapper_get_file_parent_path(to);
-        if (to_parent == NULL) {
-                SAFE_FREE_GSTRING(from_parent);
-                return ret;
-        }
+	if (to_parent == NULL) {
+		SAFE_FREE_GSTRING(from_parent);
+		return ret;
+	}
 	if (strncmp(from->str, to_parent->str, lensrc) == 0) {
 		SAFE_FREE_GSTRING(from_parent);
 		SAFE_FREE_GSTRING(to_parent);
@@ -207,12 +207,13 @@ int mf_fm_svc_wrapper_detect_recursion(GString *from, GString *to)
 
 char *mf_fm_svc_wrapper_get_root_path_by_location(int location)
 {
-	if (location == MYFILE_PHONE)
+	if (location == MYFILE_PHONE) {
 		return g_strdup(PHONE_FOLDER);
-	else if (location == MYFILE_MMC)
+	} else if (location == MYFILE_MMC) {
 		return g_strdup(MEMORY_FOLDER);
-	else
+	} else {
 		return NULL;
+	}
 }
 
 /*********************
@@ -230,8 +231,9 @@ char *mf_fm_svc_wrapper_get_root_path_by_location(int location)
 int mf_fm_svc_wrapper_file_auto_rename(void *data, GString *fullpath, int file_name_type, GString **filename)
 {
 	struct appdata *ap = (struct appdata *)data;
-	if (ap == NULL)
+	if (ap == NULL) {
 		mf_debug("appdata is NULL");
+	}
 	assert(ap);
 
 	GString *parent_path = mf_fm_svc_wrapper_get_file_parent_path(fullpath);
@@ -362,28 +364,28 @@ int mf_fm_svc_wrapper_classify_dir_list(Eina_List *dir_list, Eina_List **default
 	Eina_List *l = NULL;
 
 	EINA_LIST_FOREACH(dir_list, l, pNode) {
-                if (pNode) {
-                        char *real_name = NULL;
-                        bool result = false;
-                        GString *foldername = NULL;
-                        real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
+		if (pNode) {
+			char *real_name = NULL;
+			bool result = false;
+			GString *foldername = NULL;
+			real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
 
-                        if (real_name) {
-                                foldername = g_string_new(real_name);
-                                SAFE_FREE_CHAR(real_name);
-                        } else {
-                                continue;
-                        }
-                        int error_code = mf_fm_svc_wrapper_get_folder_foldersystem(foldername, &result);
+			if (real_name) {
+				foldername = g_string_new(real_name);
+				SAFE_FREE_CHAR(real_name);
+			} else {
+				continue;
+			}
+			int error_code = mf_fm_svc_wrapper_get_folder_foldersystem(foldername, &result);
 
-                        if (error_code == 0 && result == true) {
-                                mf_debug("in default");
-                                *default_dir_list = eina_list_append(*default_dir_list, pNode);
-                        } else {
-                                mf_debug("in else");
-                                *user_dir_list = eina_list_append(*user_dir_list, pNode);
-                        }
-                }
+			if (error_code == 0 && result == true) {
+				mf_debug("in default");
+				*default_dir_list = eina_list_append(*default_dir_list, pNode);
+			} else {
+				mf_debug("in else");
+				*user_dir_list = eina_list_append(*user_dir_list, pNode);
+			}
+		}
 	}
 	return error_code;
 }
@@ -518,16 +520,16 @@ unsigned long mf_fm_svc_wrapper_get_free_space(int state)
 	struct statvfs info;
 	char *path = NULL;
 
- 	if (state == MYFILE_PHONE) {
-		if (storage_get_internal_memory_size(&info) < 0)
+	if (state == MYFILE_PHONE) {
+		if (storage_get_internal_memory_size(&info) < 0) {
 			return 0;
+		}
 	} else if (state == MYFILE_MMC) {
 		path = MEMORY_FOLDER;
 		if (-1 == statvfs(path, &info)) {
 			return 0;
 		}
-	}
-	else {
+	} else {
 		return 0;
 	}
 
@@ -711,7 +713,7 @@ char *mf_fm_svc_path_info_retrench(const char *string)
 	mf_retvm_if(string == NULL, g_strdup(MF_PATH_INFO_TRANS_OMIT), "input path is NULL");
 	char *retrench = NULL;
 	char *utf8_string = elm_entry_utf8_to_markup(string);
-	if (utf8_string && strlen (string) > MF_PATH_INFO_LEN_THRESHOLD) {
+	if (utf8_string && strlen(string) > MF_PATH_INFO_LEN_THRESHOLD) {
 		if (g_utf8_strlen(utf8_string, -1) > 2) {
 			retrench = calloc(1, MF_PATH_INFO_RETRENCH);
 			if (retrench) {
@@ -782,29 +784,27 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 	params = result;
 	count = g_strv_length(result);
 
-	if (count > MF_PATH_INFO_LEVEL_BOUNDARY)
-	{
+	if (count > MF_PATH_INFO_LEVEL_BOUNDARY) {
 		top = MF_PATH_INFO_LEVEL_BOUNDARY;
 		flag = FALSE;
 		max_len = path_info_max_len - MF_PATH_INFO_LEVEL_BOUNDARY - MF_PATH_INFO_HEAD_LEN(omit);//(2 is length of ..) ../aa../bb../***
-	}
-	else
-	{
+	} else {
 		top = count;
 		flag = TRUE;
-		max_len = path_info_max_len - (count-1);
+		max_len = path_info_max_len - (count - 1);
 	}
 
 	for (i = top; i > 1; i--) {
 		pNode *nodeB = calloc(sizeof(pNode), 1);
 		if (nodeB) {
-			nodeB->original = elm_entry_utf8_to_markup(params[count -i]);
+			nodeB->original = elm_entry_utf8_to_markup(params[count - i]);
 			nodeB->len_orig = strlen(params[count - i]);
-			nodeB->transfer = mf_fm_svc_path_info_retrench(params[count-i]);
-			if (nodeB->transfer)
+			nodeB->transfer = mf_fm_svc_path_info_retrench(params[count - i]);
+			if (nodeB->transfer) {
 				nodeB->len_trans = strlen(nodeB->transfer);
-			else
+			} else {
 				mf_error("nodeB->transfer is NULL");
+			}
 			nodeB->flag_trans = FALSE;
 			total_len += nodeB->len_orig;
 
@@ -824,8 +824,9 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 			}
 		}
 
-		if (total_len <= max_len)
-		break;
+		if (total_len <= max_len) {
+			break;
+		}
 	}
 
 
@@ -834,24 +835,25 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 	}
 	char *temp = NULL;
 	char *sep = MF_PATH_INFO_SEP;
-	EINA_LIST_FOREACH(temp_list, l, pnode)
-	{
-                if (pnode) {
-                        pNode *node = (pNode *)pnode;
-                        temp = output;
-                        if (node->flag_trans == TRUE) {
-                                if (output != NULL)
-                                        output = g_strconcat(output, sep, node->transfer, NULL);
-                                else
-                                        output = g_strdup(node->transfer);
-                        } else {
-                                if (output != NULL)
-                                        output = g_strconcat(output, sep ,node->original, NULL);
-                                else
-                                        output = g_strdup(node->original);
-                        }
-                        SAFE_FREE_CHAR(temp);
-                }
+	EINA_LIST_FOREACH(temp_list, l, pnode) {
+		if (pnode) {
+			pNode *node = (pNode *)pnode;
+			temp = output;
+			if (node->flag_trans == TRUE) {
+				if (output != NULL) {
+					output = g_strconcat(output, sep, node->transfer, NULL);
+				} else {
+					output = g_strdup(node->transfer);
+				}
+			} else {
+				if (output != NULL) {
+					output = g_strconcat(output, sep , node->original, NULL);
+				} else {
+					output = g_strdup(node->original);
+				}
+			}
+			SAFE_FREE_CHAR(temp);
+		}
 	}
 	temp = output;
 	char *last_string = params[count - 1];
@@ -866,10 +868,11 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 
 			const char *end = NULL;
 			gboolean ret = FALSE;
-			if (utf8_last != NULL)
+			if (utf8_last != NULL) {
 				ret = g_utf8_validate(utf8_last, d_value, &end);
-			else
+			} else {
 				mf_error("utf8_last is NULL");
+			}
 			if (ret == TRUE) {
 				d_value = last_len - strlen(end);
 				utf8_last[d_value] = '\0';
@@ -912,7 +915,7 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 **	get the unique name of the file name
 *********************/
 static int __mf_fm_svc_wrapper_get_unique_name(const char *default_dir_full_path, char *original_file_name, char **unique_file_name,
-					 int file_name_type, void *data)
+        int file_name_type, void *data)
 {
 	//mf_debug("%s %d\n", __func__, __LINE__);
 	assert(unique_file_name);
@@ -992,24 +995,26 @@ static int __mf_fm_svc_wrapper_get_unique_name(const char *default_dir_full_path
 		}
 
 		if (bExt == 0) {
-			if (file_name_type == FILE_NAME_WITH_BRACKETS)
+			if (file_name_type == FILE_NAME_WITH_BRACKETS) {
 				new_file_name = g_strdup_printf("%s(%d).%s", file_name_without_ext, nCount, file_ext);
-			else
-				new_file_name = g_strdup_printf("%s_%d.%s", file_name_without_ext, nCount, file_ext);
 			} else {
+				new_file_name = g_strdup_printf("%s_%d.%s", file_name_without_ext, nCount, file_ext);
+			}
+		} else {
 
-			if (file_name_type == FILE_NAME_WITH_BRACKETS)
+			if (file_name_type == FILE_NAME_WITH_BRACKETS) {
 				new_file_name = g_strdup_printf("%s(%d)", file_name_without_ext, nCount);
-			else
+			} else {
 				new_file_name = g_strdup_printf("%s_%d", file_name_without_ext, nCount);
+			}
 		}
-				//mf_debug("new_file_name [%s]", new_file_name);
-				//mf_debug("original_file_name [%s]", new_file_name);
+		//mf_debug("new_file_name [%s]", new_file_name);
+		//mf_debug("original_file_name [%s]", new_file_name);
 		SAFE_FREE_CHAR(file_name_without_ext);
 
 #ifdef MYFILE_CHECK_DIR_FILE_PATH_MAXIMUM_LENGTH
 		if (mf_util_character_count_get(new_file_name) > MYFILE_FILE_NAME_LEN_MAX ||
-		    mf_util_character_count_get(dir_rel_path) + slash + mf_util_charactor_count_get(new_file_name) > MYFILE_FILE_PATH_LEN_MAX) {
+		        mf_util_character_count_get(dir_rel_path) + slash + mf_util_charactor_count_get(new_file_name) > MYFILE_FILE_PATH_LEN_MAX) {
 			SECURE_DEBUG("......(%s/%s) exceeds maximum length: %d...", dir_rel_path, new_file_name, MYFILE_FILE_PATH_LEN_MAX);
 			error_code = MYFILE_ERR_EXCEED_MAX_LENGTH;
 			goto Exception;
@@ -1017,13 +1022,13 @@ static int __mf_fm_svc_wrapper_get_unique_name(const char *default_dir_full_path
 #endif
 		SECURE_DEBUG("new name is %s\n", new_file_name);
 //prevent issue fix
-	/*	if (error_code != 0) {
-			original_file_name = g_strdup(new_file_name);
-			error_code = MYFILE_ERR_DUPLICATED_NAME;
-			SAFE_FREE_CHAR(new_file_name);
-			SAFE_FREE_CHAR(file_ext);
-			continue;
-		} else*/
+		/*	if (error_code != 0) {
+				original_file_name = g_strdup(new_file_name);
+				error_code = MYFILE_ERR_DUPLICATED_NAME;
+				SAFE_FREE_CHAR(new_file_name);
+				SAFE_FREE_CHAR(file_ext);
+				continue;
+			} else*/
 		{
 			error_code = mf_file_attr_is_duplicated_name(default_dir_full_path, new_file_name);
 			if (error_code == 0) {
@@ -1081,8 +1086,8 @@ char *mf_fm_svc_wrapper_translate_path(const char *original_path, MF_TRANS_OPTIO
 		case MF_TRANS_OPTION_POPUP:
 			if (strlen(original_path) > MF_TRANSLATE_LENGTH) {
 				new_path =
-					g_strconcat(mf_util_get_text(MF_LABEL_DEVICE_MEMORY), MF_TRANSLATE_OMIT_PART, mf_file_get(original_path), "/",
-						    NULL);
+				    g_strconcat(mf_util_get_text(MF_LABEL_DEVICE_MEMORY), MF_TRANSLATE_OMIT_PART, mf_file_get(original_path), "/",
+				                NULL);
 			} else {
 				root_len = strlen(PHONE_FOLDER);
 				new_path = g_strconcat(mf_util_get_text(MF_LABEL_DEVICE_MEMORY), original_path + root_len, "/", NULL);
@@ -1103,8 +1108,8 @@ char *mf_fm_svc_wrapper_translate_path(const char *original_path, MF_TRANS_OPTIO
 		case MF_TRANS_OPTION_POPUP:
 			if (strlen(original_path) > MF_TRANSLATE_LENGTH) {
 				new_path =
-					g_strconcat(mf_util_get_text(MF_LABEL_SD_CARD), MF_TRANSLATE_OMIT_PART, mf_file_get(original_path),
-						    NULL);
+				    g_strconcat(mf_util_get_text(MF_LABEL_SD_CARD), MF_TRANSLATE_OMIT_PART, mf_file_get(original_path),
+				                NULL);
 			} else {
 				root_len = strlen(MEMORY_FOLDER);
 				new_path = g_strconcat(mf_util_get_text(MF_LABEL_SD_CARD), original_path + root_len, "/", NULL);
@@ -1152,7 +1157,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 			default:
 				return NULL;
 			}
-			current_path = current_path+strlen(root_path)+1;
+			current_path = current_path + strlen(root_path) + 1;
 			path_list = eina_list_append(path_list, g_strdup(root_path));
 			gchar **result = NULL;
 			gchar **params = NULL;
@@ -1166,10 +1171,10 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 				}
 				path_list = eina_list_append(path_list, level_path);
 			}
-			
+
 			g_strfreev(result);
-			
-		}else {
+
+		} else {
 			path_list = eina_list_append(path_list, g_strdup(original_path));
 		}
 	}
@@ -1212,8 +1217,8 @@ char *mf_fm_svc_get_file_name(GString *path)
 	filename = mf_fm_svc_wrapper_get_file_name(path);
 
 	if (filename != NULL) {
-	guide_text = mf_fm_svc_get_file_name_without_ext(filename->str);
-	SAFE_FREE_GSTRING(filename);
+		guide_text = mf_fm_svc_get_file_name_without_ext(filename->str);
+		SAFE_FREE_GSTRING(filename);
 	}
 	return guide_text;
 }
@@ -1230,7 +1235,7 @@ int mf_fm_svc_wrapper_create_p(const char *fullpath)
 	}
 	if (!mf_mkpath(fullpath)) {
 		error_code = MYFILE_ERR_DIR_CREATE_FAIL;
-        goto EXIT;
+		goto EXIT;
 	}
 
 EXIT:

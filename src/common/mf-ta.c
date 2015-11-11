@@ -46,16 +46,19 @@ static int mf_g_enable = 1;
 
 int mf_ta_init(void)
 {
-	if (mf_g_accums)
+	if (mf_g_accums) {
 		return 0;
+	}
 
 	mf_g_cps = (mf_ta_checkpoint **) malloc(MF_TA_MAX_CHECKPOINT * sizeof(mf_ta_checkpoint *));
-	if (!mf_g_cps)
+	if (!mf_g_cps) {
 		return -1;
+	}
 
 	mf_g_accums = (mf_ta_accum_item **) malloc(MF_TA_MAX_CHECKPOINT * sizeof(mf_ta_accum_item *));
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return -1;
+	}
 
 	mf_g_accum_first_time = 0xFFFFFFFF;
 
@@ -64,8 +67,9 @@ int mf_ta_init(void)
 
 int mf_ta_release(void)
 {
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return 0;
+	}
 
 	__mf_ta_free_cps();
 	__mf_ta_free_accums();
@@ -106,24 +110,30 @@ int mf_ta_add_checkpoint(char *name, int show, char *filename, int line)
 	mf_ta_checkpoint *cp = NULL;
 	struct timeval t;
 
-	if (!mf_g_enable)
+	if (!mf_g_enable) {
 		return -1;
+	}
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return 0;
+	}
 
-	if (mf_g_cp_index == MF_TA_MAX_CHECKPOINT)
+	if (mf_g_cp_index == MF_TA_MAX_CHECKPOINT) {
 		return -1;
+	}
 
-	if (!name)
+	if (!name) {
 		return -1;
+	}
 
-	if (strlen(name) == 0)
+	if (strlen(name) == 0) {
 		return -1;
+	}
 
 	cp = (mf_ta_checkpoint *) malloc(sizeof(mf_ta_checkpoint));
-	if (!cp)
+	if (!cp) {
 		return -1;
+	}
 
 	cp->name = (char *)malloc(strlen(name) + 1);
 	if (!cp->name) {
@@ -132,8 +142,9 @@ int mf_ta_add_checkpoint(char *name, int show, char *filename, int line)
 	}
 	strncpy(cp->name, name, strlen(name));
 
-	if (show)
+	if (show) {
 		SECURE_DEBUG("[CHECK-POINT] %s...(%s:%d)\n", name, filename, line);
+	}
 
 	gettimeofday(&t, NULL);
 	cp->timestamp = t.tv_sec * 1000000L + t.tv_usec;
@@ -151,8 +162,9 @@ int mf_ta_add_checkpoint(char *name, int show, char *filename, int line)
 void mf_ta_show_checkpoints(void)
 {
 	int i = 0;
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return;
+	}
 
 	SECURE_DEBUG("BEGIN RESULT ============================\n");
 	for (i = 0; i < mf_g_cp_index; i++) {
@@ -163,8 +175,9 @@ void mf_ta_show_checkpoints(void)
 
 void mf_ta_show_diff(char *name1, char *name2)
 {
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return;
+	}
 
 
 	SECURE_DEBUG("Time takes from [%s] to [%s] : %ld us.\n", name1, name2, mf_ta_get_diff(name1, name2));
@@ -174,24 +187,29 @@ unsigned long mf_ta_get_diff(char *name1, char *name2)
 {
 	int cp1, cp2;
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return 0;
+	}
 
 
 	/* fail if bad param. */
-	if (!name1 || !name2)
+	if (!name1 || !name2) {
 		return -1;
+	}
 
 	/* fail if same. */
-	if (strcmp(name1, name2) == 0)
+	if (strcmp(name1, name2) == 0) {
 		return -1;
+	}
 
 	/*get index */
-	if ((cp1 = __mf_ta_get_cp_index(name1)) == -1)
+	if ((cp1 = __mf_ta_get_cp_index(name1)) == -1) {
 		return -1;
+	}
 
-	if ((cp2 = __mf_ta_get_cp_index(name2)) == -1)
+	if ((cp2 = __mf_ta_get_cp_index(name2)) == -1) {
 		return -1;
+	}
 
 	/* NOTE :
 	 * return value must be positive value.
@@ -209,8 +227,9 @@ static int __mf_ta_get_cp_index(char *name)
 
 	/* find index */
 	for (i = 0; i < mf_g_cp_index; i++) {
-		if (strcmp(name, mf_g_cps[i]->name) == 0)
+		if (strcmp(name, mf_g_cps[i]->name) == 0) {
 			return i;
+		}
 	}
 
 	return -1;
@@ -224,8 +243,9 @@ static int __mf_ta_get_accum_index(char *name)
 
 	/* find index */
 	for (i = 0; i < mf_g_accum_index; i++) {
-		if (strcmp(name, mf_g_accums[i]->name) == 0)
+		if (strcmp(name, mf_g_accums[i]->name) == 0) {
 			return i;
+		}
 	}
 
 	return -1;
@@ -235,13 +255,15 @@ static void __mf_ta_free_cps(void)
 {
 	int i = 0;
 
-	if (!mf_g_cps)
+	if (!mf_g_cps) {
 		return;
+	}
 
 	for (i = 0; i < mf_g_cp_index; i++) {
 		if (mf_g_cps[i]) {
-			if (mf_g_cps[i]->name)
+			if (mf_g_cps[i]->name) {
 				free(mf_g_cps[i]->name);
+			}
 
 			free(mf_g_cps[i]);
 
@@ -259,13 +281,15 @@ static void __mf_ta_free_accums(void)
 {
 	int i = 0;
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return;
+	}
 
 	for (i = 0; i < mf_g_accum_index; i++) {
 		if (mf_g_accums[i]) {
-			if (mf_g_accums[i]->name)
+			if (mf_g_accums[i]->name) {
 				free(mf_g_accums[i]->name);
+			}
 
 			free(mf_g_accums[i]);
 
@@ -288,29 +312,35 @@ int mf_ta_accum_item_begin(char *name, int show, char *filename, int line)
 	int name_len = 0;
 	struct timeval t;
 
-	if (!mf_g_enable)
+	if (!mf_g_enable) {
 		return -1;
+	}
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return 0;
+	}
 
 
 
-	if (mf_g_accum_index == MF_TA_MAX_ACCUM)
+	if (mf_g_accum_index == MF_TA_MAX_ACCUM) {
 		return -1;
+	}
 
-	if (!name)
+	if (!name) {
 		return -1;
+	}
 
 	name_len = strlen(name);
-	if (name_len == 0)
+	if (name_len == 0) {
 		return -1;
+	}
 
 	/* if 'name' is new one. create new item. */
 	if ((index = __mf_ta_get_accum_index(name)) == -1) {
 		accum = (mf_ta_accum_item *) malloc(sizeof(mf_ta_accum_item));
-		if (!accum)
+		if (!accum) {
 			return -1;
+		}
 
 		/*clear first. */
 		memset(accum, 0, sizeof(mf_ta_accum_item));
@@ -328,8 +358,9 @@ int mf_ta_accum_item_begin(char *name, int show, char *filename, int line)
 		mf_g_accums[mf_g_accum_index] = accum;
 		mf_g_accum_index++;
 
-		if (mf_g_accum_longest_name < name_len)
+		if (mf_g_accum_longest_name < name_len) {
 			mf_g_accum_longest_name = name_len;
+		}
 
 	} else {
 		accum = mf_g_accums[index];
@@ -352,12 +383,14 @@ int mf_ta_accum_item_begin(char *name, int show, char *filename, int line)
 	if (accum->first_start == 0) {	/* assum that timestamp never could be zero. */
 		accum->first_start = accum->timestamp;
 
-		if (mf_g_accum_first_time > accum->first_start)
+		if (mf_g_accum_first_time > accum->first_start) {
 			mf_g_accum_first_time = accum->first_start;
+		}
 	}
 
-	if (show)
+	if (show) {
 		SECURE_DEBUG("[ACCUM BEGIN] %s : %ld ---(%s:%d)\n", name, accum->timestamp, filename, line);
+	}
 
 	accum->num_calls++;
 
@@ -371,24 +404,29 @@ int mf_ta_accum_item_end(char *name, int show, char *filename, int line)
 	int index = 0;
 	struct timeval t;
 
-	if (!mf_g_enable)
+	if (!mf_g_enable) {
 		return -1;
+	}
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return 0;
+	}
 
 
 	/* get time first for more accuracy. */
 	gettimeofday(&t, NULL);
 
-	if (mf_g_accum_index == MF_TA_MAX_ACCUM)
+	if (mf_g_accum_index == MF_TA_MAX_ACCUM) {
 		return -1;
+	}
 
-	if (!name)
+	if (!name) {
 		return -1;
+	}
 
-	if (strlen(name) == 0)
+	if (strlen(name) == 0) {
 		return -1;
+	}
 
 	/* varify the 'name' is already exist. */
 	if ((index = __mf_ta_get_accum_index(name)) == -1) {
@@ -420,8 +458,9 @@ int mf_ta_accum_item_end(char *name, int show, char *filename, int line)
 	accum->elapsed_max = tval > accum->elapsed_max ? tval : accum->elapsed_max;
 	accum->elapsed_min = tval < accum->elapsed_min ? tval : accum->elapsed_min;
 
-	if (show)
+	if (show) {
 		SECURE_DEBUG("[ACCUM END] %s : %ld + %u ---(%s:%d)\n", name, accum->elapsed_accum, tval, filename, line);
+	}
 
 	/* add elapsed time */
 	accum->elapsed_accum += tval;
@@ -432,8 +471,9 @@ int mf_ta_accum_item_end(char *name, int show, char *filename, int line)
 
 void __mf_ta_print_some_info(FILE *fp)
 {
-	if (!fp)
+	if (!fp) {
 		return;
+	}
 
 	/* comment */
 	{
@@ -468,7 +508,7 @@ void __mf_ta_print_some_info(FILE *fp)
 		fprintf(fp, "Process priority : %d\n", getpriority(PRIO_PROCESS, getpid()));
 		getrusage(RUSAGE_SELF, &r_usage);
 		fprintf(fp, "CPU usage : User = %ld.%06ld, System = %ld.%06ld\n",
-			r_usage.ru_utime.tv_sec, r_usage.ru_utime.tv_usec, r_usage.ru_stime.tv_sec, r_usage.ru_stime.tv_usec);
+		        r_usage.ru_utime.tv_sec, r_usage.ru_utime.tv_usec, r_usage.ru_stime.tv_sec, r_usage.ru_stime.tv_usec);
 
 
 	}
@@ -492,8 +532,9 @@ void mf_ta_show_accum_result(int direction)
 	char format[256];
 	FILE *fp = stderr;
 
-	if (!mf_g_accums)
+	if (!mf_g_accums) {
 		return;
+	}
 
 	switch (direction) {
 	case MF_TA_SHOW_STDOUT:
@@ -502,42 +543,44 @@ void mf_ta_show_accum_result(int direction)
 	case MF_TA_SHOW_STDERR:
 		fp = stderr;
 		break;
-	case MF_TA_SHOW_FILE:
-		{
-			fp = fopen(MF_TA_RESULT_FILE, "wt");
-			if (!fp)
-				return;
+	case MF_TA_SHOW_FILE: {
+		fp = fopen(MF_TA_RESULT_FILE, "wt");
+		if (!fp) {
+			return;
 		}
+	}
 	}
 	__mf_ta_print_some_info(fp);
 
 #ifdef MF_TA_UNIT_MSEC
 	snprintf(format, sizeof(format),
-		"[%%3d] %%-%ds | \ttotal : %%4ld\tcalls : %%3ld\tavg : %%4ld\tmin : %%4ld\tmax : %%4ld\tstart : %%4lu\tend : %%4lu\tunpair : %%3ld\n",
-		mf_g_accum_longest_name);
+	         "[%%3d] %%-%ds | \ttotal : %%4ld\tcalls : %%3ld\tavg : %%4ld\tmin : %%4ld\tmax : %%4ld\tstart : %%4lu\tend : %%4lu\tunpair : %%3ld\n",
+	         mf_g_accum_longest_name);
 	fprintf(fp, "BEGIN RESULT ACCUM============================ : NumOfItems : %d, unit(msec)\n", mf_g_accum_index);
 #else
 	snprintf(format, sizeof(format),
-		"[%%3d] %%-%ds : \ttotal : %%ld\t:calls : %%ld\t:avg : %%ld\tmin : %%ld\tmax : %%ld\tstart : %%lu\tend : %%lu\tunpair : %%ld\n",
-		mf_g_accum_longest_name);
+	         "[%%3d] %%-%ds : \ttotal : %%ld\t:calls : %%ld\t:avg : %%ld\tmin : %%ld\tmax : %%ld\tstart : %%lu\tend : %%lu\tunpair : %%ld\n",
+	         mf_g_accum_longest_name);
 	fprintf(fp, "BEGIN RESULT ACCUM============================ : NumOfItems : %d, unit(usec)\n", mf_g_accum_index);
 #endif
 
 	for (i = 0; i < mf_g_accum_index; i++) {
 		/*prevent 'devide by zero' error */
-		if (mf_g_accums[i]->num_calls == 0)
+		if (mf_g_accums[i]->num_calls == 0) {
 			mf_g_accums[i]->num_calls = 1;
+		}
 
 		fprintf(fp, format, i, mf_g_accums[i]->name, mf_g_accums[i]->elapsed_accum, mf_g_accums[i]->num_calls,
-			(mf_g_accums[i]->elapsed_accum == 0) ? 0 : (int)(mf_g_accums[i]->elapsed_accum / mf_g_accums[i]->num_calls),
-			mf_g_accums[i]->elapsed_min,
-			mf_g_accums[i]->elapsed_max,
-			mf_g_accums[i]->first_start - mf_g_accum_first_time,
-			mf_g_accums[i]->last_end - mf_g_accum_first_time, mf_g_accums[i]->num_unpair);
+		        (mf_g_accums[i]->elapsed_accum == 0) ? 0 : (int)(mf_g_accums[i]->elapsed_accum / mf_g_accums[i]->num_calls),
+		        mf_g_accums[i]->elapsed_min,
+		        mf_g_accums[i]->elapsed_max,
+		        mf_g_accums[i]->first_start - mf_g_accum_first_time,
+		        mf_g_accums[i]->last_end - mf_g_accum_first_time, mf_g_accums[i]->num_unpair);
 	}
 	fprintf(fp, "END RESULT ACCUM  ============================\n");
 
-	if (direction == MF_TA_SHOW_FILE)
+	if (direction == MF_TA_SHOW_FILE) {
 		fclose(fp);
+	}
 }
 #endif

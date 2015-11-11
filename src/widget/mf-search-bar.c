@@ -50,7 +50,7 @@ extern pthread_mutex_t gLockSearchMsg;
 extern pthread_cond_t gCondSearchMsg;
 static Eina_Bool search_all_flag = EINA_FALSE;
 static Eina_Bool do_search_all = EINA_FALSE;
-static Ecore_Idler *entry_focus_allow_idler =NULL;
+static Ecore_Idler *entry_focus_allow_idler = NULL;
 
 typedef struct {
 	char *size;
@@ -84,12 +84,12 @@ static Evas_Object *_gl_search_all_content_get(void *data, Evas_Object * obj, co
 	if (!strcmp(part, "elm.icon")) {
 
 		Evas_Object *btn = mf_object_create_button(obj,
-						      NULL,
-						      MF_LABEL_SEARCH_ALL,
-						      NULL,
-						      __mf_search_bar_sel_search_all,
-						      data,
-						      EINA_FALSE);
+		                   NULL,
+		                   MF_LABEL_SEARCH_ALL,
+		                   NULL,
+		                   __mf_search_bar_sel_search_all,
+		                   data,
+		                   EINA_FALSE);
 
 		return btn;
 	}
@@ -112,7 +112,7 @@ void mf_search_bar_search_all_item_append(void *data)
 			itc->func.state_get = NULL;
 			itc->func.del = NULL;
 			elm_genlist_item_append(ap->mf_MainWindow.pNaviGenlist, itc, ap, NULL,
-						ELM_GENLIST_ITEM_NONE, NULL, NULL);
+			                        ELM_GENLIST_ITEM_NONE, NULL, NULL);
 		}
 	}
 }
@@ -172,7 +172,7 @@ static void __mf_search_bar_click_item(void *data)
 		mf_debug("ret is %d\n", ret);
 		if (ret) {
 			ap->mf_MainWindow.pNormalPopup =
-				mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_LABEL_UNSUPPORT_FILE_TYPE, NULL, NULL, NULL, NULL, NULL);
+			    mf_popup_create_popup(ap, POPMODE_TEXT, NULL, MF_LABEL_UNSUPPORT_FILE_TYPE, NULL, NULL, NULL, NULL, NULL);
 		}
 	}
 	MF_TRACE_END;
@@ -189,7 +189,7 @@ static void __mf_search_bar_item_sel(void *data, Evas_Object * obj, void *event_
 		struct appdata *ap = (struct appdata *)selected->ap;
 		//fix P131209-00523 by wangyan,search -> longpress searched file-> back, highlight should be released
 		elm_genlist_item_selected_set(item, FALSE);
-		if (ap->mf_MainWindow.pLongpressPopup!=NULL) {
+		if (ap->mf_MainWindow.pLongpressPopup != NULL) {
 			return;
 		}
 		if (ap->mf_Status.more == MORE_EDIT_RENAME) {
@@ -199,9 +199,9 @@ static void __mf_search_bar_item_sel(void *data, Evas_Object * obj, void *event_
 			mf_callback_rename_save_cb(ap, NULL, NULL);
 			return;
 		} else if (ap->mf_Status.more == MORE_EDIT || ap->mf_Status.more == MORE_SHARE_EDIT ||
-						ap->mf_Status.more == MORE_EDIT_COPY || ap->mf_Status.more == MORE_EDIT_MOVE ||
-						ap->mf_Status.more == MORE_EDIT_DETAIL || ap->mf_Status.more == MORE_EDIT_DELETE
-						|| ap->mf_Status.more == MORE_SHARE_EDIT) {
+		           ap->mf_Status.more == MORE_EDIT_COPY || ap->mf_Status.more == MORE_EDIT_MOVE ||
+		           ap->mf_Status.more == MORE_EDIT_DETAIL || ap->mf_Status.more == MORE_EDIT_DELETE
+		           || ap->mf_Status.more == MORE_SHARE_EDIT) {
 			if (selected->file_type == FILE_TYPE_DIR) {
 				mf_info("select type is DIR");
 				if (mf_edit_folder_list_item_exists(selected->item)) {
@@ -224,14 +224,14 @@ static void __mf_search_bar_item_sel(void *data, Evas_Object * obj, void *event_
 				}
 			}
 			if (ap->mf_Status.more == MORE_EDIT_COPY || ap->mf_Status.more == MORE_EDIT_MOVE) {
-				mf_callback_copy_move_cb(ap,NULL,NULL);
+				mf_callback_copy_move_cb(ap, NULL, NULL);
 			} else if (ap->mf_Status.more == MORE_EDIT_DELETE) {
-				mf_callback_delete_cb(ap,NULL,NULL);
+				mf_callback_delete_cb(ap, NULL, NULL);
 			} else if (ap->mf_Status.more == MORE_SHARE_EDIT) {
-				mf_callback_share_cb(ap,NULL,NULL);
+				mf_callback_share_cb(ap, NULL, NULL);
 			} else if (ap->mf_Status.more == MORE_EDIT_DETAIL) {
 				mf_debug("detail callback");
-				mf_callback_details_cb(ap,NULL,NULL);
+				mf_callback_details_cb(ap, NULL, NULL);
 			}
 		} else {
 			__mf_search_bar_click_item(selected);
@@ -317,18 +317,16 @@ static void __mf_search_bar_item_append(void *data, mfItemData_s *item_data)
 		Elm_Object_Item *git = NULL;
 		git = elm_gengrid_item_append(ap->mf_MainWindow.pNaviGengrid, &search_gic, item_data, __mf_search_bar_grid_item_sel, ap);
 		item_data->item = git;
-	}
-	else
-	{
+	} else {
 		Elm_Object_Item *it = NULL;
 		it = elm_genlist_item_append(ap->mf_MainWindow.pNaviGenlist, ap->mf_gl_style.search_itc, item_data, NULL,
-					     ELM_GENLIST_ITEM_NONE, __mf_search_bar_item_sel, ap);
+		                             ELM_GENLIST_ITEM_NONE, __mf_search_bar_item_sel, ap);
 		item_data->item = it;
 	}
 #else
 	Elm_Object_Item *it = NULL;
 	it = elm_genlist_item_append(ap->mf_MainWindow.pNaviGenlist, ap->mf_gl_style.search_itc, m_TempItem, NULL,
-				     ELM_GENLIST_ITEM_NONE, __mf_search_bar_item_sel, ap);
+	                             ELM_GENLIST_ITEM_NONE, __mf_search_bar_item_sel, ap);
 	m_TempItem->item = it;
 #endif
 }
@@ -390,7 +388,7 @@ void mf_search_bar_set_content(void *data, Evas_Object *pLayout, Evas_Object *Na
 	mf_retm_if(data == NULL, "data is NULL");
 	mf_retm_if(pLayout == NULL, "pConform is NULL");
 	mf_retm_if(NaviContent == NULL, "NaviContent is NULL");
-	
+
 	elm_box_clear(pLayout);
 	elm_box_pack_end(pLayout, NaviContent);
 	MF_TRACE_END;
@@ -444,7 +442,7 @@ void mf_search_set_ctrl_button(void *data)
 	Evas_Object *more_bt = NULL;
 	ap->mf_Status.extra = MORE_SEARCH;
 	more_bt = mf_object_create_button(ap->mf_MainWindow.pNaviBar, NAVI_BUTTON_EDIT, MF_LABEL_MORE,
-				NULL, (Evas_Smart_Cb)mf_callback_more_button_cb, ap, EINA_FALSE);
+	                                  NULL, (Evas_Smart_Cb)mf_callback_more_button_cb, ap, EINA_FALSE);
 
 	if (more_bt) {
 		Evas_Object *unset = elm_object_item_part_content_unset(navi_it, NAVI_MORE_BUTTON_PART);
@@ -473,7 +471,7 @@ void mf_search_bar_content_create(mf_search_result_t *result, void *user_data)
 	if (result->file_list != NULL) {
 		g_list_foreach(result->file_list, mf_search_bar_file_item_append, ap);
 	}
-	if(ap->mf_Status.count == 0) {
+	if (ap->mf_Status.count == 0) {
 		ap->mf_Status.flagNoContent = true;
 		Evas_Object *parent = NULL;
 		parent = ap->mf_MainWindow.pNaviBar;
@@ -507,37 +505,37 @@ void mf_search_bar_view_update(void *data)
 	if (view_style != MF_VIEW_STYLE_THUMBNAIL) {
 		elm_genlist_clear(ap->mf_MainWindow.pNaviGenlist);
 		EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_folder_list, l, item_data) {
-                        if (item_data && item_data->m_ItemName && item_data->m_ItemName->str) {
-                                if (!mf_file_exists(item_data->m_ItemName->str)) {
-                                        ap->mf_FileOperation.search_result_folder_list = eina_list_remove(ap->mf_FileOperation.search_result_folder_list, item_data);
-                                        mf_util_normal_item_data_free(&item_data);
-                                        continue;
-                                }
-                                if (ap->mf_Status.search_category == mf_tray_item_category_none) {
-                                        __mf_search_bar_item_append(ap, item_data);
-                                }
-                        }
-                }
-                EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_file_list, l, item_data) {
-                        if (item_data) {
-                                if (!mf_file_exists(item_data->m_ItemName->str)) {
-                                        ap->mf_FileOperation.search_result_file_list = eina_list_remove(ap->mf_FileOperation.search_result_file_list, item_data);
-                                        mf_util_normal_item_data_free(&item_data);
-                                        continue;
-                                }
-                                if (ap->mf_Status.search_category != mf_tray_item_category_none) {
-                                        int type = 0;
-                                        type = mf_tray_item_category_type_get_by_file_type(item_data->file_type);
-                                        if (type != ap->mf_Status.search_category) {
-                                                continue;
-                                        } else {
-                                                __mf_search_bar_item_append(ap, item_data);
-                                        }
-                                } else {
-                                        __mf_search_bar_item_append(ap, item_data);
-                                }
-                        }
-                }
+			if (item_data && item_data->m_ItemName && item_data->m_ItemName->str) {
+				if (!mf_file_exists(item_data->m_ItemName->str)) {
+					ap->mf_FileOperation.search_result_folder_list = eina_list_remove(ap->mf_FileOperation.search_result_folder_list, item_data);
+					mf_util_normal_item_data_free(&item_data);
+					continue;
+				}
+				if (ap->mf_Status.search_category == mf_tray_item_category_none) {
+					__mf_search_bar_item_append(ap, item_data);
+				}
+			}
+		}
+		EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_file_list, l, item_data) {
+			if (item_data) {
+				if (!mf_file_exists(item_data->m_ItemName->str)) {
+					ap->mf_FileOperation.search_result_file_list = eina_list_remove(ap->mf_FileOperation.search_result_file_list, item_data);
+					mf_util_normal_item_data_free(&item_data);
+					continue;
+				}
+				if (ap->mf_Status.search_category != mf_tray_item_category_none) {
+					int type = 0;
+					type = mf_tray_item_category_type_get_by_file_type(item_data->file_type);
+					if (type != ap->mf_Status.search_category) {
+						continue;
+					} else {
+						__mf_search_bar_item_append(ap, item_data);
+					}
+				} else {
+					__mf_search_bar_item_append(ap, item_data);
+				}
+			}
+		}
 		if (elm_genlist_items_count(ap->mf_MainWindow.pNaviGenlist) == 0) {
 			//Evas_Object *no_content = NULL;
 
@@ -559,50 +557,50 @@ void mf_search_bar_view_update(void *data)
 	} else {
 		elm_gengrid_clear(ap->mf_MainWindow.pNaviGengrid);
 		EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_folder_list, l, item_data) {
-                        if (item_data) {
-                                if (!mf_file_exists(item_data->m_ItemName->str)) {
-                                        ap->mf_FileOperation.search_result_folder_list = eina_list_remove(ap->mf_FileOperation.search_result_folder_list, item_data);
-                                        mf_util_normal_item_data_free(&item_data);
-                                        continue;
-                                }
-                                if (ap->mf_Status.search_category == mf_tray_item_category_none) {
-                                        __mf_search_bar_item_append(ap, item_data);
-                                }
-                        }
-                }
-                EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_file_list, l, item_data) {
-                        if (item_data && item_data->m_ItemName && item_data->m_ItemName->str) {
-                                if (!mf_file_exists(item_data->m_ItemName->str)) {
-                                        ap->mf_FileOperation.search_result_file_list = eina_list_remove(ap->mf_FileOperation.search_result_file_list, item_data);
-                                        mf_util_normal_item_data_free(&item_data);
-                                        continue;
-                                }
-                                if (ap->mf_Status.search_category != mf_tray_item_category_none) {
-                                        int type = 0;
-                                        type = mf_tray_item_category_type_get_by_file_type(item_data->file_type);
-                                        if (type != ap->mf_Status.search_category) {
-                                                continue;
-                                        } else {
-                                                __mf_search_bar_item_append(ap, item_data);
-                                        }
-                                } else {
-                                        __mf_search_bar_item_append(ap, item_data);
-                                }
-                        }
-                }
-                if (elm_gengrid_items_count(ap->mf_MainWindow.pNaviGengrid) == 0) {
-                        Evas_Object *parent = NULL;
-                        parent = ap->mf_MainWindow.pNaviLayout;
-                        Evas_Object *no_content = elm_layout_add(parent);
-						elm_layout_theme_set(no_content, "layout", "nocontents", "search");
-						elm_object_focus_set(no_content, EINA_FALSE);
-						evas_object_size_hint_weight_set(no_content, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-						evas_object_size_hint_align_set(no_content, EVAS_HINT_FILL, EVAS_HINT_FILL);
-                        //mf_object_disable_virtualkeypad();
-                        mf_object_text_set(no_content, MF_LABEL_NO_RESULT_FOUND, "elm.text");
-                        mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content,true);
-						evas_object_show(no_content);
-                        ap->mf_MainWindow.pNaviGengrid = NULL;
+			if (item_data) {
+				if (!mf_file_exists(item_data->m_ItemName->str)) {
+					ap->mf_FileOperation.search_result_folder_list = eina_list_remove(ap->mf_FileOperation.search_result_folder_list, item_data);
+					mf_util_normal_item_data_free(&item_data);
+					continue;
+				}
+				if (ap->mf_Status.search_category == mf_tray_item_category_none) {
+					__mf_search_bar_item_append(ap, item_data);
+				}
+			}
+		}
+		EINA_LIST_FOREACH(ap->mf_FileOperation.search_result_file_list, l, item_data) {
+			if (item_data && item_data->m_ItemName && item_data->m_ItemName->str) {
+				if (!mf_file_exists(item_data->m_ItemName->str)) {
+					ap->mf_FileOperation.search_result_file_list = eina_list_remove(ap->mf_FileOperation.search_result_file_list, item_data);
+					mf_util_normal_item_data_free(&item_data);
+					continue;
+				}
+				if (ap->mf_Status.search_category != mf_tray_item_category_none) {
+					int type = 0;
+					type = mf_tray_item_category_type_get_by_file_type(item_data->file_type);
+					if (type != ap->mf_Status.search_category) {
+						continue;
+					} else {
+						__mf_search_bar_item_append(ap, item_data);
+					}
+				} else {
+					__mf_search_bar_item_append(ap, item_data);
+				}
+			}
+		}
+		if (elm_gengrid_items_count(ap->mf_MainWindow.pNaviGengrid) == 0) {
+			Evas_Object *parent = NULL;
+			parent = ap->mf_MainWindow.pNaviLayout;
+			Evas_Object *no_content = elm_layout_add(parent);
+			elm_layout_theme_set(no_content, "layout", "nocontents", "search");
+			elm_object_focus_set(no_content, EINA_FALSE);
+			evas_object_size_hint_weight_set(no_content, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+			evas_object_size_hint_align_set(no_content, EVAS_HINT_FILL, EVAS_HINT_FILL);
+			//mf_object_disable_virtualkeypad();
+			mf_object_text_set(no_content, MF_LABEL_NO_RESULT_FOUND, "elm.text");
+			mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content, true);
+			evas_object_show(no_content);
+			ap->mf_MainWindow.pNaviGengrid = NULL;
 		}
 
 	}
@@ -654,11 +652,11 @@ static void __mf_search_bar_result_update(mf_search_result_t *result, void *user
 		}
 #endif
 		Evas_Object *progressbar = elm_progressbar_add(ap->mf_MainWindow.pNaviBar);
-                elm_object_style_set(progressbar, "list_process");
-                evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, 0.5);
-                evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-                evas_object_show(progressbar);
-                elm_progressbar_pulse(progressbar, EINA_TRUE);
+		elm_object_style_set(progressbar, "list_process");
+		evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, 0.5);
+		evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+		evas_object_show(progressbar);
+		elm_progressbar_pulse(progressbar, EINA_TRUE);
 		elm_object_item_part_content_set(ap->mf_MainWindow.pNaviItem, TITLE_RIGHT_BTN, progressbar);
 	}
 	if (msg_type == MF_SEARCH_PIPE_MSG_DOING) {
@@ -696,7 +694,7 @@ static void __mf_search_bar_result_update(mf_search_result_t *result, void *user
 				} else {
 					mf_search_bar_content_create(result, ap);
 				}
-			}else {
+			} else {
 				mf_search_bar_content_create(result, ap);
 			}
 		}
@@ -742,7 +740,7 @@ static void __mf_search_bar_result_update(mf_search_result_t *result, void *user
 			//mf_object_disable_virtualkeypad();
 			mf_object_text_set(no_content, MF_LABEL_NO_RESULT_FOUND, "elm.text");
 			evas_object_show(no_content);
-			mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content,true);
+			mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content, true);
 			//mf_navi_bar_layout_content_set(parent, pSearchBarLabel);
 
 		}
@@ -762,7 +760,7 @@ static void __mf_search_bar_result_update(mf_search_result_t *result, void *user
 			//mf_object_disable_virtualkeypad();
 			mf_object_text_set(no_content, MF_LABEL_NO_RESULT_FOUND, "elm.text");
 			evas_object_show(no_content);
-			mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content,true);
+			mf_search_bar_set_content(ap, ap->mf_MainWindow.pNaviBox, no_content, true);
 			//mf_navi_bar_layout_content_set(parent, pSearchBarLabel);
 
 		} else {
@@ -911,9 +909,9 @@ static bool __mf_search_bar_idle_search_start(void *data)
 		}
 
 		if (ap->mf_Status.view_type == mf_view_root
-		|| ap->mf_Status.view_type == mf_view_root_category
-		|| ap->mf_Status.view_type == mf_view_storage
-		|| ap->mf_Status.view_type == mf_view_recent) {
+		        || ap->mf_Status.view_type == mf_view_root_category
+		        || ap->mf_Status.view_type == mf_view_storage
+		        || ap->mf_Status.view_type == mf_view_recent) {
 			SearchRoot[0] = PHONE_FOLDER;
 			root_num++;
 			if (ap->mf_Status.iStorageState & MYFILE_MMC) {
@@ -928,8 +926,7 @@ static bool __mf_search_bar_idle_search_start(void *data)
 				root_num++;
 			}
 			do_search_all = EINA_FALSE;
-		}
-		else {
+		} else {
 			SearchRoot[0] = ap->mf_Status.path->str;
 			root_num++;
 		}
@@ -937,7 +934,7 @@ static bool __mf_search_bar_idle_search_start(void *data)
 		char *new_desc = NULL;
 		/*Start Search routine*/
 		if (!mf_search_start(ap->mf_Status.search_handler, SearchRoot, root_num, \
-				     ((text) ? text : NULL), MF_SEARCH_OPTION_DEF, (void *)ap, NULL, mf_tray_item_category_none, MF_CATEGOR_SEARCH_ITEM_COUNT)) {
+		                     ((text) ? text : NULL), MF_SEARCH_OPTION_DEF, (void *)ap, NULL, mf_tray_item_category_none, MF_CATEGOR_SEARCH_ITEM_COUNT)) {
 			/*generate the popup used to show search path
 			**it's sure that new_desc is not NULL even if original path is NULL*/
 			new_desc = mf_fm_svc_wrapper_translate_path(ap->mf_Status.path->str, MF_TRANS_OPTION_POPUP);
@@ -1022,8 +1019,9 @@ void mf_search_bar_search_started_callback(void *data, Evas_Object * obj, void *
 		return;
 	}
 
-	if (ap->mf_Status.search_handler > 0)
+	if (ap->mf_Status.search_handler > 0) {
 		mf_search_finalize(&ap->mf_Status.search_handler);
+	}
 	int ret = mf_search_init(&ap->mf_Status.search_handler);
 	mf_retm_if(ret < 0, "Fail to mf_search_init()");
 

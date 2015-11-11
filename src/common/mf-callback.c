@@ -203,27 +203,28 @@ void mf_callback_app_rotate_cb(void *data, Evas_Object *obj, void *event)
 	assert(ap);
 
 	int changed_angle = elm_win_rotation_get(obj);
-/*
-	enum ug_event new_event = UG_EVENT_ROTATE_PORTRAIT;
-	switch (changed_angle) {
-	case APP_DEVICE_ORIENTATION_0:
-		new_event = UG_EVENT_ROTATE_PORTRAIT;
-		break;
-	case APP_DEVICE_ORIENTATION_90:
-		new_event = UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN;
-		break;
-	case APP_DEVICE_ORIENTATION_180:
-		new_event = UG_EVENT_ROTATE_PORTRAIT_UPSIDEDOWN;
-		break;
-	case APP_DEVICE_ORIENTATION_270:
-		new_event = UG_EVENT_ROTATE_LANDSCAPE;
-		break;
+	/*
+		enum ug_event new_event = UG_EVENT_ROTATE_PORTRAIT;
+		switch (changed_angle) {
+		case APP_DEVICE_ORIENTATION_0:
+			new_event = UG_EVENT_ROTATE_PORTRAIT;
+			break;
+		case APP_DEVICE_ORIENTATION_90:
+			new_event = UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN;
+			break;
+		case APP_DEVICE_ORIENTATION_180:
+			new_event = UG_EVENT_ROTATE_PORTRAIT_UPSIDEDOWN;
+			break;
+		case APP_DEVICE_ORIENTATION_270:
+			new_event = UG_EVENT_ROTATE_LANDSCAPE;
+			break;
+		}
+		ug_send_event(new_event);
+	*/
+	const char *config = elm_config_profile_get();
+	if (!strcmp(config, "desktop")) {
+		return;
 	}
-	ug_send_event(new_event);
-*/
-        const char *config = elm_config_profile_get();
-        if (!strcmp(config, "desktop"))
-                return;
 
 
 	if (mf_view_is_root_view(ap)) {
@@ -238,13 +239,14 @@ void mf_callback_app_rotate_cb(void *data, Evas_Object *obj, void *event)
 	} else {
 		if (changed_angle == APP_DEVICE_ORIENTATION_90 || changed_angle == APP_DEVICE_ORIENTATION_270) {
 			evas_object_size_hint_min_set(ap->mf_MainWindow.pPopupBox, -1,
-													ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(MF_SORT_BY_ITEM/2)));
+			                              ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(MF_SORT_BY_ITEM / 2)));
 		} else {
 			evas_object_size_hint_min_set(ap->mf_MainWindow.pPopupBox, -1,
-														ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(MF_SORT_BY_ITEM)));
+			                              ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(MF_SORT_BY_ITEM)));
 		}
-		if (ap->mf_Status.view_type != mf_view_root_category && ap->mf_Status.view_type != mf_view_recent && ap->mf_Status.view_type != mf_view_storage)
+		if (ap->mf_Status.view_type != mf_view_root_category && ap->mf_Status.view_type != mf_view_recent && ap->mf_Status.view_type != mf_view_storage) {
 			mf_navi_bar_pathinfo_refresh(ap);
+		}
 	}
 
 
@@ -324,10 +326,10 @@ void mf_callback_click_cb(struct appdata *data, mfAction key, GString *path)
 {
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	mf_retm_if (ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
-	mf_retm_if (ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
-	mf_retm_if (path == NULL, "path is NULL");
-	mf_retm_if (path->str == NULL, "path->str is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
+	mf_retm_if(path == NULL, "path is NULL");
+	mf_retm_if(path->str == NULL, "path->str is NULL");
 
 
 	if (mf_fm_svc_wrapper_is_dir(path)) {
@@ -343,10 +345,10 @@ void mf_callback_click_cb(struct appdata *data, mfAction key, GString *path)
 			GString *new_path = NULL;
 			if (ap->mf_Status.more == MORE_SEARCH) {
 				if (ap->mf_FileOperation.search_result_folder_list) {
-				mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.search_result_folder_list), MYFILE_TYPE_ITEM_DATA);
+					mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.search_result_folder_list), MYFILE_TYPE_ITEM_DATA);
 				}
 				if (ap->mf_FileOperation.search_result_file_list) {
-				mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.search_result_file_list), MYFILE_TYPE_ITEM_DATA);
+					mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.search_result_file_list), MYFILE_TYPE_ITEM_DATA);
 				}
 				elm_object_focus_set(ap->mf_MainWindow.pSearchEntry, EINA_FALSE);
 				ap->mf_Status.more = MORE_DEFAULT;
@@ -398,16 +400,18 @@ void mf_callback_illegal_char_popup_cb(void *data, Evas_Object *obj, void *event
 		ap->mf_MainWindow.pNormalPopup = NULL;
 
 		Evas_Object *entry = ap->mf_MainWindow.pEntry;
-		if (entry != NULL)
+		if (entry != NULL) {
 			elm_object_focus_set(entry, EINA_TRUE);
+		}
 	} else if ((g_strcmp0(label, mf_util_get_text(MF_BUTTON_LABEL_NO)) == 0) || (g_strcmp0(label, mf_util_get_text(LABEL_CANCEL)) == 0)) {
 		evas_object_del(ap->mf_MainWindow.pNormalPopup);
 		ap->mf_MainWindow.pNormalPopup = NULL;
 		mf_callback_cancel_cb(ap, NULL, NULL);
 	} else {//Fix the bug when pressing the back key.
 		Evas_Object *entry = ap->mf_MainWindow.pEntry;
-		if (entry != NULL)
+		if (entry != NULL) {
 			elm_object_focus_set(entry, EINA_TRUE);
+		}
 	}
 }
 
@@ -433,8 +437,8 @@ void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 	MF_TRACE_BEGIN;
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	mf_retm_if (ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
-	mf_retm_if (ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
 
 	mf_error("more is [%d]", ap->mf_Status.more);
 
@@ -614,7 +618,7 @@ void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 		} else if (ap->mf_Status.view_type == mf_view_recent) {
 			mf_navi_bar_title_content_set(ap, MF_LABEL_RECTENT_FILES);
 		} else {
-			mf_navi_bar_title_content_set(ap,ap->mf_MainWindow.naviframe_title);
+			mf_navi_bar_title_content_set(ap, ap->mf_MainWindow.naviframe_title);
 			elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
 		}
 	} else if (ap->mf_Status.more != MORE_EDIT_RENAME) {
@@ -710,7 +714,7 @@ static void __mf_callback_refresh_rename(void *data, GString *pre_name, GString 
 	}
 
 	if (g_string_equal(item_data->m_ItemName, pre_name)) {
-		
+
 		int hiden_state = 0;
 		mf_util_get_pref_value(PREF_TYPE_HIDEN_STATE, &hiden_state);
 		if (hiden_state == MF_HIDEN_HIDE) {
@@ -956,11 +960,11 @@ void mf_callback_rename_save_cb(void *ad, Evas_Object *obj, void *event_info)
 			} else {
 				mf_callback_monitor_media_db_update_flag_set(EINA_TRUE);
 				if (item_data->file_type != FILE_TYPE_DIR) {
-					if(strstr (from->str,"/.") != NULL && strstr (to->str, "/.") == NULL) {
+					if (strstr(from->str, "/.") != NULL && strstr(to->str, "/.") == NULL) {
 						mf_media_content_scan_file(to->str);
-					} else if(strstr (from->str,"/.") == NULL && strstr (to->str, "/.") != NULL) {
+					} else if (strstr(from->str, "/.") == NULL && strstr(to->str, "/.") != NULL) {
 						mf_media_content_scan_file(from->str);
-					} else if(strstr (from->str,"/.") == NULL && strstr (to->str, "/.") == NULL){
+					} else if (strstr(from->str, "/.") == NULL && strstr(to->str, "/.") == NULL) {
 						mf_media_content_scan_file(from->str);
 						mf_media_content_scan_file(to->str);
 					}
@@ -1032,12 +1036,11 @@ INVAILD_NAME_EXIT:
 		}
 	}
 
-	if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME || ap->mf_Status.more == MORE_EDIT_RENAME)
-	{
+	if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME || ap->mf_Status.more == MORE_EDIT_RENAME) {
 		//ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_TWO_BTN, NULL, message,LABEL_CANCEL, MF_BUTTON_LABEL_OK, NULL, mf_callback_illegal_char_popup_cb, ap);
 		mf_callback_entry_unfocus(pEntry);
 		mf_popup_second_popup_create(ap, ap->mf_MainWindow.pWindow, message,
-								       MF_BUTTON_LABEL_OK, mf_popup_show_vk_cb, ap);
+		                             MF_BUTTON_LABEL_OK, mf_popup_show_vk_cb, ap);
 		mf_callback_monitor_media_db_update_flag_set(EINA_FALSE);
 		mf_callback_monitor_internal_update_flag_set(EINA_FALSE);
 		return;
@@ -1130,7 +1133,7 @@ void mf_callback_new_folder_save_cb(void *data, Evas_Object *obj, void *event_in
 		mf_object_entry_unfocus(ap->mf_MainWindow.pEntry);
 		name = mf_callback_entry_text_get(ap->mf_MainWindow.pEntry);
 
-		SECURE_DEBUG("ap is [%p], name is [%s]", ap,name);
+		SECURE_DEBUG("ap is [%p], name is [%s]", ap, name);
 
 		if (name) {
 			if (strlen(name)) {
@@ -1194,7 +1197,7 @@ void mf_callback_new_folder_save_cb(void *data, Evas_Object *obj, void *event_in
 					ap->mf_MainWindow.pEntry = NULL;
 					SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
 					mf_view_update(ap);
-                                  //Prevent issue
+					//Prevent issue
 					/*if (ap->mf_Status.more == MORE_DEFAULT && noContentFlag) {
 						mf_navi_bar_set_ctrlbar_item_disable(ap->mf_MainWindow.pNaviItem, CTRL_DISABLE_NOCONTENT_VIEW, false);
 					}*/
@@ -1227,7 +1230,7 @@ ERROR_EXIT_CREATE:
 	ap->mf_MainWindow.pEntry = NULL;
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
 	ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, message,
-							       MF_BUTTON_LABEL_OK, NULL, NULL, mf_popup_error_exit_cb, ap);
+	                                 MF_BUTTON_LABEL_OK, NULL, NULL, mf_popup_error_exit_cb, ap);
 
 	return;
 
@@ -1267,7 +1270,7 @@ void mf_callback_list_by_response_cb(void *data, Evas_Object *obj, void *event_i
 	assert(ap);
 
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
-	
+
 	Evas_Object *playout = ap->mf_MainWindow.pNaviLayout;
 	mf_retm_if(playout == NULL, "get conformant failed");
 	Evas_Object *newContent = NULL;
@@ -1307,9 +1310,9 @@ void mf_callback_list_by_view_cb(void *data, Evas_Object *obj, void *event_info)
 	assert(ap);
 
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
-	
+
 	mf_sort_by_respones_func_set(mf_callback_list_by_response_cb);
-	ap->mf_MainWindow.pNormalPopup = mf_popup_sort_by_create(LABEL_SORT_BY_CHAP,mf_callback_popup_deleted_cb, ap);
+	ap->mf_MainWindow.pNormalPopup = mf_popup_sort_by_create(LABEL_SORT_BY_CHAP, mf_callback_popup_deleted_cb, ap);
 }
 
 /******************************
@@ -1511,8 +1514,8 @@ void mf_callback_edit_rename_cb(void *data, Evas_Object *obj, void *event_info)
 		evas_object_hide(ap->mf_MainWindow.pButton);
 	}
 	if (ap->mf_MainWindow.pNaviItem) {
-			Evas_Object *unset = elm_object_item_part_content_unset(ap->mf_MainWindow.pNaviItem, "prev_btn");
-			evas_object_hide(unset);
+		Evas_Object *unset = elm_object_item_part_content_unset(ap->mf_MainWindow.pNaviItem, "prev_btn");
+		evas_object_hide(unset);
 	}
 	//__mf_callback_edit_share_view(ap);
 
@@ -1525,7 +1528,7 @@ void mf_callback_edit_delete_recent_cb(void *data, Evas_Object *obj, void *event
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = (struct appdata *)data;
-	
+
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
 	if (ap->mf_MainWindow.pButton) {
 		elm_object_part_content_unset(ap->mf_MainWindow.pNaviLayout, "search_icon");
@@ -1585,12 +1588,12 @@ void mf_callback_delete_recent_files_confirm_cb(void *data, Evas_Object *obj, vo
 	int count = mf_edit_file_count_get();
 	if (count > 1) {
 		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, MF_LABEL_REMOVE,
-								       MF_LABEL_DELETE_RECENT_Q,
-								       LABEL_CANCEL, MF_LABEL_REMOVE, mf_callback_do_delete_recent_files, ap, count);
+		                                        MF_LABEL_DELETE_RECENT_Q,
+		                                        LABEL_CANCEL, MF_LABEL_REMOVE, mf_callback_do_delete_recent_files, ap, count);
 	} else {
 		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, MF_LABEL_REMOVE,
-								       MF_LABEL_DELETE_THIS_RECENT,
-								       LABEL_CANCEL, MF_LABEL_REMOVE, mf_callback_do_delete_recent_files, ap, count);
+		                                        MF_LABEL_DELETE_THIS_RECENT,
+		                                        LABEL_CANCEL, MF_LABEL_REMOVE, mf_callback_do_delete_recent_files, ap, count);
 	}
 }
 
@@ -1599,7 +1602,7 @@ void mf_callback_edit_unintall_cb(void *data, Evas_Object *obj, void *event_info
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = (struct appdata *)data;
-	
+
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
 	ap->mf_Status.more = MORE_EDIT_UNINSTALL;
 	__mf_callback_edit_share_view(ap);
@@ -1622,15 +1625,16 @@ void mf_callback_edit_unintall_cb(void *data, Evas_Object *obj, void *event_info
 **/
 void mf_callback_icu_update_cb(app_event_info_h event_info, void *data)
 {
-/*
-	ug_send_event(UG_EVENT_REGION_CHANGE);
-*/
+	/*
+		ug_send_event(UG_EVENT_REGION_CHANGE);
+	*/
 	mf_debug("region changed");
 	assert(data);
 	struct appdata *ap = (struct appdata *)data;
 
-	if (ap->mf_Status.flagIcuInit == FALSE)
+	if (ap->mf_Status.flagIcuInit == FALSE) {
 		return;
+	}
 	/* finalize the previous icu session */
 	mf_util_icu_finalize(ap);
 	/* start a new icu session*/
@@ -1642,14 +1646,16 @@ void mf_callback_icu_update_cb(app_event_info_h event_info, void *data)
 		return ;
 	}
 
-	if (ap->mf_Status.more != MORE_DEFAULT)
+	if (ap->mf_Status.more != MORE_DEFAULT) {
 		return ;
+	}
 
 
 	/*get current genlist */
 	Evas_Object *currgenlist = ap->mf_MainWindow.pNaviGenlist;
-	if (currgenlist == NULL)
+	if (currgenlist == NULL) {
 		return ;
+	}
 	/*create new genlist */
 	mf_view_update(ap);
 	return ;
@@ -1710,8 +1716,9 @@ void mf_callback_rename_create_cb(void *data, Evas_Object *obj, void *event_info
 
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
 
-	if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME)
+	if (ap->mf_Status.more == MORE_THUMBNAIL_RENAME) {
 		return;
+	}
 	mf_view_state_set_with_pre(ap, MORE_THUMBNAIL_RENAME);
 
 	mf_popup_rename_func_reset();
@@ -1774,7 +1781,7 @@ void mf_callback_long_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 	MF_TRACE_BEGIN;
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	evas_object_smart_callback_del (ap->mf_MainWindow.pEntry, "clicked", (Evas_Smart_Cb) mf_callback_clicked_cb);
+	evas_object_smart_callback_del(ap->mf_MainWindow.pEntry, "clicked", (Evas_Smart_Cb) mf_callback_clicked_cb);
 //	elm_entry_select_none(ap->mf_MainWindow.pEntry);
 	MF_TRACE_END;
 }
@@ -1784,7 +1791,7 @@ void mf_callback_max_len_reached_cb(void *data, Evas_Object *obj, void *event_in
 	MF_TRACE_BEGIN;
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	char *message = g_strdup_printf(mf_util_get_text(MF_LABEL_MAX_CHARACTER_REACHED),MYFILE_FILE_NAME_CHAR_COUNT_MAX);
+	char *message = g_strdup_printf(mf_util_get_text(MF_LABEL_MAX_CHARACTER_REACHED), MYFILE_FILE_NAME_CHAR_COUNT_MAX);
 	mf_popup_indicator_popup(data, message);
 	SAFE_FREE_CHAR(message);
 	//mf_callback_entry_unfocus(obj);
@@ -1869,7 +1876,7 @@ void mf_callback_progress_bar_state_cb(void *data)
 	MF_TRACE_BEGIN;
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
-	mf_retm_if (ap->mf_MainWindow.pProgressPopup == NULL, "ap->mf_MainWindow.pProgressPopup is NULL");
+	mf_retm_if(ap->mf_MainWindow.pProgressPopup == NULL, "ap->mf_MainWindow.pProgressPopup is NULL");
 
 	mf_fo_msg *msg = ap->mf_FileOperation.pMessage;
 	char lable[10] = { '\0', };
@@ -1882,12 +1889,11 @@ void mf_callback_progress_bar_state_cb(void *data)
 	total_count = ap->mf_FileOperation.iTotalCount;
 	count = msg->current_index;
 	mf_error("processing ,current_size[%d], total_size[%ld]", msg->current_size,
-			msg->total_size);
+	         msg->total_size);
 	value = (double)msg->current_size / msg->total_size;
 	//add protection to avoid the percent passed 100%
-	if (value>1 && count <= total_count)
-	{
-		value = (double)count/total_count;
+	if (value > 1 && count <= total_count) {
+		value = (double)count / total_count;
 	}
 	elm_progressbar_value_set(ap->mf_FileOperation.progress_bar, value);
 	//mf_error("processing ,count=%d, total_count=%d, value is [%f]",count, total_count,value);
@@ -2049,7 +2055,7 @@ void mf_callback_copy_move_cb(void *data, Evas_Object *obj, void *event_info)
 
 	if (mf_util_get_eina_list_len(ap->mf_FileRecordList.value_saver) < 1) {
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABEL_NOTHING_SELECTED,
-								       MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
+		                                 MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
 		return;
 	}
 
@@ -2077,7 +2083,7 @@ void mf_callback_details_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = mf_get_appdata();
-	
+
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
 	if (mf_edit_file_count_get() == 1) {
@@ -2098,7 +2104,7 @@ void mf_callback_details_cb(void *data, Evas_Object *obj, void *event_info)
 		Eina_List *select_list = mf_edit_get_all_selected_files();
 		if (mf_util_get_eina_list_len(select_list) < 1) {
 			ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABEL_NOTHING_SELECTED,
-									       MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
+			                                 MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
 			return;
 		}
 
@@ -2201,11 +2207,11 @@ void mf_callback_paste_here_cb(void *data, Evas_Object *obj, void *event_info)
 	int count = 0;
 	gchar *pDestPath = NULL;
 
-	mf_retm_if (ap->mf_FileOperation.source == NULL, "ap->mf_FileOperation.source is NULL");
-	mf_retm_if (ap->mf_FileOperation.source->str == NULL, "ap->mf_FileOperation.source is NULL");
+	mf_retm_if(ap->mf_FileOperation.source == NULL, "ap->mf_FileOperation.source is NULL");
+	mf_retm_if(ap->mf_FileOperation.source->str == NULL, "ap->mf_FileOperation.source is NULL");
 
-	mf_retm_if (ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
-	mf_retm_if (ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
 
 	ap->mf_FileOperation.destination = ap->mf_Status.path;
 
@@ -2308,11 +2314,11 @@ void mf_callback_move_here_cb(void *data, Evas_Object *obj, void *event_info)
 	int count = 0;
 	gchar *pDestPath = NULL;
 
-	mf_retm_if (ap->mf_FileOperation.source == NULL, "ap->mf_FileOperation.source is NULL");
-	mf_retm_if (ap->mf_FileOperation.source->str == NULL, "ap->mf_FileOperation.source is NULL");
+	mf_retm_if(ap->mf_FileOperation.source == NULL, "ap->mf_FileOperation.source is NULL");
+	mf_retm_if(ap->mf_FileOperation.source->str == NULL, "ap->mf_FileOperation.source is NULL");
 
-	mf_retm_if (ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
-	mf_retm_if (ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL, "ap->mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path->str == NULL, "ap->mf_Status.path->str is NULL");
 
 	ap->mf_FileOperation.destination = ap->mf_Status.path;
 
@@ -2418,8 +2424,8 @@ static void __mf_callback_confirm_delete(void *data, Evas_Object *obj, void *eve
 
 		if (mf_util_get_eina_list_len(ap->mf_FileRecordList.value_saver) < 1) {
 			ap->mf_MainWindow.pNormalPopup =
-				mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABEL_NOTHING_SELECTED,
-						      MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
+			    mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_LABEL_NOTHING_SELECTED,
+			                          MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
 		} else {
 			GList *pSourceList = NULL;
 			int count = 0;
@@ -2444,7 +2450,7 @@ static void __mf_callback_confirm_delete(void *data, Evas_Object *obj, void *eve
 				ap->mf_FileOperation.iOperationSuccessFlag = TRUE;
 				mf_fs_monitor_remove_dir_watch();
 				ap->mf_MainWindow.pProgressPopup =
-					mf_popup_create_pb_popup(ap, LABEL_DELETE, MF_MSG_DELETING, count, mf_callback_progress_bar_cancel_cb, ap);
+				    mf_popup_create_pb_popup(ap, LABEL_DELETE, MF_MSG_DELETING, count, mf_callback_progress_bar_cancel_cb, ap);
 			} else {
 				mf_util_exception_func(ap);
 			}
@@ -2485,13 +2491,13 @@ void mf_callback_delete_cb(void *data, Evas_Object *obj, void *event_info)
 	int count = mf_edit_file_count_get();
 	if (count > 1) {
 		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, LABEL_DELETE,
-								       MF_LABEL_ITEMS_WILL_DELETE,
-								       LABEL_CANCEL, LABEL_DELETE, __mf_callback_confirm_delete, ap, count);
+		                                        MF_LABEL_ITEMS_WILL_DELETE,
+		                                        LABEL_CANCEL, LABEL_DELETE, __mf_callback_confirm_delete, ap, count);
 	} else {
 		ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap,
-								       LABEL_DELETE,
-								       MF_LABEL_THIS_ITEM_WILL_DELETE,
-								       LABEL_CANCEL, LABEL_DELETE, __mf_callback_confirm_delete, ap, count);
+		                                        LABEL_DELETE,
+		                                        MF_LABEL_THIS_ITEM_WILL_DELETE,
+		                                        LABEL_CANCEL, LABEL_DELETE, __mf_callback_confirm_delete, ap, count);
 	}
 }
 
@@ -2568,14 +2574,14 @@ void mf_callback_operation_request_cancel_cb(void *data, Evas_Object *obj, void 
 
 void mf_callback_popup_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	struct appdata *ap =(struct appdata *)data;
+	struct appdata *ap = (struct appdata *)data;
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
 	mf_request_set_result(ap->mf_FileOperation.pRequest, MF_REQ_CANCEL);
 }
 
 void mf_callback_rename_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	struct appdata *ap =(struct appdata *)data;
+	struct appdata *ap = (struct appdata *)data;
 	ap->mf_Status.req = MF_REQ_RENAME;
 	mf_request_set_result(ap->mf_FileOperation.pRequest, MF_REQ_RENAME);
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
@@ -2583,7 +2589,7 @@ void mf_callback_rename_cb(void *data, Evas_Object *obj, void *event_info)
 
 void mf_callback_replace_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	struct appdata *ap =(struct appdata *)data;
+	struct appdata *ap = (struct appdata *)data;
 	ap->mf_Status.req = MF_REQ_NONE;
 	mf_request_set_result(ap->mf_FileOperation.pRequest, MF_REQ_NONE);
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
@@ -2610,18 +2616,18 @@ void mf_callback_thread_pipe_cb(void *data, void *buffer, unsigned int nbyte)
 
 	if (pPipeMsg->msg_type == MF_MSG_REQUEST && ap->mf_Status.check != 1) {
 		GString *path = g_string_new(pPipeMsg->current);
-		if(mf_fm_svc_wrapper_is_dir(path) == FILE_TYPE_DIR) {
+		if (mf_fm_svc_wrapper_is_dir(path) == FILE_TYPE_DIR) {
 			char *label = gettext(MF_LABEL_SAME_FOLDER_LABEL);
 			ap->file_name = mf_fm_svc_get_file_name(path);
 			char *message = g_strdup_printf(label, ap->file_name);
 			ap->mf_MainWindow.pNormalPopup = mf_popup_replace_create(MF_LABEL_SAME_FOLDER, message, mf_callback_popup_cancel_cb,
-									mf_callback_replace_cb, mf_callback_rename_cb, ap);
+			                                 mf_callback_replace_cb, mf_callback_rename_cb, ap);
 		} else {
 			char *label = gettext(MF_LABEL_SAME_FILE_LABEL);
 			ap->file_name = mf_fm_svc_get_file_name(path);
 			char *message = g_strdup_printf(label, ap->file_name);
 			ap->mf_MainWindow.pNormalPopup = mf_popup_replace_create(MF_LABEL_SAME_FILE, message, mf_callback_popup_cancel_cb,
-									mf_callback_replace_cb, mf_callback_rename_cb, ap);
+			                                 mf_callback_replace_cb, mf_callback_rename_cb, ap);
 		}
 	}
 	mf_util_set_pm_lock(ap, EINA_TRUE);
@@ -2637,7 +2643,7 @@ void mf_callback_thread_pipe_cb(void *data, void *buffer, unsigned int nbyte)
 			ap->mf_MainWindow.pProgressPopup = NULL;
 		}
 		ap->mf_MainWindow.pFinishPopup = mf_popup_create_popup(ap, POPMODE_TEXT_NOT_DISABLED, NULL,
-								       MF_LABEL_CANCELING, NULL, NULL, NULL, NULL, NULL);
+		                                 MF_LABEL_CANCELING, NULL, NULL, NULL, NULL, NULL);
 		mf_msg_request_handled_send();
 		ap->mf_FileOperation.iOperationSuccessFlag = FALSE;
 		break;
@@ -2753,8 +2759,7 @@ void mf_callback_thread_pipe_cb(void *data, void *buffer, unsigned int nbyte)
 			} else {
 				ap->mf_FileOperation.pOperationMsg = message;
 			}
-		}
-		else {
+		} else {
 			if (ap->mf_Status.more == MORE_DATA_COPYING) {
 				ap->mf_FileOperation.pOperationMsg = MF_MSG_COPY_FAILED;
 			} else if (ap->mf_Status.more == MORE_DATA_MOVING) {
@@ -2827,13 +2832,14 @@ static void __mf_callback_mmc_connected(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
-	mf_retm_if (ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
 
 	Evas_Object *entry = NULL;
 	ap->mf_Status.iStorageState |= MYFILE_MMC;
 
-	if (ap->mf_Status.more == MORE_SEARCH || (ap->mf_Status.more == MORE_RENAME && mf_view_get_pre_state(ap) == MORE_SEARCH))
+	if (ap->mf_Status.more == MORE_SEARCH || (ap->mf_Status.more == MORE_RENAME && mf_view_get_pre_state(ap) == MORE_SEARCH)) {
 		return;
+	}
 
 	if (ap->mf_Status.view_type != mf_view_storage && ap->mf_Status.view_type != mf_view_root) {
 		return;
@@ -2901,7 +2907,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 {
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
-	mf_retm_if (ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
 
 	Evas_Object *entry = NULL;
 	MF_STORAGE optStorage = MYFILE_NONE;
@@ -2939,7 +2945,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 	 */
 	mf_media_delete_recent_files_by_type(ap->mf_MainWindow.mfd_handle, MYFILE_MMC);
 	if (ap->mf_Status.view_type == mf_view_recent) {
-	    mf_recent_view_content_refresh(ap);
+		mf_recent_view_content_refresh(ap);
 	}
 	if (ap->mf_MainWindow.pNewFolderPopup) {
 		mf_list_data_t *item_data = (mf_list_data_t *)evas_object_data_get(ap->mf_MainWindow.pNewFolderPopup, "item_data");
@@ -2947,7 +2953,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 			SAFE_FREE_OBJ(ap->mf_MainWindow.pNewFolderPopup);
 		}
 	}
-	if(mf_fm_svc_wrapper_get_location(ap->mf_Status.path->str) == MYFILE_MMC) {
+	if (mf_fm_svc_wrapper_get_location(ap->mf_Status.path->str) == MYFILE_MMC) {
 		if (ap->mf_MainWindow.pLongpressPopup) {
 			SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
 		}
@@ -3056,16 +3062,16 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		case MORE_DATA_COPYING:
 		case MORE_DATA_MOVING:
 			mf_debug("=====================  MMC  remove ==================");
-			if(strncmp(ap->mf_MainWindow.record.path , storage_loc, strlen(storage_loc)) == 0) {
+			if (strncmp(ap->mf_MainWindow.record.path , storage_loc, strlen(storage_loc)) == 0) {
 				if (ap->mf_MainWindow.pNormalPopup) {
-						evas_object_del(ap->mf_MainWindow.pNormalPopup);
-						ap->mf_MainWindow.pNormalPopup = NULL;
+					evas_object_del(ap->mf_MainWindow.pNormalPopup);
+					ap->mf_MainWindow.pNormalPopup = NULL;
 				}
 				mf_request_set_result(ap->mf_FileOperation.pRequest, MF_REQ_SKIP);
 			}
 			if (ap->mf_MainWindow.record.location == optStorage) {
 				ap->mf_MainWindow.pMmcRemovedPopup = mf_popup_create_popup(ap, POPMODE_TEXT_NOT_DISABLED, NULL,
-											   MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
+				                                     MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
 			}
 
 			break;
@@ -3106,7 +3112,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 			mf_debug("=====================  MMC  remove ==================");
 
 			ap->mf_MainWindow.pMmcRemovedPopup = mf_popup_create_popup(ap, POPMODE_TEXT_NOT_DISABLED, NULL,
-										   MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
+			                                     MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
 			/*ToDo: check whether get the error before this; */
 			if (ap->mf_FileOperation.pCancel) {
 				mf_cancel_do_cancel(ap->mf_FileOperation.pCancel);
@@ -3151,7 +3157,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 				ap->mf_MainWindow.pProgressPopup = NULL;
 			}
 			ap->mf_MainWindow.pMmcRemovedPopup = mf_popup_create_popup(ap, POPMODE_TEXT_NOT_DISABLED, NULL,
-										   MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
+			                                     MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
 			mf_navi_bar_reset(ap);
 			mf_view_update(ap);
 
@@ -3160,7 +3166,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		case MORE_DELETE:
 			mf_debug("=====================  MMC  remove ==================");
 			ap->mf_MainWindow.pMmcRemovedPopup = mf_popup_create_popup(ap, POPMODE_TEXT_NOT_DISABLED, NULL,
-										   MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
+			                                     MF_LABEL_MMC_REMOVED, NULL, NULL, NULL, NULL, NULL);
 			if (ap->mf_FileOperation.pCancel) {
 				mf_cancel_do_cancel(ap->mf_FileOperation.pCancel);
 			}
@@ -3190,7 +3196,7 @@ static void __mf_callback_storage_changed_cb(int storage_id, storage_state_e sta
 {
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
-	mf_retm_if (ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
+	mf_retm_if(ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
 	int optStorage = MYFILE_NONE;
 
 	if (STORAGE_STATE_MOUNTED == state) {
@@ -3345,16 +3351,15 @@ void mf_callback_genlist_imf_changed_cb(void *data, Evas_Object *obj, void *even
 	if (elm_object_focus_get(obj)) {
 		if (entry_empty) {
 			elm_object_item_signal_emit(params->item, "elm,state,eraser,hide", "");
-		}
-		else
-		{
+		} else {
 			elm_object_item_signal_emit(params->item, "elm,state,eraser,show", "");
 		}
 	}
 	if (mf_file_attr_is_valid_name(name) != MYFILE_ERR_NONE) {
 		strncpy(new_str, name, MYFILE_FILE_NAME_LEN_MAX - 1);
-		if (strlen(name) > 0)
+		if (strlen(name) > 0) {
 			new_str[strlen(name) - 1] = '\0';
+		}
 		elm_entry_entry_set(ap->mf_MainWindow.pEntry, new_str);
 		elm_entry_cursor_end_set(ap->mf_MainWindow.pEntry);
 		elm_object_focus_set(ap->mf_MainWindow.pEntry, EINA_FALSE);
@@ -3364,7 +3369,7 @@ void mf_callback_genlist_imf_changed_cb(void *data, Evas_Object *obj, void *even
 		}
 		mf_callback_entry_unfocus(ap->mf_MainWindow.pEntry);
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, MF_MSG_RENAME_ILLEGAL_CHAR, MF_BUTTON_LABEL_OK, NULL,
-								       NULL, mf_popup_show_vk_cb, ap);
+		                                 NULL, mf_popup_show_vk_cb, ap);
 	}
 	SAFE_FREE_CHAR(name);
 	MF_TRACE_END;
@@ -3395,7 +3400,7 @@ void mf_callback_longpress_rename_cb(void *data, Evas_Object *obj, void *event_i
 	ap->mf_FileOperation.rename_item = it;
 	//__mf_callback_idle_rename(data);
 	SAFE_DEL_ECORE_TIMER(ap->mf_Status.rename_timer);
-	ap->mf_Status.rename_timer = ecore_timer_add(0.05,(Ecore_Task_Cb)mf_callback_idle_rename, data);
+	ap->mf_Status.rename_timer = ecore_timer_add(0.05, (Ecore_Task_Cb)mf_callback_idle_rename, data);
 	return;
 
 }
@@ -3429,7 +3434,7 @@ void mf_callback_detail_ctx_cb(void *data, Evas_Object *obj, void *event_info)
 
 	//mf_launch_load_ug(ap, itemData->m_ItemName->str, MF_LOAD_UG_DETAIL, EINA_FALSE);
 	__mf_load_detail_data(ap, itemData->m_ItemName->str, EINA_FALSE);
-	
+
 	ap->mf_Status.preViewType = ap->mf_Status.view_type;
 	ap->mf_Status.view_type = mf_view_detail;
 	mf_view_update(ap);
@@ -3499,9 +3504,9 @@ void mf_callback_delete_button_cb(void *data, Evas_Object *obj, void *event_info
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pNormalPopup);
 	ap->mf_FileOperation.idle_delete_item = params->item;
 	ap->mf_MainWindow.pDeleteConfirmPopup = mf_popup_create_delete_confirm_popup(ap, MF_LABEL_DELETE_ITEM,
-							       MF_LABEL_THIS_ITEM_WILL_DELETE,
-							       LABEL_CANCEL, LABEL_DELETE,
-							       __mf_callback_delete_in_idle, ap, 1);
+	                                        MF_LABEL_THIS_ITEM_WILL_DELETE,
+	                                        LABEL_CANCEL, LABEL_DELETE,
+	                                        __mf_callback_delete_in_idle, ap, 1);
 }
 
 void mf_callback_view_as_cb(void *data, Evas_Object *obj, void *event_info)
@@ -3569,12 +3574,12 @@ void mf_callback_more_button_cb(void *data, Evas_Object *obj, void *event_info)
 	} else {
 		if (ap->mf_Status.more == MORE_DEFAULT) {
 			mf_context_popup_create_more(ap, more);
-		} else if (ap->mf_Status.more == MORE_SEARCH){
+		} else if (ap->mf_Status.more == MORE_SEARCH) {
 			mf_context_popup_create_more(ap, more);
 		} else if (ap->mf_Status.more == MORE_INTERNAL_MOVE
-		    || ap->mf_Status.more == MORE_DATA_MOVING
-		    || ap->mf_Status.more == MORE_INTERNAL_COPY
-		    || ap->mf_Status.more == MORE_DATA_COPYING) {
+		           || ap->mf_Status.more == MORE_DATA_MOVING
+		           || ap->mf_Status.more == MORE_INTERNAL_COPY
+		           || ap->mf_Status.more == MORE_DATA_COPYING) {
 			if (ap->mf_Status.view_type != mf_view_root && ap->mf_Status.view_type != mf_view_storage) {
 				mf_context_popup_create_more(ap, more);
 			}
@@ -3621,18 +3626,18 @@ void mf_callback_extension_cb(void *data, Evas_Object *obj, void *event_info)
 
 void mf_callback_profile_changed_cb(void *data, Evas_Object *obj, void *event_info)
 {
-        MF_TRACE_BEGIN;
+	MF_TRACE_BEGIN;
 	t_start;
-        mf_retm_if(data == NULL, "data is NULL");
-        struct appdata *ap = (struct appdata *)data;
-        const char *profile = elm_config_profile_get();
+	mf_retm_if(data == NULL, "data is NULL");
+	struct appdata *ap = (struct appdata *)data;
+	const char *profile = elm_config_profile_get();
 
-        if (!strcmp(profile, "desktop")) {
-			elm_object_item_part_content_set(ap->mf_MainWindow.pNaviItem, "prev_btn", NULL);
-			elm_win_indicator_mode_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_HIDE);
-        } else {   // mobile
-			elm_win_indicator_mode_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_SHOW);
-        }
+	if (!strcmp(profile, "desktop")) {
+		elm_object_item_part_content_set(ap->mf_MainWindow.pNaviItem, "prev_btn", NULL);
+		elm_win_indicator_mode_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_HIDE);
+	} else {   // mobile
+		elm_win_indicator_mode_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_SHOW);
+	}
 	t_end;
 	MF_TRACE_END;
 }
@@ -3645,7 +3650,7 @@ void mf_callback_share_cb(void *data, Evas_Object *obj, void *event_info)
 	if (mf_edit_file_count_get() > MF_SHARE_ITEM_COUNT_MAX) {
 		//P131118-02783 by wangyan , add detailed maximum number in the popup message while share
 		char limit_str[256] = {0};
-		snprintf(limit_str, sizeof(limit_str)-1, mf_util_get_text(MF_LABEL_REACH_MAX_SHARE_COUNT), MF_SHARE_ITEM_COUNT_MAX);
+		snprintf(limit_str, sizeof(limit_str) - 1, mf_util_get_text(MF_LABEL_REACH_MAX_SHARE_COUNT), MF_SHARE_ITEM_COUNT_MAX);
 		ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap, POPMODE_TEXT_BTN, NULL, limit_str/*MF_LABEL_REACH_MAX_SHARE_COUNT*/, MF_BUTTON_LABEL_OK, NULL, NULL, mf_callback_warning_popup_cb, ap);
 		return;
 	}
@@ -3695,17 +3700,16 @@ void mf_callback_thumb_created_cb(media_content_error_e error, const char *path,
 
 		SAFE_FREE_CHAR(pListData->thumb_path);
 		if (pListData->file_type == FILE_TYPE_MUSIC || pListData->file_type == FILE_TYPE_SOUND) {
-			if (strcmp(path,MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
-				mf_debug("if in get the path from db is [%s]",path);
+			if (strcmp(path, MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
+				mf_debug("if in get the path from db is [%s]", path);
 				pListData->thumb_path = g_strdup(MF_ICON_MUSIC_THUMBNAIL);
 				pListData->thumbnail_type = MF_THUMBNAIL_DEFAULT;
-			}else
-			{
-				mf_debug("else in get the path from db is [%s]",path);
+			} else {
+				mf_debug("else in get the path from db is [%s]", path);
 				pListData->thumb_path = g_strdup(path);
 				pListData->thumbnail_type = MF_THUMBNAIL_THUMB;
 			}
-		}else {
+		} else {
 			pListData->thumb_path = g_strdup(path);
 			pListData->thumbnail_type = MF_THUMBNAIL_THUMB;
 		}
@@ -3737,7 +3741,7 @@ bool mf_callback_create_thumbnail(void *data, media_thumbnail_completed_cb callb
 
 	if (g_mf_create_thumbnail_count < MF_MAX_MAKE_THUNBNAIL_COUNT) {//Fixed P140827-07370
 		ret = media_info_create_thumbnail(pListData->media, callback,
-						  pListData);
+		                                  pListData);
 		if (ret != MEDIA_CONTENT_ERROR_NONE) {
 			mf_debug("Failed to create thumbnail! ret is [%d]", ret);
 			if (pListData->file_type == FILE_TYPE_IMAGE || pListData->file_type == FILE_TYPE_VIDEO) {
@@ -3809,12 +3813,15 @@ void mf_callback_naviframe_title_clicked_cb(void *data, Evas_Object *obj, void *
 	struct appdata *ap = (struct appdata*)data;
 
 	Elm_Object_Item *navi_it = event_info;
-	if (!navi_it) return;
+	if (!navi_it) {
+		return;
+	}
 
 
 	Evas_Object *label = elm_object_item_part_content_get(navi_it, "elm.swallow.title");
-	if (!label || (ap->mf_Status.more == MORE_EDIT))
+	if (!label || (ap->mf_Status.more == MORE_EDIT)) {
 		return;
+	}
 	elm_label_slide_go(label);
 }
 
@@ -3827,11 +3834,15 @@ static void __mf_callback_sip_imf_show_cb(void *data, Evas_Object *obj, void *ev
 
 	Evas_Object *nf = ap->mf_MainWindow.pNaviBar;
 
-	if (!nf) return;
+	if (!nf) {
+		return;
+	}
 
 	Elm_Object_Item *navi_it = elm_naviframe_top_item_get(nf);
 
-	if (!navi_it) return;
+	if (!navi_it) {
+		return;
+	}
 
 	elm_object_item_signal_emit(navi_it, "elm,state,toolbar,instant_open", "");
 	MF_TRACE_END;
@@ -3846,11 +3857,15 @@ static void __mf_callback_sip_imf_hide_cb(void *data, Evas_Object *obj, void *ev
 
 	Evas_Object *nf = ap->mf_MainWindow.pNaviBar;
 
-	if (!nf) return;
+	if (!nf) {
+		return;
+	}
 
 	Elm_Object_Item *navi_it = elm_naviframe_top_item_get(nf);
 
-	if (!navi_it) return;
+	if (!navi_it) {
+		return;
+	}
 
 	elm_object_item_signal_emit(navi_it, "elm,state,toolbar,instant_close", "");
 	MF_TRACE_END;
@@ -3893,8 +3908,9 @@ void mf_callback_imf_state_callback_del(void *data)
 
 void mf_callback_entry_focused_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	if (!elm_entry_is_empty(obj))
+	if (!elm_entry_is_empty(obj)) {
 		elm_object_signal_emit(data, "elm,state,eraser,show", "");
+	}
 	elm_object_signal_emit(data, "elm,state,rename,hide", "");
 }
 
@@ -3923,8 +3939,7 @@ void mf_callback_keydown_cb(void *data, Evas *e, Evas_Object *obj, void *event_i
 	struct appdata *ap = (struct appdata *)data;
 
 	Evas_Event_Key_Down *ev = event_info;
-	if (!strcmp(ev->keyname, "Escape")) // if ESC key is down
-	{
+	if (!strcmp(ev->keyname, "Escape")) { // if ESC key is down
 		elm_naviframe_item_pop_cb_set(ap->mf_MainWindow.pNaviItem, mf_callback_navi_backbutton_clicked_cb, ap);
 	}
 }
@@ -4014,14 +4029,14 @@ void mf_callback_item_remove_from_recent_files_cb(void *data, Evas_Object *obj, 
 
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pLongpressPopup);
 	ap->mf_MainWindow.pNormalPopup = mf_popup_create_popup(ap,
-								POPMODE_TEXT_TWO_BTN,
-								MF_LABEL_REMOVE_FILE,
-								MF_LABEL_REMOVE_FROME_RECENT,
-								LABEL_CANCEL,
-								MF_LABEL_REMOVE,
-								NULL,
-								__mf_callback_recent_files_confirm_delete,
-								item_data);
+	                                 POPMODE_TEXT_TWO_BTN,
+	                                 MF_LABEL_REMOVE_FILE,
+	                                 MF_LABEL_REMOVE_FROME_RECENT,
+	                                 LABEL_CANCEL,
+	                                 MF_LABEL_REMOVE,
+	                                 NULL,
+	                                 __mf_callback_recent_files_confirm_delete,
+	                                 item_data);
 
 	//elm_object_item_del(item_data->item);
 

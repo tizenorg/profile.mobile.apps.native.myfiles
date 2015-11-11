@@ -69,7 +69,7 @@ int mf_media_content_create_filter(filter_h *filter, mf_condition_s *condition)
 	}
 	if (condition->cond) {
 		ret = media_filter_set_condition(tmp_filter, condition->cond,
-						 condition->collate_type);
+		                                 condition->collate_type);
 		if (ret != MEDIA_CONTENT_ERROR_NONE) {
 			mf_debug("Fail to set condition");
 			goto ERROR;
@@ -98,8 +98,8 @@ int mf_media_content_create_filter(filter_h *filter, mf_condition_s *condition)
 	*/
 	*filter = tmp_filter;
 	return ret;
- ERROR:
- 	if (tmp_filter) {
+ERROR:
+	if (tmp_filter) {
 		media_filter_destroy(tmp_filter);
 		tmp_filter = NULL;
 	}
@@ -148,7 +148,7 @@ int mf_media_content_data_count_get(const char *condition)
 	return count;
 }
 
-int mf_media_content_data_get(void *data, char *condition, bool (*func) (media_info_h media, void *data))
+int mf_media_content_data_get(void *data, char *condition, bool (*func)(media_info_h media, void *data))
 {
 	filter_h filter = NULL;
 	int ret = -1;
@@ -167,8 +167,8 @@ int mf_media_content_data_get(void *data, char *condition, bool (*func) (media_i
 	}
 
 	ret = media_info_foreach_media_from_db(filter,
-					       (media_info_cb)func,
-					       data);
+	                                       (media_info_cb)func,
+	                                       data);
 	if (ret != 0) {
 		mf_debug("Fail to parse folders in db: %d", ret);
 	}

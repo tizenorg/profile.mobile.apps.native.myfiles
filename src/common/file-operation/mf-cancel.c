@@ -57,8 +57,9 @@ gboolean mf_cancel_check_cancel(mf_cancel *cancel)
 	gboolean do_cancel = FALSE;
 	if (cancel) {
 		g_mutex_lock(&cancel->s_mutex);
-		if (cancel->do_cancel)
+		if (cancel->do_cancel) {
 			do_cancel = TRUE;
+		}
 		g_mutex_unlock(&cancel->s_mutex);
 	}
 	return do_cancel;
@@ -79,8 +80,9 @@ gboolean mf_cancel_is_cancelled(mf_cancel *cancel)
 	gboolean is_cancelled = FALSE;
 	if (cancel) {
 		g_mutex_lock(&cancel->s_mutex);
-		if (cancel->is_cancel)
+		if (cancel->is_cancel) {
 			is_cancelled = TRUE;
+		}
 		g_mutex_unlock(&cancel->s_mutex);
 	}
 	return is_cancelled;

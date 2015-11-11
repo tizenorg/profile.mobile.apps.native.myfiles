@@ -167,11 +167,10 @@ Eina_Bool mf_view_is_operating(void *data)
 
 	int more = ap->mf_Status.more;
 	if (more == MORE_DATA_COPYING ||
-	    more == MORE_DATA_MOVING ||
-	    more == MORE_DATA_DECOMPRESSING ||
-	    more == MORE_DELETE ||
-	    more ==MORE_COMPRESS) 
-    {
+	        more == MORE_DATA_MOVING ||
+	        more == MORE_DATA_DECOMPRESSING ||
+	        more == MORE_DELETE ||
+	        more == MORE_COMPRESS) {
 		return EINA_TRUE;
 	}
 	return EINA_FALSE;
@@ -218,14 +217,14 @@ Eina_Bool mf_view_is_item_exists_by_name(void *data, char *name)
 	if (ap->mf_MainWindow.pNaviGenlist) {
 		it = elm_genlist_first_item_get(ap->mf_MainWindow.pNaviGenlist);
 		while (it) {
-                        mf_list_data_t *it_data = elm_object_item_data_get(it);
-                        if (it_data->list_type != mf_list_normal &&  it_data->list_type != mf_list_recent_files) {
-                                it = elm_genlist_item_next_get(it);
-                                continue;
-                        }
+			mf_list_data_t *it_data = elm_object_item_data_get(it);
+			if (it_data->list_type != mf_list_normal &&  it_data->list_type != mf_list_recent_files) {
+				it = elm_genlist_item_next_get(it);
+				continue;
+			}
 			itemData = elm_object_item_data_get(it);
 			if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
-                                it = elm_genlist_item_next_get(it);
+				it = elm_genlist_item_next_get(it);
 				continue;
 			}
 			SECURE_DEBUG("itemData->m_ItemName->str is [%s]", itemData->m_ItemName->str);
@@ -252,10 +251,10 @@ void mf_view_refresh(void *data)
 	mf_view_refresh_thumbnail_destroy();
 	mf_error();
 	if (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_INTERNAL_COPY_MOVE ||
-		ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE ||
-		ap->mf_Status.more == MORE_DATA_COPYING || ap->mf_Status.more == MORE_DATA_MOVING ||
-		ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS
-		|| ap->mf_Status.more == MORE_EDIT_RENAME) {
+	        ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE ||
+	        ap->mf_Status.more == MORE_DATA_COPYING || ap->mf_Status.more == MORE_DATA_MOVING ||
+	        ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS
+	        || ap->mf_Status.more == MORE_EDIT_RENAME) {
 		mf_error();
 		if (ap->mf_Status.view_type == mf_view_root) {
 			mf_root_view_create(ap);
@@ -368,8 +367,8 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 				it = elm_genlist_item_append(parent, ap->mf_gl_style.itc, m_TempItem, NULL, ELM_GENLIST_ITEM_NONE, mf_genlist_gl_selected, ap);
 				if (ap->mf_Status.EnterFrom) {
 					if (!g_strcmp0(m_TempItem->m_ItemName->str, ap->mf_Status.EnterFrom)) {
-							ap->mf_Status.ToTop = true ;
-							SAFE_FREE_CHAR(ap->mf_Status.EnterFrom);
+						ap->mf_Status.ToTop = true ;
+						SAFE_FREE_CHAR(ap->mf_Status.EnterFrom);
 					}
 				}
 			}
@@ -387,7 +386,7 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 	return it;
 }
 
-Elm_Object_Item *mf_view_item_append_with_data(Evas_Object *parent, mfItemData_s *item_data, void *data, void *itc, Evas_Smart_Cb func,void *user_data)
+Elm_Object_Item *mf_view_item_append_with_data(Evas_Object *parent, mfItemData_s *item_data, void *data, void *itc, Evas_Smart_Cb func, void *user_data)
 {
 	mf_retvm_if(parent == NULL, NULL, "pGenlist is NULL");
 	mf_retvm_if(data == NULL, NULL, "data is NULL");
@@ -585,7 +584,7 @@ Eina_Bool mf_view_is_search_view(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
 	if (ap->mf_Status.more == MORE_SEARCH || ap->mf_Status.more == MORE_ADVANCED_SEARCH ||
-		mf_view_get_pre_state(ap) == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_ADVANCED_SEARCH) {
+	        mf_view_get_pre_state(ap) == MORE_SEARCH || mf_view_get_pre_state(ap) == MORE_ADVANCED_SEARCH) {
 		return EINA_TRUE;
 	}
 
@@ -660,12 +659,12 @@ void mf_view_search_item_update(void *data, const char *path, char *new_path)
 		/*owner should make the followed routine as common function*/
 		if (ap->mf_MainWindow.pNaviGengrid) {
 			it = elm_gengrid_first_item_get(ap->mf_MainWindow.pNaviGengrid);
-            while (it) {
-                mf_list_data_t *it_data = elm_object_item_data_get(it);
-                if (it_data->list_type != mf_list_normal) {
-                    it = elm_gengrid_item_next_get(it);
-                    continue;
-                }
+			while (it) {
+				mf_list_data_t *it_data = elm_object_item_data_get(it);
+				if (it_data->list_type != mf_list_normal) {
+					it = elm_gengrid_item_next_get(it);
+					continue;
+				}
 				itemData = elm_object_item_data_get(it);
 				if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
 					continue;
@@ -695,12 +694,12 @@ void mf_view_search_item_update(void *data, const char *path, char *new_path)
 		/*owner should make the followed routine as common function*/
 		if (ap->mf_MainWindow.pNaviGenlist) {
 			it = elm_genlist_first_item_get(ap->mf_MainWindow.pNaviGenlist);
-            while (it) {
-                mf_list_data_t *it_data = elm_object_item_data_get(it);
-                if (it_data->list_type != mf_list_normal) {
-                    it = elm_genlist_item_next_get(it);
-                    continue;
-                }
+			while (it) {
+				mf_list_data_t *it_data = elm_object_item_data_get(it);
+				if (it_data->list_type != mf_list_normal) {
+					it = elm_genlist_item_next_get(it);
+					continue;
+				}
 				itemData = elm_object_item_data_get(it);
 				if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
 					mf_debug();
@@ -747,12 +746,12 @@ void mf_view_item_delete_by_name(void *data, const char *name)
 		/*owner should make the followed routine as common function*/
 		if (ap->mf_MainWindow.pNaviGengrid) {
 			it = elm_gengrid_first_item_get(ap->mf_MainWindow.pNaviGengrid);
-            while (it) {
-                mf_list_data_t *it_data = elm_object_item_data_get(it);
-                if (it_data->list_type != mf_list_normal) {
-                    it = elm_gengrid_item_next_get(it);
-                    continue;
-                }
+			while (it) {
+				mf_list_data_t *it_data = elm_object_item_data_get(it);
+				if (it_data->list_type != mf_list_normal) {
+					it = elm_gengrid_item_next_get(it);
+					continue;
+				}
 				itemData = elm_object_item_data_get(it);
 				if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
 					continue;
@@ -770,11 +769,11 @@ void mf_view_item_delete_by_name(void *data, const char *name)
 		if (ap->mf_MainWindow.pNaviGenlist) {
 			it = elm_genlist_first_item_get(ap->mf_MainWindow.pNaviGenlist);
 			while (it) {
-                                mf_list_data_t *it_data = elm_object_item_data_get(it);
-                                if (it_data->list_type != mf_list_normal) {
-                                        it = elm_genlist_item_next_get(it);
-                                        continue;
-                                }
+				mf_list_data_t *it_data = elm_object_item_data_get(it);
+				if (it_data->list_type != mf_list_normal) {
+					it = elm_genlist_item_next_get(it);
+					continue;
+				}
 				itemData = elm_object_item_data_get(it);
 				if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
 					mf_debug();
@@ -807,11 +806,11 @@ void mf_view_item_delete_by_exists(void *data)
 			if (ap->mf_MainWindow.pNaviGengrid) {
 				it = elm_gengrid_first_item_get(ap->mf_MainWindow.pNaviGengrid);
 				while (it) {
-                                        mf_list_data_t *it_data = elm_object_item_data_get(it);
-                                        if (it_data->list_type != mf_list_normal) {
-                                                it = elm_gengrid_item_next_get(it);
-                                                continue;
-                                        }
+					mf_list_data_t *it_data = elm_object_item_data_get(it);
+					if (it_data->list_type != mf_list_normal) {
+						it = elm_gengrid_item_next_get(it);
+						continue;
+					}
 					itemData = elm_object_item_data_get(it);
 					if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {
 						continue;
@@ -829,12 +828,12 @@ void mf_view_item_delete_by_exists(void *data)
 			/*owner should make the followed routine as common function*/
 			if (ap->mf_MainWindow.pNaviGenlist) {
 				it = elm_genlist_first_item_get(ap->mf_MainWindow.pNaviGenlist);
-                while (it) {
-                    mf_list_data_t *it_data = elm_object_item_data_get(it);
-                    if (it_data->list_type != mf_list_normal) {
-                        it = elm_genlist_item_next_get(it);
-                        continue;
-                    }
+				while (it) {
+					mf_list_data_t *it_data = elm_object_item_data_get(it);
+					if (it_data->list_type != mf_list_normal) {
+						it = elm_genlist_item_next_get(it);
+						continue;
+					}
 
 					itemData = elm_object_item_data_get(it);
 					if (itemData->m_ItemName == NULL || itemData->m_ItemName->str == NULL) {

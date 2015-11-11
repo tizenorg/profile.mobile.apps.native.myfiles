@@ -40,11 +40,11 @@ GSList *move_list = NULL;
 
 #ifndef SAFE_FREE
 #define SAFE_FREE(x) do {\
-				if ((x) != NULL) {\
-					free(x); \
-					x = NULL;\
-				} \
-			} while (0)
+		if ((x) != NULL) {\
+			free(x); \
+			x = NULL;\
+		} \
+	} while (0)
 #endif
 
 #define DIR_MODE_BIT (01777)
@@ -61,9 +61,9 @@ static gchar *__mf_move_change_root_name(const char *name, const char *old_root,
 		GString *n = NULL;
 
 		if ((strstr(name, old_root) == NULL)
-		    || (name_len <= old_len)
-		    || ((name[old_len] == '/' && name[old_len + 1] == '\0'))
-		    || FALSE) {
+		        || (name_len <= old_len)
+		        || ((name[old_len] == '/' && name[old_len + 1] == '\0'))
+		        || FALSE) {
 			mf_fo_loge("invaild args - name : [%s], old_root : [%s]", name, old_root);
 			return NULL;
 		}
@@ -88,7 +88,7 @@ static gchar *__mf_move_change_root_name(const char *name, const char *old_root,
 
 
 int _mf_move_move_regfile(const char *src, struct stat *src_statp, const char *dst,
-			  unsigned long buf_size, mf_cancel *cancel, _mf_fo_msg_cb msg_cb, void *msg_data)
+                          unsigned long buf_size, mf_cancel *cancel, _mf_fo_msg_cb msg_cb, void *msg_data)
 {
 	mode_t src_mode = 0;
 	dev_t src_dev = 0;
@@ -226,7 +226,7 @@ static int __get_move_directory_hierarchies(const char *pathname, const struct s
 	MF_TRACE_BEGIN;
 	mf_fo_dir_list_info *info = NULL;
 	mf_debug("pathname is [%s]\t type is [%d]\t",
-		pathname, type);
+	         pathname, type);
 	switch (type) {
 
 	case FTW_F:
@@ -479,7 +479,7 @@ DO_CANCEL:
 }
 
 int _mf_move_move_internal(const char *src, const char *dst_dir,
-			   mf_cancel *cancel, mf_req_callback request_callback, _mf_fo_msg_cb msg_callback, void *msg_data)
+                           mf_cancel *cancel, mf_req_callback request_callback, _mf_fo_msg_cb msg_callback, void *msg_data)
 {
 	char *src_basename = NULL;
 	char *new_dst = NULL;
@@ -684,28 +684,83 @@ int _mf_move_move_internal(const char *src, const char *dst_dir,
 
 		switch (result) {
 		case MF_REQ_NONE:
-		case MF_REQ_MERGE:
-			{
-				struct stat dst_info;
-				if (stat(new_dst, &dst_info)) {
-					MF_FILE_ERROR_LOG(err_buf, "Fail to stat new_dst", new_dst);
+		case MF_REQ_MERGE: {
+			struct stat dst_info;
+			if (stat(new_dst, &dst_info)) {
+				MF_FILE_ERROR_LOG(err_buf, "Fail to stat new_dst", new_dst);
+				if (msg_callback) {
+					msg_callback(MF_MSG_ERROR, NULL, 0, errno, msg_data);
+				}
+				goto ERROR_FREE_MEM;
+			}
+
+			if (S_ISDIR(src_info.st_mode)) {
+				if (!S_ISDIR(dst_info.st_mode)) {
+					mf_fo_loge("src[%s] is directory, but dst[%s] is already existed and not a directory", src, new_dst);
+
+					err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
 					if (msg_callback) {
-						msg_callback(MF_MSG_ERROR, NULL, 0, errno, msg_data);
+						msg_callback(MF_MSG_ERROR, new_dst, 0, err, msg_data);
 					}
 					goto ERROR_FREE_MEM;
 				}
-
-				if (S_ISDIR(src_info.st_mode)) {
-					if (!S_ISDIR(dst_info.st_mode)) {
-						mf_fo_loge("src[%s] is directory, but dst[%s] is already existed and not a directory", src, new_dst);
-
-						err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
+				err = _mf_move_move_directory(src, &src_info, new_dst, cancel, msg_callback, msg_data);
+				if (err == 0) {
+					err = _mf_delete_delete_directory(src, cancel, NULL, NULL);
+					if (err > 0) {
+						goto CANCEL_FREE_MEM;
+					} else if (err < 0) {
 						if (msg_callback) {
-							msg_callback(MF_MSG_ERROR, new_dst, 0, err, msg_data);
+							msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
 						}
 						goto ERROR_FREE_MEM;
 					}
-					err = _mf_move_move_directory(src, &src_info, new_dst, cancel, msg_callback, msg_data);
+					mf_media_content_scan_folder(new_dst);
+				}
+			} else if (S_ISREG(src_info.st_mode)) {
+				if (!S_ISREG(dst_info.st_mode)) {
+					mf_fo_loge("src[%s] is file, but dst[%s] is already existed and not a file", src, new_dst);
+					err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
+					if (msg_callback) {
+						msg_callback(MF_MSG_ERROR, new_dst, 0, err, msg_data);
+					}
+					goto ERROR_FREE_MEM;
+				}
+				err = _mf_move_move_regfile(src, &src_info, new_dst, dst_info.st_blksize, cancel, msg_callback, msg_data);
+				if (err == 0) {
+					mf_media_content_scan_file(new_dst);
+				}
+			}
+
+		}
+		break;
+		case MF_REQ_RENAME: {
+			if (next_name) {
+				if (S_ISDIR(src_info.st_mode)) {
+					err = _mf_move_move_directory(src, &src_info, next_name, cancel, msg_callback, msg_data);
+					if (err == 0) {
+						mf_media_content_scan_folder(next_name);
+					}
+				} else if (S_ISREG(src_info.st_mode)) {
+					err = _mf_move_move_regfile(src, &src_info, next_name, 0, cancel, msg_callback, msg_data);
+					if (err == 0) {
+						mf_media_content_scan_file(next_name);
+					}
+				}
+				SAFE_FREE(next_name);
+			} else {
+				if (S_ISDIR(src_info.st_mode)) {
+					int errcode = 0;
+					next_name = _mf_fo_get_next_unique_dirname(new_dst, &errcode);
+					if (!next_name) {
+						mf_fo_loge("Fail to get next directory name [%s]", new_dst);
+						err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
+						if (msg_callback) {
+							msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
+						}
+						goto ERROR_FREE_MEM;
+					}
+					err = _mf_move_move_directory(src, &src_info, next_name, cancel, msg_callback, msg_data);
 					if (err == 0) {
 						err = _mf_delete_delete_directory(src, cancel, NULL, NULL);
 						if (err > 0) {
@@ -716,102 +771,43 @@ int _mf_move_move_internal(const char *src, const char *dst_dir,
 							}
 							goto ERROR_FREE_MEM;
 						}
-						mf_media_content_scan_folder(new_dst);
+						mf_media_content_scan_folder(next_name);
 					}
 				} else if (S_ISREG(src_info.st_mode)) {
-					if (!S_ISREG(dst_info.st_mode)) {
-						mf_fo_loge("src[%s] is file, but dst[%s] is already existed and not a file", src, new_dst);
-						err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
+					int errcode = 0;
+					next_name = _mf_fo_get_next_unique_filename(new_dst, &errcode);
+					if (!next_name) {
+						mf_fo_loge("Fail to get next file name [%s]", new_dst);
+						err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
 						if (msg_callback) {
-							msg_callback(MF_MSG_ERROR, new_dst, 0, err, msg_data);
+							msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
 						}
 						goto ERROR_FREE_MEM;
 					}
-					err = _mf_move_move_regfile(src, &src_info, new_dst, dst_info.st_blksize, cancel, msg_callback, msg_data);
+					err = _mf_move_move_regfile(src, &src_info, next_name, 0, cancel, msg_callback, msg_data);
 					if (err == 0) {
-						mf_media_content_scan_file(new_dst);
+						mf_media_content_scan_file(next_name);
 					}
 				}
-
+				SAFE_FREE(next_name);
 			}
-			break;
-		case MF_REQ_RENAME:
-			{
-				if (next_name) {
-					if (S_ISDIR(src_info.st_mode)) {
-						err = _mf_move_move_directory(src, &src_info, next_name, cancel, msg_callback, msg_data);
-						if (err == 0) {
-							mf_media_content_scan_folder(next_name);
-						}
-					} else if (S_ISREG(src_info.st_mode)) {
-						err = _mf_move_move_regfile(src, &src_info, next_name, 0, cancel, msg_callback, msg_data);
-						if (err == 0) {
-							mf_media_content_scan_file(next_name);
-						}
-					}
-					SAFE_FREE(next_name);
-				} else {
-					if (S_ISDIR(src_info.st_mode)) {
-						int errcode = 0;
-						next_name = _mf_fo_get_next_unique_dirname(new_dst, &errcode);
-						if (!next_name) {
-							mf_fo_loge("Fail to get next directory name [%s]", new_dst);
-							err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
-							if (msg_callback) {
-								msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
-							}
-							goto ERROR_FREE_MEM;
-						}
-						err = _mf_move_move_directory(src, &src_info, next_name, cancel, msg_callback, msg_data);
-						if (err == 0) {
-							err = _mf_delete_delete_directory(src, cancel, NULL, NULL);
-							if (err > 0) {
-								goto CANCEL_FREE_MEM;
-							} else if (err < 0) {
-								if (msg_callback) {
-									msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
-								}
-								goto ERROR_FREE_MEM;
-							}
-							mf_media_content_scan_folder(next_name);
-						}
-					} else if (S_ISREG(src_info.st_mode)) {
-						int errcode = 0;
-						next_name = _mf_fo_get_next_unique_filename(new_dst, &errcode);
-						if (!next_name) {
-							mf_fo_loge("Fail to get next file name [%s]", new_dst);
-							err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
-							if (msg_callback) {
-								msg_callback(MF_MSG_ERROR, NULL, 0, err, msg_data);
-							}
-							goto ERROR_FREE_MEM;
-						}
-						err = _mf_move_move_regfile(src, &src_info, next_name, 0, cancel, msg_callback, msg_data);
-						if (err == 0) {
-							mf_media_content_scan_file(next_name);
-						}
-					}
-					SAFE_FREE(next_name);
-				}
+		}
+		break;
+		case MF_REQ_SKIP: {
+			if (msg_callback) {
+				unsigned long long size = 0;
+				_mf_fo_get_total_item_size(src, &size);
+				msg_callback(MF_MSG_SKIP, NULL, size, 0, msg_data);
 			}
-			break;
-		case MF_REQ_SKIP:
-			{
-				if (msg_callback) {
-					unsigned long long size = 0;
-					_mf_fo_get_total_item_size(src, &size);
-					msg_callback(MF_MSG_SKIP, NULL, size, 0, msg_data);
-				}
+		}
+		break;
+		case MF_REQ_CANCEL: {
+			if (cancel) {
+				mf_cancel_do_cancel(cancel);
 			}
-			break;
-		case MF_REQ_CANCEL:
-			{
-				if (cancel) {
-					mf_cancel_do_cancel(cancel);
-				}
-				goto CANCEL_FREE_MEM;
-			}
-			break;
+			goto CANCEL_FREE_MEM;
+		}
+		break;
 		default:
 			abort();
 			break;

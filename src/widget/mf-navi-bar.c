@@ -195,8 +195,8 @@ Evas_Object *mf_navi_bar_create_view_content(void *data)
 	_mf_navi_bar_create_content_set_focus(ap, pContent);
 
 	if (ap->mf_Status.more == MORE_DEFAULT
-	    || ap->mf_Status.more == MORE_INTERNAL_COPY
-	    || ap->mf_Status.more == MORE_INTERNAL_MOVE) {
+	        || ap->mf_Status.more == MORE_INTERNAL_COPY
+	        || ap->mf_Status.more == MORE_INTERNAL_MOVE) {
 		mf_fs_monitor_add_dir_watch(ap->mf_Status.path->str, ap);
 	}
 	t_end;
@@ -251,7 +251,7 @@ void mf_navi_bar_set_content(void *data, Evas_Object *pLayout, Evas_Object *Navi
 	struct appdata *ap = (struct appdata *)data;
 
 	mf_navi_bar_clean_content(data, pLayout);
-	
+
 	ap->mf_MainWindow.pNaviBox = mf_object_create_box(ap->mf_MainWindow.pNaviLayout);
 	mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, ap->mf_MainWindow.pNaviBox);
 
@@ -281,12 +281,12 @@ Evas_Object *mf_navi_bar_home_button_create(Evas_Object *parent, Evas_Smart_Cb f
 	evas_object_show(home_ic);
 
 	Evas_Object *home_btn = mf_object_create_button(parent,
-					      "naviframe/title_icon",
-					      NULL,
-					      home_ic,
-					      func,
-					      user_data,
-					      EINA_FALSE);
+	                        "naviframe/title_icon",
+	                        NULL,
+	                        home_ic,
+	                        func,
+	                        user_data,
+	                        EINA_FALSE);
 	return home_btn;
 }
 
@@ -297,14 +297,14 @@ Evas_Object *mf_navi_bar_search_button_create(Evas_Object *parent, Evas_Smart_Cb
 	elm_image_file_set(image, EDJ_IMAGE, MF_TITLE_ICON_SEARCH);
 	elm_image_resizable_set(image, EINA_TRUE, EINA_TRUE);
 	evas_object_show(image);
-	
+
 	Evas_Object *up_btn = mf_object_create_button(parent,
-					      "naviframe/title_icon",
-					      NULL,
-					      image,
-					      func,
-					      user_data,
-					      EINA_FALSE);
+	                      "naviframe/title_icon",
+	                      NULL,
+	                      image,
+	                      func,
+	                      user_data,
+	                      EINA_FALSE);
 	return up_btn;
 }
 
@@ -317,12 +317,12 @@ Evas_Object *mf_navi_bar_upper_button_create(Evas_Object *parent, Evas_Smart_Cb 
 	evas_object_show(up_ic);
 
 	Evas_Object *up_btn = mf_object_create_button(parent,
-					      "naviframe/title_icon",
-					      NULL,
-					      up_ic,
-					      func,
-					      user_data,
-					      EINA_FALSE);
+	                      "naviframe/title_icon",
+	                      NULL,
+	                      up_ic,
+	                      func,
+	                      user_data,
+	                      EINA_FALSE);
 	return up_btn;
 }
 
@@ -334,12 +334,12 @@ Evas_Object *mf_navi_bar_select_all_button_create(Evas_Object *parent, Evas_Smar
 	evas_object_show(select_ic);
 
 	Evas_Object *select_btn = mf_object_create_button(parent,
-					      "naviframe/title_icon",
-					      NULL,
-					      select_ic,
-					      func,
-					      user_data,
-					      EINA_FALSE);
+	                          "naviframe/title_icon",
+	                          NULL,
+	                          select_ic,
+	                          func,
+	                          user_data,
+	                          EINA_FALSE);
 
 	return select_btn;
 }
@@ -372,13 +372,13 @@ void mf_navi_bar_title_set(void *data)
 	char *title = NULL;
 
 	if (ap->mf_Status.more == MORE_SEARCH
-	    || ap->mf_Status.more == MORE_EDIT
-	    || ap->mf_Status.more == MORE_SHARE_EDIT
-	    || ap->mf_Status.more == MORE_EDIT_DETAIL
-		|| ap->mf_Status.more == MORE_EDIT_COPY
-		|| ap->mf_Status.more == MORE_EDIT_MOVE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
+	        || ap->mf_Status.more == MORE_EDIT
+	        || ap->mf_Status.more == MORE_SHARE_EDIT
+	        || ap->mf_Status.more == MORE_EDIT_DETAIL
+	        || ap->mf_Status.more == MORE_EDIT_COPY
+	        || ap->mf_Status.more == MORE_EDIT_MOVE
+	        || ap->mf_Status.more == MORE_EDIT_DELETE
+	        || ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
 	   ) {
 		if (more == MORE_EDIT) {
 			title = MF_LABEL_SELECT_ITEMS;
@@ -414,13 +414,13 @@ void mf_navi_bar_title_set(void *data)
 				elm_object_item_part_content_set(navi_it, TITLE_RIGHT_BTN, search_btn);
 			}
 		} else if (ap->mf_Status.view_type == mf_view_root && more == MORE_DEFAULT) {
-		Evas_Object *search_btn = mf_navi_bar_search_button_create(pNavi, mf_search_bar_enter_search_routine, ap);
-		unset = elm_object_item_part_content_unset(navi_it, TITLE_RIGHT_BTN);
-		SAFE_FREE_OBJ(unset);
-		elm_object_item_part_content_set(navi_it, TITLE_RIGHT_BTN, search_btn);
+			Evas_Object *search_btn = mf_navi_bar_search_button_create(pNavi, mf_search_bar_enter_search_routine, ap);
+			unset = elm_object_item_part_content_unset(navi_it, TITLE_RIGHT_BTN);
+			SAFE_FREE_OBJ(unset);
+			elm_object_item_part_content_set(navi_it, TITLE_RIGHT_BTN, search_btn);
 		}
 		if ((ap->mf_Status.view_type == mf_view_root_category) && (ap->mf_Status.categorytitle != NULL)) {
-			mf_error("ap->mf_Status.categorytitle = %s",ap->mf_Status.categorytitle);
+			mf_error("ap->mf_Status.categorytitle = %s", ap->mf_Status.categorytitle);
 			title = ap->mf_Status.categorytitle ;
 			Evas_Object *search_btn = mf_navi_bar_search_button_create(pNavi, mf_search_bar_enter_search_routine, ap);
 			unset = elm_object_item_part_content_unset(navi_it, TITLE_RIGHT_BTN);
@@ -467,7 +467,7 @@ Evas_Object *__mf_navi_bar_backbutton_create(Evas_Object *parent, Evas_Object *w
 	return btn;
 }
 
-void mf_navi_add_back_button(void *data, Eina_Bool (*func)(void *data, Elm_Object_Item *it))
+void mf_navi_add_back_button(void *data, Eina_Bool(*func)(void *data, Elm_Object_Item *it))
 {
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
@@ -533,7 +533,7 @@ void mf_navi_bar_set_ctrlbar(void *data)
 		//toolbar = mf_object_toolbar_create(ap->mf_MainWindow.pNaviBar);
 		//mf_object_item_tabbar_item_append(toolbar, NULL, LABEL_CANCEL, mf_callback_cancel_cb, ap);
 		//mf_object_item_tabbar_item_append(toolbar, NULL, LABEL_SHARE, mf_callback_share_cb, ap);
-                break;
+		break;
 
 	case MORE_INTERNAL_DECOMPRESS:
 		if (ap->mf_Status.view_type != mf_view_root) {
@@ -542,7 +542,7 @@ void mf_navi_bar_set_ctrlbar(void *data)
 			//mf_object_item_tabbar_item_append(toolbar, NULL, LABEL_CANCEL, mf_callback_cancel_cb, ap);
 			//mf_object_item_tabbar_item_append(toolbar, NULL, MF_LABEL_DECOMPRESS_HERE, mf_callback_decompress_here_cb, ap);
 		}
-          break;
+		break;
 	default:
 		break;
 	}
@@ -551,12 +551,12 @@ void mf_navi_bar_set_ctrlbar(void *data)
 		evas_object_event_callback_add(more_bt, EVAS_CALLBACK_KEY_DOWN, mf_callback_more_keydown_cb, ap);
 	}
 	//Prevent issue fix
-/*	if (toolbar) {
-		ap->mf_MainWindow.pNaviCtrlBar = toolbar;
-		elm_object_item_part_content_set(navi_it, NAVI_CTRL_PART, toolbar);
-		
-		elm_object_focus_allow_set(ap->mf_MainWindow.pNaviCtrlBar, EINA_TRUE);
-	}*/
+	/*	if (toolbar) {
+			ap->mf_MainWindow.pNaviCtrlBar = toolbar;
+			elm_object_item_part_content_set(navi_it, NAVI_CTRL_PART, toolbar);
+
+			elm_object_focus_allow_set(ap->mf_MainWindow.pNaviCtrlBar, EINA_TRUE);
+		}*/
 	elm_object_item_signal_callback_add(navi_it, "elm,action,more_event", "", mf_callback_hardkey_more_cb, ap);
 	t_end;
 	MF_TRACE_END;
@@ -727,7 +727,8 @@ void mf_navi_bar_reset(void *data)
 
 void
 my_elm_object_item_disabled_set(Evas_Object *ctrlbar, Elm_Object_Item *it, Eina_Bool disabled)
-{//Fixed P131025-04748 by jian12.li.
+{
+	//Fixed P131025-04748 by jian12.li.
 	MF_TRACE_BEGIN;
 	const char *button_label = elm_object_item_part_text_get(it, NAVI_CTRL_TEXT_PART);
 	mf_error("my_elm_object_item_disabled_set button_label is [%s]", button_label);
@@ -736,7 +737,7 @@ my_elm_object_item_disabled_set(Evas_Object *ctrlbar, Elm_Object_Item *it, Eina_
 		elm_object_focus_allow_set(ctrlbar, false);
 		//elm_object_focus_allow_set(it, false);
 	}
- 	MF_TRACE_END;
+	MF_TRACE_END;
 }
 
 void mf_navi_bar_set_ctrlbar_item_disable(Elm_Object_Item *navi_it, int disable_item, bool disable)
@@ -876,8 +877,8 @@ Evas_Object *mf_navi_bar_content_create(void *data)
 		}
 	}
 	if (ap->mf_Status.more == MORE_DEFAULT
-	    || ap->mf_Status.more == MORE_INTERNAL_COPY
-	    || ap->mf_Status.more == MORE_INTERNAL_MOVE) {
+	        || ap->mf_Status.more == MORE_INTERNAL_COPY
+	        || ap->mf_Status.more == MORE_INTERNAL_MOVE) {
 		mf_fs_monitor_add_dir_watch(ap->mf_Status.path->str, ap);
 	}
 	t_end;
@@ -887,7 +888,7 @@ Evas_Object *mf_navi_bar_content_create(void *data)
 }
 
 Evas_Object *mf_naviframe_left_cancel_button_create(Evas_Object *pParent, Elm_Object_Item *pNaviItem,
-	Evas_Smart_Cb pFunc, void *pUserData)
+        Evas_Smart_Cb pFunc, void *pUserData)
 {
 	Evas_Object *btn = elm_button_add(pParent);
 	elm_object_style_set(btn, "naviframe/title_left");
@@ -901,7 +902,7 @@ Evas_Object *mf_naviframe_left_cancel_button_create(Evas_Object *pParent, Elm_Ob
 }
 
 Evas_Object *mf_naviframe_right_save_button_create(Evas_Object *pParent, Elm_Object_Item *pNaviItem,
-	Evas_Smart_Cb pFunc, void *pUserData)
+        Evas_Smart_Cb pFunc, void *pUserData)
 {
 	struct appdata *ap = (struct appdata *)pUserData;
 	Evas_Object *btn = elm_button_add(pParent);

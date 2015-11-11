@@ -144,22 +144,22 @@ int mf_fs_oper_error(const char *src, const char *dst, int check_option)
 	if (check_option & MF_ERROR_CHECK_SRC_PARENT_DIR_EXIST) {
 		char *parent_path = NULL;
 		if (mf_file_attr_get_parent_path(src, &parent_path)) {
-				if (!mf_file_exists(parent_path)) {
+			if (!mf_file_exists(parent_path)) {
 				SAFE_FREE_CHAR(parent_path);
-					return MYFILE_ERR_DIR_NOT_FOUND;
-				}
+				return MYFILE_ERR_DIR_NOT_FOUND;
 			}
+		}
 		SAFE_FREE_CHAR(parent_path);
 	}
 
 	if (check_option & MF_ERROR_CHECK_DST_PARENT_DIR_EXIST) {
 		char *parent_path = NULL;
 		if (mf_file_attr_get_parent_path(dst, &parent_path)) {
-				if (!mf_file_exists(parent_path)) {
+			if (!mf_file_exists(parent_path)) {
 				SAFE_FREE_CHAR(parent_path);
-					return MYFILE_ERR_DIR_NOT_FOUND;
-				}
+				return MYFILE_ERR_DIR_NOT_FOUND;
 			}
+		}
 		SAFE_FREE_CHAR(parent_path);
 	}
 
@@ -238,7 +238,7 @@ int mf_fs_oper_read_dir(const char *path, Eina_List ** dir_list, Eina_List ** fi
 		}
 		if ((ent->d_type & DT_DIR) != 0) {
 			if ((strlen(path) == strlen(PHONE_FOLDER)) && (strcmp(path, PHONE_FOLDER) == 0)
-			    && (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(ent->d_name, DEBUG_FOLDER) == 0)) {
+			        && (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(ent->d_name, DEBUG_FOLDER) == 0)) {
 				continue;
 			}
 		}
@@ -805,8 +805,8 @@ int mf_fs_oper_rename_file(const char *src, const char *dst)
 {
 	mf_debug();
 	int option = MF_ERROR_CHECK_SRC_ARG_VALID | MF_ERROR_CHECK_DST_ARG_VALID |
-		MF_ERROR_CHECK_SRC_EXIST | MF_ERROR_CHECK_DST_PATH_VALID |
-		MF_ERROR_CHECK_SRC_PATH_VALID | MF_ERROR_CHECK_SRC_PATH_VALID | MF_ERROR_CHECK_DST_PARENT_DIR_EXIST | MF_ERROR_CHECK_DUPLICATED;
+	             MF_ERROR_CHECK_SRC_EXIST | MF_ERROR_CHECK_DST_PATH_VALID |
+	             MF_ERROR_CHECK_SRC_PATH_VALID | MF_ERROR_CHECK_SRC_PATH_VALID | MF_ERROR_CHECK_DST_PARENT_DIR_EXIST | MF_ERROR_CHECK_DUPLICATED;
 	int ret = mf_fs_oper_error(src, dst, option);
 
 	if (ret != 0) {

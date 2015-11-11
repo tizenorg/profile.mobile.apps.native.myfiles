@@ -38,11 +38,11 @@ GSList *delete_list = NULL;
 
 #ifndef SAFE_FREE
 #define SAFE_FREE(x) do {\
-				if ((x) != NULL) {\
-					free(x); \
-					x = NULL;\
-				} \
-			} while (0)
+		if ((x) != NULL) {\
+			free(x); \
+			x = NULL;\
+		} \
+	} while (0)
 #endif
 
 int _mf_delete_delete_regfile(const char *file, struct stat *file_statp, mf_cancel *cancel, _mf_fo_msg_cb msg_cb, void *msg_data)
@@ -113,7 +113,7 @@ static int __get_delete_directory_hierarchies(const char *pathname, const struct
 {
 	mf_fo_dir_list_info *info = NULL;
 	mf_debug("pathname is [%s]\t type is [%d]\t",
-		pathname, type);
+	         pathname, type);
 
 	switch (type) {
 

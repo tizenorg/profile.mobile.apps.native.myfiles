@@ -145,7 +145,7 @@ Evas_Object *mf_setting_view_content_create(void *data, Evas_Object *parent)
 
 	Evas_Object *scroller = elm_scroller_add(parent);
 	elm_scroller_bounce_set(scroller, EINA_FALSE, EINA_TRUE);
-	elm_scroller_policy_set(scroller,ELM_SCROLLER_POLICY_OFF,ELM_SCROLLER_POLICY_AUTO);
+	elm_scroller_policy_set(scroller, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
 	evas_object_show(scroller);
 
 	elm_object_style_set(scroller, "dialogue");
@@ -179,8 +179,8 @@ Evas_Object *mf_setting_view_content_create(void *data, Evas_Object *parent)
 
 	Evas_Object *content = elm_layout_add(extension);
 	elm_layout_theme_set(content, "layout",
-				"list/C/type.2", "default");
-					
+	                     "list/C/type.2", "default");
+
 	check_extension = elm_check_add(extension);
 	//evas_object_resize(check_extension, -1, 46);
 	evas_object_propagate_events_set(check_extension, EINA_FALSE);
@@ -220,7 +220,7 @@ Evas_Object *mf_setting_view_content_create(void *data, Evas_Object *parent)
 
 	content = elm_layout_add(extension);
 	elm_layout_theme_set(content, "layout",
-				"list/C/type.2", "default");
+	                     "list/C/type.2", "default");
 
 	check_hiden = elm_check_add(hiden);
 	//evas_object_resize(check_hiden, -1, 46);
@@ -294,54 +294,54 @@ void mf_setting_view_create(void *data)
 
 void update_lang(void)
 {
-    char *lang = NULL;
-    char *baselang = NULL;
-    char *r = NULL;
+	char *lang = NULL;
+	char *baselang = NULL;
+	char *r = NULL;
 	int retcode = -1;
 	retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &lang);
 	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-	    mf_error("[ERR] failed to get the language");
+		mf_error("[ERR] failed to get the language");
 	}
-    if (lang) {
-        setenv("LANG", lang, 1);
-        setenv("LC_MESSAGES", lang, 1);
-        r = setlocale(LC_ALL, "");
-        if (r == NULL) {
-            retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &baselang);
-            if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-                mf_error("[ERR] failed to get the language");
-            }
-            if (baselang) {
-                setlocale(LC_ALL, baselang);
-                free(baselang);
-            }
-        }
-        free(lang);
-    }
+	if (lang) {
+		setenv("LANG", lang, 1);
+		setenv("LC_MESSAGES", lang, 1);
+		r = setlocale(LC_ALL, "");
+		if (r == NULL) {
+			retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &baselang);
+			if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
+				mf_error("[ERR] failed to get the language");
+			}
+			if (baselang) {
+				setlocale(LC_ALL, baselang);
+				free(baselang);
+			}
+		}
+		free(lang);
+	}
 }
 
 void update_region(void)
 {
-    char *region = NULL;
-    int retcode = -1;
-    retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_COUNTRY, &region);
+	char *region = NULL;
+	int retcode = -1;
+	retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_COUNTRY, &region);
 	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-        mf_error("[ERR] failed to get the region");
+		mf_error("[ERR] failed to get the region");
 	}
-    if (region) {
-        setenv("LC_CTYPE", region, 1);
-        setenv("LC_NUMERIC", region, 1);
-        setenv("LC_TIME", region, 1);
-        setenv("LC_COLLATE", region, 1);
-        setenv("LC_MONETARY", region, 1);
-        setenv("LC_PAPER", region, 1);
-        setenv("LC_NAME", region, 1);
-        setenv("LC_ADDRESS", region, 1);
-        setenv("LC_TELEPHONE", region, 1);
-        setenv("LC_MEASUREMENT", region, 1);
-        setenv("LC_IDENTIFICATION", region, 1);
-        free(region);
-    }
+	if (region) {
+		setenv("LC_CTYPE", region, 1);
+		setenv("LC_NUMERIC", region, 1);
+		setenv("LC_TIME", region, 1);
+		setenv("LC_COLLATE", region, 1);
+		setenv("LC_MONETARY", region, 1);
+		setenv("LC_PAPER", region, 1);
+		setenv("LC_NAME", region, 1);
+		setenv("LC_ADDRESS", region, 1);
+		setenv("LC_TELEPHONE", region, 1);
+		setenv("LC_MEASUREMENT", region, 1);
+		setenv("LC_IDENTIFICATION", region, 1);
+		free(region);
+	}
 }
 
 static int __set_i18n(const char *domain, const char *dir)
@@ -356,15 +356,15 @@ static int __set_i18n(const char *domain, const char *dir)
 	r = setlocale(LC_ALL, "");
 	/* if locale is not set properly, try again to set as language base */
 	if (r == NULL) {
-        char *lang = NULL;
-        int retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &lang);
-        if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-            mf_error("[ERR] failed to get the language");
-        }
-        if (lang) {
-            setlocale(LC_ALL, lang);
-            free(lang);
-        }
+		char *lang = NULL;
+		int retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &lang);
+		if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
+			mf_error("[ERR] failed to get the language");
+		}
+		if (lang) {
+			setlocale(LC_ALL, lang);
+			free(lang);
+		}
 	}
 	bindtextdomain(domain, dir);
 	textdomain(domain);
@@ -374,9 +374,9 @@ static int __set_i18n(const char *domain, const char *dir)
 int mf_setting_set_i18n(char *pkgname, char *localedir)
 {
 	mf_error("===============================");
-    //update_lang();
-   // update_region();
+	//update_lang();
+	// update_region();
 
-    return __set_i18n(pkgname, localedir);
+	return __set_i18n(pkgname, localedir);
 }
 

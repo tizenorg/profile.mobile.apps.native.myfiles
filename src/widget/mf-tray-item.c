@@ -43,8 +43,7 @@
 
 #define MF_CATEGORY_LAYOUT_EDJ EDJ_PATH"/myfile_category.edj"
 #define MF_CATEGORY_LAYOUT_GROUP "category_frame"
-typedef struct __mf_category_layout
-{
+typedef struct __mf_category_layout {
 	Evas_Object *category_text;
 	Evas_Object *category_frame;
 	Evas_Object *category_image;
@@ -226,7 +225,7 @@ void mf_tray_item_search(void *data, int type)
 
 		ap->mf_Status.categorytitle = name ;
 		if (ap->mf_MainWindow.pNaviGengrid == NULL) {
-			ap->mf_MainWindow.pNaviGengrid = mf_gengrid_create(ap->mf_MainWindow.pNaviBar,ap);
+			ap->mf_MainWindow.pNaviGengrid = mf_gengrid_create(ap->mf_MainWindow.pNaviBar, ap);
 		}
 		ap->mf_Status.category_type = type;
 		mf_category_view_create(ap, false);
@@ -262,19 +261,24 @@ void mf_category_refresh(void *data)
 void mf_category_item_title_refresh(Evas_Object *parent)
 {
 	MF_TRACE_BEGIN;
-	if (g_mf_category_layout.category_image)
-		elm_object_part_text_set((g_mf_category_layout.category_image),"category_image_title",mf_util_get_text(MF_LABEL_IMAGES));
-	if (g_mf_category_layout.category_video)
-		elm_object_part_text_set((g_mf_category_layout.category_video),"category_video_title",mf_util_get_text(MF_LABEL_VIDEOS));
-	if (g_mf_category_layout.category_sound)
-		elm_object_part_text_set((g_mf_category_layout.category_sound),"category_sound_title",mf_util_get_text(MF_LABEL_TITLE_AUDIOS));
-	if (g_mf_category_layout.category_document)
-		elm_object_part_text_set((g_mf_category_layout.category_document),"category_document_title",mf_util_get_text(MF_LABLE_SHORTCUT_DOCUMENTS));
-	if (g_mf_category_layout.category_text)
-		elm_object_part_text_set((g_mf_category_layout.category_text),"category_text_title", mf_util_get_text(MF_LABEL_CATEGORY));
+	if (g_mf_category_layout.category_image) {
+		elm_object_part_text_set((g_mf_category_layout.category_image), "category_image_title", mf_util_get_text(MF_LABEL_IMAGES));
+	}
+	if (g_mf_category_layout.category_video) {
+		elm_object_part_text_set((g_mf_category_layout.category_video), "category_video_title", mf_util_get_text(MF_LABEL_VIDEOS));
+	}
+	if (g_mf_category_layout.category_sound) {
+		elm_object_part_text_set((g_mf_category_layout.category_sound), "category_sound_title", mf_util_get_text(MF_LABEL_TITLE_AUDIOS));
+	}
+	if (g_mf_category_layout.category_document) {
+		elm_object_part_text_set((g_mf_category_layout.category_document), "category_document_title", mf_util_get_text(MF_LABLE_SHORTCUT_DOCUMENTS));
+	}
+	if (g_mf_category_layout.category_text) {
+		elm_object_part_text_set((g_mf_category_layout.category_text), "category_text_title", mf_util_get_text(MF_LABEL_CATEGORY));
+	}
 	if (g_mf_category_layout.category_recent) {
-		elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_title",mf_util_get_text(MF_LABEL_RECTENT_FILES));
-		elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_size","0.0 Byte");
+		elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_title", mf_util_get_text(MF_LABEL_RECTENT_FILES));
+		elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_size", "0.0 Byte");
 	}
 }
 
@@ -288,46 +292,46 @@ void mf_category_storage_size_reset(mf_tray_item_category category) //fix  P1311
 {
 	MF_TRACE_BEGIN;
 	switch (category) {
-		case mf_tray_item_category_none:{
-			if (g_mf_category_layout.category_image) {
-					elm_object_part_text_set((g_mf_category_layout.category_image),"category_image_size", "");
-			}
-			if (g_mf_category_layout.category_video) {
-					elm_object_part_text_set((g_mf_category_layout.category_video),"category_video_size", "");
-			}
-			if (g_mf_category_layout.category_sound) {
-					elm_object_part_text_set((g_mf_category_layout.category_sound),"category_sound_size", "");
-			}
-			if (g_mf_category_layout.category_document) {
-					elm_object_part_text_set((g_mf_category_layout.category_document),"category_document_size", "");
-			}
-			if (g_mf_category_layout.category_recent) {
-					elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_size", "");
-			}
-			break;
+	case mf_tray_item_category_none: {
+		if (g_mf_category_layout.category_image) {
+			elm_object_part_text_set((g_mf_category_layout.category_image), "category_image_size", "");
 		}
-		case mf_tray_item_category_image:{
-				elm_object_part_text_set((g_mf_category_layout.category_image),"category_image_size", "");
-			break;
+		if (g_mf_category_layout.category_video) {
+			elm_object_part_text_set((g_mf_category_layout.category_video), "category_video_size", "");
 		}
-		case mf_tray_item_category_video:{
-				elm_object_part_text_set((g_mf_category_layout.category_video),"category_video_size", "");
-			break;
+		if (g_mf_category_layout.category_sound) {
+			elm_object_part_text_set((g_mf_category_layout.category_sound), "category_sound_size", "");
 		}
-		case mf_tray_item_category_sounds:{
-				elm_object_part_text_set((g_mf_category_layout.category_sound),"category_sound_size", "");
-			break;
+		if (g_mf_category_layout.category_document) {
+			elm_object_part_text_set((g_mf_category_layout.category_document), "category_document_size", "");
 		}
-		case mf_tray_item_category_document:{
-				elm_object_part_text_set((g_mf_category_layout.category_document),"category_document_size", "");
-			break;
+		if (g_mf_category_layout.category_recent) {
+			elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_size", "");
 		}
-		case mf_tray_item_category_recent:{
-				elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_size", "");
-			break;
-		}
-	   default:
-		   	break;
+		break;
+	}
+	case mf_tray_item_category_image: {
+		elm_object_part_text_set((g_mf_category_layout.category_image), "category_image_size", "");
+		break;
+	}
+	case mf_tray_item_category_video: {
+		elm_object_part_text_set((g_mf_category_layout.category_video), "category_video_size", "");
+		break;
+	}
+	case mf_tray_item_category_sounds: {
+		elm_object_part_text_set((g_mf_category_layout.category_sound), "category_sound_size", "");
+		break;
+	}
+	case mf_tray_item_category_document: {
+		elm_object_part_text_set((g_mf_category_layout.category_document), "category_document_size", "");
+		break;
+	}
+	case mf_tray_item_category_recent: {
+		elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_size", "");
+		break;
+	}
+	default:
+		break;
 	}
 }
 
@@ -335,87 +339,87 @@ void mf_category_storage_size_refresh(mf_tray_item_category category, Update_Inf
 {
 	MF_TRACE_BEGIN;
 	switch (category) {
-		case mf_tray_item_category_none:{
-			mfStorageStatus*  storage_status = (mfStorageStatus*) mf_storage_get_status(pUserData);
-			if (g_mf_category_layout.category_image) {
-				if (storage_status->image_size_info.total_size >= 0.0) {
-					char *size = mf_launch_item_size_calculate((double)storage_status->image_size_info.total_size);
-					elm_object_part_text_set((g_mf_category_layout.category_image),"category_image_size", size);
-					SAFE_FREE_CHAR(size);
-				}
-			}
-			if (g_mf_category_layout.category_video) {
-				if (storage_status->video_size_info.total_size >= 0.0) {
-					char *size = mf_launch_item_size_calculate((double)storage_status->video_size_info.total_size);
-					elm_object_part_text_set((g_mf_category_layout.category_video),"category_video_size", size);
-					SAFE_FREE_CHAR(size);
-				}
-			}
-			if (g_mf_category_layout.category_sound) {
-				if (storage_status->sound_size_info.total_size >= 0.0) {
-					char *size = mf_launch_item_size_calculate((double)storage_status->sound_size_info.total_size);
-					elm_object_part_text_set((g_mf_category_layout.category_sound),"category_sound_size", size);
-					SAFE_FREE_CHAR(size);
-				}
-			}
-			if (g_mf_category_layout.category_document) {
-				if (storage_status->document_size_info.total_size >= 0.0) {
-					char *size = mf_launch_item_size_calculate((double)storage_status->document_size_info.total_size);
-					elm_object_part_text_set((g_mf_category_layout.category_document),"category_document_size", size);
-					SAFE_FREE_CHAR(size);
-				}
-			}
-			if (g_mf_category_layout.category_recent) {
-				if (storage_status->recent_size_info.total_size >= 0.0) {
-					char *size = mf_launch_item_size_calculate((double)storage_status->recent_size_info.total_size);
-					elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_size", size);
-					SAFE_FREE_CHAR(size);
-				}
-			}
-			break;
-		}
-		case mf_tray_item_category_image:{
-			if (update_info) {
-				char *size = mf_launch_item_size_calculate((double)update_info->total_size);
-				elm_object_part_text_set((g_mf_category_layout.category_image),"category_image_size", size);
+	case mf_tray_item_category_none: {
+		mfStorageStatus*  storage_status = (mfStorageStatus*) mf_storage_get_status(pUserData);
+		if (g_mf_category_layout.category_image) {
+			if (storage_status->image_size_info.total_size >= 0.0) {
+				char *size = mf_launch_item_size_calculate((double)storage_status->image_size_info.total_size);
+				elm_object_part_text_set((g_mf_category_layout.category_image), "category_image_size", size);
 				SAFE_FREE_CHAR(size);
 			}
-			break;
 		}
-		case mf_tray_item_category_video:{
-			if (update_info) {
-				char *size = mf_launch_item_size_calculate((double)update_info->total_size);
-				elm_object_part_text_set((g_mf_category_layout.category_video),"category_video_size", size);
+		if (g_mf_category_layout.category_video) {
+			if (storage_status->video_size_info.total_size >= 0.0) {
+				char *size = mf_launch_item_size_calculate((double)storage_status->video_size_info.total_size);
+				elm_object_part_text_set((g_mf_category_layout.category_video), "category_video_size", size);
 				SAFE_FREE_CHAR(size);
 			}
-			break;
 		}
-		case mf_tray_item_category_sounds:{
-			if (update_info) {
-				char *size = mf_launch_item_size_calculate((double)update_info->total_size);
-				elm_object_part_text_set((g_mf_category_layout.category_sound),"category_sound_size", size);
+		if (g_mf_category_layout.category_sound) {
+			if (storage_status->sound_size_info.total_size >= 0.0) {
+				char *size = mf_launch_item_size_calculate((double)storage_status->sound_size_info.total_size);
+				elm_object_part_text_set((g_mf_category_layout.category_sound), "category_sound_size", size);
 				SAFE_FREE_CHAR(size);
 			}
-			break;
 		}
-		case mf_tray_item_category_document:{
-			if (update_info) {
-				char *size = mf_launch_item_size_calculate((double)update_info->total_size);
-				elm_object_part_text_set((g_mf_category_layout.category_document),"category_document_size", size);
+		if (g_mf_category_layout.category_document) {
+			if (storage_status->document_size_info.total_size >= 0.0) {
+				char *size = mf_launch_item_size_calculate((double)storage_status->document_size_info.total_size);
+				elm_object_part_text_set((g_mf_category_layout.category_document), "category_document_size", size);
 				SAFE_FREE_CHAR(size);
 			}
-			break;
 		}
-		case mf_tray_item_category_recent:{
-			if (update_info) {
-				char *size = mf_launch_item_size_calculate((double)update_info->total_size);
-				elm_object_part_text_set((g_mf_category_layout.category_recent),"category_recent_size", size);
+		if (g_mf_category_layout.category_recent) {
+			if (storage_status->recent_size_info.total_size >= 0.0) {
+				char *size = mf_launch_item_size_calculate((double)storage_status->recent_size_info.total_size);
+				elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_size", size);
 				SAFE_FREE_CHAR(size);
 			}
-			break;
 		}
-		default:
-			break;
+		break;
+	}
+	case mf_tray_item_category_image: {
+		if (update_info) {
+			char *size = mf_launch_item_size_calculate((double)update_info->total_size);
+			elm_object_part_text_set((g_mf_category_layout.category_image), "category_image_size", size);
+			SAFE_FREE_CHAR(size);
+		}
+		break;
+	}
+	case mf_tray_item_category_video: {
+		if (update_info) {
+			char *size = mf_launch_item_size_calculate((double)update_info->total_size);
+			elm_object_part_text_set((g_mf_category_layout.category_video), "category_video_size", size);
+			SAFE_FREE_CHAR(size);
+		}
+		break;
+	}
+	case mf_tray_item_category_sounds: {
+		if (update_info) {
+			char *size = mf_launch_item_size_calculate((double)update_info->total_size);
+			elm_object_part_text_set((g_mf_category_layout.category_sound), "category_sound_size", size);
+			SAFE_FREE_CHAR(size);
+		}
+		break;
+	}
+	case mf_tray_item_category_document: {
+		if (update_info) {
+			char *size = mf_launch_item_size_calculate((double)update_info->total_size);
+			elm_object_part_text_set((g_mf_category_layout.category_document), "category_document_size", size);
+			SAFE_FREE_CHAR(size);
+		}
+		break;
+	}
+	case mf_tray_item_category_recent: {
+		if (update_info) {
+			char *size = mf_launch_item_size_calculate((double)update_info->total_size);
+			elm_object_part_text_set((g_mf_category_layout.category_recent), "category_recent_size", size);
+			SAFE_FREE_CHAR(size);
+		}
+		break;
+	}
+	default:
+		break;
 	}
 	MF_TRACE_END;
 }
@@ -425,17 +429,17 @@ static void __mf_category_item_key_down(void *data, Evas *evas, Evas_Object *obj
 {
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
-	 struct appdata *ap = (struct appdata *)mf_get_appdata();
+	struct appdata *ap = (struct appdata *)mf_get_appdata();
 	int category = (int) data;
 	mf_debug("the category = %d", category);
 
 	Evas_Event_Key_Down *ev = event_info;
 	mf_retm_if(ev == NULL, "ev is NULL");
-	if (ev->event_flags & EVAS_EVENT_FLAG_ON_HOLD)
+	if (ev->event_flags & EVAS_EVENT_FLAG_ON_HOLD) {
 		return;
+	}
 
-	if ((!strcmp(ev->keyname, "Return")) || (!strcmp(ev->keyname, "KP_Enter")) || (!strcmp(ev->keyname, "space")))
-	{
+	if ((!strcmp(ev->keyname, "Return")) || (!strcmp(ev->keyname, "KP_Enter")) || (!strcmp(ev->keyname, "space"))) {
 		if (category != mf_tray_item_category_none) {
 			mf_tray_item_search(ap, category);
 		}
@@ -519,7 +523,7 @@ Evas_Object *mf_category_widgets_create(void *data, Evas_Object *parent)
 	g_mf_category_layout.category_recent = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_recent");
 	mf_retvm_if(g_mf_category_layout.category_recent == NULL, NULL, "category_recent_files is NULL");
 	//g_mf_category_layout.category_all = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_all_files");
-	//mf_retvm_if(g_mf_category_layout.category_all == NULL, NULL, "category_all_files is NULL");    
+	//mf_retvm_if(g_mf_category_layout.category_all == NULL, NULL, "category_all_files is NULL");
 	g_mf_category_layout.category_image = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_image");
 	mf_retvm_if(g_mf_category_layout.category_image == NULL, NULL, "category_image is NULL");
 	g_mf_category_layout.category_video = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_video");
@@ -540,7 +544,7 @@ Evas_Object *mf_category_widgets_create(void *data, Evas_Object *parent)
 	elm_object_part_content_set(g_mf_category_layout.category_frame, "category_text", g_mf_category_layout.category_text);
 	evas_object_show(g_mf_category_layout.category_text);
 	elm_object_part_content_set(g_mf_category_layout.category_frame, "1", g_mf_category_layout.category_recent);
-	evas_object_show(g_mf_category_layout.category_recent);    
+	evas_object_show(g_mf_category_layout.category_recent);
 	elm_object_part_content_set(g_mf_category_layout.category_frame, "2", g_mf_category_layout.category_image);
 	evas_object_show(g_mf_category_layout.category_image);
 	elm_object_part_content_set(g_mf_category_layout.category_frame, "3", g_mf_category_layout.category_video);
@@ -612,60 +616,60 @@ void __mf_category_item_add_click_callback(void *data)
 {
 	MF_TRACE_BEGIN;
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_image),
-			"category_image,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_image);
+	                                "category_image,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_image);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_video),
-			"category_video,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_video);
+	                                "category_video,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_video);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_sound),
-			"category_sound,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_sounds);
+	                                "category_sound,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_sounds);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_document),
-			"category_document,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_document);
+	                                "category_document,clicked", "background_signal", __mf_category_item_clicked, (void *)mf_tray_item_category_document);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_recent),
-			"category_recent,clicked", "background_signal", __mf_category_recent_item_clicked, NULL);
+	                                "category_recent,clicked", "background_signal", __mf_category_recent_item_clicked, NULL);
 }
 
 void __mf_category_item_del_click_callback(void *data)
 {
 	MF_TRACE_BEGIN;
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_image),
-			"category_image,clicked", "background_signal", __mf_category_item_clicked);
+	                                "category_image,clicked", "background_signal", __mf_category_item_clicked);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_video),
-			"category_video,clicked", "background_signal", __mf_category_item_clicked);
+	                                "category_video,clicked", "background_signal", __mf_category_item_clicked);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_sound),
-			"category_sound,clicked", "background_signal", __mf_category_item_clicked);
+	                                "category_sound,clicked", "background_signal", __mf_category_item_clicked);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_document),
-			"category_document,clicked", "background_signal", __mf_category_item_clicked);
+	                                "category_document,clicked", "background_signal", __mf_category_item_clicked);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_recent),
-				"category_recent,clicked", "background_signal", __mf_category_recent_item_clicked);
+	                                "category_recent,clicked", "background_signal", __mf_category_recent_item_clicked);
 }
 
 void __mf_category_item_add_release_callback(void *data)
 {
 	MF_TRACE_BEGIN;
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_image),
-					"category_image,released", "released_signal", __mf_category_item_released, NULL);
+	                                "category_image,released", "released_signal", __mf_category_item_released, NULL);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_video),
-					"category_video,released", "released_signal", __mf_category_item_released, NULL);
+	                                "category_video,released", "released_signal", __mf_category_item_released, NULL);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_sound),
-					"category_sound,released", "released_signal", __mf_category_item_released, NULL);
+	                                "category_sound,released", "released_signal", __mf_category_item_released, NULL);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_document),
-					"category_document,released", "released_signal", __mf_category_item_released, NULL);
+	                                "category_document,released", "released_signal", __mf_category_item_released, NULL);
 	edje_object_signal_callback_add(_EDJ(g_mf_category_layout.category_recent),
-					"category_recent,released", "released_signal", __mf_category_item_released, NULL);
+	                                "category_recent,released", "released_signal", __mf_category_item_released, NULL);
 }
 
 void __mf_category_item_del_release_callback(void *data)
 {
 	MF_TRACE_BEGIN;
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_image),
-			"category_image,released", "released_signal", __mf_category_item_released);
+	                                "category_image,released", "released_signal", __mf_category_item_released);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_video),
-			"category_video,released", "released_signal", __mf_category_item_released);
+	                                "category_video,released", "released_signal", __mf_category_item_released);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_sound),
-			"category_sound,released", "released_signal", __mf_category_item_released);
+	                                "category_sound,released", "released_signal", __mf_category_item_released);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_document),
-			"category_document,released", "released_signal", __mf_category_item_released);
+	                                "category_document,released", "released_signal", __mf_category_item_released);
 	edje_object_signal_callback_del(_EDJ(g_mf_category_layout.category_recent),
-				"category_recent,released", "released_signal", __mf_category_item_released);
+	                                "category_recent,released", "released_signal", __mf_category_item_released);
 }
 
 

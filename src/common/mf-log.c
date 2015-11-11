@@ -64,8 +64,9 @@ void mf_log_finalize()
 
 int mf_log_record(char *filename, const char *function, int line, char *fmt, ...)
 {
-	if (g_fp == NULL)
+	if (g_fp == NULL) {
 		return MYFILE_ERR_INVALID_ARG;
+	}
 
 	char *message = NULL;
 	va_list arg_ptr;

@@ -22,8 +22,7 @@
 #include "mf-file-util.h"
 
 static GList *download_app_list = NULL;
-typedef struct
-{
+typedef struct {
 	pthread_t tid;
 	int alive;
 
@@ -33,40 +32,43 @@ typedef struct
 	downloadapp_data *ad;
 
 	Ecore_Idler *worker_idler;
-}download_app_worker;
+} download_app_worker;
 
 int count;//wangyan for test
 
 static inline char *mf_download_app_strdup(const char *str)
 {
-	if (str != NULL)
+	if (str != NULL) {
 		return strdup(str);
-	else
+	} else {
 		return NULL;
+	}
 }
 
 static inline char *mf_download_app_check_icon(const char *icon_path)
 {
-	if (EINA_TRUE == mf_file_exists(icon_path))
+	if (EINA_TRUE == mf_file_exists(icon_path)) {
 		return strdup(icon_path);
-	else
+	} else {
 		return NULL;
+	}
 }
 
 static void mf_download_app_get_listinfo(package_info_h handle,
-		downloadapp_listinfo *info)
+        downloadapp_listinfo *info)
 {
 	MF_TRACE_BEGIN;
 	int ret = 0;
 	char *value;
 
-	mf_ret_if(NULL == handle,-1);
-	mf_ret_if(NULL == info,-1);
+	mf_ret_if(NULL == handle, -1);
+	mf_ret_if(NULL == info, -1);
 
 	value = NULL;
 	ret = pkgmgrinfo_pkginfo_get_pkgid(handle, &value);
-	if (ret < 0)
+	if (ret < 0) {
 		mf_error("pkgmgrinfo_pkginfo_get_pkgid() Fail(%d)", ret);
+	}
 
 	info->pkgid = mf_download_app_strdup(value);
 
@@ -74,26 +76,30 @@ static void mf_download_app_get_listinfo(package_info_h handle,
 
 	value = NULL;
 	ret = package_info_get_label(handle, &value);
-	if (ret != PACKAGE_MANAGER_ERROR_NONE)
+	if (ret != PACKAGE_MANAGER_ERROR_NONE) {
 		mf_error("package_info_get_label() Fail(%d)", ret);
+	}
 
 	info->pkg_label = mf_download_app_strdup(value);
 
 	value = NULL;
 	ret = package_info_get_package(handle, &value);
-	if (ret != PACKAGE_MANAGER_ERROR_NONE)
+	if (ret != PACKAGE_MANAGER_ERROR_NONE) {
 		mf_error("package_info_get_package() Fail(%d)", ret);
+	}
 	info->mainappid = mf_download_app_strdup(value);
 
 	value = NULL;
 	ret = package_info_get_icon(handle, &value);
-	if (ret != PACKAGE_MANAGER_ERROR_NONE)
+	if (ret != PACKAGE_MANAGER_ERROR_NONE) {
 		mf_error("package_info_get_icon() Fail(%d)", ret);
+	}
 	info->icon_path = mf_download_app_check_icon(value);
 
 	ret = package_info_is_preload_package(handle, &info->is_preload);
-	if (ret != PACKAGE_MANAGER_ERROR_NONE)
+	if (ret != PACKAGE_MANAGER_ERROR_NONE) {
 		mf_error("package_info_is_preload_package() Fail(%d)", ret);
+	}
 
 	//ret = package_info_is_update(handle, &info->is_update);
 	//if (ret != PACKAGE_MANAGER_ERROR_NONE)
@@ -101,8 +107,9 @@ static void mf_download_app_get_listinfo(package_info_h handle,
 
 	value = NULL;
 	ret = package_info_get_type(handle, &value);
-	if (ret != PACKAGE_MANAGER_ERROR_NONE)
+	if (ret != PACKAGE_MANAGER_ERROR_NONE) {
 		mf_error("package_info_get_type() Fail(%d)", ret);
+	}
 	info->pkg_type = mf_download_app_strdup(value);
 	MF_TRACE_END;
 }
@@ -127,12 +134,13 @@ static int mf_download_app_list_iter(package_info_h handle, void *data)
 
 	if (info->is_preload && !info->is_update) {
 		invalid = 1; //not download app
-		mf_error("------------------[%s] app is not donwload app---------------------",info->pkgid);
+		mf_error("------------------[%s] app is not donwload app---------------------", info->pkgid);
 	}
 	if (invalid == 0) {
-		mf_error("------------------[%s] app is donwload app, count is [%d]---------------------",info->pkgid,count);
-		if (count <= 15)//wangyan for test
+		mf_error("------------------[%s] app is donwload app, count is [%d]---------------------", info->pkgid, count);
+		if (count <= 15) { //wangyan for test
 			*pkg_list = g_list_append(*pkg_list, info);
+		}
 	}
 
 	MF_TRACE_END;
@@ -168,7 +176,7 @@ int mf_download_app_list_get(downloadapp_data *da)
 void mf_download_app_list_get_cb(int fn_result, downloadapp_data *da)
 {
 	MF_TRACE_BEGIN;
-	mf_ret_if(NULL == da,-1);
+	mf_ret_if(NULL == da, -1);
 
 	if (MYFILE_ERR_NONE != fn_result) {
 		mf_error("appmgrUg_get_listinfos() Fail(%d)", fn_result);
@@ -191,8 +199,9 @@ void mf_download_app_list_get_cb(int fn_result, downloadapp_data *da)
 
 void mf_download_app_destroy_data(downloadapp_data *da)
 {
-	if (da->list_worker)
+	if (da->list_worker) {
 		da->list_worker = NULL;
+	}
 	//destroy data
 }
 
@@ -205,8 +214,9 @@ static Eina_Bool _async_worker_idler(void *data)
 	pthread_join(worker->tid, NULL);
 	worker->alive = FALSE;
 
-	if (worker->cb)
+	if (worker->cb) {
 		worker->cb(worker->fn_ret, worker->ad);
+	}
 
 	//g_hash_table_remove(async_worker_hashT, worker);
 
@@ -236,7 +246,7 @@ static void* _async_worker_thread(void *data)
 }
 
 void* mf_download_app_start_async_worker(async_fn fn, callback_fn cb,
-		downloadapp_data *ad)
+        downloadapp_data *ad)
 {
 	MF_TRACE_BEGIN;
 	int ret;
@@ -262,8 +272,9 @@ void* mf_download_app_start_async_worker(async_fn fn, callback_fn cb,
 	//g_hash_table_add(async_worker_hashT, worker);
 
 	ret = pthread_create(&worker->tid, NULL, _async_worker_thread, worker);
-	if (ret)
+	if (ret) {
 		mf_error("phread_create() Fail(%d)", ret);
+	}
 
 	worker->alive = TRUE;
 
@@ -273,7 +284,7 @@ void* mf_download_app_start_async_worker(async_fn fn, callback_fn cb,
 
 GList *mf_download_app_data_list_get()
 {
-	mf_info("download_app_list count in data list get: [%d]",g_list_length(download_app_list));
+	mf_info("download_app_list count in data list get: [%d]", g_list_length(download_app_list));
 	return download_app_list;
 }
 
@@ -294,7 +305,7 @@ void mf_download_app_main(void *data)
 	da->data = (struct appdata *)data;
 	da->list_worker = NULL;
 	da->list_worker = mf_download_app_start_async_worker(mf_download_app_list_get,
-			mf_download_app_list_get_cb, da);
+	                  mf_download_app_list_get_cb, da);
 	MF_TRACE_END;
 }
 #endif

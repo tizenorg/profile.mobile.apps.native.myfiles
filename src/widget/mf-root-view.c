@@ -97,7 +97,7 @@ Elm_Object_Item *mf_mw_root_category_item_prepend(void *data)
 	/*if (first_index_item) {
 		it = elm_genlist_item_insert_before(genlist, &root_category_itc, ap, NULL, first_index_item, ELM_GENLIST_ITEM_NONE, NULL, NULL);
 	} else {*/
-		it = elm_genlist_item_prepend(genlist, &root_category_itc, ap, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+	it = elm_genlist_item_prepend(genlist, &root_category_itc, ap, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
 	//}
 	elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_TOP);
 	MF_TRACE_END;
@@ -132,12 +132,14 @@ void mf_mw_root_category_refresh(void *data)
 
 	if (category) {
 		if (changed_angle == APP_DEVICE_ORIENTATION_90 || changed_angle == APP_DEVICE_ORIENTATION_270) {
-			if (box_root_category)
+			if (box_root_category) {
 				evas_object_size_hint_min_set(box_root_category, ELM_SCALE_SIZE(1280), -1);
+			}
 			edje_object_signal_emit(_EDJ(category), "landscape", "category_frame");
 		} else {
-			if (box_root_category)
+			if (box_root_category) {
 				evas_object_size_hint_min_set(box_root_category, ELM_SCALE_SIZE(720), -1);
+			}
 			edje_object_signal_emit(_EDJ(category), "portrait", "category_frame");
 		}
 	}
@@ -149,7 +151,7 @@ static Evas_Object *__mf_mw_category_content_get(void *data, Evas_Object * obj, 
 	MF_TRACE_BEGIN;
 	mf_retvm_if(data == NULL, NULL, "data is NULL");
 	struct appdata *ap = (struct appdata *)data;
-        /*create detail layout*/
+	/*create detail layout*/
 	Evas_Object *category = mf_category_create(ap);
 
 	/*
@@ -413,7 +415,7 @@ void mf_root_view_append_mmc_item_after_phone(Evas_Object *parent, fsNodeInfo *p
 	mf_retm_if(pNode->path == NULL, "pNode->path is NULL");
 	mf_retm_if(pNode->name == NULL, "pNode->name is NULL");
 	mf_retm_if(data == NULL, "data is NULL");
-		
+
 	char *real_name = NULL;
 	mfItemData_s *m_TempItem = NULL;
 	struct appdata *ap = (struct appdata *)data;
@@ -552,7 +554,7 @@ void mf_root_view_create(void *data)
 	MF_TA_ACUM_ITEM_BEGIN("123456 mf_navi_bar_set_ctrlbar", 0);
 	mf_navi_bar_set_ctrlbar(data);
 	MF_TA_ACUM_ITEM_END("123456 mf_navi_bar_set_ctrlbar", 0);
-	mf_navi_bar_title_content_set(ap,ap->mf_MainWindow.naviframe_title);
+	mf_navi_bar_title_content_set(ap, ap->mf_MainWindow.naviframe_title);
 	elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);
 
 	MF_TA_ACUM_ITEM_END("12345 mf_root_view_create", 0);

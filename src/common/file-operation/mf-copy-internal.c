@@ -54,10 +54,10 @@ GSList *copy_list = NULL;
 
 #ifndef SAFE_FREE
 #define SAFE_FREE(x) do {\
-				if ((x) != NULL) {\
-					free(x); x = NULL;\
-				} \
-			} while (0)
+		if ((x) != NULL) {\
+			free(x); x = NULL;\
+		} \
+	} while (0)
 #endif
 
 #define MSG_REPORT_PERIOD (1)
@@ -80,9 +80,9 @@ static gchar *__mf_copy_change_root_name(const char *name, const char *old_root,
 		GString *n = NULL;
 
 		if ((strstr(name, old_root) == NULL)
-		    || (name_len <= old_len)
-		    || ((name[old_len] == '/' && name[old_len + 1] == '\0'))
-		    || FALSE) {
+		        || (name_len <= old_len)
+		        || ((name[old_len] == '/' && name[old_len + 1] == '\0'))
+		        || FALSE) {
 			mf_fo_loge("invaild args - name : [%s], old_root : [%s]", name, old_root);
 			return NULL;
 		}
@@ -107,7 +107,7 @@ static gchar *__mf_copy_change_root_name(const char *name, const char *old_root,
 
 
 int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *dst_file, unsigned long buf_size, mf_cancel *cancel, _mf_fo_msg_cb msg_cb,
-			  void *msg_data)
+                          void *msg_data)
 {
 	mf_retvm_if(msg_cb == NULL, 0, "msg_cb is NULL");
 	FO_TRACE_BEGIN;
@@ -212,13 +212,13 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 		}
 	}
 //Prevent issue fix
-/*
-		if (dst_info.st_blksize > 0) {
-			alloc_size = dst_info.st_blksize;
-		}
-	} else {
-		alloc_size = buf_size;
-	}*/
+	/*
+			if (dst_info.st_blksize > 0) {
+				alloc_size = dst_info.st_blksize;
+			}
+		} else {
+			alloc_size = buf_size;
+		}*/
 	alloc_size = DEF_ALLLOC_SIZE;
 
 	buf = malloc(alloc_size);
@@ -241,7 +241,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	if (cp_handle->msg.total_size > PER_HANDLE_MAX_SIZE) {
 		dynamic_size = 64;
 	} else if (cp_handle->msg.total_size <= PER_HANDLE_MAX_SIZE &&
-		   cp_handle->msg.total_size > PER_HANDLE_MIN_SIZE) {
+	           cp_handle->msg.total_size > PER_HANDLE_MIN_SIZE) {
 		dynamic_size = 8;
 	} else {
 		dynamic_size = 1;
@@ -257,7 +257,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 
 	mf_error(">>>>>>>>>>>>>>>>>>>remain_size = %lld", remain_size);
 	mf_error(">>>>>>>>>>>>>>>>>>>src_info.st_size = %lld",
-				(long long)src_info.st_size);
+	         (long long)src_info.st_size);
 	if (remain_size == 0 || remain_size < src_info.st_size) {
 		err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_SPACE);
 		msg_cb(MF_MSG_ERROR, cp_handle->dst_dir, 0, err, msg_data);
@@ -265,8 +265,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	}
 	int sync_value = 0;
 	ssize_t sync_msg_size = 0;
-	while ((r_size = fread(buf, 1, alloc_size, src_f)) > 0)
-	{
+	while ((r_size = fread(buf, 1, alloc_size, src_f)) > 0) {
 		ssize_t total = r_size;
 		void *buf_p = buf;
 		sync_value++;
@@ -423,7 +422,7 @@ static int __get_copy_directory_hierarchies(const char *pathname, const struct s
 {
 	mf_fo_dir_list_info *info = NULL;
 	mf_debug("pathname is [%s]\t type is [%d]\t",
-		pathname, type);
+	         pathname, type);
 
 	switch (type) {
 
@@ -440,7 +439,7 @@ static int __get_copy_directory_hierarchies(const char *pathname, const struct s
 		}
 	case FTW_D:
 		info = calloc(sizeof(mf_fo_dir_list_info), 1);
-		if (info !=NULL) {
+		if (info != NULL) {
 			info->ftw_path = g_strdup(pathname);
 			info->type = type;
 			copy_list = g_slist_append(copy_list, info);
@@ -811,119 +810,115 @@ int _mf_copy_copy_internal(const char *src, const char *dst_dir, mf_cancel *canc
 
 		switch (result) {
 		case MF_REQ_NONE:
-		case MF_REQ_MERGE:
-			{
-				struct stat dst_info;
-				if (stat(new_dst, &dst_info)) {
-					MF_FILE_ERROR_LOG(err_buf, "Fail to stat new_dst ", new_dst);
+		case MF_REQ_MERGE: {
+			struct stat dst_info;
+			if (stat(new_dst, &dst_info)) {
+				MF_FILE_ERROR_LOG(err_buf, "Fail to stat new_dst ", new_dst);
+				if (msg_func) {
+					msg_func(MF_MSG_ERROR, NULL, 0, errno, msg_data);
+				}
+				goto ERROR_FREE_MEM;
+			}
+
+			if (S_ISDIR(src_info.st_mode)) {
+				if (!S_ISDIR(dst_info.st_mode)) {
+					mf_fo_loge("src[%s] is directory, but dst[%s] is already existed and not a directory", src, new_dst);
+
+					err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
 					if (msg_func) {
-						msg_func(MF_MSG_ERROR, NULL, 0, errno, msg_data);
+						msg_func(MF_MSG_ERROR, new_dst, 0, err, msg_data);
 					}
 					goto ERROR_FREE_MEM;
 				}
-
-				if (S_ISDIR(src_info.st_mode)) {
-					if (!S_ISDIR(dst_info.st_mode)) {
-						mf_fo_loge("src[%s] is directory, but dst[%s] is already existed and not a directory", src, new_dst);
-
-						err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
-						if (msg_func) {
-							msg_func(MF_MSG_ERROR, new_dst, 0, err, msg_data);
-						}
-						goto ERROR_FREE_MEM;
+				/*just copy*/
+				err = _mf_copy_copy_directory(src, &src_info, new_dst, cancel, msg_func, msg_data);
+				if (err == 0) {
+					//mf_media_content_scan_folder(new_dst);
+				}
+			} else if (S_ISREG(src_info.st_mode)) {
+				if (!S_ISREG(dst_info.st_mode)) {
+					mf_fo_loge("src[%s] is file, but dst[%s] is already existed and not a file", src, new_dst);
+					err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
+					if (msg_func) {
+						msg_func(MF_MSG_ERROR, new_dst, 0, err, msg_data);
 					}
-					/*just copy*/
-					err = _mf_copy_copy_directory(src, &src_info, new_dst, cancel, msg_func, msg_data);
+					goto ERROR_FREE_MEM;
+				}
+				/*just copy*/
+				err = _mf_copy_copy_regfile(src, &src_info, new_dst, dst_info.st_blksize, cancel, msg_func, msg_data);
+				if (err == 0) {
+					//mf_media_content_scan_file(new_dst);
+				}
+			}
+
+		}
+		break;
+		case MF_REQ_RENAME: {
+			if (next_name) {
+				if (S_ISDIR(src_info.st_mode)) {
+					err = _mf_copy_copy_directory(src, &src_info, next_name, cancel, msg_func, msg_data);
 					if (err == 0) {
-						//mf_media_content_scan_folder(new_dst);
+						//mf_media_content_scan_folder(next_name);
 					}
 				} else if (S_ISREG(src_info.st_mode)) {
-					if (!S_ISREG(dst_info.st_mode)) {
-						mf_fo_loge("src[%s] is file, but dst[%s] is already existed and not a file", src, new_dst);
-						err = MF_FO_ERR_SET(MF_FO_ERR_DST_CLASS | MF_FO_ERR_TYPE);
+					err = _mf_copy_copy_regfile(src, &src_info, next_name, 0, cancel, msg_func, msg_data);
+					if (err == 0) {
+						//mf_media_content_scan_file(next_name);
+					}
+				}
+				SAFE_FREE(next_name);
+			} else {
+				if (S_ISDIR(src_info.st_mode)) {
+					int errcode = 0;
+					next_name = _mf_fo_get_next_unique_dirname(new_dst, &errcode);
+					if (!next_name) {
+						mf_fo_loge("Fail to get next directory name [%s]", new_dst);
+						err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
 						if (msg_func) {
-							msg_func(MF_MSG_ERROR, new_dst, 0, err, msg_data);
+							msg_func(MF_MSG_ERROR, NULL, 0, err, msg_data);
 						}
 						goto ERROR_FREE_MEM;
 					}
-					/*just copy*/
-					err = _mf_copy_copy_regfile(src, &src_info, new_dst, dst_info.st_blksize, cancel, msg_func, msg_data);
+					err = _mf_copy_copy_directory(src, &src_info, next_name, cancel, msg_func, msg_data);
 					if (err == 0) {
-						//mf_media_content_scan_file(new_dst);
+						//mf_media_content_scan_folder(next_name);
+					}
+				} else if (S_ISREG(src_info.st_mode)) {
+					int errcode = 0;
+					next_name = _mf_fo_get_next_unique_filename(new_dst, &errcode);
+					if (!next_name) {
+						mf_fo_loge("Fail to get next file name [%s]", new_dst);
+						err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
+						if (msg_func) {
+							msg_func(MF_MSG_ERROR, NULL, 0, err, msg_data);
+						}
+						goto ERROR_FREE_MEM;
+					}
+					err = _mf_copy_copy_regfile(src, &src_info, next_name, 0, cancel, msg_func, msg_data);
+					if (err == 0) {
+						//mf_media_content_scan_file(next_name);
 					}
 				}
-
+				SAFE_FREE(next_name);
 			}
-			break;
-		case MF_REQ_RENAME:
-			{
-				if (next_name) {
-					if (S_ISDIR(src_info.st_mode)) {
-						err = _mf_copy_copy_directory(src, &src_info, next_name, cancel, msg_func, msg_data);
-						if (err == 0) {
-							//mf_media_content_scan_folder(next_name);
-						}
-					} else if (S_ISREG(src_info.st_mode)) {
-						err = _mf_copy_copy_regfile(src, &src_info, next_name, 0, cancel, msg_func, msg_data);
-						if (err == 0) {
-							//mf_media_content_scan_file(next_name);
-						}
-					}
-					SAFE_FREE(next_name);
-				} else {
-					if (S_ISDIR(src_info.st_mode)) {
-						int errcode = 0;
-						next_name = _mf_fo_get_next_unique_dirname(new_dst, &errcode);
-						if (!next_name) {
-							mf_fo_loge("Fail to get next directory name [%s]", new_dst);
-							err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
-							if (msg_func) {
-								msg_func(MF_MSG_ERROR, NULL, 0, err, msg_data);
-							}
-							goto ERROR_FREE_MEM;
-						}
-						err = _mf_copy_copy_directory(src, &src_info, next_name, cancel, msg_func, msg_data);
-						if (err == 0) {
-							//mf_media_content_scan_folder(next_name);
-						}
-					} else if (S_ISREG(src_info.st_mode)) {
-						int errcode = 0;
-						next_name = _mf_fo_get_next_unique_filename(new_dst, &errcode);
-						if (!next_name) {
-							mf_fo_loge("Fail to get next file name [%s]", new_dst);
-							err = (_mf_fo_errno_to_mferr(errcode) | MF_FO_ERR_DST_CLASS);
-							if (msg_func) {
-								msg_func(MF_MSG_ERROR, NULL, 0, err, msg_data);
-							}
-							goto ERROR_FREE_MEM;
-						}
-						err = _mf_copy_copy_regfile(src, &src_info, next_name, 0, cancel, msg_func, msg_data);
-						if (err == 0) {
-							//mf_media_content_scan_file(next_name);
-						}
-					}
-					SAFE_FREE(next_name);
-				}
+		}
+		break;
+		case MF_REQ_SKIP: {
+			if (msg_func) {
+				unsigned long long size = 0;
+				/*1 TODO : Do i need to report error, if i fail to get size ?*/
+				_mf_fo_get_total_item_size(src, &size);
+				msg_func(MF_MSG_SKIP, NULL, size, 0, msg_data);
 			}
-			break;
-		case MF_REQ_SKIP:
-			{
-				if (msg_func) {
-					unsigned long long size = 0;
-					/*1 TODO : Do i need to report error, if i fail to get size ?*/
-					_mf_fo_get_total_item_size(src, &size);
-					msg_func(MF_MSG_SKIP, NULL, size, 0, msg_data);
-				}
+		}
+		break;
+		case MF_REQ_CANCEL: {
+			if (cancel) {
+				mf_cancel_do_cancel(cancel);
 			}
-			break;
-		case MF_REQ_CANCEL:
-			{
-				if (cancel) {
-					mf_cancel_do_cancel(cancel);
-				}
-				goto CANCEL_FREE_MEM;
-			}
-			break;
+			goto CANCEL_FREE_MEM;
+		}
+		break;
 		default:
 			abort();
 			break;

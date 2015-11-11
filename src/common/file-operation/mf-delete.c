@@ -257,7 +257,7 @@ static void *delete_thread(void *data)
 		}
 		c_stop = get_time();
 		mf_fo_logi("## Total src size - %lld byte, size time : %lf sec, delete time : %lf sec",
-			   handle->msg.total_size, s_stop - s_start, c_stop - c_start);
+		           handle->msg.total_size, s_stop - s_start, c_stop - c_start);
 
 		if (cancelled) {
 			/*cancel message*/

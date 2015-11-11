@@ -33,10 +33,11 @@ void mf_object_item_text_set(Elm_Object_Item *item, const char *ID, const char *
 	mf_retm_if(item == NULL, "item is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = PKGNAME_SYSTEM;
-	else
-		domain = NULL;//PKGNAME_MYFILE;
+	} else {
+		domain = NULL;    //PKGNAME_MYFILE;
+	}
 	elm_object_item_domain_translatable_part_text_set(item, part, domain, ID);
 	MF_TRACE_END;
 }
@@ -47,20 +48,21 @@ void mf_object_item_translate_set(Elm_Object_Item *item, const char *ID)
 	mf_retm_if(item == NULL, "item is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM"))
+	if (strstr(ID, "IDS_COM")) {
 		domain = PKGNAME_SYSTEM;
-	else
+	} else {
 		domain = NULL;
+	}
 
 	SECURE_DEBUG(">>>>>>>>>>>>>>> ID is [%s] domain is [%s]", ID, domain);
 	elm_object_item_domain_text_translatable_set(item, domain, EINA_TRUE);
 }
 
 Elm_Object_Item *mf_object_item_tabbar_item_append(Evas_Object *obj,
-		                        const char *icon,
-		                        const char *label,
-		                        Evas_Smart_Cb func,
-		                        const void *data)
+        const char *icon,
+        const char *label,
+        Evas_Smart_Cb func,
+        const void *data)
 {
 	Elm_Object_Item *item = elm_toolbar_item_append(obj, icon, label, func, data);
 
@@ -79,8 +81,9 @@ void mf_object_item_tabbar_item_set_disable(Evas_Object *obj, const char *label,
 	while (item) {
 		button_label = elm_object_item_part_text_get(item, NAVI_CTRL_TEXT_PART);
 		if (g_strcmp0(button_label, mf_util_get_text(label)) == 0
-		    || g_strcmp0(button_label, (label)) == 0)
+		        || g_strcmp0(button_label, (label)) == 0) {
 			elm_object_item_disabled_set(item, disable);
+		}
 		button_label = NULL;
 		item = elm_toolbar_item_next_get(item);
 	}
@@ -138,10 +141,10 @@ mfItemData_s *mf_object_item_normal_data_get(const char *fullpath, void *user_da
 }
 
 Elm_Object_Item *mf_object_list_item_append(Evas_Object *parent,
-				   void *obj_data,
-				   void (*func)(void *data, Evas_Object * obj, void *event_info),
-				   void *func_data,
-				   void *user_data)
+        void *obj_data,
+        void (*func)(void *data, Evas_Object * obj, void *event_info),
+        void *func_data,
+        void *user_data)
 {
 	MF_TRACE_BEGIN;
 	mf_retvm_if(parent == NULL, NULL, "parent error");
@@ -171,12 +174,12 @@ Elm_Object_Item *mf_object_list_item_append(Evas_Object *parent,
 	} else {
 		Elm_Gengrid_Item_Class *gitc = NULL;
 //Prevent issue fix
-              gitc = &gic;
-	/*	if (ap->mf_Status.view_type == mf_view_root_category) {
-			gitc = &gic;
-		} else {
-			gitc = &gic;
-		}*/
+		gitc = &gic;
+		/*	if (ap->mf_Status.view_type == mf_view_root_category) {
+				gitc = &gic;
+			} else {
+				gitc = &gic;
+			}*/
 		it = elm_genlist_item_append(parent, gitc, obj_data, NULL, ELM_GENLIST_ITEM_NONE, func, func_data);
 
 	}
@@ -189,7 +192,7 @@ Elm_Object_Item *mf_object_item_genlist_x_y_item_get(Evas_Object *genlist, int x
 
 	if (genlist) {
 		int posret = 0;
-		it =elm_genlist_at_xy_item_get(genlist, x, y, &posret);
+		it = elm_genlist_at_xy_item_get(genlist, x, y, &posret);
 	}
 	return it;
 }

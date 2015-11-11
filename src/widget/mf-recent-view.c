@@ -69,14 +69,13 @@ Evas_Object *mf_recent_view_content_create(void *data)
 	mf_util_free_eina_list_with_data(&(ap->mf_FileOperation.recent_list), MYFILE_TYPE_FSNODE);
 	mf_util_generate_saved_files_list(ap, mf_list_recent_files);
 
-	if (eina_list_count(ap->mf_FileOperation.recent_list) == 0)
-	{
+	if (eina_list_count(ap->mf_FileOperation.recent_list) == 0) {
 		mf_debug("No recent lists");
 
 		content = mf_object_create_multi_no_content(ap->mf_MainWindow.pNaviLayout);
 		mf_object_text_set(content, MF_LABEL_NO_FILES, "elm.text");
 		ap->mf_MainWindow.pNaviGengrid = NULL;
-		ap->mf_MainWindow.pNaviGenlist= NULL;
+		ap->mf_MainWindow.pNaviGenlist = NULL;
 		ap->mf_Status.flagNoContent = EINA_TRUE;
 	} else {
 		int iSortTypeValue = 0;
@@ -150,11 +149,11 @@ void mf_recent_view_create(void *data)
 	MF_TA_ACUM_ITEM_BEGIN("123456 push naviframe item", 0);
 	if (ap->mf_Status.pPreNaviItem) {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_insert_after(ap->mf_MainWindow.pNaviBar,
-				ap->mf_Status.pPreNaviItem, "", NULL, NULL, ap->mf_MainWindow.pNaviLayout,
-				MF_NAVI_STYLE_ENABLE);
+		                              ap->mf_Status.pPreNaviItem, "", NULL, NULL, ap->mf_MainWindow.pNaviLayout,
+		                              MF_NAVI_STYLE_ENABLE);
 	} else {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_push(ap->mf_MainWindow.pNaviBar, NULL, NULL, NULL,
-				ap->mf_MainWindow.pNaviLayout, MF_NAVI_STYLE_ENABLE);
+		                              ap->mf_MainWindow.pNaviLayout, MF_NAVI_STYLE_ENABLE);
 	}
 	MF_TA_ACUM_ITEM_END("123456 push naviframe item", 0);
 

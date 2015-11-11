@@ -56,8 +56,7 @@
 #define DEF_LABEL_BUF_LEN       (512)
 #define MF_LIST_THUMBNAIL_SIZE  46
 
-typedef struct
-{
+typedef struct {
 	void *ap_data;
 	Evas_Object *layout;
 	Evas_Object *navi_layout;
@@ -67,7 +66,7 @@ typedef struct
 	Eina_List *file_list;
 	Evas_Object *navi_item;
 	Eina_Bool is_root;
-}cloud_view_data;
+} cloud_view_data;
 
 /****	Global definition	****/
 static bool g_is_refresh_at_glist = false;
@@ -193,7 +192,7 @@ void mf_genlist_get_thumbnail(mfItemData_s *params)
 			}
 
 			int thumbnail_type = mf_file_attr_get_file_icon(params->m_ItemName->str, &error_code,
-					MF_ROTATE_PORTRAIT, &icon_path, &params->media);
+			                     MF_ROTATE_PORTRAIT, &icon_path, &params->media);
 
 			if (icon_path && thumbnail_type == MF_THUMBNAIL_TYPE_THUMBNAIL) {
 				if (mf_file_exists(icon_path)) {
@@ -249,7 +248,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 		} else if (g_strcmp0(params->m_ItemName->str, MEMORY_FOLDER) == 0) {
 			return g_strdup(mf_util_get_text(MF_LABEL_SD_CARD));
 		} else {
-			if (params->ap->mf_Status.more == MORE_SEARCH &&params->ap->mf_Status.search_filter) {
+			if (params->ap->mf_Status.more == MORE_SEARCH && params->ap->mf_Status.search_filter) {
 				char *markup_name = NULL;
 				bool res = false;
 				markup_name = (char *)mf_util_search_markup_keyword(mf_file_get(params->m_ItemName->str), params->ap->mf_Status.search_filter, &res);
@@ -266,19 +265,19 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 			}
 		}
 		/*
-           } else if (strcmp(part, "elm.uptitle.text") == 0) {
-           return g_strdup(params->m_ItemName->str);
-           } else if (strcmp(part, "elm.slide_base.text") == 0) {
-           return g_strdup(mf_file_get(params->m_ItemName->str));
-           } else if (strcmp(part, "elm.slide.text.1") == 0) {
-           return g_strdup(mf_file_get(params->m_ItemName->str));
+		   } else if (strcmp(part, "elm.uptitle.text") == 0) {
+		   return g_strdup(params->m_ItemName->str);
+		   } else if (strcmp(part, "elm.slide_base.text") == 0) {
+		   return g_strdup(mf_file_get(params->m_ItemName->str));
+		   } else if (strcmp(part, "elm.slide.text.1") == 0) {
+		   return g_strdup(mf_file_get(params->m_ItemName->str));
 		 */
 	} else if (strcmp(part, "elm.text.main.left.top") == 0) {
 		if (g_strcmp0(params->m_ItemName->str, PHONE_FOLDER) == 0) {
 			return g_strdup(mf_util_get_text(MF_LABEL_DEVICE_MEMORY));
 		} else if (g_strcmp0(params->m_ItemName->str, MEMORY_FOLDER) == 0) {
 			return g_strdup(mf_util_get_text(MF_LABEL_SD_CARD));
-		} else if (params->ap->mf_Status.more == MORE_SEARCH &&params->ap->mf_Status.search_filter) {
+		} else if (params->ap->mf_Status.more == MORE_SEARCH && params->ap->mf_Status.search_filter) {
 			char *markup_name = NULL;
 			bool res = false;
 			markup_name = (char *)mf_util_search_markup_keyword(mf_file_get(params->m_ItemName->str), params->ap->mf_Status.search_filter, &res);
@@ -295,7 +294,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 	} else if (strcmp(part, "elm.text.sub.left.bottom") == 0) {
 
 		if ((params->ap->mf_Status.more == MORE_SEARCH && params->ap->mf_Status.search_filter)
-				|| params->ap->mf_Status.view_type == mf_view_root) {
+		        || params->ap->mf_Status.view_type == mf_view_root) {
 			int root_len = 0;
 			char *new_path = NULL;
 			GString *parent_path = NULL;
@@ -332,7 +331,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 				} else {
 					if (params->create_date) {
 						if (params->list_type == mf_list_normal
-								|| params->list_type == mf_list_recent_files) {
+						        || params->list_type == mf_list_recent_files) {
 							if (params->modify_time) {
 								char *tempdate = mf_util_icu_translate(params->ap, params->modify_time, false);
 								SAFE_FREE_CHAR(params->create_date);
@@ -359,7 +358,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 						if (count == 0 || count == 1) {
 							return g_strdup_printf(mf_util_get_text(MF_LABEL_ITEM), count);
 						} else {
-							return g_strdup_printf("%d %s", count ,mf_util_get_text(MF_LABEL_ITEMS));
+							return g_strdup_printf("%d %s", count , mf_util_get_text(MF_LABEL_ITEMS));
 						}
 					} else {
 						return g_strdup(_(""));
@@ -456,13 +455,12 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		}
 	} else if (!strcmp(part, "elm.icon.2")) {
 		if (ap->mf_Status.more == MORE_SHARE_EDIT
-				|| ap->mf_Status.more == MORE_EDIT_DELETE
-				|| ap->mf_Status.more == MORE_EDIT_COPY
-				|| ap->mf_Status.more == MORE_EDIT_MOVE
-				|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
-				|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
-				|| ap->mf_Status.more == MORE_EDIT_DETAIL)
-		{
+		        || ap->mf_Status.more == MORE_EDIT_DELETE
+		        || ap->mf_Status.more == MORE_EDIT_COPY
+		        || ap->mf_Status.more == MORE_EDIT_MOVE
+		        || ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
+		        || ap->mf_Status.more == MORE_EDIT_UNINSTALL
+		        || ap->mf_Status.more == MORE_EDIT_DETAIL) {
 			if (ap->mf_Status.extra != MORE_SEARCH) {
 				Evas_Object *content = elm_layout_add(obj);
 				elm_layout_theme_set(content, "layout", "list/C/type.2", "default");
@@ -498,19 +496,21 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 		if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND) {
 			if (params->thumb_path && mf_file_exists(params->thumb_path) &&
-					strcmp(params->thumb_path, MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
+			        strcmp(params->thumb_path, MF_MUSIC_DEFAULT_THUMBNAIL_FROM_DB) == 0) {
 				SAFE_FREE_CHAR(params->thumb_path);
-				if (params->file_type == FILE_TYPE_MUSIC)
+				if (params->file_type == FILE_TYPE_MUSIC) {
 					params->thumb_path = g_strdup(MF_ICON_MUSIC_THUMBNAIL);
-				else
+				} else {
 					params->thumb_path = g_strdup(MF_ICON_SOUND);
+				}
 
 				params->thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
 			} else {
-				if (params->file_type == FILE_TYPE_MUSIC)
+				if (params->file_type == FILE_TYPE_MUSIC) {
 					params->thumb_path = g_strdup(MF_ICON_MUSIC_THUMBNAIL);
-				else
+				} else {
 					params->thumb_path = g_strdup(MF_ICON_SOUND);
+				}
 
 				params->thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
 			}
@@ -532,8 +532,8 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 		bool is_phone_or_mmc = (params->storage_type == MYFILE_PHONE || params->storage_type == MYFILE_MMC);
 		bool is_using_original_image_at_phone_or_mmc =
-				(params->thumbnail_type == MF_THUMBNAIL_DEFAULT && params->file_type == FILE_TYPE_IMAGE &&
-						is_phone_or_mmc && params->m_ItemName->str);
+		    (params->thumbnail_type == MF_THUMBNAIL_DEFAULT && params->file_type == FILE_TYPE_IMAGE &&
+		     is_phone_or_mmc && params->m_ItemName->str);
 
 		if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT && (is_using_original_image_at_phone_or_mmc == false)) {
 			mf_debug("1");
@@ -545,11 +545,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 			off_t size = 0;
 			int isOriginalImage = (params->m_ItemName->str && params->thumb_path &&
-					strcmp(params->thumb_path, params->m_ItemName->str) == 0);
+			                       strcmp(params->thumb_path, params->m_ItemName->str) == 0);
 
 			if (isOriginalImage == 0) {
 				mf_file_attr_get_file_size(params->thumb_path, &size);
-				if (size < 4*1024*1024) {
+				if (size < 4 * 1024 * 1024) {
 					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
 					//elm_object_part_content_set(layout, "default_thumbnail", thumb);
 					//elm_layout_content_set(layout, "elm.swallow.content", thumb);
@@ -570,12 +570,13 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 						mf_debug("22");
 						thumb = elm_image_add(obj);
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
-						if (params->file_type == FILE_TYPE_IMAGE)
+						if (params->file_type == FILE_TYPE_IMAGE) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
-						else if (params->file_type == FILE_TYPE_VIDEO)
+						} else if (params->file_type == FILE_TYPE_VIDEO) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
-						else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT)
+						} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
 							elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+						}
 						elm_image_smooth_set(thumb, EINA_FALSE);
 						elm_image_preload_disabled_set(thumb, EINA_FALSE);
 						//elm_object_part_content_set(layout, "default_thumbnail", thumb);
@@ -594,12 +595,12 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				mf_debug("51");
 				//Checking file size, if more than 4M, don't display it, it will be very slow.
 				/*off_t size = 0;//Comment it, for P140606-04570, some times at efl, it will crash at png file.
-                      mf_file_attr_get_file_size(params->m_ItemName->str, &size);
-                      if (size < 4*1024*1024)
-                      elm_image_file_set(thumb, params->m_ItemName->str, NULL);*/
-				if (g_is_refresh_at_glist == false)
+				      mf_file_attr_get_file_size(params->m_ItemName->str, &size);
+				      if (size < 4*1024*1024)
+				      elm_image_file_set(thumb, params->m_ItemName->str, NULL);*/
+				if (g_is_refresh_at_glist == false) {
 					mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
-				else {
+				} else {
 					mf_debug("52");
 					if (params->pNode && params->pNode->thumbnail_path) {//For supporting the otg thumbnail
 						mf_debug("53");
@@ -611,12 +612,13 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 						mf_debug("54");
 						thumb = elm_image_add(obj);
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
-						if (params->file_type == FILE_TYPE_IMAGE)
+						if (params->file_type == FILE_TYPE_IMAGE) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
-						else if (params->file_type == FILE_TYPE_VIDEO)
+						} else if (params->file_type == FILE_TYPE_VIDEO) {
 							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
-						else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT)
+						} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
 							elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+						}
 						elm_image_smooth_set(thumb, EINA_FALSE);
 						elm_image_preload_disabled_set(thumb, EINA_FALSE);
 						//elm_layout_content_set(layout, "elm.swallow.content", thumb);
@@ -636,12 +638,13 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				Evas_Object *thumb = elm_image_add(obj);
 				elm_image_fill_outside_set(thumb, EINA_TRUE);
 				elm_image_smooth_set(thumb, EINA_FALSE);
-				if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND)
+				if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND) {
 					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
-				else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT)
+				} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
 					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
-				else
+				} else {
 					elm_image_file_set(thumb, params->thumb_path, NULL);
+				}
 				evas_object_show(thumb);
 				return thumb;
 			}
@@ -659,13 +662,14 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			return layout;
 		}
 
-		if(strstr(params->m_ItemName->str, "/.") != NULL) {
-			if (params->file_type == FILE_TYPE_IMAGE)
+		if (strstr(params->m_ItemName->str, "/.") != NULL) {
+			if (params->file_type == FILE_TYPE_IMAGE) {
 				elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
-			else if (params->file_type == FILE_TYPE_VIDEO)
+			} else if (params->file_type == FILE_TYPE_VIDEO) {
 				elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
-			else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT)
+			} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
 				elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+			}
 			elm_image_smooth_set(thumb, EINA_FALSE);
 		}
 
@@ -678,12 +682,12 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		return edit_field;
 	} else if (!strcmp(part, "elm.flip.eraser")) {
 		layout = mf_object_create_button(obj, "editfield_clear", NULL, NULL,
-				(Evas_Smart_Cb)__genlist_rename_eraser_clicked_cb, params, EINA_FALSE);
+		                                 (Evas_Smart_Cb)__genlist_rename_eraser_clicked_cb, params, EINA_FALSE);
 
 		return layout;
 	} else if (!strcmp(part, "elm.flip.icon")) {
 		Evas_Object *cancel_btn = mf_object_create_button(obj, NULL, LABEL_CANCEL, NULL,
-				(Evas_Smart_Cb)mf_callback_cancel_cb, params->ap, EINA_FALSE);
+		                          (Evas_Smart_Cb)mf_callback_cancel_cb, params->ap, EINA_FALSE);
 		evas_object_size_hint_min_set(cancel_btn, ELM_SCALE_SIZE(140), 0);
 		evas_object_show(cancel_btn);
 		evas_object_propagate_events_set(cancel_btn, EINA_FALSE);
@@ -717,8 +721,9 @@ void mf_genlist_gl_selected(void *data, Evas_Object *obj, void *event_info)
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "ap is NULL");
 	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
-	if (item)
+	if (item) {
 		elm_genlist_item_selected_set(item, FALSE);
+	}
 
 	Evas_Object *popup = evas_object_data_get(obj, "popup");
 	if (popup) {
@@ -731,24 +736,25 @@ void mf_genlist_gl_selected(void *data, Evas_Object *obj, void *event_info)
 		elm_genlist_item_selected_set(item, FALSE);
 
 		if (ap->mf_Status.more == MORE_EDIT_RENAME) {
-			if (ap->mf_Status.view_type == mf_view_root)
+			if (ap->mf_Status.view_type == mf_view_root) {
 				return;
+			}
 			ap->mf_FileOperation.rename_item = item;
 			mf_callback_idle_rename(selected);
 		} else if (ap->mf_Status.more == MORE_RENAME) {
 			mf_callback_rename_save_cb(ap, NULL, NULL);
 			return;
-		} else if (ap->mf_Status.more != MORE_EDIT 
-				&& ap->mf_Status.more != MORE_SHARE_EDIT
-				&& ap->mf_Status.more != MORE_EDIT_COPY
-				&& ap->mf_Status.more != MORE_EDIT_MOVE
-				&& ap->mf_Status.more != MORE_EDIT_DETAIL
-				&& ap->mf_Status.more != MORE_EDIT_DELETE
-				&& ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
-		) {
+		} else if (ap->mf_Status.more != MORE_EDIT
+		           && ap->mf_Status.more != MORE_SHARE_EDIT
+		           && ap->mf_Status.more != MORE_EDIT_COPY
+		           && ap->mf_Status.more != MORE_EDIT_MOVE
+		           && ap->mf_Status.more != MORE_EDIT_DETAIL
+		           && ap->mf_Status.more != MORE_EDIT_DELETE
+		           && ap->mf_Status.more != MORE_EDIT_DELETE_RECENT
+		          ) {
 			if (selected->storage_type == MYFILE_PHONE
-					|| selected->storage_type == MYFILE_MMC
-			) {
+			        || selected->storage_type == MYFILE_MMC
+			   ) {
 				if (!mf_file_exists(selected->m_ItemName->str)) {
 					mf_popup_indicator_popup(NULL, mf_util_get_text(MF_LABEL_FILE_NOT_EXIST));
 					elm_object_item_del(selected->item);
@@ -800,7 +806,7 @@ static char *__mf_genlist_widget_storage_label_get(void *data, Evas_Object *obj,
 	mf_retv_if(pStorage == NULL, NULL);
 
 	if (!strcmp(part, "elm.text.main.left")) {
-		mf_debug("%s ",pStorage->root_name);
+		mf_debug("%s ", pStorage->root_name);
 		return elm_entry_utf8_to_markup(pStorage->root_name);
 	} else if (!strcmp(part, "elm.text.sub")) {
 		char storage_size[256];
@@ -820,16 +826,15 @@ void mf_genlist_cloud_content_set(void *data, Evas_Object *genlist, Eina_List *f
 	mf_retm_if(genlist == NULL, "genlist is NULL");
 	mf_retm_if(file_list == NULL, "file_list is NULL");
 
-	EINA_LIST_FOREACH(file_list, list, item)
-	{
+	EINA_LIST_FOREACH(file_list, list, item) {
 		Elm_Object_Item *node_item = NULL;
 		Elm_Genlist_Item_Class *itc_cloud = NULL;
 		itc_cloud = elm_genlist_item_class_new();
 		if (itc_cloud != NULL) {
-			itc_cloud->item_style= "1line";
+			itc_cloud->item_style = "1line";
 			itc_cloud->func.text_get = __mf_genlist_widget_storage_label_get;
 			itc_cloud->func.content_get = __mf_genlist_widget_storage_content_get;
-			node_item = elm_genlist_item_append(genlist, itc_cloud, item, NULL,ELM_GENLIST_ITEM_NONE, __mf_genlist_widget_storage_selected_cb, ap);
+			node_item = elm_genlist_item_append(genlist, itc_cloud, item, NULL, ELM_GENLIST_ITEM_NONE, __mf_genlist_widget_storage_selected_cb, ap);
 			elm_object_item_data_set(node_item, item);
 		}
 	}
@@ -843,8 +848,9 @@ void mf_genlist_create_itc_style(Elm_Genlist_Item_Class **itc, int itc_type)
 	if (*itc == NULL) {
 		mf_error("new item class ==================== itc_type is [%d]", itc_type);
 		*itc = elm_genlist_item_class_new();
-		if (*itc == NULL)
+		if (*itc == NULL) {
 			return;
+		}
 	}
 	int view_style = mf_view_style_get(ap);
 	mf_debug("itc type : %d, view style : %d", itc_type, view_style);
@@ -859,7 +865,7 @@ void mf_genlist_create_itc_style(Elm_Genlist_Item_Class **itc, int itc_type)
 	case mf_item_itc_type_recent:
 		if (view_style == MF_VIEW_SYTLE_LIST_DETAIL) {
 			(*itc)->item_style = "myfile_2line.top.3";
-		}else{
+		} else {
 			(*itc)->item_style =  "myfile_1line";
 		}
 		(*itc)->func.text_get = __mf_genlist_gl_label_get_lite;
@@ -936,7 +942,7 @@ void mf_genlist_set_folder_edit_style(void *data)
 }
 
 void mf_genlist_create_list_default_style(Evas_Object *pGenlist, void *data, Eina_List *dir_list,
-		Eina_List *file_list)
+        Eina_List *file_list)
 {
 	MF_TRACE_BEGIN;
 	/*0.    variable definition and parameter check*/
@@ -1011,7 +1017,7 @@ void mf_genlist_gl_lang_changed(void *data, Evas_Object *obj, void *event_info)
 	elm_genlist_realized_items_update(obj);
 }
 
-Evas_Object *mf_genlist_create_list(void *data,Evas_Object *parent)
+Evas_Object *mf_genlist_create_list(void *data, Evas_Object *parent)
 {
 	MF_TRACE_BEGIN;
 	t_start;
@@ -1117,8 +1123,9 @@ void mf_genlist_clear(Evas_Object *genlist)
 
 static void _index_clicked(void *data, Evas_Object *obj, const char *em, const char *src)
 {
-	if (!obj)
+	if (!obj) {
 		return;
+	}
 	mf_error(" >>>>>>>>>>>>>> obj is [%p]", obj);
 	elm_object_signal_emit(obj, "elm,state,slide,start", "");
 }
@@ -1127,10 +1134,9 @@ void mf_genlist_path_item_cb(void *data, Evas_Object * obj, void *event_info)
 {
 	struct appdata *ap = mf_get_appdata();
 	if (!(ap->mf_Status.more == MORE_DEFAULT
-			|| ap->mf_Status.more == MORE_INTERNAL_COPY
-			|| ap->mf_Status.more == MORE_INTERNAL_MOVE
-	))
-	{
+	        || ap->mf_Status.more == MORE_INTERNAL_COPY
+	        || ap->mf_Status.more == MORE_INTERNAL_MOVE
+	     )) {
 		return;
 	}
 	char *fullpath = (char *)data;
@@ -1145,8 +1151,7 @@ void mf_genlist_path_item_cb(void *data, Evas_Object * obj, void *event_info)
 		if (g_strcmp0(ap->mf_Status.path->str, fullpath) == 0) {
 			mf_error("The same folder selected");
 			return;
-		}
-		else {
+		} else {
 			if (!mf_file_exists(fullpath)) {
 				SAFE_FREE_GSTRING(ap->mf_Status.path);
 				ap->mf_Status.path = g_string_new(PHONE_FOLDER);
@@ -1183,9 +1188,9 @@ Evas_Object *mf_genlist_create_path_tab(Evas_Object *parent, char *info, void *d
 						if (ap->mf_Status.view_type == mf_view_storage) {
 							label = MF_LABEL_LOCAL_STORAGE;
 						} else if (ap->mf_Status.view_type == mf_view_recent && ap->mf_Status.more == MORE_DEFAULT) {
-								label = MF_LABEL_RECTENT_FILES;
+							label = MF_LABEL_RECTENT_FILES;
 						} else if (ap->mf_Status.view_type == mf_view_root_category && ap->mf_Status.categorytitle && ap->mf_Status.more == MORE_DEFAULT) {
-								label = ap->mf_Status.categorytitle;
+							label = ap->mf_Status.categorytitle;
 						} else {
 							switch (location) {
 							case MYFILE_PHONE:
@@ -1302,13 +1307,13 @@ static int __mf_model_utils_read_dir(const char *dir_path, Eina_List **dir_list,
 	struct dirent *ent = NULL;
 	while ((readdir_r(pDir, &ent_struct, &ent) == 0) && ent) {
 		int skip = ((strncmp(ent->d_name, ".", 1) == 0) ||
-				(strncmp(ent->d_name, "..", 2) == 0));
+		            (strncmp(ent->d_name, "..", 2) == 0));
 
 		skip = skip || ((ent->d_type != DT_DIR) && (ent->d_type != DT_REG));
 
 		skip = skip || ((ent->d_type == DT_DIR) &&
-				(strcmp(dir_path, PHONE_FOLDER) == 0) &&
-				(strcmp(ent->d_name, DEBUG_FOLDER) == 0));
+		                (strcmp(dir_path, PHONE_FOLDER) == 0) &&
+		                (strcmp(ent->d_name, DEBUG_FOLDER) == 0));
 
 		node_info *const pNode = skip ? NULL : calloc(1, sizeof(node_info));
 		if (pNode) {
@@ -1384,8 +1389,7 @@ storage_type __mf_genlist_cloud_is_root_path(const char *fullpath, Eina_List *st
 
 	Eina_List *list = NULL;
 	void *item = NULL;
-	EINA_LIST_FOREACH(storage_list, list, item)
-	{
+	EINA_LIST_FOREACH(storage_list, list, item) {
 		storage_info *info = item;
 		if ((info->type != STORAGE_TYPE_LABEL) && (!strcmp(info->root_path, fullpath))) {
 			return info->type;
@@ -1438,15 +1442,15 @@ static void __mf_genlist_widget_storage_selected_cb(void *data, Evas_Object *obj
 	char *title = __mf_genlist_cloud_title_get(cloud_data->curr_path, ap->storage_list);
 	if (ap->mf_Status.pPreNaviItem) {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_insert_after(ap->mf_MainWindow.pNaviBar,
-				ap->mf_Status.pPreNaviItem,
-				"", NULL, NULL,
-				cloud_data->navi_layout,
-				MF_NAVI_STYLE_ENABLE);
+		                              ap->mf_Status.pPreNaviItem,
+		                              "", NULL, NULL,
+		                              cloud_data->navi_layout,
+		                              MF_NAVI_STYLE_ENABLE);
 	} else {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_push(ap->mf_MainWindow.pNaviBar,
-				title, NULL, NULL,
-				cloud_data->navi_layout,
-				MF_NAVI_STYLE_ENABLE);
+		                              title, NULL, NULL,
+		                              cloud_data->navi_layout,
+		                              MF_NAVI_STYLE_ENABLE);
 	}
 	mf_navi_add_back_button(ap, mf_callback_navi_backbutton_clicked_cb);
 	free(title);
@@ -1457,7 +1461,7 @@ static char *__mf_genlist_widget_cloud_item_label_get(void *data, Evas_Object *o
 	node_info *pNode = (node_info *)data;
 
 	if (!strcmp(part, "elm.text.main.left")) {
-		mf_debug("%s ",pNode->name);
+		mf_debug("%s ", pNode->name);
 		return elm_entry_utf8_to_markup(pNode->name);
 	} else {
 		return NULL;
@@ -1469,16 +1473,15 @@ void mf_genlist_cloud_item_content_set(void *data, Evas_Object *genlist, Eina_Li
 	const Eina_List *list = NULL;
 	void *item = NULL;
 
-	EINA_LIST_FOREACH(file_list, list, item)
-	{
+	EINA_LIST_FOREACH(file_list, list, item) {
 		Elm_Object_Item *node_item;
 		Elm_Genlist_Item_Class *itc_cloud;
 		itc_cloud = elm_genlist_item_class_new();
 		if (itc_cloud != NULL) {
-			itc_cloud->item_style= "1line";
+			itc_cloud->item_style = "1line";
 			itc_cloud->func.text_get = __mf_genlist_widget_cloud_item_label_get;
 			itc_cloud->func.content_get = __mf_genlist_widget_cloud_item_content_get;
-			node_item = elm_genlist_item_append(genlist, itc_cloud, item, NULL,ELM_GENLIST_ITEM_NONE, NULL, NULL);
+			node_item = elm_genlist_item_append(genlist, itc_cloud, item, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
 			elm_object_item_data_set(node_item, item);
 		}
 	}

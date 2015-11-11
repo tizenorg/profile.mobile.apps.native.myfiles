@@ -794,7 +794,7 @@ int mf_file_attr_is_valid_name(const char *filename)
 		return MYFILE_ERR_INVALID_FILE_NAME;
 	}
 #endif
-	
+
 	pattern = MYFILE_NAME_PATTERN;
 	z = regcomp(&reg, pattern, cflags);
 
@@ -910,8 +910,9 @@ int mf_file_attr_get_parent_path(const char *path, char **parent_path)
 	SECURE_DEBUG("Path :::: [%s]", path);
 
 	*parent_path = g_strdup(path);
-	if (*parent_path == NULL)
+	if (*parent_path == NULL) {
 		return MYFILE_ERR_ALLOCATE_MEMORY_FAIL;
+	}
 
 	const char *name = NULL;
 	name = mf_file_get(path);
@@ -922,8 +923,9 @@ int mf_file_attr_get_parent_path(const char *path, char **parent_path)
 	**	strlen(parent_path) should large than strlen(name) normally.
 	**	to take exception like input path is "", we add a if condition
 	*/
-	if (strlen(*parent_path) > strlen(name))
+	if (strlen(*parent_path) > strlen(name)) {
 		(*parent_path)[strlen(*parent_path) - strlen(name) - 1] = '\0';
+	}
 
 	if (strlen(*parent_path) == 0) {
 		free(*parent_path);
@@ -1059,38 +1061,38 @@ int mf_file_attr_get_file_icon(const char *file_path, int *error_code, int view_
 	case FILE_TYPE_IMAGE:
 	case FILE_TYPE_VIDEO:
 	case FILE_TYPE_MUSIC:
-	case FILE_TYPE_SOUND:
-		{
+	case FILE_TYPE_SOUND: {
 
-			int err = 0;
-			mf_transfer_data_s tmp_data;
-			memset(&tmp_data, 0x00, sizeof(mf_transfer_data_s));
-			tmp_data.file_path = file_path;
-			tmp_data.media = media_info;
-			//err = mf_file_attr_get_thumbnail(&tmp_data);
-			char *condition = NULL;
-			condition = g_strdup_printf("%s and MEDIA_PATH=\"%s\"", MF_CONDITION_IMAGE_VIDEO, tmp_data.file_path);
-			err = mf_media_content_data_get(&tmp_data, condition, __mf_local_data_get_media_thumbnail_cb);
-			if (err == 0) {
-				if (tmp_data.thumb_path && mf_file_exists(tmp_data.thumb_path)) {
-					SAFE_FREE_CHAR(icon_path);
-					icon_path = g_strdup(tmp_data.thumb_path);
-					thumbnail_type = MF_THUMBNAIL_TYPE_THUMBNAIL;
-				} else {
-					icon_path = g_strdup(mf_file_attr_get_default_icon_by_type(ftype));
-					thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
-					*error_code = 1;
-				}
+		int err = 0;
+		mf_transfer_data_s tmp_data;
+		memset(&tmp_data, 0x00, sizeof(mf_transfer_data_s));
+		tmp_data.file_path = file_path;
+		tmp_data.media = media_info;
+		//err = mf_file_attr_get_thumbnail(&tmp_data);
+		char *condition = NULL;
+		condition = g_strdup_printf("%s and MEDIA_PATH=\"%s\"", MF_CONDITION_IMAGE_VIDEO, tmp_data.file_path);
+		err = mf_media_content_data_get(&tmp_data, condition, __mf_local_data_get_media_thumbnail_cb);
+		if (err == 0) {
+			if (tmp_data.thumb_path && mf_file_exists(tmp_data.thumb_path)) {
+				SAFE_FREE_CHAR(icon_path);
+				icon_path = g_strdup(tmp_data.thumb_path);
+				thumbnail_type = MF_THUMBNAIL_TYPE_THUMBNAIL;
 			} else {
-				if (error_code)
-					*error_code = err;
-
 				icon_path = g_strdup(mf_file_attr_get_default_icon_by_type(ftype));
 				thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
+				*error_code = 1;
 			}
-			SAFE_FREE_CHAR(tmp_data.thumb_path);
+		} else {
+			if (error_code) {
+				*error_code = err;
+			}
+
+			icon_path = g_strdup(mf_file_attr_get_default_icon_by_type(ftype));
+			thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
 		}
-		break;
+		SAFE_FREE_CHAR(tmp_data.thumb_path);
+	}
+	break;
 	default:
 		icon_path = g_strdup(mf_file_attr_get_default_icon_by_type(ftype));
 		thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
@@ -1300,10 +1302,10 @@ int mf_file_attr_is_in_system_folder(char *fullpath, int level, bool * result)
 				if (!g_strcmp0(parent_name, DEFAULT_FOLDER_IMAGE) && !g_strcmp0(name, SUB_FODER_WALLPAPER)) {
 					*result = true;
 				} else if (!g_strcmp0(parent_name, DEFAULT_FOLDER_ALERTS_AND_RINGTONES)
-					   && (!g_strcmp0(name, SUB_FODER_ALERTS) || !g_strcmp0(name, SUB_FODER_RINGTONES))) {
+				           && (!g_strcmp0(name, SUB_FODER_ALERTS) || !g_strcmp0(name, SUB_FODER_RINGTONES))) {
 					*result = true;
 				} else if (!g_strcmp0(parent_name, DEFAULT_FOLDER_MUSIC)
-					   && (!g_strcmp0(name, SUB_FODER_FM) || !g_strcmp0(name, SUB_FODER_VOICE_RECORD))) {
+				           && (!g_strcmp0(name, SUB_FODER_FM) || !g_strcmp0(name, SUB_FODER_VOICE_RECORD))) {
 					*result = true;
 				} else {
 					*result = false;
@@ -1456,8 +1458,7 @@ int mf_file_attr_media_has_video(const char *filename)
 	}
 
 	ret = metadata_extractor_set_path(handle, filename);
-	if (ret != METADATA_EXTRACTOR_ERROR_NONE)
-	{
+	if (ret != METADATA_EXTRACTOR_ERROR_NONE) {
 		mf_error("metadata_extractor_set_path().. %d", ret);
 		goto CATCH_ERROR;
 	}
@@ -1466,8 +1467,9 @@ int mf_file_attr_media_has_video(const char *filename)
 	if (ret == METADATA_EXTRACTOR_ERROR_NONE && value) {
 		if (g_strcmp0(value, "1") == 0) {
 			mf_error("ret is [%d] value is [%s]", ret, "1");
-			if (handle)
-			metadata_extractor_destroy(handle);
+			if (handle) {
+				metadata_extractor_destroy(handle);
+			}
 			MF_TRACE_END;
 			SAFE_FREE_CHAR(value);
 			return 1;
@@ -1477,14 +1479,16 @@ int mf_file_attr_media_has_video(const char *filename)
 	mf_error("ret is [%d] value is [%s]", ret, value);
 	SAFE_FREE_CHAR(value);
 
-	if (handle)
+	if (handle) {
 		metadata_extractor_destroy(handle);
+	}
 
 	MF_TRACE_END;
 	return 0;
 CATCH_ERROR:
-	if (handle)
+	if (handle) {
 		metadata_extractor_destroy(handle);
+	}
 
 	MF_TRACE_END;
 	return 0;

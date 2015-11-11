@@ -308,13 +308,13 @@ __mf_main_app_init_idler_cb(void *data)
 
 	SAFE_FREE_ECORE_EVENT(ap->mf_MainWindow.event);
 	ap->mf_MainWindow.event = ecore_event_handler_add(ECORE_EVENT_MOUSE_BUTTON_DOWN,
-				(Ecore_Event_Handler_Cb)mf_context_popup_mousedown_cb, ap);
+	                          (Ecore_Event_Handler_Cb)mf_context_popup_mousedown_cb, ap);
 
 	mf_callback_set_mmc_state_cb(ap);
 	ap->mf_Status.app_init_idler = NULL;
 
 	//mf_callback_imf_state_callback_register(ap);
-/*** Add the media-db update callback ***********/
+	/*** Add the media-db update callback ***********/
 	media_content_set_db_updated_cb(mf_category_list_update_cb, ap);
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
@@ -343,7 +343,7 @@ static int __mf_main_remake_app(app_control_h app_control, void *data)
 
 RAISE_WIN:
 
-/**************pre-condition test to launch myfile app******************/
+	/**************pre-condition test to launch myfile app******************/
 
 	MF_TRACE_END;
 	t_end;
@@ -387,8 +387,7 @@ void __mf_main_rotation_list_register(Evas_Object *win)
 {
 	MF_TRACE_BEGIN;
 	mf_retm_if(win == NULL, "win is NULL");
-	if (elm_win_wm_rotation_supported_get(win))
-	{
+	if (elm_win_wm_rotation_supported_get(win)) {
 		const int rots[4] = { 0, 90, 180, 270 };
 		elm_win_wm_rotation_available_rotations_set(win, rots, 4);
 	}
@@ -430,10 +429,10 @@ static void run_extra(void *data)
 	pthread_t thread_extra;
 	pthread_attr_t attr;
 	pthread_attr_init(&attr);
-	pthread_attr_setdetachstate(&attr,PTHREAD_CREATE_DETACHED);
+	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
 	if (initialization_done_extra != 1) {
-		pthread_create(&thread_extra,&attr,initialization_extra,data);
-		initialization_done_extra=1;
+		pthread_create(&thread_extra, &attr, initialization_extra, data);
+		initialization_done_extra = 1;
 	}
 }
 
@@ -534,7 +533,7 @@ bool __mf_main_create_app(void *data)
 
 	elm_object_content_set(ap->mf_MainWindow.pConformant, ap->mf_MainWindow.pMainLayout);
 	elm_win_conformant_set(ap->mf_MainWindow.pWindow, EINA_TRUE);
-    //recover indicator mode and type when your view disappeared.
+	//recover indicator mode and type when your view disappeared.
 	elm_win_indicator_mode_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_SHOW);
 	elm_win_indicator_opacity_set(ap->mf_MainWindow.pWindow, ELM_WIN_INDICATOR_TRANSPARENT);
 	elm_object_signal_emit(ap->mf_MainWindow.pConformant, "elm,state,indicator,overlap", "");
@@ -574,10 +573,10 @@ static void __mf_main_bundle_parse(app_control_h service, void *data)
 
 	struct appdata *ap = (struct appdata *)data;
 
-	app_control_get_extra_data (service, "path", &ap->mf_Bundle.path);
-	app_control_get_extra_data (service, "select_type", &ap->mf_Bundle.select_type);
-	app_control_get_extra_data (service, "file_type", &ap->mf_Bundle.file_type);
-	app_control_get_extra_data (service, "marked_mode", &ap->mf_Bundle.marked_mode);
+	app_control_get_extra_data(service, "path", &ap->mf_Bundle.path);
+	app_control_get_extra_data(service, "select_type", &ap->mf_Bundle.select_type);
+	app_control_get_extra_data(service, "file_type", &ap->mf_Bundle.file_type);
+	app_control_get_extra_data(service, "marked_mode", &ap->mf_Bundle.marked_mode);
 	MF_TRACE_END;
 	t_end;
 }
@@ -606,7 +605,7 @@ static void __mf_main_reset_app(app_control_h app_control, void *data)
 	char *tmp = NULL;
 	mf_error();
 	char *operation = NULL;
-	
+
 	app_control_get_operation(app_control, &operation);
 	mf_error("operation is [%s]", operation);
 	if (g_strcmp0(operation, APP_CONTROL_OPERATION_PICK) == 0) {
@@ -644,8 +643,7 @@ static void __mf_main_reset_app(app_control_h app_control, void *data)
 				SAFE_DEL_NAVI_ITEM(&ap->mf_Status.pPreNaviItem);
 				//run_extra(data);
 			} else {
-				if (ap->mf_MainWindow.pWindow != NULL && ap->mf_Status.b_run_background)
-				{
+				if (ap->mf_MainWindow.pWindow != NULL && ap->mf_Status.b_run_background) {
 					if (mf_util_is_rotation_lock() == 0) {
 						mf_debug("rotation is locked");
 						if (ap->mf_Status.rotation_type == MF_ROTATE_PORTRAIT) {
@@ -680,8 +678,7 @@ static void __mf_main_reset_app(app_control_h app_control, void *data)
 			run_extra(data);
 			SAFE_FREE_CHAR(uri);
 		} else {
-			if (ap->mf_MainWindow.pWindow != NULL && ap->mf_Status.b_run_background)
-			{
+			if (ap->mf_MainWindow.pWindow != NULL && ap->mf_Status.b_run_background) {
 				if (mf_util_is_rotation_lock() == 0) {
 					mf_debug("rotation is locked");
 					if (ap->mf_Status.rotation_type == MF_ROTATE_PORTRAIT) {
@@ -714,7 +711,7 @@ static void __mf_main_reset_app(app_control_h app_control, void *data)
 				run_extra(data);
 			}
 		}
-			SAFE_FREE_CHAR(tmp);
+		SAFE_FREE_CHAR(tmp);
 	}
 	if (ap->mf_MainWindow.pWindow) {
 		evas_object_show(ap->mf_MainWindow.pWindow);
@@ -770,15 +767,16 @@ void __mf_main_terminate_app(void *data)
 	if (mf_view_is_operating(ap)) {
 		mf_callback_progress_bar_cancel_cb(ap, NULL, NULL);
 	}
-     
+
 	mf_media_content_disconnect();
 
 	SAFE_FREE_OBJ(ap->mf_MainWindow.pProgressPopup);
 	media_content_unset_db_updated_cb();
 	mf_category_list_destory();
 	mf_callback_unregister_mmc_state_cb();
-	if (ap->mf_Status.search_handler)
+	if (ap->mf_Status.search_handler) {
 		mf_search_finalize(&ap->mf_Status.search_handler);
+	}
 
 	mf_edit_folder_list_clear();
 	mf_edit_file_list_clear();
@@ -815,8 +813,9 @@ void __mf_main_terminate_app(void *data)
 	mf_log_finalize();
 #endif
 
-	if (ap->mf_Status.flagIcuInit == TRUE)
+	if (ap->mf_Status.flagIcuInit == TRUE) {
 		mf_util_icu_finalize(ap);
+	}
 
 	if (ap->mf_FileOperation.sync_pipe) {
 		ecore_pipe_del(ap->mf_FileOperation.sync_pipe);
@@ -833,7 +832,7 @@ void __mf_main_terminate_app(void *data)
 
 	mf_util_set_pm_lock(ap, EINA_FALSE);
 
-        elm_theme_extension_del(NULL, EDJ_NAME);
+	elm_theme_extension_del(NULL, EDJ_NAME);
 
 	t_end;
 	MF_TRACE_END;
@@ -898,7 +897,7 @@ static void __mf_language_changed_cb(app_event_info_h event_info, void *user_dat
 	int retcode = system_settings_get_value_string(SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, &locale);
 
 	if (retcode != SYSTEM_SETTINGS_ERROR_NONE) {
-        mf_error("[ERR] failed to get the language");
+		mf_error("[ERR] failed to get the language");
 	}
 
 	if (locale) {
@@ -911,15 +910,15 @@ static void __mf_language_changed_cb(app_event_info_h event_info, void *user_dat
 			ap->mf_MainWindow.pLongpressPopup = NULL;
 		}
 		if (ap->mf_Status.more == MORE_EDIT
-			|| ap->mf_Status.more == MORE_SHARE_EDIT
-			|| ap->mf_Status.more == MORE_COMPRESS
-		|| ap->mf_Status.more == MORE_EDIT_COPY
-		|| ap->mf_Status.more == MORE_EDIT_MOVE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE
-		|| ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
-		|| ap->mf_Status.more == MORE_EDIT_UNINSTALL
+		        || ap->mf_Status.more == MORE_SHARE_EDIT
+		        || ap->mf_Status.more == MORE_COMPRESS
+		        || ap->mf_Status.more == MORE_EDIT_COPY
+		        || ap->mf_Status.more == MORE_EDIT_MOVE
+		        || ap->mf_Status.more == MORE_EDIT_DELETE
+		        || ap->mf_Status.more == MORE_EDIT_DELETE_RECENT
+		        || ap->mf_Status.more == MORE_EDIT_UNINSTALL
 
-		    || (mf_view_get_pre_state(ap) == MORE_EDIT && ap->mf_Status.more == MORE_RENAME)) {
+		        || (mf_view_get_pre_state(ap) == MORE_EDIT && ap->mf_Status.more == MORE_RENAME)) {
 			char *label = NULL;
 			int count = mf_edit_file_count_get();
 
@@ -968,8 +967,9 @@ EXPORT_API int main(int argc, char *argv[])
 
 #ifdef MYFILE_CRITICAL_LOG
 	ret = mf_log_init();
-	if (ret != MYFILE_ERR_NONE)
+	if (ret != MYFILE_ERR_NONE) {
 		mf_debug("initialize critical log failed");
+	}
 #endif
 	memset(&ops, 0x0, sizeof(ui_app_lifecycle_callback_s));
 	memset(&ad, 0x0, sizeof(struct appdata));

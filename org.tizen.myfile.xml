@@ -66,10 +66,6 @@
 		<label xml:lang="en-ph">My Files</label>
 		<label xml:lang="fr-ca">Mes fichiers</label>
 		<label xml:lang="es-mx">Mis Archivos</label>
-		<application-service>
-			<operation name="http://tizen.org/appcontrol/operation/view"/>
-		</application-service>
-
 	</ui-application>
 	<privileges>
 		<privilege>http://tizen.org/privilege/mediastorage</privilege>

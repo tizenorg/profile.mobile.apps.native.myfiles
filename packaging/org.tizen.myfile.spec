@@ -100,15 +100,11 @@ chown -R 5000:5000 /opt/usr/apps/org.tizen.myfile/data
 
 %files -n org.tizen.myfile
 %manifest org.tizen.myfile.manifest
-#START_PUBLIC_REMOVED_STRING
-/etc/smack/accesses.d/org.tizen.myfile.efl
-#END_START_PUBLIC_REMOVED_STRING
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.myfile/bin/myfile
 /usr/apps/org.tizen.myfile/res/locale/*
 /usr/apps/org.tizen.myfile/res/edje/*
 /opt/usr/apps/org.tizen.myfile/data
-#END_START_PUBLIC_REMOVED_STRING
 /usr/share/packages/org.tizen.myfile.xml
 /usr/apps/org.tizen.myfile/shared/res/*
 /usr/share/icons/default/small/org.tizen.myfile.png

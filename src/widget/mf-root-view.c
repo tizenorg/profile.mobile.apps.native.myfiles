@@ -456,7 +456,6 @@ void mf_root_view_append_mmc_item_after_phone(Evas_Object *parent, fsNodeInfo *p
 	return;
 }
 
-#if 0 //for tizen 3.0
 static Eina_Bool __mf_root_view_launch_search(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
@@ -477,7 +476,6 @@ static void mf_root_view_enter_search_routine(void *data, Evas_Object * obj, voi
 	mf_ecore_idler_del(ap->mf_Status.float_button_idler);
 	ap->mf_Status.float_button_idler = ecore_idler_add((Ecore_Task_Cb)__mf_root_view_launch_search, ap);
 }
-#endif
 
 void mf_root_view_create(void *data)
 {
@@ -520,7 +518,7 @@ void mf_root_view_create(void *data)
 	} else {
 		ap->mf_MainWindow.pNaviItem = elm_naviframe_item_push(ap->mf_MainWindow.pNaviBar, NULL, NULL, NULL, ap->mf_MainWindow.pNaviLayout, MF_NAVI_STYLE_ENABLE);
 	}
-#if 0	//tizen_3.0
+
 	Evas_Object *float_button = eext_floatingbutton_add(ap->mf_MainWindow.pNaviLayout);
 	Evas_Object *btn = elm_button_add(float_button);
 	if (float_button && btn) {
@@ -533,7 +531,6 @@ void mf_root_view_create(void *data)
 		evas_object_smart_callback_add(btn, "clicked", mf_root_view_enter_search_routine, ap);
 		elm_object_part_content_set(ap->mf_MainWindow.pNaviLayout, "search_icon", float_button);
 	}
-#endif
 
 	MF_TA_ACUM_ITEM_END("123456 push naviframe item", 0);
 

@@ -21,8 +21,6 @@ FOREACH(pofile ${POFILES})
 	)
 	INSTALL(FILES ${moFile}
 			DESTINATION ${LOCALEDIR}/${lang}/LC_MESSAGES RENAME ${PROJECT_NAME}.mo)
-#Share mo files with Gallery UG. 
-	INSTALL(FILES ${moFile} DESTINATION /usr/apps/ug-myfile-efl/res/locale/${lang}/LC_MESSAGES RENAME ${MYFILE_UG_PROJECT_NAME}.mo)
 	SET(moFiles ${moFiles} ${moFile})
 ENDFOREACH(pofile)
 

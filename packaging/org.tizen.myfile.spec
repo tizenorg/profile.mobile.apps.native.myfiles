@@ -1,5 +1,3 @@
-%define _unpackaged_files_terminate_build 0
-%define _optdir /usr
 
 Name:       org.tizen.myfile
 Summary:    Myfile Application v1.0
@@ -35,14 +33,12 @@ BuildRequires:  pkgconfig(capi-system-device)
 BuildRequires:  pkgconfig(capi-system-runtime-info)
 BuildRequires:  pkgconfig(capi-system-system-settings)
 BuildRequires:  pkgconfig(capi-media-thumbnail-util)
-
-
+BuildRequires: pkgconfig(libtzplatform-config)
 
 BuildRequires:  cmake
 BuildRequires:  edje-bin
 BuildRequires:  embryo-bin
 BuildRequires:  gettext-devel
-
 BuildRequires:  boost-devel
 BuildRequires:  boost-thread
 BuildRequires:  boost-system
@@ -57,9 +53,10 @@ Group:      TO_BE/FILLED_IN
 %prep
 %setup -q
 
-%define PREFIX    /usr/apps/org.tizen.myfile
-%define RESDIR    "/usr/apps/org.tizen.myfile/res"
-%define DATADIR    "/opt/usr/apps/org.tizen.myfile/data"
+%define PREFIX    %{TZ_SYS_RO_APP}/org.tizen.myfile
+%define RESDIR    "%{TZ_SYS_RO_APP}/org.tizen.myfile/res"
+%define DATADIR    "%{TZ_SYS_RO_APP}/org.tizen.myfile/data"
+%define XMLDIR      %{TZ_SYS_RO_PACKAGES}
 
 %build
 %if 0%{?sec_build_binary_debug_enable}
@@ -68,43 +65,46 @@ export CXXFLAGS="$CXXFLAGS -DTIZEN_DEBUG_ENABLE"
 export FFLAGS="$FFLAGS -DTIZEN_DEBUG_ENABLE"
 %endif
 
-cmake . -DCMAKE_INSTALL_PREFIX="%{PREFIX}" -DCMAKE_DESKTOP_ICON_DIR="/usr/share/icons/default/small" -DCMAKE_DESKTOP_DIR="/usr/share/applications" -DCMAKE_INSTALL_PKG_NAME="%{name}" -DCMAKE_INSTALL_DATA_DIR="%{DATADIR}"\
+cmake . -DCMAKE_INSTALL_PREFIX="%{PREFIX}" \
+	-DCMAKE_DESKTOP_ICON_DIR="%{TZ_SYS_RW_ICONS}/default/small" \
+	-DCMAKE_INSTALL_PKG_NAME="%{name}" \
+	-DCMAKE_INSTALL_DATA_DIR="%{DATADIR}" \
+	-DCMAKE_APP_SHARE_PACKAGES_DIR="%{XMLDIR}"
 
 make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
 
-if [ ! -d %{buildroot}/opt/usr/apps/org.tizen.myfile/data ]
+if [ ! -d %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data ]
 then
-        mkdir -p %{buildroot}/opt/usr/apps/org.tizen.myfile/data
+        mkdir -p %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data
 fi
 
-if [ ! -f %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db ]
-        rm -rf %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db*
+if [ ! -f %{buildroot}/usr/apps/org.tizen.myfile/data/.myfile_media.db ]
+        rm -rf %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db*
 then
-        sqlite3 %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db 'PRAGMA journal_mode = PERSIST;
+        sqlite3 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db 'PRAGMA journal_mode = PERSIST;
         CREATE TABLE recent_files(path TEXT, name VARCHAR(256), storage_type INT, thumbnail_path TEXT,primary key (path), unique(path) );'
 fi
 
-chmod 660 %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db
-chmod 660 %{buildroot}/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db-journal
+chmod 660 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db
+chmod 660 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db-journal
 
 %make_install
 
 %post
-chown -R 5000:5000 /opt/usr/apps/org.tizen.myfile/data
-
+chown -R 5000:5000 %{TZ_SYS_RO_APP}/org.tizen.myfile/data
 
 %postun
 
 %files -n org.tizen.myfile
 %manifest org.tizen.myfile.manifest
 %defattr(-,root,root,-)
-/usr/apps/org.tizen.myfile/bin/myfile
-/usr/apps/org.tizen.myfile/res/locale/*
-/usr/apps/org.tizen.myfile/res/edje/*
-/opt/usr/apps/org.tizen.myfile/data
-/usr/share/packages/org.tizen.myfile.xml
-/usr/apps/org.tizen.myfile/shared/res/*
-/usr/share/icons/default/small/org.tizen.myfile.png
+%{TZ_SYS_RO_APP}/org.tizen.myfile/bin/myfile
+%{TZ_SYS_RO_APP}/org.tizen.myfile/res/locale/*
+%{TZ_SYS_RO_APP}/org.tizen.myfile/res/edje/*
+%{TZ_SYS_RO_APP}/org.tizen.myfile/data
+%{TZ_SYS_RW_PACKAGES}/org.tizen.myfile.xml
+%{TZ_SYS_RO_APP}/org.tizen.myfile/shared/res/*
+%{TZ_SYS_RW_ICONS}/default/small/org.tizen.myfile.png

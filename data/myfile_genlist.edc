@@ -149,7 +149,10 @@
 
 
 #define GENLIST_NAME(NAME) \
-		name: "elm/genlist/item/"NAME;
+		name: "elm/genlist/item/"NAME; \
+		alias: "elm/genlist/item_compress/"NAME; \
+		alias: "elm/genlist/tree/"NAME; \
+		alias: "elm/genlist/tree_compress/"NAME;
 
 //****************************************************************************//
 // ****************************** BG Image **********************************//
@@ -1215,7 +1218,7 @@ action: RUN_PLUGIN "touch_sound"; \
 		PARAM \
 }
 
-	group { name: "elm/genlist/item/myfile_2line.top.3/default";
+	group { GENLIST_NAME("elm/genlist/item/myfile_2line.top.3/default")
 
 	data.item: "treesize" GENLIST_TREESIZE_DEFAULT;
 	data.item: "texts" "elm.text.main.left.top elm.text.sub.right.top elm.text.main.right.top elm.text.sub.left.top elm.text.sub.left.bottom elm.text.sub.right.bottom";
@@ -1527,35 +1530,7 @@ action: RUN_PLUGIN "touch_sound"; \
 	target: "elm.text.sub.left.bottom"; target: "elm.text.sub.right.bottom"; )
 	}
 
-	group { name: "elm/genlist/item/myfile_search_2line.top.3/default";
-	inherit: "elm/genlist/item/myfile_2line.top.3/default";
-	parts {
-
-		PART(TEXTBLOCK, "elm.text.sub.left.bottom",
-				DSC_LB("default" 0.0,
-						"elm.icon.left.bottom", "elm.padding.bottom",
-						min: 0 LIST_TEXT_SUB_HEIGHT;
-		text.min: 0 1;
-		text.style: "list_text_sub_01";
-		/* This limits text growing. */
-		rel2.offset: 300 0;
-		text.max: 1 0;
-		align: 0.0 1.0;
-		/*******************************/
-				)
-				description { state: "pressed" 0.0;
-				inherit: "default" 0.0;
-				text.style: "list_text_sub_01_press";
-		}
-		description { state: "disabled" 0.0;
-		inherit: "default" 0.0;
-		text.style: "list_text_sub_01_dim";
-		}
-		)
-	}
-	}
-
-	group { name: "elm/genlist/item/myfile_2line_root.top.3/default";
+	group { GENLIST_NAME("elm/genlist/item/myfile_2line_root.top.3/default")
 
 	data.item: "treesize" GENLIST_TREESIZE_DEFAULT;
 	data.item: "texts" "elm.text.main.left.top elm.text.sub.right.top elm.text.main.right.top elm.text.sub.left.top elm.text.sub.left.bottom elm.text.sub.right.bottom";
@@ -1803,7 +1778,7 @@ action: RUN_PLUGIN "touch_sound"; \
 #define LIST_PADDING_TOP_SIZE               29   // FIXME: please check font height
 #define LIST_PADDING_BOTTOM_SIZE            29   // FIXME: please check font height
 
-	group { name: "elm/genlist/item/myfile_1line/default";
+	group { GENLIST_NAME("elm/genlist/item/myfile_1line/default")
 	images {
 		image : "my_files_play_icon.png" COMP;
 		image : "my_files_play_icon_ef.png" COMP;
@@ -2018,7 +1993,7 @@ action: RUN_PLUGIN "touch_sound"; \
 
 	}
 
-	group { name: "elm/genlist/item/myfile_1line_root/default";
+	group { GENLIST_NAME("elm/genlist/item/myfile_1line_root/default")
 
 	data.item: "treesize" GENLIST_TREESIZE_DEFAULT;
 	data.item: "texts" "elm.text.main.left elm.text.main.right elm.text.sub.left elm.text.sub.right";

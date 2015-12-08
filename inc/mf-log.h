@@ -18,7 +18,7 @@
 #ifndef __MF_LOG__
 #define __MF_LOG__
 
-#define MF_LOG_RESULT_FILE "/opt/usr/apps/org.tizen.myfile/data/log"
+#define MF_LOG_RESULT_FILE "/usr/apps/org.tizen.myfile/data/log"
 #define MF_LOG_FORMAT	"[%s] [%s] {%d} -- %s"
 
 int mf_log_init();

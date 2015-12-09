@@ -28,7 +28,7 @@
 #include "mf-fs-util.h"
 #include "mf-dlog.h"
 
-#define MF_DB_NAME  "/opt/usr/apps/org.tizen.myfile/data/.myfile_media.db"
+#define MF_DB_NAME  "/usr/apps/org.tizen.myfile/data/.myfile_media.db"
 
 #define MF_PRAGMA_FOREIGN_KEYS_ON               "PRAGMA foreign_keys = ON;"
 #define MF_INSERT_INTO_RECENT_FILES_TABLE       "INSERT INTO %s (%s, %s, %s, %s) VALUES (?, ?, ?, ?);"

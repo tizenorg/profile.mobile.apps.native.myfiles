@@ -76,25 +76,9 @@ make %{?jobs:-j%jobs}
 %install
 rm -rf %{buildroot}
 
-if [ ! -d %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data ]
-then
-        mkdir -p %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data
-fi
-
-if [ ! -f %{buildroot}/usr/apps/org.tizen.myfile/data/.myfile_media.db ]
-        rm -rf %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db*
-then
-        sqlite3 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db 'PRAGMA journal_mode = PERSIST;
-        CREATE TABLE recent_files(path TEXT, name VARCHAR(256), storage_type INT, thumbnail_path TEXT,primary key (path), unique(path) );'
-fi
-
-chmod 660 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db
-chmod 660 %{buildroot}%{TZ_SYS_RO_APP}/org.tizen.myfile/data/.myfile_media.db-journal
-
 %make_install
 
 %post
-chown -R 5000:5000 %{TZ_SYS_RO_APP}/org.tizen.myfile/data
 
 %postun
 

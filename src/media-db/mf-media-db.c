@@ -17,7 +17,7 @@
 
 #include <string.h>
 #include <assert.h>
-
+#include <app.h>
 #include <Eina.h>
 #include "sqlite3.h"
 
@@ -28,7 +28,7 @@
 #include "mf-fs-util.h"
 #include "mf-dlog.h"
 
-#define MF_DB_NAME  "/usr/apps/org.tizen.myfile/data/.myfile_media.db"
+#define MF_DB_NAME  ".myfile_media.db"
 
 #define MF_PRAGMA_FOREIGN_KEYS_ON               "PRAGMA foreign_keys = ON;"
 #define MF_INSERT_INTO_RECENT_FILES_TABLE       "INSERT INTO %s (%s, %s, %s, %s) VALUES (?, ?, ?, ?);"
@@ -40,6 +40,8 @@
 #define MF_DELETE_ALL_FROM_TABLE 			    "DELETE FROM %s;"
 #define MF_DELETE_BY_TYPE_FROM_RECENT_FILES_TABLE   "DELETE FROM %s WHERE %s = %d;"
 #define MF_SELECT_FROM_RECENT_FILE_TABLE  		"SELECT * FROM %s WHERE (%s='%q');"
+#define MF_CREATE_TABLE_QUERY "CREATE TABLE recent_files(path TEXT, name VARCHAR(256), storage_type INT, thumbnail_path TEXT, primary key (path), unique(path) );"
+
 static sqlite3_callback sqlite3_func = NULL;
 static void *func_params = NULL;
 
@@ -328,18 +330,54 @@ static void __mf_media_db_eina_list_free_full(Eina_List **list, void (*func)(voi
 int mf_connect_db_with_handle(sqlite3 **db_handle)
 {
 	int ret = MFD_ERROR_NONE;
+	char *err_msg = NULL;
 
 	if (db_handle == NULL) {
 		mf_debug("error invalid arguments");
 		return MFD_ERROR_INVALID_PARAMETER;
 	}
+	char *app_path = app_get_data_path();
+	if (!app_path) {
+		mf_debug("cannot retrieve app install path");
+		return MFD_ERROR_DB_CONNECT;
+	}
+	char db_path[1024] = {0,};
+	snprintf(db_path, 1024, "%s%s", app_path, MF_DB_NAME);
+	mf_debug("db_path: %s", db_path);
+
+	struct stat buf;
+	bool initialized = (stat(db_path, &buf) == 0);
+	mf_debug("initialized: %d", initialized);
+
 	/*Connect DB*/
-	ret = sqlite3_open(MF_DB_NAME, db_handle);
+	ret = sqlite3_open(db_path, db_handle);
 	if (SQLITE_OK != ret || *db_handle == NULL) {
 		mf_debug("error when db open");
 		*db_handle = NULL;
 		return MFD_ERROR_DB_CONNECT;
 	}
+
+	if (!initialized) {
+		ret = mf_sqlite3_exec(*db_handle, MF_CREATE_TABLE_QUERY, sqlite3_func, func_params, &err_msg);
+		if (SQLITE_OK != ret) {
+			mf_debug("Error:failed to execute create table query\n");
+			if (err_msg) {
+				mf_debug("Error:failed to end transaction: error=%s\n",
+					 err_msg);
+				sqlite3_free(err_msg);
+			}
+
+			ret = sqlite3_close(*db_handle);
+			*db_handle = NULL;
+
+			return MFD_ERROR_DB_CONNECT;
+		}
+		if (err_msg) {
+			sqlite3_free(err_msg);
+			err_msg = NULL;
+		}
+	}
+
 	/*Register busy handler*/
 	ret = sqlite3_busy_handler(*db_handle, __mf_busy_handler, NULL);
 	if (SQLITE_OK != ret) {

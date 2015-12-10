@@ -2325,7 +2325,7 @@ static void __mf_listby_gl_style_set(void *data)
 	if (ap->mf_gl_style.order_itc == NULL) {
 		ap->mf_gl_style.order_itc = elm_genlist_item_class_new();
 		if (ap->mf_gl_style.order_itc != NULL) {
-			ap->mf_gl_style.order_itc->item_style = "groupindex";
+			ap->mf_gl_style.order_itc->item_style = "group_index";
 			ap->mf_gl_style.order_itc->decorate_all_item_style = NULL;
 			ap->mf_gl_style.order_itc->decorate_item_style = NULL;
 			ap->mf_gl_style.order_itc->func.text_get = mf_sort_by_order_label_get;

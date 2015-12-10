@@ -205,7 +205,7 @@ Elm_Object_Item *mf_mw_root_category_item_append(void *data)
 
 void __mf_root_group_index_style_set()
 {
-	index_itc.item_style = "groupindex";//"custom_groupindex";
+	index_itc.item_style = "group_index";//"custom_groupindex";
 	index_itc.func.text_get = mf_genlist_group_index_label_get;
 	index_itc.func.content_get = NULL;
 	index_itc.func.state_get = NULL;

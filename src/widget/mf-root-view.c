@@ -205,7 +205,7 @@ Elm_Object_Item *mf_mw_root_category_item_append(void *data)
 
 void __mf_root_group_index_style_set()
 {
-	index_itc.item_style = "groupindex";//"custom_groupindex";
+	index_itc.item_style = "group_index";//"custom_groupindex";
 	index_itc.func.text_get = mf_genlist_group_index_label_get;
 	index_itc.func.content_get = NULL;
 	index_itc.func.state_get = NULL;
@@ -231,7 +231,7 @@ void __mf_root_view_local_storage_items_append(void *data)
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = (struct appdata *)data;
 	Evas_Object *genlist = ap->mf_MainWindow.pNaviGenlist;
-	local_index_item = __mf_root_view_group_index_create(ap, genlist, MF_LABEL_LOCAL_STORAGE);
+	//local_index_item = __mf_root_view_group_index_create(ap, genlist, MF_LABEL_LOCAL_STORAGE);
 	int view_style = mf_view_style_get(ap);
 
 	if (ap->mf_FileOperation.folder_list) {
@@ -505,7 +505,7 @@ void mf_root_view_create(void *data)
 	//mf_category_refresh(ap);
 
 
-	__mf_root_group_index_style_set();
+	//__mf_root_group_index_style_set();
 
 	__mf_root_view_content_create(ap);
 	evas_object_show(newContent);

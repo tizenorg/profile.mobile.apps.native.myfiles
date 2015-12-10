@@ -1230,7 +1230,7 @@ Evas_Object *mf_genlist_create_path_info(Evas_Object *parent, char *info, Eina_B
 	char *strings = NULL;
 	Evas_Object *bx = elm_box_add(parent);
 	Evas_Object *ly = elm_layout_add(parent);
-	elm_layout_theme_set(ly, "genlist/item", "groupindex", "default");
+	elm_layout_theme_set(ly, "genlist/item", "group_index", "default");
 	evas_object_size_hint_weight_set(ly, EVAS_HINT_EXPAND, 0);
 	evas_object_size_hint_align_set(ly, -1, -1);
 

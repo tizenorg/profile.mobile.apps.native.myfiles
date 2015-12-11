@@ -206,7 +206,9 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 	mf_retvm_if(part == NULL, NULL, "part is NULL");
 	mf_retvm_if(obj == NULL, NULL, "obj is NULL");
 	mf_retvm_if(ap == NULL, NULL, "ap is NULL");
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	if (!strcmp(part, "elm.swallow.icon")) {
 		Evas_Object *thumb = NULL;
 
@@ -256,9 +258,9 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 						elm_image_smooth_set(thumb, EINA_FALSE);
 
 						if (params->file_type == FILE_TYPE_IMAGE) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+							elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 						} else if (params->file_type == FILE_TYPE_VIDEO) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+							elm_image_file_set(thumb, edj_path, MF_ICON_VIDEO);
 						} else {
 							elm_image_file_set(thumb, params->thumb_path, NULL);
 						}
@@ -299,9 +301,9 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 						elm_image_smooth_set(thumb, EINA_FALSE);
 
 						if (params->file_type == FILE_TYPE_IMAGE) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+							elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 						} else if (params->file_type == FILE_TYPE_VIDEO) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+							elm_image_file_set(thumb, edj_path, MF_ICON_VIDEO);
 						} else {
 							elm_image_file_set(thumb, params->thumb_path, NULL);
 						}
@@ -332,13 +334,13 @@ Evas_Object *mf_gengrid_item_icon_get(void *data, Evas_Object *obj, const char *
 		bool is_using_original_image_at_phone_or_mmc = (params->thumbnail_type == MF_THUMBNAIL_DEFAULT && params->file_type == FILE_TYPE_IMAGE && is_phone_or_mmc && params->m_ItemName->str);//Fixed the P131112-03632.
 		if (params->file_type == FILE_TYPE_DIR) {
 			thumb = elm_image_add(obj);
-			elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+			elm_image_file_set(thumb, edj_path, params->thumb_path);
 			elm_image_fill_outside_set(thumb, EINA_TRUE);
 			elm_image_smooth_set(thumb, EINA_FALSE);
 			elm_image_preload_disabled_set(thumb, EINA_FALSE);
 		} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT && (is_using_original_image_at_phone_or_mmc == false)) {
 			thumb = elm_image_add(obj);
-			elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+			elm_image_file_set(thumb, edj_path, params->thumb_path);
 			elm_image_fill_outside_set(thumb, EINA_TRUE);
 			elm_image_smooth_set(thumb, EINA_FALSE);
 			elm_image_preload_disabled_set(thumb, EINA_FALSE);

@@ -276,7 +276,10 @@ void mf_navi_bar_title_content_set(void *data, const char *title)
 Evas_Object *mf_navi_bar_home_button_create(Evas_Object *parent, Evas_Smart_Cb func, void *user_data)
 {
 	Evas_Object *home_ic = elm_image_add(parent);
-	elm_image_file_set(home_ic, EDJ_IMAGE, MF_TITLE_ICON_HOME);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
+	elm_image_file_set(home_ic, edj_path, MF_TITLE_ICON_HOME);
 	elm_image_resizable_set(home_ic, EINA_TRUE, EINA_TRUE);
 	evas_object_show(home_ic);
 
@@ -292,9 +295,11 @@ Evas_Object *mf_navi_bar_home_button_create(Evas_Object *parent, Evas_Smart_Cb f
 
 Evas_Object *mf_navi_bar_search_button_create(Evas_Object *parent, Evas_Smart_Cb func, void *user_data)
 {
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *image = elm_image_add(parent);
-	elm_image_file_set(image, EDJ_IMAGE, MF_TITLE_ICON_SEARCH);
+	elm_image_file_set(image, edj_path, MF_TITLE_ICON_SEARCH);
 	elm_image_resizable_set(image, EINA_TRUE, EINA_TRUE);
 	evas_object_show(image);
 
@@ -311,8 +316,11 @@ Evas_Object *mf_navi_bar_search_button_create(Evas_Object *parent, Evas_Smart_Cb
 
 Evas_Object *mf_navi_bar_upper_button_create(Evas_Object *parent, Evas_Smart_Cb func, void *user_data)
 {
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *up_ic = elm_image_add(parent);
-	elm_image_file_set(up_ic, EDJ_IMAGE, MF_TITLE_ICON_UPPER);
+	elm_image_file_set(up_ic, edj_path, MF_TITLE_ICON_UPPER);
 	elm_image_resizable_set(up_ic, EINA_TRUE, EINA_TRUE);
 	evas_object_show(up_ic);
 
@@ -328,8 +336,11 @@ Evas_Object *mf_navi_bar_upper_button_create(Evas_Object *parent, Evas_Smart_Cb 
 
 Evas_Object *mf_navi_bar_select_all_button_create(Evas_Object *parent, Evas_Smart_Cb func, void *user_data)
 {
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *select_ic = elm_image_add(parent);
-	elm_image_file_set(select_ic, EDJ_IMAGE, MF_TITLE_ICON_SELECT_ALL);
+	elm_image_file_set(select_ic, edj_path, MF_TITLE_ICON_SELECT_ALL);
 	elm_image_resizable_set(select_ic, EINA_TRUE, EINA_TRUE);
 	evas_object_show(select_ic);
 

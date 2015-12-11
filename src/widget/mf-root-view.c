@@ -490,8 +490,10 @@ void mf_root_view_create(void *data)
 	local_index_item = NULL;
 	mf_navi_bar_reset_navi_obj(ap);
 	ap->mf_Status.pPreNaviItem = ap->mf_MainWindow.pNaviItem;
-
-	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, EDJ_NAME, "view_layout");
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_NAME);
+	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, edj_path, "view_layout");
 	mf_navi_bar_layout_state_set(ap->mf_MainWindow.pNaviLayout, mf_navi_layout_content_only);
 
 	MF_TA_ACUM_ITEM_END("123456 create root view layout", 0);
@@ -522,9 +524,11 @@ void mf_root_view_create(void *data)
 	Evas_Object *float_button = eext_floatingbutton_add(ap->mf_MainWindow.pNaviLayout);
 	Evas_Object *btn = elm_button_add(float_button);
 	if (float_button && btn) {
+		edj_path[0]='\0';
+		snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 		elm_object_part_content_set(float_button, "button1", btn);
 		Evas_Object *search_image = elm_image_add(float_button);
-		elm_image_file_set(search_image, EDJ_IMAGE, MF_TITLE_ICON_SEARCH);
+		elm_image_file_set(search_image, edj_path, MF_TITLE_ICON_SEARCH);
 		elm_image_resizable_set(search_image, EINA_TRUE, EINA_TRUE);
 		evas_object_show(search_image);
 		elm_object_part_content_set(btn, "icon", search_image);

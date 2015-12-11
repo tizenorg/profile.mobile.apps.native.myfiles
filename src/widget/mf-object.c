@@ -96,9 +96,11 @@ Evas_Object *mf_object_create_no_content(Evas_Object *parent)
 	Evas_Object *nocontent = elm_layout_add(parent);
 	elm_layout_theme_set(nocontent, "layout", "nocontents", "text");
 	elm_object_focus_set(nocontent, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *icon = elm_image_add(nocontent);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_MULTI_NO_CONTENTS);
+	elm_image_file_set(icon, edj_path, IMG_ICON_MULTI_NO_CONTENTS);
 	elm_object_part_content_set(nocontent, "nocontents.image", icon);
 	evas_object_size_hint_weight_set(nocontent, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(nocontent, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -117,9 +119,11 @@ Evas_Object *mf_object_create_text_no_content(Evas_Object *parent)
 	Evas_Object *nocontent = elm_layout_add(parent);
 	elm_layout_theme_set(nocontent, "layout", "nocontents", "text");
 	elm_object_focus_set(nocontent, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *icon = elm_image_add(nocontent);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_TEXT_NO_CONTENTS);
+	elm_image_file_set(icon, edj_path, IMG_ICON_TEXT_NO_CONTENTS);
 	elm_object_part_content_set(nocontent, "nocontents.image", icon);
 	evas_object_size_hint_weight_set(nocontent, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(nocontent, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -138,9 +142,11 @@ Evas_Object *mf_object_create_pic_no_content(Evas_Object *parent)
 	Evas_Object *nocontent = elm_layout_add(parent);
 	elm_layout_theme_set(nocontent, "layout", "nocontents", "text");
 	elm_object_focus_set(nocontent, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *icon = elm_image_add(nocontent);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_IMG_NO_CONTENTS);
+	elm_image_file_set(icon, edj_path, IMG_ICON_IMG_NO_CONTENTS);
 	elm_object_part_content_set(nocontent, "nocontents.image", icon);
 	evas_object_size_hint_weight_set(nocontent, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(nocontent, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -159,9 +165,11 @@ Evas_Object *mf_object_create_multi_no_content(Evas_Object *parent)
 	Evas_Object *nocontent = elm_layout_add(parent);
 	elm_layout_theme_set(nocontent, "layout", "nocontents", "text");
 	elm_object_focus_set(nocontent, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *icon = elm_image_add(nocontent);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_MULTI_NO_CONTENTS);
+	elm_image_file_set(icon, edj_path, IMG_ICON_MULTI_NO_CONTENTS);
 	elm_object_part_content_set(nocontent, "nocontents.image", icon);
 	evas_object_size_hint_weight_set(nocontent, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(nocontent, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -180,9 +188,11 @@ Evas_Object *mf_object_create_dev_no_content(Evas_Object *parent)
 	Evas_Object *nocontent = elm_layout_add(parent);
 	elm_layout_theme_set(nocontent, "layout", "nocontents", "text");
 	elm_object_focus_set(nocontent, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_IMAGE);
 	Evas_Object *icon = elm_image_add(nocontent);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_DEV_NO_CONTENTS);
+	elm_image_file_set(icon, edj_path, IMG_ICON_DEV_NO_CONTENTS);
 	elm_object_part_content_set(nocontent, "nocontents.image", icon);
 	evas_object_size_hint_weight_set(nocontent, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(nocontent, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -417,9 +427,12 @@ Evas_Object *mf_object_create_select_all_btn(Evas_Object *parent, void *data)
 
 	Evas_Object *btn = elm_button_add(parent);
 
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_NAME);
 	elm_object_style_set(btn, "naviframe/title_icon");
 	Evas_Object *icon = elm_icon_add(btn);
-	elm_image_file_set(icon, EDJ_NAME, "icon.select_all");
+	elm_image_file_set(icon, edj_path, "icon.select_all");
 	evas_object_size_hint_aspect_set(icon, EVAS_ASPECT_CONTROL_VERTICAL, 1 , 1);
 	elm_image_resizable_set(icon, EINA_TRUE, EINA_TRUE);
 	elm_object_content_set(btn, icon);
@@ -463,8 +476,11 @@ void mf_object_create_select_all_layout(Evas_Object *pParent, Evas_Smart_Cb pCha
                                         Evas_Object_Event_Cb pMouseDownFunc, void *pUserData, Evas_Object **pCheckBox, Evas_Object **pSelectLayout)
 {
 	Evas_Object *pSelectAllLayout = elm_layout_add(pParent);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s/%s/%s", path , "edje", EDJ_NAME);
 	//elm_layout_theme_set(pSelectAllLayout, "genlist", "item", "select_all/default");
-	elm_layout_file_set(pSelectAllLayout, EDJ_NAME, "select.all.layout");
+	elm_layout_file_set(pSelectAllLayout, edj_path, "select.all.layout");
 	evas_object_size_hint_weight_set(pSelectAllLayout, EVAS_HINT_EXPAND, EVAS_HINT_FILL);
 	evas_object_size_hint_align_set(pSelectAllLayout, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_event_callback_add(pSelectAllLayout, EVAS_CALLBACK_MOUSE_DOWN, pMouseDownFunc, pUserData);

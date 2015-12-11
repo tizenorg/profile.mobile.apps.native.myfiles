@@ -29,15 +29,15 @@
 #define ICON_PATH			"/usr/apps/org.tizen.myfile/res/images"
 
 #define EDJ_NAVIGATIONBAR		EDJ_PATH"/myfileNavigationBar.edj"
-#define EDJ_IMAGE			EDJ_PATH"/edc_image_macro.edj"
+#define EDJ_IMAGE				"edc_image_macro.edj"
 #define GRP_NAVI_VIEW			"navigation_view"
 
 #define EDJ_SEARCHBAR			EDJ_PATH"/myfileSearchBar.edj"
 #define GRP_SEARCH_BAR			"search_bar"
 
-#define EDJ_NAME			EDJ_PATH"/myfile.edj"
-#define EDJ_GENLIST_NAME			EDJ_PATH"/myfile_genlist.edj"
-#define EDJ_GENGRID_NAME			EDJ_PATH"/myfile_gengrid.edj"
+#define EDJ_NAME				"myfile.edj"
+#define EDJ_GENLIST_NAME		"myfile_genlist.edj"
+#define EDJ_GENGRID_NAME		"myfile_gengrid.edj"
 #define GRP_THUMBNAIL_ONLY		"thumbnail_only"
 #define GRP_GENGRID_COTENT		"gengrid_content"
 #define GRP_PROGRESS_LABEL		"label"

@@ -633,10 +633,13 @@ static void __mf_search_filter_selected(void *data, int category, const char *ic
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata* ap = (struct appdata *)data;
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_IMAGE);
 	if (ap->mf_Status.search_category != category) {
 		ap->mf_Status.search_category = category;
 		if (ap->mf_MainWindow.pSearchCategoryBtn) {
-			elm_image_file_set(ap->mf_MainWindow.pSearchCategoryBtn, EDJ_IMAGE, icon_buf);
+			elm_image_file_set(ap->mf_MainWindow.pSearchCategoryBtn, edj_path, icon_buf);
 		}
 		mf_search_bar_view_update(ap);
 	}
@@ -712,29 +715,31 @@ Evas_Object *mf_context_popup_search_filter(Evas_Object *parent, void *user_data
 	searchfilter_ctxpopup = ctxpopup;
 	Evas_Object *icon = NULL;
 	elm_ctxpopup_horizontal_set(ctxpopup, EINA_FALSE);
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_IMAGE);
 	icon = elm_image_add(ctxpopup);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_SEARCH_CATEGORY_ALL);
+	elm_image_file_set(icon, edj_path, IMG_ICON_SEARCH_CATEGORY_ALL);
 	item = elm_ctxpopup_item_append(ctxpopup, MF_POP_SEARCH_ALL, icon, __mf_search_filter_all_selected, user_data);
 	mf_object_item_translate_set(item, MF_POP_SEARCH_ALL);
 
 	icon = elm_image_add(ctxpopup);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_SEARCH_CATEGORY_IMG);
+	elm_image_file_set(icon, edj_path, IMG_ICON_SEARCH_CATEGORY_IMG);
 	item = elm_ctxpopup_item_append(ctxpopup, MF_POP_SEARCH_IMAGES, icon, __mf_search_filter_img_selected, user_data);
 	mf_object_item_translate_set(item, MF_POP_SEARCH_IMAGES);
 
 	icon = elm_image_add(ctxpopup);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_SEARCH_CATEGORY_VIDEO);
+	elm_image_file_set(icon, edj_path, IMG_ICON_SEARCH_CATEGORY_VIDEO);
 	item = elm_ctxpopup_item_append(ctxpopup, MF_POP_SEARCH_VIDEOS, icon, __mf_search_filter_video_selected, user_data);
 	mf_object_item_translate_set(item, MF_POP_SEARCH_VIDEOS);
 
 	icon = elm_image_add(ctxpopup);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_SEARCH_CATEGORY_SND);
+	elm_image_file_set(icon, edj_path, IMG_ICON_SEARCH_CATEGORY_SND);
 	item = elm_ctxpopup_item_append(ctxpopup, MF_POP_SEARCH_SOUNDS, icon, __mf_search_filter_snd_selected, user_data);
 	mf_object_item_translate_set(item, MF_POP_SEARCH_SOUNDS);
 
 	icon = elm_image_add(ctxpopup);
-	elm_image_file_set(icon, EDJ_IMAGE, IMG_ICON_SEARCH_CATEGORY_DOC);
+	elm_image_file_set(icon, edj_path, IMG_ICON_SEARCH_CATEGORY_DOC);
 	item = elm_ctxpopup_item_append(ctxpopup, MF_POP_SEARCH_DOCUMENTS, icon, __mf_search_filter_doc_selected, user_data);
 	mf_object_item_translate_set(item, MF_POP_SEARCH_DOCUMENTS);
 

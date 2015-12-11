@@ -132,9 +132,12 @@ void mf_recent_view_create(void *data)
 
 	mf_navi_bar_reset_navi_obj(ap);
 	Evas_Object *pathinfo = NULL;
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_NAME);
 
 	ap->mf_Status.pPreNaviItem = ap->mf_MainWindow.pNaviItem;
-	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, EDJ_NAME, "view_layout");
+	ap->mf_MainWindow.pNaviLayout = mf_object_create_layout(ap->mf_MainWindow.pNaviBar, edj_path, "view_layout");
 	mf_navi_bar_layout_state_set(ap->mf_MainWindow.pNaviLayout, mf_navi_layout_normal);
 	ap->mf_MainWindow.pNaviBox = mf_object_create_box(ap->mf_MainWindow.pNaviLayout);
 	mf_navi_bar_layout_content_set(ap->mf_MainWindow.pNaviLayout, ap->mf_MainWindow.pNaviBox);

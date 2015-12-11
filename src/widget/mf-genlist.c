@@ -436,7 +436,9 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 	mf_retvm_if(part == NULL, NULL, "part is NULL");
 	mf_retvm_if(obj == NULL, NULL, "obj is NULL");
 	mf_retvm_if(ap == NULL, NULL, "ap is NULL");
-
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_IMAGE);
 	if (!strcmp(part, "elm.icon.folder")) {
 
 		if (ap->mf_Status.view_type == mf_view_root || ap->mf_Status.view_type == mf_view_storage) {
@@ -445,7 +447,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			elm_image_prescale_set(check, MF_GENLIST_THUMBNAIL_SIZE);
 			elm_image_fill_outside_set(check, EINA_FALSE);
 			elm_image_smooth_set(check, EINA_FALSE);
-			elm_image_file_set(check, EDJ_IMAGE, params->thumb_path);
+			elm_image_file_set(check, edj_path, params->thumb_path);
 			evas_object_repeat_events_set(check, EINA_TRUE);
 			evas_object_propagate_events_set(check, EINA_FALSE);
 			//elm_layout_content_set(content, "elm.swallow.content", check);
@@ -550,7 +552,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			if (isOriginalImage == 0) {
 				mf_file_attr_get_file_size(params->thumb_path, &size);
 				if (size < 4 * 1024 * 1024) {
-					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+					elm_image_file_set(thumb, edj_path, params->thumb_path);
 					//elm_object_part_content_set(layout, "default_thumbnail", thumb);
 					//elm_layout_content_set(layout, "elm.swallow.content", thumb);
 				}
@@ -571,11 +573,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 						thumb = elm_image_add(obj);
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
 						if (params->file_type == FILE_TYPE_IMAGE) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+							elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 						} else if (params->file_type == FILE_TYPE_VIDEO) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+							elm_image_file_set(thumb, edj_path, MF_ICON_VIDEO);
 						} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
-							elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+							elm_image_file_set(thumb, edj_path, params->thumb_path);
 						}
 						elm_image_smooth_set(thumb, EINA_FALSE);
 						elm_image_preload_disabled_set(thumb, EINA_FALSE);
@@ -613,11 +615,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 						thumb = elm_image_add(obj);
 						elm_image_fill_outside_set(thumb, EINA_TRUE);
 						if (params->file_type == FILE_TYPE_IMAGE) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+							elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 						} else if (params->file_type == FILE_TYPE_VIDEO) {
-							elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+							elm_image_file_set(thumb, edj_path, MF_ICON_VIDEO);
 						} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
-							elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+							elm_image_file_set(thumb, edj_path, params->thumb_path);
 						}
 						elm_image_smooth_set(thumb, EINA_FALSE);
 						elm_image_preload_disabled_set(thumb, EINA_FALSE);
@@ -639,9 +641,9 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				elm_image_fill_outside_set(thumb, EINA_TRUE);
 				elm_image_smooth_set(thumb, EINA_FALSE);
 				if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND) {
-					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+					elm_image_file_set(thumb, edj_path, params->thumb_path);
 				} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
-					elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+					elm_image_file_set(thumb, edj_path, params->thumb_path);
 				} else {
 					elm_image_file_set(thumb, params->thumb_path, NULL);
 				}
@@ -654,9 +656,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		}
 
 		if (params->thumb_path && strstr(params->thumb_path, "thumb_default.png")) {
+			memset(edj_path,0,1024);
+			snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_NAME);
 			mf_debug("Applying default thumbnail!!");
 			Evas_Object *layout = elm_layout_add(obj);
-			elm_layout_file_set(layout, EDJ_NAME, "default_thumb_bg");
+			elm_layout_file_set(layout, edj_path, "default_thumb_bg");
 			elm_object_part_content_set(layout, "thumb_swallow", thumb);
 			evas_object_show(layout);
 			return layout;
@@ -664,11 +668,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 		if (strstr(params->m_ItemName->str, "/.") != NULL) {
 			if (params->file_type == FILE_TYPE_IMAGE) {
-				elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_IMAGE);
+				elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 			} else if (params->file_type == FILE_TYPE_VIDEO) {
-				elm_image_file_set(thumb, EDJ_IMAGE, MF_ICON_VIDEO);
+				elm_image_file_set(thumb, edj_path, MF_ICON_VIDEO);
 			} else if (params->thumbnail_type == MF_THUMBNAIL_DEFAULT) {
-				elm_image_file_set(thumb, EDJ_IMAGE, params->thumb_path);
+				elm_image_file_set(thumb, edj_path, params->thumb_path);
 			}
 			elm_image_smooth_set(thumb, EINA_FALSE);
 		}
@@ -785,13 +789,17 @@ void mf_genlist_disable_items(Evas_Object *genlist, Eina_Bool disable)
 static Evas_Object *__mf_genlist_widget_storage_content_get(void *data, Evas_Object *obj, const char *part)
 {
 	if (!strcmp(part, "elm.icon.1")) {
-		Evas_Object *layout = mf_object_create_layout(obj, EDJ_GENLIST_NAME, "genlist_content");
+		char edj_path[1024] = {0};
+		char *path = app_get_resource_path();
+		snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_GENLIST_NAME);
+		Evas_Object *layout = mf_object_create_layout(obj, edj_path, "genlist_content");
 		mf_retvm_if(layout == NULL, NULL, "Failed to create layout");
 
 		Evas_Object *cloud_icon = elm_icon_add(layout);
 		mf_retvm_if(cloud_icon == NULL, NULL, "Failed to add cloud icon");
-
-		elm_image_file_set(cloud_icon, EDJ_IMAGE, MF_ICON_FOLDER);
+		memset(edj_path,0,1024);
+		snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_IMAGE);
+		elm_image_file_set(cloud_icon, edj_path, MF_ICON_FOLDER);
 		elm_image_resizable_set(cloud_icon, EINA_TRUE, EINA_TRUE);
 		elm_layout_content_set(layout, "elm.swallow.content", cloud_icon);
 
@@ -1425,7 +1433,10 @@ static void __mf_genlist_widget_storage_selected_cb(void *data, Evas_Object *obj
 		mf_error("Fail to create Layout");
 		return;
 	}
-	elm_layout_file_set(cloud_data->navi_layout, EDJ_NAME, "navi_layout");
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_NAME);
+	elm_layout_file_set(cloud_data->navi_layout, edj_path, "navi_layout");
 	int result = mf_genlist_get_cloud_file_list(cloud_data->curr_path, &cloud_data->file_list);
 
 	cloud_data->cloud_item_genlist = elm_genlist_add(cloud_data->navi_layout);
@@ -1510,7 +1521,10 @@ static Evas_Object *__mf_genlist_widget_cloud_item_content_get(void *data, Evas_
 	node_info *pNode = (node_info *)data;
 	if (!strcmp(part, "elm.icon.1")) {
 		mf_retvm_if(pNode == NULL, NULL, "pNode is NULL");
-		Evas_Object *layout = mf_object_create_layout(obj, EDJ_GENLIST_NAME, "genlist_content");
+		char edj_path[1024] = {0};
+		char *path = app_get_resource_path();
+		snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_GENLIST_NAME);
+		Evas_Object *layout = mf_object_create_layout(obj, edj_path, "genlist_content");
 		Evas_Object *cloud_icon = elm_icon_add(layout);
 		elm_image_file_set(cloud_icon, pNode->thumb_path, NULL);
 		elm_image_resizable_set(cloud_icon, EINA_TRUE, EINA_TRUE);

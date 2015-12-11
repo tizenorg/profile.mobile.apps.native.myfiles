@@ -566,9 +566,14 @@ Evas_Object *mf_popup_create_pb_popup(void *data, char *title, char *context, in
 	/*if (title) {
 		mf_object_text_set(popup, title, "title,text");
 	}*/
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+
 	layout = elm_layout_add(popup);
 	elm_object_focus_set(layout, EINA_FALSE);
-	elm_layout_file_set(layout, EDJ_NAME, "popup_center_progressview");
+	elm_layout_file_set(layout, edj_path, "popup_center_progressview");
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	ap->mf_MainWindow.pProgressLayout = layout;
 
@@ -655,7 +660,12 @@ Evas_Object *mf_popup_entry_layout_create(Evas_Object *parent)
 {
 	Evas_Object *layout = elm_layout_add(parent);
 	elm_object_focus_set(layout, EINA_TRUE);
-	elm_layout_file_set(layout, EDJ_NAME, "popup_new_folder");
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+
+	elm_layout_file_set(layout, edj_path, "popup_new_folder");
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	return layout;
 }
@@ -2000,8 +2010,13 @@ Evas_Object *mf_popup_check_view_popup(void *data,
 		mf_object_text_set(popup, title, "title,text");
 	}
 	/* layout */
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+
 	layout = elm_layout_add(popup);
-	elm_layout_file_set(layout, EDJ_NAME, "popup_checkview_layout");
+	elm_layout_file_set(layout, edj_path, "popup_checkview_layout");
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_object_part_text_set(layout, "elm.text", "Description text");
 
@@ -2382,8 +2397,13 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	mf_object_text_set(popup, title, "title,text");
 	/* layout */
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+
 	Evas_Object *layout = elm_layout_add(popup);
-	elm_layout_file_set(layout, EDJ_NAME, "popup_confirmation_layout");
+	elm_layout_file_set(layout, edj_path, "popup_confirmation_layout");
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(layout, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_smart_callback_add(layout, "language,changed", _language_changed, ap);

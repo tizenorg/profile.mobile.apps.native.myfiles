@@ -301,8 +301,11 @@ __mf_main_app_init_idler_cb(void *data)
 	t_start;
 	assert(data);
 	struct appdata *ap = (struct appdata *)data;
-
-	elm_theme_extension_add(NULL, EDJ_NAME);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+	elm_theme_extension_add(NULL, edj_path);
 
 	SAFE_FREE_ECORE_EVENT(ap->mf_MainWindow.font_event);
 
@@ -541,8 +544,16 @@ bool __mf_main_create_app(void *data)
 
 	MF_TA_ACUM_ITEM_END("1234 mf_object_create_layout_main", 0);
 
-	elm_theme_extension_add(NULL, EDJ_GENLIST_NAME);
-	elm_theme_extension_add(NULL, EDJ_GENGRID_NAME);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_GENLIST_NAME);
+	elm_theme_extension_add(NULL, edj_path);
+
+	memset(edj_path, 0, 1024);
+
+	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_GENGRID_NAME);
+	free(path);
+	elm_theme_extension_add(NULL, edj_path);
 
 	MF_TA_ACUM_ITEM_BEGIN("1234 create naviframe", 0);
 	mf_view_phone_storage_init(ap);
@@ -831,8 +842,11 @@ void __mf_main_terminate_app(void *data)
 	mf_genlist_item_class_free(ap->mf_gl_style.order_itc);
 
 	mf_util_set_pm_lock(ap, EINA_FALSE);
-
-	elm_theme_extension_del(NULL, EDJ_NAME);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
+	elm_theme_extension_del(NULL, edj_path);
 
 	t_end;
 	MF_TRACE_END;

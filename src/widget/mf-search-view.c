@@ -137,8 +137,11 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 	Evas_Object *en = NULL;
 
 	sb = elm_layout_add(parent);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
 
-	elm_layout_file_set(sb, EDJ_NAME, "myfile_search_layout");
+	elm_layout_file_set(sb, edj_path, "myfile_search_layout");
 	//elm_layout_theme_set(sb, "layout", "searchbar", "cancel_button");
 
 	en = elm_entry_add(sb);
@@ -165,7 +168,11 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 	elm_object_signal_callback_add(sb, "elm,eraser,clicked", "elm", mf_callback_eraser_clicked_cb, en);
 
 	Evas_Object *back_btn = elm_image_add(sb);
-	elm_image_file_set(back_btn, EDJ_IMAGE, MF_ICON_SOFT_SEARCH_CANCEL);
+	memset(edj_path, 0, 1024);
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_IMAGE);
+	free(path);
+
+	elm_image_file_set(back_btn, edj_path, MF_ICON_SOFT_SEARCH_CANCEL);
 	elm_image_resizable_set(back_btn, EINA_TRUE, EINA_TRUE);
 	elm_image_prescale_set(back_btn, 100);
 	elm_image_fill_outside_set(back_btn, TRUE);
@@ -181,7 +188,7 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 	elm_entry_markup_filter_append(en, elm_entry_filter_limit_size, &limit_filter_data);
 
 	Evas_Object *pImage = elm_image_add(sb);
-	elm_image_file_set(pImage, EDJ_IMAGE, MF_ICON_SOFT_SEARCH_BACK);
+	elm_image_file_set(pImage, edj_path, MF_ICON_SOFT_SEARCH_BACK);
 	elm_image_resizable_set(pImage, EINA_TRUE, EINA_TRUE);
 	evas_object_show(pImage);
 
@@ -238,8 +245,12 @@ void mf_search_view_create(void *data)
 	} else {
 		ap->mf_Status.search_category = mf_tray_item_category_none;
 	}
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
+	free(path);
 
-	ap->mf_MainWindow.pNaviLayout =	mf_object_create_layout(ap->mf_MainWindow.pNaviBar, EDJ_NAME, "search_view_layout");
+	ap->mf_MainWindow.pNaviLayout =	mf_object_create_layout(ap->mf_MainWindow.pNaviBar, edj_path, "search_view_layout");
 	ap->mf_MainWindow.pNaviSearchBar = mf_search_view_create_search_bar(ap->mf_MainWindow.pNaviLayout, ap);
 	Evas_Object *bx = elm_box_add(ap->mf_MainWindow.pNaviLayout);
 	elm_box_pack_start(bx, ap->mf_MainWindow.pNaviSearchBar);

@@ -30,6 +30,7 @@
 #include <linux/fs.h>
 #include <Eina.h>
 #include <glib.h>
+#include <tzplatform_config.h>
 
 #include <Elementary.h>
 #include <utils_i18n.h>
@@ -43,7 +44,7 @@
 #define UG_FILE_CREATE_DATE_MAX		128
 #define UG_NOMAL_BUF			128
 #define UG_MYFILE_CHILDPATH_LEN		512
-#define UG_PHONE_FOLDER			"/opt/usr/media"
+#define UG_PHONE_FOLDER			tzplatform_getenv(TZ_USER_CONTENT)
 #define UG_MEMORY_FOLDER			"/opt/storage/sdcard"
 #define UG_MEMORY_DEV_FOLDER		"/dev/mmcblk1p1"
 

@@ -34,6 +34,7 @@
 #include "media_content.h"
 #include "mf-dlog.h"
 #include "mf-error.h"
+#include <tzplatform_config.h>
 
 #define DEBUG_FOLDER    "SLP_debug"
 
@@ -46,10 +47,10 @@
 #define MYFILE_FOLDER_SIZE			0;
 
 /*	File system related String definition	*/
-#define PHONE_FOLDER    "/opt/usr/media"
+#define PHONE_FOLDER    tzplatform_getenv(TZ_USER_CONTENT)
 #define MEMORY_FOLDER   "/opt/storage/sdcard"
-#define PHONE_PARENT    "/opt/usr"
-#define PHONE_NAME	    "media"
+#define PHONE_PARENT    tzplatform_getenv(TZ_USER_HOME)
+#define PHONE_NAME	    "content"
 #define STORAGE_PARENT  "/opt/storage"
 #define MMC_NAME	    "sdcard"
 

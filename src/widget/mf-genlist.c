@@ -465,9 +465,6 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		        || ap->mf_Status.more == MORE_EDIT_UNINSTALL
 		        || ap->mf_Status.more == MORE_EDIT_DETAIL) {
 			if (ap->mf_Status.extra != MORE_SEARCH) {
-				Evas_Object *content = elm_layout_add(obj);
-				elm_layout_theme_set(content, "layout", "list/C/type.2", "default");
-
 				Evas_Object *check = NULL;
 				check = elm_check_add(obj);
 				params->pCheckBox = check;
@@ -482,8 +479,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				evas_object_repeat_events_set(check, EINA_FALSE);
 				evas_object_propagate_events_set(check, EINA_FALSE);
 				evas_object_smart_callback_add(check, "changed", __mf_genlist_gl_check_clicked_cb, params);
-				elm_layout_content_set(content, "elm.swallow.content", check);
-				return content;
+				return check;
 			}
 		}
 		return NULL;

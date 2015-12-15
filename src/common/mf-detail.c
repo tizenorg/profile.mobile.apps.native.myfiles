@@ -285,13 +285,13 @@ static char *__mf_ug_detail_view_get_gl_label(void *data, Evas_Object *obj, cons
 	struct detailData *detail = (struct detailData *)params->detail;
 	ug_detail_retvm_if(detail == NULL, NULL, "detail is NULL");
 
-	if (strcmp(part, "elm.text.main.left.top") == 0) {
+	if (strcmp(part, "elm.text") == 0) {
 		if (params->m_ItemName && params->m_ItemName->str) {
 			return strdup(mf_detail_widget_get_text(params->m_ItemName->str));
 		} else {
 			return strdup(MF_UG_DETAIL_LABEL_UNKNOWN);
 		}
-	} else if (strcmp(part, "elm.text.sub.left.bottom") == 0) {
+	} else if (strcmp(part, "elm.text.sub") == 0) {
 		if (params->m_ItemName == NULL) {
 			return strdup(MF_UG_DETAIL_LABEL_UNKNOWN);
 		}
@@ -505,27 +505,27 @@ mf_ug_detail_view_create_genlist(Evas_Object *parent, void *data)
 	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
 
-	detail->mf_Status.itc.item_style = "2line.top";
+	detail->mf_Status.itc.item_style = "type1";
 	detail->mf_Status.itc.func.text_get = __mf_ug_detail_view_get_gl_label;
 	detail->mf_Status.itc.func.content_get = NULL;
 	detail->mf_Status.itc.func.state_get = __mf_ug_detail_view_get_gl_state;
 	detail->mf_Status.itc.func.del = __mf_ug_detail_view_del_gl;
 
 	/* Set item class for dialogue group seperator*/
-	detail->mf_Status.seperator_itc.item_style = "groupindex";
+	detail->mf_Status.seperator_itc.item_style = "group_index";
 	detail->mf_Status.seperator_itc.func.text_get = NULL;
 	detail->mf_Status.seperator_itc.func.content_get = NULL;
 	detail->mf_Status.seperator_itc.func.state_get = NULL;
 	detail->mf_Status.seperator_itc.func.del = NULL;
 
 	/* Set item class for dialogue group title*/
-	detail->mf_Status.title_itc.item_style = "groupindex";
+	detail->mf_Status.title_itc.item_style = "group_index";
 	detail->mf_Status.title_itc.func.text_get = __mf_ug_detail_view_get_gl_label_title;
 	detail->mf_Status.title_itc.func.content_get = NULL;
 	detail->mf_Status.title_itc.func.state_get = NULL;
 	detail->mf_Status.title_itc.func.del = NULL;
 
-	detail->mf_Status.multiline_itc.item_style = "2line.top";
+	detail->mf_Status.multiline_itc.item_style = "type1";
 	detail->mf_Status.multiline_itc.func.text_get = __mf_ug_detail_view_get_gl_label;
 	detail->mf_Status.multiline_itc.func.content_get = NULL;
 	detail->mf_Status.multiline_itc.func.state_get = NULL;

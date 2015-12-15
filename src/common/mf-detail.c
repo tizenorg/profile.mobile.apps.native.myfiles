@@ -285,13 +285,13 @@ static char *__mf_ug_detail_view_get_gl_label(void *data, Evas_Object *obj, cons
 	struct detailData *detail = (struct detailData *)params->detail;
 	ug_detail_retvm_if(detail == NULL, NULL, "detail is NULL");
 
-	if (strcmp(part, "elm.text.main.left.top") == 0) {
+	if (strcmp(part, "elm.text") == 0) {
 		if (params->m_ItemName && params->m_ItemName->str) {
 			return strdup(mf_detail_widget_get_text(params->m_ItemName->str));
 		} else {
 			return strdup(MF_UG_DETAIL_LABEL_UNKNOWN);
 		}
-	} else if (strcmp(part, "elm.text.sub.left.bottom") == 0) {
+	} else if (strcmp(part, "elm.text.sub") == 0) {
 		if (params->m_ItemName == NULL) {
 			return strdup(MF_UG_DETAIL_LABEL_UNKNOWN);
 		}

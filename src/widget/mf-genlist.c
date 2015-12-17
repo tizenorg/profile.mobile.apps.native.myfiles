@@ -1286,7 +1286,7 @@ char *mf_genlist_group_index_label_get(void *data, Evas_Object * obj, const char
 	mfItemData_s *params = (mfItemData_s *) data;
 	mf_retvm_if(params == NULL, NULL, "params is NULL");
 	mf_error("part=%s", part);
-	if (strcmp(part, "elm.text.main") == 0) {
+	if (strcmp(part, "elm.text") == 0) {
 		mf_error("params->m_ItemName->str, mf_util_get_text(params->m_ItemName->str) is [%s] [%s]", params->m_ItemName->str, mf_util_get_text(params->m_ItemName->str));
 		return g_strdup(mf_util_get_text(params->m_ItemName->str));
 	}

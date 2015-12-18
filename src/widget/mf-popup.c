@@ -2205,11 +2205,8 @@ static Evas_Object *__mf_sort_by_gl_icon(void *data, Evas_Object * obj, const ch
 	mf_retvm_if(ap == NULL, NULL, "ap is NULL");
 
 	if (!strcmp(part, "elm.swallow.end")) {
-		Evas_Object *layout = elm_layout_add(obj);
-
-		elm_layout_theme_set(layout, "layout", "list/B/type.4", "default");
 		Evas_Object *radio = NULL;
-		radio = elm_radio_add(layout);
+		radio = elm_radio_add(obj);
 		elm_object_focus_set(radio, EINA_FALSE);
 		elm_radio_state_value_set(radio, index);
 		if (index < 4) {
@@ -2219,16 +2216,13 @@ static Evas_Object *__mf_sort_by_gl_icon(void *data, Evas_Object * obj, const ch
 			elm_radio_group_add(radio, order_group_radio);
 			elm_radio_value_set(radio, order_index);
 		}
-		//evas_object_propagate_events_set(radio, EINA_FALSE);
 		elm_object_signal_emit(radio, "elm,event,pass,enabled", "elm");
 		evas_object_size_hint_align_set(radio,
-		                                EVAS_HINT_FILL, EVAS_HINT_FILL);
+										EVAS_HINT_FILL, EVAS_HINT_FILL);
 		evas_object_size_hint_weight_set(radio,
-		                                 EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-
-		elm_layout_content_set(layout, "elm.swallow.content", radio);
+										 EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 		evas_object_show(radio);
-		return layout;
+		return radio;
 	}
 	return NULL;
 }

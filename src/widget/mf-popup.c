@@ -2265,7 +2265,7 @@ static char *__mf_sort_by_gl_label(void *data, Evas_Object * obj, const char *pa
 char *mf_sort_by_order_label_get(void *data, Evas_Object * obj, const char *part)
 {
 	mf_error("part=%s", part);
-	if (strcmp(part, "elm.text.main") == 0) {
+	if (strcmp(part, "elm.text") == 0) {
 		return g_strdup(mf_util_get_text(MF_LABEL_ORDER));
 	}
 	return g_strdup(_(""));

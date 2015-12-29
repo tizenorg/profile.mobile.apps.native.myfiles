@@ -38,7 +38,6 @@
  *  I think this module should not depend on other lib(except glib and stdlib).
 */
 #define ROOT_UMS "/opt/usr/media"
-#define ROOT_MMC "/opt/storage/sdcard"
 #endif /* CHECK_RESTRICTED_PATH */
 
 int flagSearchMsg = 1;
@@ -124,7 +123,10 @@ inline static void __mf_search_result_free(mf_search_result_t *result)
 #ifdef CHECK_RESTRICTED_PATH
 gboolean __mf_search_check_licet_path(const char *path)
 {
-	return (gboolean)(strstr(path, ROOT_UMS) || strstr(path, ROOT_MMC));
+	char *mmc_root_path = NULL;
+	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &mmc_root_path);
+	gboolean check = (gboolean)(strstr(path, ROOT_UMS) || strstr(path, mmc_root_path));
+	return check;
 }
 #endif /*CHECK_RESTRICTED_PATH*/
 

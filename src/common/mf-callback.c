@@ -2908,10 +2908,9 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 	struct appdata *ap = (struct appdata *)data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
 	mf_retm_if(ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
-
 	Evas_Object *entry = NULL;
 	MF_STORAGE optStorage = MYFILE_NONE;
-	char *storage_loc = "/opt/storage";
+	char *storage_loc = STORAGE_PARENT;
 	optStorage = storage;
 	switch (optStorage) {
 	case MYFILE_PHONE:

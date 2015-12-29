@@ -31,10 +31,31 @@
 #include <utils_i18n.h>
 #include <Eina.h>
 #include <Elementary.h>
+#include <storage.h>
 #include "media_content.h"
 #include "mf-dlog.h"
 #include "mf-error.h"
-#include <tzplatform_config.h>
+
+int mf_file_attr_get_parent_path(const char *path, char **parent_path);
+
+static inline char *Get_Root_Path(int storage_id)
+{
+	char *path = NULL;
+	storage_get_root_directory (storage_id,&path) ;
+	return path;
+}
+
+static inline char *Get_Parent_Path(int storage_id)
+{
+	char *path = NULL;
+	char *storage_path = NULL;
+	storage_get_root_directory(storage_id, &path);
+	if (path) {
+		mf_file_attr_get_parent_path(path, &storage_path);
+		free(path);
+	}
+	return storage_path;
+}
 
 #define DEBUG_FOLDER    "SLP_debug"
 
@@ -47,11 +68,11 @@
 #define MYFILE_FOLDER_SIZE			0;
 
 /*	File system related String definition	*/
-#define PHONE_FOLDER    tzplatform_getenv(TZ_USER_CONTENT)
-#define MEMORY_FOLDER   "/opt/storage/sdcard"
-#define PHONE_PARENT    tzplatform_getenv(TZ_USER_HOME)
+#define PHONE_FOLDER    Get_Root_Path(STORAGE_TYPE_INTERNAL)
+#define MEMORY_FOLDER   Get_Root_Path(STORAGE_TYPE_EXTERNAL)
+#define PHONE_PARENT    Get_Parent_Path(STORAGE_TYPE_INTERNAL)
+#define STORAGE_PARENT 	Get_Parent_Path(STORAGE_TYPE_EXTERNAL)
 #define PHONE_NAME	    "content"
-#define STORAGE_PARENT  "/opt/storage"
 #define MMC_NAME	    "sdcard"
 
 #define MYFILE_NAME_PATTERN	"[\\<>:;*\"|?/]"
@@ -330,7 +351,6 @@ int mf_file_attr_is_duplicated_name(const char *dir, const char *name);
 int mf_file_attr_is_valid_name(const char *filename);
 int mf_file_attr_is_right_dir_path(const char *dir_path);
 int mf_file_attr_is_right_file_path(const char *file_path);
-int mf_file_attr_get_parent_path(const char *path, char **parent_path);
 int mf_file_attr_get_logical_path_by_full(const char *full_path, char **path);
 int mf_file_attr_get_path_level(const char *fullpath, int *level);
 int mf_file_attr_is_system_dir(char *fullpath, bool *result);

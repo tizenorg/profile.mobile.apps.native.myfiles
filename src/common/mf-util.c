@@ -173,7 +173,6 @@ void mf_util_action_storage_insert(void *data, char *pItemLabel)
 	struct appdata *ap = (struct appdata *)data;
 
 	fsNodeInfo *pNode = NULL;
-
 	if ((ap->mf_Status.view_type == mf_view_storage || ap->mf_Status.view_type == mf_view_root)
 	        && (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS)) {
 		Evas_Object *parent = NULL;
@@ -185,12 +184,15 @@ void mf_util_action_storage_insert(void *data, char *pItemLabel)
 			}
 			memset(pNode, 0, sizeof(fsNodeInfo));
 			/*set path */
-			pNode->path = g_strdup(STORAGE_PARENT);
+			char *storage_path=NULL;
+			mf_file_attr_get_parent_path(STORAGE_PARENT,&storage_path);
+			pNode->path = g_strdup(storage_path);
 			pNode->name = g_strdup(MMC_NAME);
 			pNode->type = FILE_TYPE_DIR;
 			pNode->storage_type = MYFILE_MMC;
 			pNode->list_type = mf_list_normal;
 			ap->mf_FileOperation.folder_list = eina_list_append(ap->mf_FileOperation.folder_list, pNode);
+			free(storage_path);
 		}
 
 		if ((ap->mf_Status.iStorageState & MYFILE_MMC) && !__mf_util_storage_exist_check(parent, MYFILE_MMC)) {
@@ -1404,13 +1406,16 @@ int mf_util_generate_root_view_file_list(void *data, Eina_List **list, int stora
 		}
 		memset(pNode, 0, sizeof(fsNodeInfo));
 		/*set path */
-		pNode->path = g_strdup(STORAGE_PARENT);
+		char *storage_path=NULL;
+		mf_file_attr_get_parent_path(STORAGE_PARENT,&storage_path);
+		pNode->path = g_strdup(storage_path);
 		pNode->name = g_strdup(MMC_NAME);
 		mf_file_attr_get_file_stat(MEMORY_FOLDER, &pNode);
 		pNode->type = FILE_TYPE_DIR;
 		pNode->storage_type = MYFILE_MMC;
 		pNode->list_type = mf_list_normal;
 		*list = eina_list_append(*list, pNode);
+		free(storage_path);
 	}
 
 	return 0;

@@ -2911,7 +2911,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 
 	Evas_Object *entry = NULL;
 	MF_STORAGE optStorage = MYFILE_NONE;
-	char *storage_loc = "/opt/storage";
+	char *storage_loc = STORAGE_PARENT;
 	optStorage = storage;
 	switch (optStorage) {
 	case MYFILE_PHONE:

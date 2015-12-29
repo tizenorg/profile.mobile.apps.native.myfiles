@@ -34,7 +34,20 @@
 #include "media_content.h"
 #include "mf-dlog.h"
 #include "mf-error.h"
-#include <tzplatform_config.h>
+	#include <tzplatform_config.h>
+#include <storage.h>
+static inline char * get_path(char *string1, char *string2)
+{
+	char path[1024] = {};
+	snprintf(path, 1024,"%s%s", string1, string2);
+	return path;
+}
+static inline char * get_path_external(int storage_id)
+{
+	char *path= NULL;
+	storage_get_root_directory (storage_id,&path) ;
+	return path;
+}
 
 #define DEBUG_FOLDER    "SLP_debug"
 
@@ -48,10 +61,10 @@
 
 /*	File system related String definition	*/
 #define PHONE_FOLDER    tzplatform_getenv(TZ_USER_CONTENT)
-#define MEMORY_FOLDER   "/opt/storage/sdcard"
+#define STORAGE_PARENT "/usr/storage"
+#define MEMORY_FOLDER   get_path_external(STORAGE_TYPE_EXTERNAL)
 #define PHONE_PARENT    tzplatform_getenv(TZ_USER_HOME)
 #define PHONE_NAME	    "content"
-#define STORAGE_PARENT  "/opt/storage"
 #define MMC_NAME	    "sdcard"
 
 #define MYFILE_NAME_PATTERN	"[\\<>:;*\"|?/]"

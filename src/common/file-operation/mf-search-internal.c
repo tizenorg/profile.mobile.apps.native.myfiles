@@ -38,7 +38,7 @@
  *  I think this module should not depend on other lib(except glib and stdlib).
 */
 #define ROOT_UMS "/opt/usr/media"
-#define ROOT_MMC "/opt/storage/sdcard"
+#define ROOT_MMC STORAGE_PARENT
 #endif /* CHECK_RESTRICTED_PATH */
 
 int flagSearchMsg = 1;

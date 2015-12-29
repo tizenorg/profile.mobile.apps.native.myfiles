@@ -23,7 +23,7 @@
 
 #include "mf-request.h"
 #include "mf-fo-debug.h"
-
+#include "mf-fs-util.h"
 #define MYFILE_MAGIC_MAIN_CONTEXT           (0x1983cdaf)
 #define MYFILE_MAGIC_DETAIL_LIST_ITEM       (0x1977abcd)
 #define MYFILE_MAGIC_PIPE_DATA				 (0x0716ffcc)
@@ -38,7 +38,7 @@
 #define MF_ERR_BUF		256
 
 #define TEMP_FOLDER_FOR_COPY_PHONE		"/opt/usr/media/.operation_temp"
-#define TEMP_FOLDER_FOR_COPY_MMC		"/opt/storage/sdcard/.operation_temp"
+#define TEMP_FOLDER_FOR_COPY_MMC		 get_path(tzplatform_getenv(TZ_SYS_STORAGE), "/sdcard/.operation_temp")
 
 #define MF_FILE_ERROR_LOG(buf, fmt, arg)    do { \
 							{\

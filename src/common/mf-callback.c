@@ -19,6 +19,7 @@
 #include <dbus/dbus.h>
 #include <pthread.h>
 #include <storage.h>
+#include <tzplatform_config.h>
 #include "mf-main.h"
 #include "mf-conf.h"
 #include "mf-util.h"
@@ -2911,7 +2912,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 
 	Evas_Object *entry = NULL;
 	MF_STORAGE optStorage = MYFILE_NONE;
-	char *storage_loc = "/opt/storage";
+	char *storage_loc = STORAGE_PARENT;
 	optStorage = storage;
 	switch (optStorage) {
 	case MYFILE_PHONE:

@@ -173,7 +173,6 @@ void mf_util_action_storage_insert(void *data, char *pItemLabel)
 	struct appdata *ap = (struct appdata *)data;
 
 	fsNodeInfo *pNode = NULL;
-
 	if ((ap->mf_Status.view_type == mf_view_storage || ap->mf_Status.view_type == mf_view_root)
 	        && (ap->mf_Status.more == MORE_DEFAULT || ap->mf_Status.more == MORE_INTERNAL_COPY || ap->mf_Status.more == MORE_INTERNAL_MOVE || ap->mf_Status.more == MORE_INTERNAL_DECOMPRESS)) {
 		Evas_Object *parent = NULL;

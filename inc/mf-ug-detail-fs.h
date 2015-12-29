@@ -30,13 +30,12 @@
 #include <linux/fs.h>
 #include <Eina.h>
 #include <glib.h>
-#include <tzplatform_config.h>
 
 #include <Elementary.h>
 #include <utils_i18n.h>
 #include "mf-ug-detail-dlog.h"
 #include "mf-ug-detail-view.h"
-
+#include "mf-fs-util.h"
 #define UG_MYFILE_DIR_PATH_LEN_MAX		4096
 #define UG_MYFILE_FILE_NAME_LEN_MAX	256
 #define UG_FILE_EXT_LEN_MAX		32
@@ -44,8 +43,8 @@
 #define UG_FILE_CREATE_DATE_MAX		128
 #define UG_NOMAL_BUF			128
 #define UG_MYFILE_CHILDPATH_LEN		512
-#define UG_PHONE_FOLDER			tzplatform_getenv(TZ_USER_CONTENT)
-#define UG_MEMORY_FOLDER			"/opt/storage/sdcard"
+#define UG_PHONE_FOLDER			Get_Root_Path(STORAGE_TYPE_INTERNAL)
+#define UG_MEMORY_FOLDER		Get_Root_Path(STORAGE_TYPE_EXTERNAL)
 #define UG_MEMORY_DEV_FOLDER		"/dev/mmcblk1p1"
 
 #define UG_MF_ERROR_MASKL16		0xFFFF

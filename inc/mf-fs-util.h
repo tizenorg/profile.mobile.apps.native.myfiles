@@ -35,6 +35,12 @@
 #include "mf-dlog.h"
 #include "mf-error.h"
 #include <tzplatform_config.h>
+static inline char * get_path(char *string1, char *string2)
+{
+	char path[1024] = {};
+	snprintf(path, 1024,"%s%s", string1, string2);
+	return path;
+}
 
 #define DEBUG_FOLDER    "SLP_debug"
 
@@ -48,10 +54,10 @@
 
 /*	File system related String definition	*/
 #define PHONE_FOLDER    tzplatform_getenv(TZ_USER_CONTENT)
-#define MEMORY_FOLDER   "/opt/storage/sdcard"
+#define STORAGE_PARENT  tzplatform_getenv(TZ_SYS_STORAGE)
+#define MEMORY_FOLDER   get_path(STORAGE_PARENT, "/sdcard")
 #define PHONE_PARENT    tzplatform_getenv(TZ_USER_HOME)
 #define PHONE_NAME	    "content"
-#define STORAGE_PARENT  "/opt/storage"
 #define MMC_NAME	    "sdcard"
 
 #define MYFILE_NAME_PATTERN	"[\\<>:;*\"|?/]"

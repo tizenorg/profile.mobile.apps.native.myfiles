@@ -176,15 +176,18 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	int location = _mf_fo_get_file_location(dst);
 	char *copy_dst = dst;
 	char *copy_folder = NULL;
+	char *others_path = NULL;
 	if (location == MYFILE_PHONE) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		copy_folder = TEMP_FOLDER_FOR_COPY_PHONE;
-		dst = g_strconcat(TEMP_FOLDER_FOR_COPY_PHONE, "/", name, NULL);
+		others_path = TEMP_FOLDER_FOR_COPY_PHONE;
+		copy_folder = g_strconcat(others_path, "/", ".operation_temp", NULL);
+		dst = g_strconcat(copy_folder, "/", name, NULL);
 	} else if (location == MYFILE_MMC) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		copy_folder = TEMP_FOLDER_FOR_COPY_MMC;
+		others_path = TEMP_FOLDER_FOR_COPY_MMC;
+		copy_folder = g_strconcat(others_path, "/", ".operation_temp", NULL);
 		dst = g_strconcat(TEMP_FOLDER_FOR_COPY_MMC, "/", name, NULL);
 	}
 	mf_error("===================== copy_dst is [%s], dst is [%s]", copy_dst, dst);
@@ -375,7 +378,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 			copy_dst = NULL;
 		}
 	}
-
+	mf_file_rmdir(copy_folder);
 	return 0;
 
 ERROR_CLOSE_FD:
@@ -396,6 +399,7 @@ ERROR_CLOSE_FD:
 	if (buf) {
 		free(buf);
 	}
+	mf_file_rmdir(copy_folder);
 	return err;
 
 
@@ -415,6 +419,7 @@ CANCEL_CLOSE_FD:
 			mf_debug(" >>>>remove ret=%d", ret);
 		}
 	}
+	mf_file_rmdir(copy_folder);
 	return 1;
 }
 

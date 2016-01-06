@@ -37,8 +37,8 @@
 					if the file system is different, the folder size is diff, fat is 4k and fat32 is 16k*/
 #define MF_ERR_BUF		256
 
-#define TEMP_FOLDER_FOR_COPY_PHONE		"/opt/usr/media/.operation_temp"
-#define TEMP_FOLDER_FOR_COPY_MMC		"/opt/storage/sdcard/.operation_temp"
+#define TEMP_FOLDER_FOR_COPY_PHONE		_mf_get_directory_path(STORAGE_DIRECTORY_OTHERS)
+#define TEMP_FOLDER_FOR_COPY_MMC		Get_Root_Path(STORAGE_TYPE_EXTERNAL)
 
 #define MF_FILE_ERROR_LOG(buf, fmt, arg)    do { \
 							{\

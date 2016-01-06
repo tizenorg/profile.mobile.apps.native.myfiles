@@ -57,6 +57,13 @@ static inline char *Get_Parent_Path(int storage_id)
 	return storage_path;
 }
 
+static inline char *_mf_get_directory_path(int storage_directory_type)
+{
+	char *path = NULL;
+	storage_get_directory(STORAGE_TYPE_INTERNAL, storage_directory_type, &path);
+	return path;
+}
+
 #define DEBUG_FOLDER    "SLP_debug"
 
 /*	File system related value definition	*/

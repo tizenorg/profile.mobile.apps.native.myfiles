@@ -176,21 +176,26 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	int location = _mf_fo_get_file_location(dst);
 	char *copy_dst = dst;
 	char *copy_folder = NULL;
+	char *root_path = NULL;
 	if (location == MYFILE_PHONE) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		copy_folder = TEMP_FOLDER_FOR_COPY_PHONE;
-		dst = g_strconcat(TEMP_FOLDER_FOR_COPY_PHONE, "/", name, NULL);
+		storage_get_root_directory(STORAGE_TYPE_INTERNAL, &root_path);
+		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
+		dst = g_strconcat(copy_folder, "/", name, NULL);
 	} else if (location == MYFILE_MMC) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		copy_folder = TEMP_FOLDER_FOR_COPY_MMC;
-		dst = g_strconcat(TEMP_FOLDER_FOR_COPY_MMC, "/", name, NULL);
+		storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &root_path);
+		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
+		dst = g_strconcat(copy_folder, "/", name, NULL);
 	}
 	mf_error("===================== copy_dst is [%s], dst is [%s]", copy_dst, dst);
 	if (copy_folder && !mf_file_exists(copy_folder)) {
 		mf_mkpath(copy_folder);
 	}
+	g_free(root_path);
+	g_free(copy_folder);
 	dst_f = fopen(dst, "wb");
 	if (!dst_f) {
 		mf_fo_loge("Fail to fopen %s file", dst);
@@ -375,7 +380,6 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 			copy_dst = NULL;
 		}
 	}
-
 	return 0;
 
 ERROR_CLOSE_FD:
@@ -679,6 +683,8 @@ int _mf_copy_copy_internal(const char *src, const char *dst_dir, mf_cancel *canc
 	int alloc_size = 1;	/*for null*/
 	struct stat src_info;
 	char err_buf[MF_ERR_BUF] = { 0, };
+	char *TEMP_FOLDER_FOR_COPY_PHONE = NULL;
+	char *TEMP_FOLDER_FOR_COPY_MMC = NULL;
 
 	if (!src || strlen(src) <= 1) {
 		err = MF_FO_ERR_SET(MF_FO_ERR_SRC_CLASS | MF_FO_ERR_ARGUMENT);
@@ -786,6 +792,7 @@ int _mf_copy_copy_internal(const char *src, const char *dst_dir, mf_cancel *canc
 		}
 	} else {
 		mf_request_type result = MF_REQ_NONE;
+
 		if (req_func) {
 			mf_fo_request *req = mf_request_new();
 			if (req) {
@@ -937,8 +944,14 @@ int _mf_copy_copy_internal(const char *src, const char *dst_dir, mf_cancel *canc
 
 ERROR_FREE_MEM:
 	mf_fo_logi("Copy error");
+	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
+	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
+
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+
+	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
+	g_free(TEMP_FOLDER_FOR_COPY_MMC);
 
 	SAFE_FREE(src_basename);
 	SAFE_FREE(new_dst);
@@ -948,8 +961,14 @@ ERROR_FREE_MEM:
 CANCEL_FREE_MEM:
 
 	mf_fo_logi("Copy cancelled");
+	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
+	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
+
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+
+	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
+	g_free(TEMP_FOLDER_FOR_COPY_MMC);
 
 	SAFE_FREE(new_dst);
 	SAFE_FREE(next_name);

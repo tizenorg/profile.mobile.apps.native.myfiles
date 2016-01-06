@@ -302,6 +302,8 @@ __mf_main_app_init_idler_cb(void *data)
 	assert(data);
 	struct appdata *ap = (struct appdata *)data;
 	char edj_path[1024] = {0};
+	char *TEMP_FOLDER_FOR_COPY_PHONE = NULL;
+	char *TEMP_FOLDER_FOR_COPY_MMC = NULL;
 	char *path = app_get_resource_path();
 	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_NAME);
 	free(path);
@@ -319,8 +321,16 @@ __mf_main_app_init_idler_cb(void *data)
 	//mf_callback_imf_state_callback_register(ap);
 	/*** Add the media-db update callback ***********/
 	media_content_set_db_updated_cb(mf_category_list_update_cb, ap);
+
+	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
+	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
+
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
 	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+
+	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
+	g_free(TEMP_FOLDER_FOR_COPY_MMC);
+
 	ap->mf_Status.app_init_idler = NULL;
 
 	MF_TRACE_END;

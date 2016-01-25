@@ -1852,7 +1852,7 @@ Evas_Object *mf_popup_create_delete_confirm_popup(void *data, char *title, const
 		//Fixed the bug(P131011-02665), when pressing the back, no focus at the entry.
 		eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, func, param);
 	} else {
-		eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, func, param);
+		eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 	}
 	MF_TRACE_END;
 	return popup;

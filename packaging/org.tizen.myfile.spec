@@ -33,7 +33,7 @@ BuildRequires:  pkgconfig(capi-system-device)
 BuildRequires:  pkgconfig(capi-system-runtime-info)
 BuildRequires:  pkgconfig(capi-system-system-settings)
 BuildRequires:  pkgconfig(capi-media-thumbnail-util)
-BuildRequires: pkgconfig(libtzplatform-config)
+BuildRequires:  pkgconfig(libtzplatform-config)
 
 BuildRequires:  cmake
 BuildRequires:  edje-bin
@@ -88,7 +88,7 @@ rm -rf %{buildroot}
 %{TZ_SYS_RO_APP}/org.tizen.myfile/bin/myfile
 %{TZ_SYS_RO_APP}/org.tizen.myfile/res/locale/*
 %{TZ_SYS_RO_APP}/org.tizen.myfile/res/edje/*
-%{TZ_SYS_RO_APP}/org.tizen.myfile/data
+#%{TZ_SYS_RO_APP}/org.tizen.myfile/data
 %{TZ_SYS_RW_PACKAGES}/org.tizen.myfile.xml
 %{TZ_SYS_RO_APP}/org.tizen.myfile/shared/res/*
 %{TZ_SYS_RW_ICONS}/default/small/org.tizen.myfile.png

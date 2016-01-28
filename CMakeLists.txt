@@ -123,6 +123,7 @@ INCLUDE(FindPkgConfig)
 	capi-system-runtime-info
 	capi-system-system-settings
 	capi-media-thumbnail-util
+	libtzplatform-config
 )
 
 FOREACH(flag ${pkgs_CFLAGS})

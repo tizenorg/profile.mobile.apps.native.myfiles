@@ -33,6 +33,7 @@ BuildRequires:  pkgconfig(capi-system-device)
 BuildRequires:  pkgconfig(capi-system-runtime-info)
 BuildRequires:  pkgconfig(capi-system-system-settings)
 BuildRequires:  pkgconfig(capi-media-thumbnail-util)
+BuildRequires:  pkgconfig(libtzplatform-config)
 
 BuildRequires:  cmake
 BuildRequires:  edje-bin

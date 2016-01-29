@@ -517,7 +517,7 @@ Evas_Object *mf_category_widgets_create(void *data, Evas_Object *parent)
 
 	char edj_path[1024] = {0};
 	char *path = app_get_resource_path();
-	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", myfile_category.edj);
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", "myfile_category.edj");
 	free(path);
 
 	g_mf_category_layout.category_frame = mf_object_create_layout(parent, edj_path, MF_CATEGORY_LAYOUT_GROUP);

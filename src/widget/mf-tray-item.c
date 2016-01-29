@@ -41,7 +41,6 @@
 
 #define LAYOUT_SWALLOW_BG		"swallow.bg"
 
-#define MF_CATEGORY_LAYOUT_EDJ EDJ_PATH"/myfile_category.edj"
 #define MF_CATEGORY_LAYOUT_GROUP "category_frame"
 typedef struct __mf_category_layout {
 	Evas_Object *category_text;
@@ -516,21 +515,26 @@ Evas_Object *mf_category_widgets_create(void *data, Evas_Object *parent)
 	MF_TRACE_BEGIN;
 	mf_retvm_if(data == NULL, NULL, "data is NULL");
 
-	g_mf_category_layout.category_frame = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, MF_CATEGORY_LAYOUT_GROUP);
+	char edj_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", myfile_category.edj);
+	free(path);
+
+	g_mf_category_layout.category_frame = mf_object_create_layout(parent, edj_path, MF_CATEGORY_LAYOUT_GROUP);
 	mf_retvm_if(g_mf_category_layout.category_frame == NULL, NULL, "category_frame is NULL");
-	g_mf_category_layout.category_text = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_text");
+	g_mf_category_layout.category_text = mf_object_create_layout(parent, edj_path, "group_category_text");
 	mf_retvm_if(g_mf_category_layout.category_text == NULL, NULL, "category_text is NULL");
-	g_mf_category_layout.category_recent = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_recent");
+	g_mf_category_layout.category_recent = mf_object_create_layout(parent, edj_path, "group_category_recent");
 	mf_retvm_if(g_mf_category_layout.category_recent == NULL, NULL, "category_recent_files is NULL");
-	//g_mf_category_layout.category_all = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_all_files");
+	//g_mf_category_layout.category_all = mf_object_create_layout(parent, edj_path, "group_category_all_files");
 	//mf_retvm_if(g_mf_category_layout.category_all == NULL, NULL, "category_all_files is NULL");
-	g_mf_category_layout.category_image = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_image");
+	g_mf_category_layout.category_image = mf_object_create_layout(parent, edj_path, "group_category_image");
 	mf_retvm_if(g_mf_category_layout.category_image == NULL, NULL, "category_image is NULL");
-	g_mf_category_layout.category_video = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_video");
+	g_mf_category_layout.category_video = mf_object_create_layout(parent, edj_path, "group_category_video");
 	mf_retvm_if(g_mf_category_layout.category_video == NULL, NULL, "category_video is NULL");
-	g_mf_category_layout.category_sound = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_sound");
+	g_mf_category_layout.category_sound = mf_object_create_layout(parent, edj_path, "group_category_sound");
 	mf_retvm_if(g_mf_category_layout.category_sound == NULL, NULL, "category_sound is NULL");
-	g_mf_category_layout.category_document = mf_object_create_layout(parent, MF_CATEGORY_LAYOUT_EDJ, "group_category_document");
+	g_mf_category_layout.category_document = mf_object_create_layout(parent, edj_path, "group_category_document");
 	mf_retvm_if(g_mf_category_layout.category_document == NULL, NULL, "category_document is NULL");
 
 

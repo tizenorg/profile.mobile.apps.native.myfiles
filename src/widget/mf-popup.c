@@ -824,7 +824,7 @@ Evas_Object *mf_popup_create_rename_popup(void *data, char *context)
 
 	elm_object_part_content_set(layout, "elm.swallow.content", en);
 
-	elm_object_signal_emit(en, "elm,action,hide,search_icon", "");
+//	elm_object_signal_emit(en, "elm,action,hide,search_icon", "");
 
 	Evas_Object *btn1 = mf_object_create_button(popup,
 	                    NULL, //"popup_button/default",

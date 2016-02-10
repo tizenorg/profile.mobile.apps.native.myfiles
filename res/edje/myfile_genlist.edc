@@ -938,6 +938,10 @@ collections{
       description { state: "default" 0.0; \
           color:0 0 0 0; \
       } \
+       description { state: "pressed" 0.0; \
+         inherit: "default" 0.0; \
+         color: 21 108 148 77; \
+      } \
    ) \
    PART(RECT, "reorder", \
       description { state: "default" 0.0; \

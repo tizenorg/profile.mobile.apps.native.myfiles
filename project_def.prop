@@ -1,11 +1,73 @@
+
+# Project Name
 APPNAME = myfile
 
+# Project Type
 type = app
+
+# Project Profile
 profile = mobile-3.0
 
-USER_SRCS = src/myfile.c
-USER_DEFS =
-USER_INC_DIRS = inc
-USER_OBJS =
-USER_LIBS =
-USER_EDCS =
+# C Sources
+USER_SRCS = src/widget/mf-storage-view.c src/common/file-operation/mf-search.c src/common/mf-media-content.c src/widget/mf-normal-view.c src/widget/mf-tray-item.c src/common/mf-inotify-handle.c src/common/mf-ta.c src/widget/mf-view.c src/widget/mf-search-bar.c src/thumbnail/mf-thumb-gen.c src/common/file-operation/mf-delete-internal.c src/common/mf-error.c src/common/mf-log.c src/common/file-operation/mf-copy.c src/common/file-operation/mf-cancel.c src/widget/mf-object-item.c src/common/mf-media-data.c src/common/file-operation/mf-request.c src/common/mf-ug-detail-media.c src/widget/mf-setting-view.c src/widget/mf-category-view.c src/widget/mf-popup.c src/common/mf-callback.c src/media-db/mf-media-db.c src/common/file-operation/mf-search-internal.c src/widget/mf-object.c src/common/mf-ug-detail-fs.c src/common/file-operation/mf-fo-internal.c src/widget/mf-focus-ui.c src/widget/mf-context-popup.c src/widget/mf-root-view.c src/mf-main.c src/common/mf-detail.c src/widget/mf-edit-view.c src/widget/mf-gengrid.c src/common/file-operation/mf-move.c src/common/file-operation/mf-move-internal.c src/widget/mf-detail-view.c src/common/file-operation/mf-delete.c src/common/mf-storage-space.c src/common/file-system/mf-file-attr.c src/common/mf-util.c src/common/mf-fs-monitor.c src/media-db/mf-media.c src/common/file-system/mf-fs-oper.c src/common/mf-file-util.c src/common/file-operation/mf-copy-internal.c src/widget/mf-search-view.c src/widget/mf-navi-bar.c src/widget/mf-genlist.c src/common/mf-launch.c src/common/mf-fm-svc-wrapper.c src/common/mf-download-app.c src/widget/mf-recent-view.c 
+
+# EDC Sources
+USER_EDCS =  
+
+# PO Sources
+USER_POS = res/po/et.po res/po/de.po res/po/kn.po res/po/ar.po res/po/nl.po res/po/bg.po res/po/en_US.po res/po/ro.po res/po/cs.po res/po/ja_JP.po res/po/gu.po res/po/zh_HK.po res/po/lt.po res/po/fi.po res/po/ka.po res/po/fr.po res/po/zh_TW.po res/po/ml.po res/po/it_IT.po res/po/te.po res/po/or.po res/po/mk.po res/po/gl.po res/po/az.po res/po/kk.po res/po/uz.po res/po/sr.po res/po/nb.po res/po/mr.po res/po/es_ES.po res/po/sl.po res/po/lv.po res/po/hi.po res/po/da.po res/po/pa.po res/po/ga.po res/po/hu.po res/po/en_PH.po res/po/pt_BR.po res/po/el_GR.po res/po/bn.po res/po/ru_RU.po res/po/pt_PT.po res/po/fr_CA.po res/po/uk.po res/po/sv.po res/po/es_US.po res/po/ko_KR.po res/po/sk.po res/po/zh_CN.po res/po/si.po res/po/en.po res/po/ca.po res/po/ta.po res/po/hr.po res/po/tr_TR.po res/po/is.po res/po/eu.po res/po/pl.po res/po/hy.po 
+
+# User Defines
+USER_DEFS = MYFILE_TRAY_FEATURE MF_FEATURE_POPSYNC _USE_SHARE_PANEL MF_SPLIT_WINDOW MYFILE_DETAILS MYFILE_WIFI_DIRECT_FEATURE MYFILE_SEARCH_ALL MYFILE_SEARCH_STRING MYFILE_ENABLE_FOCUS MYFILE_CATEGORY_VIEW MYFILE_HIDEN_FILES_SHOW MYFILE_USE_LOG 
+USER_CPP_DEFS = 
+
+# User Undefines
+USER_UNDEFS = 
+USER_CPP_UNDEFS = 
+
+# User Libraries
+USER_LIBS = 
+
+# User Objects
+USER_OBJS = 
+USER_OBJS_ABS = 
+
+# User Includes
+## C Compiler
+USER_INC_DIRS = inc src/thumbnail 
+USER_INC_DIRS_ABS = /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/libxml2 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/appcore-agent /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/appfw /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/badge /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/base /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/cairo /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/calendar-service2 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ckm /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/contacts-svc /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/content /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/context-service /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/dali /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/dali-toolkit /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/dbus-1.0 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/device /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/dlog /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-audio-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-avahi-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-con-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-evas-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-fb-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-file-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-imf-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-imf-evas-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-input-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-input-evas-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-ipc-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ecore-x-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/e_dbus-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/edje-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eet-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/efl-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/efl-extension /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/efreet-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eina-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eina-1/eina /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eio-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eldbus-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/elementary-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/embryo-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eo-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/eom /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ethumb-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ethumb-client-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/evas-1 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ewebkit2-0 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/feedback /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/fontconfig /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/freetype2 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/geofence /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/gio-unix-2.0 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/glib-2.0 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/json-glib-1.0 /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/location /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/maps /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/media /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/media-content /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/messaging /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/metadata-editor /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/minicontrol /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/minizip /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/network /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/notification /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/phonenumber-utils /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/sensor /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/shortcut /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/storage /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/system /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/telephony /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/ui /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/web /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/widget_service /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/widget_viewer_evas /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/include/wifi-direct /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/lib/dbus-1.0/include /home/r.dadhich/Tizen_3.0_SDK/tools/smart-build-interface/../../platforms/tizen-3.0/mobile/rootstraps/mobile-3.0-emulator.core/usr/lib/glib-2.0/include 
+USER_INC_FILES = 
+USER_INC_FILES_ABS = 
+## C++ Compiler
+USER_CPP_INC_DIRS = 
+USER_CPP_INC_DIRS_ABS = 
+USER_CPP_INC_FILES = 
+USER_CPP_INC_FILES_ABS = 
+
+# User Library Path
+USER_LIB_DIRS = 
+USER_LIB_DIRS_ABS = 
+
+# EDC Resource Path
+USER_EDCS_IMAGE_DIRS = res/edje/image/category res/edje/image/gengrid res/edje/icon res res/edje/image 
+USER_EDCS_IMAGE_DIRS_ABS = 
+USER_EDCS_SOUND_DIRS = data/sounds 
+USER_EDCS_SOUND_DIRS_ABS = 
+USER_EDCS_FONT_DIRS = edje/fonts 
+USER_EDCS_FONT_DIRS_ABS = 
+
+# EDC Flags
+USER_EXT_EDC_KEYS = EDC0 
+
+USER_EXT_EDC0_EDCS = res/edje/myfile.edc res/edje/myfile_genlist.edc res/edje/myfile_gengrid.edc res/edje/myfile-fake-effect.edc res/edje/myfile_category.edc res/edje/edc_image_macro.edc 
+USER_EXT_EDC0_EDCS_IMAGE_DIRS = res/edje/image/category res/edje/image/gengrid res/edje/icon res res/edje/image 
+USER_EXT_EDC0_EDCS_IMAGE_DIRS_ABS = 
+USER_EXT_EDC0_EDCS_SOUND_DIRS = data/sounds 
+USER_EXT_EDC0_EDCS_SOUND_DIRS_ABS = 
+USER_EXT_EDC0_EDCS_FONT_DIRS = edje/fonts 
+USER_EXT_EDC0_EDCS_FONT_DIRS_ABS = 
+
+# Resource Filter
+USER_RES_INCLUDE = 
+USER_RES_EXCLUDE = 
+

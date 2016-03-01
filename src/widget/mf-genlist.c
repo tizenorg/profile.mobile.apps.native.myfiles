@@ -439,7 +439,6 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 	char edj_path[1024] = {0};
 	char *path = app_get_resource_path();
 	snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_IMAGE);
-	free(path);
 	if (!strcmp(part, "elm.icon.folder")) {
 
 		if (ap->mf_Status.view_type == mf_view_root || ap->mf_Status.view_type == mf_view_storage) {
@@ -452,8 +451,10 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			evas_object_repeat_events_set(check, EINA_TRUE);
 			evas_object_propagate_events_set(check, EINA_FALSE);
 			//elm_layout_content_set(content, "elm.swallow.content", check);
+			free(path);
 			return check;
 		} else {
+			free(path);
 			return NULL;
 		}
 	} else if (!strcmp(part, "elm.icon.2")) {
@@ -479,9 +480,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				evas_object_repeat_events_set(check, EINA_FALSE);
 				evas_object_propagate_events_set(check, EINA_FALSE);
 				evas_object_smart_callback_add(check, "changed", __mf_genlist_gl_check_clicked_cb, params);
+				free(path);
 				return check;
 			}
 		}
+		free(path);
 		return NULL;
 
 	} else if (!strcmp(part, "elm.icon.1")) {
@@ -645,6 +648,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 					elm_image_file_set(thumb, params->thumb_path, NULL);
 				}
 				evas_object_show(thumb);
+				free(path);
 				return thumb;
 			}
 		}
@@ -660,6 +664,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			elm_layout_file_set(layout, edj_path, "default_thumb_bg");
 			elm_object_part_content_set(layout, "thumb_swallow", thumb);
 			evas_object_show(layout);
+			free(path);
 			return layout;
 		}
 
@@ -679,12 +684,12 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		Evas_Object *edit_field = NULL;
 		edit_field = mf_rename_view_create_rename_bar(params, obj);
 		evas_object_propagate_events_set(edit_field, EINA_FALSE);
-
+		free(path);
 		return edit_field;
 	} else if (!strcmp(part, "elm.flip.eraser")) {
 		layout = mf_object_create_button(obj, "editfield_clear", NULL, NULL,
 		                                 (Evas_Smart_Cb)__genlist_rename_eraser_clicked_cb, params, EINA_FALSE);
-
+		free(path);
 		return layout;
 	} else if (!strcmp(part, "elm.flip.icon")) {
 		Evas_Object *cancel_btn = mf_object_create_button(obj, NULL, LABEL_CANCEL, NULL,
@@ -692,9 +697,10 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 		evas_object_size_hint_min_set(cancel_btn, ELM_SCALE_SIZE(140), 0);
 		evas_object_show(cancel_btn);
 		evas_object_propagate_events_set(cancel_btn, EINA_FALSE);
-
+		free(path);
 		return cancel_btn;
 	}
+	free(path);
 	return thumb;
 }
 
@@ -789,7 +795,6 @@ static Evas_Object *__mf_genlist_widget_storage_content_get(void *data, Evas_Obj
 		char edj_path[1024] = {0};
 		char *path = app_get_resource_path();
 		snprintf(edj_path, 1024, "%s%s/%s", path, "edje", EDJ_GENLIST_NAME);
-		free(path);
 		Evas_Object *layout = mf_object_create_layout(obj, edj_path, "genlist_content");
 		mf_retvm_if(layout == NULL, NULL, "Failed to create layout");
 
@@ -800,6 +805,7 @@ static Evas_Object *__mf_genlist_widget_storage_content_get(void *data, Evas_Obj
 		elm_image_file_set(cloud_icon, edj_path, MF_ICON_FOLDER);
 		elm_image_resizable_set(cloud_icon, EINA_TRUE, EINA_TRUE);
 		elm_layout_content_set(layout, "elm.swallow.content", cloud_icon);
+		free(path);
 
 		return layout;
 	}

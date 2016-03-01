@@ -808,7 +808,7 @@ static void __mf_callback_refresh_rename(void *data, GString *pre_name, GString 
 static int __mf_callback_idle_rename_refresh(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
-	mf_retvm_if(ap == NULL, (ap->mf_Status.operation_refresh_idler = NULL, ECORE_CALLBACK_CANCEL), "ap is NULL");
+	mf_retvm_if(ap == NULL, 0, "ap is NULL");
 
 	mf_view_update(ap);
 	ap->mf_Status.operation_refresh_idler = NULL;

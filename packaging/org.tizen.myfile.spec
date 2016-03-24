@@ -89,6 +89,6 @@ rm -rf %{buildroot}
 %{TZ_SYS_RO_APP}/org.tizen.myfile/res/locale/*
 %{TZ_SYS_RO_APP}/org.tizen.myfile/res/edje/*
 #%{TZ_SYS_RO_APP}/org.tizen.myfile/data
-%{TZ_SYS_RW_PACKAGES}/org.tizen.myfile.xml
+%{TZ_SYS_RO_PACKAGES}/org.tizen.myfile.xml
 %{TZ_SYS_RO_APP}/org.tizen.myfile/shared/res/*
 %{TZ_SYS_RW_ICONS}/default/small/org.tizen.myfile.png

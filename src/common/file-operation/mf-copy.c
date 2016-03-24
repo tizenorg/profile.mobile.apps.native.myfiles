@@ -257,6 +257,7 @@ static void *__mf_copy_thread_func(void *data)
 	double s_stop = 0.0;
 	double c_start = 0.0;
 	double c_stop = 0.0;
+	char buffer[1000 + 1] = {'\0'};
 	if (cp_handle) {
 		GList *tmp_src_list = NULL;
 		unsigned long long t_size = 0;
@@ -300,7 +301,7 @@ static void *__mf_copy_thread_func(void *data)
 						t_size += size;
 					}
 				} else {
-					mf_fo_loge("Unable to access [%s]. error - %s", s_path, strerror(errno));
+					mf_fo_loge("Unable to access [%s]. error - %s", s_path, strerror_r(errno,buffer,1000));
 					__mf_copy_msg_cb(MF_MSG_ERROR, s_path, 0, (MF_FO_ERR_SRC_CLASS | _mf_fo_errno_to_mferr(errno)), cp_handle);
 					goto ERROR_END_THREAD;
 				}

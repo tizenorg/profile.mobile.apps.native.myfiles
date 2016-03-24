@@ -410,7 +410,8 @@ inline bool _mf_fo_check_exist(const char *path)
 
 int _mf_fo_errno_to_mferr(int err_no)
 {
-	mf_error("err_no is [%d] error - %s", err_no, strerror(err_no));
+	char buffer[1000 + 1] = {'\0'};
+	mf_error("err_no is [%d] error - %s", err_no, strerror_r(err_no,buffer,1000));
 
 	int err = MF_FO_ERR_SET(MF_FO_ERR_UNKNOWN);
 	switch (err_no) {

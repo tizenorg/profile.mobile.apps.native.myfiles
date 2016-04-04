@@ -614,7 +614,7 @@ void mf_callback_cancel_cb(void *data, Evas_Object *obj, void *event_info)
 
 	if (ap->mf_Status.more == MORE_DEFAULT) {
 		if (ap->mf_Status.view_type == mf_view_root_category) {
-			mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
+			mf_navi_bar_title_content_set(ap, LABEL_MYFILE_CHAP);
 		} else if (ap->mf_Status.view_type == mf_view_recent) {
 			mf_navi_bar_title_content_set(ap, MF_LABEL_RECTENT_FILES);
 		} else {
@@ -3010,7 +3010,7 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 			if (ap->mf_Status.flagNoContent) {
 				ap->mf_Status.more = MORE_DEFAULT;
 				mf_naviframe_title_button_delete(ap->mf_MainWindow.pNaviItem);
-				mf_navi_bar_title_content_set(ap, ap->mf_Status.categorytitle);
+				mf_navi_bar_title_content_set(ap, LABEL_MYFILE_CHAP);
 				elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
 			}
 			break;

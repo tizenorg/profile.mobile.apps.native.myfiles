@@ -175,7 +175,7 @@ void mf_normal_view_create(void *data)
 		mf_navi_bar_title_content_set(ap, LABEL_MOVE_TO);
 	} else if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
-		mf_navi_bar_title_content_set(ap, LABEL_RENAME);
+		mf_navi_bar_title_content_set(ap, MF_LABEL_SELECT);
 	} else {
 		mf_navi_bar_title_content_set(ap, ap->mf_MainWindow.naviframe_title);
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_TRUE);

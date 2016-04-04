@@ -1104,7 +1104,7 @@ void mf_category_view_create(void *data, bool flag_show)
 	ap->mf_Status.flagViewAsRefreshView = EINA_FALSE;
 	if (ap->mf_Status.more == MORE_EDIT_RENAME) {
 		elm_naviframe_item_title_enabled_set(ap->mf_MainWindow.pNaviItem, EINA_TRUE, EINA_FALSE);
-		mf_navi_bar_title_content_set(ap, LABEL_RENAME);
+		mf_navi_bar_title_content_set(ap, MF_LABEL_SELECT);
 	}
 	t_end;
 	/*temp data free*/

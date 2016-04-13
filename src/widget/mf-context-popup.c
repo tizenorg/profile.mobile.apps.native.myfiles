@@ -448,7 +448,7 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 
 	Evas_Object *ctxpopup = NULL;
 	ctxpopup = elm_ctxpopup_add(ap->mf_MainWindow.pWindow);
-	//elm_object_style_set(ctxpopup, "more/default");
+	elm_object_style_set(ctxpopup, "more/default");
 
 	elm_ctxpopup_direction_priority_set(ctxpopup, ELM_CTXPOPUP_DIRECTION_UP,
 	                                    ELM_CTXPOPUP_DIRECTION_UNKNOWN,

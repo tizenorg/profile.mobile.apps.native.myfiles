@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d õnnestus, %2$d nurjus"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d õnnestus"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Rakenda kõikidele üksustele"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Valmist. allalaadimiseks..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Seade on ühendatud Wi-Fi võrku. Sõltuvalt teie paketist võivad mobiilsidevõrguga ühenduse loomisel rakenduda lisatasud."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Jagamine"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Jaga:"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobiilne andmeside on välja lülitatud. Looge selle asemel ühendus Wi-Fi võrguga või lülitage mobiilne andmeside sisse ja proovige uuesti."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d üksust kustutatakse."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Mälukaart on eemaldatud."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "See üksus kustutatakse."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Õnnestus"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Allalaadimine..."
@@ -22,50 +28,8 @@ msgstr "Allalaadimine..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Mälu pole piisavalt."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Tühistatud."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Allalaadimine nurjus."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Õnnestus"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Loo"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Kustutatud."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Mälukaart on eemaldatud."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Otsimine..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Võrguühenduse tõrge."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Kustuta kaust"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Sisestage kausta nimi."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Allalaetud rakendused"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Ilmnes võrguühenduse tõrge. Kõne lõpetati. Kas luua võrguühendus uuesti?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Salvesta"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Jah"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ei"
@@ -73,122 +37,32 @@ msgstr "Ei"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Lisa otsetee"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Kustuta"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Kustuta otsetee"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Nimeta otsetee ümber"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Otsi"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Seaded"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Jaga"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Mälukasutus"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ära enam kuva"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Baiti"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Ühenduse loomine serveriga pole võimalik."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privaatne"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Sisestage kausta nimi."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Eemalda otsetee"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Aku peaaegu tühi"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 fail"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Minu album"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Lisa"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Automaatne salvestamine"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Ükskõik milline"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Võimalikud kasutusviisid"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Baiti"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Sisu"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Loomise kuupäev"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Kuupäev"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Kustutada valitud üksused?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "kB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumendid"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Käivita"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Failinimi"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Failitüüp"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Kausta nimi"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Edastamine"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS-teave"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS-laius"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS-pikkus"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS-i versioon"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Pildid"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Võimatu"
@@ -202,68 +76,17 @@ msgstr "Intervall"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Viimati muudetud"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Loend ja üksikasjad"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Asukoht"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC andmed lähtestatakse..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Minu videoklipid"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Telefoni mälus pole piisavalt vaba ruumi. Kustutage mõned üksused ja proovige uuesti."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Faile pole"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Hiljuti avatud faile pole"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Hiljutisi faile pole"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d faili"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d üksus"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d üksust"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Võimalik"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Prindi"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Nim üm"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Õiguse olek"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Helinad"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Jaga"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Näita peidetud faile"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Helid"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Mälukasutus"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Kellaaeg"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Piiratud aeg"
@@ -271,35 +94,11 @@ msgstr "Piiratud aeg"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tüüp"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Piiramatu"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Üles"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Kehtivus"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Tarnija"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videod"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Taustpildid"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Lisa avaekr.-le"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Ekspordi siia"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Mine Minu Failidesse"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Avaleht"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Asenda"
@@ -307,92 +106,26 @@ msgstr "Asenda"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Otsi kaustadest"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Määra siia"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Täpsem otsing"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Heli"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Loo ühendus mobiilsidevõrguga"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Looge ühendus Wi-Fi võrguga"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Loendamine"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Sisestage kausta nimi."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Kohalik"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Uus kaust"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Hiljutised failid"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Eemalda fail"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Jaga Heli ja võtte pil."
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Hoiustamine"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Kausta ei saa luua"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Vali kõik"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Jah"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Sisestage kausta nimi"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Lisa otseteedesse"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Pildifailidena"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Videofailidena"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Helistaja helin"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Tihenda"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Loo kaust"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Kuupäev (kõige hilisemast)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Kuupäev (kõige vanemast)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Paki lahti"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Paki lahti siia"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Vaikimisi helin"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Üksikasjalik vaade"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Muuda"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Ekstrakti"
@@ -400,56 +133,17 @@ msgstr "Ekstrakti"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Ekstrakti praegusesse kausta"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Ava kaust"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Peida faililaiend"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Üksused"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Nimi"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Loendi järgi"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Teisalda siia"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Nimi"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Ava faili asukoht"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Isiklik leht"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Salvesta heli"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Regist. kontaktidesse"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Nimeta ümber"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Ümber nimetatud."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Nimeta kaust ümber"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Ühenduse loomine serveriga pole võimalik."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Salvesta siia"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Otsi lähedalasuv. seadmeid"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Valitud"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Jaga linki"
@@ -457,47 +151,14 @@ msgstr "Jaga linki"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Kuva faililaiend"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Tükelda"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sortimisalus"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Pisipildivaade"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Kuvamisviis"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Kuva loendi järgi"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Vaata pisipiltidena"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 üksus kustutatakse."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Tõusev"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Kustutada?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Jätka"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Teisaldamine nurjus."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "BT-peakomplekt sees."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Kustutada valitud üksus?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Langev"
@@ -505,35 +166,8 @@ msgstr "Langev"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM kaitsega fail. Ei saa saata."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM-fail ei ole saadaval."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Failinimi on juba kasutusel."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Kaustanimi on juba olemas."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Vorming"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Saatja"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Sisendtekst"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Vigane failinimi."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Laadimine..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Saavutatud on maksimaalne kaustade arv."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Teisaldamine nurjus."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Nimi on tühi."
@@ -544,41 +178,17 @@ msgstr "Ei ole piisavalt mälu."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Mälu pole piisavalt. Kustutage mõned üksused ja proovige uuesti."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Pole piisavalt mälu. %s saadaval."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Kleebi siia"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d uksust kustutatakse."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Loast keelduti."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Kas eemaldada hiljutiste failide loendist?"
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Kas eemaldada otseteedest?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Eemaldada?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Sama failinimi on juba olemas!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "See nimi on juba kasutusel."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Vali üksus"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Saatmine nurjus."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Otsetee on lisatud."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Kustuta"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Sihtkaust on lahtekausta alamkaust."
@@ -586,11 +196,8 @@ msgstr "Sihtkaust on lahtekausta alamkaust."
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Sihtkaust ja lahtekaust on samad."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Ühendus seadmega on katkestatud"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Seda faili pole olemas."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Otsi"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Ei saa kopeerida."
@@ -598,53 +205,17 @@ msgstr "Ei saa kopeerida."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Ei saa teisaldada."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Seaded"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Seda toimingut ei saa teostada. Ilmnes vorgutorge."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Kõne ajal ei saa esitada."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Kellaaeg"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "DRM-kaitsega sisu ei saa määrata helinaks või teavituse märguandeks."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Lähedalasuvate seadmete otsimiseks peate olema ühendatud Wi-Fi võrku. Looge ühendus Wi-Fi kaudu ja proovige uuesti."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Tagasi"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Kopeeri"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Kustuta"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Muuda"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Teisalda"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Otsi"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Sortimine:"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Kuva:"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Tühista"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Tühista"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Üksikasjad"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Kõik"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Piiramatu"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Välismälu"
@@ -652,20 +223,8 @@ msgstr "Välismälu"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Mälukaart"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Telefon"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Üles"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Tihendatud"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Lahti pakitud"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Faili allalaadimine..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videod"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Failid on tihendatud"
@@ -673,38 +232,71 @@ msgstr "Failid on tihendatud"
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Failid on ekstraktitud"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Fail on imporditud."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Seadmeid ei leitud. Otsimine jätkub taustal."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Kataloog"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Vali kõik"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "kB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumendid"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Pildid"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Faile pole"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Mälukasutus"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Seda faili pole olemas."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Tagasi"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Kõik"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Loo kaust"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Üksused"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Ühenda"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Teavituse vaikeheli"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Nimi"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sortimisalus"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Lisa otsetee"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 üksus kustutatakse."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Kustutada üksused?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "BT-peakomplekt sees."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Nimeta ümber"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Vorming"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Seaded"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d uksust kustutatakse."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Eemalda"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Loast keelduti."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Tühista"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Kustuta üksus"
@@ -715,23 +307,11 @@ msgstr "Vali üksused"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Tulemusi ei leitud"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Kustutada %d üksust?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Kustutada üksus?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 üksus on valitud."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Sisestati vale tähemärk. Proovige uuesti"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d üksust on valitud."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Vaikne"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Allalaadimise alustamine..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vali üksus"
@@ -739,32 +319,11 @@ msgstr "Vali üksus"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Te voite valida kuni %d uksust."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Allalaet. failid"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Kustutada?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Teisalda"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Kopeeri"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Teisaldamine..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopeerimine..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Kustutamine..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Toiming nurjus."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Valitud"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Teisaldatud."
@@ -772,143 +331,35 @@ msgstr "Teisaldatud."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Kopeeritud."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Sortimisalus"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Nurjus."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Valmis"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kaart"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Seadme mälu"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Lisa isiklikku mällu"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Eemalda isiklikust mälust"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Kas kustutada see üksus?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Eemalda kaustast Privaatne"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Teisalda kausta Privaatne"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Allalaet. failid"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Kustutamine..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Nurjus."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kaart"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Lubatud arv märke on täis."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Eemaldamine..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Isiklik mälu"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Vormindamine on lõpetatud."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Nimi (Z‒A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Nimi (A‒Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Ekraani jäädvustamine"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Tulemusi ei leitud."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Sõnumi märguanne"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Üksikasjad"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Sisestage nimi."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Minu Failid"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Lisatud."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Töötlemine..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Toetuseta failitüüp."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Eemaldada?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Privaatne sisu"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Kopeeri asukohta"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Teisalduskoht:"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Otsetee lisamine nurjus."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Mälu pole piisavalt. Kustutage mõned üksused"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Eemaldatud."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Privaatne mälu"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Valik tegemata."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Jaga"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Kuva:"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Loend"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Kuva"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Salvesta nimega"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Eemaldamine ebaõnnestus."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Vanemate hinnang"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Failinimi on juba kasutusel."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Hääl"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi pole saadaval. Sõltuvalt teie paketist võivad mobiilsidevõrguga ühenduse loomisel rakenduda lisatasud."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Tahemarkide maksimaalne arv (%d) on saavutatud."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Toetuseta failitüüp."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Valmistum..."
@@ -916,20 +367,8 @@ msgstr "Valmistum..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valitud"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Kustuta üksused"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Allalaadimisi pole"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Allalaadimine on lõpule viidud"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Allalaadimishaldur"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Uksused kuvatakse siin parast nende allalaadimist."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Allalaadimine tühistati"
@@ -958,14 +397,11 @@ msgstr "Vaikemälu on täis"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Vanemad"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Hoiundamine"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Üksikasjad"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Eemaldamine..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD-kaart"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Töötlemine..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Seadme mälu"
@@ -973,86 +409,20 @@ msgstr "Seadme mälu"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Serveri teavitamine..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d uksust kustutatakse."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Seda faili ei leita. Toksake käsku Laadi alla, et proovida seda uuesti alla laadida."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Faili ei saa avada"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Selle faili avamiseks ei leita rakendust."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Uuesti proovimiseks toksake käsku Laadi alla."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 üksus kustutatakse."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "DRM-sisu aktiveerimine..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Selle toimingu teostamiseks ei leita rakendust."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Salvestamiskoht"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Importimine"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Tühista"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Vali kõik"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d on valitud"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Lae alla"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Täna"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Eile"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Kustuta"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Asenda"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Rakenda kõikidele üksustele"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Loo zip-fail"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Zip-faili ekstraktimine"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Minu Failid"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Veeb"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Allalaadimise ajalugu"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Ajalugu puudub"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Lihtne jagamine"
@@ -1075,74 +445,11 @@ msgstr "Nende üksuste teisaldamine kustutab need Dropboxist. %d üksust teisald
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Selle üksuse teisaldamine kustutab selle Dropboxist. 1 üksus teisaldatakse."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Vali salvestamise asukoht"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Lõpeta"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Laadi üles"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Faili üleslaadimine nurjus"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Lõpeta üleslaadimised"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Uuesti proovimiseks toksake käsku Laadi üles."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Üleslaadimine lõpetatakse, kuid faili ei kustutata."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Hiljuti\nvaadatud"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Andmeid ei saa salvestada"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Seadme mälus pole piisavalt ruumi. Avage menüü Seaded > Toide ja mälu > Mälu, seejärel kustutage mõned failid ja proovige uuesti."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Teie SD-kaardil pole piisavalt ruumi. Avage menüü Seaded > Toide ja mälu > Mälu, seejärel kustutage mõned failid ja proovige uuesti."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Üleslaadimine:"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropboxi üleslaadimised"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Isiklik"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "baiti"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Lisa"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Avaleht"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Alarm"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Muud"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Veel"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Ava"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Tundmatu tõrge."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Kausta nimi ei saa olla „.” või „..”."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ära näita peidetud faile"
@@ -1150,104 +457,23 @@ msgstr "Ära näita peidetud faile"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Näita peidetud faile"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Tundmatu"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Otsetee nimi on juba kasutusel."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Põhiline"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fail"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Failid"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Kaust"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Kaustad"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Süsteem"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Nimi"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Helifailid"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Dokumendid"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Allalaaditud rakendused"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Pildid"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Videod"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Tühista"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Tühista"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Loo"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Kustuta"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Eemalda"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Nimeta ümber"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Desinstalli"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Otsetee lisamine"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Helifailid"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Kopeerimine"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopeeri asukohta"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Kausta loomine"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Kustuta otsetee"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Üksikasjad"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Dokumendid"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Allalaetud rakendused"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Pildid"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Teisaldamine"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Liigu kohta"
@@ -1255,43 +481,7 @@ msgstr "Liigu kohta"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d on valitud"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Hiljutised failid"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Eemalda"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Nimeta ümber"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Seaded"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Otseteed"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Sortimisalus"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Desinstallimine"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Üleslaadimine asukohta"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Videod"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Kuva:"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Kõik"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Otseteed"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Sisaldab"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Seadme mälu"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Vorming"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Asukoht"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD-kaart"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Näita faililaiendeid"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Näita peidetud faile"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Suurus"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Tüüp"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Tarnija"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Faile pole"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Tõusev"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopeeri"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Loo kaust"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Langev"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Üksikasjalik loend"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Üksikasjad"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ära näita enam"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Faili tüüp"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Loend"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Teisalda"
@@ -1366,50 +502,14 @@ msgstr "Teisalda"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Eemalda"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Suurus"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Kellaaeg"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Tüüp"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Desinstalli"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 uksus eemaldatakse."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 otsetee kustutatakse."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Kopeerimine..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Teisaldamine..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d uksust eemaldatakse."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d otseteed kustutatakse."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Eemaldamine..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Sõltuvalt teie paketist võivad rändluse ajal mobiilse andmeside kasutamisel rakenduda lisatasud."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Saadaolevad kasutused"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Loomise kuupäev"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Kirjeldus"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Suunamine"
@@ -1423,29 +523,14 @@ msgstr "Eraldusvõime"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Suurus kokku"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Kehtivus"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Sihtkaust on lähtekausta alamkaust."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Sihtkaust ja lähtekaust on samad."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Otsetee lisamine nurjus."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Üksuse kopeerimine nurjus."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Üksuse kustutamine nurjus."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Üksuse teisaldamine nurjus."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Üksuse eemaldamine nurjus."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failinimi on juba kasutusel"
@@ -1459,23 +544,17 @@ msgstr "Otsetee on lisatud."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Otsetee on juba olemas"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Värskenda"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d üksust kustutatakse."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d rakendust desinstallitakse."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s desinstallitakse."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Allalaadimine on lõpule viidud"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Suurus"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Loendi-vaade"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Hoiundamine"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Kausta nimi on juba kasutusel."
@@ -1483,23 +562,11 @@ msgstr "Kausta nimi on juba kasutusel."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Kohalik mälu"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Seadme mälu"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Pole sisse logitud."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Kõik failid"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Pilvetalletus"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Järjestus"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Otseteed"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Kellaaeg"
@@ -1507,44 +574,32 @@ msgstr "Kellaaeg"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Deinstalli"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Sisaldab"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Nägu pole tuvastatud"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Vali kõik"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Lae alla"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Juba olemas."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Täna"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ei saa teisaldada. Sihtkaust ühtib allikaga."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Loo kaust"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Veel"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Teisalda siia"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Kleebi siia"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Määra"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Eile"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Seda failitüüpi ei toeta ükski teie seadmes olev rakendus."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d faili kustutatakse."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Tundmatu tõrge."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Failid on saadetud"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Tundmatu"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Süsteem"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "VALMIS"
@@ -1555,53 +610,11 @@ msgstr "TÜHISTA"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "KUSTUTA"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Nimeta ümber"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Vali üksus"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Üleslaadimisi pole"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Üksused kuvatakse siin pärast nende üleslaadimist."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Seaded"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Andmeid ei saa salvestada"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Teie SD-kaardil pole piisavalt ruumi. Avage menüü Seaded > Toide ja mälu > Mälu, seejärel kustutage mõned failid ja proovige uuesti."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Seadme mälus pole piisavalt ruumi. Avage menüü Seaded > Toide ja mälu > Mälu, seejärel kustutage mõned failid ja proovige uuesti."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Tõrge"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Mälu on täis."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 üksus kustutatakse Dropboxist."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d üksust kustutatakse Dropboxist."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Mobiilne andmeside on välja lülitatud. Looge ühendus Wi-Fi võrguga või lülitage mobiilne andmeside sisse ja proovige uuesti."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Seaded"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Isiklik mälu"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Tee"
@@ -1612,23 +625,8 @@ msgstr "Maksimaalne tähemärkide arv (%d) on saavutatud"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Vali mälu"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Allalaadimiste ajalugu"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Allalaadimiste ajalugu"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Allalaadimine..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Allalaadimised"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Allalaadimisi pole"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Allalaadimine nurjus"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Aegub: %s"
@@ -1636,30 +634,114 @@ msgstr "Aegub: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Aegus: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Faili allalaadimine nurjus"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Proovige fail uuesti alla laadida või eemaldage see allalaadimise järjekorrast."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Proovi uuesti"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Eemalda"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Kategooria"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Kausta nimi on juba kasutusel"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Faili nimi kasutusel"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "See failinimi (%s) on sihtkaustas juba kasutusel."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "See kaustanimi (%s) on sihtkaustas juba kasutusel."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Kustuta"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Kustuta ajalugu"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Tihendamine..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Ekstraktimine..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "ZIP-faili lahtipakkimine"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Uus kaust %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Kausta nimi ei saa olla „.” või „..”."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Seaded"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Üksikasjalik loend"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Üksusi ei saa lahti pakkida"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Pole piisavalt ruumi"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP-faili loomine"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ajalugu puudub"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Ära näita enam"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Veel"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Tühistamine..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Toimingut ei saa teha"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fail"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Kaust"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Kaustad"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Nimi"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Teie seadme mälus pole piisavalt ruumi. Avage menüü Seaded > Mälu ja RAM > Mälu > Üksikasjad, seejärel kustutage mõned failid ja proovige uuesti."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Teie SD-kaardil pole piisavalt ruumi. Avage menüü Seaded > Mälu ja RAM > Mälu > Üksikasjad, seejärel kustutage mõned failid ja proovige uuesti."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Loend"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Suurus"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 uksus eemaldatakse."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Kaustale ei saa panna nime %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "See fail kustutati, teisaldati või nimetati ümber. Faili uuesti allalaadimiseks toksake käsku Laadi alla või selle eemaldamiseks allalaadimiste ajaloost toksake käsku Eemalda."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Värskenda"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s desinstallitakse."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Suurus"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Seadme mälu"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Pilvetalletus"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Määra"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Nimeta ümber"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Minu Failid"
 

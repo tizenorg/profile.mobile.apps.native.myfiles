@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d ခု ေအာင္ျမင္ထားသည္၊ %2$d ခု မေအာင္ျမင္ပါ"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d ခု ေအာင္ျမင္စြာၿပီးဆုံးထားသည္"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "အရာဝတၳဳမ်ားအားလုံး က်င့္သုံးပါ"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "ေဒါင္းလုတ္လုပ္ရန္ ျပင္ဆင္ေနဆဲ..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi ကြန္ယက္တစ္ခုသို႔ သင့္ကိရိယာ မခ်ိတ္ဆက္ရေသး။ မိုဘိုင္း ကြန္ယက္တစ္ခုသို႔ ခ်ိတ္ဆက္ျခင္းက သင့္ ေငြေပးေခ်မႈ အစီအစဥ္ေပၚ မူတည္၍ အပိုေငြ က်ခံရႏိုင္သည္။"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "မိုဘိုင္းေဒတာကို ပိတ္ထားပါသည္။ ၎အစား Wi-Fi ကြန္ရက္ကို ခ်ိတ္ဆက္ပါ (သို႔) မိုဘိုင္း ေဒတာကို ဖြင့္ၿပီး ထပ္ႀကိဳးစားပါ။"
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "မွတ္ဥာဏ္ကတ္ ဖယ္ရွားၿပီးပါၿပီ။"
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "ေအာင္ျမင္မႈ"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "ေဒါင္းလုတ္ လုပ္ေနပါသည္…."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "မွတ္ဥာဏ္လုံေလာက္ေအာင္ မရွိပါ"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "ဖန္တီးပါ"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "မဟုတ္"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "ျဖတ္လမ္းကုိ ေပါင္းထည့္ပါ"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "ျဖတ္လမ္းကို ဖ်က္ပစ္ပါ"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "ၾကားျဖတ္ကို အမည္ေျပာင္းပါ"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "ထပ္မျပပါႏွင့္"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "ဘိုက္"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "သီးသန္႔႔"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ဖုိင္တြဲ အမည္ျဖည့္ပါ။"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "ျဖတ္လမ္း ျဖဳတ္ပါ"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "ဘိုက္"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "လုိက္နာေဆာင္ရြက္ပါ"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "မျဖစ္ႏုိင္ပါ"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "တစ္ဦးခ်င္း"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "အၾကား"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "ေနာက္ဆံုး မြမ္းမံမႈ"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d အရာမ်ား"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "ျဖစ္ႏိုင္ေသာ"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "ညာဘက္ အေျခအေန"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "မွ်ေဝပါ"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "အနားယူခ်ိန္"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "အမ်ဳိးအစား"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "တရား၀င္မႈ"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "ဤေနရာတြင္ တင္ပို႔ပါ"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "အစားထိုးမလား?"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "ဖိုင္တြဲအားလံုး ရွာပါ"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "မိုဘိုင္း ကြန္ရက္သို႔ ခ်ိတ္ဆက္ပါ"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "ဖုိင္တြဲအသစ္"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "ဖိုင္တြဲကို ဖန္တီး၍မရပါ"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ဟုတ္ကဲ့"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "ဖုိင္တြဲ အမည္ ထည့္ပါ"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "ဖိသိပ္ပါ"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "ဤေနရာမွာ ဖိသိပ္မႈေျဖပါ"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "ႏုတ္ပါ"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "လက္ရွိ ဖိုင္တြဲသို႔ ထုတ္ယူပါ"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "ဖိုင္ တိုးခ်ဲ႕ျခင္းမ်ား ဝွက္ထားပါ"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "ဖိုင္တည္ေနရာကို ဖြင့္ပါ"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "ဆာဗာသုိ႔ ခ်ိတ္၍ မရႏုိင္ပါ။"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "ဤေနရာတြင္ သိမ္းဆည္းပါ"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "လင့္ခ္ ေဝမွ်ပါ"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "ဖိုင္တိုးခ်ဲ႕ထားမႈကို ျပပါ"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "အက်ဥ္းခ်ံဳးျမင္ကြင္း"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "အျဖစ္ ၾကည့္႐ႈ"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "ငယ္ရာမွ ၾကီးရာသို႔"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "ၾကီးရာမွ ငယ္ရာသို႔"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM ဖိုင္။ ပို႔၍မရပါ။"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "တရားမ၀င္ေသာ ဖုိင္အမည္။"
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "အမည္ ဗလာျဖစ္ေနပါသည္"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "ဟိပ္မွတ္ဉာဏ္လုံလုံေလာက္ေလာက္ မရွိပါ။"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "မွတ္ဥာဏ္ မလံုေလာက္ပါ။ ပစၥည္း အခ်ိဳ႕အား ဖ်က္ပစ္ျပီး ထပ္ၾကိဳးစားပါ။"
+
+msgid "IDS_MF_SK_OK"
+msgstr "အုိေက"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "ျဖတ္လမ္းမ်ားမွ ေရႊ႕ေျပာင္းမလား?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "ေပးပို့မႈမေအာင္ျမင္ပါ"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "ဖ်က္ပစ္ပါ"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "သြားေရာက္သိမ္းဆည္းမည့္ ဖုိင္တဲြသည္ အရင္းအျမစ္ဖုိင္တြဲ၏ ဖုိင္ခြဲတစ္ခုျဖစ္ပါသည္။"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "သြားေရာက္သိမ္းဆည္းမည့္ ဖုိင္တဲြသည္ ရယူသုံးစြဲသည့္ စာတြဲႏွင့္အတူတူပင္ျဖစ္ပါသည္။"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "ရွာေဖြပါ"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "ကူးယူ၍ မရပါ။"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "ေရြ႕လ်ား၍မရပါ။"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "သတ္မွတ္ခ်က္မ်ား"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "ဤလႈပ္ရွားမႈ လုပ္ေဆာင္ရန္ မရႏိုင္ပါ။ ကြန္ယက္ အမွား ျဖစ္သြားသည္။"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "အခ်ိန္"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "အကန႔္အသတ္မရွိ"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "ျပင္ပ သိုေလွာင္ခန္း"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "မွတ္ဥာဏ္ ကတ္"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "ဗီဒီယိုမ်ား"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "ဖိႏွိပ္ထားသည့္ ဖိုင္မ်ား"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "ထုတ္ႏႈတ္ထားသည့္ ဖိုင္မ်ား"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "အားလံုးကိုေရြးပါ"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "စာရြက္စာတမ္းမ်ား"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "႐ုပ္ပုံမ်ား"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ဖိုင္မရွိပါ"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "သိုေလွာင္ခန္း သံုးစြဲမႈ"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ဤဖုိင္တည္ရွိေနျခင္းမရွိပါ။"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ေနာက္သုိ႔သြားပါ"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "အားလံုး"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "ဖုိင္တြဲဖန္တီးပါ"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "အခ်င္းအရာမ်ား"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "ခ်ိတ္ဆက္ပါ"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "အမည္"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "ျဖင့္ စဥ္ပါ"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "အိုင္တမ္ ၁ ခု ဖ်က္ပစ္မည္။"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "ဖ်က္ျခင္း မေအာင္ျမင္ပါ"
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ပုံစံ"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d အရာကို ဖ်က္ပစ္ပါလိမ့္မည္။"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ခြင့္ျပဳခ်က္ေပးရန္ ျငင္းပယ္ထားပါသည္"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ပယ္ဖ်က္"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "အရာဝတၳဳကို ဖ်က္ပါ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "အရာမ်ားကို ေရြးခ်ယ္ပါ"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "ရလဒ္မ်ား မေတြ႔ပါ"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "ထပ္မံႀကိဳးစားပါ။"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "လႊဲေျပာင္းကူးယူမႈစတင္ေနပါသည္.."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "အရာတစ္ခု ေရြးခ်ယ္ပါ"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "အမ်ဳိးအမည္ %d ခုအထိ ေရြးႏိုင္သည္။"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "ေရႊ ႔ ေနပါသည္….."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "ကူးယူေနပါသည္…"
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "ေရႊ ႔ၿပီးၿပီ"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "ကူးယူၿပီးပါၿပီ"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "သီးသန္႔မွ ျဖဳတ္ပါ"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "သီးသန္႔သို႔ ေရႊ႕ပါ"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ေဒါင္းလုတ္မ်ား"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "ဖ်က္ေနပါသည္…"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "မေအာင္ျမင္ပါ"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD ကတ္"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "အမ်ားဆုံး အကၡရာအေရအတြက္သု႔ိေရာက္ပါၿပီ။"
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "ကြ်ႏု္ပ္၏ ဖုိင္မ်ား"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "ဘာမွ ေရြးခ်ယ္မထားပါ။"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "မေထာက္ပ့ံသည့္ ဖုိင္အမ်ဳိးအစား။"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "ျပင္ဆင္ေနသည္..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d ေရြးထားသည္"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "ေဒါင္းလုတ္မ်ား မရွိပါ"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "ေဒါင္းလုတ္ ပယ္ဖ်က္ၿပီးပါၿပီ"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "ေဒါင္းလုတ္ မေအာင္ျမင္ပါ"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "သင့္ကိရိယာ သိုေလွာင္ခန္းထဲ ေနရာ မေလာက္ပါ။ ေဒတာအခ်ဳိ႕ ဖ်က္ရန္ %s သတ္မွတ္ခ်က္မ်ားသို႔ သြားပါ (သို႔) SD ကတ္တစ္ခု ထည့္သြင္းပါ။"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "သင့္ကိရိယာ သိုေလွာင္ခန္းထဲ ေနရာ မေလာက္ပါ။ သိုေလွာင္ခန္း ေနရာအခ်ဳိ႕ လြတ္ေစရန္ %s သတ္မွတ္ခ်က္မ်ားသို႔ သြားၿပီးေနာက္ ျပန္ၾကိဳးစားပါ။"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "သင့္ SD ကတ္ေပၚတြင္ ေနရာ မေလာက္ပါ။ ေဒတာအခ်ဳိ႕ ဖ်က္ရန္ %s သတ္မွတ္ခ်က္မ်ားသို႔ သြားပါ (သို႔) အသင့္လုပ္ၿပီး သိုေလွာင္ခန္း တည္ေနရာကို ကိရိယာသို႔ ေျပာင္းပါ။"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "သင့္ SD ကတ္ေပၚတြင္ ေနရာ မေလာက္ပါ။ ေဒတာအခ်ဳိ႕ ဖ်က္ရန္ %s သတ္မွတ္ခ်က္မ်ားသို႔ သြားၿပီးေနာက္ ျပန္ၾကိဳးစားပါ။"
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "သိုေလွာင္ခန္းသို႔ သြားပါ"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "အသင့္လုပ္ၿပီး သိုေလွာင္ခန္း ျပည့္ေနသည္"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "ပုိေဟာင္းေသာ"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "အေသးစိတ္"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "လုပ္ငန္းေဆာင္ရြက္ေနပါသည္…."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "ကိရိယာ၏ သိုေလွာင္ခန္း"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "ဆာဗာကို အသိေပးေနဆဲ..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "ဖိုင္ကို ဖြင့္လို႔ မရႏိုင္ပါ"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "ထပ္ႀကိဳးစားရန္ “ေဒါင္းလုတ္” ကိုႏွိပ္ပါ။"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d ကို ေရြးထားပါသည္"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "ေဒါင္းလုတ္ ေနာက္ေၾကာင္း"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "႐ိုးရွင္း မၽွေဝ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "အက္ပ္ ထည့္သြင္း၍ မရႏိုင္ပါ"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "TPK ဖိုင္မ်ားသာလၽွင္ ထည့္သြင္းႏိုင္သည္။ Tizen စတိုးမွ အက္ပ္မ်ားသာလၽွင္ ေဒါင္းလုတ္လုပ္ရန္ အႀကံျပဳပါသည္။"
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "ဤေနရာမွ အရာဝတၳဳမ်ားကို ဖ်က္ပစ္ျခင္းအားျဖင့္ Dropbox မွ ယင္းပစၥည္းတို႕ကိုလည္း ဖ်က္ပစ္သြားပါမည္။ အရာဝတၳဳမ်ား %d ခုတို႕ကုိ ဖ်က္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "ဤေနရာမွ အရာဝတၳဳကို ဖ်က္ပစ္ျခင္းအားျဖင့္ Dropbox မွ ယင္းပစၥည္းကိုလည္း ဖ်က္ပစ္သြားပါမည္။ အရာဝတၳဳ ၁ ခုကုိ ဖ်က္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "ဤအရာဝတၳဳမ်ား ေရႊ႕ျခင္းသည္ Dropbox မွ ယင္းတို႕ကို ဖ်က္ပစ္သြားမည္။ အရာဝတၳဳ %d ခုတို႕ကို ေရႊ႕သြားမည္။"
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "ဤအရာဝတၳဳ ေရႊ႕ျခင္းသည္ Dropbox မွ ယင္းကို ဖ်က္ပစ္သြားမည္။ အရာဝတၳဳ ၁ ခုကို ေရႊ႕သြားလိမ့္မည္။"
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "မၾကာမီက ၾကည့္ခဲ့ၿပီးပါၿပီ"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "ဘုိက္မ်ား"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "ဝွက္ထားေသာ ဖိုင္မ်ားကို မျပပါႏွင့္"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "ဝွက္ထားေသာ ဖိုင္မ်ားကို ျပပါ"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "ျဖတ္လမ္း အမည္သည္ လက္ရွိသုံးေနျပီး ျဖစ္သည္။"
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "အေျခခံ"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "ဖုိင္မ်ား"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "ေအာ္ဒီယို ဖိုင္မ်ား"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "သို႔႔ ေကာ္ပီကူးပါ"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "ေဒါင္းလုတ္ လုပ္ထားသည့္ လုပ္ငန္းသံုးပရိုဂရမ္မ်ား"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "သို႔ ေရႊ႕ပါ"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d ကို ေရြးထားပါသည္"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "ျဖတ္လမ္းမ်ား"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "ပါဝင္သည္"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "ဖိုင္မ်ား မရွိပါ"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "ကူးပါ"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "ေရႊ႕ပါ"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "ျဖဳတ္ပါ"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "ၾကားျဖတ္ ၁ ခုကို ဖ်က္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "ျဖတ္လမ္း %d ခု ဖ်က္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "ရရွိႏုိင္ေသာ အသုံးမ်ား"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "ထပ္ဆင့္ပုိ႔ျခင္း"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "ေနာက္ဆံုး မြမ္းမံျခင္း"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "ပုံရိပ္ျပတ္သားမႈ"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "စုစုေပါင္း အရြယ္အစား"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "တည္ေနရာ ဖုိင္တြဲသည္ မူရင္း ဖုိင္တြဲ၏ အခြဲျဖစ္သည္။"
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "အရာပစၥည္းကို ေကာ္ပီကူးရန္ မေအာင္ျမင္ပါ။"
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "အရာပစၥည္းကို ေရႊ႕ရန္ မေအာင္ျမင္ပါ။"
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "သံုးေနဆဲ ဖုိိင္အမည္"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "အတိုေကာက္မ်ား အမ််ားဆုံး အေရအတြက္ (%d) ခုသို႔ ေရာက္ေနပါၿပီ။"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "ျဖတ္လမ္း ထည့္ၿပီးၿပီ။"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "ျဖတ္လမ္း ရွိၿပီးျဖစ္သည္"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "ပစၥည္း %d ခုကုိ ဖ်က္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "အက္ပ္ %d ခုကုိ ျဖဳတ္လိမ့္မည္။"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "လႊဲေျပာင္းကူးယူမႈ ၿပီးပါၿပိ"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "သုိေလွာင္ခန္း"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "ဖိုင္တြဲအမည္ကို သုံးထားႏွင့္ၿပီးသား ျဖစ္သည္။"
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "အတြင္း သိုေလွာင္ခန္း"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "ဆိုင္းအင္ လုပ္မထားပါ။"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "မွာယူပါ"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "အခ်ိန္"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "တပ္ဆင္ထားမႈကုိ ျဖဳတ္ပါ"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "အုိေက"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "အားလံုးကိုေရြးပါ"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ေဒါင္းလုတ္"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "ယေန႔"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "မေန႔က"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "ဤဖိုင္အမ်ိဳးအစားကို သင့္ကိရိယာေပၚရွိ မည္သည့္ အပလီေကးရွင္းကမွ ေထာက္ပံ့မေပးပါ။"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "မသိေသာအမွား"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "မသိေသာ"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "ဖြဲ႕စည္းပုံ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ၿပီးၿပီ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "ဖ်က္ပါ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "ပစၥည္းတစ္ခု ေရြးပါ"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "ေဒတာ မသိမ္းဆည္း ႏုိင္ပါ"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "လမ္းေၾကာင္း"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "အကၡရာ အမ်ားဆံုး အေရအတြက္ (%d) သို႔ ေရာက္ေနပါၿပီ"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "သိုေလွာင္ခန္းကို ေရြးပါ"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "ေဒါင္းလုတ္လုပ္ေနသည္..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "သက္တမ္းကုန္မည့္ ရက္ : %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "သက္တမ္းကုန္ ရက္ : %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ဖိုင္တြဲ အမည္ (%s) သည္ ဦးတည္ရာ ေနရာဖိုင္တြဲတြင္ သုံးထားၿပီးျဖစ္သည္။"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "ဖ်က္ပစ္ပါ"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "မွတ္တမ္းေဟာင္း ရွင္းလင္းပါ"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "အတိုခ်ဳံးေနဆဲ..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "ထုတ္ယူေနပါသည္"
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "ZIP ဖိုင္မွ အရာဝတၳဳမ်ား ေဖာ္ထုတ္ပါ"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "ဖိုင္တြဲ အသစ္ %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "“.” (သို႔) “..” ကဲ့သို႔ဖိုင္တြဲအမည္ကို သတ္မွတ္၍မရႏိုင္ပါ။"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "သတ္မွတ္ခ်က္မ်ား"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "အေသးစိတ္ စာရင္း"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "အရာဝတၳဳမ်ားကို ေဖာ္ထုတ္၍ မရႏိုင္ပါ"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "ေနရာမလုံေလာက္ပါ"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP ဖိုင္ ဖန္တီးပါ"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "မွတ္တမ္းမရွိပါ"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "ထပ္မံမျပပါႏွင့္"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "ေနာက္ထပ္"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "ပယ္ဖ်က္ေနပါသည္....."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "ေဆာင္႐ြက္ခ်က္ကို လုပ္ေဆာင္၍ မရႏိုင္ပါ"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "ဖုိင္"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "ဖုိင္တြဲ"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "ဖုိင္တြဲမ်ား"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "အမည္"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "သင့္ကိရိယာသိုေလွာင္ခန္းတြင္ ေနရာမလုံေလာက္ပါ။ သတ္မွတ္ခ်က္မ်ား > သိုေလွာင္ခန္းႏွင့္ RAM > သိုေလွာင္ခန္း > အေသးစိတ္အခ်က္မ်ားသို႔သြားၿပီး၊ အခ်ိဳ႕ဖိုင္မ်ားကိုဖ်က္ပစ္ၿပီး ထပ္မံႀကိဳးစားပါ။"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "သင့္ SD ကဒ္တြင္ ေနရာမလုံေလာက္ပါ။ သတ္မွတ္ခ်က္မ်ား > သိုေလွာင္ခန္းႏွင့္ RAM > သိုေလွာင္ခန္း > အေသးစိတ္အခ်က္မ်ားသို႔သြားၿပီး၊ အခ်ိဳ႕ဖိုင္မ်ားကိုဖ်က္ပစ္ၿပီး ထပ္မံႀကိဳးစားပါ။"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "စာရင္း"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "အရြယ္အစား"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "အရာဝတၳဳ ၁ ခု ျဖဳတ္ပစ္လိမ့္မည္။"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "ဖုိင္တြဲအမည္ကုိ %s အျဖစ္ မသတ္မွတ္ႏုိင္ပါ။"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "ဤဖိုင္ကို ဖ်က္ပစ္ထား၊ ေ႐ႊ႕ထား၊ (သို႔) အမည္ျပန္ေပးထားသည္။ ဖိုင္ကိုေနာက္တစ္ႀကိမ္ေဒါင္းလုတ္လုပ္ရန္ “ေဒါင္းလုတ္” ကိုႏွိပ္ပါ၊ (သို႔) ၎ကို ေဒါင္းလုတ္မွတ္တမ္းေဟာင္းမွ ဖယ္ရွားရန္ “ဖယ္ရွားပါ” ကိုႏွိပ္ပါ။"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "ျပန္လည္ လန္ဆန္းေစျခင္း"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ကို ေနရာခ်ထားမႈမွဖယ္ပစ္ပါ။"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "အရြယ္အစား"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "ကိရိယာ သိုေလွာင္ခန္း"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "ကေလာက္ သိုေလွာင္ခန္း"
+
+msgid "IDS_PB_SK_SET"
+msgstr "သတ္မွတ္"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "အမည္ျပန္ေပး"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ကၽြႏ္ုပ္၏ ဖိုင္မ်ား"
+

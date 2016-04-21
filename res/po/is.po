@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d tókust, %2$d mistókust"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d tókust"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Nota fyrir öll atriði"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Undirbý niðurhal..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Tækið er ekki tengt Wi-Fi neti. Ef tengst er í gegnum farsímakerfi kann það að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Deila með"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Deila um"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Slökkt er á farsímagögnum. Tengstu Wi-Fi neti í staðinn eða kveiktu á farsímagögnum og reyndu aftur."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d atriðum verður eytt."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Minniskort tekið úr."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Þessu atriði verður eytt."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Árangur."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Verið er að hala niður..."
@@ -22,50 +28,8 @@ msgstr "Verið er að hala niður..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ekki er nægt minni."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Hætt við."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Það er ekki hægt að hlaða niður."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Árangur."
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Búa til"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Eytt."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Minniskort tekið úr."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Verið er að leita..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Tengivilla."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Eyða möppu"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Ritið heiti möppu."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Sótt forrit"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Villa kom upp í tengingu við símkerfi. Símtalinu var slitið. Viltu tengjast símkerfinu aftur?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "Í lagi"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Vista"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Já"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nei"
@@ -73,122 +37,32 @@ msgstr "Nei"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Bæta við flýtileið"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Eyða"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Eyða flýtileið"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Breyta heiti flýtileiðar"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Leita"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Stillingar"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Deila"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Geymslunotkun"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ekki sýna aftur"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Bæti"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Ekki tókst að tengjast netþjóni."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Einkamál"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Ritið heiti möppu."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Fjarlægja flýtileið"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Lítið eftir í rafhlöðu"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 skrá"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Albúm notanda"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Bætið við frá"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Áminningar"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Hvað sem er"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Tiltæk notkun"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Bæti"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Efnisyfirlit"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Búið til"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Dagsetning"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Viltu eyða völdum hlutum?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Skjöl"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Framkvæma"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Skrárheiti"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Skráarg."
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Heiti möppu"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Framsending"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS-upplýsingar"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS-breiddargráða"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS-lengdargráða"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS-útgáfa"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Myndir"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Ekki hægt"
@@ -202,68 +76,17 @@ msgstr "Bil"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Síðast breytt"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Listi og upplýsingar"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Staðsetning"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC-gögn ræsast..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Myndskeiðin mín"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Það er of lítið minni í símanum. Eyddu einhverjum hlutum og reyndu aftur."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Engar skrár"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Engar nýlega opnaðar skrár"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Engar nýlegar skrár"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d skrár"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d atriði"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d hlutir"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Mögulegt"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Prenta"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Endurn"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Rétt staða"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Hringitónar"
-
-msgid "IDS_MF_BODY_SHARE"
-msgstr "Samnýta"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Sýna faldar skrár"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Hljóð"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Geymslunotkun"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Tími"
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Deila"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Tímasett"
@@ -271,35 +94,11 @@ msgstr "Tímasett"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tegund"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Án takmarkana"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Upp"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Gildistími"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Seljandi"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Myndskeið"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Veggfóður"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Bæta á heimaskjá"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Flytja hingað"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Opna Skrárnar mínar"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Heima"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Skip. út"
@@ -307,92 +106,26 @@ msgstr "Skip. út"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Leita í öllum möppum"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Setja hér"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Ítarleg leit"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Hljóð"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Tengjast farsímakerfi"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Tengst við Wi-Fi net"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Fjöldi"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Ritið heiti möppu."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Staðbundið"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Ný mappa"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Nýlegar skrár"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Fjarlægja skrá"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Deila hljóðum og myndum"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Geymsla"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Ekki er hægt að búa til möppu"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Velja allt"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Já"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Sláðu inn heiti möppu"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Bæta við flýtileiðir"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Sem myndaskrám"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Sem myndskeiðaskrám"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Hringitónn hringjanda"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Þjappa"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Búa til möppu"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Dagsetning (nýjasta)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Dagsetning (elsta)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Afþjappa"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Afþjappa hér"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Sjálfgefnir hringitónar"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Upplýsingaskjár"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Breyta"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Afþjappa"
@@ -400,56 +133,17 @@ msgstr "Afþjappa"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Afþjappa í þessari möppu"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Opna möppu"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Fela skráarendingu"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Hlutum"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Heiti"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Raða eftir"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Færa hingað"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Heiti"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Opna staðsetningu skráar"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Einkasíða"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Taka upp hljóð"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Skrá í tengiliði"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Endurnefna"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Endurnefnt."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Endurnefna möppu"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Ekki tókst að tengjast netþjóni."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Vista hér"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Leita að nálægum tækjum"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Valið"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Deila tengli"
@@ -457,47 +151,14 @@ msgstr "Deila tengli"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Sýna skráargerð"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Skipta í sundur"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Raða eftir"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Smámyndir"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Sjá sem"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Birta lista"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Birta eftir smámyndum"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip-þjappa"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 hlut verður eytt."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Hækkandi"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Á að eyða?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Halda áfram"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Afritun mistókst."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Ekki tókst að eyða."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Viltu eyða valda hlutnum?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Lækkandi"
@@ -505,35 +166,8 @@ msgstr "Lækkandi"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM skrá. Ekki hægt að senda."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "Það er ekki hægt að velja höfundarréttarvarða skrá."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Skráarheitið er þegar í notkun."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Sama skrárheiti er til fyrir."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Snið"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Frá"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Rita texta"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Ógilt skráarheiti."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Hleð..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Komið að hámarki möppu."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Ekki tókst að flytja."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Nafn er tómt."
@@ -544,41 +178,17 @@ msgstr "Of lítið safnminni."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Of lítið minni. Eyddu einhverjum atriðum og reyndu aftur."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Ekki er nægt minni. %s tiltækt."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Líma hingað"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d hlutum verður eytt."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Leyfi var hafnað."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Fjarlægja af lista yfir nýlegar skrár?"
+msgid "IDS_MF_SK_OK"
+msgstr "Í lagi"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Fjarlægja úr flýtileiðum?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Á að fjarlægja?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Sama skrárheiti er til fyrir!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Þetta heiti er þegar í notkun."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Velja hlut"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Sending mistókst."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Flýtileið bætt við."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Eyða"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Áfangamappa er undirmappa í upprunamöppunni."
@@ -586,11 +196,8 @@ msgstr "Áfangamappa er undirmappa í upprunamöppunni."
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Áfangamappa er sú sama og upprunamappa."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Tækið var aftengt"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Skráin er ekki til."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Leita"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Mistókst að afrita."
@@ -598,53 +205,17 @@ msgstr "Mistókst að afrita."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Ekki hægt að flytja."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Stillingar"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Ekki er hægt að framkvæma þessa aðgerð. Netvilla kom upp."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Ekki er hægt að spila á meðan símtal stendur yfir."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Tími"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Ekki hægt að velja DRM-varið efni sem hringitón eða tilkynningu."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Þú þarft að tengjast Wi-Fi neti til að leita að nálægum tækjum. Tengstu Wi-Fi neti og reyndu aftur."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "BAKKA"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Afrita"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Eyða"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Breyta"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Flytja"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Leit"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Raða eftir"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Birta sem"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Hætta við"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Hætta"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Upplýsingar"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Allt"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Án takmarkana"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Ytri geymsla"
@@ -652,20 +223,8 @@ msgstr "Ytri geymsla"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Minnisk."
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Sími"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Upp"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Þjappað."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Afþjappað."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Sæki skrá..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Myndskeið"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Skrár þjappaðar."
@@ -673,38 +232,71 @@ msgstr "Skrár þjappaðar."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Skrár afþjappaðar."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Skrá flutt inn."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Engin tæki fundust. Leit mun halda áfram í bakgrunni."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Skráasafn"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Velja allt"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Skjöl"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Myndir"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Engar skrár"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Geymslunotkun"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Skráin er ekki til."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "BAKKA"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Allt"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Búa til möppu"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Hlutum"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Tengjast"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Sjálfg. tilkynningatónn"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Heiti"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Raða eftir"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Bæta við skammvali"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 hlut verður eytt."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Eyða hlutum?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Ekki tókst að eyða."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Endurnefna"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Snið"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Stillingar"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d hlutum verður eytt."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Fjarlægja"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Leyfi var hafnað."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Hætta við"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Eyða atriði"
@@ -715,23 +307,11 @@ msgstr "Velja hluti"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Engar niðurstöður"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Viltu eyða %d hlutum?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Viltu eyða hlutnum?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 atriði valið."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Ógildur stafur sleginn inn. Reyndu aftur."
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d atriði valin."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Án hljóðs"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ræsi niðurhal..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Velja hlut"
@@ -739,32 +319,11 @@ msgstr "Velja hlut"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Hægt er velja allt að %d hluti."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Niðurhal"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Á að eyða?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Flytja"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Afrita"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Verið er að flytja..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Afritun stendur yfir..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Verið er að eyða..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Aðgerð mistókst."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Valið"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Flutt."
@@ -772,143 +331,35 @@ msgstr "Flutt."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Afritað."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Raða eftir"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Mistókst."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Lokið"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kort"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Innra minni tækis"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Setja í einkageymslu"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Fjarlægja úr einkageymslu"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Viltu eyða þessu atriði?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Fjarlægja úr einkamálum"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Færa í einkamál"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Niðurhal"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Verið er að eyða..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Mistókst."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kort"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Hámarksfjölda stafa hefur verið náð."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Verið er að fjarlægja..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Einkageymsla"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Fornsniði lokið."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Heiti (Ö til A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Heiti (A til Ö)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Myndupptaka"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Ekkert fannst."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Skilaboðatónn"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Upplýsingar"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Rita nafn."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Skrárnar mínar"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Bætt við."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Vinnsla í gangi..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Óstutt skrársnið."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Á að fjarlægja?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Persónulegt efni"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Afrita í"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Færa í"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Mistókst að bæta flýtileið við."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Ekki er nægt minni. Eyðið nokkrum atriðum."
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Fjarlægt."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Einkageymsla"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Ekkert er valið."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Samnýta"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Birta sem"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Listi"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Birta"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Vista sem"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Mistókst að fjarlægja."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Einkunn foreldra"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Skráarheitið er þegar í notkun."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Tal"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi er ekki í boði. Ef tengst er í gegnum farsímakerfi kann það að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Hámarksfjölda stafa (%d) hefur verið náð."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Óstutt skrársnið."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Undirbý..."
@@ -916,20 +367,8 @@ msgstr "Undirbý..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valið"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Eyða atriðum"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Ekkert niðurhal"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Niðurhali lokið"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Stjórnun niðurhals"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Atriði birtast hér eftir að þeim er hlaðið niður."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Hætt við niðurhal"
@@ -958,14 +397,11 @@ msgstr "Sjálfgefin geymsla er full"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Eldra"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Geymsla"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Upplýsingar"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Verið er að fjarlægja..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD-kort"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Vinnsla í gangi..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Geymsla tækis"
@@ -973,86 +409,20 @@ msgstr "Geymsla tækis"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Sendi tilkynningu á netþjón..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d hlutum verður eytt."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Skráin finnst ekki. Pikkaðu á „Sækja“ til að reyna að sækja hana aftur."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Ekki er hægt að opna skrána"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Forrit sem getur opnað þessa skrá finnst ekki."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Pikkaðu á „Sækja“ til að reyna aftur."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 hlut verður eytt."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Spilunarhraði: %d r./sek."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Forrit sem getur framkvæmt þessa aðgerð finnst ekki."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Geymsla"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Innflutningur"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Hætta v."
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "Í lagi"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Velja allt"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valin"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Sækja"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Í dag"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Í gær"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Eyða"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Skipta"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Nota fyrir öll atriði"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Búa til zip-skrá"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Opna zip-skrá"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Skrárnar mínar"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Vefur"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Niðurhalsferill"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Ferill er enginn"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Einföld deiling"
@@ -1075,74 +445,11 @@ msgstr "Ef þessi atriði eru færð verður þeim eytt af Dropbox. %d atriði v
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Ef þetta atriði er fært verður því eytt af Dropbox. 1 atriði verður fært."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Veldu vistunarstað"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Stöðva"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Hlaða upp"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Mistókst að hlaða upp skrá"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Stöðva upphleðslur"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Pikkaðu á „Hlaða upp“ til að reyna aftur."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Flutningurinn verður stöðvaður en skránni verður ekki eytt."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Skoðað nýlega"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Ekki hægt að vista gögn"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ekki er nægt rými í geymslu tækisins. Opnaðu Stillingar > Orka og geymsla > Geymsla til að eyða einhverjum skrám og reyndu svo aftur."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ekki er nægt rými á SD-kortinu. Opnaðu Stillingar > Orka og geymsla > Geymsla til að eyða einhverjum skrám og reyndu svo aftur."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Hlaða upp í"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox-upphleðslur"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Einkamál"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bæti"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Bæta"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Heima"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Vekjaraklukka"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Aðrir"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Meira"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Opna"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Óþekkt villa."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Ekki er hægt að nota „.“ eða „..“ sem möppuheiti."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ekki sýna faldar skrár"
@@ -1150,104 +457,23 @@ msgstr "Ekki sýna faldar skrár"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Sýna faldar skrár"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Óþekkt"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Heiti flýtileiðar er þegar í notkun."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Venjulegt"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Skrá"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Skrár"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Mappa"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Möppur"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Kerfi"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Heiti"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Hljóðskrár"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Skjöl"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Sótt forrit"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Myndir"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Myndskeið"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Hætta við"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Hætta við"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Búa til"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Eyða"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "Í lagi"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Fjarlægja"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Endurnefna"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Fjarlægja"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Bæta við flýtileið"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Hljóðskrár"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Afrita"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Afrita í"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Búa til möppu"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Eyða flýtileið"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Upplýsingar"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Skjöl"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Sótt forrit"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Myndir"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Færa"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Fara á"
@@ -1255,43 +481,7 @@ msgstr "Fara á"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valin"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Nýlegar skrár"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Fjarlægja"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Endurnefna"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Stillingar"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Flýtileiðir"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Raða eftir"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Fjarlægja"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Hlaða upp í"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Myndskeið"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Skoða sem"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Allt"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Flýtileiðir"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Inniheldur"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Geymsla tækis"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Snið"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Staðsetning"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD-kort"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Sýna skráarendingar"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Sýna faldar skrár"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Stærð"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Tegund"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Söluaðili"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Engar skrár"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Hækkandi"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Afrita"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Búa til möppu"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Lækkandi"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Ítarlegur listi"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Upplýsingar"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ekki sýna aftur"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Tegund skráar"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Listi"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Færa"
@@ -1366,50 +502,14 @@ msgstr "Færa"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Fjarlægja"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Stærð"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Tími"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Gerð"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Fjarlægja"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 hlutur verður fjarlægður."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 flýtileið verður eytt."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Afritun stendur yfir..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Verið er að flytja..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d hlutir verða fjarlægðir."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d flýtileiðum verður eytt."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Verið er að fjarlægja..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Notkun farsímagagna í reiki kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Möguleg notkun"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Búið til"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Lýsing"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Framsending"
@@ -1423,29 +523,14 @@ msgstr "Upplausn"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Heildarstærð"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Gildi"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Viðtökumappa er undirmappa í upprunamöppunni."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Viðtökumappan er sú sama og upprunamappan."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Mistókst að bæta flýtileið við."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Mistókst að afrita atriði."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Mistókst að eyða atriði."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Mistókst að færa atriði."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Mistókst að fjarlægja atriði."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Skráarheitið er þegar í notkun."
@@ -1459,23 +544,17 @@ msgstr "Flýtileið bætt við."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Flýtileið er þegar til."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Uppfæra"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d atriðum verður eytt."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d forrit verða fjarlægð."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s verður fjarlægt."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Niðurhali lokið"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Stærð"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Listaskjár"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Geymsla"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Möppuheitið er þegar í notkun."
@@ -1483,23 +562,11 @@ msgstr "Möppuheitið er þegar í notkun."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Staðbundin geymsla"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Geymsla tækis"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Ekki innskráð/ur."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Allar skrár"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Skýjageymsla"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Röð"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Flýtileiðir"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Tími"
@@ -1507,44 +574,32 @@ msgstr "Tími"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Fjarlægja"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Inniheldur"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Í lagi"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Ekkert andlit greindist"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Velja allt"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Sækja"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Er þegar til."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Í dag"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ekki tókst að flytja. Áfangamappa sú sama og upprunamappa"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Búa til möppu"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Meira"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Færa hingað"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Líma hér"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Stilla"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Í gær"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Ekkert forrit í tækinu þínu styður þessa skráargerð."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d skrám verður eytt."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Óþekkt villa."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Sendar skrár"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Óþekkt"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Kerfi"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "LOKIÐ"
@@ -1555,53 +610,11 @@ msgstr "HÆTTA VIÐ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "EYÐA"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Endurnefna"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Velja atriði"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Engar upphleðslur"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Atriði birtast hér eftir að þeim er hlaðið upp."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Stillingar"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Ekki hægt að vista gögn"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ekki er nægt rými á SD-kortinu. Opnaðu Stillingar > Orka og geymsla > Geymsla til að eyða einhverjum skrám og reyndu svo aftur."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ekki er nægt rými í geymslu tækisins. Opnaðu Stillingar > Orka og geymsla > Geymsla til að eyða einhverjum skrám og reyndu svo aftur."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Villa."
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Minni er fullt."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 atriði verður eytt af Dropbox."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d atriðum verður eytt af Dropbox."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Slökkt er á farsímagögnum. Tengstu Wi-Fi neti eða kveiktu á farsímagögnum og reyndu aftur."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Stillingar"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Einkageymsla"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Slóð"
@@ -1612,23 +625,8 @@ msgstr "Hámarksfjölda stafa (%d) hefur verið náð."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Veldu vistunarstað"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Niðurhalsferill"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Niðurhalsferill"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Sæki..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Niðurhal"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Ekkert sótt"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Niðurhal mistókst"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Rennur út: %s"
@@ -1636,30 +634,114 @@ msgstr "Rennur út: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Rann út: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Mistókst að sækja skrá"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Prófaðu að sækja skrána aftur eða fjarlægja hana úr niðurhalsröðinni."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Reyna aftur"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Fjarlægja"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Flokkur"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Möppuheitið er þegar í notkun"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Skráarheitið er í notkun"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Skráarheitið (%s) er þegar í notkun í viðtökumöppunni."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Þetta möppuheiti (%s) er þegar í notkun í viðtökumöppunni."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Eyða"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Hreinsa feril"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Þjappa..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Afþjappa..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Afþjappa atriði úr ZIP-skrá"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Ný mappa %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Ekki er hægt að nota „.“ eða „..“ sem möppuheiti."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Stillingar"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Ítarlegur listi"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Ekki hægt að afþjappa atriði"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Ekki nægt pláss"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Búa til ZIP-skrá"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ferill er enginn"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Ekki sýna aftur"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Meira"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Hætt við..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Ekki hægt að framkvæma"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Skrá"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mappa"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Möppur"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Heiti"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ekki er nægt rými í geymslu tækisins. Opnaðu Stillingar > Geymsla og vinnsluminni > Geymsla > Upplýsingar, eyddu einhverjum skrám og reyndu svo aftur."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ekki er nægt rými á SD-kortinu. Opnaðu Stillingar > Geymsla og vinnsluminni > Geymsla > Upplýsingar, eyddu einhverjum skrám og reyndu svo aftur."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Listi"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Stærð"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 hlutur verður fjarlægður."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Ekki er hægt að nota „%s“ sem möppuheiti."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Þessari skrá var eytt, hún var færð eða endurnefnd. Pikkaðu á „Sækja“ til að sækja skrána aftur eða pikkaðu á „Fjarlægja“ til að eyða henni úr niðurhalsferlinum."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Uppfæra"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s verður fjarlægt."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Stærð"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Geymsla tækis"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Skýjageymsla"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Stilla"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Endurnefna"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Skrárnar mínar"
 

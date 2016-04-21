@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "ສຳເລັດແລ້ວ %1$d, ບໍ່ສຳເລັດ %2$d"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d ສໍາເລັດແລ້ວ"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "ໃຊ້ກັບທຸກລາຍການ"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "ກໍາລັງກຽມການດາວໂຫຼດ..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ເຄື່ອງຂອງທ່ານບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ Wi-Fi. ການເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າເພີ່ມ ຂຶ້ນກັບແຜນການຊໍາລະຂອງທ່ານ."
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ປິດຂໍ້ມູນມືຖືແລ້ວ. ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ Wi-Fi ແທນ, ຫຼືເປີດຂໍ້ມູນມືຖື ແລະລອງໃໝ່ອີກ."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "ຍ້າຍແຜ່ນຄວາມຈຳແລ້ວ."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "ສໍາເລັດ"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "ກຳລັງ​ດາວ​ໂຫຼດ..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "ຄວາມຈຳບໍ່ພຽງພໍ."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "ສ້າງ"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "ບໍ່"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "ເພີ່ມທາງລັດ"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "ລຶບທາງລັດ"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "ປ່ຽນຊື່ທາງລັດ"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "ບໍ່ຕ້ອງສະແດງອີກ"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "ໄບທ໌"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "ສ່ວນຕົວ"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ໃສ່ຊື່ໂຟລເດີເຂົ້າໄປ."
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "ເອົາເມນູລັດອອກໄປ"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "ໄບທ໌"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "ປະຕິ​ບັດ"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "​ເປັນ​ໄປ​ບໍ່​ໄດ້"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "ສ່ວນບຸກຄົນ"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "​ໄລຍະ​ຫ່າງ"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "ແກ້ໄຂຄັ້ງສຸດທ້າຍ"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d ລາຍການ"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "ເປັນໄປໄດ້"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "ສະຖານະ​ເບື້ອງ​ຂວາ"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "ແຊຣ໌"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "ນັບເວລາ"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "ປະເພດ"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "ຄວາມຖືກຕ້ອງ"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "ສົ່ງອອກໄປບ່ອນນີ້"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "ປ່ຽນແທນ"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "ຄົ້ນຫາທຸກໂຟລເດີ"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "ເຊື່ອງຕໍ່ກັບເຄືອຂ່າຍມືຖື"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "ໂຟເດີໃໝ່"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "ບໍ່ສາມາດສ້າງໂຟລເດີໄດ້"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ແມ່ນແລ້ວ"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "ໃສ່ຊື່ໂຟລເດີເຂົ້າໄປ"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "ບີບອັດ"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "ແຍກທີ່ນີ້"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "ດຶງອອກມາ"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "ດຶງອອກໄປໃສ່ໂຟລເດີປະຈຸບັນ"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "ເຊື່ອງການຂະຫຍາຍໄຟລ໌"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "ເປີດທີ່ຢູ່ໄຟລ໌"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີ."
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "ບັນທຶກຢູ່ທີ່ນີ້"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "ແຊຣ໌ລິ້ງ"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "ສະແດງນາມສະກຸນໄຟລ໌"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "ສະແດງເປັນຮູບນ້ອຍ"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "ເບິ່ງຕາມ"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "ການເລືອກຂຶ້ນຕາມລໍາດັບ"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "ກໍາລັງຈັດຫຼຸດລະດັບລົງ"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "ໄຟລ໌ DRM. ບໍ່ສາມາດສົ່ງ."
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "ຊື່ໄຟລ໌ບໍ່ຖືກຕ້ອງ."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "ຊື່ຫວ່າງເປົ່າ."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "ຄວາມຈໍາຈຳນວນຫຼາຍບໍ່ພຽງພໍ."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "ຄວາມຈໍາບໍ່ພຽງພໍ. ລົບບາງລາຍການ ແລະລອງໃໝ່ອີກ"
+
+msgid "IDS_MF_SK_OK"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "ເອົາອອກໄປຈາກທາງລັດບໍ?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "ສົ່ງບໍ່ສໍາເລັດ."
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "ລຶບ"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "ໂຟລເດີປາຍທາງເປັນໂຟລເດີຍ່ອຍຂອງໂຟລເດີແຫຼ່ງທີ່ມາ."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "ໂຟລເດີເປົ້າໝາຍຄືກັບໂຟລເດີທີ່ມາ."
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "ຄົ້ນຫາ"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "ບໍ່ສາມາດກັອບປີ້ໄດ້."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "ບໍ່ສາມາດຍ້າຍໄດ້."
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "ຕັ້ງຄ່າ"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "ບໍ່ສາມາດປະຕິບັດການດໍາເນີນການນີ້ໄດ້. ເກີດຄວາມຜິດພາດຂອງເຄືອຂ່າຍຂຶ້ນ."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "ເວລາ"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "ບໍ່ຈຳກັດ"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "ເຄື່ອງເກັບຂໍ້ມູນທາງນອກ"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "ແຜ່ນຄວາມຈໍາ"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "ວິດີໂອ"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "ໄຟລ໌ຖືກບີບເຂົ້າແລ້ວ"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "ໄຟລ໌ຖືກແຍກອອກແລ້ວ"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "ເລືອກທັງໝົດ"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "ເອກະສານ"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "ຮູບພາບ"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ບໍ່ມີໄຟລ໌"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "ການໃຊ້ບ່ອນເກັບຂໍ້ມູນ"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ໄຟລ໌ນີ້ບໍ່ມີຢູ່."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ກັບຄືນ"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "ທັງໝົດ"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "ສ້າງໂຟລເດີ"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "ລາຍການ"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "ເຊື່ອມຕໍ່"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "ຊື່"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "ຄັດ​ແຍກຕາມ"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ລາຍການຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "ລຶບບໍ່ສໍາເລັດ."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ຮູບ​ແບບ"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ການຂໍອະນຸຍາດຖືກປະຕິເສດ."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "ລົບລາຍການ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "ເລືອກລາຍການ"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "ບໍ່ພົບຜົນໄດ້ຮັບ"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "ໄດ້ໃສ່ຕົວອັກສອນທີ່ບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ເລີ່ມການດາວໂຫຼດ..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "ເລືອກລາຍການ"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "ທ່ານສາມາດເລືອກໄດ້ເຖິງ %d ລາຍການ."
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "ກຳລັງຍ້າຍ..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "ກຳລັງອັດສຳເນົາ..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "ຍ້າຍແລ້ວ"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "ສຳເນົາແລ້ວ"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "ເອົາອອກໄປຈາກສ່ວນບຸກຄົນ"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "ຍ້າຍໃສ່ສ່ວນບຸກຄົນ"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ດາວ​ໂຫຼດ"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "ກຳລັງລຶບ..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "ບໍ່ສໍາເລັດ"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "ແຜ່ນ SD"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "ຮອດຈໍານວນຕົວອັກສອນສູງສຸດແລ້ວ."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "ໄຟລ໌ຂອງຂ້ອຍ"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "ບໍ່ມີອັນໃດໄດ້ເລືອກ."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "ປະເພດໄຟລ໌ທີ່ບໍ່ຮອງຮັບ."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "ກໍາລັງກະກຽມ..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d ໄດ້ຖືກເລືອກ"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "ບໍ່ມີການດາວໂຫຼດ"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "ການດາວ​ໂຫຼດຖືກ​ຍົກ​ເລີກ"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "ດາວ​ໂຫຼດບໍ່ສໍາເລັດ"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "ບໍ່ມີເນື້ອທີ່ພຽງພໍຢູ່ໃນບ່ອນເກັບຂໍ້ມູນເຄື່ອງຂອງທ່ານ. ໄປຫາການຕັ້ງຄ່າ %s ເພື່ອລຶບບາງຂໍ້ມູນ ຫຼືສອດແຜ່ນ SD ເຂົ້າໄປ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "ບໍ່ມີເນື້ອທີ່ພຽງພໍຢູ່ໃນບ່ອນເກັບຂໍ້ມູນເຄື່ອງຂອງທ່ານ. ໄປຫາການຕັ້ງຄ່າ %s ເພື່ອເປີດໃຫ້ມີເນື້ອທີ່ເກັບຂໍ້ມູນບາງອັນ, ຈາກນັ້ນລອງໃໝ່ອີກ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "ບໍ່ມີເນື້ອທີ່ພຽງພໍຢູ່ໃນແຜ່ນ SD ຂອງທ່ານ. ໄປຫາການຕັ້ງຄ່າ %s ເພື່ອລຶບບາງຂໍ້ມູນ, ຫຼືປ່ຽນທີ່ຕັ້ງເກັບຂໍ້ມູນມາດຕະຖານໄປໃສ່ເຄື່ອງ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "ບໍ່ມີເນື້ອທີ່ພຽງພໍຢູ່ໃນແຜ່ນ SD ຂອງທ່ານ. ໄປຫາການຕັ້ງຄ່າ %s ເພື່ອລຶບຂໍ້ມູນບາງອັນ, ຈາກນັ້ນລອງໃໝ່ອີກ."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "ໄປຫາບ່ອນເກັບມ້ຽນຂໍ້ມູນ"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "ບ່ອນເກັບຂໍ້ມູນມາດຕະຖານເຕັມ"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "ເກົ່າກວ່າ"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "ລາຍລະອຽດ"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "ກຳລັງ​ປະມວນ​ຜົນ..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "ບ່ອນເກັບຂໍ້ມູນອຸປະກອນ"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "ກໍາລັງແຈ້ງເຕືອນເຊີບເວີ..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ໄດ້"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "ແຕະ [ດາວໂຫຼດ] ເພື່ອລອງໃໝ່ອີກ."
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "ເລືອກ %d ແລ້ວ"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "ປະຫວັດດາວໂຫຼດ"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "ການ​ແຊ​ຣ໌​ງ່າຍ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "ບໍ່ສາມາດຕິດຕັ້ງແອັບໄດ້"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "ສາ​ມາດ​ຕິດ​ຕັ້ງ​ໄດ້​ແຕ່ TPK ເທົ່​ານັ້ນ. ພວກ​ເຮົາ​ແນະ​ນຳ​ວ່າ ທ່ານ​ຕິດ​ຕັ້ງ​ແອັບ​ທີ່​ດາວ​ໂຫຼດ​ແລ້ວຈາກ Tizen Store ເທົ່າ​ນັ້ນ."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "ການ​ລຶບ​ລາຍ​ການ​ເຫຼົ່າ​ນີ້​ຈາກ​ທີ່​ນີ້​ຈະ​ລຶບ​ມັນ​ໄປ​ຈາກດ​ຣັອບ​ບັອກ​ຊ໌​ນຳ. %d ລາຍການຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "ການ​ລຶບ​ລາຍ​ການ​ນີ້​ຈາກ​ທີ່​ນີ້​ຈະ​ລຶບ​ມັນ​ໄປ​ຈາກດ​ຣັອບ​ບັອກ​ຊ໌​ນຳ. 1 ລາຍການຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "ການຍ້າຍ​ລາຍ​ການ​ເຫຼົ່າ​ນີ້​​ຈະ​ລຶບ​ມັນ​ໄປ​ຈາກດ​ຣັອບ​ບັອກ​ຊ໌​ນຳ. %d ລາຍການຈະຖືກຍ້າຍ​ໄປ."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "ການຍ້າຍ​ລາຍ​ການ​ນີ້​​ຈະ​ລຶບ​ມັນ​ໄປ​ຈາກດ​ຣັອບ​ບັອກ​ຊ໌​ນຳ. 1 ລາຍການຈະ​ຖືກ​ຍ້າຍ​ໄປ."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "ເບິ່ງເມື່ອບໍ່ດົນມານີ້"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "ໄບທ໌"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "ຢ່າສະແດງໄຟລ໌ທີ່ເຊື່ອງໄວ້"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "ສະແດງໄຟລ໌ທີ່ເຊື່ອງໄວ້"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "ຊື່ທາງລັດໃຊ້ງານຢູ່ຮຽບຮ້ອຍແລ້ວ."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "ພື້ນຖານ"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "​ໄຟລ໌"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "ໄຟລ໌ສຽງ"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "ກັອບປີ້ໄປຫາ"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "ແອັບທີ່ດາວໂຫຼດແລ້ວ"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "ຍ້າຍໄປໃສ່"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "ເລືອກ %d ແລ້ວ"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "ດຣັອບບັອກຊ໌"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "ທາງລັດ"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "ປະກອບມີ"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "ບໍ່ມີໄຟລ໌"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "ກັອບປີ້"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "ຍ້າຍ"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "ເອົາອອກໄປ"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 ທາງລັດຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d ທາງລັດຈະຖືກລຶບ."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "ການນຳໃຊ້ທີ່ມີຢູ່"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "ກຳລັງສົ່ງ​ຕໍ່"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "ປັບປຸງຫຼ້າສຸດ"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "ຄວາ​ມລະອຽດ"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "ຂະໜາດທັງໝົດ"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "ໂຟລເດີປາຍທາງແມ່ນໂຟລເດີຍ່ອຍຂອງໂຟລເດີແຫຼ່ງທີ່ມາ."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "ກັອບປີ້ລາຍການບໍ່ໄດ້."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "ຍ້າຍລາຍການບໍ່ໄດ້."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "ຊື່​ໄຟ​ລ​ໃຊ້​ງານຢູ່​ແລ້ວ"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "ຮອດຈໍານວນທາງລັດສູງສຸດ (%d) ແລ້ວ."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "ເພີ່ມທາງລັດແລ້ວ."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "ມີເມນູລັດຢູ່ແລ້ວ"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d ລາຍການຈະຖືກລຶບ."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d ແອັບຈະຖືກຖອນຕິດຕັ້ງ."
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ດາວໂຫຼດສໍາເລັດ"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "ບ່ອນເກັບຂໍ້ມູນ"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "ມີຊື່ໂຟລເດີຢູ່ຮຽບຮ້ອຍແລ້ວ."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "ບ່ອນເກັບຂໍ້ມູນກັບທີ່"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "ບໍ່ໄດ້ລົງຊື່ເຂົ້າໃຊ້."
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "ລໍາດັບ"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "ເວລາ"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "ຖອນການຕິດຕັ້ງ"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "ເລືອກທັງໝົດ"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ດາວໂຫຼດ"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "ມື້ນີ້"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "ມື້ວານນີ້"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "ໄຟລ໌ປະເພດນີ້ບໍ່ຖືກຮອງຮັບໂດຍແອພພລິເຄຊັນໃດໜຶ່ງຢູ່ໃນອຸປະກອນຂອງທ່ານ."
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "ຂໍ້ຂັດຂ້ອງທີ່ບໍ່ຮູ້."
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "ບໍ່ຮູ້"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "ລະບົບ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ສໍາເລັດ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "ລຶບ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "ເລືອກລາຍການ"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "ບໍ່ສາມາດບັນທຶກຂໍ້ມູນໄດ້"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "ຊ່ອງທາງ"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "ຮອດຈໍານວນຕົວອັກສູງສຸດ %d ແລ້ວ"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "ເລືອກບ່ອນເກັບຂໍ້ມູນ"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "ກຳລັງ​ດາວ​ໂຫຼດ..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "ໝົດອາຍຸ: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "ໄດ້ໝົດອາຍຸ: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ຊື່ໂຟ​ລ​ເດີນີ້ (%s) ໃຊ້ງານຢູ່ໃນໂຟລເດີປາຍທາງຮຽບ​ຮ້ອຍແລ້ວ."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "ລຶບ"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "ລຶບປະຫວັດ"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "ກໍາລັງຫຍໍ້ເຂົ້າ..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "ກໍາລັງກັ່ແຕກອອກມາ..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "ແຍກລາຍການຈາກໄຟລ໌ ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "ໂຟລເດີໃໝ່ %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "ບໍ່ສາມາດຕັ້ງຊື່ໂຟລເດີເປັນ “.” ຫຼື “..”."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "ການຕັ້ງຄ່າຕ່າງໆ"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "ລາຍການລະອຽດ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "ບໍ່ສາມາດແຍກລາຍການໄດ້"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "ພື້ນທີ່ບໍ່ພຽງພໍ"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ສ້າງໄຟລ໌ ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "ບໍ່ມີປະຫວັດ"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "ຢ່າສະແດງອີກຄັ້ງ"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "ເພີ່ມເຕີມ"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "ກຳລັງຍົກເລີກ..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "ບໍ່ສາມາດປະຕິບັດການດໍາເນີນການໄດ້"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "​ໄຟລ໌"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "​ໂຟລ​ເດີ"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "​ໂຟລ​ເດີ"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "ຊື່"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ບ່ອນເກັບຂໍ້ມູນອຸປະກອນຂອງທ່ານບໍ່ມີພື້ນທີ່ພຽງພໍ. ໄປທີ່ການຕັ້ງຄ່າ > ບ່ອນເກັບຂໍ້ມູນແລະ RAM > ບ່ອນເກັບຂໍ້ມູນ > ລາຍລະອຽດ, ຈາກນັ້ນລຶບບາງໄຟລ໌ແລະລອງໃໝ່ອີກ."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ແຜ່ນ SD ຂອງທ່ານບໍ່ມີພື້ນທີ່ພຽງພໍ. ໄປທີ່ການຕັ້ງຄ່າ > ບ່ອນເກັບຂໍ້ມູນແລະ RAM > ບ່ອນເກັບຂໍ້ມູນ > ລາຍລະອຽດ, ຈາກນັ້ນລຶບບາງໄຟລ໌ແລະລອງໃໝ່ອີກ."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "ລາຍການ"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "ຂະໜາດ"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 ລາຍການຈະຖືກເອົາອອກໄປ."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "ບໍ່ສາມາດຕັ້ງຊື່ໂຟລເດີເປັນ %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "​ໄຟລ໌ນີ້ຖືກລຶບ, ຖືກຍ້າຍ, ຫຼືຖືກປ່ຽນຊື່. ແຕະ [ດາວໂຫຼດ] ເພື່ອດາວໂຫຼດໄຟລ໌ອີກຄັ້ງ, ຫຼືແຕະ [ເອົາອອກໄປ] ເພື່ອເອົາມັນອອກໄປຈາກປະຫວັດການດາວໂຫຼດ."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "ຣີ​ເຟຣຊ໌"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ຈະຖືກຖອນການຕິດຕັ້ງ."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "ຂະໜາດ"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "ອຸປະກອນເກັບຂໍ້ມູນ"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "ບ່ອນເກັບມ້ຽນຄລາວ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "ຕັ້ງ"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "ປ່ຽນຊື່​ໃໝ່"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ໄຟລ໌ຂອງຂ້ອຍ"
+

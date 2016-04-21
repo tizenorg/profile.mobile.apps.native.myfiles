@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d สำเร็จ %2$d ล้มเหลว"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d สำเร็จ"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "ใช้กับทุกรายการ"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "กำลังเตรียมดาวน์โหลด..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "อุปกรณ์ของคุณไม่ได้เชื่อมต่อกับเครือข่าย Wi-Fi... การเชื่อมต่อกับเครือข่ายมือถือ อาจมีค่าใช้จ่ายเพิ่มเติม โดยขึ้นอยู่กับแผนการชำระเงินของคุณ"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ปิดข้อมูลมือถือแล้ว เชื่อมต่อกับเครือข่าย Wi-Fi แทน หรือเปิดข้อมูลมือถือและลองอีกครั้ง"
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "ยก​เลิก​การ์ด​ความ​จำ​แล้ว"
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "เสร็จสิ้น"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "กำลัง​ดาวน์​โหลด..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "หน่วยความจำไม่พอ"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "สร้าง"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "ไม่"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "เพิ่มทางลัด"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "ลบทางลัด"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "เปลี่ยนชื่อทางลัด"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "อย่าแสดงอีก"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "ไบต์"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "ส่วนตัว"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ใส่​ชื่อ​แฟ้ม"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "ลบทางลัด"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "ไบต์"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "ทำ​งาน"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "ไม่​ได้"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "ที​ละ​รายการ"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "ช่วง​เวลา"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "แก้ไขครั้งล่าสุด"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d รายการ"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "ได้"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "สถานะ​สิทธิ"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "แชร์"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "นับ​เวลา​ที่​ผ่าน"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "ชนิด"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "การอนุมัติ"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "ส่งออกที่นี่"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "แทน​ที่"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "ค้นหาโฟลเดอร์ทั้งหมด"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "เชื่อมต่อกับเครือข่ายมือถือ"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "แฟ้ม​ใหม่"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "ไม่สามารถสร้างโฟลเดอร์ได้"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ใช่"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "ใส่ชื่อโฟลเดอร์"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "บีบอัด"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "ยกเลิกบีบอัดที่นี่"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "แยก"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "แยกข้อมูลในโฟลเดอร์ปัจจุบัน"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "ซ่อนนามสกุลไฟล์"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "เปิดตำแหน่งไฟล์"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "เชื่อม​ต่อ​ไป​เซิร์ฟ\n​เวอร์​ไม่​ได้"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "บันทึก​ที่​นี่"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "แชร์ลิงค์"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "แสดง​ส่วน​ขยาย​ของ​ไฟล์"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "แสดงเป็นภาพย่อ"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "แสดงเป็น"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "น้อย​ไป​มาก"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "มาก​ไป​น้อย"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "ไฟล์ DRM ​ส่ง​ไม่​ได้"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "ชื่อ​ไฟล์​ไม่​ถูก​ต้อง"
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "ไม่​มี​ชื่อ"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "หน่วย​ความ​จำ​แบบ​ฮีบ​ไม่​พอ"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "หน่วยความจำไม่พอ ลบบางรายการ แล้วลองอีกครั้ง"
+
+msgid "IDS_MF_SK_OK"
+msgstr "ตกลง"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "ลบออกจากทางลัด?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "ส่ง​ผิด​พลาด"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "ลบ"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "แฟ้ม​เป้า​หมาย​เป็น​\nแฟ้ม​​ย่อย​ของ​\nแฟ้ม​ต้น​ทาง"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "แฟ้ม​เป้า​หมาย\n​เหมือน​แฟ้ม​ที่​มา"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "ค้นหา"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "ไม่​สามารถ​คัด​ลอก"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "ย้าย​ไม่​ได้"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "การตั้งค่า"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "ไม่สามารถดำเนินการนี้ เกิดข้อผิดพลาดในเครือข่าย"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "เวลา"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "ไม่​จำกัด"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "ที่จัดเก็บภายนอก"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "การ์ด​\nความ​จำ"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "วี​ดี​โอ"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "บีบอัดไฟล์แล้ว"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "แยกไฟล์แล้ว"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "เลือกทั้งหมด"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "เอกสาร"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "รูป​ภาพ"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ไม่​มี​ไฟล์"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "การใช้งานพื้นที่จัดเก็บ"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "มี​ไฟล์​นี้​อยู่​แล้ว"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "กลับ"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "ทั้ง​หมด"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "สร้างโฟลเดอร์"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "รายการ"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "เชื่อมต่อ"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "ชื่อ"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "เรียงตาม"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ​รายการ​จะ​ถูก​ลบ"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "เกิดข้อ​ผิด​พลาด"
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ฟอร์แมต"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ​รายการ​จะ​ถูก​ลบ"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ไม่​อนุญาต"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "ลบรายการ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "เลือกรายการ"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "ไม่พบผลลัพธ์"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "อักขระที่ใส่ไม่ถูกต้อง ลองใหม่"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "กำลัง​เริ่ม​ดาวน์​โหลด..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "เลือก​รายการ"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "คุณ​สามารถ​เลือก​ได้​มาก​สุด %d ​รายการ"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "กำลัง​ย้าย..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "กำลัง​คัด​ลอก..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "ย้าย​เรียบ​ร้อย"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "คัดลอกเรียบร้อย"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "ลบออกจากส่วนตัว"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "ย้ายไปที่ ส่วนตัว"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ดาวน์​โหลด"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "ลบ..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "ผิด​พลาด"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "ที่เก็บข้อมูล SD ​การ์ด"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "มีจำนวนตัวอักษร มากที่สุดแล้ว"
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "ไฟล์ส่วนตัว"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "ยังไม่ได้เลือก"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "ไม่​รอง​รับ​\nชนิด​ไฟล์"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "กำลังเตรียม..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "เลือก %d รายการ"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "ไม่​มี​การ​ดาวน์​โหลด"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "ยกเลิกดาวน์โหลดแล้ว"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "ดาวน์โหลดไม่สำเร็จ"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "มีพื้นที่จัดเก็บภายในเครื่องของคุณไม่เพียงพอ ไปที่การตั้งค่า %s เพื่อลบข้อมูลบางส่วนหรือใส่ SD การ์ด"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "มีพื้นที่จัดเก็บภายในเครื่องของคุณไม่เพียงพอ ไปที่การตั้งค่า %s เพื่อเพิ่มพื้นที่ว่าง แล้วลองอีกครั้ง"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "มีที่ว่างไม่เพียงพอบน SD การ์ดของคุณ ไปที่การตั้งค่า %s เพื่อลบข้อมูลบางส่วน หรือเปลี่ยนค่า​พื้น​ฐาน​ของ​ตำแหน่ง​ที่จัด​เก็บ​เป็นอุปกรณ์"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "มีที่ว่างไม่เพียงพอบน SD การ์ดของคุณ ไปที่การตั้งค่า %s เพื่อลบข้อมูลบางส่วน แล้วลองอีกครั้ง"
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "ไปที่ ที่จัดเก็บ"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "ที่จัดเก็บพื้น​ฐาน​เต็ม"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "เก่ากว่า"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "ข้อมูล"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "ดำเนิน​การ..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "ที่จัดเก็บในเครื่อง"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "กำลังแจ้งเซิร์ฟเวอร์..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "ไม่สามารถเปิดไฟล์ได้"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "สัมผัส “ดาวน์โหลด” เพื่อลองอีกครั้ง"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "ยกเลิก"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d ถูกเลือกแล้ว"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "ดาวน์โหลดประวัติ"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "การแชร์แบบง่าย"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "ไม่สามารถติดตั้งแอพ"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "ติดตั้งไฟล์ TPK ได้เท่านั้น เราขอแนะนำให้คุณติดตั้งแอพที่ดาวน์โหลดจากร้านค้า TIZEN เท่านั้น"
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "การลบรายการจากที่นี่ จะลบรายการเหล่านี้จาก Dropbox ด้วย %d ​รายการ​จะ​ถูก​ลบ"
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "การลบรายการจากที่นี่ จะลบรายการนี้จาก Dropbox ด้วย 1 รายการจะถูกลบ"
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "การย้ายรายการเหล่านี้ จะลบรายการออกจาก Dropbox %d รายการจะถูกย้าย"
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "การย้ายรายการนี้ จะลบรายการออกจาก Dropbox 1 รายการจะถูกย้าย"
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "ที่ดู​ล่า​สุด"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "ไบ​ท์"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "อย่าแสดงไฟล์ที่ซ่อน"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "แสดงไฟล์ที่ซ่อน"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "มีชื่อทางลัดอยู่แล้ว"
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "พื้น​ฐาน"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "ไฟล์"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "ไฟล์เสียง"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "คัดลอกไปยัง"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "แอ​พพลิ​เค​ชั่น​ที่​ดาวน์​โหลด"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "ย้ายไปยัง"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d ถูกเลือกแล้ว"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "DropBox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "ทางลัด"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "ส่วนประกอบ"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "ไม่มีไฟล์"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "คัดลอก"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "ย้าย"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "ลบ"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 ทางลัดจะถูกลบ"
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "ทางลัด %d จะถูกลบ"
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "การใช้ที่มี"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "ส่งต่อ"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "แก้ไขครั้งล่าสุด"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "ความละเอียด"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "ขนาดทั้งหมด"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "โฟลเดอร์ปลายทางเป็นโฟลเดอร์ย่อยของโฟลเดอร์ต้นทาง"
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "การคัดลอกรายการล้มเหลว"
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "การย้ายรายการล้มเหลว"
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "มีผู้ใช้ชื่อไฟล์นี้อยู่แล้ว"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "ถึงจำนวนสูงสุดของทางลัด (%d) แล้ว"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "เพิ่มทางลัดแล้ว"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "มีทางลัดอยู่แล้ว"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d ​รายการ​จะ​ถูก​ลบ"
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d แอพพลิเคชันเหล่านี้จะถูกลบการติดตั้ง"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ดาวน์โหลดสมบูรณ์"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "ที่เก็บ"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "ชื่อโฟลเดอร์ใช้อยู่แล้ว"
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "พื้นที่จัดเก็บในเครื่อง"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "ยัง​ไม่​ได้​เข้า​สู่​ระบบ"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "ลำดับ"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "เวลา"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "ลบการติดตั้ง"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ตกลง"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "เลือกทั้งหมด"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ดาวน์โหลด"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "วันนี้"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "เมื่อ​วาน"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "แอพพลิเคชั่นบนอุปกรณ์ของคุณ ไม่รองรับชนิดของไฟล์นี้"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "ไม่​รู้จัก​ผิด​พลาด"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "ไม่​รู้จัก"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "ระบบ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "เรียบร้อย"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ยกเลิก"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "ลบ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "เลือกรายการ"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "ไม่สามารถบันทึกข้อมูลได้"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "พาธ"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "มีจำนวนตัวอักษรสูงสุด %d แล้ว"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "เลือก​ที่​จัด​เก็บ"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "กำลังโหลด..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "หมดอายุ: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "หมดอายุเมื่อ: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "มีการใช้ชื่อโฟลเดอร์นี้ (%s) อยู่แล้วในโฟลเดอร์ปลายทาง"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "ลบ"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "ล้างประวัติ"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "กำลังบีบอัด..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "กำลัง​แตก​ไฟล์..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "แตกรายการจากไฟล์ ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "โฟลเดอร์​ใหม่ %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "ไม่สามารถตั้งชื่อโฟลเดอร์เป็น “.” หรือ “..”"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "การ​ตั้ง​ค่า"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "รายการแบบละเอียด"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "ไม่สามารถแยกรายการได้"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "พื้นที่ไม่พอ"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "สร้างไฟล์ ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "ไม่​มี​ประวัติ"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "ไม่แสดงอีก"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "เพิ่ม​เติม"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "กำลังยกเลิก..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "ไม่สามารถดำเนินการ"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "ไฟล์"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "แฟ้ม"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "แฟ้ม​"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "ชื่อ"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "อุปกรณ์ของคุณมีพื้นที่จัดเก็บในเครื่องไม่เพียงพอ ไปที่การตั้งค่า > ที่จัดเก็บและ RAM > ที่จัดเก็บ > รายละเอียด แล้วลบบางไฟล์แล้วลองอีกครั้ง"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD การ์ดของคุณมีพื้นที่จัดเก็บข้อมูลไม่เพียงพอ ไปที่การตั้งค่า > ที่จัดเก็บและ RAM > ที่จัดเก็บ > รายละเอียด แล้วลบบางไฟล์แล้วลองอีกครั้ง"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "รายการ"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "ขนาด"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "รายการ 1 รายการจะถูกลบออก"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "ไม่สามารถตั้งชื่อโฟลเดอร์เป็น %s"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "ไฟล์นี้ถูกลบ ย้าย หรือเปลี่ยนชื่อ สัมผัส “ดาวน์โหลด” เพื่อดาวน์โหลดไฟล์อีกครั้ง หรือสัมผัส “ลบ” เพื่อลบออกจากประวัติการดาวน์โหลด"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "รี​เฟรช"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ​จะ​ถูกลบ​การ​ติด​ตั้ง"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "ขนาด"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "ที่จัดเก็บในเครื่อง"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "พื้นที่จัดเก็บ Cloud"
+
+msgid "IDS_PB_SK_SET"
+msgstr "กำหนด"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "เปลี่ยน​ชื่อ"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ไฟล์​ส่วน​ตัว"
+

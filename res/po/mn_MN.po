@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d амжилттай, %2$d амжлтгүй"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d амжилттай"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Бүх зүйлд хэрэглэ"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Татахаар бэлдэж байна..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Таны төхөөрөмж Wi-Fi сүлжээнд холбогдоогүй байна. Хөдөлгөөнт сүлжээнд холбогдоход таны төлбөрийн багцаас хамаарч нэмэлт төлбөр гарч болно"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Хөдөлгөөнт дата унтарсан. Оронд нь Wi-Fi сүлжээнд холбогд эсвэл Хөдөлгөөнт датаг асаагаад дахин оролд."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Санах ойн карт салгагдлаа."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Амжилт"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Татаж авч байна..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Санах ой хангалтгүй байна."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Үүсгэх"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Үгүй"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Холбоос нэмэх"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Холбоос устгах"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Холбоосын нэр өөрчлөх"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Дахин бүү харуул"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Хувийн"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Хавтасны нэр оруулах"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Холбоос арилгах"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Гүйцэтгэх"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Боломжгүй"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Individual"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Интервал"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Сүүлд өөрчилсөн"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d зүйл"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Боломжит"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Зөв төлөв"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Хуваалцах"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Цагийн тоолуур"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Төрөл"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Хүчинтэй хугацаа"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Энэ экспортлох"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Дарж бич"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Бүх хавтаснаас хайх"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Хөдөлгөөнт сүлжээнд холбогд"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Шинэ хавтас"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Хавтас үүсгэх боломжгүй"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Тийм"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Хавтасны нэр оруул"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Шахах"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Энд задал"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Гаргаж авах"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Одоогийн хавтас руу гаргаж авах"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Файлын өргөтгөл нуух"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Файлын байрлал нээх"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Сүлжээнд холбогдох боломжгүй"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Save here"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Холбоос хуваалцах"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Файлын өргөтгөлийг харуул"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Өнгөц харагдац"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Эрэмбэлэх"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Өсөх"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "Буурах"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM файл. Илгээх боломжгүй."
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Хүчингүй файлын нэр"
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Нэр хоосон."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Динамик санах ой хангалтгүй байна."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Санах ой хангалтгүй. Зарим зүйлийг устгаж, дахин оролд."
+
+msgid "IDS_MF_SK_OK"
+msgstr "Батлах"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Холбооснуудаас арилгах уу?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Илгээж чадсангүй."
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Устгах"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Буулгах хавтас нь эх хавтсын дэд хавтастай ижил байна"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Буулгах хавтас нь эх хавтастай ижил байна"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Хайх"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Хуулах боломжгүй"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Зөөх боломжгүй."
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Тохиргоо"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Энэ үйлдлийг гүйцэтгэх боломжгүй. Сүлжээний алдаа гарав"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Цаг"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Хязгааргүй"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "External storage"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Санах ойн карт"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видео"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Файлуудыг шахсан"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Файлуудыг гаргаж авсан"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "мб"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Бүгдийг сонгох"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Бичиг баримт"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Зураг"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Файл алга"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Хадгалалтын ашиглалт"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Ийм файл байхгүй"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Буцах"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Бүгд"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Хавтас үүсгэх"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Эд зүйлс"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Холбох"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Нэрээр"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Эрэмбэлэх"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 зүйл устгана"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Устгаж чадсангүй."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d зүйл устгагдана"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Зөвшөөрөл татгалзав"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Цуцлах"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Зүйл устгах"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Зүйлс сонгох"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Үр дүн олдсонгүй"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Хүчингүй тэмдэгт оруулсан. Ахин оролд."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Татан авалтыг эхлүүлж байна..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Зүйл сонгох"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "Та %d хүртэл зүйл сонгож болно"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Зөөж байна..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Хуулж байна..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Зөөгдлөө"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Хуулагдсан"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Хувийнхаас арилгах"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Хувийн руу зөөх"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Татан авалтууд"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Устгаж байна..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Амжилтгүй болсон"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD карт"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Тэмдэгтийн тоо дээд хязгаарт хүрсэн."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Миний файлууд"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Юу ч сонгогдоогүй"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Дэмжигдэхгүй файлын төрөл"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Бэлтгэх..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d сонгосон"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Татац байхгүй"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Татаж авахыг цуцалсан"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Татаж авч чадсангүй"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Таны төхөөрөмжийн хадгалалтад зай хангалтгүй байна. Зарим өгөгдлийг устгах эсвэл SD карт хийхийн тулд %s тохиргоо руу оч."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Таны төхөөрөмжийн хадгалалтад зай хангалтгүй байна. %s тохиргоо руу очиж хадгалалтын хэсэг зай чөлөөлөөд, дахин оролд."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "Таны SD картанд зай хангалтгүй байна. Зарим өгөгдлийг устгах эсвэл хадгалалтын өгөгдмөл байрлалыг Төхөөрөмж болгон өөрчлөхийн тулд %s тохиргоо руу оч."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "Таны SD картанд зай хангалтгүй байна. %s тохиргоо руу очиж зарим өгөгдлийг устгаад, дахин оролд."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Хадгалалт руу очих"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Өгөгдмөл хадгалалт дүүрэн"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Хуучивтар"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Дэлгэрэнгүй"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Боловсруулж байна..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Төхөөрөмжийн санах ой"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Серверт мэдэгдэж байна..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Файл нээх боломжгүй"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Дахин оролдохын тулд Татахыг товш."
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Цуцлах"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d сонгосон"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Татан авалтын түүх"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Энгийн хуваалцалт"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Аппыг суулгах боломжгүй байна"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Зөвхөн TPK файлуудыг суурилуулах боломжтой. Бид танд зөвхөн Tizen Store-оос татаж авсан аппуудыг суурилуулдаг болохыг зөвлөж байна."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Эдгээр зүйлсүүдийг эндээс устгавал Dropbox-с устана. %d зүйлсүүд устгагдана."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Энэ зүйлийг эндээс устгавал Dropbox-с энэ устах болно. 1 зүйл устгагдана."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Эдгээрийг зөөвөл Dropbox-оос устана. %d зүйлийг зөөнө."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Энэ зүйлийг зөөвөл Dropbox-оос устана. 1 зүйлийг зөөнө."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Сүүлд үзсэн"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "байт"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Харахгүй файлуудыг бүү харуул"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Нуусан файлуудыг харуулах"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Холбоосын нэр аль хэдийн ашиглагдаж байна."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Энгийн"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Файлууд"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Аудио\nфайлууд"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Энд хуулах"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Татаж авсан хэрэглүүр"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Зөөх"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d сонгосон"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Холбоосууд"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Дараахыг агуулна"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Файл байхгүй"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Хуулах"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Зөөх"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Арилгах"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 холбоос устгагдана."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d Холбоосууд устгагдана."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Боломжтой хэрэглээнүүд"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Уламжлах"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Сүүлд өөрчилсөн"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Нягтрал"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Нийт хэмжээ"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Товлосон хавтас нь эх хавтасны дэд хавтас юм."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Зүйлийг хуулж чадсангүй."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Зүйлийг зөөж чадсангүй."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Файлын нэр аль хэдийн ашиглагдаж байна"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Холбоосын (%d) тооны дээд хязгаарт хүрсэн."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Холбоос нэмсэн."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Холбоос аль хэдийн байна"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d зүйл устгагдана."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d апп устгагдана."
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Татан авалт дууссан"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Санах байгууламж"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Фолдерийн нэр аль хэдийн ашиглагдсан байна."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Локал санах ой"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Бүртгүүлээгүй."
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Дараалал"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Огноогоор"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Устгах"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Бүгдийг сонгох"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Татаж авах"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Өнөөдөр"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Өчигдөр"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Энэ файлын төрлийг дэмжих ямар нэг апп таны төхөөрөмж дээр байхгүй байна."
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Мэдэхгүй алдаа"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Мэдэхгүй"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Систем"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "БОЛСОН"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ЦУЦЛАХ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "УСТГАХ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Зүйл сонгох"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Өгөгдөл хадгалж чадахгүй"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Зам"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Тэмдэгтийн тооны дээд хязгаар %d-д хүрсэн"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Санах байгууламж сонгох"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Татаж авч байна..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Дуусах хугацаа: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Дууссан хугацаа: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Энэ хавтсын нэр (%s) аль хэдийн зорьж буй хавтсанд ашиглагдаж байна."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Устгах"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Түүхийг арилга"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Шахаж байна..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Задалж байна..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "ZIP файлыг задал"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Шинэ хавтас %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Хавтасны нэрийг “.” эсвэл “..”-р тохируулах боломжгүй."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Тохиргоо"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Дэлгэрэнгүй мэдээллийн жагсаалт"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Задлах боломжгүй"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Зай хүрэлцэхгүй байна"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP файл үүсгэх"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Түүх алга"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Дахин бүү үзүүл"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Бусад"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Цуцалж байна..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Үйлдлийг гүйцэтгэх боломжгүй"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Хавтас"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Хавтсууд"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Нэрээр"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Таны төхөөрөмжид санах ой хангалтгүй байна. Тохиргоо > Санах ой, RAM > Санах ой > Дэлгэрэнгүй руу ороод зарим файлуудаа устгаад дахин оролдоно уу."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Таны SD картанд санах ой хангалтгүй. Тохиргоо > Санах ой, RAM > Санах ой > Дэлгэрэнгүй руу ороод зарим файлуудаа устгаад дахин оролдоно уу."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Жагсаалт"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Хэмжээгээр"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 зүйлийг арилгана"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Хавтасны нэрийг %s-р тохируулж болохгүй."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Энэ файлыг устгасан, зөөсөн эсвэл нэрийг нь сольсон. Файлыг дахин татаж авахдаа Татаж авахыг товш эсвэл Татаж авах түүхээс арилгахдаа Арилгахыг товш."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Дахин сэргээх"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s устгагдана"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Хэмжээгээр"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Төх. хадгалалт"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Үүлэн хадгалалт"
+
+msgid "IDS_PB_SK_SET"
+msgstr "тохируулах"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Нэрийг өөрчил"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Миний файлууд"
+

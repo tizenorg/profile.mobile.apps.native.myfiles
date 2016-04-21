@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d bajarildi, %2$d ta xato"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d bajarildi"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Barcha elementlarga qo‘lla"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Yuklab olishga tayyorlanmoqda..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Qurilmangiz Wi-Fi tarmoqqa ulanmagan. Mobil tarmoqqa ulanish tarif rejangiz asosida qo‘shimcha to‘lov olinishiga olib kelishi mumkin"
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Quyidagi orqali ulashish"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Quyidagi orqali ulashish"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobil ma’lumot o‘chirilgan. Uning o‘rniga Wi-Fi tarmoqqa ulaning yoki Mobil ma’lumotni yoqing va qayta urinib ko‘ring."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d ta element yo‘q qilinadi."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Xotira kartasi olib tashlandi."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Ushbu element yo‘q qilinadi."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Muvaffaqiyat"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Yuklanmoqda..."
@@ -22,50 +28,8 @@ msgstr "Yuklanmoqda..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Xotira yetarli emas."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Bekor qilingan."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Yuklash bajarilmadi."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Muvaffaqiyat"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Yaratish"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "O'chirildi."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Xotira kartasi olib tashlandi."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Qidirilmoqda..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Tarmoq ulanishi xatosi."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Jildni o'chirib tashlash"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Jild nomini kiriting."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Yuklab olingan ilovalar"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Tarmoq ulanishi xatosi yuz berdi. Qo‘ng‘iroq tugatildi. Tarmoqqa qayta ulanilsinmi?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Saqlash"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Ha"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Yo‘q"
@@ -73,122 +37,32 @@ msgstr "Yo‘q"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Yorliq qo‘shish"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Yo‘q qilish"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Yorliqni yo‘q qilish"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Yorliq nomini o‘zgartirish"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Qidirish"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Parametrlar"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Ulashish"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Xotira ishlatilishi"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Boshqa ko‘rsatilmasin"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Bayt"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "Gb"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "Mb"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Serverga ulanib bo‘lmaydi."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Maxfiy"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Jild nomini kiriting."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Yorliqni olib tashla"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Batareya quvvati kam"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 fayl"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Mening albomim"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Quyidagidan qo‘shish"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Signallar"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Har qanday"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Mavjud foydalanishlar"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Bayt"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Tarkiblar"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Yaratilgan sana"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Sana"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Tanlangan elementlar o'chirib tashlansinmi?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Hujjatlar"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Amalga oshirish"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Fayl nomi"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Fayl turi"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Jild nomi"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Boshqaga yo‘naltirish"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS ma’lumotlari"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS kengligi"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS uzunligi"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS versiyasi"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Tasvirlar"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Imkonsiz"
@@ -202,68 +76,17 @@ msgstr "Muddat"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Oxirgi o‘zgartirilgan"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Ro‘yxat va tafsilotlar"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Joylashuv"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC ma’lumoti initsializatsiyalanmoqda..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Mening video kliplarim"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Telefonda xotira yetarli emas. Ba’zi elementlarni yo‘q qiling va qayta urinib ko‘ring."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Fayllar yo‘q"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Oxirgi ochilgan fayllar yo‘q"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Oxirgi fayllar yo’q"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d fayllar"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%dta element"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d element"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Taxminiy"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Chop etish"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Nm/o‘z"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Huquq holati"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Ringtonlar"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Ulashish"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Yashirin fayllarni ko‘rsatish"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Ovozlar"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Xotira ishlatilishi"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Vaqt"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Vaqti belgilangan sanoq"
@@ -271,35 +94,11 @@ msgstr "Vaqti belgilangan sanoq"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tur"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Cheklanmagan"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Yuqoriga"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Amal qilish"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Ta’minotchi"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videolar"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Fon rasmlari"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Asosiyga qo‘sh"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Bu yerga eksport qil"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Fayllarimga o‘ting"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Asosiy"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Almasht."
@@ -307,92 +106,26 @@ msgstr "Almasht."
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Barcha jildlarni qidir"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Bu yerga o‘rnatish"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Kengaytirilgan qidiruv"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Audio"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Mobil tarmoqqa ulanish"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Wi-Fi tarmoqqa ulaning"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Hisob"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Jild nomini kiriting."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Mahalliy"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Yangi jild"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Oxirgi fayllar"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Faylni olib tashlash"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Ovoz kadr rasmini ulash"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Xotira"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Jild yaratib bo‘lmaydi"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Hammasini belgilash"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ha"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Jild nomini kiriting"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Yorliqlarga qo‘shish"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Tasvir fayllari sifatida"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Video fayllar sifatida"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Qo‘ng‘iroq qiluvchi ringtoni"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Zichlash"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Jild yaratish"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Sana (Eng oxirgi)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Sana (Eng eski)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Chiqarish"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Bu yerga chiqarish"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Birlamchi o'rnatilgan rington"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Batafsil"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Tahrirlash"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Chiqarish"
@@ -400,56 +133,17 @@ msgstr "Chiqarish"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Joriy jildga chiqarish"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Jildga o‘tish"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Fayl kengaytma. yashir"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Elementlar"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Ism"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Quyidagi bo‘yicha ro‘yxat"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Bu yerga ko‘chiring"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Ism"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Fayl joylashuvini ochish"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Shaxsiy sahifa"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Tovushni yozib olish"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Kontaktga ro‘y. olish"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Nom o‘zgartirish"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Nomi o‘zgartirildi."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Jild nomini o‘zgartirish"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Serverga ulanib bo‘lmaydi."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Shu yerda saqla"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Yaqindagi qurilmani qidir"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Tanlangan"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Havolani ulashish"
@@ -457,47 +151,14 @@ msgstr "Havolani ulashish"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Fayl kengaytmasini ko‘rsatish"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Ajratish"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Quyidagi bo‘y. saral"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Eskizli ko'rinish"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Quyidagi sifatida ko‘rib chiqish"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Ro‘yxat bo‘yicha ko‘rib chiqish"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Eskiz bo‘y. ko‘r."
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zichlash"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element yo‘q qilinadi."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "O‘sish tartibida"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "O'chirilsinmi?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Davom ettirish"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Nusxa olish bajarilmadi."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Yo‘q qilish bajarilmadi."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Tanlangan element o‘chirilsinmi?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Kamayib borish"
@@ -505,35 +166,8 @@ msgstr "Kamayib borish"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM fayl. Yuborib bo‘lmaydi."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM fayli mavjud emas."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Fayl nomi avvaldan foydalanilmoqda."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Jild nomi avvaldan mavjud."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Quyidagidan"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Matn kiritish"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Noto‘g‘ri fayl nomi."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Yuklanmoqda..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Jildlar soni maksimal miqdorga yetdi."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Ko‘chirib bo‘lmadi."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Nom bo‘sh."
@@ -544,41 +178,17 @@ msgstr "Xip xotira yetarli emas."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chring va qayta urinib ko‘ring."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Xotira yetarli emas. %s mavjud."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Bu yerga qo‘shing"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d element o'chirib tashlanadi."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Ruxsat rad etildi."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Oxirgi fayllar ro‘yxatidan olib tashlansinmi?"
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Yorliqlardan olib tashlansinmi?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Olib tashlansinmi?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Xuddi shunday fayl nomi avvaldan mavjud!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Bunday nom avvaldan ishlatilmoqda."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Element tanlang"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Yuborish bajarilmadi."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Yorliq qo‘shildi."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Yo‘q qilish"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Yakuniy jild manba jildining tagjildi hisoblanadi."
@@ -586,11 +196,8 @@ msgstr "Yakuniy jild manba jildining tagjildi hisoblanadi."
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Yakuniy jild manba jildi bilan bir xil."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Qurilma uzildi"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Ushbu fayl mavjud emas."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Qidirish"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Nusxa ko‘chirib bo‘lmaydi."
@@ -598,53 +205,17 @@ msgstr "Nusxa ko‘chirib bo‘lmaydi."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Ko‘chirib bo‘lmaydi."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Parametrlar"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Ushbu harakatni amalga oshirib bo‘lmaydi. Tarmoq xatosi yuzaga keldi."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Qo‘ng‘iroq mobaynida o‘ynatib bo‘lmaydi."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Vaqt"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "DRM himoyalangan tarkibni rington yoki bildirishnoma signali sifatida o‘rnatib bo‘lmaydi."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Yaqin-atrofdagi qurilmalarni qidirish uchun Wi-Fi tarmoqqa ulangan bo‘lishingiz lozim. Wi-Fi orqali ulaning va qayta urinib ko‘ring."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Orqaga"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Nusxa olish"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "O'chirish"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Tahrirlash"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Ko‘chirish"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Qidirish"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Quyid. bo‘y. sar"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Ko‘rib chiq:"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Bekor qilish"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Bekor qilish"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Tafsilot"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Barcha"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Cheklanmagan"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Tashqi xotira"
@@ -652,20 +223,8 @@ msgstr "Tashqi xotira"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Xotira kartasi"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Telefon"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Yuqoriga"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Zichlangan"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Chiqarildi"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Fayl yuklab olinmoqda..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videolar"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Fayllar zichlandi"
@@ -673,38 +232,71 @@ msgstr "Fayllar zichlandi"
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Fayllar chiqarildi"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Fayl import qilindi."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "Gb"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Qurilmalar topilmadi. Qidirish fonda davom etadi"
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "Mb"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Katalog"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Hammasini belgilash"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Hujjatlar"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Tasvirlar"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Fayllar yo‘q"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Xotira ishlatilishi"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Ushbu fayl mavjud emas."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Orqaga"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Barcha"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Jild yaratish"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Elementlar"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Ulanish"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Bildir. birlamchi ohangi"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Ism"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Quyidagi bo‘y. saral"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Yorliq qo‘shish"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 element yo‘q qilinadi."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Delete items?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Yo‘q qilish bajarilmadi."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Nom o‘zgartirish"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Parametrlar"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d element o'chirib tashlanadi."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Olib tashlash"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Ruxsat rad etildi."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Bekor qilish"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Elementni yo‘q qil"
@@ -715,23 +307,11 @@ msgstr "Elementlar tanlash"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Natijalar topilmadi"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "%dta element O'chirilsinmi?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Element yo‘q qilinsinmi?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 element tanlangan."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Mumkin bo‘lmagan belgi kiritildi. Qayta urinib ko‘ring"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d element tanlangan."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Ovozsiz"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Yuklab olish boshlanmoqda..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Element tanlang"
@@ -739,32 +319,11 @@ msgstr "Element tanlang"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Eng ko‘pi bilan %d element tanlashingiz mumkin."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Yuklanishlar"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "O'chirilsinmi?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Ko‘chir."
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Nusxalash"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Ko‘chirilmoqda..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Nusxa ko‘chirilmoqda..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "O'chirilmoqda…"
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Operatsiya bajarilmadi."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Tanlangan"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Ko‘chirilgan."
@@ -772,143 +331,35 @@ msgstr "Ko‘chirilgan."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Nusxa olindi."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Quyidagi bo‘y. saral"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Xato."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Bajarildi"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-karta"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Qurilma xotirasi"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Shaxsiy omborga qo‘shish"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Shaxsiy ombordan olib tashlash"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Ushbu element yo‘q qilinsinmi?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Maxfiydan olib tashlash"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Maxfiyga ko‘chirish"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Yuklanishlar"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "O'chirilmoqda…"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Xato."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-karta"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Belgilar soni ruxsat etilgan maksimal miqdorga yetdi."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Olib tashlanmoqda..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Shaxsiy ombor"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Formatlash yakunlandi."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Nom (Z dan A ga)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Nom (A dan Z ga)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Ekran rasmi"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Natijalar topilmadi."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Xabar kelganligi haqidagi signal"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Tafsilotlar"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Nom kiriting."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Fayllarim"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Qo‘shildi."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Bajarilmoqda..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Qo‘llab-quvvatlanmaydigan fayl turi."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Olib tashlansinmi?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Maxfiy tarkib"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Quyidagiga nusxa ko‘chirish"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Quyidagiga ko‘chirish"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Yorliqni qo‘shib bo‘lmadi."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chiring"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Olib tashlandi."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Maxfiy xotira"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Hech narsa tanlanmagan."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Um. foyd."
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Ko‘rish:"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Ro‘yxat"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Ko‘rish"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Quy-gicha"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Olib tashlash bajarilmadi."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Qo'shimcha baholash"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Fayl nomi avvaldan foydalanilmoqda."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Ovoz"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fidan foydalanib bo‘lmaydi. Mobil tarmoqlarga ulanish uchun, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishi mumkin"
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Belgilar soni maksimal miqdorga (%d) yetdi."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Qo‘llab-quvvatlanmaydigan fayl turi."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Tay-rlash..."
@@ -916,20 +367,8 @@ msgstr "Tay-rlash..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d tanlangan"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Elementlarni yo‘q qilish"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Yuklanmalar yo‘q"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Yuklab olish yakunlandi"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Yuklab olish menejeri"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Elementlarni yuklab olganingizdan so‘ng ular shu yerda ko‘rsatiladi."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Yuklab olish to'xtatildi"
@@ -958,14 +397,11 @@ msgstr "Birlamchi xotira to‘la"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Eskiroq"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Xotira"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Tafsilotlar"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Olib tashlanmoqda..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD-karta"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Bajarilmoqda..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Qurilma xotirasi"
@@ -973,86 +409,20 @@ msgstr "Qurilma xotirasi"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Serverga xabar berilmoqda..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d element o'chirib tashlanadi."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Ushbu faylni topib bo‘lmaydi. Uni qayta yuklab olishga urinish uchun Yuklab olishga teging."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Faylni ochib bo‘lmaydi"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Ushbu faylni ochish uchun ilovani topib bo‘lmadi."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Qayta urinib ko‘rish uchun Yuklab olishga teging."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element yo‘q qilinadi."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "DRM tarkib faollashtirilmoqda..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Ushbu amalni bajarish uchun ilovani topib bo‘lmaydi."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Xotira joylashuvi"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Import qilish"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Bekor qilish"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Hammasini belgilash"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d tanlandi"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Yuklab olish"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Bugun"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Kecha"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Yo‘q qilish"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Almash"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Barcha elementlarga qo‘lla"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Zip faylni yaratish"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "ZIP faylni chiqarish"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mening fayllarim"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Veb"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Yuklanmalar jurnali"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Jurnal yo‘q"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Oson ulashish"
@@ -1075,74 +445,11 @@ msgstr "Ushbu elementlarni ko‘chirish ularni Dropbox-dan o‘chirib tashlaydi.
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Ushbu elementni ko‘chirish uni Dropbox-dan o‘chirib tashlaydi. 1 ta element ko‘chiriladi."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Xotira joylashuvini tanlang"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "To‘xtatish"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Yuklash"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Fayl yuklanmadi"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Yuklashlarni to‘xtatish"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Yuklash uchun qayta urinib ko‘ring."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Yuklash to‘xtatiladi, lekin fayl yo‘q qilinmaydi."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Oxirgi ko‘rb chiqilgan"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Ma’lumotni saqlanmaydi"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Qurilmangiz xotirasida yetarli bo‘sh joy mavjud emas. Parametrlar > Quvvat va xotira > Xotiraga o‘ting, so‘ngra ba’zi fayllarni yo‘q qiling va qayta urinib ko‘ring."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD-kartangizda yetarli xotira mavjud emas. Parametrlar > Quvvat va xotira > Xotiraga o‘ting, so‘ngra ba’zi fayllarni yo‘q qiling va qayta urinib ko‘ring."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Yuklash"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox yuklanmalari"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Maxfiy"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "baytlar"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Qo‘shish"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Uy"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Budilnik"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Boshqalar"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Ko‘proq"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Ochish"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Noma’lum xato."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Jildni ‘.’ yoki ‘..’ sifatida nomlab bo‘lmaydi."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Yashirin fayl ko‘rsatilmasin"
@@ -1150,104 +457,23 @@ msgstr "Yashirin fayl ko‘rsatilmasin"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Yashirin fayllarni ko‘rsatish"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Noma’lum"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Yorliq nomi avvaldan foydalanilmoqda."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Boshlang'ich"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fayl"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Fayllar"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Jild"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Jildlar"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Tizim"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Ism"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Audio\nfayllar"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Hujjatlar"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Yukl. ol-gan\nilovalar"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Tasvirlar"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Videolar"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Bekor qilish"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Bekor qilish"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Yaratish"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Yo‘q qilish"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Olib tashlash"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Nom o‘zgartir"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Olib tashlash"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Yorliq qo‘shish"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Audio fayllar"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Nusxa ko‘chirish"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Nusxa ko‘chir"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Jild yaratish"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Yorliqlarni yo‘q qilish"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Tafsilotlar"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Hujjatlar"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Yuklab olingan ilovalar"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Tasvirlar"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Ko‘chirish"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "O‘tish"
@@ -1255,43 +481,7 @@ msgstr "O‘tish"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d tanlandi"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Oxirgi fayllar"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Olib tashlash"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Nom o‘zgartirish"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Parametrlar"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Yorliqlar"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Quyidagi bo‘yicha saralash"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Olib tashlash"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Yuklash"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Videolar"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Ko‘rib chiqish"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Hammasi"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Yorliqlar"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Tarkibi"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Qurilma xotirasi"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Joylashuv"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD-karta"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Fayl kengayt-ni ko‘rsat"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Yashirin fayllarni ko‘rsat"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Hajmi"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Tur"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Ta’minotchi"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Fayllar yo‘q"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "O‘sish tartibida"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Nusxa ko‘chirish"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Jild yaratish"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Kamayib borish"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Tafsilotli ro‘yxat"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Tafsilotlar"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Boshqa ko‘rsatilmasin"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Fayl turi"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Ro‘yxat"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Ko‘chirish"
@@ -1366,50 +502,14 @@ msgstr "Ko‘chirish"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Olib tashlash"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "O‘lcham"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Vaqt"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Tur"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Olib tashlash"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 element olib tashlanadi."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 ta yorliq yo‘q qilinadi."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Nusxa ko‘chirilmoqda..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Ko‘chirilmoqda..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%dta element olib tashlanadi."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%dta yorliq yo‘q qilinadi."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Olib tashlanmoqda..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Rouming vaqtida Mobil ma’lumotdan foydalanish tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Mavjud foydalanishlar"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Yaratilgan sana"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Tavsif"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Boshqaga yo‘naltirish"
@@ -1423,29 +523,14 @@ msgstr "Aniqlik darajasi"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Jami hajmi"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Amal qilishi"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Yakuniy jild manba jildning tag jildi hisoblanadi."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Yakuniy jild manba jildi bilan bir xil."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Yorliqni qo‘shib bo‘lmadi."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Elementdan nusxa olib bo‘lmadi."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Elementni yo‘q qilib bo‘lmadi."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Elementni ko‘chirib bo‘lmadi."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Elementni olib tashlab bo‘lmadi."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl nomi avvaldan foydalanilmoqda"
@@ -1459,23 +544,17 @@ msgstr "Yorliq qo‘shildi."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Yorliq oldindan mavjud"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Yangilash"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%dta element yo‘q qilinadi."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d ta ilova olib tashlanadi."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s olib tashlanadi."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Yuklab olish yakunlandi"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "O‘lcham"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Ro‘yx. ko‘rinish"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Xotira"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Jild nomi avvaldan ishlatilmoqda."
@@ -1483,23 +562,11 @@ msgstr "Jild nomi avvaldan ishlatilmoqda."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Mahalliy jamlovchi"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Qur. xotirasi"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Tizimga kirilmagan."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Barcha fayllar"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Bulut xotirasi"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Buyurtma"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Yorliqlar"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Vaqt"
@@ -1507,44 +574,32 @@ msgstr "Vaqt"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Olib tashlash"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Tarkibi:"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Yuz tanilmadi"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Hammasini belgilash"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Yuklab olish"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Avvaldan mavjud."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Bugun"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ko‘chirib bo‘lmaydi. Yakuniy jild manba jildi bilan bir xil."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Jild yaratish"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Yana"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Bu yerga ko‘ch."
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Bu yerga qo‘yish"
-
-msgid "IDS_PB_SK_SET"
-msgstr "O‘rnatish"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Kecha"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Ushbu fayl turi qurilmangizdagi hech bir ilova tomonidan qo‘llab-quvvatlanmaydi."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%dta fayl yo‘q qilinadi."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Noma’lum xato."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Fayllar yuborildi"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Noma’lum"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Tizim"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "BAJARILDI"
@@ -1555,53 +610,11 @@ msgstr "BEKOR QILISH"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "O‘CHIRISH"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Nom o‘zgartirish"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Elementni tanlash"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Yuklashlar yo‘q"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Elementlarni yuklaganingizdan so‘ng, ular bu yerda ko‘rsatiladi."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Parametrlar"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Ma’lumotni saqlanmaydi"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD-kartangizda yetarli xotira mavjud emas. Parametrlar > Quvvat va xotira > Xotiraga o‘ting, so‘ngra ba’zi fayllarni yo‘q qiling va qayta urinib ko‘ring."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Qurilmangiz xotirasida yetarli bo‘sh joy mavjud emas. Parametrlar > Quvvat va xotira > Xotiraga o‘ting, so‘ngra ba’zi fayllarni yo‘q qiling va qayta urinib ko‘ring."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Xato"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Xotira to‘la."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 ta element Dropbox-dan o‘chirib tashlanadi."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d ta element Dropbox-dan o‘chirib tashlanadi."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Mobil ma’lumot o‘chirilgan. Wi-Fi tarmoqqa ulaning yoki Mobil ma’lumotni yoqing va qayta urinib ko‘ring."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Parametrlar"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Shaxsiy ombor"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Yo‘l"
@@ -1612,23 +625,8 @@ msgstr "Belgilar soni ruxsat etilgan maksimal miqdorga %d yetdi"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Xotirani tanlash"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Yuklab olish jurnali"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Yuklab olish jurnali"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Yuklab olinmoqda..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Yuklanmalar"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Yuklanmalar yo‘q"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Yuklab olib bo‘lmadi"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Amal qilish muddati tugaydi: %s"
@@ -1636,30 +634,114 @@ msgstr "Amal qilish muddati tugaydi: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Amal qilish muddati tugadi: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Faylni yuklab olib bo‘lmadi"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Faylni qayta yuklab olishga urinib ko‘ring yoki uni yuklab olish navbatidan olib tashlang."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Qayta urinish"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Olib tashla"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Toifa"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Jild nomi ishlatilmoqda"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "File name in use"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Ushbu fayl nomi (%s) avvaldan yakuniy jildda foydalanilmoqda."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ushbu jild nomi (%s) avvaldan yakuniy jildda foydalanilmoqda."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Yo‘q qilish"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Jurnalni tozalash"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Zichlanmoqda..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Chiqarib olish..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Elem-ni ZIP fayldan chiq/ol"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Yangi jild %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Jildni “.” yoki “..” sifatida nomlab bo‘lmaydi."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Parametrlar"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Tafsilotli ro‘yxat"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Chiqarib olib bo‘lmaydi"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Joy yetarli emas"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP fayl yaratish"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Jurnal yo‘q"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Qayta ko‘rsatilmasin"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Ko‘proq"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Bekor qilinmoqda..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Harakat amalga oshmaydi"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fayl"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Jild"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Jildlar"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Ism"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Qurilma xotirasida yetarlicha bo‘sh joy yo‘q. Parametrlar > Xotira va RAM > Xotira > Tafsilotlar menyusiga o‘ting, so‘ngra ayrim fayllarni o‘chiring va qayta urinib ko‘ring."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD-kartada yetarlicha bo‘sh joy mavjud emas. Parametrlar > Xotira va RAM > Xotira > Tafsilotlar menyusiga o‘ting, so‘ngra ayrim fayllarni o‘chiring va qayta urinib ko‘ring."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Ro‘yxat"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "O‘lcham"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 element olib tashlanadi."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Jild nomini %s sifatida o‘rnatib bo‘lmayapti."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Fayl o‘chirib tashlandi, ko‘chirildi yoki nomi o‘zgartirildi. Faylni qayta yuklab olish uchun Yuklab olish tugmasini yoki uni Yuklab olish jurnalidan olib tashlash uchun Olib tashlash tugmasini bosing."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Yangilash"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s olib tashlanadi."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "O‘lcham"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Qur. xotirasi"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Bulut xotirasi"
+
+msgid "IDS_PB_SK_SET"
+msgstr "O‘rnatish"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Nom o‘zgartirish"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Fayllarim"
 

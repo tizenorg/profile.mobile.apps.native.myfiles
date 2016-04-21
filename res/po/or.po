@@ -1,71 +1,35 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$dଟି ସଫଳ, %2$dଟି ବିଫଳ ହୋଇଛି"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%dଟି ସଫଳ ହୋଇଛି"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "ସମସ୍ତ ଆଇଟମକୁ ପ୍ରୟୋଗ"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "ଡାଉନଲୋଡ୍ ପ୍ରସ୍ତୁତ ହେଉଛି..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "ଆପଣଙ୍କ ଡିଭାଇସ୍‌ ଏକ Wi-Fi ନେଟୱାର୍କକୁ ସଂଯୋଗ ହୋଇନାହିଁ। ଆପଣଙ୍କ ଦେୟ ଯୋଜନା ଉପରେ ନିର୍ଭର କରି ଏକ ମୋବାଇଲ୍ ନେଟୱାର୍କକୁ ସଂଯୋଗ କରିବା ଅତିରିକ୍ତ ଦର ଲାଗୁ ହୋଇପାରେ।"
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "ଦ୍ଵାରା ଅଂଶୀଦାର"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "ଦ୍ଵାରା ଅଂଶୀଦାର"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "ମୋବାଇଲ୍ ଡାଟା ଟର୍ନ୍ ଅଫ୍ ହୋଇଛି। Wi-Fi ନେଟୱାର୍କକୁ ସଂଯୋଗ ବଦଳରେ, କିମ୍ୱା ମୋବାଇଲ୍ ଡାଟା ଟର୍ନ୍ ଅନ୍ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
-
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "ଏହି ଆଇଟମ୍ ବିଲୋପିତ ହେବ।"
-
-msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
-msgstr "ଡାଉନଲୋଡ୍ ହେଉଛି..."
-
-msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
-msgstr "ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ।"
-
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "ବାତିଲ୍ ହୋଇଛି"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "ଡାଉନଲୋଡ୍ ବିଫଳ ହୋଇଛି"
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "ମେମୋରୀ କାର୍ଡ୍ ଅପସାରିତ।"
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "ସଫଳତା"
 
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "ଡାଉନଲୋଡ୍ କରୁଛି..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ।"
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "ସୃଷ୍ଟି"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "ବିଲୋପିତ"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "ମେମୋରୀ କାର୍ଡ୍ ଅପସାରିତ।"
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "ସନ୍ଧାନ କରୁଛି..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "ନେଟୱାର୍କ୍ ସଂଯୋଜନ ତ୍ରୁଟି।"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "ଫୋଲ୍ଡର୍ ବିଲୋପ"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ ପ୍ରବେଶ କରନ୍ତୁ"
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "ଡାଉନଲୋଡ୍ ହୋଇଥିବା ଆପସ୍"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "ନେଟୱାର୍କ୍ ସଂଯୋଜନ ତ୍ରୁଟି ଘଟିଛି। କଲ୍ ଶେଷ ହୋଇଛି। ନେଟୱାର୍କକୁ ପୁନଃସଂଯୋଗ କରିବେ?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "ଓକେ"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "ସଞ୍ଚୟ"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "ହଁ"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "ନା"
@@ -73,122 +37,32 @@ msgstr "ନା"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "ସର୍ଟକଟ୍ ଯୋଡନ୍ତୁ"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "ବିଲୋପ"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "ସର୍ଟକଟ୍ ବିଲୋପ କରନ୍ତୁ"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "ସର୍ଟକଟ୍ ପୁନଃନାମ କରନ୍ତୁ"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "ସନ୍ଧାନ"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "ସେଟିଂସ୍"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "ଅଂଶୀଦାର"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "ଷ୍ଟୋରେଜ୍ ବ୍ୟବହାର"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "ପୁନଃ ଦେଖାନ୍ତୁ ନାହିଁ"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "ବାଇଟ୍"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "ସର୍ଭରକୁ ସଂଯୋଗ କରିବା ଅସମର୍ଥ ଅଟେ।"
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "ବ୍ୟକ୍ତିଗତ"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ଫୋଲ୍ଡର୍ ନାମ ପ୍ରବେଶ କରନ୍ତୁ"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "ସର୍ଟ୍‌କଟ୍ ଅପସାରଣ କର."
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "ବ୍ୟାଟେରୀ କମ"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 ଫାଇଲ୍"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "ମୋ ଆଲବମ୍"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "ରୁ ଯୋଡନ୍ତୁ"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "ସତର୍କଗୁଡିକ"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "ଯେକୌଣସି"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "ଉପଲବ୍ଧ ବ୍ୟବହାରଗୁଡିକ"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "ବାଇଟ୍"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "ବିଷୟବସ୍ତୁ"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "ସୃଷ୍ଟି ହୋଇଥିବା ତାରିଖ"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "ତାରିଖ"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "ଚୟନିତ ଆଇଟମଗୁଡିକୁ ବିଲୋପ କରିବେ?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "ଡକ୍ୟୁମେଣ୍ଟଗୁଡିକ"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "କାର୍ଯ୍ୟକାରୀ"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "ଫାଇଲ୍ ନାମ"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "ଫାଇଲ୍ ପ୍ରକାର"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "ଅଗ୍ରଗାମୀ ହେଉଛି"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "ଜିପିଏସ ସୂଚନା"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS ଅକ୍ଷାଂଶ"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "ଜିପିଏସ୍ ଦ୍ରାଘିମା"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "ଜିପିଏସ ସଂସ୍କରଣ"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "ଫଟୋଗୁଡିକ"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "ଅସମ୍ଭବ"
@@ -202,68 +76,17 @@ msgstr "ଅନ୍ତରାଳ"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "ଶେଷ ସଂଶୋଧିତ"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "ତାଲିକା ଏବଂ ବିବରଣୀ"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "ଅବସ୍ଥାନ"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "ଏମଏମସିଡାଟା ଇନିସିଆଲାଇଜିଂ..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "ମୋ ଭିଡିଓ କ୍ଲିପ୍‌ଗୁଡିକ"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "ଫୋନ୍‌ ମେମୋରୀରେ ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ। କିଛି ଆଇଟମ୍‌ ବିଲୋପ କରି ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "କୌଣସି ଫାଇଲ୍ ନାହିଁ"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "ସମ୍ପ୍ରତି ଖୋଲାଯାଇଥିବା କୌଣସି ଫାଇଲ୍ ନାହିଁ"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "କୌଣସି ସମ୍ପ୍ରତି ପ୍ରସ୍ତୁତ ଫାଇଲ୍ ନାହିଁ"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d ଫାଇଲ୍‌"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%dଟି ଆଇଟମ୍"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%dଟି ଆଇଟମ୍‌"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "ସମ୍ଭବ"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "ପ୍ରିଣ୍ଟ"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "ପୁନଃନାମ"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "ଠିକ୍‍ ସ୍ଥିତି"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "ରିଂଟୋନଗୁଡିକ"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "ଅଂଶୀଦାର"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "ଲୁକ୍କାୟିତ ଫାଇଲଗୁଡିକ ଦେଖାନ୍ତୁ"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "ସାଉଣ୍ଡଗୁଡିକ"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "ଷ୍ଟୋରେଜ୍ ବ୍ୟବହାର"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "ସମୟ"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "ସମୟ ଗଣନା"
@@ -271,35 +94,11 @@ msgstr "ସମୟ ଗଣନା"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "ପ୍ରକାର"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "ଅସୀମିତ"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "ଅପ୍"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "ବୈଧତା"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "ବିକ୍ରେତା"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "ଭିଡିଓ‌ଗୁଡିକ"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "ୱାଲପେପରଗୁଡିକ"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "ମୂଳକୁ ଯୋଡନ୍ତୁ"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "ଏଠାକୁ ରପ୍ତାନି କରନ୍ତୁ"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "ମୋ ଫାଇଲଗୁଡିକୁ ଯାଆନ୍ତୁ"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "ହୋମ୍"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "ବିସ୍ଥାପନ"
@@ -307,92 +106,26 @@ msgstr "ବିସ୍ଥାପନ"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "ସମସ୍ତ ଫୋଲ୍ଡର୍‌ଗୁଡିକ ସନ୍ଧାନ"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "ଏଠାରେ ସେଟ୍ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "ବିକଶିତ ସନ୍ଧାନ"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "ଅଡିଓ"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "ମୋବାଇଲ୍‍ ନେଟୱାର୍କକୁ ସଂଯୋଗ"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Wi-Fi ନେଟୱାର୍କକୁ ସଂଯୋଗ କରିବା"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "ଗଣନା"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ ପ୍ରବେଶ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "ସ୍ଥାନୀୟ"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "ନୂତନ ଫୋଲ୍ଡର୍"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "ସମ୍ପ୍ରତି ଫାଇଲଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "ଫାଇଲ ଅପସାରଣ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "ଧ୍ଵନି ଓ ସଟ୍ ଫଟୋ ଅଂଶୀଦାର"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "ଷ୍ଟୋରେଜ୍"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "ଫୋଲ୍‌ଡର୍‌ ସୃଷ୍ଟି କରିବାକୁ ଅସମର୍ଥ"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "ସମସ୍ତ ଚୟନ"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ହଁ"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "ଫୋଲ୍ଡର୍ ନାମ ପ୍ରବେଶ କରନ୍ତୁ"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "ସର୍ଟ୍‌କଟ୍‌ଗୁଡିକରେ ଯୋଡନ୍ତୁ"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "ଫଟୋ ଫାଇଲଗୁଡିକ ପରି"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "ଭିଡିଓ ଫାଇଲଗୁଡିକ ପରି"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "କଲର୍ ରିଂଟୋନ୍"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "ସଙ୍କୋଚନ"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "ତାରିଖ (ସର୍ବ ନୂତନ)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "ତାରିଖ (ପୁରୁଣା)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "ଅଣସଙ୍କୋଚନ"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "ଏଠାରେ ଅଣସଙ୍କୋଚନ କର"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "ଡିଫଲ୍ଟ ରିଂଟୋନ୍"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "ବିବରଣୀ ଦର୍ଶନ"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "ସମ୍ପାଦନ"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "ବାହାର କରନ୍ତୁ"
@@ -400,56 +133,17 @@ msgstr "ବାହାର କରନ୍ତୁ"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "ସମ୍ପ୍ରତି ଫୋଲ୍ଡରକୁ ବାହାର"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "ଫୋଲ୍ଡର୍‌କୁ ଯାଆନ୍ତୁ"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "ଫାଇଲ୍ ଏକ୍ସଟେନସନ୍ ଲୁଚା."
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "ଆଇଟମଗୁଡିକ"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "ନାମ"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "ଦ୍ୱାରା ତାଲିକା"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "ଏଠାକୁ ଘୁଞ୍ଚାନ୍ତୁ"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "ନାମ"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "ଫାଇଲ୍ ଅବସ୍ଥିତି ଖୋଲନ୍ତୁ"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "ବ୍ୟକ୍ତିଗତ ପୃଷ୍ଠା"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "ଧ୍ଵନି ରେକର୍ଡ଼ କରନ୍ତୁ"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "ସମ୍ପର୍କଗୁଡିକ ପଂଜିକରଣ କରନ୍ତୁ"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "ପୁନଃନାମ"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "ପୁନଃନାମ।"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "ଫୋଲ୍ଡର୍ ପୁନଃନାମ"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "ସର୍ଭରକୁ ସଂଯୋଗ କରିବା ଅସମର୍ଥ ଅଟେ।"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "ଏଠାରେ ସଞ୍ଚୟ କରନ୍ତୁ"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "ନିକଟବର୍ତ୍ତୀ ଡିଭାଇସଗୁ. ପାଇଁ ସ୍କାନ୍"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "ଚୟନିତ"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "ଲିଙ୍କ୍ ଅଂଶୀଦାର"
@@ -457,47 +151,14 @@ msgstr "ଲିଙ୍କ୍ ଅଂଶୀଦାର"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "ଫାଇଲ୍ ଏକ୍ସଟେନସନ୍ ଦେଖାନ୍ତୁ"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "ସ୍ପ୍ଲିଟ୍"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "ଦ୍ଵାରା ସଜାନ୍ତୁ"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "ଥମ୍ଵନେଲ୍ ଦର୍ଶନ"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "ଏହିପରି ଦେଖନ୍ତୁ"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "ତାଲିକା ଦ୍ଵାରା ଦର୍ଶନ"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "ଥମ୍ଵ. ଦ୍ଵାରା ଦର୍ଶନ"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "ଜିପ୍"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 ଆଇଟମ୍ ବିଲୋପ ହେବ।"
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "ବର୍ଦ୍ଧିତକ୍ରମରେ"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "ବିଲୋପ କରିବେ?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "ଜାରି"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "କପି କରିବାକୁ ବିଫଳ ହୋଇଛି।"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "ବିଲୋପ ବିଫଳ ହୋଇଛି।"
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "ଚୟନ ହୋଇଥିବା ଆଇଟମ୍‍ ବିଲୋପ କରିବେ?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "ହ୍ରାସକ୍ରମରେ"
@@ -505,35 +166,8 @@ msgstr "ହ୍ରାସକ୍ରମରେ"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM ଫାଇଲ୍। ପ୍ରେରଣ କରିବ ନାହିଁ।"
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "ଡିଆରଏମ ଫାଇଲ୍ ଉପଲବ୍ଧ ନାହିଁ।"
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "ଫାଇଲ୍ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି।"
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "ଫର୍ମାଟ୍"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "ରୁ"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "ଇନ୍‌ପୁଟ୍ ଟେକ୍ସଟ୍"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "ଅବୈଧ ଫାଇଲ୍ ନାମ।"
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "ଲୋଡ୍ କରୁଛି..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "ସର୍ବାଧିକ ଫୋଲ୍ଡରରେ ପହଞ୍ଚିଲା।"
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "ଘୁଞ୍ଚାଇବା ବିଫଳ ହୋଇଛି।"
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "ନାମ ଖାଲି ଅଛି।"
@@ -544,41 +178,17 @@ msgstr "ପର୍ଯ୍ୟାପ୍ତ ହିପ୍ ମେମୋରୀ ନାହ
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ। କିଛି ଆଇଟମ୍ ବିଲୋପ କରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।"
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ । %s ଉପଲବ୍ଧ"
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "ଏଠାରେ ପେଷ୍ଟ"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "ଅନୁମତି ନିଶିଦ୍ଧ ହୋଇଛି।"
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "ନିକଟ ଫାଇଲ୍ ତାଲିକାରୁ ଅପସାରଣ କରିବେ?"
+msgid "IDS_MF_SK_OK"
+msgstr "ଓକେ"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "ସର୍ଟ୍‌କର୍ଟ୍‌ଗୁଡିକରୁ ଅପସାରଣ କରିବେ?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "ଅପସାରଣ?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "ସମାନ୍ ଫାଇଲ୍ ନାମ ପୂର୍ବରୁ ଅବସ୍ଥିତ"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "ସମାନ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରେ ଅଛି।"
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "ପଠାଇବା ବିଫଳ ହୋଇଛି।"
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "ସର୍ଟକଟ୍ ଯୋଡି ହୋଇଛି।"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "ବିଲୋପ"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ହେଉଛି ଏକ ଉପ ଫୋଲ୍ଡରର ଉତ୍ସ ଫୋଲ୍ଡର୍।"
@@ -586,11 +196,8 @@ msgstr "ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ହେଉଛି ଏ
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ମୂଳ ଫୋଲ୍ଡର୍ ସହିତ ସମାନ ଅଟେ।"
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "ଏହି ଡିଭାଇସ୍ ବିଛିନ୍ନ ହୋଇଯାଇଛି।"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "ଏହି ଫାଇଲ୍ ବିଦ୍ୟମାନ ନାହିଁ।"
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "ସନ୍ଧାନ"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "କପି କରିବାକୁ ଅସମର୍ଥ।"
@@ -598,53 +205,17 @@ msgstr "କପି କରିବାକୁ ଅସମର୍ଥ।"
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "ଘୁଞ୍ଚାଇବାକୁ ଅସମର୍ଥ।"
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "ସେଟିଂସ୍"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "ଏହି କ୍ରିୟା ସମ୍ପାଦନ କରିବାରେ ଅସମର୍ଥ ଅଟେ। ନେଟୱାର୍କ ତ୍ରୁଟି ଘଟିଲା।"
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "କଲ୍ ସମୟରେ ଧ୍ୱନି ଚାଳନ କରିବାକୁ ଅସମର୍ଥ।"
+msgid "IDS_MF_BODY_TIME"
+msgstr "ସମୟ"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "ରିଂଟୋନ୍ କିମ୍ୱା ସୁଚନାକରଣ ସତର୍କ ଭାବେ DRM ସୁରକ୍ଷିତ ବିଷ୍ୟବସ୍ତୁ ସେଟ୍ କରିବାକୁ ଅସମର୍ଥ।"
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "ଆପଣଙ୍କ ନିକଟରେ ଥିବା ଡିଭାଇସଗୁଡିକ ସ୍କାନ୍ କରିବା ପାଇଁ ଆପଣ ଏକ Wi-Fi ନେଟୱାର୍କକୁ ସଂଯୁକ୍ତ ହେଇଥିବା ଦରକାର। ଏକ Wi-Fi ମାଧ୍ୟମରେ ସଂଯୁକ୍ତ ହୋଇ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "ବ୍ୟାକ୍"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "କପି"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "ବିଲୋପ"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "ସମ୍ପାଦନ"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "ଘୁଞ୍ଚାନ୍ତୁ"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "ସନ୍ଧାନ"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "ଦ୍ଵାରା ସଜାନ୍ତୁ"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "ଏହିପରି ଦେଖନ୍ତୁ"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "ବାତିଲ୍"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "ବାତିଲ୍"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "ବିବରଣୀ"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "ସମସ୍ତ"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "ଅସୀମିତ"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "ବାହ୍ୟ ଷ୍ଟୋରେଜ"
@@ -652,20 +223,8 @@ msgstr "ବାହ୍ୟ ଷ୍ଟୋରେଜ"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "ମେମୋରୀ କାର୍ଡ୍"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "ଫୋନ୍"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "ଅପ୍"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "ସଙ୍କୋଚିତ"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "ଅଣସଙ୍କୋଚିତ"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "ଫାଇଲ୍ ଡାଉନଲୋଡ୍‌ ହେଉଛି..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "ଭିଡିଓ‌ଗୁଡିକ"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "ଫାଇଲ୍‌ଗୁଡିକ ସଙ୍କୁଚିତ ହୋଇଛି"
@@ -673,38 +232,71 @@ msgstr "ଫାଇଲ୍‌ଗୁଡିକ ସଙ୍କୁଚିତ ହୋଇଛ�
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "ଫାଇଲ୍‌ଗୁଡିକ ବିସ୍ତୃତ ହୋଇଛି"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "ଆମଦାନୀ ହୋଇଥିବା ଫାଇଲ୍।"
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "କୌଣସି ଡିଭାଇସ୍‌ ମିଳିଲା ନାହିଁ। ସ୍କାନ୍ କରିବା ପୃଷ୍ଠପଟରେ ଜାରି ରହିବ।"
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "ଡିରେକ୍ଟୋରୀ"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "ସମସ୍ତ ଚୟନ"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "ଡକ୍ୟୁମେଣ୍ଟଗୁଡିକ"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "ଫଟୋଗୁଡିକ"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "କୌଣସି ଫାଇଲ୍ ନାହିଁ"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "ଷ୍ଟୋରେଜ୍ ବ୍ୟବହାର"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ଏହି ଫାଇଲ୍ ବିଦ୍ୟମାନ ନାହିଁ।"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ବ୍ୟାକ୍"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "ସମସ୍ତ"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "ଆଇଟମଗୁଡିକ"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "ସଂଯୋଗ"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "ଡିଫଲ୍ଟ ବିଜ୍ଞପ୍ତି ଧ୍ୱନି"
+msgid "IDS_MF_OPT_NAME"
+msgstr "ନାମ"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "ଦ୍ଵାରା ସଜାନ୍ତୁ"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "ସର୍ଟକଟ୍ ଯୋଡନ୍ତୁ"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ଆଇଟମ୍ ବିଲୋପ ହେବ।"
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "ଆଇଟମ୍‌ଗୁଡିକୁ ବିଲୋପ କରିବେ?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "ବିଲୋପ ବିଫଳ ହୋଇଛି।"
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "ପୁନଃନାମ"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ଫର୍ମାଟ୍"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "ସେଟିଂସ୍"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "ଅପସାରଣ"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ଅନୁମତି ନିଶିଦ୍ଧ ହୋଇଛି।"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ବାତିଲ୍"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ"
@@ -715,23 +307,11 @@ msgstr "ଆଇଟମଗୁଡିକ ଚୟନ"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "କୌଣସି ଫଳାଫଳ ମିଳିଲା ନାହିଁ"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "%d ଆଇଟମଗୁଡିକ ବିଲୋପ କରନ୍ତୁ?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "ଆଇଟମ୍ ବିଲୋପ କରିବେ?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 ଆଇଟମ୍ ଚୟନ ହୋଇଛି।"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "ଅବୈଧ କମ୍‍ ପ୍ରବେଶ ହେଲା। ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%dଟି ଆଇଟମ୍‌ ଚୟନ ହୋଇଛି।"
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "ଶାନ୍ତ"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ଡାଉନ୍‌ଲୋଡ୍‌ ଆରମ୍ଭ କରୁଛି..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ"
@@ -739,32 +319,11 @@ msgstr "ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "ଆପଣ %dଟି ଆଇଟମ୍‌ ପର୍ଯ୍ୟନ୍ତ ଚୟନ କରିପାରିବେ।"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "ଡାଉନଲୋଡଗୁଡିକ"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "ବିଲୋପ କରିବେ?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "ଘୁଞ୍ଚାଅ"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "କପି"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "ଘୁଞ୍ଚୁଛି..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "କପି କରୁଛି..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "ବିଲୋପ ହେଉଛି..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "ସଞ୍ଚାଳନ ବିଫଳ ହୋଇଛି।"
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "ଚୟନିତ"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "ଘୁଞ୍ଚିଛି।"
@@ -772,143 +331,35 @@ msgstr "ଘୁଞ୍ଚିଛି।"
 msgid "IDS_MF_POP_COPIED"
 msgstr "କପି ହୋଇଛି"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "ଦ୍ଵାରା ସଜାନ୍ତୁ"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "ବିଫଳ ହୋଇଛି"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "ସମାପ୍ତ"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD କାର୍ଡ୍"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "ଡିଭାଇସ୍ ମେମୋରୀ"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଷ୍ଟୋରେଜରେ ଯୋଡନ୍ତୁ"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଷ୍ଟୋରେଜ୍‌ରୁ ଅପସାରଣ କରନ୍ତୁ"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "ଏହି ଆଇଟମ୍ ବିଲୋପ କରିବେ?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "ବ୍ୟକ୍ତିଗତରୁ ଅପସାରଣ"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "ବ୍ୟକ୍ତିଗତକୁ ଯାଆନ୍ତୁ"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ଡାଉନଲୋଡଗୁଡିକ"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "ବିଲୋପ ହେଉଛି..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "ବିଫଳ ହୋଇଛି"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD କାର୍ଡ୍"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "ସର୍ବାଧିକ ସଂଖ୍ୟକ ବର୍ଣ୍ଣରେ ପହଞ୍ଚିଛି।"
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "ଅପସାରଣ କରୁଛି..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "ବ୍ୟକ୍ତିଗତ ଷ୍ଟୋରେଜ୍"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "ଫର୍ମାଟ ସମ୍ପୁର୍ଣ୍ଣ ହେଲା।"
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "ନାମ (Z ଠାରୁ A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "ନାମ (A ଠାରୁ Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "ସ୍କ୍ରିନ୍ କ୍ୟାପଚର୍"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "କୌଣସି ଫଳାଫଳ ନାହିଁ।"
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "ସନ୍ଦେଶ ସତର୍କ"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "ବିବରଣୀ"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "ନାମ ପ୍ରବେଶ କରନ୍ତୁ।"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "ମୋ ଫାଇଲଗୁଡିକ"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "ଯୋଡି ହୋଇଛି"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "ପ୍ରକ୍ରିୟାରତ..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "ଅସମର୍ଥିତ ଫାଇଲ୍ ପ୍ରକାର"
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "ଅପସାରଣ?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "କୁ କପି"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "କୁ ଘୁଞ୍ଚାଇବା"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "ସର୍ଟକଟ୍ ଯୋଡିବାକୁ ବିଫଳ ହୋଇଛି।"
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "ପର୍ଯ୍ୟାପ୍ତ ମେମୋରୀ ନାହିଁ। କିଛି ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ।"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "ଅପସାରିତ ହେଲା।"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "ବ୍ୟକ୍ତିଗତ ଷ୍ଟୋରେଜ୍"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "କିଛି ଚୟନ ହୋଇନାହିଁ।"
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "ଅଂଶୀଦାର"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "ଭାବେ ଦର୍ଶନ"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "ତାଲିକା"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "ଦର୍ଶନ"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "ଭାବେ ସଞ୍ଚୟ"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "ଅପସାରଣ ବିଫଳ ହୋଇଛି।"
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "ଡ୍ରପବକ୍ସ"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "ପ୍ୟାରେଣ୍ଟ ରେଟିଂ"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "ଫାଇଲ୍ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "ଭଏସ୍‍"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi ଉପଲବ୍ଧ ନାହିଁ। ମୋବାଇଲ୍ ନେଟୱାର୍କକୁ ସଂଯୋଗ କରିବା ଆପଣଙ୍କ ଦେୟ ଯୋଜନା ଉପରେ ନିର୍ଭର କରି,  ଅତିରିକ୍ତ ଦର ଲାଗୁ ହୋଇପାରେ।"
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "ସର୍ବାଧିକ ସଂଖ୍ୟକର ବର୍ଣ୍ଣ (%d)ରେ ପହଞ୍ଚିଛି।"
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "ଅସମର୍ଥିତ ଫାଇଲ୍ ପ୍ରକାର"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "ପ୍ରସ୍ତୁତ କରୁଛି..."
@@ -916,20 +367,8 @@ msgstr "ପ୍ରସ୍ତୁତ କରୁଛି..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%dଟି ଚୟନିତ"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "ଆଇଟମଗୁଡିକ ବିଲୋପ କରନ୍ତୁ"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "କୌଣସି ଡାଉନଲୋଡ୍ ନାହିଁ"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "ଡାଉନଲୋଡ୍ ସମ୍ପୁର୍ଣ୍ଣ ହୋଇଛି"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "ଡାଉନଲୋଡ୍ ପରିଚାଳକ"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "ଆପଣ ଆଇଟମ୍‌ଗୁଡିକ ଡାଉନ୍‌ଲୋଡ୍ କରିବା ପରେ, ସେଗୁଡିକ ଏଠାରେ ଦେଖାଯିବ।"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "ଡାଉନଲୋଡ୍‌ ବାତିଲ୍ ହେଲା"
@@ -958,14 +397,11 @@ msgstr "ଡିଫଲ୍ଟ ଷ୍ଟୋରେଜ୍‌ ସଂପୂର୍ଣ୍�
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "ପୁରୁଣା"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "ଷ୍ଟୋରେଜ୍"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "ବିବରଣୀ"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "ଅପସାରଣ କରୁଛି..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD କାର୍ଡ୍"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "ପ୍ରକ୍ରିୟାରତ..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍"
@@ -973,86 +409,20 @@ msgstr "ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "ସୂଚିତ କରୁଥିବା ସର୍ଭର୍..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "ଏହି ଫାଇଲ୍‍ ମିଳି ପାରିବ ନାହିଁ। ପୁନଃ ଡାଉନଲୋଡ୍‍ ଚେଷ୍ଟା କରିବାକୁ ଡାଉନଲୋଡ୍‍ ଟ୍ୟାପ୍‌ କରନ୍ତୁ।"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ଫାଇଲ୍ ଖୋଲିବାକୁ ଅସମର୍ଥ"
 
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "ଏହି ଫାଇଲ୍‌ ଖୋଲିବାକୁ ଆପ୍ଲିକେସନ୍ ସନ୍ଧାନ କରିବାକୁ ଅସମର୍ଥ।"
-
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "ପୁନଃଚେଷ୍ଟା କରିବାକୁ ଡାଉନଲୋଡ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ।"
-
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 ଆଇଟମ୍ ବିଲୋପ ହେବ।"
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "DRM ବିଷୟବସ୍ତୁ ସକ୍ରିୟ କରୁଛି..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "ଏହି କ୍ରିୟା ସଞ୍ଚାଳନ କରିବାକୁ ଆପ୍ଲିକେସନ୍ ସନ୍ଧାନ କରିବାରେ ଅସମର୍ଥ।"
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "ଷ୍ଟୋରେଜ୍ ଅବସ୍ଥାନ"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "ଆମଦାନୀ"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
+msgstr "ପୁନଃଚେଷ୍ଟା କରିବାକୁ “ଡାଉନଲୋଡ୍” ଟ୍ୟାପ୍ କରନ୍ତୁ।"
 
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "ବାତିଲ୍"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "ଓକେ"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "ସମସ୍ତ ଚୟନ"
-
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%dଟି ଚୟନିତ"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "ଡାଉନଲୋଡ୍"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "ଆଜି"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "ଗତକାଲି"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "ବିଲୋପ"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "ବିସ୍ଥାପନ"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "ସମସ୍ତ ଆଇଟମକୁ ପ୍ରୟୋଗ"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "ଜିପ୍ ଫାଇଲ୍ ସୃଷ୍ଟି"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "ଜିପ୍ ଫାଇଲ୍ ଏକ୍ସଟ୍ରାକ୍ଟ କରନ୍ତୁ"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "ମୋ ଫାଇଲଗୁଡିକ"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "ୱେବ୍"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "ଡାଉନଲୋଡ୍ ଇତିହାସ"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "କୌଣସି ଇତିହାସ ନାହିଁ"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "ସରଳ ଅଂଶୀଦାର ହେଉଛି"
@@ -1075,74 +445,11 @@ msgstr "ଏହି ଆଇଟମଗୁଡିକୁ ସ୍ଥାନାନ୍ତର 
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "ଏହି ଆଇଟମକୁ ସ୍ଥାନାନ୍ତର କଲେ ଏହା ଡ୍ରପବକ୍ସରୁ ବିଲୋପ ହେବ। 1 ଆଇଟମ୍ ସ୍ଥାନାନ୍ତର ହେବ।"
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "ଷ୍ଟୋରେଜ୍ ଅବସ୍ଥାନ ଚୟନ କରନ୍ତୁ"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "ସ୍ଥଗିତ"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "ଅପଲୋଡ୍"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "ଫାଇଲ୍ ଅପଲୋଡ୍ କରିବାକୁ ବିଫଳ ହେଲା"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "ଅପ୍‌ଲୋଡ୍‌ଗୁଡିକ ବନ୍ଦ କରନ୍ତୁ"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "ପୁନଃଚେଷ୍ଟା କରିବାକୁ ଅପଲୋଡ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ।"
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "ଅପଲୋଡ୍ ସ୍ଥଗିତ ହେବ, କିନ୍ତୁ ଫାଇଲ୍ ବିଲୋପ ହେବ ନାହିଁ।"
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "ସମ୍ପ୍ରତି ଦର୍ଶନ ହୋଇଥିବା"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "ଡାଟା ସଞ୍ଚୟ କରିବାକୁ ଅସମର୍ଥ"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ଆପଣଙ୍କ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜରେ ପର୍ଯ୍ୟାପ୍ତ ଖାଲିସ୍ଥାନ ନାହିଁ। ସେଟିଂସ୍ > ପାୱାର୍ ଏବଂ ଷ୍ଟୋରେଜ୍ > ଷ୍ଟୋରେଜକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲଗୁଡିକ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ଆପଣଙ୍କ SD କାର୍ଡରେ ପର୍ଯ୍ୟାପ୍ତ ସ୍ପେସ୍ ନାହିଁ। ସେଟିଂସ୍ > ପାୱାର୍ ଏବଂ ଷ୍ଟୋରେଜ୍ > ଷ୍ଟୋରେଜକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲଗୁଡିକ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "ଏଥିକୁ ଅପଲୋଡ୍"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "ଡ୍ରପବକ୍ସ ଅପଲୋଡଗୁଡିକ"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "ବ୍ୟକ୍ତିଗତ"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bytes"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "ଯୋଡନ୍ତୁ"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "ହୋମ୍"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "ଆଲରାମ୍"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "ଅନ୍ୟ"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "ଅଧିକ"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "ଖୋଲନ୍ତୁ"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "ଅଜଣା ତ୍ରୁଟି"
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ ‘.’ କିମ୍ବା ‘..’ ପରି ସେଟ୍ କରିପାରିବେ ନାହିଁ।"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "ଲୁକ୍କାୟିତ ଫାଇଲଗୁଡିକ ଦେଖାନ୍ତୁ ନାହିଁ"
@@ -1150,104 +457,23 @@ msgstr "ଲୁକ୍କାୟିତ ଫାଇଲଗୁଡିକ ଦେଖାନ�
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "ଲୁକ୍କାୟିତ ଫାଇଲଗୁଡିକ ଦେଖାନ୍ତୁ"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "ଅଜଣା"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "ସର୍ଟକଟ୍ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "ବେସିକ୍"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "ଫାଇଲ୍"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "ଫାଇଲଗୁଡିକ"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "ଫୋଲ୍ଡର୍"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "ଫୋଲ୍ଡରଗୁଡିକ"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "ସିଷ୍ଟମ୍"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "ନାମ"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "ଅଡିଓ ଫାଇଲଗୁଡିକ"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "ଡକ୍ୟୁମେଣ୍ଟଗୁଡିକ"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "ଡାଉନଲୋଡ୍ ହୋଇଥିବା ଆପ୍ଲିକେସନଗୁଡିକ"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "ଫଟୋଗୁଡିକ"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "ଭିଡିଓ‌ଗୁଡିକ"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "ବାତିଲ୍"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "ବାତିଲ"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "ସୃଷ୍ଟି"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "ବିଲୋପ"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "ଓକେ"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "ଅପସାରଣ କରନ୍ତୁ"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "ପୁନଃନାମ"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "ଅଣସଂସ୍ଥାପନ"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "ସର୍ଟକଟ୍ ଯୋଡନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "ଅଡିଓ ଫାଇଲଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "କପି"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "ଏଥିକୁ କପି କରନ୍ତୁ"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "ସର୍ଟକଟ୍ ବିଲୋପ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "ବିବରଣୀ"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "ଡକ୍ୟୁମେଣ୍ଟଗୁଡିକ"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "ଡାଉନଲୋଡ୍ ହୋଇଥିବା ଆପ୍ଲିକେସନଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "ଫଟୋଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "ଘୁଞ୍ଚାନ୍ତୁ"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "ଏଠାକୁ ଚଳାନ୍ତୁ"
@@ -1255,43 +481,7 @@ msgstr "ଏଠାକୁ ଚଳାନ୍ତୁ"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%dଟି ଚୟନିତ"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "ସମ୍ପ୍ରତି ଫାଇଲଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "ଅପସାରଣ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "ପୁନଃନାମ"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "ସେଟିଂସ୍"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "ସର୍ଟକଟଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "ଦ୍ଵାରା ସଜାନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "ଅଣସଂସ୍ଥାପନ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "ଏଥିକୁ ଅପଲୋଡ୍ କରନ୍ତୁ"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "ଭିଡିଓ‌ଗୁଡିକ"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "ଏହିପରି ଦେଖନ୍ତୁ"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "ସମସ୍ତ"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "ଡ୍ରପବକ୍ସ"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "ଡ୍ରପବକ୍ସ"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "ସର୍ଟକଟଗୁଡିକ"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "ଧାରଣ କରେ"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "ଡ୍ରପବକ୍ସ"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "ଫର୍ମାଟ୍"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "ଅବସ୍ଥାନ"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD କାର୍ଡ୍‌"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "ଫାଇଲ୍ ଏକ୍ସଟେନସନ୍ ଦେଖାନ୍ତୁ"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "ଲୁକ୍କାୟିତ ଫାଇଲଗୁ. ଦେଖାନ୍ତୁ"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "ଆକାର"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "ପ୍ରକାର"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "ଭେଣ୍ଡର୍"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "କୌଣସି ଫାଇଲ୍ ନାହିଁ"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "ବର୍ଦ୍ଧିତକ୍ରମରେ"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "କପି"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "ହ୍ରାସକ୍ରମରେ"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "ବିସ୍ତୃତ ତାଲିକା"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "ବିବରଣୀ"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "ପୁନଃ ଦେଖାନ୍ତୁ ନାହିଁ"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "ଫାଇଲ ପ୍ରକାର"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "ତାଲିକା"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "ଘୁଞ୍ଚାନ୍ତୁ"
@@ -1366,50 +502,14 @@ msgstr "ଘୁଞ୍ଚାନ୍ତୁ"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "ଅପସାରଣ"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "ଆକାର"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "ସମୟ"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "ପ୍ରକାର"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "ଅଣସଂସ୍ଥାପନ"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 ଆଇଟମ୍ ଅପସାରଣ ହେବ।"
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 ସର୍ଟକଟ୍ ବିଲୋପିତ ହେବ।"
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "କପି କରୁଛି..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "ଘୁଞ୍ଚୁଛି..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%dଟି ଆଇଟମ୍‌ ଅପସାରଣ ହେବ।"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d ସର୍ଟକଟ୍ ବିଲୋପ ହେବ।"
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "ଅପସାରଣ କରୁଛି..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "ରୋମିଂରେ ଥିବା ବେଳେ ଆପଣଙ୍କ ଦେୟ ପ୍ଲାନ୍‌ରେ ନିର୍ଭର କରି ମୋବାଇଲ୍ ଡାଟା ବ୍ୟବହାର କରିବା ଦ୍ଵାରା ଅତିରିକ୍ତ ଦେୟ ଲାଗୁ ହୋଇପାରେ।"
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "ଉପଲବ୍ଧ ବ୍ୟବହାରଗୁଡିକ"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "ତାରିଖ ସୃଷ୍ଟି ହୋଇଛି"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "ବର୍ଣ୍ଣନା"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "ଅଗ୍ରଗାମୀ କରୁଛି"
@@ -1423,29 +523,14 @@ msgstr "ରିଜୋଲ୍ୟୁସନ୍"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "ମୋଟ ଆକାର"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "ବୈଧତା"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ଉତ୍ସ ଫୋଲ୍ଡରର ଉପଫୋଲ୍ଡର୍।"
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "ଉତ୍ସ ଫୋଲ୍ଡର୍ ଭଳି ସମାନ ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍।"
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "ସର୍ଟକଟ୍ ଯୋଡିବାକୁ ବିଫଳ ହୋଇଛି।"
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "ଆଇଟମ୍ କପି କରିବାକୁ ବିଫଳ ହେଲା।"
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "ଆଇଟମ୍ ବିଲୋପ କରିବାକୁ ବିଫଳ ହେଲା।"
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "ଆଇଟମ୍‌ ଘୁଞ୍ଚାଇବାକୁ ବିଫଳ ହେଲା।"
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "ଆଇଟମ୍ ଅପସାରଣ କରିବାକୁ ବିଫଳ ହେଲା।"
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ଫାଇଲ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
@@ -1459,23 +544,17 @@ msgstr "ସର୍ଟକଟ୍ ଯୋଡାଯାଇଛି।"
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "ସର୍ଟକଟ୍ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି।"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "ସତେଜ"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%dଟି ଆପସ୍ ଅଣସଂସ୍ଥାପିତ ହେବ।"
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s ଅଣସଂସ୍ଥାପିତ ହେବ।"
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ଡାଉନଲୋଡ୍ ସମ୍ପୁର୍ଣ୍ଣ ହୋଇଛି"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "ଆକାର"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "ତାଲିକା ଦର୍ଶନ"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "ଷ୍ଟୋରେଜ୍"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "ଡିଭାଇସ୍‌ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
@@ -1483,23 +562,11 @@ msgstr "ଡିଭାଇସ୍‌ ନାମ ପୂର୍ବରୁ ବ୍ୟବହ
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "ସ୍ଥାନୀୟ ଷ୍ଟୋରେଜ୍"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "ସାଇନ୍ ଇନ୍ ହୋଇନାହିଁ।"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "ସମସ୍ତ ଫାଇଲ୍‌"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "କ୍ରମାଙ୍କ"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "ସର୍ଟକଟଗୁଡିକ"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "ସମୟ"
@@ -1507,44 +574,32 @@ msgstr "ସମୟ"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "ଅଣସଂସ୍ଥାପନ"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "ଧାରଣ କରିଛି"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ଓକେ"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "କୌଣସି ମୁଖଗୁଡିକ ଚିହ୍ନଟ ହୋଇନାହିଁ"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "ସମସ୍ତ ଚୟନ"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ଡାଉନଲୋଡ୍"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି।"
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "ଆଜି"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "ଘୁଞ୍ଚାଇବାକୁ ଅସମର୍ଥ । ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ଉତ୍ସ ଫୋଲ୍ଡର୍ ପରି ସମାନ ଅଟେ।"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "ଅଧିକ"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "ଏଠାକୁ ଘୁଞ୍ଚାନ୍ତୁ"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "ଏଠାରେ ଲେପନ କରନ୍ତୁ"
-
-msgid "IDS_PB_SK_SET"
-msgstr "ସେଟ୍"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "ଗତକାଲି"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "ଏହି ପ୍ରକାର ଫାଇଲ୍‌ ଆପଣଙ୍କ ଡିଭାଇସର କୌଣସି ଆପ୍ଲିକେସନ୍ ଦ୍ୱାରା ସମର୍ଥିତ ନୁହେଁ।"
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%dଟି ଫାଇଲ୍‌ ବିଲୋପ ହେବ।"
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "ଅଜଣା ତ୍ରୁଟି"
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "ଫାଇଲଗୁଡିକ ପ୍ରେରଣ ହୋଇଛି"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "ଅଜଣା"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "ସିଷ୍ଟମ୍"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ସମାପ୍ତ"
@@ -1555,53 +610,11 @@ msgstr "ବାତିଲ୍"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ବିଲୋପ"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "ପୁନଃନାମ"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "କୌଣସି ଅପଲୋଡ୍ ନାହିଁ"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "ଆପଣ ଆଇଟମଗୁଡିକ ଅପଲୋଡ୍ କରିବା ପରେ, ସେଗୁଡିକ ଏଠାରେ ଦେଖାଯିବ।"
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "ସେଟିଂସ୍"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "ଡାଟା ସଞ୍ଚୟ କରିବାକୁ ଅସମର୍ଥ"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ଆପଣଙ୍କ SD କାର୍ଡରେ ପର୍ଯ୍ୟାପ୍ତ ସ୍ପେସ୍ ନାହିଁ। ସେଟିଂସ୍ > ପାୱାର୍ ଏବଂ ଷ୍ଟୋରେଜ୍ > ଷ୍ଟୋରେଜକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲଗୁଡିକ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ଆପଣଙ୍କ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜରେ ପର୍ଯ୍ୟାପ୍ତ ଖାଲିସ୍ଥାନ ନାହିଁ। ସେଟିଂସ୍ > ପାୱାର୍ ଏବଂ ଷ୍ଟୋରେଜ୍ > ଷ୍ଟୋରେଜକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲଗୁଡିକ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "ତ୍ରୁଟି"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "ମେମୋରୀ ପୂର୍ଣ୍ଣ"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "ଡ୍ରପବକ୍ସରୁ 1 ଆଇଟମ୍ ବିଲୋପ ହେବ।"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "ଡ୍ରପବକ୍ସରୁ %dଟି ଆଇଟମ୍‌ ବିଲୋପ ହେବ।"
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "ମୋବାଇଲ୍ ଡାଟା ଟର୍ନ୍ ଅଫ୍ ଅଛି। ଏକ Wi-Fi ନେଟୱାର୍କକୁ ସଂଯୋଗ କରନ୍ତୁ କିମ୍ବା ମୋବାଇଲ୍ ଡାଟା ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "ସେଟିଂସ୍"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "ବ୍ୟକ୍ତିଗତ ଷ୍ଟୋରେଜ୍"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "ପଥ"
@@ -1612,23 +625,8 @@ msgstr "ସର୍ବାଧିକ ସଂଖ୍ୟାର ବର୍ଣ୍ଣ %dଟ�
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "ଷ୍ଟୋରେଜ୍ ଚୟନ କରନ୍ତୁ"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "ଇତିହାସ ଡାଉନଲୋଡ୍ କରନ୍ତୁ"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "ଡାଉନଲୋଡ୍ ଇତିହାସ"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "ଡାଉନଲୋଡ୍ କରୁଅଛି..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "ଡାଉନଲୋଡ‌ଗୁଡିକ"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "କୌଣସି ଡାଉନଲୋଡ୍ ନାହିଁ"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "ଡାଉନଲୋଡ୍ ବିଫଳ ହୋଇଛି"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "ରେ ସମୟ ସମାପ୍ତ: %s"
@@ -1636,30 +634,114 @@ msgstr "ରେ ସମୟ ସମାପ୍ତ: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "ରେ ସମୟ ସମାପ୍ତ ହୋଇଛି: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରିବାକୁ ବିଫଳ ହେଲା"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "ଫାଇଲ୍ ପୁନଃ ଡାଉନଲୋଡ୍ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ, କିମ୍ୱା ଡାଉନଲୋଡ୍ ଧାଡିରୁ ଏହାକୁ ଅପସାରଣ କରନ୍ତୁ।"
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "ପୁନଃଚେଷ୍ଟା"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "ଅପସାରଣ"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "ବର୍ଗ"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "ଫୋଲ୍ଡର୍ ନାମ ବ୍ୟବହାରରେ ଅଛି"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "ଫାଇଲ୍ ନାମ ବ୍ୟବହାରରେ ଅଛି"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "ଏହି ଫାଇଲ୍ ନାମ (%s) ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡରରେ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ରହିଛି।"
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ଏହି ଫୋଲ୍ଡର୍ ନାମ (%s) ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ରହିଛି।"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "ବିଲୋପ"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "ଇତିହାସ ଖାଲି"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "ରଚନା କରୁଛି..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "ବାହାର କରୁଛି..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "ZIP ଫାଇଲରୁ ଆଇଟମଗୁ. ଏକ୍ସଟ୍ରା."
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "ନୂତନ ଫୋଲ୍ଡର୍ %dଟି"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "“.” କିମ୍ୱା “..” ଭାବେ ଫୋଲ୍ଡର୍ ନାମ ସେଟ୍ କରିପାରିବେ ନାହିଁ।"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "ସେଟିଂସ୍"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "ବିବରଣୀ ତାଲିକା"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "ଆଇଟମଗୁ. ଏକ୍ସଟ୍ରା. କରି. ଅସମ."
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "ପର୍ଯ୍ୟାପ୍ତ ସ୍ପେସ୍ ନାହିଁ"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP ଫାଇଲ୍ ସୃଷ୍ଟି"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "କୌଣସି ଇତିହାସ ନାହିଁ"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "ପୁନଃ ଦେଖାନ୍ତୁ ନାହିଁ"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "ଅଧିକ"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "ବାତିଲ୍ କରୁଛି..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "କାର୍ଯ୍ୟ ସମ୍ପାଦନ କରି. ଅସମର୍ଥ"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "ଫାଇଲ୍"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "ଫୋଲ୍ଡର୍"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "ଫୋଲ୍ଡରଗୁଡିକ"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "ନାମ"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ଆପଣଙ୍କ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜରେ ପର୍ଯ୍ୟାପ୍ତ ସ୍ପେସ୍ ନାହିଁ। ସେଟିଂସ୍ > ଷ୍ଟୋରେଜ୍ ଏବଂ RAM > ଷ୍ଟୋରେଜ୍ > ବିବରଣୀକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲ୍‌ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ଆପଣଙ୍କ SD କାର୍ଡରେ ପର୍ଯ୍ୟାପ୍ତ ସ୍ପେସ୍ ନାହିଁ। ସେଟିଂସ୍ > ଷ୍ଟୋରେଜ୍ ଏବଂ RAM > ଷ୍ଟୋରେଜ୍ > ବିବରଣୀକୁ ଯାଆନ୍ତୁ, ତାପରେ କିଛି ଫାଇଲ୍‌ ବିଲୋପ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "ତାଲିକା"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "ଆକାର"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 ଆଇଟମ୍ ଅପସାରଣ ହେବ।"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "ଫୋଲ୍ଡର୍ ନାମ %s ଭାବେ ସେଟ୍ କରିପାରିବେ ନାହିଁ।"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "ଏହି ଫାଇଲ୍ ବିଲୋପିତ, ଘୁଞ୍ଚାଯାଇଛି, କିମ୍ୱା ପୁନଃନାମିତ କରା ହୁଏ। ଫାଇଲ୍ ପୁନଃ ଡାଉନଲୋଡ୍‌ କରିବାକୁ “ଡାଉନଲୋଡ୍” ଟ୍ୟାପ୍ କରନ୍ତୁ କିମ୍ୱା ଏହାକୁ ଡାଉନଲୋଡ୍‌ ଇତିହାସରୁ ଅପସାରଣ କରିବାକୁ “ଅପସାରଣ” ଟ୍ୟାପ୍ କରନ୍ତୁ।"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "ସତେଜ"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ଅଣସଂସ୍ଥାପନ ହେବ।"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "ଆକାର"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍"
+
+msgid "IDS_PB_SK_SET"
+msgstr "ସେଟ୍"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "ପୁନଃନାମ"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "ମୋ ଫାଇଲଗୁଡିକ"
 

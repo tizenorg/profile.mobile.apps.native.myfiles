@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d сәтті, %2$d сәтсіз болды"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d сәтті аяқталды"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Барлық элементтерге қолдану"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Жүктеуге дайындалуда..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Құрылғыңыз Wi-Fi желісіне қосылмаған. Ұялы байланыс желісіне қосылу үшін төлем жоспарына байланысты қосымша ақы төлеуіңіз мүмкін"
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Бөлісу құралы"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Бөлісу құралы"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Ұялы деректер өшірілді. Оның орнына Wi-Fi желісіне қосылыңыз немесе ұялы деректерді қосып, әрекетті қайталаңыз."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d элемент жойылады."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Жад картасы алып тасталды."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Бұл элемент жойылады."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Жетістік"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Жазылуда..."
@@ -22,50 +28,8 @@ msgstr "Жазылуда..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Жадында орын аз."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Өзгертілді"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Көшіру сәтсіз."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Жетістік"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Құру"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Жойылды"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Жад картасы алып тасталды."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Іздеуде...."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Желіге қосылу қатесі"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Қалтаны жою"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Қалта атын енгізңіз."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Жүктелген бағдарламалар"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Желіге қосылу кезінде қате пайда болды. Қоңырау аяқталды. Желіге қайта қосылу керек пе?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Сақтау"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Иә"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Жоқ"
@@ -73,122 +37,32 @@ msgstr "Жоқ"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Белгіше қосу"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Жою"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Белгішені жою"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Белгіше атауын өзгерту"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Іздеу"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Қондырғылар"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Бөлісу"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Жадты пайдалану"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Қайтадан көрсетпеу"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "Б"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Байт"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "Гбайт"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "МБ"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Серверге қосылудың реті келмеді."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Жеке аумақ"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Қалта атын енгізңіз."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Белгішені жою"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Батареяның заряды  аз"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 файл"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Альбомым"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Қосу"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Дабыл қағу"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Кез келген"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Пайдалануға жарамды"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Байт"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Құрамы"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Жасалған күн"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Күні"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Таңдалған элементтерді жою керек пе?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KБ"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Құжаттар"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Орындау"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Файл аты"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Файл түрі"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Папка аты"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Басқа біреуге жіберу"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS ақпараты"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS ендігі"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS бойлығы"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS түрі"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Суреттер"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Мүмкін емес"
@@ -202,68 +76,17 @@ msgstr "Аралық"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Соңғы өзгертілген"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Тізім және мәліметтер"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Орналасу орны"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC деректері басталуда..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Бейне жазбалар"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Телефон жадында жад жеткілікті емес. Біраз элементті жойып, қайталап көріңіз."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Файл жоқ"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Соңғы ашылған файлдар жоқ"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Соңғы файлдар жоқ"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d файлдары"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d элемент"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d элементтер"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Мүмкін"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Басып шығару"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Ат өзг"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Құқық мәртебесі"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Әуендер"
-
-msgid "IDS_MF_BODY_SHARE"
-msgstr "Байланысқа жол"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Жасырын файлдарды көрсету"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Дыбыстар"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Жадты пайдалану"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Уақыт"
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Бөлісу"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Уақытпен санау"
@@ -271,35 +94,11 @@ msgstr "Уақытпен санау"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Түрі"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Шектеусіз"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Жоғары"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Жарамдылық"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Сатушы"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Бейнежазбалар"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Түсқағаз"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Баст. бетке қосу"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Мұнда экспорттау"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Менің файлдарыма өту"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Үй парағы"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Ауыстыру"
@@ -307,92 +106,26 @@ msgstr "Ауыстыру"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Барлық қалталарды іздеу"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Осында орнату"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Қосымша іздеу"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Аудио"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Мобильді желіге қосылу"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Wi-Fi желісіне қосылыңыз"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Санау"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Қалта атын енгізңіз."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Жергілікті"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Жаңа қалта"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Соңғы файлдар"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Файлды жою"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Сур. дыб. ж/е кад. бөл."
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Сақтау орны"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Қалта жасау мүмкін емес"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Барлығын таңдау"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Иә"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Қалта атауын енгізу"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Белгішелерге қосу"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Сурет файлдары ретінде"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Бейне файлдар ретінде"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Телефон шалушы әуені"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Қысу"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Қалтаны құру"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Күні (Ең соңғы)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Күні (Ең алдыңғы)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Қысудан шығару"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Осында қысу. шығару"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Әдепкі үн"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Мәліметтер көрінісі"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Өзгерту"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Шығару"
@@ -400,56 +133,17 @@ msgstr "Шығару"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Ағымдағы қалтаға шығару"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Қалтаға өту"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Файл кеңейтімін жасыру"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Элементтер"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Аты"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Іріктеу"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Осында ауыстыру"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Аты"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Файл орнын ашу"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Жеке бет"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Дыбысты жазу"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Контактілерге тіркеу"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Атын өзгерту"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Аты өзгертілген"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Папканың атын өзгерту"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Серверге қосылудың реті келмеді."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Осы жерге сақтау"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Жақын құрылғыларды іздеу"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Таңдалды"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Сілтемені бөлісу"
@@ -457,47 +151,14 @@ msgstr "Сілтемені бөлісу"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Файл кеңейтімін көрсету"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Бөлу"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Сұрыптау тәртібі"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Нобай көрінісі"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Көру түрі"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Тізімді қарап шығу"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Нұсқадан көру"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 элемент жойылады."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Өсу"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Өшіресіз бе?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Жалғастыру"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Көшірілу үзіліп кетті."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Жою үстінде үзіліп кетті."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Таңдалған элементті жою керек пе?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Кему"
@@ -505,35 +166,8 @@ msgstr "Кему"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM файлы. Жіберу мүмкін емес."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM файлы қатынаулы емес."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Файл аты қолданылады."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Қалтаның аты бар."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Форматтау"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Кімнен"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Енгізу мәтіні"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Файлдың аты  қате."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Жазылуда..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Қапшықтар ең көп саны артты."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Орналастырылмады."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Аты бос."
@@ -544,41 +178,17 @@ msgstr "Динамикалық жадта орын жеткіліксіз."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Жад жеткіліксіз. Кейбір элементтерді жойып, әрекетті қайталаңыз."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Жадында орын жетіспейді. %s бар."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Осында енгізу"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d элемент жойылады."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Рұқсаттан бас тартылды."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Соңғы файлдар тізімінен жою керек пе?"
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Жедел пернелерден жою керек пе?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Жоясыз ба?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Бұндай файл аты бар!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Мұндай атау қолданыста бар."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Элемент таңдау"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Жіберудің сәті түспеді."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Белгіше қосылды"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Жою"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Тағайындау қалтасы кіріс қалтасына салынған болып табылады."
@@ -586,11 +196,8 @@ msgstr "Тағайындау қалтасы кіріс қалтасына сал
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Тағайындау қалтасы ашылған қалтамен сәйкес келеді."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Құрылғы ажыратылды"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Файл жоқ."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Іздеу"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Көшіру мүмкін емес."
@@ -598,53 +205,17 @@ msgstr "Көшіру мүмкін емес."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Жылжытуға мүмкіндік жоқ."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Қондырғылар"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Бұл әрекетті орындау мүмкін емес. Желілік қате орын алды."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Сөйлесу барысында ойнатуға мүмкіндік жоқ."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Уақыт"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "DRM арқылы қорғалған мазмұнды рингтон не ескерту сигналы ретінде қою мүмкін емес."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Жақын жердегі құрылғыларды іздеу үшін Wi-Fi желісіне қосылуыңыз керек. Wi-Fi арқылы қосылып, әрекетті қайталаңыз."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "АРТҚА"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Көшіру"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Жою"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Өзгер."
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Ауыстыру"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Тізім"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Сұрыптау"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Басқаша көру"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Тоқтату"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Тоқт"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Егж.-тег."
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Барлығы"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Шектеусіз"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Сыртқы жад"
@@ -652,20 +223,8 @@ msgstr "Сыртқы жад"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Жад картасы"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Телефон"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Жоғары"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Қысылған"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Қысудан шығарылды"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Файл жүктелуде..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Бейнежазбалар"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Файлдар қысылған"
@@ -673,38 +232,71 @@ msgstr "Файлдар қысылған"
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Файлдар шығарылған"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Файл импортталды."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "Гбайт"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Құрылғылар табылмады. Іздеу фонда жалғастырылады"
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "МБ"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Каталог"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Барлығын таңдау"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KБ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Құжаттар"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Суреттер"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Файл жоқ"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Жадты пайдалану"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Файл жоқ."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "АРТҚА"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Барлығы"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Қалтаны құру"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Элементтер"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Қосу"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Әдепкі хабарлау дыбысы"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Аты"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Сұрыптау тәртібі"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Сілтеме қосу"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 элемент жойылады."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Элементтерді жою керек пе?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Жою үстінде үзіліп кетті."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Атын өзгерту"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Форматтау"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Қондырғылар"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d элемент жойылады."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Жоғалту"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Рұқсаттан бас тартылды."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Тоқтату"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Элементті жою"
@@ -715,23 +307,11 @@ msgstr "Элементтерді таңдау"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Нәтиже жоқ"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "%d элементерін жою керек пе?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Элементті жою керек пе?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 элемент таңдалды"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Қате таңба енгізілді. Әрекетті қайталаңыз"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d элемент таңдалды."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Дыбыссыз"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Жүктеу басталуда..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Элемент таңдау"
@@ -739,32 +319,11 @@ msgstr "Элемент таңдау"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "%d элементке дейін таңдауға болады."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Жазылған"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Өшіресіз бе?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Ауыстыру"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Көшіру"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Орналастырылды"
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Көшірілуде..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Жойылуда..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Әрекет сәтсіз аяқталды."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Таңдалған"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Орналастырылды."
@@ -772,143 +331,35 @@ msgstr "Орналастырылды."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Хабар(лар) көшірілді"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Сұрыптау"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Үзіліп кетті"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Дайын"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD картасы"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Құрылғы жады"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Жеке қоймаға қосу"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Жеке қоймадан алып тастау"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Бұл элементті жою керек пе?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Жеке қалтадан жою"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Жеке қалтаға көшіру"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Жазылған"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Жойылуда..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Үзіліп кетті"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD картасы"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Таңбалардың ен көп саны артты."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Шығаруда..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Жеке қойма"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Пішімдеу аяқталды."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Аты (Я-дан А-ға дейін)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Аты (A-дан Я-ға дейін)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Экранды түсіру"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Ешқандай нәтиже табылмады."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Хабар сигналы"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Өзгешеліктері"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Атын енгізіңіз."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Менің файлдарым"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Қосылды"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Өңделуде..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Қолдаусыз файл түрі."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Жоясыз ба?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Жеке мазмұн"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Көшіру"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Орналастыру"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Белгіше қосылмады."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Жад жетыспейт.Көп арналы жою."
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Жойылған"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Жеке сақтау орны"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Ештенке таңдалмады."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Бөлісу"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Бас. көру"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Тізім"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Көрініс"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Сақтау"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Алып тастау сәтсіз болды."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Ата-ана қамқорлығы"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Файл аты қолданылады."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Дауыс"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi қол жетімді емес. Ұялы байланыс желілеріне қосылу төлем жоспарына байланысты қосымша ақыларға әкелуі мүмкін"
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Таңбалардың ең көп саны (%d) шегіне жетті."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Қолдаусыз файл түрі."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Дай-да..."
@@ -916,20 +367,8 @@ msgstr "Дай-да..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d таңдалды"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Элементтерді жою"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Жүктеулер жоқ"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Жүктеу аяқталды"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Жүктеулер реттеушісі"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Элементтерді жүктеп алған соң, олар осында көрсетіледі."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Жүктеуден бас тартылды"
@@ -958,14 +397,11 @@ msgstr "Әдепкі сақтау орны толы"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Ескірек"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Сақтау орны"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Өзгешеліктері"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Шығаруда..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD карта"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Өңделуде..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Құрылғы қоймасы"
@@ -973,86 +409,20 @@ msgstr "Құрылғы қоймасы"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Серверге хабарлауда..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d элемент жойылады."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Файлды табы мүмкін емес. Қайта жүктеп көру үшін, “Жүктеу” түймесін түртіңіз."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Файлды ашу мүмкін емес"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Бұл файлды ашу үшін бағдарлама табылмады."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Әрекетті қайталау үшін “Жүктеу” түймесін түртіңіз."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 элемент жойылады."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "DRM мазмұнын белсендіруде..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Бұл әрекетті орындау үшін бағдарламаны табу мүмкін емес."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Сақтау орны"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Импорттау"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Бас тарту"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Барлығын таңдау"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d таңдалды"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Жүктеу"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Бүгін"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Кеше"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Жою"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Ауыст-у"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Барлық элементтерге қолдану"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Мұрағатталған файл жасау"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Мұрағатталған файлды шығару"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Файлдарым"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Веб"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Жүктеу журналы"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Жазбалар жоқ"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Қарапайым бөлісу"
@@ -1075,74 +445,11 @@ msgstr "Бұл элементтерді жылжыту оларды Dropbox іш
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Бұл элементті жылжыту оны Dropbox ішінен жояды. 1 элемент жылжытылады."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Сақтау орнын таңдау"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Тоқтату"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Кері жүктеу"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Файлды кері жүк-у сәтсіз болды"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Кері жүктеулерді тоқтату"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Әрекетті қайталау үшін, Кері жүктеу түймесін түртіңіз."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Кері жүктеу тоқтатылады, бірақ файл жойылмайды."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Соңғы\nкөрсетілген"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Деректер сақталмады"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Құрылғы жадында бос орын жеткіліксіз. Параметрлер > Қуат пен сақтау орны > Сақтау орны бөліміне өтіп, кейбір файлдарды жойыңыз және әрекетті қайталңыз."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD картасында бос орын жеткіліксіз. Параметрлер > Қуат пен сақтау орны > Сақтау орны бөліміне өтіп, кейбір файлдарды жойыңыз және әрекетті қайталаңыз."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Кері жүктеу орны"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox кері жүктеулері"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Жеке"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "байт"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Қосу"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Үй парағы"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Дабыл"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Басқалар"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Басқалар"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Ашу"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Белгісіз қате."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Қалта атауын “.” не “..” ретінде орнату мүмкін емес."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Жасырын файлдарды көрсетпеу"
@@ -1150,104 +457,23 @@ msgstr "Жасырын файлдарды көрсетпеу"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Жасырын файлдарды көрсету"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Белгісіз"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Белгіше атауы бұрыннан пайдаланылуда."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Негізгі"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Файл"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Файлдар"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Қалта"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Қалталар"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Жүйе"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Аты"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Аудио\nфайлдар"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Құжаттар"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Жүктелген бағдарламалар"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Суреттер"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Бейнелер"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Бас тарту"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Бас тарту"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Жасау"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Жою"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Жою"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Атын өзгерту"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Жою"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Белгіше қосу"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Аудио файлдар"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Көшіру"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Келесіге көшіру"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Қалта жасау"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Белгішені жою"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Өзгешеліктері"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Құжаттар"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Жүктелген бағдарламалар"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Суреттер"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Жылжыту"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Жылжыту"
@@ -1255,43 +481,7 @@ msgstr "Жылжыту"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d таңдалды"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Соңғы файлдар"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Жою"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Атын өзгерту"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Қондырғылар"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Тез кіру"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Сұрыптау тәртібі"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Жою"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Кері жүктеу орны"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Бейнежазбалар"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Басқаша көру"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Барлығы"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Жед. перн-р"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Мазмұны"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Құр.қоймасы"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Пішімдеу"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Орын"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD картасы"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Файл кеңейтімдерін көрсету"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Жасырын файлдарды көрсету"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Өлшем"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Түр"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Сатушы"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Файлдар жоқ"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Өсу"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Көшіру"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Қалта жасау"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Кему"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Толық тізім"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Өзгешеліктері"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Қайтадан көрсетпеу"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Файл түрі"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Тізім"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Жылжыту"
@@ -1366,50 +502,14 @@ msgstr "Жылжыту"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Алып тастау"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Өлшемі"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Уақыт"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Түр"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Жою"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 элемент алынып тасталады."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 белгіше жойылады."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Көшірілуде..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Орналастырылды"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d элемент алынып тасталады."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d жедел перне жойылады."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Шығаруда..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Роуминг кезінде ұялы деректерді пайдалану төлем жоспарыңызға байланысты қосымша ақы алуы мүмкін."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Пайдалануға жарамды"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Жасалған күні"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Сипаттама"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Бағыты өзгертілуде"
@@ -1423,29 +523,14 @@ msgstr "Ажыратымдылық"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Жалпы өлшемі"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Жарамдылық"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Белгіленген қалта бастапқы қалтаның ішкі қалтасы."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Белгіленген қалта бастапқы қалтамен бірдей."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Белгіше қосу сәтсіз болды."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Элементті көшіру сәтсіз болды."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Элементті жою сәтсіз болды."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Элементті жылжыту сәтсіз болды."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Элементті жою сәтсіз болды."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Файл атауы бұрыннан пайдаланылуда"
@@ -1459,23 +544,17 @@ msgstr "Белгіше қосылды."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Белгіше бұрыннан бар"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Жаңарту"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d элемент жойылады."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d бағдарламалар жойылады."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s жойылады."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Жүктеу аяқталды"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Өлшемі"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Тізім көрінісі"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Сақтау орны"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Қалта атауы пайдаланылуда."
@@ -1483,23 +562,11 @@ msgstr "Қалта атауы пайдаланылуда."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Жергілікті сақтау орны"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Құр.қоймасы"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Кірмеген"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Барлық файлдар"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Бұлт сақтау орны"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Рет"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Тез кіру"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Уақыт"
@@ -1507,44 +574,32 @@ msgstr "Уақыт"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Жою"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Мазмұны"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Бетті көрсетуге болмайды"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Барлығын таңдау"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Жүктеу"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Қолданыста бар."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Бүгін"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Жылжытылмайды.Мақсатты қалта бастапқы қалтамен бірдей."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Қалта жасау"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Қосымша"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Осында ауыстыру"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Осында қою"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Орнату"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Кеше"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Осы файл түріне құрылғыңыздағы ешбір бағдарлама қолдау көрсетпейді."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d файл жойылады."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Белгісіз қате."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Файлдар жіберілді"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Белгісіз"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Жүйе"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ДАЙЫН"
@@ -1555,53 +610,11 @@ msgstr "БАС ТАРТУ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ЖОЮ"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Атын өзгерту"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Элемент таңдау"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Кері жүктеулер жоқ"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Элементтерді жүктеп алған соң, олар осы жерде көрсетіледі."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Параметрлер"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Деректер сақталмады"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD картасында бос орын жеткіліксіз. Параметрлер > Қуат пен сақтау орны > Сақтау орны бөліміне өтіп, кейбір файлдарды жойыңыз және әрекетті қайталаңыз."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Құрылғы жадында бос орын жеткіліксіз. Параметрлер > Қуат пен сақтау орны > Сақтау орны бөліміне өтіп, кейбір файлдарды жойыңыз және әрекетті қайталңыз."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Қате"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Жад толып кеткен."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 элемент Dropbox қызметінен жойылады."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d элемент Dropbox қызметінен жойылады."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Ұялы деректер өшіріледі. Wi-Fi желісіне қосылыңыз немесе ұялы деректерді қосып, әрекетті қайталаңыз."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Параметрлер"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Жеке қойма"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Жол"
@@ -1612,23 +625,8 @@ msgstr "Ең көп таңбалар санына (%d) жетті"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Сақтау орнын таңдау"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Жүктеулер тарихы"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Журналды жүктеу"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Жүктелуде..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Жүктеулер"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Жүктеулер жоқ"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Жүктеу сәтсіз болды"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Мерзімі бітетін күн: %s"
@@ -1636,30 +634,114 @@ msgstr "Мерзімі бітетін күн: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Мерзімі біткен күн: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Файл жүктелмеді"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Файлды қайта жүктеңіз немесе оны жүктеу кезегінен жойыңыз."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Қайталау"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Жою"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Санат"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Қалта атауы пайдаланылуда"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Файл аты пайдаланылуда"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Бұл файл атауы (%s) белгіленген қалтада бұрыннан бар."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Бұл қалта атауы (%s) белгіленген қалтада бұрыннан бар."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Жою"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Журналды тазалау"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Қысылуда..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Шығарылуда..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Элем-ді ZIP файлынан шығару"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Жаңа %d қалта"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Қалта атауын “.” не “..” ретінде орнату мүмкін емес."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Параметрлер"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Толық тізім"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Элемен-ді шығару мүмкін емес"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Бос орын жеткіліксіз"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "ZIP файлын жасау"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Жазбалар жоқ"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Қайта көрсетпеу"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Басқалар"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Өзгертілуде..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Әрекетті орындау мүмкін емес"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Қалта"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Қалталар"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Аты"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Құрылғы жадында бос орын жеткіліксіз. Параметрлер > Жад және оперативті жад > Жад > Мәліметтер бөліміне өтіп, кейбір файлдарды жойып, әрекетті қайталаңыз."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD картада бос орын жеткіліксіз. Параметрлер > Жад және оперативті жад > Жад > Мәліметтер бөліміне өтіп, кейбір файлдарды жойып, әрекетті қайталаңыз."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Тізім"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Өлшемі"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 элемент алынып тасталады."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Қалта атауын %s ретінде орнату мүмкін емес."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Бұл файл жойылды, жылжытылды немесе атауы өзгертілді. Файлды қайта жүктеу үшін, “Жүктеу” түймесін немесе оны “Жүктеу” журналынан жою үшін, “Жою”түймесін түртіңіз."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Жаңарту"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s жойылады."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Өлшемі"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Құр.қоймасы"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Бұлт сақтау орны"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Орнату"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Атын өзгерту"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Файлдарым"
 

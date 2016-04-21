@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d succeeded, %2$d failed"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d succeeded"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Apply to all items"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Preparing to download..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Your device is not connected to a Wi-Fi network. Connecting to a mobile network may result in additional charges depending on your payment plan."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Share via"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Share via"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobile data turned off. Connect to Wi-Fi network instead, or turn on Mobile data and try again."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d items will be deleted."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Memory card removed."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "This item will be deleted."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Success."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Downloading..."
@@ -22,50 +28,8 @@ msgstr "Downloading..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Not enough memory."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Cancelled."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Download failed."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Success."
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Create"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Deleted."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Memory card removed."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Searching..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Network connection error."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Delete folder"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Enter folder name."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Downloaded apps"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Network connection error occurred. The call has been ended. Reconnect to the network?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Save"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Yes"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "No"
@@ -73,122 +37,32 @@ msgstr "No"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Add shortcut"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Delete"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Delete shortcut"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Rename shortcut"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Search"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Settings"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Share"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Storage usage"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Do not show again"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Unable to connect to server."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Private"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Enter folder name."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Remove shortcut"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Battery low"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 file"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "My album"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Add from"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Alerts"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Any"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Available uses"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Contents"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Created date"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Date"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Delete selected items?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Documents"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Execute"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "File name"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "File type"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Folder name"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Forwarding"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS information"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS latitude"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS longitude"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS version"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Images"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Impossible"
@@ -202,68 +76,17 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Last modified"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "List and details"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Location"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC data is initialising..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "My video clips"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Not enough memory in phone memory. Delete some items and try again."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "No files"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "No recently opened files"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "No recent files"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d files"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d item"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d items"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Possible"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Print"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Rename"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Right status"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Ringtones"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Share"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Show hidden files"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Sounds"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Storage usage"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Time"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Timed count"
@@ -271,35 +94,11 @@ msgstr "Timed count"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Type"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Unlimited"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Up"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Validity"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Vendor"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videos"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Wallpapers"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Add to home"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Export here"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Go to My Files"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Home"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Replace"
@@ -307,92 +106,26 @@ msgstr "Replace"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Search all folders"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Set here"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Advanced search"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Audio"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Connect to mobile network"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Connect to Wi-Fi network"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Count"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Enter folder name."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Local"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "New folder"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Recent files"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Remove file"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Share sound & shot pics"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Storage"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Unable to create folder"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Select all"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Yes"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Enter folder name"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Add to shortcuts"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "As image files"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "As video files"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Caller ringtone"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Compress"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Create folder"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Date (most recent)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Date (oldest)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Decompress"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Decompress here"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Default ringtone"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Detail view"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Edit"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Extract"
@@ -400,56 +133,17 @@ msgstr "Extract"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Extract to current folder"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Go to folder"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Hide file extension"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Items"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Name"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "List by"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Move here"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Name"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Open file location"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Personal page"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Record sound"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Register to Contacts"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Rename"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Renamed."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Rename folder"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Unable to connect to server."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Save here"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Scan for nearby devices"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Selected"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Share link"
@@ -457,47 +151,14 @@ msgstr "Share link"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Show file extension"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Split"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sort by"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Thumbnail view"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "View as"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "View by list"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "View by thumbnail"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 item will be deleted."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Ascending"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Delete?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Continue"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Copying failed."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Delete failed."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Delete selected item?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Descending"
@@ -505,35 +166,8 @@ msgstr "Descending"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM file. Cannot send."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM file is not available."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "File name already in use."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Folder name already exists."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "From"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Input text"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Invalid file name."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Loading..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Maximum folder reached."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Moving failed."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Name empty."
@@ -544,41 +178,17 @@ msgstr "Not enough heap memory."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Not enough memory. Delete some items and try again."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Not enough memory. %s available."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Paste here"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d items will be deleted."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Permission denied."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Remove from recent files list?"
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Remove from Shortcuts?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Remove?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Same file name already exist!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Same name already in use."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Select item"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Send failed."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Shortcut added."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Delete"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "The destination folder is a subfolder of the source folder."
@@ -586,11 +196,8 @@ msgstr "The destination folder is a subfolder of the source folder."
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "The destination folder is the same as the source folder."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "The device has been disconnected."
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "This file does not exist."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Search"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Unable to copy."
@@ -598,53 +205,17 @@ msgstr "Unable to copy."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Unable to move."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Settings"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Unable to perform this action. Network error occurred."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Unable to play during call."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Time"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Unable to set DRM protected content as ringtone or notification alert."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "You need to be connected to a Wi-Fi network to scan for nearby devices. Connect via Wi-Fi and try again."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Back"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Copy"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Delete"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Edit"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Move"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Search"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Sort by"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "View as"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Cancel"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Cancel"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Details"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "All"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Unlimited"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "External storage"
@@ -652,20 +223,8 @@ msgstr "External storage"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Memory card"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Phone"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Up"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Compressed."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Decompressed."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Downloading file..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videos"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Files compressed."
@@ -673,38 +232,71 @@ msgstr "Files compressed."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Files extracted."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "File imported."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "No devices found. Scanning will continue in background."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Directory"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Select all"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Documents"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Images"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "No files"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Storage usage"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "This file does not exist."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Back"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "All"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Create folder"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Items"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Connect"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Default notification sound"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Name"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sort by"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Add shortcut"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 item will be deleted."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Delete items?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Delete failed."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Rename"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Settings"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d items will be deleted."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Remove"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Permission denied."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Cancel"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Delete item"
@@ -715,23 +307,11 @@ msgstr "Select items"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "No results found"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Delete %d items?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Delete item?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 item selected."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Invalid character entered. Try again."
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d items selected."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Silent"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Starting download..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Select item"
@@ -739,32 +319,11 @@ msgstr "Select item"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "You can select up to %d items."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Downloads"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Delete?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Move"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Copy"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Moving..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Copying..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Deleting..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Operation failed."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Selected"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Moved."
@@ -772,143 +331,35 @@ msgstr "Moved."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Copied."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Sort by"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Failed."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Done"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD card"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Device memory"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Add to personal storage"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Remove from personal storage"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Delete this item?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Remove from Private"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Move to Private"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Downloads"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Deleting..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Failed."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD card"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Maximum number of characters reached."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Removing..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Personal storage"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Format completed."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Name (Z to A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Name (A to Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Screen capture"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "No results found."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Message alert"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Details"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Enter name."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "My Files"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Added."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Processing..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Unsupported file type."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Remove?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Private content"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Copy to"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Move to"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Failed to add shortcut."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Not enough memory. Delete some items."
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Removed."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Private storage"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Nothing selected."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Share"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "View as"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "List"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "View"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Save as"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Remove failed."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Parent rating"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "File name already in use."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Voice"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "The maximum number of characters (%d) has been reached."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Unsupported file type."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Preparing..."
@@ -916,20 +367,8 @@ msgstr "Preparing..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d selected"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Delete items"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "No downloads"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Download complete"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Download manager"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "After you download items, they will be shown here."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Download cancelled"
@@ -958,14 +397,11 @@ msgstr "Default storage full"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Older"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Storage"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Details"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Removing..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD card"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Processing..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Device storage"
@@ -973,86 +409,20 @@ msgstr "Device storage"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Notifying server..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d items will be deleted."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "This file cannot be found. Tap Download to try downloading it again."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Unable to open file"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Unable to find an application to open this file."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Tap Download to try again."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 item will be deleted."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Activating DRM content..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Unable to find application to perform this action."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Storage location"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Import"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Cancel"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Select all"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d selected"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Download"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Today"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Yesterday"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Delete"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Replace"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Apply to all items"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Create zip file"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Extract zip file"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "My Files"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Web"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Download history"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "No history"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Simple sharing"
@@ -1075,74 +445,11 @@ msgstr "Moving these items will delete them from Dropbox. %d items will be moved
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Moving this item will delete it from Dropbox. 1 item will be moved."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Select storage location"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Stop"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Upload"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Failed to upload file"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Stop uploads"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Tap Upload to try again."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "The upload will stop, but the file will not be deleted."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Recently viewed"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Unable to save data"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "There is not enough space in your device storage. Go to Settings > Power and storage > Storage, then delete some files and try again."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "There is not enough space on your SD card. Go to Settings > Power and storage > Storage, then delete some files and try again."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Upload to"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox uploads"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Private"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bytes"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Add"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Home"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Alarm"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Others"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "More"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Open"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Unknown error."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Cannot set folder name as '.' or '..'."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Do not show hidden files"
@@ -1150,104 +457,23 @@ msgstr "Do not show hidden files"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Show hidden files"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Unknown"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Shortcut name already in use."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Basic"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "File"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Files"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Folder"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Folders"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "System"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Name"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Audio files"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Documents"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Downloaded applications"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Images"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Videos"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Cancel"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Cancel"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Create"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Delete"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Remove"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Rename"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Uninstall"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Add shortcut"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Audio files"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Copy"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Copy to"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Create folder"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Delete shortcut"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Details"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Documents"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Downloaded applications"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Images"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Move"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Move to"
@@ -1255,43 +481,7 @@ msgstr "Move to"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d selected"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Recent files"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Remove"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Rename"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Settings"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Shortcuts"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Sort by"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Uninstall"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Upload to"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Videos"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "View as"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "All"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Shortcuts"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Contains"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Device storage"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Location"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD card"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Show file extensions"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Show hidden files"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Size"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Type"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Vendor"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "No files"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Ascending"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Copy"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Create folder"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Descending"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Detailed list"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Details"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Do not show again"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "File type"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "List"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Move"
@@ -1366,50 +502,14 @@ msgstr "Move"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Remove"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Size"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Time"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Type"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Uninstall"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 item will be removed."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 shortcut will be deleted."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Copying..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Moving..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d items will be removed."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d shortcuts will be deleted."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Removing..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Using Mobile data while roaming may result in additional charges depending on your payment plan."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Available uses"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Date created"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Description"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Forwarding"
@@ -1423,29 +523,14 @@ msgstr "Resolution"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Total size"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Validity"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Destination folder is subfolder of source folder."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Destination folder same as source folder."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Failed to add shortcut."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Failed to copy item."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Failed to delete item."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Failed to move item."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Failed to remove item."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "File name already in use."
@@ -1459,23 +544,17 @@ msgstr "Shortcut added."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Shortcut already exists."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Refresh"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d items will be deleted."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d apps will be uninstalled."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s will be uninstalled."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Download complete"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Size"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "List view"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Storage"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Folder name already in use."
@@ -1483,23 +562,11 @@ msgstr "Folder name already in use."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Local storage"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Device storage"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Not signed in."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "All files"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Cloud storage"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Order"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Shortcuts"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Time"
@@ -1507,44 +574,32 @@ msgstr "Time"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Uninstall"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Contains"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "No face detected"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Select all"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Download"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Already exists."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Today"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Unable to move. Destination folder same as source folder."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Create folder"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "More"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Move here"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Paste here"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Set"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Yesterday"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "This file type is not supported by any application on your device."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d files will be deleted."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Unknown error."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Files sent"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Unknown"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "System"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "DONE"
@@ -1555,53 +610,11 @@ msgstr "CANCEL"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "DELETE"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Rename"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Select item"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "No uploads"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "After you upload items, they will be shown here."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Settings"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Unable to save data"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "There is not enough space on your SD card. Go to Settings > Power and storage > Storage, then delete some files and try again."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "There is not enough space in your device storage. Go to Settings > Power and storage > Storage, then delete some files and try again."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Error."
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Memory full."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 item will be deleted from Dropbox."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d items will be deleted from Dropbox."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Mobile data is turned off. Connect to a Wi-Fi network or turn on Mobile data and try again."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Settings"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Personal storage"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Path"
@@ -1612,23 +625,8 @@ msgstr "Maximum number of characters %d reached."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Select storage"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Download history"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Download history"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Downloading..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Downloads"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "No downloads"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Download failed"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Expires on: %s"
@@ -1636,30 +634,114 @@ msgstr "Expires on: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Expired on: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Failed to download file"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Try downloading the file again, or remove it from the download queue."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Retry"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Remove"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Category"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Folder name in use"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "File name in use"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "This file name (%s) is already in use in the destination folder."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "This folder name (%s) is already in use in the destination folder."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Delete"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Clear history"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Compressing..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Extracting..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Extract items from ZIP file"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "New folder %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Can't set folder name as “.” or “..”."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Settings"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Detailed list"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Unable to extract items"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Not enough space"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Create ZIP file"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "No history"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Don't show again"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "More"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Cancelling..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Unable to perform action"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "File"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Folder"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Folders"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Name"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Your device storage doesn't have enough space. Go to Settings > Storage and RAM > Storage > Details, then delete some files and try again."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Your SD card doesn't have enough space. Go to Settings > Storage and RAM > Storage > Details, then delete some files and try again."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "List"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Size"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 item will be removed."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Can't set folder name as %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "This file was deleted, moved, or renamed. Tap Download to download the file again, or tap Remove to remove it from Download history."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Refresh"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s will be uninstalled."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Size"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Device storage"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Cloud storage"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Set"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Rename"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "My Files"
 

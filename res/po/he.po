@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d התקבלו, %2$d נכשלו"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d הצליח"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "החל על כל הפריטים"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "מתכונן להורדה..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "המכשיר שלך אינו מחובר לרשת ‏‫Wi-Fi. התחברות לרשת סלולרית עשויה לגרום לחיובים נוספים, בהתאם לתוכנית התשלומים שלך."
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "הפונקציה 'נתונים ניידים' מושבתת. התחבר לרשת Wi-Fi או הפעל את 'נתונים ניידים' ונסה שוב."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "כרטיס זיכרון הוסר."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "בוצע בהצלחה."
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "מוריד..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "אין די זיכרון."
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "צור"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "לא"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "הוסף קיצור דרך"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "מחק קיצור דרך"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "שנה שם קיצור דרך"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "אל תציג שוב"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "בית"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "פרטי"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "הזן שם תיקייה."
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "הסר קיצור דרך"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "בית"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "בצע"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "לא אפשרי"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "נפרד"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "מרווח זמן"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "שונה לאחרונה"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "פריט %d"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "אפשרי"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "מצב זכויות"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "שתף"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "ספירה מתוזמנת"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "סוג"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "תקפות"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "יצא לכאן"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "החלף"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "חפש בכל התיקיות"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "התחבר לרשת ניידת"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "תיקייה חדשה"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "לא ניתן ליצור תיקייה"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "כן"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "הזן שם תיקייה"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "דחס"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "בטל דחיסה כאן"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "חלץ"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "חלץ לתיקייה הנוכחית"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "הסתר סיומת קובץ"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "מיקום הקובץ הפתוח"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "לא ניתן להתחבר לשרת."
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "שמור כאן"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "שתף קישור"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "הצג סיומת קובץ"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "תצוגת תמונות ממוזערות"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "הצג לפי"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "עולה"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "יורד"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "קובץ DRM. לא ניתן לשלוח."
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "שם קובץ לא חוקי."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "השם ריק."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "אין די זיכרון ערימה."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "אין די זיכרון. מחק מספר פריטים ונסה שוב."
+
+msgid "IDS_MF_SK_OK"
+msgstr "אישור"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "להסיר מקיצורי הדרך?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "השליחה נכשלה."
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "מחק"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "תיקיית היעד היא תיקיית משנה של תיקיית המקור."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "תיקיית היעד זהה לתיקיית המקור."
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "חיפוש"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "לא ניתן להעתיק."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "לא ניתן להעביר."
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "הגדרות"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "לא ניתן לבצע פעולה זו. אירעה שגיאת רשת."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "שעה"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "לא מוגבל"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "אמצעי אחסון חיצוני"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "כרטיס זיכרון"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "סרטונים"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "קבצים נדחסו"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "קבצים חולצו"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "ג״ב"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "מ״ב"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "בחר הכל"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "ק״ב"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "מסמכים"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "תמונות"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "אין קבצים"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "שימוש בשטח אחסון"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "קובץ זה לא קיים."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "חזרה"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "הכל"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "צור תיקייה"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "פריטים"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "התחבר"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "שם"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "מיין לפי"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "פריט אחד יימחק."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "המחיקה נכשלה."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "פורמט"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d פריטים יימחקו."
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "ההרשאה נדחתה."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "ביטול"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "מחק פריט"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "בחר פריטים"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "לא נמצאו תוצאות"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "הוזן תו לא חוקי. נסה שוב."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ההורדה מתחילה..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "בחר פריט"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "באפשרותך לבחור עד %d פריטים."
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "מעביר..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "מעתיק..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "הועבר"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "הועתק"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "הסר מרשימת פרטי"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "העבר לתיקייה פרטי"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "הורדות"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "מוחק..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "נכשל"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "כרטיס SD"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "הגעת למספר המרבי של התווים"
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "הקבצים שלי"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "אין פריט נבחר."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "סוג קובץ לא נתמך."
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "מכין..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "נבחרו %d"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "אין הורדות"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "הורדה בוטלה"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "הורדה נכשלה"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "אין די שטח פנוי באחסון של המכשיר. עבור אל הגדרות %s כדי למחוק נתונים; לחלופין, הכנס כרטיס SD."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "אין די שטח פנוי באחסון של המכשיר. עבור אל הגדרות %s כדי לפנות שטח אחסון ונסה שוב."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "אין די שטח פנוי בכרטיס ה-SD שלך. עבור אל הגדרות %s כדי למחוק נתונים; לחלופין, בהגדרת מיקום ברירת המחדל לאחסון, בחר באפשרות 'מכשיר'."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "אין די שטח פנוי בכרטיס ה-SD שלך. עבור אל הגדרות %s כדי למחוק נתונים ונסה שוב."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "עבור אל 'אחסון'"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "אחסון ברירת המחדל מלא"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "ישן יותר"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "פרטים"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "מעבד..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "אחסון המכשיר"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "שולח הודעה לשרת..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "לא ניתן לפתוח את הקובץ"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "הקש על 'הורד' כדי לנסות שוב."
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "ביטול"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d נבחרו"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "היסטוריית הורדות"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "שיתוף פשוט"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "לא ניתן להתקין את היישום"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "ניתן להתקין קובצי TPK בלבד. מומלץ להתקין אך ורק יישומים שהורדו מ-Tizen Store."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "מחיקת פריטים אלה כאן תגרום למחיקתם גם ב-Dropbox.‏ %d פריטים יימחקו."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "מחיקת פריט זה כאן תגרום למחיקתו גם ב-Dropbox. פריט אחד יימחק."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "העברת פריטים אלה תגרום למחיקתם מ-Dropbox.‏ %d פריטים יועברו."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "העברת פריט זה תגרום למחיקתו מ-Dropbox. פריט אחד יועבר."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "הוצג לאחרונה"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "בייט"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "אל תציג קבצים מוסתרים"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "הצג קבצים מוסתרים"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "שם קיצור הדרך כבר בשימוש."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "בסיסי"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "קבצים"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "קובצי שמע"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "העתקה אל"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "יישומים שהורדו"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "העבר אל"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d נבחרו"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "קיצורי דרך"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "מכיל"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "אין קבצים"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "העתק"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "העבר"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "הסר"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "קיצור דרך אחד יימחק."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d קיצורי דרך יימחקו"
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "השימושים הזמינים"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "מעביר"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "עדכון אחרון"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "רזולוציה"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "גודל כולל"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "תיקיית היעד היא תיקייה משנית בתיקיית המקור."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "העתקת הפריט נכשלה."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "העברת הפריט נכשלה."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "שם הקובץ כבר נמצא בשימוש"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "הגעת למספר קיצורי הדרך המרבי (%d)‏."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "קיצור הדרך נוסף."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "קיצור דרך כבר קיים"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d פריטים יימחקו."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d יישומים יוסרו."
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ההורדה הושלמה"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "אחסון"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "שם התיקייה כבר בשימוש."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "אחסון מקומי"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "לא נכנס למערכת."
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "סדר"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "תאריך"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "הסר התקנה"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "אישור"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "בחר הכל"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "הורד"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "היום"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "אתמול"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "אף יישום במכשיר שלך אינו תומך בקבצים מסוג זה."
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "שגיאה לא ידועה."
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "לא ידוע"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "מערכת"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "בוצע"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ביטול"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "מחק"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "בחירת פריט"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "לא ניתן לשמור נתונים"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "נתיב"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "הגעת למספר התווים המרבי %d"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "בחר אמצעי אחסון"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "מוריד..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "בתוקף עד: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "התוקף פג ב: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "שם התיקייה (%s) כבר נמצא בשימוש בתיקיית היעד."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "מחק"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "נקה היסטוריה"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "דוחס..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "מחלץ..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "חילוץ פריטים מתוך קובץ ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "תיקייה חדשה %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "לא ניתן להגדיר ״.״ או ״..״ כשם תיקייה."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "הגדרות"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "רשימה מפורטת"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "לא ניתן לחלץ פריטים"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "אין מספיק שטח"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "יצירת קובץ ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "אין היסטוריה"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "אל תציג שוב"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "עוד"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "מבטל..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "לא ניתן לבצע פעולה"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "קובץ"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "תיקייה"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "תיקיות"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "שם"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "אין שטח מספיק באחסון המכשיר שלך. עבור אל 'הגדרות' > 'אחסון ו-RAM' > 'אחסון' > 'פרטים' כדי למחוק קבצים אחדים ולאחר מכן נסה שוב."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "אין שטח מספיק בכרטיס ה-SD שלך. עבור אל 'הגדרות' > 'אחסון ו-RAM' > 'אחסון' > 'פרטים' כדי למחוק קבצים אחדים ולאחר מכן נסה שוב."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "רשימה"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "גודל"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "יוסר פריט אחד."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "השם %s אינו אפשרי לתיקייה."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "קובץ זה נמחק, הועבר או ששמו השתנה. הקש על 'הורד' כדי להוריד אותו שוב, או על 'הסר' כדי להסיר אותו מהיסטוריית ההורדות."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "רענון"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "תוסר התקנת %s."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "גודל"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "אחסון מכשיר"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "אחסון בענן"
+
+msgid "IDS_PB_SK_SET"
+msgstr "הגדר"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "שנה שם"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "הקבצים שלי"
+

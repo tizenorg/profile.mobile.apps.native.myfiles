@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d کامیاب، %2$d ناکام"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d کامیاب"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "تمام اشیاء پر اطلاق کریں"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "ڈاؤن لوڈ کرنے کی تیاری ہورہی ہے..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "آپ کا آلہ ایک Wi-Fi نیٹ ورک سے جڑا ہوا نہیں ہے۔ ایک موبائل نیٹ ورک سے جڑنے کے نتیجہ میں آپ کے ادائیگی منصوبہ پر منحصر اضافی اخراجات ہو سکتے ہیں۔"
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "موبائل ڈیٹا کو آف ہو گیا۔ اس کے بجائے کسی Wi-Fi نیٹ ورک سے جڑیں یا موبائل ڈیٹا کو آن کریں اور دوبارہ کوشش کریں۔"
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "میموری کارڈ ہٹا دیا۔"
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "کامیابی۔"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "ڈاونلوڈ کر رہا ہے۔۔۔"
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "میموری کافی نہیں۔"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "تخلیق"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "نہیں"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "شارٹ کٹ شامل کریں"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "شارٹ کٹ حذف کریں"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "شارٹ کٹ کا نام تبدیل کریں"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "دوبارہ مت دکھائیں"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "بائٹ"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "ذاتی"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "فولڈر کا نام ڈالیں"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "تیز راہ ہٹائیں"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "بائٹ"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "کریں"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "ناممکن"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "شخص"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "وقفہ"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "آخری بار ترمیم"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d شے"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "ممکن"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "دائیں کا سٹیٹس"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "شراکت کریں"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "وقت کا شمار"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "قسم"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "معیادی"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "یہاں برآمد کریں"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "بدل دیں"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "سب فولڈرز تلاش کریں"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "موبائل نیٹ ورک سے جڑیں"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "نیا فولڈر"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "فولڈر بنانے سے قاصر"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ہاں"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "فولڈر کا نام درج کریں"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "کمپریس کریں"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "یہاں ڈی کمپریس کریں"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "باہر نکالیں"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "موجودہ فولڈر پر کشید کریں"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "فائل ایکسٹنشن چھپائيں"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "فائل کا محل وقوع کھولیں"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "سرور سے کنیکٹ نہیں کر سکا۔"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "یہاں محفوظ کریں"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "لنک شراکت کریں"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "فائل ایکسٹینشن دکھائیں"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "تھمب نیل کا نظارہ"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "دکھیں"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "بتدریج اوپر"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "بتدریج نیچے"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM فائل۔ بھیج نہیں سکتا۔"
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "فائیل کا نام درست نہیں۔"
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "نام خالی ہے۔"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "ہیٹ میموری زیادہ نہیں۔"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "میموری کافی نہیں ہے۔ کچھ اشیا حذف کریں اور دوبارہ کوشش کریں۔"
+
+msgid "IDS_MF_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "شارٹ کٹس سے ہٹا دیں؟"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "بھیجنا ناکام۔"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "حذف کریں"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "ڈسٹینین فولڈر سورس فولڈر کی اندر ہے"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "ڈسٹینیشن اور سورس فولڈر ایک ہے۔"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "تلاش کریں"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "نقل کرنے سے قاصر۔"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "منتقل کرنے سے قاصر۔"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "سیٹنگز"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "یہ عمل انجام دینے سے قاصر۔ نیٹ ورک غلطی واقع ہوگئی۔"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "وقت"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "حد نہیں"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "بیرونی ذخیرہ"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "میموری کارڈ"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "ویڈیوز"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "فائلیں کمپریس ہوگئیں"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "فائلیں کشید ہوگئیں"
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "گیگابائٹ"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "میگابائٹ"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "سب منتخب کریں"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "کیلوبائٹ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "دستاویزات"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "تصویر"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "کوئی فائلیں نہیں"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "ذخیرہ کا استعمال"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "فائیل موجود نہیں"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "واپس"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "تمام"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "فولڈر بنائیں"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "اشیا"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "منسلک"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "نام"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "ترتیب دیں بلحاظ"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 شے حذف کردی جائے گی"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "مٹانا فیل۔"
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "فارمیٹ"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d اشیا حذف کردی جائیں گی"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "اجازت دینے سے انکار۔"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "شے حذف کریں"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "اشیا منتخب کریں"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "کوئی نتائج نہیں ملے"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "غیر مجاز حرف داخل کیا۔ دوبارہ کوشش کریں۔"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ڈاؤن لوڈ شروع کررہا ہے..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "آئٹم پسند کریں"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "آپ تقریبا %d اشیا منتخب کرسکتے ہیں"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "بھیج رہا ہے..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "کاپی ہورہی ہے..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "منتقل ہوا۔"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "کاپی ہوا۔"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "نجی سے ہٹائیں"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "ذاتی میں منتقل کریں"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "ڈاؤن لوڈز"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "مٹ رہا ہے..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "ناکام ہوا۔"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD کارڈ"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "کریکٹر کی حد ہو گئی۔"
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "میری فائلیں"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "کچھ منتخب نہیں کیا۔"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "غیرسہولت یافتہ فائل قسم۔"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "تیاری کررہا ہے..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d منتخب ہوگیا"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "کوئی ڈاؤن لوڈز نہیں"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "ڈاؤن لوڈ منسوخ ہوگیا"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "ڈاؤن لوڈ ناکام ہوگیا"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "آپ کے آلے کے اسٹوریج میں کافی جگہ نہیں ہے۔ کچھ ڈیٹا حذف کرنے کیلئے %s ترتیبات پر جائیں یا ایک SD کارڈ داخل کریں۔"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "آپ کے آلے کے اسٹوریج میں کافی جگہ نہیں ہے۔ اسٹوریج کی کچھ جگہ خالی کرنے کیلئے %s ترتیبات پر جائیں، پھر دوبارہ کوشش کریں۔"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "آپ کے SD کارڈ پر کافی جگہ نہیں ہے۔ کچھ ڈیٹا حذف کرنے کیلئے %s ترتیبات پر جائیں، یا ڈیفالٹ اسٹوریج کا مقام کو آلہ میں تبدیل کریں۔"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "آپ کے SD کارڈ پر کافی جگہ نہیں ہے۔ کچھ ڈیٹا حذف کرنے کیلئے %s ترتیبات پر جائیں، پھر دوبارہ کوشش کریں۔"
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "اسٹوریج پر جائیں"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "ڈیفالٹ اسٹوریج بھرا ہوا ہے"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "قدیم تر"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "تفصیل"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "پروسیسنگ"
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "آلے کا ذخیرہ"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "سرور کو مطلع کررہا ہے..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "فائل کھولنے سے قاصر"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "دوبارہ کوشش کرنے کے لیے [ڈاؤن لوڈ] پر تھپکی دیں۔"
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "منسوخ"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d منتخب"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "ڈاؤن لوڈ کی ہسٹری"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "آسان شیئرنگ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "ایپلیکیشن نصب کرنے سے قاصر"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "صرف TPK فائلز نصب ہوسکتی ہے۔ ہم تجویز کرتے ہیں کہ آپ صرف Tizen اسٹور سے ڈاؤن لوڈ کردہ ایپلیکیشنز نصب کریں۔"
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "ان اشیاء کو یہاں سے حذف کرنے سے یہ Dropbox سے بھی حذف ہو جائے گا۔ %d اشیا حذف کردی جائیں گی۔"
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "یہ شئے یہاں سے حذف کرنے سے یہ Dropbox سے بھی حذف ہو جائے گا۔ 1 شئے حذف کردی جائے گی۔"
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "ان اشیاء کو منتقل کرنے سے یہ Dropbox سے حذف ہوجائیں گے۔ %d اشیاء منتقل ہو جائیں گی۔"
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "اس شئے کو منتقل کرنے سے یہ Dropbox سے حذف ہوجائے گی۔ 1 شئے منتقل ہو جائے گی۔"
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "حالیہ دیکھے گئے"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "بائٹس"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "پوشیدہ فائلز نہ دکھائیں"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "پوشیدہ فائلیں دکھائیں"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "شارٹ کٹ کا نام پہلے ہی زیر استعمال ہے۔"
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "بنیادی"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "فائیلیں"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "آڈیو فائلیں"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "نقل کریں"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "ڈاؤن لوڈ کردہ ایپلیکیشنز"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "پر منتقل کریں"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d منتخب"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "ڈراپ باکس"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "شارٹ کٹس"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "مشتمل ہے"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "کوئی فائلیں نہیں ہیں"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "نقل کریں"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "منتقل کریں"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "ہٹائیں"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 شارٹ کٹ کو حذف کردیا جائے گا۔"
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d تیزراہ حزفکر دیے جائیں گے۔"
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "دستیاب استعمال"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "آگے بھیجنا"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "آخری مرتبہ ترمیم کیا گیا"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "جزیات کاری"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "کل سائز"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "منزل مقصود فولڈر ماخذ فولڈر کا ذیلی فولڈر ہے۔"
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "شئے کو کاپی کرنے میں ناکام ہو گیا۔"
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "شئے کو منتقل کرنے میں ناکام ہوگیا۔"
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "فائل نام پہلے سے استعمال میں ہے"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "شارٹ کٹس کی زیادہ سے زیادہ تعداد (%d) پہنچ گئی۔"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "تیزراہ کا اضافہ ہوگیا۔"
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "تیز راہ پہلے موجود ہے"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d اشیا حذف کردی جائیں گی۔"
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d ایپلیکیشنز غیر نصب ہو جائیں گے۔"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "ڈاؤن لوڈ مکمل"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "ذخیرہ"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "فولڈر کا نام پہلے سے زیر استعمال ہے۔"
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "مقامی ذخیرہ"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "سائن ان نہیں ہوا ہے۔"
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "ترتیب"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "وقت"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "نا تنصیب کریں"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "سب منتخب کریں"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "ڈاؤن لوڈ"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "آج"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "گذشتہ کل"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "فائل کی یہ قسم آپ کے آلے کے کسی ایپلیکیشن کے ذریعہ تعاون یافتہ نہیں ہے۔"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "نامعلوم مسلئہ۔"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "نامعلوم"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "سسٹم"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "مکمل ہوگیا"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "منسوخ کریں"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "حذف کریں"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "شئے منتخب کریں"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "ڈيٹا محفوظ کرنے سے قاصر"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "راہ"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "حروف کی انتہائی تعداد %d ان پہنچی"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "ذخیرہ منتخب کریں"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "ڈاؤن لوڈ کررہا ہے..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "اختتامی تاریخ: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "تاریخ اختتام: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "مقصود فولڈر میں اس فولڈر کا نام (%s) پہلے سے استمال میں ہے۔"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "حذف کریں"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "سرگزشت خالی کریں"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "کمپریس کر رہا ہے۔۔۔"
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "مسلیں باہر نکال رہا ہے..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "زپ فائل سے اشیاء ایکسٹریکٹ کریں"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "نیا فولڈر %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "فولڈر نام کو ”.“ یا ”..“ کے بطور سیٹ نہیں کیا جا سکتا ہے۔"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "سیٹنگز"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "تفصیلی فہرست"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "اشیاء ایکسٹریکٹ کرنے سے قاصر"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "کافی جگہ موجود نہیں"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "زپ فائل تخلیق کریں"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "کوئی ہسٹری نہیں"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "دوبارہ نہ دکھائیں"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "اور"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "منسوخ ہو رہا ہے"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "عمل انجام دینے سے قاصر"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "فائیل"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "فولڈر"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "فولڈر"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "نام"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "آپ کے آلہ کے ذخیرہ میں کافی کم جگہ ہے۔ سیٹنگز > اسٹوریج اور RAM > اسٹوریج > تفصیلات پر جائیں، پھر کچھ فائلوں کو حذف کریں اور دوبارہ کوشش کریں۔"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "آپ کے SD کارڈ میں کافی کم جگہ ہے۔ سیٹنگز > اسٹوریج اور RAM > اسٹوریج > تفصیلات پر جائیں، پھر کچھ فائلوں کو حذف کریں اور دوبارہ کوشش کریں۔"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "فہرست"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "سائز"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 شے ہٹادی جائے گی"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "فولڈر کا نام %s کے بطور سیٹ نہیں کیا جا سکتا ہے۔"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "فائل حذف، منتقل، یا نیا نام دے دی گئی تھی۔ فائل کو دوبارہ ڈاؤن لوڈ کرنے کے لیے ڈاؤن لوڈ کریں پر تھپکی دیں، یا اسے ڈاؤن لوڈ کی سرگزشت سے ہٹانے کے لیے [ہٹائیں] پر تھپکی دیں۔"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "ریفریش کریں"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s کو نا تنصیب کردیا جائے گا"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "سائز"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "آلے کا ذخیرہ"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "کلاؤڈ ذخیرہ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "سیٹ"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "نام بدلیں"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "میری فائلیں"
+

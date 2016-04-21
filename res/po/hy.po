@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d հաջողված, %2$d ձախողված"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d հաջողված"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Կիրառել բոլոր տարրերի նկատ."
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Պատրաստվում է ներբեռնել..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Ձեր սարքը միացված չէ Wi-Fi ցանցի: Շարժական կապի ցանցին միանալը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված"
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Համօգտագործել հետևյալի միջոցով՝"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Համօգտ. հետևյալով՝"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Շարժական տվյալներն անջատված են: Փոխարենը միացեք Wi-Fi ցանցի կամ միացրեք Շարժական տվյալներն ու նորից փորձեք:"
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d տարրեր կվերացվեն:"
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Հիշողության քարտը հեռացված է:"
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Այս տարրը կվերացվի:"
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Հաջողված է"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Բեռնում..."
@@ -22,50 +28,8 @@ msgstr "Բեռնում..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Չկա բավական հիշողություն:"
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Չեղարկված է:"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Բեռնումն անհասանելի է:"
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Հաջողված է"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Ստեղծել"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Ջնջված է:"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Հիշողության քարտը հեռացված է:"
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Որոնում է..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Ցանցային կապակցման սխալ:"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Ջնջել թղթապանակը"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Մուտքագրեք թղթապանակի անունը:"
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Ներբեռնված ծրագրեր"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Ցանցային կապակցման սխալ է տեղի ունեցել: Զանգն ընդհատվելու է: Վերակապակցվե՞լ ցանցին:"
-
-msgid "IDS_MF_SK_OK"
-msgstr "Ընդունել"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Պահել"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Այո"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ոչ"
@@ -73,122 +37,32 @@ msgstr "Ոչ"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Ավելացնել դյուրանցում"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Վերացնել"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Վերացնել դյուրանցումը"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Վերանվանել դյուրանցումը"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Որոնել"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Պարամետրեր"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Համօգտագործել"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Պահոցի օգտագործում"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Այլևս ցույց չտալ"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "Բ"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Բայթ"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "ԳԲ"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "ՄԲ"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Անհնար է միանալ սերվերին:"
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Գաղտնի"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Մուտքագրեք թղթապանակի անունը:"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Հեռացնել դյուրանցում"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Մարտկոցի լիցքը թույլ է"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 ֆայլ"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Իմ ալբոմը"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Ավելացնել այստեղից՝"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Ազդանշաններ"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Ցանկացած"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Հասանելի օգտվողներ"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Բայթ"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Բովանդակություն"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Ստեղծման ամսաթիվը"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Ամսաթիվ"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Վերացնե՞լ ընտրված տարրերը:"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "ԿԲ"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Փաստաթղթեր"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Կատարել"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Ֆայլի անուն"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Նիշքի տիպ"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Թղթապանակի անունը"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Փոխանցում"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS տեղեկատվություն"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS լայնություն"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS երկայնություն"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS տարբերակ"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Պատկերներ"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Անհնար է"
@@ -202,68 +76,17 @@ msgstr "Դադար"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Վերջին փոփոխվածը"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Ցուցակ և մանրամասներ"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Գտնվելու վայր"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC տվյալներ են նախապատրաստվում..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Իմ ձայնահոլովակները"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Բավարար տեղ չկա հեռախոսի հիշողության մեջ: Վերացրեք որոշ տարրեր և նորից փորձեք:"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Ֆայլեր չկան"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Վերջերս բացված ֆայլեր չկան"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Վերջերս ֆայլեր չկան"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d ֆայլ"
-
 msgid "IDS_MF_BODY_PD_ITEM"
-msgstr "%d տարր"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
 msgstr "%d տարր"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Հնարավոր"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Տպել"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Վերանվ"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Իրավունքի կարգավիճակ"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Մեղեդիներ"
-
-msgid "IDS_MF_BODY_SHARE"
-msgstr "Համատեղ օգտագործում"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Ցույց տալ թաքնված ֆայլերը"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Ձայներ"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Պահոցի օգտագործում"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Ժամանակ"
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Համօգտագործել"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Հաշվարկված հաշիվ"
@@ -271,35 +94,11 @@ msgstr "Հաշվարկված հաշիվ"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Տեսակ"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Անսահմանափակ"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Վերև"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Վավերականություն"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Մատակարար"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Տեսահոլովակներ"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Պաստառներ"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Ավ. հիմն. էկրնին"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Արտահանել այստեղ"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Գնալ Իմ Ֆայլերը"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Տուն"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Փխրնել"
@@ -307,92 +106,26 @@ msgstr "Փխրնել"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Որոնեք բոլոր թղթպնկները"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Դնել այստեղ"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Ընդլայնված որոնում"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Աուդիո"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Միանալ շարժական կապի ցանցին"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Միացում Wi-Fi ցանցին"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Քանակ"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Մուտքագրեք թղթապանակի անունը:"
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Տեղային"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Նոր թղթապանակ"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Վերջին ֆայլերը"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Հեռացնել ֆայլ"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Կիսեք ձայն և նկար"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Պահոց"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Անհնար է պանակ ստեղծել"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Ընտրել բոլորը"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Այո"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Մուտքագրեք պանակի անուն"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Ավելացնել դյուրանցումներին"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Որպես պատկերային նիշքեր"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Որպես տեսանիշքեր"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Զանգահարողի զանգի մեղեդի"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Խտացնել"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Ստեղծել թղթապանակ"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Ամսաթիվ (առավել վերջին)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Ամսաթիվ (ամենահին)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Ապախտացնել"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Ապախտացնել այստեղ"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Լռելյայն զանգի մեղեդի"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Մանրամասն դիտում"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Խմբագրել"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Դուրս բերել"
@@ -400,56 +133,17 @@ msgstr "Դուրս բերել"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Հանել ընթացիկ պանակ"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Գնալ պանակ"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Թքցնլ ֆայլի ընդլայնում"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Միույթ"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Անուն"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Թվարկել ըստ"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Տեղափոխել այստեղ"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Անուն"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Բացել ֆայլի տեղը"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Անձնական էջ"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Ձայնագրել հնչյուն"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Գրանցել Կոնտակտներում"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Վերանվանել"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Վերանվանված"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Վերանվանել թղթապանակը"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Անհնար է միանալ սերվերին:"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Պահպանել այստեղ"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Տեսածրել մերձակա սարքերը"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Ընտրված"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Համօգտագործել հղումը"
@@ -457,47 +151,14 @@ msgstr "Համօգտագործել հղումը"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Ցույց տալ ֆայլի ընդլայնումը"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Բաժանել"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Տեսակավորել ըստ"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Փոքրացված պատկերների տեսք"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Դիտել որպես"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Դիտել ըստ ցանկի"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Դիտել ըստ մանրապատկերների"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 տարր կվերացվի:"
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Աճող"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Ջնջե՞լ"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Շարունակել"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Պատճենումը ձախողվեց:"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Ջնջումը ձախողվեց:"
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Ջնջե՞լ ընտրված տարրերը"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Նվազող"
@@ -505,35 +166,8 @@ msgstr "Նվազող"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM ֆայլ: Հնարավոր չէ ուղարկել:"
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM ֆայլը առկա չէ:"
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Ֆայլի անունն արդեն օգտագործման մեջ է:"
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Թղթապանակի անունն արդեն գոյություն ունի:"
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Ձևաչափ"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Ումից"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Մուտքի տեքստ"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Անվավեր ֆայլի անուն:"
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Բեռնում է..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Հասել եք թղթապանակների առավելագույն քանակի:"
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Տեղափոխումը ձախողվեց:"
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Անունը դատարկ է:"
@@ -544,41 +178,17 @@ msgstr "Չկա բավական զանգվածային հիշողություն:"
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Հիշողությունը բավարար չէ: Վերացրեք որոշ տարրեր և նորից փորձեք:"
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Չկա բավական հիշողություն: %s-ը հասանելի է:"
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Վերլուծել այստեղ"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d տարրեր կվերացվեն:"
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Թույլտվությունը մերժվեց:"
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Հեռացնե՞լ վերջին ֆայլերի ցանկից:"
+msgid "IDS_MF_SK_OK"
+msgstr "Ընդունել"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Հեռացնե՞լ Դյուրանցումներից:"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Հեռացնե՞լ"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Նույն ֆայլն արդեն գոյություն ունի:"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Նույն անունն արդեն օգտագործվում է:"
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Ընտրել տարրը"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Ուղարկման ձախողում:"
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Դյուրանցումն ավելացվել է:"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Վերացնել"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Նշանակման թղթապանակը հանդիսանում է սկզբնական թղթապանակի ենթաթղթապանակ:"
@@ -586,11 +196,8 @@ msgstr "Նշանակման թղթապանակը հանդիսանում է սկզ
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Նշանակման թղթապանակը նույնն է, ինչ որ սկզբնական թղթապանակը:"
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Սարքն անջատվել է"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Այս ֆայլը գոյություն չունի:"
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Որոնել"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Հնարավոր չէ պատճենել:"
@@ -598,53 +205,17 @@ msgstr "Հնարավոր չէ պատճենել:"
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Անհնար է տեղափոխել:"
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Պարամետրեր"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Անհնար է կատարել այս գործողությունը: Ցանցի սխալ է տեղի ունեցել:"
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Անհնար է վերարտադրել կանչի ընթացքում:"
+msgid "IDS_MF_BODY_TIME"
+msgstr "Ժամանակ"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Անհնար է DRM-ով պաշտպանված բովանդակությունը դնել որպես զանգի հնչերանգ կամ ծանուցման զգուշացում:"
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Մոտակա սարքերի առկայությունը տեսածրելու համար հարկավոր է միանալ Wi-Fi ցանցի: Միացեք Wi-Fi-ի միջոցով և նորից փորձեք:"
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "ՀԵՏ"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Պատճենել"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Ջնջել"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Խմբագրել"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Տեղափխել"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Որոնում"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Տեսակավորել ըստ"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Դիտել որպես"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Չեղարկել"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Չեղկլ"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Մանրամսն."
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Բոլոր"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Անսահմանափակ"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Արտաքին պահոց"
@@ -652,20 +223,8 @@ msgstr "Արտաքին պահոց"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Հիշաքարտ"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Հեռախոս"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Վեր"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Խտացված"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Ապախտացված"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Ներբեռնվում է ֆայլ..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Տեսահոլովակներ"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Ֆայլերը խտացվեցին"
@@ -673,38 +232,71 @@ msgstr "Ֆայլերը խտացվեցին"
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Ֆայլերը դուրս բերվեցին"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Նիշքը ներմուծված է:"
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "ԳԲ"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Սարքեր չեն գտնվել: Տեսածրումը կշարունակվի հետին պլանում"
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "ՄԲ"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Գրացուցակ"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Ընտրել բոլորը"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "ԿԲ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Փաստաթղթեր"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Պատկերներ"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Ֆայլեր չկան"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Պահոցի օգտագործում"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Այս ֆայլը գոյություն չունի:"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ՀԵՏ"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Բոլոր"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Ստեղծել թղթապանակ"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Միույթ"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Միանալ"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Կանխադրված ծանուցման ձայն"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Անուն"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Տեսակավորել ըստ"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Ավելացնել արագ անցում"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 տարր կվերացվի:"
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Վերացնե՞լ տարրեր:"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Ջնջումը ձախողվեց:"
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Վերանվանել"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Ձևաչափ"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Պարամետրեր"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d տարրեր կվերացվեն:"
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Հեռացնել"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Թույլտվությունը մերժվեց:"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Չեղարկել"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Վերացրեք տարր"
@@ -715,23 +307,11 @@ msgstr "Ընտրել տարրեր"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Արդյունքներ չեն գտնվել"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Ջնջե՞լ %d տարր"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Վերացնե՞լ տարր:"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 տարր է ընտրվել:"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Անվավեր նիշ է մուտքագրվել: Նորից փորձեք"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d տարր է ընտրվել:"
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Անձայն"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ներբեռնման մեկնարկում..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Ընտրել տարրը"
@@ -739,32 +319,11 @@ msgstr "Ընտրել տարրը"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Կարող եք ընտրել մինչև %d տարր:"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Բեռնումներ"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Ջնջե՞լ"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Տեղափոխել"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Պատճենել"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Տեղափոխում..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Պատճենում է..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Ջնջվում է..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Գործողությունը ձախողվեց:"
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Ընտրված"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Տեղափոխված է"
@@ -772,143 +331,35 @@ msgstr "Տեղափոխված է"
 msgid "IDS_MF_POP_COPIED"
 msgstr "Պատճենված է:"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Տեսակավորել ըստ"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Ձախողվեց:"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Պատրաստ"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD քարտ"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Սարքի հիշողություն"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Ավելացնել անհատական պահոցին"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Հեռացնել անհատական պահոցից"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Վերացնե՞լ այս տարրը:"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Հեռացնել Գաղտնիից"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Տեղափոխել դեպի Գաղտնի"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Բեռնումներ"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Ջնջվում է..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Ձախողվեց:"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD քարտ"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Հասել եք նիշերի առավելագույն քանակին:"
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Հեռացնում է..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Անհատական պահոց"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Ձևաչափումն ավարտվեց:"
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Անուն (Ֆ-ից Ա)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Անուն (Ա-ից Ֆ)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Էկրանի սևեռում"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Արդյունքներ չեն գտնվել:"
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Հաղորդագրության ազդանշան"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Մանրամասներ"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Մուտքագրեք անունը:"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Իմ Ֆայլերը"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Ավելացված է:"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Ընթացքում է"
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Ֆայլի չսատարվող տեսակ:"
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Հեռացնե՞լ"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Գաղտնի բովանդակություն"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Պատճենել ...ում"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Տեղափոխել դեպի"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Չհաջողվեց դյուրանցում ավելացնել:"
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Հիշողությունը չի բավարարում: Ջնջեք որոշ տարրեր"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Հեռացված է"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Անձնական պահոց"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Ոչինչ ընտրված չէ:"
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Կիսվել"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Դտլ որպ."
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Ցանկ"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Դիտարկում"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Պահպանել որպես"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Հեռացումը ձախողվեց:"
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Ծնողի գնահատական"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Ֆայլի անունն արդեն օգտագործման մեջ է:"
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Ձայն"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi-ը մատչելի չէ: Շարժական կապի ցանցերին միանալը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված"
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Հասել է նիշերի առավելագույն քանակին (%d):"
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Ֆայլի չսատարվող տեսակ:"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Պտրստվմ է..."
@@ -916,20 +367,8 @@ msgstr "Պտրստվմ է..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ընտրվել է"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Վերացնել տարրեր"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Ներբեռնումներ չկան"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Ներբեռնումն ավարտվեց"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Ներբեռնման կառավարիչ"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Ապրանքներ ներբեռնելուց հետո դրանք կցուցադրվեն այստեղ:"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Ներբեռնումը դադարեցված է"
@@ -958,14 +397,11 @@ msgstr "Կանխադրված պահոցը լիքն է"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Ավելի հին"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Պահոց"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Մանրամասներ"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Հեռացնում է..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD քարտ"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Ընթացքում է"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Սարքի պահոց"
@@ -973,86 +409,20 @@ msgstr "Սարքի պահոց"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Սերվերը ծանուցվում է..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d տարրեր կվերացվեն:"
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Անհնար է գտնել այս ֆայլը: Թակեք «Ներբեռնել»՝ ներբեռնումը նորից փորձելու համար:"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Անհնար է բացել ֆայլը"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Անհնար է ծրագիր գտնել այս ֆայլը բացելու համար:"
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Թակեք «Ներբեռնել»՝ նորից փորձելու համար:"
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 տարր կվերացվի:"
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Ակտիվացվում է DRM բովանդակություն..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Անհնար է ծրագիր գտնել՝ այս գործողությունը կատարելու համար:"
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Պահման տեղը"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Ներմուծում"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Դադարեցնել"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Ընտրել բոլորը"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ընտրված"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Ներբեռնել"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Այսօր"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Երեկ"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Վերացնել"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Փոխրնել"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Կիրառել բոլոր տարրերի նկատ."
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Ստեղծել Zip ֆայլ"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Արտաքաղել zip ֆայլ"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Իմ Ֆայլերը"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Ոստայն"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Ներբեռնման պատմություն"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Պատմություն չկա"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Պարզ համօգտագործում"
@@ -1075,74 +445,11 @@ msgstr "Այս տարրերը տեղափոխելու դեպքում դրանք �
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Այս տարրը տեղափոխելու դեպքում այն կվերացվի Dropbox-ից: 1 տարր կտեղափոխվի:"
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Ընտրել պահոցի տեղը"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Կանգ"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Վերբեռնել"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Չհաջողվեց վերբեռնել ֆայլը"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Կանգնեցնել վերբեռնումները"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Թակեք «Վերբեռնել»՝ նորից փորձելու համար:"
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Վերբեռնումը կկանգնեցվի, բայց ֆայլը չի վերացվի:"
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Վերջերս\nդիտված"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Անհն. է պահպանել տվյալներ"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ձեր սարքի պահոցում բավարար տեղ չկա: Գնացեք Դրվածքներ > Էներգիա և պահոց > Պահոց, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ձեր SD քարտում բավարար տեղ չկա: Գնացեք Դրվածքներ > Էներգիա և պահոց > Պահոց, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Վերբեռնել դեպի"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Վերբեռնումներ Dropbox-ում"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Գաղտնի"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "բայթ"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Ավլնլ"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Տուն"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Ազդանշան"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Այլ"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Ավելին"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Բացել"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Անորոշ սխալ:"
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Անհնար է պանակի անունը դնել ‘.’ կամ ‘..’:"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ցույց չտալ թաքցված ֆայլեր"
@@ -1150,104 +457,23 @@ msgstr "Ցույց չտալ թաքցված ֆայլեր"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ցույց տալ թաքնված ֆայլերը"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Անհայտ"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Դյուրանցման անվանումն արդեն գործածվում է:"
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Հիմնական"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Ֆայլ"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Ֆայլեր"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Թղթապանակ"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Թղթապանակներ"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Համակարգ"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Անուն"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Ձայնային\nֆայլեր"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Փաստաթղթեր"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Ներբեռնված\nծրագրեր"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Պատկերներ"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Տեսանյութեր"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Դադարեցնել"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Չեղարկել"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Ստեղծել"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Ջնջել"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Հեռացնել"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Վերանվանել"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Ապատեղադրել"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Ավելացնել դյուրանց."
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Ձայնային ֆայլեր"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Պատճենել"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Պատճենել հետևյալում"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Ստեղծել պանակ"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Վերացնել դյուրանցումը"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Մանրամասներ"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Փաստաթղթեր"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Ներբեռնված ծրագրեր"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Պատկերներ"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Տեղափոխել"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Տեղափոխել դեպի"
@@ -1255,43 +481,7 @@ msgstr "Տեղափոխել դեպի"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ընտրված"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Վերջին ֆայլերը"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Հեռացնել"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Վերանվանել"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Պարամետրեր"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Արագ անցումներ"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Տեսակավորել ըստ"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Ապատեղադրել"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Վերբեռնել դեպի"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Տեսահոլովակներ"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Դիտել որպես"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Բոլոր"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Դյուրանցում"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Պարունակում է"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Սարքի պահոց"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Ձևաչափ"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Տեղը"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD քարտ"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Ց. տալ ֆայլի ընդլայնումներ"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Ցույց տալ թաքնված ֆայլերը"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Չափը"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Տեսակ"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Վաճառող"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Ֆայլեր չկան"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Աճող"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Պատճենել"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Ստեղծել պանակ"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Նվազող"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Մանրամասն ցանկ"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Մանրամասներ"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Այլևս ցույց չտալ"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Ֆայլի տեսակ"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Ցանկ"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Տեղափոխել"
@@ -1366,50 +502,14 @@ msgstr "Տեղափոխել"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Հեռացնել"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Չափս"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Ժամանակ"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Տեսակ"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Ապատեղադրել"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 տարր կհեռացվի:"
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 դյուրանցում կվերացվի:"
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Պատճենում է..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Տեղափոխում..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d տարրեր կհեռացվեն:"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d-ի դյուրանցումը կջնջվի:"
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Հեռացնում է..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Ռոումինգի ընթացքում Շարժական տվյալներ օգտագործելը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Մատչելի օգտագործումներ"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Ստեղծման թվականը"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Նկարագրություն"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Փոխանցում"
@@ -1423,29 +523,14 @@ msgstr "Թողունակություն"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Ընդհանուր չափը"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Վավերություն"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Նպատակային ենթապանակը նույնն է, ինչ ելակետային պանակը:"
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Նպատակային պանակը նույնն է, ինչ ելակետային պանակը:"
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Չհաջողվեց դյուրանցում ավելացնել:"
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Չհաջողվեց պատճենել տարրը:"
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Չհաջողվեց վերացնել տարրը:"
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Չհաջողվեց տեղափոխել տարրը:"
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Չհաջողվեց ջնջել տարրը:"
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ֆայլի անունն արդեն գործածվում է"
@@ -1459,23 +544,17 @@ msgstr "Դյուրանցումն ավելացվել է:"
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Դյուրանցումն արդեն գոյություն ունի"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Թարմացնել"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d տարրեր կջնջվեն:"
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d ծրագիր կապատեղադրվի:"
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s կապատեղադրվի:"
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Ներբեռնումն ավարտվեց"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Չափս"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Ցուցակային տեսք"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Պահոց"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Պանակի անունն արդեն գործածվում է:"
@@ -1483,23 +562,11 @@ msgstr "Պանակի անունն արդեն գործածվում է:"
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Տեղական պահոց"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Սարքի պահոց"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Մտած չէ:"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Բոլոր ֆայլերը"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Ամպային պահեստ"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Կարգ"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Արագ անցումներ"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Ժամանակ"
@@ -1507,44 +574,32 @@ msgstr "Ժամանակ"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Ապատեղադրել"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Պարունակում է"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Ընդունել"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Ոչ մի դեմք չի ճանաչվել"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Ընտրել բոլորը"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Ներբեռնել"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Արդեն գոյություն ունի:"
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Այսօր"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Հնարավոր չէ տեղափոխել: Նշանակման թղթապանակը նույնն է, ինչ որ սկզբնական թղթապանակը:"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Ստեղծել թղթպանակ"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Ավելի"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Տեղափոխել այստեղ"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Տեղադրել այստեղ"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Գործադրել"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Երեկ"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Այս ֆայլի տիպը չի ապահովվում սարքում առկա որևէ ծրագրի կողմից:"
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d ֆայլեր կվերացվեն:"
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Անորոշ սխալ:"
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Ֆայլերն ուղարկվեցին"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Անհայտ"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Համակարգ"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ԱՐՎԱԾ"
@@ -1555,53 +610,11 @@ msgstr "ԴԱԴԱՐԵՑՆԵԼ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ՎԵՐԱՑՆԵԼ"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Վերանվանել"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Ընտրել տարր"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Վերբեռնումներ չկան"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Տարրեր գնելուց հետո դրանք կցուցադրվեն այստեղ:"
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Դրվածքներ"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Անհն. է պահպանել տվյալներ"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ձեր SD քարտում բավարար տեղ չկա: Գնացեք Դրվածքներ > Էներգիա և պահոց > Պահոց, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ձեր սարքի պահոցում բավարար տեղ չկա: Գնացեք Դրվածքներ > Էներգիա և պահոց > Պահոց, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Սխալ:"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Հիշողութունը լիքն է:"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 տարր կվերացվի Dropbox-ից:"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d տարրեր կվերացվեն Dropbox-ից:"
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Շարժական տվյալներն անջատված են: Միացեք Wi-Fi ցանցի կամ միացրեք Շարժական տվյալներն ու նորից փորձեք:"
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Դրվածքներ"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Անհատական պահոց"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Ուղի"
@@ -1612,23 +625,8 @@ msgstr "Հասել է նիշերի առավելագույն քանակին՝ %d"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Ընտրել պահոց"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Ներբեռնումների պատմություն"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Ներբեռնումների պատմթյուն"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Ներբեռնվում է..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Ներբեռնումներ"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Ներբեռնումներ չկան"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Ներբեռնումը ձախողվեց"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Ժամկետն ավարտվում է՝ %s"
@@ -1636,30 +634,114 @@ msgstr "Ժամկետն ավարտվում է՝ %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Ժամկետն ավարտվել է՝ %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Չհաջողվեց ներբեռնել ֆայլը"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Փորձեք նորից ներբեռնել ֆայլը, կամ այն հեռացրեք ներբեռնման հերթից:"
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Նորից փորձեք"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Հեռացնել"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Կատեգորիա"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Պանակի անունը գործածվում է"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Ֆայլի անունն օգտագործված է"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Այս ֆայլի անունը (%s) արդեն գործածվում է նպատակային պանակում:"
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Այս պանակի անունը (%s) արդեն գործածվում է նպատակային պանակում:"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Վերացնել"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Մաքրել պատմությունը"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Խտացվում է..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Դուրս է բերվում..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Արտաքաղել տարրեր ZIP ֆայլից"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Նոր թղթապանակ %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Անհնար է պանակի անունը դնել «.» կամ «..»:"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Դրվածքներ"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Մանրամասն ցուցակ"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Անհնար է տարրեր արտաքաղել"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Բավարար տեղ չկա"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Ստեղծել ZIP ֆայլ"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Պատմություն չկա"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Այլևս ցույց չտալ"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Ավելին"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Չեղարկում..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Անհնար է կատարել գործողութ."
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Ֆայլ"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Թղթապանակ"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Թղթապանակներ"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Անուն"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ձեր սարքի պահոցը բավականաչափ տեղ չունի: Գնացեք Դրվածքներ > Պահոց և RAM > Պահոց > Մանրամասներ, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ձեր SD քարտը բավականաչափ տեղ չունի: Գնացեք Դրվածքներ > Պահոց և RAM > Պահոց > Մանրամասներ, հետո վերացրեք որոշ ֆայլեր և նորից փորձեք:"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Ցանկ"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Չափս"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 տարր կհեռացվի:"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Հնարավոր չէ պանակի անունը դնել %s:"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Այս ֆայլը վերացված, տեղափոխված կամ վերանվանված է: Ֆայլը նորից ներբեռնելու համար թակեք «Ներբեռնել», կամ այն Ներբեռնումների պատմությունից հեռացնելու համար թակեք «Հեռացնել»:"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Թարմացնել"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s կապատեղադրվի:"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Չափս"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Սարքի պահոց"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Ամպային պահեստ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Գործադրել"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Վերանվանել"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Իմ Ֆայլերը"
 

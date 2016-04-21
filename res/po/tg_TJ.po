@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d мув. шуд, %2$d иҷро наш."
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d муваффақ шуд"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Татбиқ ба ҳамаи ҷузъҳо"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Ба боргирӣ омода мешавад..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Дастгоҳи шумо ба ягон шабакаи Wi-Fi пайваст нест. Пайвастшавӣ ба ягон шабакаи мобилӣ метавонад, ки вобаста аз нақшаи пардохти шумо, боиси пардохтҳои иловагӣ шавад."
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Иттилооти мобилӣ хомӯш аст. Ба ҷои ин ба ягон шабакаи Wi-Fi пайваст шавед ё иттилооти мобилиро фаъол карда, аз нав кӯшиш кунед."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Корти хотира хориҷ карда шуд."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Муваффақият"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Боргирӣ..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Хотира кофӣ нест"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Эҷод кардан"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Не"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Иловаи миёнбур"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Нест кардани миёнбур"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Иваз кардани номи миёнбур"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Дигар нишон надиҳед"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Махфӣ"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Ворид кардани номи ҷузвдон"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Нест кардани миёнбур"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Иҷро кардан"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Ғайриимкон"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Шахсӣ"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Фосила"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Тағйироти охирин:"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d ҷузъ"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Имконпазир"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Ҳолати рост"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Мубодила кардан"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Ҳисоби вақтӣ"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Навъ"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Эътиборнокӣ"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Export here"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Ҷойиваз кардан"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Ҷустуҷӯи ҳамаи ҷзвднҳ"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Ба шабакаи мобилӣ пайваст шавед"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Ҷузвдони нав"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Ҷузвадон эҷод карда намешавад"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ҳа"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Номи ҷузвдонро дохил кунед"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Фишурдан"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Decompress here"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Баровардан"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Баровардан ба ҷузвдони ҷорӣ"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Пинҳон крдн псвнд файл"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Open file location"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Пайвастшавӣ ба сервер ғайриимкон аст."
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Ин ҷо захира кунед"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Мубодилаи пайванд"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Нишон додани пасванди файл"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Намуди тасвирчаҳо"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Дидан ҳамчун"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Аз рӯи зиёдшавӣ"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "Аз рӯи камшавӣ"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "Файли DRM. Фиристода наметавонад."
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Номи нодурусти файл."
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Ном холист."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Хотираи тал кофӣ нест."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Хотира кофӣ нест. Баъзе ҷузъҳоро нест карда, аз нав кӯшиш кунед."
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Аз Миёнбурҳо нест кунем?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Фиристодан иҷро нашуд."
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Нест кардан"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Ҷузвдони ниҳоӣ зерҷузвдони ҷузвдони манбаъ аст."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Ҷузвдони ниҳоӣ бо ҷузвдони манбаъ як аст."
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Ҷустуҷӯ"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Нусхагирӣ карда наметавонад"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Интиқол дода наметавонад."
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Танзимот"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Ин амал иҷро намешавад. Хатогии шабака ба вуҷуд омад."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Вақт"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Бемаҳдуд"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Захирагоҳи беруна"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Корти хотира"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видеоҳо"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Файлҳо фишурда шуданд."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Файлҳо истихроҷ шуд."
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "ГБ"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MБ"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Интихоби ҳама"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KБ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Ҳуҷҷатҳо"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Тасвирҳо"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Ягон файл нест"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Истифодаи захирагоҳ"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Ин файл вуҷуд надорад."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Ба қафо"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Ҳама"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Эҷод кардани ҷузвдон"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Ҷузъҳо"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Пайваст шудан"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Ном"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Мураттабсозӣ аз рӯи"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ҷузъ нест карда мешавад"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Несткунӣ иҷро нашуд"
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ҷузъҳо нест карда мешаванд"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Иҷозат рад карда шуд"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Бекор кардан"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Нест кардани ҷузъ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Интихоби ҷузъҳо"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Ягон натиҷа ёфт нашуд"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Аломати беэътибор дохил карда шуд. Кӯшишро такрор кунед."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Оғозкунии боргирӣ..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Интихоби ҷузъ"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "Шумо метавонед то %d объект интихоб кунед."
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Паём кӯчонида мешавад..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Нусха гирифта мешавад..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Интиқол ёфт."
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Нусха гирифта шуд."
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Аз Махфӣ нест кардан"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Кӯчонидан ба Махфӣ"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Боргириҳо"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Несткунӣ..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Иҷронашуда"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Корти SD"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Ба шумораи максималии аломатҳо расидед."
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Файлҳои ман"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ҳеҷ чиз интихоб нашудааст"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Навъи файли дастгиринашаванда"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Омодасозӣ..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d интихоб шуд"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Боргириҳо нестанд"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Боргирӣ бекор карда шуд"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Боргирӣ иҷро нашуд"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Дар захирагоҳи дастгоҳи шумо ҷои кофӣ нест. Ба танзимоти %s гузашта каме иттилоотро нест кунед ё ягон корти SD-ро гузоред."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Дар захирагоҳи дастгоҳи шумо ҷои кофӣ нест. Ба танзимоти %s гузашта, каме ҷои захирагоҳро холӣ кунед ва аз нав кӯшиш кунед."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "Дар корти SD-и шумо ҷои кофӣ нест. Ба танзимоти %s гузашта, каме иттилоотро нест кунед ё макони захирагоҳи стандартиро ба Дастгоҳ иваз кунед."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "Дар корти SD-и шумо ҷои кофӣ нест. Ба танзимоти %s гузашта, каме иттилоотро нест кунед ва аз нав кӯшиш кунед."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Ба Захирагоҳ гузаред"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Захирагоҳи пешфарз пур аст"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Кӯҳнатар"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Тафсилот"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Коркард..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Захирагоҳи дастгоҳ"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Огоҳкунии сервер..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Файлро кушода наметавонад"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Боргириро зарба занед, то ки аз нав кӯшиш кунед."
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Бекор кардан"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d интихоб шудаанд"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Таърихи боркунӣ"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Мубодилаи сода"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Барномаро насб к. наметавонад"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Танҳо файлҳои TPK-ро насб кардан мумкин аст. Мо тавсия медиҳем, ки танҳо барномаҳои аз Дӯкони Tizen боргиришударо насб кунед."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Агар объектҳоро аз ин ҷо нест кунед, онҳо инчунин аз Dropbox нест карда мешаванд. %d объект нест карда мешавад."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Агар ин объектҳоро аз ин ҷо нест кунед, он инчунин аз Dropbox нест карда мешавад. 1 объект нест карда мешавад."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Интиқол додани ин ҷузъҳо онҳоро аз Dropbox нест мекунад. %d ҷузъҳо интиқол дода мешаванд."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Интиқол додани ин ҷузъ онро аз Dropbox нест мекунад. 1 ҷузъ интиқол дода мешавад."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Дидашудаи\nқаблӣ"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "байт"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Файлҳои пинҳонро нишон надиҳед"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Нишон додани файлҳои пинҳон"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Миёнбур аллакай дар истифода аст."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Асосӣ"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Файлҳо"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Файлҳои\nаудиоӣ"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Нусхабардорӣ ба"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Барномаҳои боргиришуда"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Интиқол додан ба"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d интихоб шудаанд"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Миёнбурҳо"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Дарбар мегирад"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Ягон файл нест"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Нусха"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Интиқол додан"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Нест кардан"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 миёнбур нест карда мешавад."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d миёнбур нест карда мешавад."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Истифодаҳои дастрас"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Бозфиристодан"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Бори охир тағир дода шудааст"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Гузарониш"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Андозаи умумӣ"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Ҷузвдони ниҳоӣ зерҷузвдони ҷузвдони манбаъ аст."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Нусхабардории объект иҷро нашуд."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Интиқолдиҳии объект иҷро нашуд."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Номи файл аллакай истифода бурда мешавад."
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Ба шумораи зиёдтарини миёнбурҳо (%d) расидед."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Миёнбур илова шуд."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Миёнбур аллакай вуҷуд дорад."
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d ҷузъҳо нест карда мешаванд."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d барномаҳо лағви насб карда мешаванд."
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Боргирӣ анҷом ёфт"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Захирагоҳ"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Номи ҷузвдон аллакай дар истифода аст."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Захирагоҳи маҳаллӣ"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Ворид нашудааст."
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Тартиб"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Вақт"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Нест кардан"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Интихоби ҳама"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Боргирӣ кардан"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Имрӯз"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Дирӯз"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Ягон барнома дар дастгоҳи шумо ин намуди файлро дастгирӣ намекунад."
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Хатогии номаълум"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Номаълум"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Система"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ИҶРО ШУД"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "БЕКОР КАРДАН"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "НЕСТ КАРДАН"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Интихоби ҷузъ"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Итт-ро захира к. намет-д"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Масир"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Ба шумораи максималии аломатҳо %d расидед."
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Интихоби захирагоҳ"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Боргирӣ иҷро мешавад..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Анҷоми мӯҳлат: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Муҳлат анҷом ёфт: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Ин номи ҷузвдон (%s) аллакай дар ҷузвдони ниҳоӣ истифода мешавад."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Нест кардан"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Нест кардани таърих"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Фишурдан..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Мӯҳтаво бароварда мешавад..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Ҷузъҳоро аз фай. ZIP хор. к."
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Ҷузвдони нав %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Номи ҷузвдонро ҳамчун “.” ё “..” гузошта наметавонад."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Танзимот"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Рӯйхати ботафсил"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Ҷузъҳоро бароварда намет-д"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Ҷой кофӣ нест"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Эҷоди файли ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ягон таърих нест"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Дигар нишон надиҳед"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Бештар"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Бекоркунӣ..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Амалро иҷро карда намет-д"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Ҷузвдон"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Ҷузвдонҳо"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Ном"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Захирагоҳи дастгоҳи шумо фазои кофӣ надорад. Ба Танзимот > Захирагоҳ ва RAM > Захирагоҳ > Тафсилот гузаред, пас баъзе файлҳоро нест карда аз нав кӯшиш кунед."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD-корти шумо фазои кофӣ надорад. Ба Танзимот > Захирагоҳ ва RAM > Захирагоҳ > Тафсилот гузаред, пас баъзе файлҳоро нест карда аз нав кӯшиш кунед."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Рӯйхат"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Андоза"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 ҷузъ нест карда мешавад"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Таъйин кардани номи %s ба ҷузвдон ғайриимкон аст."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Ин файл нест карда, интиқол дода ё ивази ном карда шуд. Баро аз нав боргирӣ кардани файл Боргирӣ карданро зарба занед ё Хориҷ карданро зарба зада, онро аз Таърихи боргирӣ хориҷ кунед."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Навсозӣ кардан"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s лағви насб карда мешавад"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Андоза"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Захирагоҳи дастгоҳ"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Захирагоҳи абрӣ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Танзим кардан"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Иваз кардани ном"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Файлҳои ман"
+

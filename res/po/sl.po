@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "Uspelo: %1$d. Ni uspelo: %2$d"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "Uspelo: %d"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Uporabi za vse elemente"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Priprava na prenos ..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Vaša naprava ni povezana z omrežjem Wi-Fi. Povezava z mobilnim omrežjem lahko povzroči dodatne stroške, odvisno od vaše naročnine."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Deljenje prek"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Deli z drugimi prek"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Funkcija Prenos podatkov prek mobilnega omrežja je izklopljena. Namesto tega se povežite z omrežjem Wi-Fi, ali pa vklopite funkcijo Prenos podatkov prek mobilnega omrežja in poskusite znova."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "Izbrisan. bo toliko elem.: %d."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Pomnilniška kartica je odstranjena."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Ta element bo izbrisan."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Uspeh."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Prenašam ..."
@@ -22,50 +28,8 @@ msgstr "Prenašam ..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ni dovolj pomnilnika."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Preklicano."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Prenos ni na voljo."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Uspeh."
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Ustvari"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Izbrisano."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Pomnilniška kartica je odstranjena."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Iščem"
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Napaka omrežne povezave."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Izbriši mapo"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Vnesite ime mape."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Prenesene aplikacije"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Prišlo je do napake omrežne povezave. Klic je končan. Se želite znova povezati z omrežjem?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "V redu"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Shrani"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Da"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ne"
@@ -73,122 +37,32 @@ msgstr "Ne"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Dodajte bližnjice"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Izbriši"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Izbriši bližnjico"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Preimenuj bližnjico"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Iskanje"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Nastavitve"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Skupna raba"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Poraba shrambe"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ne pokaži znova"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Bajt"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Povezovanje s strežnikom ni mogoče."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Zasebno"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Vnesite ime mape."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Odstranite bližnjico"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Baterija prazna"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 datoteka"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Moj album"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Dodaj iz"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Opozorila"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Karkoli"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Število uporab"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Bajt"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Vsebine"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Datum ustvarjanja"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Datum"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Zbrišem izbrane predmete?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumenti"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Izvedi"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Ime datoteke"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Vrs. dat."
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Ime mape"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Posredovanje"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "Informacije GPS"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "Zemljepisna širina GPS"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "Zemljepisna dolžina GPS"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "Različica GPS"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Slike"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Nemogoče"
@@ -202,68 +76,17 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Zadnjič spremenjeno"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Seznam in podrobnosti"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Lokacija"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "Podatki MMC se inicializirajo ..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Moji videoposnetki"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Ni dovolj pomnilnika v telefonskem polnilniku. Zbrišite nekaj elementov in poskusite znova."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Ni datotek"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Ni nedavno odprtih datotek"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Ni nedavnih datotek"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d datotek"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d element"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d predmetov"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Mogoče"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Tiskanje"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Preim."
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Stanje pravic"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Zvonjenja"
-
-msgid "IDS_MF_BODY_SHARE"
-msgstr "Deli"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Prikaži skrite datoteke"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Zvoki"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Poraba pomnilnika"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Čas"
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Skupna raba"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Časovno število"
@@ -271,35 +94,11 @@ msgstr "Časovno število"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Vrsta"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Neomejeno"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Gor"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Veljavnost"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Ponudnik"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videoposnetki"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Ozadja"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Dod. na dom.zas."
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Izvozi sem"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Pojdi na Moje datot."
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Domov"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Zamenjaj"
@@ -307,92 +106,26 @@ msgstr "Zamenjaj"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Iskanje po vseh mapah"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Nastavi tukaj"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Napredno iskanje"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Zvok"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Povezava z mobilnim omrežjem"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Povezovanje z omrežjem Wi-Fi"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Štetje"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Vnesite ime mape."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Lokalno"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Nova mapa"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Nedavne datoteke"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Odstrani datoteko"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Sk. raba sl. zvok+slik."
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Pomnilnik"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Mape ni mogoče ustvariti"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Izberi vse"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Da"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Vnesite ime mape"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Dodaj med bližnjice"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Kot slikovne datoteke"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Kot video datoteke"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Melodija kličočega"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Stisni"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Ustvari mapo"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Datum (Najnovejši)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Datum (Najstarejši)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Razširi"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Razširi tukaj"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Privzeta melodija zvonjenja"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Podroben ogled"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Uredi"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Razširi"
@@ -400,56 +133,17 @@ msgstr "Razširi"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Razširi v trenutno mapo"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Pojdi v mapo"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Skrij pripono datoteke"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Predmeti"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Ime"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Razvrsti po"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Premakni sem"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Ime"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Odpri lokacijo datoteke"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Osebna stran"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Posnemi zvok"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Registriraj v Imenik"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Preimenuj"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Preimenovano."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Preimenuj mapo"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Povezovanje s strežnikom ni mogoče."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Shrani tukaj"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Iskanje naprav v bližini"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Izbrano"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Povezava za deljenje z drugimi"
@@ -457,47 +151,14 @@ msgstr "Povezava za deljenje z drugimi"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Prikaži končnico datoteke"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Razdeli"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Razvrsti po"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Prikaz sličice"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Prikaži kot"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Pregled po seznamu"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Prikaži s sličicami"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Zip"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element bo izbrisan."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Naraščajoče"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Izbrišem?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Nadaljuj"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Kopiranje ni uspelo."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Brisanje ni uspelo."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Zbrišem izbrani predmet?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Padajoče"
@@ -505,35 +166,8 @@ msgstr "Padajoče"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Datoteka DRM. Ni mogoče shraniti."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "Datoteke DRM ni več na voljo."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Ime datoteke je že v uporabi."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Ime mape že obstaja."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Od"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Vnesite besedilo"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Neveljavno ime datoteke."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Nalaganje..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Doseženo je največje dovoljeno število map."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Premikanje ni uspelo."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Ime je prazno."
@@ -544,41 +178,17 @@ msgstr "Ni dovolj pomnilnika sklada."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Ni dovolj pomnilnika. Izbrišite nekaj elementov in poskusite znova."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Ni dovolj pomnilnika. Na voljo je %s."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Prilepi sem"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elementov bo izbrisanih."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Dovoljenje zavrnjeno."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Želite odstraniti s seznama nedavnih datotek?"
+msgid "IDS_MF_SK_OK"
+msgstr "V redu"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Želite odstraniti iz bližnjic?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Odstranim?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Isto ime datoteke že obstaja!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "XXX se že uporablja."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Izberi predmet"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Pošiljanje ni uspelo."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Bližnjica je dodana."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Izbriši"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Ciljna mapa je podmapa izvorne."
@@ -586,11 +196,8 @@ msgstr "Ciljna mapa je podmapa izvorne."
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Ciljna mapa je enaka izvorni."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Povezava z napravo je prekinjena"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Ta datoteka ne obstaja."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Iskanje"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Ni mogoče kopirati."
@@ -598,53 +205,17 @@ msgstr "Ni mogoče kopirati."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Premikanje ni mogoče."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Nastavitve"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Tega dejanja ni mogoče izvršiti. Prišlo je do napake omrežja."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Ni mogoče predvajati med klicem."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Čas"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Vsebine, zaščitene z DRM, ni mogoče nastaviti za zvonjenje ali opozorilo."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Za iskanje naprav v bližini morate biti povezani z omrežjem Wi-Fi. Povežite se z omrežjem Wi-Fi in poskusite znova."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Nazaj"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Kopiraj"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Izbriši"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Uredi"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Premik"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Iskanje"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Razvrsti po"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Prikaz kot"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Prekliči"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Prekliči"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Podrob."
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Vse"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Neomejeno"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Zunanji pomnilnik"
@@ -652,20 +223,8 @@ msgstr "Zunanji pomnilnik"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Pomniln. kartica"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Telefon"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Gor"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Stisnjeno."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Razširjeno."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Prenašanje datoteke ..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videoposnetki"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Datoteke so stisnjene."
@@ -673,38 +232,71 @@ msgstr "Datoteke so stisnjene."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Datoteke so razširjene."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Datoteka uvožena."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Nobena naprava ni najdena. Iskanje se bo nadaljevalo v ozadju."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Imenik"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Izberi vse"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumenti"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Slike"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Ni datotek"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Poraba pomnilnika"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Ta datoteka ne obstaja."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Nazaj"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Vse"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Ustvari mapo"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Predmeti"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Poveži"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Privzeti zvok za obvestilo"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Ime"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Razvrsti po"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Dodaj bližnjico"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 element bo izbrisan."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Izbrišem predmete?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Brisanje ni uspelo."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Preimenuj"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Nastavitve"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d elementov bo izbrisanih."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Odstrani"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Dovoljenje zavrnjeno."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Prekliči"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Brisanje elementa"
@@ -715,23 +307,11 @@ msgstr "Izberite elemente"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Ni najdenih rezultatov"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Zbrišem %d predmetov?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Izbrišem predmet?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 predmet je izbran."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Vnesli ste neveljaven znak. Poskusite znova"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d predmetov izbranih."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Tiho"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Začenjam prenos ..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Izberi predmet"
@@ -739,32 +319,11 @@ msgstr "Izberi predmet"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Izberete lahko do %d elementov."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Prenosi"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Izbrišem?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Premik"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Kopiraj"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Premikam"
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopiram ..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Brišem"
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Postopek ni uspel."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Izbrano"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Premaknjeno."
@@ -772,143 +331,35 @@ msgstr "Premaknjeno."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Kopirano."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Razvrsti po"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Ni uspelo."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Končano"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "Kartica SD"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Pomnilnik naprave"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Dodajanje v osebno shrambo"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Odstranitev iz osebne shrambe"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Želite izbrisati ta element?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Odstrani iz zasebne"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Premaknite v mapo Zasebno"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Prenosi"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Brišem"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Ni uspelo."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Kartica SD"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Doseženo je največje dovoljeno število znakov."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Odstranjujem ..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Osebna shramba"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Formatiranje končano."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Ime (od Z proti A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Ime (od A proti Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Zajem zaslona"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Ni najdenih rezultatov."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Opozorilo na sporočilo"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Podrobnosti"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Vnesite ime."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Moje datoteke"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Dodano."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Obdelujem..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Nepodprta vrsta datoteke."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Odstranim?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Zasebna vsebina"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Kopiraj v"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Premakni v"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Bližnjice ni uspelo dodati."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Ni dovolj pomnilnika. Izbrišite nekaj predmetov"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Odstranjeno."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Zasebna shramba"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Nič ni izbrano."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Souporab."
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Prik. kot"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Seznam"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Prikaži"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Shrani kot"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Odstranjevanje ni uspelo."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Starševska ocena"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Ime datoteke je že v uporabi."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Glas"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi ni na voljo. Povezava z mobilnim omrežjem lahko povzroči dodatne stroške, odvisno od vaše naročnine."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Doseženo je največje dovoljeno število znakov (%d)."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Nepodprta vrsta datoteke."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Priprava ..."
@@ -916,20 +367,8 @@ msgstr "Priprava ..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d izbranih"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Izbrišite elemente"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Ni prenosov"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Prenos je končan"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Upravitelj prenosov"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Ko prenesete elemente, bodo prikazani tukaj."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Prenos je preklican"
@@ -958,14 +397,11 @@ msgstr "Privzeta shramba je polna"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Starejše"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Shranjevanje"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Podrobnosti"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Odstranjujem ..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "Kartica SD"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Obdelujem..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Shramba naprave"
@@ -973,86 +409,20 @@ msgstr "Shramba naprave"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Obveščanje strežnika ..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elementov bo izbrisanih."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Te datoteke ni mogoče najti. Pritisnite Prenos, da jo poskusite prenesti znova."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Datoteke ni mogoče odpreti"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Ni mogoče najti aplikacije za odpiranje te datoteke."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Pritisnite Prenos, da poskusite znova."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element bo izbrisan."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Aktiviranje vsebine DRM ..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Aplikacije za izvršitev tega dejanja ni mogoče najti."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Lokacija shrambe"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Uvažanje"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Prekliči"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "V redu"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Izberi vse"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "Št. izbranih: %d"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Prenesi"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Danes"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Včeraj"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Izbriši"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Zamen."
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Uporabi za vse elemente"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Ustvarite datoteko zip"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Razširite stisnjeno datoteko"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Moje datoteke"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Splet"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Zgodovina prenosov"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Ni zgodovine"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Preprosto deljenje"
@@ -1075,74 +445,11 @@ msgstr "Če te elemente premaknete, jih boste izbrisali iz storitve Dropbox. Pre
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Če ta element premaknete, ga boste izbrisali iz storitve Dropbox. Premaknjen bo 1 element."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Izberite mesto shranjevanja"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Ustavi"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Pošlji"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Nalaganje datoteke ni uspelo"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Ustavite pošiljanja"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Pritisnite Naloži, da poskusite znova."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Prenos bo ustavljen, vendar datoteka ne bo izbrisana."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Pred kratkim prikazano"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Podat. ni mogoče shraniti"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "V shrambi naprave ni dovolj prostora. Pojdite v meni Nastavitve > Energija in shramba > Shramba, izbrišite nekaj datotek in poskusite znova."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Na kartici SD ni dovolj prostora. Pojdite v meni Nastavitve > Energija in shramba > Shramba, izbrišite nekaj datotek in poskusite znova."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Naloži v"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Prenosi v Dropbox"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Zasebno"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "(B)"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Dodaj"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Domači"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Budilka"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Drugo"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Več"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Odpri"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Neznana napaka."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Ime mape ne more biti ».« ali »..«."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ne pokaži skritih datotek"
@@ -1150,104 +457,23 @@ msgstr "Ne pokaži skritih datotek"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Prikaz skritih datotek"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Neznano"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Ime bližnjice je že v uporabi."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Osnovno"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Datoteka"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Datoteke"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Mapa"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Mape"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Sistem"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Ime"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Zvočne datoteke"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Dokumenti"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Prenesene aplikacije"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Slike"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Videi"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Prekliči"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Prekliči"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Ustvari"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Izbrišite"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "V redu"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Odstranite"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Preimenujte"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Odstrani"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Dodajte bližnjice"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Zvočne datoteke"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Kopiranje"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopiraj v"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Ustvarite mapo"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Izbrišite bližnjico"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Podrobnosti"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Dokumenti"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Preneseni programi"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Slike"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Premaknite"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Premakni na"
@@ -1255,43 +481,7 @@ msgstr "Premakni na"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "Št. izbranih: %d"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Nedavne datoteke"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Odstranitev"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Preimenuj"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Nastavitve"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Bližnjice"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Razvrstite po"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Odstranitev"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Prenos v"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Videoposnetki"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Prikaži kot"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Vse"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Bližnjice"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Vsebuje"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Pomnilnik naprave"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Lokacija"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "Kartica SD"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Prikaz končnic datotek"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Prikaz skritih datotek"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Velikost"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Vrsta"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Ponudnik"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Ni datotek"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Naraščajoče"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopiraj"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Ustvarite mapo"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Padajoče"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Podrobni seznam"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Podrobnosti"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ne pokaži znova"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Vrsta datoteke"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Seznam"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Premakni"
@@ -1366,50 +502,14 @@ msgstr "Premakni"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Odstrani"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Velikost"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Čas"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Vrsta"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Odstrani"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 element bo odstranjen."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Izbrisana bo 1 bližnjica."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Kopiram ..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Premikam"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d elementov bo odstranjenih."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Število bližnjic, ki bodo izbrisane: %d."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Odstranjujem ..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Uporaba prenosa podatkov prek mobilnega omrežja na gostovanju lahko povzroči dodatne stroške, odvisno od vaše naročnine."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Razpoložljive uporabe"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Datum nastanka"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Opis"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Posredovanje"
@@ -1423,29 +523,14 @@ msgstr "Ločljivost"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Skupna velikost"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Veljavnost"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Ciljna mapa je podmapa izvorne."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ciljna mapa je enaka izvorni."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Bližnjice ni uspelo dodati."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Elementa ni uspelo kopirati."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Elementa ni uspelo izbrisati."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Elementa ni uspelo premakniti."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Elementa ni uspelo odstraniti."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke je že v uporabi."
@@ -1459,23 +544,17 @@ msgstr "Bližnjica je dodana."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Bližnjica že obstaja."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Osveži"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Izbrisanih bo toliko elementov: %d."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Odstranjenih bo toliko aplikacij: %d."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "Program %s bo odstranjen."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Prenos je končan"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Velikost"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Pogled seznama"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Shranjevanje"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Ime mape je že v uporabi."
@@ -1483,23 +562,11 @@ msgstr "Ime mape je že v uporabi."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Lokalna shramba"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Pomn. naprave"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Ni prijavljeno."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Vse datoteke"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Pomnilnik v oblaku"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Vrstni red"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Bližnjice"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Čas"
@@ -1507,44 +574,32 @@ msgstr "Čas"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Odstrani"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Vsebuje"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "V redu"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Obraz ni zaznan"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Izberi vse"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Prenesi"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Že obstaja."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Danes"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ni mogoče premakniti. Ciljna mapa je enaka izvorni."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Ustvari mapo"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Več"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Premakni sem"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Prilepi sem"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Nastavi"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Včeraj"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Nobena aplikacija v napravi ne podpira te vrste datoteke."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "Toliko datotek bo izbrisanih: %d."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Neznana napaka."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Datoteke so poslane"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Neznano"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistem"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "KONČANO"
@@ -1555,53 +610,11 @@ msgstr "PREKLIČI"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "IZBRIŠI"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Preimenuj"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Izberite element"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Ni nalaganj"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Ko naložite elemente, bodo prikazani tukaj."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Nastavitve"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Podat. ni mogoče shraniti"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Na kartici SD ni dovolj prostora. Pojdite v meni Nastavitve > Energija in shramba > Shramba, izbrišite nekaj datotek in poskusite znova."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "V shrambi naprave ni dovolj prostora. Pojdite v meni Nastavitve > Energija in shramba > Shramba, izbrišite nekaj datotek in poskusite znova."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Napaka."
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Pomnilnik je poln."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "Iz storitve Dropbox bo izbrisan 1 element."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "Iz storitve Dropbox bo izbrisanih toliko elementov: %d."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Funkcija Prenos podatkov prek mobilnega omrežja je izklopljena. Povežite se z omrežjem Wi-Fi ali vklopite funkcijo Prenos podatkov prek mobilnega omrežja in poskusite znova."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Nastavitve"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Osebna shramba"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Pot"
@@ -1612,23 +625,8 @@ msgstr "Doseženo je največje dovoljeno število znakov %d."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Izberite pomnilnik"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Zgodovina prenosov"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Zgodovina prenosov"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Prenašanje ..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Prenosi"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Ni prenosov"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Prenos ni uspel"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Poteče: %s"
@@ -1636,30 +634,114 @@ msgstr "Poteče: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Poteklo: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Datoteke ni uspelo prenesti"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Poskusite znova prenesti datoteko ali pa jo odstranite iz čakalne vrste za prenos."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Poskus. znova"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Odstrani"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Kategorija"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Ime mape je v uporabi"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Ime datoteke se uporablja"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "To ime datoteke (%s) se že uporablja v ciljni mapi."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "To ime mape (%s) se že uporablja v ciljni mapi."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Izbriši"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Počisti zgodovino"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Stiskanje ..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Razširjam ..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Razširite elem. iz dat. ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Nova mapa %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Ime mape ne more biti ».« ali »..«."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Nastavitve"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Podrobni seznam"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Elementov ni mog. razširiti"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Ni dovolj prostora"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Ustvarite datoteko ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ni zgodovine"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Ne pokaži znova"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Več"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Preklicujem..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Dejanja ni mogoče izvesti"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Datoteka"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mapa"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mape"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Ime"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "V shrambi naprave ni dovolj prostora. Pojdite v meni Nastavitve > Shramba in RAM > Shramba > Podrobnosti, nato pa izbrišite nekaj datotek in poskusite znova."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Na kartici SD ni dovolj prostora. Pojdite v meni Nastavitve > Shramba in RAM > Shramba > Podrobnosti, nato pa izbrišite nekaj datotek in poskusite znova."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Seznam"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Velikost"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 element bo odstranjen."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Ime mape ne more biti %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Ta datoteka je bila izbrisana, premaknjena ali preimenovana. Pritisnite Prenesi, da znova prenesete datoteko, ali pritisnite Odstrani, da jo odstranite s seznama Zgodovina prenosov."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Osveži"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Program %s bo odstranjen."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Velikost"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Pomn. naprave"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Pomnilnik v oblaku"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Nastavi"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Preimenuj"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Moje datoteke"
 

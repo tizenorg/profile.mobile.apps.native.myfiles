@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d успеа, %2$d не успеа"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d успеаја"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Примени на сите ставки"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Се подготвува преземање..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Уредот не Ви е поврзан со мрежа Wi-Fi. Поврзувањето со мобилна мрежа може да се наплаќа дополнително, зависно од Вашиот пакет."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Сподели преку"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Сподели преку"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Мобилните податоци се исклучени. Поврзете се со мрежа Wi-Fi или вклучете Мобилни податоци и обидете се повторно."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d записи ќе се избришат."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Мемориската картичка е извадена."
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Ставката ќе се избрише."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Успешно."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Се презема..."
@@ -22,50 +28,8 @@ msgstr "Се презема..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Нема доволно меморија."
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Откажано."
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Неуспешно преземање."
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Успешно."
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Ново"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Избришано."
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Мемориската картичка е извадена."
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Пребарување..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Грешка во мрежното поврзување."
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Избриши папка"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Внесете име за папката."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Преземени апликации"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Дојде до грешка во мрежната врска. Повикот е прекинат. Да се поврзе повторно со мрежата?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Сочувај"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Да"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Не"
@@ -73,122 +37,32 @@ msgstr "Не"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Додај кратенка"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Избриши"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Избриши кратенка"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Преименувај кратенка"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Пребарување"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Опции"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Сподели"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Употребена меморија"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Не прикажувај веќе"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Бајт"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Не може да се поврзе со серверот."
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Приватно"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Внесете име за папката."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Избриши кратенка"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Батеријата е празна"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 фајл"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Мој албум"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Додај од"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Известувања"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Кој било"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Можност за употреба"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Бајт"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Содржини"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Датум на создавање:"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Датум"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Избриши ги избраните содржини?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Документи"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Изврши"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Име на фајлот"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Тип фајл"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Име на папката"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Препраќање"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "Информации за GPS"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS географска широчина"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS географска должина"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS-верзија"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Слики"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Невозможно"
@@ -202,68 +76,17 @@ msgstr "Интервал"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Последно менување"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Листа со детали"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Локација"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "Податоците за MMC се активираат..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Мои видео-записи"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Нема доволно меморија во меморијата на телефонот. Избришете некој запис и обидете се повторно."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Нема фајлови"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Нема скоро отворени фајлови"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Нема последни фајлови"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d фајлови"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d запис"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d содржини"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Возможно"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Печати"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Преим."
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Состојба на правата"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Тонови на ѕвонење"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Сподели"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Прикажи скриени фајлови"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Звуци"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Употребена меморија"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Време"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Временско користење"
@@ -271,35 +94,11 @@ msgstr "Временско користење"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Тип"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Неограничено"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Отворање"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Валидност"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Продавач"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Видео-записи"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Заднини"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Додај дома"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Извези тука"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Оди во Мои фајлови"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Дома"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Замени"
@@ -307,92 +106,26 @@ msgstr "Замени"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Пребарај ги сите папки"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Постави тука"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Напредно пребарување"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Звук"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Поврзи со мобилна мрежа"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Поврзете со Wi-Fi мрежа"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Број"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Внесете име за папката."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Локално"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Нова папка"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Последни фајлови"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Избриши фајл"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Сподели слики со звук"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Место"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Не може да се направи папка"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Избери ги сите"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Да"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Внесете име за папката"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Додај на кратенки"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Како фајлови со слики"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Како видео фајлови"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Тон за повикувач"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Компримирај"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Направи папка"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Датум (Најнов)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Датум (Најстар)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Декомпримирај"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Декомпримирај тука"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Основно ѕвонење"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Детален преглед"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Измени"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Извлечи"
@@ -400,56 +133,17 @@ msgstr "Извлечи"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Распакувај во моменталната папка"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Оди до папка"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Сокриј наст. на фајл"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Записи"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Име"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Подреди според"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Премести тука"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Име"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Отвори локација на фајл"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Лична страница"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Сними звук"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Регистрирај во контакти"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Преименувај"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Преименувано."
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Преименувај папка"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Не може да се поврзе со серверот."
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Сочувај тука"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Сканирај за блиски уреди"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Избраните"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Сподели линк"
@@ -457,47 +151,14 @@ msgstr "Сподели линк"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Прикажи наставки на фајловите"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Издвој"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Подреди според"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Икони"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Прикажи како"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Прегледај по листата"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Прегледај по сликички"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Зип"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 запис ќе се избрише."
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Нагорен редослед"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Да се избрише?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Продолжи"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Неуспешно копирање."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Неуспешно бришење."
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Да се избрише избраниот запис?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Надолен редослед"
@@ -505,35 +166,8 @@ msgstr "Надолен редослед"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Заштитен фајл. Не може да се прати."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "Фајлот за DRM не е достапен."
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Името на фајл веќе се користи."
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Името на папката веќе постои."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Формат"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Од"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Внеси текст"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Неправилно име на фајл."
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Активирање..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Достигнат е максималниот број папки."
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Неуспешно преместување."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Не е внесено име."
@@ -544,41 +178,17 @@ msgstr "Нема доволно меморија."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Нема доволно меморија. Избришете некој запис и обидете се повторно."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Нема доволно меморија. Достапни се %s."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Пресликај тука"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d записи ќе се избришат."
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Нема дозвола."
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Да се отстрани од листата последни фајлови?"
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Да се отстрани од Кратенки?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Отстрани?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Веќе постои фајл со исто име!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Истото име веќе се користи."
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Избери запис"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Неуспешно праќање."
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Додадена е кратенка."
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Избриши"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Одредишната папка е под-папка на изворната."
@@ -586,11 +196,8 @@ msgstr "Одредишната папка е под-папка на изворн
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Одредишната папка е иста како и изворната."
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Уредот е откачен"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Фајлот не постои."
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Пребарување"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Не може да се копира."
@@ -598,53 +205,17 @@ msgstr "Не може да се копира."
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Не може да се премести."
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Опции"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Не може да се изврши дејството. Дојде до мрежна грешка."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Не може да се пушти за време на разговор."
+msgid "IDS_MF_BODY_TIME"
+msgstr "Време"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Не може да се постави содржина заштитена со DRM како тон за ѕвонење или за известување."
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Треба да сте поврзани со мрежа Wi-Fi за да скенирате за уреди во близина. Поврзете се преку Wi-Fi и обидете се повторно."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "НАЗАД"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Копирај"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Избриши"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Измени"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Премести"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Пребарај"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Подреди според"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Прегл. како"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Откажи"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Откажи"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Детали"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Сите"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Неограничено"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Надворешен мем. уред"
@@ -652,20 +223,8 @@ msgstr "Надворешен мем. уред"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Мем. картичка"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Телефон"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Горе"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Компримирано."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Декомпримирано."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Се презема фајл..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видео-записи"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Фајловите се компримирани."
@@ -673,38 +232,71 @@ msgstr "Фајловите се компримирани."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Фајловите се издвоени."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Фајлот е увезен."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Не се најдени уреди. Скенирањето ќе продолжи во заден план."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Именик"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Избери ги сите"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Документи"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Слики"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Нема фајлови"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Употребена меморија"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Фајлот не постои."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "НАЗАД"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Сите"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Направи папка"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Записи"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Поврзи"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Основен звук за известување"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Име"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Подреди според"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Додај кратенка"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 запис ќе се избрише."
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Да се избришат записите?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Неуспешно бришење."
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Преименувај"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Формат"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Опции"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d записи ќе се избришат."
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Отстрани"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Нема дозвола."
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Откажи"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Избриши запис"
@@ -715,23 +307,11 @@ msgstr "Изберете записи"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Нема резултати"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Избриши %d записи?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Да се избрише записот?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "Избран е 1 запис."
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Внесен е неважечки знак. Обидете се повторно"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "Избрани се %d записи."
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Нечујно"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Почнува преземање..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Избери запис"
@@ -739,32 +319,11 @@ msgstr "Избери запис"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Може да изберете најмногу %d записи."
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Преземено"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Да се избрише?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Премести"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Копирај"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Се преместува..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Се копира..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Се брише..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Неуспешна операција."
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Избраните"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Преместено."
@@ -772,143 +331,35 @@ msgstr "Преместено."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Копирано."
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Подреди според"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Неуспешно."
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Готово"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-картичка"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Меморија на уредот"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Додај во лична меморија"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Отстрани од лична меморија"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Да се избрише оваа ставка?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Отстрани од Приватно"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Премести во Приватно"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Преземено"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Се брише..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Неуспешно."
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-картичка"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Достигнат е максималниот број знаци."
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Отстранување..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Лична меморија"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Форматирањето заврши."
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Име (од Ш до А)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Име (од А до Ш)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Сними од екран"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Нема резултати."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Известување за пораки"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Детали"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Внеси име."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Мои фајлови"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Додадено."
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Обработување..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Неподдржан тип на фајл."
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Отстрани?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Приватна содржина"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Копирај во"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Премести во"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Неуспешно додавање кратенка."
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Нема доволно меморија. Избришете некој запис"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Отстрането."
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Приватна меморија"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Не е избрано ништо."
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Сподели"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Прег.како"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Листа"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Прикажи"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Сочувај како"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Неуспешно отстранување."
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Родителска оцена"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Името на фајл веќе се користи."
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Гласовни"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Не е достапно Wi-Fi. Поврзувањето со мобилни мрежи може да подразбира дополнителни трошоци, зависно од Вашиот пакет."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Достигнат е максималниот број знаци (%d)."
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Неподдржан тип на фајл."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Се подгот..."
@@ -916,20 +367,8 @@ msgstr "Се подгот..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Избрани се %d"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Избриши записи"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Нема преземања"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Преземањето заврши"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Уредување преземања"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Откако ќе преземете записи, тие ќе се прикажат тука."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Преземањето е откажано"
@@ -958,14 +397,11 @@ msgstr "Основната меморија е полна"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Постаро"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Меморија"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Детали"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Отстранување..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD-карт."
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Обработување..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Меморија на уредот"
@@ -973,86 +409,20 @@ msgstr "Меморија на уредот"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Се известува серверот..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d записи ќе се избришат."
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Го нема фајлот. Допрете Преземи за да се обидете да го преземете повторно."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Не може да се отвори фајлот"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Не може да се најде апликација за отворање на овој фајл."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Допрете Преземи за повторен обид."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 запис ќе се избрише."
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Се активираат содржини DRM..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Не може да се најде апликација за ова дејство."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Место за меморирање"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Увези"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Откажи"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Избери ги сите"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d избрани"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Преземи"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Денес"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Вчера"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Избриши"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Замени"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Примени на сите ставки"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Направи зипуван фајл"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Екстрахирање зип-фајл"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Мои фајлови"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Интернет"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Историја на преземања"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Нема белешки"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Едноставно споделување"
@@ -1075,74 +445,11 @@ msgstr "Преместувањето на овие записи ќе ги изб
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Преместувањето на овој запис ќе го избрише од Dropbox. 1 запис ќе се премести."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Изберете место за чување"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Стоп"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Праќање"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Неуспешно праќање фајл"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Сопри праќања"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Допрете Прати за повторен обид."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Праќањето ќе престане, но фајлот нема да се избрише."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Последни разгледани"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Не може да се соч.подат."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Нема доволно место во меморијата на уредот. Одете во Поставки > Енергија и меморија > Меморија, избришете некој фајл и обидете се повторно."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Нема доволно место на SD-картичката. Одете во Поставки > Енергија и меморија > Меморија, избришете некој фајл и обидете се повторно."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Прати до"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Праќања на Dropbox"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Приватно"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "бајти"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Додај"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Дома"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Аларм"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Други"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Повеќе"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Отвори"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Непозната грешка."
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Име на папка не може да биде „.“ или „..“."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Не прикажувај скриени фајлови"
@@ -1150,104 +457,23 @@ msgstr "Не прикажувај скриени фајлови"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Прикажувај скриени фајлови"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Непознато"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Веќе се користи името на кратенката."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Основно"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Фајл"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Фајлови"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Папка"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Папки"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Системски"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Име"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Звучни фајлови"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Документи"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Преземени апликации"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Слики"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Видеа"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Откажи"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Откажи"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Направи"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Избриши"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Отстрани"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Преименувај"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Одинсталирај"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Додај кратенка"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Звучни фајлови"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Копирај"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Копирај во"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Нова папка"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Избриши кратенка"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Детали"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Документи"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Преземени апликации"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Слики"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Премести"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Премести на"
@@ -1255,43 +481,7 @@ msgstr "Премести на"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d избрани"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Последни фајлови"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Отстрани"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Преименувај"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Опции"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Кратенки"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Подреди според"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Одинсталирај"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Прати до"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Видео-записи"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Преглед како"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Сите"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Кратенки"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Содржи"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Меморија на уредот"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Формат"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Местоположба"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD-картичка"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Прик.наставки на фајловите"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Прикажувај скриени фајлови"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Големина"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Вид"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Продавач"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Нема фајлови"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Нагорен редослед"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Копирај"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Нова папка"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Надолен редослед"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Детална листа"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Детали"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Не прикажувај веќе"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Тип фајл"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Листа"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Премести"
@@ -1366,50 +502,14 @@ msgstr "Премести"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Отстрани"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Големина"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Време"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Вид"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Одинсталирај"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 запис ќе се отстрани."
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 кратенка ќе се избрише."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Се копира..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Се преместува..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d записи ќе се отстранат."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d кратенки ќе се избришат."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Отстранување..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Користењето мобилни податоци во роаминг може да се наплаќа дополнително, зависно од Вашиот пакет."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Достапни употреби"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Датум на создавање"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Опис"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Препраќање"
@@ -1423,29 +523,14 @@ msgstr "Резолуција"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Вкупна големина"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Важност"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Одредишната папка е под-папка на изворната."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Одредишната папка е иста како и изворната."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Неуспешно додавање кратенка."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Неуспешно копирање ставка."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Неуспешно бришење ставка."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Неуспешно преместување ставка."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Неуспешно отстранување ставка."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Името на фајлот се користи."
@@ -1459,23 +544,17 @@ msgstr "Кратенката е додадена."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Кратенката веќе постои."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Обнови"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d записи ќе се избришат."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d апликации ќе се деинсталираат."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s ќе се деинсталира."
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Преземањето заврши"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Големина"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Листа"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Меморија"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Името на папката веќе се користи."
@@ -1483,23 +562,11 @@ msgstr "Името на папката веќе се користи."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Локална меморија"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Мем. на уредот"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Не сте најавени."
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Сите фајлови"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Меморија во облак"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Редослед"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Кратенки"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Време"
@@ -1507,44 +574,32 @@ msgstr "Време"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Деинсталирај"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Содржи"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Не е откриено лице"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Избери ги сите"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Преземи"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Веќе постои."
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Денес"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Не може да се премести. Одредишната папка е иста како и изворната."
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Нова папка"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Повеќе"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Премести тука"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Пресликај тука"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Постави"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Вчера"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Овој тип фајл не е поддржан од ниедна апликација на уредот."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d фајлови ќе се избришат."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Непозната грешка."
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Пратени се фајлови"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Непознато"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Системски"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ГОТОВО"
@@ -1555,53 +610,11 @@ msgstr "ОТКАЖИ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ИЗБРИШИ"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Преименувај"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Избери ставка"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Нема праќања"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Откако ќе пратите записи, ќе се прикажат тука."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Опции"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Не може да се соч.подат."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Нема доволно место на SD-картичката. Одете во Поставки > Енергија и меморија > Меморија, избришете некој фајл и обидете се повторно."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Нема доволно место во меморијата на уредот. Одете во Поставки > Енергија и меморија > Меморија, избришете некој фајл и обидете се повторно."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Грешка."
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Меморијата е полна."
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 запис ќе се избрише од Dropbox."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d записи ќе се избришат од Dropbox."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Мобилните податоци се исклучени. Поврзете се со мрежа Wi-Fi или вклучете Мобилни податоци и обидете се повторно."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Опции"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Лична меморија"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Патека"
@@ -1612,23 +625,8 @@ msgstr "Достигнат е максималниот број знаци %d."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Изберете мемориски уред"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Историја на преземања"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Историја на преземања"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Се презема..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Преземања"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Нема преземања"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Неуспешно преземање"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Застарува на: %s"
@@ -1636,30 +634,114 @@ msgstr "Застарува на: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Застарено на: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Неуспешно преземање фајл"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Обидете се да го преземете фајлот подоцна или отстранете го од редот за преземање."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Повторно"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Отстрани"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Категорија"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Името на папката се користи"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Името на фајлот се користи"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Името на фајлот (%s) веќе се користи во одредишната папка."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Името на папката (%s) веќе се користи во одредишната папка."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Избриши"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Избриши историја"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Се компримира..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Се извлекува..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Отпакувај ги ставките од ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Нова папка %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Не може да се постави име на папка како „.“ или „..“."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Опции"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Детална листа"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Не може да отпакува ставки"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Нема доволно простор"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Создај датотека ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Нема белешки"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Не прикажувај веќе"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Повеќе"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Се откажува..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Не може да се изврши дејство"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Фајл"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Папка"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Папки"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Име"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Вашата меморијата на уредот нема доволно место. Одете во Подесувања > Меморија и RAM > Меморија > Детали, а потоа избришете некои датотеки и обидете се повторно."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Вашата SD-картичка нема доволно простор. Одете во Подесувања > Меморија и RAM > Меморија > Детали, а потоа избришете некои датотеки и обидете се повторно."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Листа"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Големина"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 запис ќе се отстрани."
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Не може да се постави име на папка како %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Датотеката е избришана, преместена или преименувана. Допрете Преземи за повторно да ја преземете или допрете Отстрани за да ја отстраните од Историја на преземања."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Обнови"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s ќе се деинсталира."
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Големина"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Мем. на уредот"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Меморија во облак"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Постави"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Преименувај"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Мои фајлови"
 

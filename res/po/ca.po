@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d correctes, %2$d fallits"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d correctes"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Aplicar a tots els elements"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Preparant per descarregar..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "El dispositiu no està connectat a cap xarxa Wi-Fi. Connectar-se a una xarxa mòbil pot comportar càrrecs addicionals en funció del seu pla de pagament."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Compartir mitjançant"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Compartir mitjançant"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Dades mòbils desactivades. Connecti's a una xarxa Wi-Fi o activi les dades mòbils i torni-ho a intentar."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "S'esborraran %d elements."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "S'ha extret la targeta de memòria"
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "S'esborrarà aquest element."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Correcte"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Descarregant..."
@@ -22,50 +28,8 @@ msgstr "Descarregant..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "No hi ha prou memòria"
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Cancel·lat"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Descàrrega no disponible"
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Correcte"
-
 msgid "IDS_MF_HEADER_CREATE"
-msgstr "Crea"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Esborrat"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "S'ha extret la targeta de memòria"
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Cercant..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Error de connexió de xarxa"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Esborrar carpeta"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Introduir nom de carpeta"
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Aplicacions descarregades"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "S'ha produït un error de connexió de xarxa. Ha finalitzat la trucada. Tornar a connectar a la xarxa?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "Acceptar"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Desar"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Sí"
+msgstr "Crear"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "No"
@@ -73,122 +37,32 @@ msgstr "No"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Afegir accés directe"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Esborrar"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Esborrar accés directe"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Canviar nom accés directe"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Cercar"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Ajustaments"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Compartir"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Ús d'emmagatzematge"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "No tornar a mostrar"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "No es pot connectar al servidor"
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privat"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Introduir nom de carpeta"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Eliminar acc directe"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Bateria baixa"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 fitxer"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "El meu àlbum"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Afegir des de"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Avisos"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Qualsevol"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Usos disponibles"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Continguts"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Data de creació"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Data"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Vol esborrar els elements seleccionats?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Documents"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Executar"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Nom del fitxer"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Tip fitx"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Nom carpeta"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Reenviant"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "Informació de GPS"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "Latitud GPS"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "Longitud GPS"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "Versió GPS"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Imatges"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "No és possible"
@@ -202,68 +76,17 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Última modificació"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Llista i detalls"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Ubicació"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "S'estan inicialitzant les dades MMC..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Els meus videoclips"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "No hi ha prou espai a la memòria del telèfon. Esborri'n alguns elements i torni-ho a intentar."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Cap fitxer"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "No hi ha llibres oberts fa poc"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "No hi ha fitxers recents"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d fitxers"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d element"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d elements"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Possible"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Imprimir"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Reanom"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Estat correcte"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Melodies"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Compartir"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Mostrar fitxers ocults"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Sons"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Ús d'emmagatzematge"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Hora"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Compte contrarellotge"
@@ -271,35 +94,11 @@ msgstr "Compte contrarellotge"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tipus"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Il·limitat"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Amunt"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Validesa"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Proveïdor"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Vídeos"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Fons de pantalla"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Afegir a l'inici"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Exportar aquí"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Anar a Els meus fitxers"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Pers."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Substit"
@@ -307,92 +106,26 @@ msgstr "Substit"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Cercar totes les carp."
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Definir aquí"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Cerca avançada"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Àudio"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Connectar a xarxa mòbil"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Connectar a xarxa Wi-Fi"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Comptatge"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Introduir nom de carpeta"
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Local"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Carpeta nova"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Fitxers recents"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Eliminar fitxer"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Comp fotos Sound & shot"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Emmagatzematge"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "No es pot crear la carpeta"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Seleccionar tot"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Sí"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Introduir nom carpeta"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Afegir a accessos directes"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Com a fitxers d'imatge"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Com a fitxers de vídeo"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Melodia de la persona que truca"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Comprimir"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Crear carpeta"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Data (més recents)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Data (més antics)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Descomprimir"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Descomprimir aquí"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Melodia predeterminada"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Vista de detall"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Editar"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Extreure"
@@ -400,56 +133,17 @@ msgstr "Extreure"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Extreure a la carpeta actual"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Anar a la carpeta"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Ocultar exten fitxer"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Elements"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Nom"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Llistar per"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Moure aquí"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Nom"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Obrir ubicació del fitxer"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Pàgina personal"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Gravar so"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Registrar a Contactes"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Canviar nom"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "S'ha canviat el nom"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Canviar nom de carpeta"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "No es pot connectar al servidor"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Desar aquí"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Cercar dispositius propers"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Seleccionat"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Compartir enllaç"
@@ -457,47 +151,14 @@ msgstr "Compartir enllaç"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Mostrar extensió de fitxer"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Dividir"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Ordenar per"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Vista de miniatura"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Veure com a"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Veure per llista"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Veure per miniatura"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Comprimir"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "S'esborrarà 1 element"
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Ascendent"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Esborrar?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Continuar"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Error en copiar"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Error en esborrar"
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Esborrar element seleccionat?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Descendent"
@@ -505,35 +166,8 @@ msgstr "Descendent"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Arxiu DRM. No es pot enviar."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "El fitxer DRM no està disponible"
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Ja s'està utilitzant aquest nom de fitxer"
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "El nom de carpeta ja existeix"
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "De"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Text d'entrada"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Nom de fitxer no vàlid"
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Carregant..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "S'ha assolit el nombre màxim de carpetes"
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Error en moure"
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "El nom està buit"
@@ -544,41 +178,17 @@ msgstr "No hi ha prou memòria dinàmica"
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "No hi ha prou memòria. Esborri'n alguns elements i torni-ho a intentar."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "No hi ha prou memòria. %s disponible."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Enganxar aquí"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "S'esborraran %d elements"
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Permís denegat"
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Eliminar de la llista de fitxers recents?"
+msgid "IDS_MF_SK_OK"
+msgstr "Acceptar"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Eliminar d'Accessos directes?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Eliminar?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Ja existeix el mateix nom de fitxer!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "El mateix nom ja està en ús"
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Seleccionar element"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Error en enviar"
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Accés directe afegit"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Esborrar"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "La carpeta de destinació és una subcarpeta de la d'origen"
@@ -586,11 +196,8 @@ msgstr "La carpeta de destinació és una subcarpeta de la d'origen"
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "La carpeta de destinació és la mateixa que la d'origen"
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "S'ha desconnectat el dispositiu"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Aquest fitxer no existeix"
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Cercar"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "No es pot copiar"
@@ -598,53 +205,17 @@ msgstr "No es pot copiar"
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "No es pot moure"
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Ajustaments"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "No es pot realitzar aquesta acció. S'ha produït un error de xarxa."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "No es pot reproduir durant la trucada"
+msgid "IDS_MF_BODY_TIME"
+msgstr "Hora"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "No es pot definir contingut protegit per DRM com a melodia o avís de notificació"
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Cal que estigui connectat a una xarxa Wi-Fi per cercar dispositius propers. Connecti's mitjançant Wi-Fi i torni-ho a intentar."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Enrere"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Copiar"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Esborra"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Editar"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Moure"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Cerca"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Ordenar per"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Veure com"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Cancel"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Canc"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Detalls"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Tot"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Il·limitat"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Emmagatzematge extern"
@@ -652,20 +223,8 @@ msgstr "Emmagatzematge extern"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Targeta memòria"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Telèfon"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Amunt"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "S'ha comprimit."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "S'ha descomprimit."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Descarregant fitxer..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Vídeos"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "S'han comprimit els fitxers."
@@ -673,38 +232,71 @@ msgstr "S'han comprimit els fitxers."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "S'han extret els fitxers."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Fitxer importat."
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "No s'han trobat dispositius. La cerca continuarà en segon pla."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Directori"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Seleccionar tot"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Documents"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Imatges"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Cap fitxer"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Ús d'emmagatzematge"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Aquest fitxer no existeix"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Enrere"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Tot"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Crear carpeta"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Elements"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Connectar"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "So notificació predeter"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Nom"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Ordenar per"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Afegir accés directe"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "S'esborrarà 1 element"
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Esborrar elements?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Error en esborrar"
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Canviar nom"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Ajustaments"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "S'esborraran %d elements"
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Eliminar"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Permís denegat"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Cancel·lar"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Esborrar element"
@@ -715,23 +307,11 @@ msgstr "Seleccionar elements"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "No s'han trobat resultats"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Esborrar %d elements?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Esborrar element?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "1 element seleccionat"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Caràcter introduït no vàlid. Torni-ho a intentar."
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d elements seleccionats"
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Silenci"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "S'està iniciant la descàrrega..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar element"
@@ -739,32 +319,11 @@ msgstr "Seleccionar element"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Pot seleccionar fins a %d elements"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Descàrregues"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Esborrar?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Moure"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Copiar"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Movent..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Copiant..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Esborrant..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Operació fallida"
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Seleccionat"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Mogut"
@@ -772,143 +331,35 @@ msgstr "Mogut"
 msgid "IDS_MF_POP_COPIED"
 msgstr "Copiat"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Ordenar per"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Error"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Fet"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "Targeta SD"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Memòria del dispositiu"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Afegir a l'emmagatzematge personal"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Eliminar de l'emmagatzematge personal"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Esborrar aquest element?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Esborrar de Privat"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Moure a Privat"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Descàrregues"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Esborrant..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Error"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Targeta SD"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "S'ha assolit el nombre màxim de caràcters"
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "Eliminant..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Emmagatzematge personal"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Format finalitzat"
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Nom (Z a A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Nom (A a Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Captura de pantalla"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "No s'han trobat resultats."
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Avís de missatge"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Detalls"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Introduir nom"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Els meus fitxers"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Afegit"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Processant..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "No s'admet el tipus de fitxer"
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Eliminar?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Contingut privat"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Copiar a"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Moure a"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Error en afegir l'accés directe"
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "No hi ha prou memòria. Esborrar-ne alguns elements."
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Eliminat"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Emmagatzematge privat"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "No s'ha seleccionat res"
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Compartir"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Veure com"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Llistar"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Veure"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Des com a"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Error en eliminar"
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Classificació dels pares"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Ja s'està utilitzant aquest nom de fitxer"
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Veu/Fax"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "El Wi-Fi no està disponible. Connectar a xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de pagament."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "S'ha assolit el nombre màxim de caràcters (%d)"
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "No s'admet el tipus de fitxer"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Preparant..."
@@ -916,20 +367,8 @@ msgstr "Preparant..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionat"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Esborrar elements"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Sense descàrregues"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Descàrrega completa"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Administrador descàr"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Després de descarregar elements, es mostraran aquí"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Descàrrega cancel·lada"
@@ -958,14 +397,11 @@ msgstr "Emmagatzematge predeterminat ple"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Més antic"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Emmagatzematge"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Detalls"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Eliminant..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "Targ SD"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Processant..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Emmagatzematge de dispositiu"
@@ -973,89 +409,23 @@ msgstr "Emmagatzematge de dispositiu"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Notificant servidor..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "S'esborraran %d elements"
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "No es pot trobar aquest fitxer. Toqui Descarregar per intentar tornar a descarregar-ho."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "No s'ha pogut obrir el fitxer"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "No es troba cap aplicació per obrir aquest fitxer."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Toqui Descarregar per tornar-ho a intentar."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "S'esborrarà 1 element"
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Activant el contingut DRM..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "No es troba cap aplicació per realitzar aquesta acció."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Ubicació d'emmagatzematge"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Importar"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Cancel·lar"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "Acceptar"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Seleccionar tot"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d seleccionats"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Descarregar"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Avui"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Ahir"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Esborrar"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Substit"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Aplicar a tots els elements"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Crear fitxer comprimit"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Obrir el fitxer comprimit"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Els meus fitxers"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Web"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Historial de descàrregues"
 
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "No hi ha historial"
-
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
-msgstr "Compartició simple"
+msgstr "Compartir fàcil"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
 msgstr "No es pot instal·lar l'aplic"
@@ -1075,74 +445,11 @@ msgstr "Si mou aquests elements, s'esborraran de Dropbox. Es mouran %d elements.
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Si mou aquest element, s'esborrarà de Dropbox. Es mourà un element."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Selec ubicació emmag"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Parar"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Carregar"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Error en carregar el fitxer"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Aturi càrregues"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Toqui Carregar per tornar-ho a intentar."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "S'aturarà la càrrega, però no s'esborrarà el fitxer."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Vist fa poc"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "No es poden desar dades"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No hi ha prou espai a l'emmagatzematge del seu dispositiu. Vagi a Ajustaments > Energia i emmagatzematge > Emmagatzematge i esborri alguns fitxers i torni-ho a intentar."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No hi ha prou espai a l'emmagatzematge de la targeta SD. Vagi a Ajustaments > Energia i emmagatzematge > Emmagatzematge i esborri alguns fitxers i torni-ho a intentar."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Carregar a"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Càrregues de Dropbox"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Particular"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bytes"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Afegir"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Pers."
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Alarma"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Altres"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Més"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Obrir"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Error desconegut"
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "No es pot definir el nom de la carpeta a ‘.’ o ‘..’."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "No mostrar fitxers ocults"
@@ -1150,104 +457,23 @@ msgstr "No mostrar fitxers ocults"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Mostrar fitxers ocults"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Desconegut"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Nom d'accés directe ja en ús."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Bàsic"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fitxer"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Fitxers"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Carpeta"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Carpetes"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Sistema"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Nom"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Fitxers d'àudio"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Documents"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Aplicacions descarreg"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Imatges"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Vídeos"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Cancel·lar"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Cancel·lar"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Crear"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Esborrar"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "Acceptar"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Eliminar"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Canviar nom"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Desinstal·lar"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Afegir accés direc"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Fitxers d'àudio"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Copiar"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Copiar a"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Crear carpeta"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Esborrar accés directe"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Detalls"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Documents"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Aplicacions descarregades"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Imatges"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Moure"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Moure a"
@@ -1255,43 +481,7 @@ msgstr "Moure a"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d seleccionats"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Fitxers recents"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Eliminar"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Canviar nom"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Ajustaments"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Accessos directes"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Ordenar per"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Desinstal·lar"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Carregar a"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Vídeos"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Veure com"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Tot"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Acce direct"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Conté"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Emmagatzematge dispositiu"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Format"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Ubicació"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "Targeta SD"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Mostrar extensions fitxers"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Mostrar fitxers ocults"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Mida"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Tipus"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Proveïdor"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "No hi ha fitxers"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Ascendent"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Copiar"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Crear carpeta"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Descendent"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Llista detallada"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Detalls"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "No tornar a mostrar"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Tipus fitxer"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Llista"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Moure"
@@ -1366,50 +502,14 @@ msgstr "Moure"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Eliminar"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Mida"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Hora"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Tipus"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Desinstal·lar"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "S'eliminarà 1 element"
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "S'esborrarà 1 accés directe."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Copiant..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Movent..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "S'eliminaran %d elements"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "S'esborraran %d accessos directes."
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Eliminant..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "L'ús de Dades mòbils en itinerància por comportar càrrecs addicionals en funció del seu pla de pagament."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Usos disponibles"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Data de creació"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Descripció"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Reenviant"
@@ -1423,29 +523,14 @@ msgstr "Resolució"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Mida total"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Validesa"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "La carpeta de destinació és una subcarpeta de la d'origen."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "La carpeta de destinació és la mateixa que la d'origen."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Error en afegir l'accés directe."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Error en copiar l'element."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Error en esborrar l'element."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Error en moure l'element."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Error en eliminar l'element."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "El nom de fitxer està en ús."
@@ -1459,23 +544,17 @@ msgstr "Accés directe afegit."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "L'accés directe ja existeix."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Actualitzar"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "S'esborraran %d elements."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Es desinstal·laran %d aplicacions."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "Es desinstal·larà %s"
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Descàrrega completa"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Mida"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Vista de llista"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Emmagatzematge"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Nom de carpeta en ús."
@@ -1483,23 +562,11 @@ msgstr "Nom de carpeta en ús."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Emmagatzematge local"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Emmag dispos"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "No s'ha iniciat la sessió"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Tots els fitxers"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Emmagatzematge al núvol"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Ordre"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Accessos directes"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Hora"
@@ -1507,44 +574,32 @@ msgstr "Hora"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Desinstal·lar"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Conté"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Acceptar"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Cap cara detectada"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Seleccionar tot"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Descarregar"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Ja existeix"
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Avui"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "No es pot moure. La carpeta de destinació és la mateixa que la d'origen"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Crear carpeta"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Més"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Moure aquí"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Enganxar aquí"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Definir"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Ahir"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Cap aplicació del seu dispositiu no admet aquest tipus de fitxer."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "S'esborraran %d fitxers."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Error desconegut"
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Fitxers enviats"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Desconegut"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistema"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "REALITZAT"
@@ -1555,53 +610,11 @@ msgstr "CANCEL·LAR"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ESBORRAR"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Canviar nom"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Seleccionar element"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "No hi ha càrregues"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Després de carregar elements, es mostraran aquí."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Ajustaments"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "No es poden desar dades"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No hi ha prou espai a l'emmagatzematge de la targeta SD. Vagi a Ajustaments > Energia i emmagatzematge > Emmagatzematge i esborri alguns fitxers i torni-ho a intentar."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No hi ha prou espai a l'emmagatzematge del seu dispositiu. Vagi a Ajustaments > Energia i emmagatzematge > Emmagatzematge i esborri alguns fitxers i torni-ho a intentar."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Error"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Memòria plena"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "S'esborrarà 1 element de Dropbox."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "S'esborraran %d elements de Dropbox."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Les dades mòbils estan desactivades. Connecti's a una xarxa Wi-Fi o activi les dades mòbils i torni-ho a intentar."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Ajustaments"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Emmagatzematge personal"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Ruta"
@@ -1612,23 +625,8 @@ msgstr "S'ha assolit el nombre màxim de %d caràcters."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Seleccionar emmagatzematge"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Historial de descàrregues"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Historial de descàrregues"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Descarregant..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Descàrregues"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Sense descàrregues"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Descàrrega fallida"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Caduca el: %s"
@@ -1636,30 +634,114 @@ msgstr "Caduca el: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Caducat el: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Error en descarregar fitxer"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Intenti tornar a descarregar el fitxer o eliminar-lo de la cua de descàrrega."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Reintentar"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Eliminar"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Categoria"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Nom de carpeta en ús"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Ja s'està utilitzant el nom del fitxer"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Aquest nom de fitxer (%s) ja està en ús a la carpeta de destí."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Aquest nom de carpeta (%s) ja està en ús a la carpeta de destí."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Esborrar"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Esborrar historial"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Comprimint..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "S'està extraient..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Extreure elements fitxer ZIP"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Carpeta nova %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "No es pot anomenar la carpeta “.” o “..”."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Ajustaments"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Llista detallada"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "No es poden extreure elemen"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "No hi ha prou espai"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Crear fitxer ZIP"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "No hi ha historial"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "No tornar a mostrar"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Més"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Cancel·lant..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "No es pot realitzar l'acció"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fitxer"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Carpeta"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Carpetes"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Nom"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "No hi ha prou espai a l'emmagatzematge del dispositiu. Vagi a Ajustaments > Emmagatzematge i RAM > Emmagatzematge > Detalls i, a continuació, esborri alguns fitxers i torni-ho a intentar."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "No hi ha prou espai a la targeta SD. Vagi a Ajustaments > Emmagatzematge i RAM > Emmagatzematge > Detalls i, a continuació, esborri alguns fitxers i torni-ho a intentar."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Llista"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Mida"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "S'eliminarà 1 element"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "No es pot anomenar la carpeta %s."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "S'ha esborrat, mogut o canviat el nom d'aquest fitxer. Toqui Descarregar per tornar a descarregar el fitxer, o toqui Esborrar per esborrar-lo de l’historial de descàrregues."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Actualitzar"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Es desinstal·larà %s"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Mida"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Emmag dispos"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Emmagatzematge al núvol"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Definir"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Canviar nom"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Els meus fitxers"
 

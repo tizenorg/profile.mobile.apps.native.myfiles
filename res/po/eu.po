@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d deskargatu dira, %2$d ez"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d behar bezala deskargatu da"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Aplikatu elementu guztiei"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Deskargatzeko prestatzen..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Zure gailua ez dago Wi-Fi sare batera konektatuta. Baliteke sare mugikor batera konektatzeak kostu osagarriak eragitea zure ordainketa planaren arabera."
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Partekatu honela"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "Partekatu honen bidez"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Datu mugikorrak itzalita. Konektatu Wi-Fi sare batera edo piztu datu mugikorrak eta saiatu berriz."
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d elementu ezabatuko dira."
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Memoria txartela aterata"
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Elementu hau ezabatuko da."
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Behar bezala"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Deskargatzen..."
@@ -22,50 +28,8 @@ msgstr "Deskargatzen..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ez dago memoria nahikoa"
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "Ezeztatua"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Deskarga ez dago eskuragarri"
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Behar bezala"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Sortu"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "Ezabatua"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Memoria txartela aterata"
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "Bilatzen"
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Sare konexioaren errorea"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Karpeta ezabatu"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Idatzi karpetaren izena."
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Deskargatutako aplikazioak"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "Sare konexioaren errorea gertatu da. Deia amaitu da. Birkonektatu sarera?"
-
-msgid "IDS_MF_SK_OK"
-msgstr "Ados"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "Gorde"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Bai"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ez"
@@ -73,122 +37,32 @@ msgstr "Ez"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Gehitu lasterbidea"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Ezabatu"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Ezabatu lasterbidea"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Berrizendatu lasterbidea"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Bilatu"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Ezarpenak"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Partekatu"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Biltegiaren erabilera"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ez erakutsi berriz"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Ezin da zerbitzarira konektatu"
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Pribatua"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Idatzi karpetaren izena."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Kendu lasterbidea"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Bateria gutxi"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "Fitxategi 1"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "Nire albuma"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "Hemendik gehitu"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "Abisuak"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "Edozein"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "Erabilera eskuragarriak"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Edukiak"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "Sortutako data"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "Data"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Ezabatu hautatutako elementuak?"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumentuak"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Abiarazi"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Fitxategiaren izena"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Fitx. mota"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "Karpetaren izena"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Birbidaltzea"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS informazioa"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS latitudea"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS longitudea"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS bertsioa"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Irudiak"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Ezinezkoa"
@@ -202,68 +76,17 @@ msgstr "Tartea"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Azken aldaketa"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Zerrenda eta xehetasunak"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "Kokalekua"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC datuak abiarazten..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "Nire bideo klipak"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Ez dago nahikoa memoria telefonoan. Ezabatu hainbat elementu eta saiatu berriz."
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Fitxategirik ez"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Ez dago berriki irekitako fitxategirik"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Berriki erabilitako fitxategirik ez"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d fitxategi"
-
 msgid "IDS_MF_BODY_PD_ITEM"
-msgstr "%d elementu"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
 msgstr "%d elementu"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Posible"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "Inprimatu"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "Berrizend."
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Egoera egokia"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "Dei doinuak"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "Partekatu"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Erakutsi ezkutatutako fitxategiak"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "Soinuak"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Erabilitako memoria"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Ordua"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Mugatutako zenbaketa"
@@ -271,35 +94,11 @@ msgstr "Mugatutako zenbaketa"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Mota"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Mugagabea"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "Gora"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Baliozkotasuna"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "Hornitzailea"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Bideoak"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "Pantaila atzealdea"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "Gehitu nagusira"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Esportatu hona"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Joan Nire Fitxat."
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "Etxea"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Ordeztu"
@@ -307,92 +106,26 @@ msgstr "Ordeztu"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Bilatu karpeta guztiak"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "Ezarri hemen"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "Bilaketa aurreratua"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "Audioa"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Konektatu sare mugikorrera"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Konektatu Wi-Fi sarera"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "Kontatu"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Idatzi karpetaren izena."
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "Lokala"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Karpeta berria"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Fitxategi berriak"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Kendu fitxategia"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Part. soinua/atera arg."
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "Biltegiratzea"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Ezin da karpeta sortu"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Hautatu denak"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Bai"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Adierazi karpeta izena"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "Gehitu lasterbideak"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Irudi fitxategi gisa"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Bideo fitxategi gisa"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "Dei egilearen dei doinua"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Konprimitu"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Karpeta sortu"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "Data (Berriena)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "Data (Zaharrena)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "Deskonprimitu"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Deskonprimitu hona"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "Dei doinu lehenetsia"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Xeh. ikusp."
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "Editatu"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Atera"
@@ -400,56 +133,17 @@ msgstr "Atera"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Atera uneko karpetara"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "Joan karpetara"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Ezkutatu fitx. luzapena"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Elementuak"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "Izena"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Honen arabera zerrendatu"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Hona mugitu"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Izena"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Ireki fitxategi kokapena"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "Orri pertsonala"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "Soinua grabatu"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Kontaktuetan erregistratu"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "Berrizendatu"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "Berrizendatua"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "Karpeta berrizendatu"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Ezin da zerbitzarira konektatu"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Gorde hemen"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "Bilatu gertuko gailuak"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "Aukeratutakoa(k)"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Partekatu esteka"
@@ -457,47 +151,14 @@ msgstr "Partekatu esteka"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Erakutsi fitxategiaren luzapena"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "Bereizi"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sailkatu honela"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniatura ikuspegia"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Nola ikusi"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "Zerrenda bidez ikusi"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "Miniatura bidez ikusi"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "Konprimitu"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "Elementu 1 ezabatuko da"
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Goranzkoa"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Ezabatu?"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "Jarraitu"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Errorea kopiatzerakoan"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Akatsa ezabatzerakoan"
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Aukeratutako elementua ezabatu?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Beheranzkoa"
@@ -505,35 +166,8 @@ msgstr "Beheranzkoa"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM artxiboa. Ezin da bidali."
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM fitxategia ez dago eskuragarri"
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Fitxategiaren izena dagoeneko erabileran"
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "Karpetaren izena dagoeneko bada"
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formatua"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "Nork"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "Testua idatzi"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Fitxategi izen baliogabea"
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "Kargatzen..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "Gehienezko karpeta kopurura heldu da"
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Errorea mugitzerakoan"
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Izena hutsik dago"
@@ -544,41 +178,17 @@ msgstr "Ez dago pilatutako memoria nahikoa"
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Ez duzu nahikoa memoria. Ezabatu hainbat elementu eta saiatu berriz."
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "Ez dago memoria nahikorik. %s erabilgarri."
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "Hemen erantsi"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elementu ezabatuko dira"
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Baimena ukatuta"
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Kendu berriki erabilitako fitxategi zerrendatik?"
+msgid "IDS_MF_SK_OK"
+msgstr "Ados"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "Kendu Lasterbideetatik?"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "Kendu?"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Dagoeneko bada fitxategi izen berdina!"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Izen bera dagoeneko erabiltzen"
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "Elementua aukeratu"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "Akatsa bidaltzerakoan"
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "Lasterbidea gehituta"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Ezabatu"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "Helburu karpeta sorburu karpetaren azpi-karpeta bat da"
@@ -586,11 +196,8 @@ msgstr "Helburu karpeta sorburu karpetaren azpi-karpeta bat da"
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "Helburu karpeta sorburu karpetaren bera da"
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "Gailua deskonektatu da"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Fitxategia ez dago"
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Bilatu"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Ezin da kopiatu"
@@ -598,53 +205,17 @@ msgstr "Ezin da kopiatu"
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Ezin da mugitu"
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Ezarpenak"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "Ezin da ekintza hau gauzatu. Sareko errorea gertatu da."
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "Ezin da deian zehar erreproduzitu"
+msgid "IDS_MF_BODY_TIME"
+msgstr "Ordua"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Ezin da babestutako DRM edukia ezarri dei tonu edo jakinarazpen alerta moduan"
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Wi-Fi sare batera konektatuta egon behar duzu gertuko gailuak bilatzeko. Konektatu Wi-Fi bidez eta saiatu berriz."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "ATZERA"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "Kopiatu"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "Ezabatu"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "Editatu"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "Mugitu"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "Bilatu"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Sailkatu honela"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Ikusi honela"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "Ezeztatu"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Ezez."
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "Xehetasunak"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Guztia(k)"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Mugagabea"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Kanpo memoria"
@@ -652,20 +223,8 @@ msgstr "Kanpo memoria"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "Memoria txartela"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "Telefonoa"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "Gora"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "Konprimitu da."
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "Deskonprimitu da."
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Fitxategia deskargatzen..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Bideoak"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "Fitxategiak konprimitu dira."
@@ -673,38 +232,71 @@ msgstr "Fitxategiak konprimitu dira."
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "Fitxategiak atera dira."
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Fitxategia inportatu da"
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "Ez da gailurik aurkitu. Gertuko gailuak bilatzen jarraituko da atzealdean."
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "Direktorioa"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Hautatu denak"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumentuak"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Irudiak"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Fitxategirik ez"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Erabilitako memoria"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Fitxategia ez dago"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ATZERA"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Guztia(k)"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Karpeta sortu"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Elementuak"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "Konektatu"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "Jakinarazpenetarako lehenespenezko soinua"
+msgid "IDS_MF_OPT_NAME"
+msgstr "Izena"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sailkatu honela"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "Zuzeneko sarbidea gehitu"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Elementu 1 ezabatuko da"
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Ezabatu elementuak?"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Akatsa ezabatzerakoan"
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "Berrizendatu"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formatua"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "Ezarpenak"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d elementu ezabatuko dira"
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "Kendu"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Baimena ukatuta"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Ezeztatu"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Ezabatu elementua"
@@ -715,23 +307,11 @@ msgstr "Hautatu elementuak"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Ez da emaitzarik aurkitu"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "%d elementu ezabatu?"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Ezabatu elementua?"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "Elementu 1 hautatu da"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Karaktere baliogabea adierazi dituzu. Saiatu berriz."
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "%d elementu hautatu dira"
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Isila"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Deskarga hasten..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Elementua aukeratu"
@@ -739,32 +319,11 @@ msgstr "Elementua aukeratu"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "%d elementu arte aukera ditzakezu"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Deskargak"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Ezabatu?"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "Mugitu"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "Kopiatu"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "Mugitzen..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopiatzen..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Ezabatzen..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Eragiketak huts egin du"
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "Aukeratutakoa(k)"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Mugitua"
@@ -772,143 +331,35 @@ msgstr "Mugitua"
 msgid "IDS_MF_POP_COPIED"
 msgstr "Kopiatuta"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Sailkatu honela"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Huts egin du"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "Amaituta"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD txartela"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "Gailuaren memoria"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Gehitu biltegi pertsonalera"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Kendu biltegi pertsonaletik"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Ezabatu elementu hau?"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Kendu Pribatutik"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Mugitu pribatura"
 
-msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
-msgstr "Gehienezko karaktere kopurura heldu zara"
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Deskargak"
 
-msgid "IDS_MUSIC_POP_REMOVING"
+msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Ezabatzen..."
 
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Biltegi pertsonala"
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Huts egin du"
 
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "Formateatzea osatu da"
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD txartela"
 
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "Izena (Ztik Ara)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Izena (Atik Zra)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "Pantaila kaptura"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "Ez da emaitzarik aurkitu"
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "Mezu abisua"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Xehetasunak"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Izena idatzi"
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Gehienezko karaktere kopurura heldu zara."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Nire fitxategiak"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "Gehituta"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Prozesatzen..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Fitxategi mota ez bateragarria"
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "Kendu?"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Eduki pribatua"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "Hona kopiatu"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "Hona mugitu"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Ezin izan da lastermarka gehitu"
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Ez dago memoria nahikoa. Elementu batzuk ezabatu."
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "Kenduta"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Biltegi pribatua"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Ez da ezer aukeratu"
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "Partekatu"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Ik. hon."
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "Zerrenda"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "Ikusi"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "Gorde honela"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Ezabatzeak huts egin du"
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "Gurasoen balorazioa"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Fitxategiaren izena dagoeneko erabileran"
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "Ahotsa/Fax"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi ez dago erabilgarri. Baliteke sare mugikorretara konektatzeak kostu osagarriak eragitea zure ordainketa planaren arabera."
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "Karaktereen gehieneko kopurura (%d) iritsi zara"
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Fitxategi mota ez bateragarria"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Prestatzen..."
@@ -916,20 +367,8 @@ msgstr "Prestatzen..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d aukeratuta"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Ezabatu elementuak"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Deskargarik ez"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Deskarga osatuta"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Deskargen kudeatzailea"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Elementuak deskargatu ondoren, hemen erakutsiko dira"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Deskarga utzita"
@@ -958,14 +397,11 @@ msgstr "Biltegi lehenetsia beteta"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Zaharragoa"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Biltegiratzea"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Xehetasunak"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "Ezabatzen..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "SD txar."
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Prozesatzen..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Gailu biltegia"
@@ -973,86 +409,20 @@ msgstr "Gailu biltegia"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Zerbitzariari jakinarazten..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elementu ezabatuko dira"
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Ez da fitxategi hau aurkitu. Ukitu Deskargatu berriz deskargatzen saiatzeko."
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Ezin da fitxategia ireki"
-
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Ezin da fitxategi hau irekitzeko aplikazioa aurkitu."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Ukitu Deskargatu, berriz saiatzeko."
 
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "Elementu 1 ezabatuko da"
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "DRM edukia aktibatzen..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Ezin da aplikazioa aurkitu ekintza gauzatzeko."
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Biltegi kokapena"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Inportatu"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
-
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Utzi"
-
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "Ados"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Hautatu denak"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d hautatuta"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Deskargatu"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Gaur"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Atzo"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Ezabatu"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "Ordeztu"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Aplikatu elementu guztiei"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Sortu zip fitxategia"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Atera zip fitxategia"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Nire fitxategiak"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "Web"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Deskarga historia"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Historiarik ez"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Partekatze sinplea"
@@ -1075,74 +445,11 @@ msgstr "Elementu hauek mugituz gero, Dropbox-etik ezabatuko dira. %d elementu mu
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Elementu hau mugituz gero, Dropbox-etik ezabatuko da. 1 elementu mugituko da."
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Hautatu biltegiratze kokapena"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "Eten"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "Kargatu"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Ezin da fitxategia kargatu"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Geratu kargak"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Ukitu Kargatu, berriz saiatzeko."
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Karga etengo da, baina fitxategia ez da ezabatuko."
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Berriki ikusitakoak"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "Ezin dira datuak gorde"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ez dago nahikoa espazio gailuaren biltegian. Joan Ezarpenak > Bateria eta biltegia > Biltegia aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ez dago nahikoa espazio SD txartelean. Joan Ezarpenak > Bateria eta biltegia > Biltegia aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "Kargatu hona"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox kargak"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "Pribatua"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "byteak"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "Gehitu"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "Etxea"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "Alarma"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "Besteak"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Gehiago"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "Ireki"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Errore ezezaguna"
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "Karpetaren izenak ezin du '.' edo '..' izan."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ez erakutsi ezkutuko fitx."
@@ -1150,104 +457,23 @@ msgstr "Ez erakutsi ezkutuko fitx."
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Erakutsi ezkutuko fitxategiak"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Ezezaguna"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Lasterbide izena aurretik erabiltzen ari zara."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Oinarrizkoa"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fitxategia"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "Fitxategiak"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Karpeta"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Karpetak"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Sistema"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Izena"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Audio fitxategiak"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "Dokumentuak"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Deskargat. aplikazioak"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "Irudiak"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "Bideoak"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Utzi"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "Ezeztatu"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "Sortu"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Ezabatu"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "Ados"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "Ezabatu"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "Berrizendatu"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Desinstalatu"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "Gehitu lasterbidea"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Audio fitxategiak"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "Kopiatu"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopiatu hemen"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "Sortu karpeta"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Ezabatu lasterbidea"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "Xehetasunak"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "Dokumentuak"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Deskargatutako aplikazioak"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "Irudiak"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "Mugitu"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Mugitu hona"
@@ -1255,43 +481,7 @@ msgstr "Mugitu hona"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d hautatuta"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Duela gutxiko fitxategiak"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "Kendu"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "Berrizendatu"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "Ezarpenak"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "Sarrera zuzenak"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Sailkatu honela"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "Desinstalatu"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "Kargatu hona"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "Bideoak"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Ikusi honela"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "Guztiak"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "Lasterbid."
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Edukiak"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Gailuko biltegiraketa"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "Formateatu"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Kokalekua"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD txartela"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Erakutsi fitxat. luzapenak"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Erakutsi ezkutuko fitx."
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "Neurria"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "Idatzi"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "Saltzailea"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Ez dago fitxategirik"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "Goranzkoa"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopiatu"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "Sortu karpeta"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "Beheranzkoa"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "Zerrenda xehatua"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "Xehetasunak"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ez erakutsi berriz"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Fitxategi mota"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Zerrenda"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Mugitu"
@@ -1366,50 +502,14 @@ msgstr "Mugitu"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Kendu"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Tamaina"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "Ordua"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "Idatzi"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "Desinstalatu"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "Elementu 1 kenduko da"
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Lasterbide 1 ezabatuko da."
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "Kopiatzen..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "Mugitzen..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "%d elementu kenduko dira"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d lastermarkak ezabatuko dira"
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "Ezabatzen..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Ezin dira datu mugikorrak erabili ibiltaritzan, zure ordainketa planaren arabera, kostu osagarriak eragin ditzakeelako."
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Erabilera eskuragarriak"
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "Sorrera data"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "Deskribapena"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Birbidaltzea"
@@ -1423,29 +523,14 @@ msgstr "Bereizmena"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Neurria guztira"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "Baliozkotasuna"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Jomugako karpeta jatorrizkoaren azpikarpeta da."
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Jomugako karpeta jatorrizkoa bera da."
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Ezin da lastermarka gehitu."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Ezin izan da elementua kopiatu."
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Ezin izan da elementua ezabatu."
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Ezin izan da elementua mugitu."
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "Ezin izan da elementua kendu."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fitxategi izena aurretik erabiltzen ari zara."
@@ -1459,23 +544,17 @@ msgstr "Lasterbidea gehitu da."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Lasterbidea badago."
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Eguneratu"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d elementu ezabatuko dira."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d aplikazio desinstalatuko dira."
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s desinstalatuko da"
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Deskarga osatuta"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Tamaina"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Zerrenda ikuspegia"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Biltegiratzea"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Karpetaren izena erabiltzen ari zara."
@@ -1483,23 +562,11 @@ msgstr "Karpetaren izena erabiltzen ari zara."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Biltegi lokala"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Gailuko bilt."
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Ez duzu saioa hasi"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Fitxategi guztiak"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Hodei biltegiraketa"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Ordenatu"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "Sarrera zuzenak"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Ordua"
@@ -1507,44 +574,32 @@ msgstr "Ordua"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Desinstalatu"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Edukiak"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Ados"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "Ez da aurpegirik detektatu"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Hautatu denak"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Deskargatu"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "Dagoeneko badago"
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Gaur"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Ezin da mugitu. Jomugako karpeta jatorrizkoa bera da"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "Sortu karpeta"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "Gehiago"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Hona mugitu"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "Hemen erantsi"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Ezarri"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Atzo"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Gailuko aplikazio batek ere ez du fitxategi mota hau onartzen."
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d fitxategi ezabatuko dira."
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Errore ezezaguna"
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Bidalitako fitxategiak"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Ezezaguna"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistema"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "EGINA"
@@ -1555,53 +610,11 @@ msgstr "UTZI"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "EZABATU"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Berrizendatu"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Hautatu elementua"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "Ez da ezer kargatu"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Elementuak kargatu ondoren, hemen erakutsiko dira."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Ezarpenak"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Ezin dira datuak gorde"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ez dago nahikoa espazio SD txartelean. Joan Ezarpenak > Bateria eta biltegia > Biltegia aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ez dago nahikoa espazio gailuaren biltegian. Joan Ezarpenak > Bateria eta biltegia > Biltegia aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "Akatsa"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "AllShare"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "Memoria beteta"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "Elementu 1 ezabatuko da Dropbox-etik."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d elementu ezabatuko dira Dropbox-etik."
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Datu mugikorrak itzalita daude. Konektatu Wi-Fi sare batera edo piztu datu mugikorrak eta saiatu berriz."
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "Ezarpenak"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Biltegi pertsonala"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Bidea"
@@ -1612,23 +625,8 @@ msgstr "%d gehienezko karaktere kopurura iritsi zara."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Aukeratu biltegiraketa"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "Deskarga historia"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "Deskarga historia"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Deskargatzen..."
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "Deskargak"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "Ez dago deskargarik"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Deskargak huts egin du"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Iraungitze data: %s"
@@ -1636,30 +634,114 @@ msgstr "Iraungitze data: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Iraungitze data: %s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Ezin da fitxategia deskargatu"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Saiatu fitxategia berriz deskargatzen edo kendu deskargen ilaratik."
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "Berriz saiatu"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Ezabatu"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "Kategoria"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "Karpetaren izena erabiltzen ari da"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Fitxategiaren izena erabileran dago"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Fitxategi izen hau (%s) helburuko karpetan erabiltzen ari zara lehendik."
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Karpeta izen hau (%s) helmugako karpetan erabiltzen ari da lehendik."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Ezabatu"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Garbitu historia"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Konprimatzen..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Ateratzen..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Atera elem. ZIP fitxategitik"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "%d karpeta berria"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Karpetaren izenak ezin du “.” edo “..” izan."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Ezarpenak"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Zerrenda xehatua"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Ezin dira elementuak atera"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Ez dago behar adina memoria"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Sortu ZIP fitxategia"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Historiarik ez"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Ez erakutsi berriz"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Gehiago"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Ezeztatzen..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Ezin izan da ekintza gauzatu"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fitxategia"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Karpeta"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Karpetak"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Izena"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Gailuaren biltegiak ez dauka nahikoa toki. Joan Ezarpenak > Biltegia eta RAM > Biltegia > Xehetasunak aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD txartelak ez dauka nahikoa toki. Joan Ezarpenak > Biltegia eta RAM > Biltegia > Xehetasunak aukerara, ezabatu fitxategi batzuk eta saiatu berriz."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Zerrenda"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Tamaina"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "Elementu 1 kenduko da"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Karpetaren izenak ezin du %s izan."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Fitxategia ezabatu da, mugitu da edo izena aldatu zaio. Ukitu Deskargatu fitxategia deskargatzeko, edo ukitu Kendu Deskarga historiatik kentzeko."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Eguneratu"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s desinstalatuko da"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Tamaina"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Gailuko bilt."
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Hodei biltegiraketa"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Ezarri"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Berrizendatu"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Nire fitxategiak"
 

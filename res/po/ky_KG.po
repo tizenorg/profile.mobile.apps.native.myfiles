@@ -1,0 +1,747 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "%1$d ийгил. өттү, %2$d кыйр."
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d ийгиликтүү аяктады"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Бардык нерселерге колдонуу"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "Жүктөөгө даярдоодо..."
+
+msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Түзмөгүңүз Wi-Fi тармагына туташкан эмес. Мобилдик тармакка туташуу төлөө планыңызга жараша кошумча өндүрүүлөрдү алып келиши мүмкүн."
+
+msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Мобилдик маалыматтар өчүрүлдү. Анын ордуна Wi-Fi тармагына туташыңыз, же болбосо Мобилдик маалыматтарды күйгүзүп, дагы аракеттениңиз."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Эстутум картасы чыгарылды"
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Ийгилик"
+
+msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
+msgstr "Жүктөлүүдө..."
+
+msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
+msgstr "Эстутум жетишпейт"
+
+msgid "IDS_MF_HEADER_CREATE"
+msgstr "Түзүү"
+
+msgid "IDS_MUSIC_SK_NO"
+msgstr "Жок"
+
+msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
+msgstr "Тез чакырма кошуу"
+
+msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
+msgstr "Тез чакырма жок кылуу"
+
+msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
+msgstr "Тез чакырма атын өзгөртүү"
+
+msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
+msgstr "Кайра көрсөтпөө"
+
+msgid "IDS_EMAIL_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
+msgstr "Жеке"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Папка атын киргизүү"
+
+msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
+msgstr "Жарлыкты алып салуу"
+
+msgid "IDS_MF_BODY_BYTE"
+msgstr "Байт"
+
+msgid "IDS_MF_BODY_EXECUTE"
+msgstr "Иш аткаруу"
+
+msgid "IDS_MF_BODY_IMPOSSIBLE"
+msgstr "Мүмкүн эмес"
+
+msgid "IDS_MF_BODY_INDIVIDUAL"
+msgstr "Individual"
+
+msgid "IDS_MF_BODY_INTERVAL"
+msgstr "Аралык"
+
+msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
+msgstr "Акыркы өзгөртүлгөн күнү"
+
+msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d нерсе"
+
+msgid "IDS_MF_BODY_POSSIBLE"
+msgstr "Мүмкүн"
+
+msgid "IDS_MF_BODY_RIGHT_STATUS"
+msgstr "Туура абал"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Бөлүшүү"
+
+msgid "IDS_MF_BODY_TIMED_COUNT"
+msgstr "Убакыт менен саноо"
+
+msgid "IDS_MF_BODY_TYPE"
+msgstr "Түр"
+
+msgid "IDS_MF_BODY_VALIDITY"
+msgstr "Орундуулук"
+
+msgid "IDS_MF_BUTTON_EXPORT_HERE"
+msgstr "Export here"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB"
+msgstr "Алмаштыр"
+
+msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
+msgstr "Search all folders"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
+msgstr "Мобилдик тармакка туташуу"
+
+msgid "IDS_MF_HEADER_NEW_FOLDER"
+msgstr "Жаңы папка"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
+msgstr "Папканы түзүү мүмкүн эмес"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ооба"
+
+msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
+msgstr "Папка атын киргизиңиз"
+
+msgid "IDS_MF_OPT_COMPRESS"
+msgstr "Кысуу"
+
+msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
+msgstr "Decompress here"
+
+msgid "IDS_MF_OPT_EXTRACT"
+msgstr "Чыгаруу"
+
+msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
+msgstr "Ушул папкага жандыруу"
+
+msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
+msgstr "Hide file extension"
+
+msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
+msgstr "Файлдын жайгашуусун ачуу"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Серверге туташа албайт"
+
+msgid "IDS_MF_OPT_SAVE_HERE"
+msgstr "Save here"
+
+msgid "IDS_MF_OPT_SHARE_LINK"
+msgstr "Шилтеме бөлүшүү"
+
+msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
+msgstr "Файл узартуусун көрсөтүү"
+
+msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
+msgstr "Бармакбасым көрүнүшү"
+
+msgid "IDS_MF_OPT_VIEW_AS"
+msgstr "Көрүү"
+
+msgid "IDS_MF_POP_ASCENDING"
+msgstr "Өсүүсү боюнча"
+
+msgid "IDS_MF_POP_DESCENDING"
+msgstr "Азаюусу боюнча"
+
+msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
+msgstr "DRM файл. Жөнөтүлбөйт."
+
+msgid "IDS_MF_POP_INVALID_FILE_NAME"
+msgstr "Орунсуз файл аты"
+
+msgid "IDS_MF_POP_NAME_IS_EMPTY"
+msgstr "Ат бош"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
+msgstr "Динамикалык эстутум жетишсиз"
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Эстутум жетишпейт. Кээ бир нерселерди жок кылып, дагы бир жолу аракет кылып көрүңүз."
+
+msgid "IDS_MF_SK_OK"
+msgstr "ОК"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Тез чакырмаларды алып салуубу?"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Жөнөтүү ишке ашпады"
+
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Жоюу"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Бет алган папка булак папкасына караган кичи папка"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Бет алган папкасы булак папкасы менен бирдей"
+
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Издөө"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Көчүрүү мүмкүн эмес"
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Жылдыруу мүмкүн эмес"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Орнотуулар"
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Unable to perform this action. Network error occurred."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Убакыт"
+
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Чексиз"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "External storage"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Memory card"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Видеолор"
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Files compressed."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Files extracted."
+
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "ГБ"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "МБ"
+
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Баарын тандоо"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "КБ"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Документтер"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Сүрөттөр"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Файлдар жок"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Сактагыч керектөөсү"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Файл чыккан жок"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Артка"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Баары"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Папка түзүү"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Нерселер"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Туташуу"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Аты"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Боюнча иреттөө"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 нерсе өчүрүлөт"
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Өчүрүү ишке ашкан жок."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Форматтоо"
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d нерсе өчүрүлөт"
+
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "Уруксат ыйгарылбады"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "Артка"
+
+msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
+msgstr "Нерсени жок кылуу"
+
+msgid "IDS_MF_HEADER_SELECT_ITEMS"
+msgstr "Нерсени тандоо"
+
+msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
+msgstr "Эч натыйжа табылган жок"
+
+msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
+msgstr "Орунсуз белги киргизилди. Дагы аракет кылыңыз."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Жүктөөнү баштоодо..."
+
+msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
+msgstr "Нерсени тандоо"
+
+msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
+msgstr "%d чейин нерсе тандай аласыз"
+
+msgid "IDS_MF_POP_MOVING"
+msgstr "Жылдырууда..."
+
+msgid "IDS_MF_POP_COPYING"
+msgstr "Көчүрүүдө..."
+
+msgid "IDS_MF_POP_MOVED"
+msgstr "Жылдырылды"
+
+msgid "IDS_MF_POP_COPIED"
+msgstr "Көчүрүлдү"
+
+msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
+msgstr "Жекеден алып салуу"
+
+msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
+msgstr "Жеке режимге жылдыруу"
+
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Жүктөмөлөр"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Өчүрүүдө..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Ишке ашпады"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD карта"
+
+msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Белгилер саны нары четине жетти"
+
+msgid "IDS_MF_HEADER_MYFILES"
+msgstr "Файлдарым"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Эч нерсе тандалган жок"
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Колдоого алынбаган файл түрү"
+
+msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
+msgstr "Даярдоодо..."
+
+msgid "IDS_MF_HEADER_PD_SELECTED"
+msgstr "%d тандалды"
+
+msgid "IDS_DM_BODY_NO_DOWNLOADS"
+msgstr "Жүктөмөлөр жок"
+
+msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
+msgstr "Жүктөө токтотулду"
+
+msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
+msgstr "Файлдарды жүктөө"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
+msgstr "Түзмөгүңүздүн сактагычында бош орун жетишпейт. Айрым айтымдарды жок кылууга, %s орнотууларына барыңыз же SD картаны кыстарыңыз."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
+msgstr "Түзмөгүңүздүн сактагычында бош орун жетишпейт. Сактагычта бир аз орун бошотууга, %s орнотууларына барып, дагы аракет кылыңыз."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
+msgstr "SD картаңызда бош орун жетишпейт. Айрым айтымдарды жок кылууга, %s орнотууларына барыңыз, же болбосо айласыз сактагыч жердикти Түзмөккө өзгөртүңүз."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
+msgstr "SD картаңызда бош орун жетишпейт. Айрым айтымдарды жок кылууга, %s орнотууларына барып, дагы аракет кылыңыз."
+
+msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
+msgstr "Сактагычка баруу"
+
+msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
+msgstr "Баштапкы сактагычтыны толук"
+
+msgid "IDS_DM_HEADER_OLDER"
+msgstr "Эскирээк"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Маалымат"
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Иштетүүдө..."
+
+msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
+msgstr "Түзмөк сактагычы"
+
+msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
+msgstr "Серверди билдирүүдө..."
+
+msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
+msgstr "Файлды ачууга мүмкүн эмес"
+
+msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
+msgstr "Дагы аракет кылууга, Жүктөөнү басыңыз."
+
+msgid "IDS_DM_BUTTON_CANCEL_ABB2"
+msgstr "Артка"
+
+msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
+msgstr "%d тандалды"
+
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
+msgstr "Жүктөө тарыхы"
+
+msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
+msgstr "Жөнөкөй бөлүшүү"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
+msgstr "Колдонмону орнотуу мүмкүн эмес"
+
+msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
+msgstr "Жалгыз TPK файлдары орнотула алат. Биз сизге Tizen Store’дон жүктөлүнгөн колдонмолорду гана орнотууну сунуштайбыз."
+
+msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Бул нерселерди өчүрүү ошондой эле аларды Dropbox’тон өчүрөт. %d нерселер өчүрүлөт."
+
+msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
+msgstr "Бул нерсени өчүрүү ошондой эле аны Dropbox’тон өчүрөт. 1 нерсе өчүрлөт."
+
+msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
+msgstr "Бул нерселерди жылдыруу аларды Dropbox’тон өчүрөт. %d нерселер жылдырылат."
+
+msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
+msgstr "Бул нерсени жылдыруу аны Dropbox’тон өчүрөт. 1 нерсе жылдырылат."
+
+msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
+msgstr "Жакында\nкөрүлгөндөр"
+
+msgid "IDS_ST_BODY_BYTES"
+msgstr "байттар"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Жашырылган файлдар көрүнбөсүн"
+
+msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
+msgstr "Жашыруун файлдарды көрсөтүү"
+
+msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
+msgstr "Тез чакырманын аты эчак колдонулууда."
+
+msgid "IDS_MF_BODY_BASIC"
+msgstr "Негизги"
+
+msgid "IDS_MF_BODY_FILES"
+msgstr "Файлдар"
+
+msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
+msgstr "Аудио\nфайлдар"
+
+msgid "IDS_MF_HEADER_COPY_TO_ABB"
+msgstr "Төмөнкүгө көчүрүү"
+
+msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Жүктөлгөн колдонмолор"
+
+msgid "IDS_MF_HEADER_MOVE_TO_ABB"
+msgstr "Карай жылдыр"
+
+msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
+msgstr "%d тандалды"
+
+msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_SHORTCUTS"
+msgstr "Жарлыктар"
+
+msgid "IDS_MF_MBODY_CONTAINS"
+msgstr "Камтыйт"
+
+msgid "IDS_MF_NPBODY_NO_FILES"
+msgstr "Файлдар жок"
+
+msgid "IDS_MF_OPT_COPY"
+msgstr "Көчүр"
+
+msgid "IDS_MF_OPT_MOVE"
+msgstr "Жылдыруу"
+
+msgid "IDS_MF_OPT_REMOVE"
+msgstr "Алып салуу"
+
+msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
+msgstr "1 тез чакырма жок кылынат."
+
+msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
+msgstr "%d жарлыктар жок кылынат."
+
+msgid "IDS_MF_TMBODY_AVAILABLE_USES"
+msgstr "Байкалган колдонуулар"
+
+msgid "IDS_MF_TMBODY_FORWARDING"
+msgstr "Которууда"
+
+msgid "IDS_MF_TMBODY_LAST_MODIFIED"
+msgstr "Акыркы өзгөртүлгөн күнү"
+
+msgid "IDS_MF_TMBODY_RESOLUTION"
+msgstr "Чечим"
+
+msgid "IDS_MF_TMBODY_TOTAL_SIZE"
+msgstr "Жалпы өлчөмү"
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
+msgstr "Бет алуу папкасы булак папкасынын кичи папкасы."
+
+msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
+msgstr "Нерсе көчүрүлбөй калды."
+
+msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
+msgstr "Нерсе жылдырылбай калды."
+
+msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Файл аты эчак колдонууда"
+
+msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
+msgstr "Кыска жолдордун саны белгиленген эң жогорку чекке (%d) жетти."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ADDED"
+msgstr "Тез чакырма кошулду."
+
+msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
+msgstr "Кыска жол мурунтан эле бар"
+
+msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
+msgstr "%d нерсе өчүрүлөт."
+
+msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
+msgstr "%d колдонмо өчүрүлөт."
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Жүктөө аяктады"
+
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Сактагыч"
+
+msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
+msgstr "Папка аты эчак колдонууда."
+
+msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
+msgstr "Жергиликтүү сактагыч"
+
+msgid "IDS_MF_BODY_NOT_SIGNED_IN"
+msgstr "Кирген эмес."
+
+msgid "IDS_MF_HEADER_ORDER"
+msgstr "Ирет"
+
+msgid "IDS_MF_OPT_TIME_M_SORT"
+msgstr "Убакыт"
+
+msgid "IDS_ST_BODY_UNINSTALL"
+msgstr "Өчүрүү"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "ОК"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Баарын тандоо"
+
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Жүктөө"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Бүгүн"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Кечээ"
+
+msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
+msgstr "Файлдын мындай түрү түзмөгүңүздөгү колдонмолордо колдоого алынбайт."
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Белгисиз катасы"
+
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Белгисиз"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Система"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ДАЯР"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ТОКТОТУУ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
+msgstr "ӨЧҮРҮҮ"
+
+msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
+msgstr "Нерсени тандоо"
+
+msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Маалымат сактай абайт"
+
+msgid "IDS_LBS_BODY_PATH"
+msgstr "Жол"
+
+msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Белгилер саны %d нары четине жетти"
+
+msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
+msgstr "Сактагыч тандоо"
+
+msgid "IDS_MF_SBODY_DOWNLOADING_ING"
+msgstr "Жүктөлүүдө..."
+
+msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
+msgstr "Мөөнөтү бүтөт: %s"
+
+msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
+msgstr "Мөөнөтү өткөн: %s"
+
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Бул папканын аты (%s) эчак көздөгөн папкада колдонулууда."
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Жоюу"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "Тарыхты тазалоо"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "Кысууда..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "Чыгарууда..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "Кысыл. файл. нерсе. чыгаруу"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "Жаңы папка %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "Папканын аталышын “.” же “..” деп коюу мүмкүн эмес."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Орнотуулар"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "Тасмияланган тизме"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "Нерсе. чыгар. мүмкүн эмес"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "Жетиштүү бош орун жок"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "Кысылган файл түзүү"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Эч тарых жок"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "Башка көрсөтүлбөсүн"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Дагы"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "Токтотууда..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "Аракетти аткаруу мүмкүн эмес"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "Файл"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Папка"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Папкалар"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Аты"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Түзмөгүңүздүн сактагычында жетиштүү орун жок. Орнотуулар > Сактагыч жана RAM > Сактагыч > Кошумча маалыматтарга барыңыз, андан соң кээ бир файлдарды өчүрүп, дагы аракеттениңиз."
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD картаңызда жетиштүү орун жок. Орнотуулар > Сактагыч жана RAM > Сактагыч > Кошумча маалыматтарга барыңыз, андан соң кээ бир файлдарды өчүрүп, дагы аракеттениңиз."
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Тизме"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Өлчөм"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 нерсе алып салынат"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "Папканын атын %s катары орното албайт."
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "Бул файл өчүрүлгөн, жылдырылган, же аты өзгөртүлгөн. Файлды кайра жүктөө үчүн Жүктөөнү басыңыз же Жүктөө тарыхынан үчүн Өчүрүүнү басыңыз."
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Жаңылатуу"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s орду бошотулат"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Өлчөм"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Түзмөк сактагч"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Булут сактагычы"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Орнотуу"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Атын өзгөртүү"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Менин Файлдарым"
+

@@ -1,20 +1,26 @@
+msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
+msgstr "已成功下載 %1$d 個，%2$d 個失敗"
+
+msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
+msgstr "%d 個成功"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "套用至所有項目"
+
+msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
+msgstr "正在準備下載..."
+
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "您的裝置尚未連接至 Wi-Fi 網路。連接至行動網路可能根據您的資費方案產生額外費用。"
-
-msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "分享途徑"
-
-msgid "IDS_MF_OPT_SHARE_VIA"
-msgstr "分享方式"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "行動數據已關閉。請連接 Wi-Fi 網路，或開啟行動數據並重試。"
 
-msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "將刪除 %d 個項目。"
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "已移除記憶卡"
 
-msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "將刪除此項目。"
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "成功。"
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "正在下載..."
@@ -22,50 +28,8 @@ msgstr "正在下載..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "記憶體不足。"
 
-msgid "IDS_EMAIL_POP_CANCELLED"
-msgstr "已取消"
-
-msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "無法下載"
-
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "成功。"
-
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "建立"
-
-msgid "IDS_MF_POP_DELETED"
-msgstr "已刪除。"
-
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "已移除記憶卡"
-
-msgid "IDS_MUSIC_POP_SEARCHING_ING"
-msgstr "正在搜尋..."
-
-msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "網路連線發生錯誤。"
-
-msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "刪除資料夾"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "輸入資料夾名稱"
-
-msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "已下載的應用程式"
-
-msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "網路連線發生錯誤。通話已結束。重新連接至網路嗎？"
-
-msgid "IDS_MF_SK_OK"
-msgstr "確定"
-
-msgid "IDS_MF_SK_SAVE"
-msgstr "儲存"
-
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "是"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "否"
@@ -73,122 +37,32 @@ msgstr "否"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "新增捷徑"
 
-msgid "IDS_MF_OPT_DELETE"
-msgstr "刪除"
-
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "刪除捷徑"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "重新命名捷徑"
 
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "搜尋"
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "設定"
-
-msgid "IDS_MF_OPT_SHARE"
-msgstr "分享"
-
-msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "儲存空間使用量"
-
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "不再顯示"
-
-msgid "IDS_EMAIL_BODY_B"
-msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "位元"
 
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "無法連線到伺服器。"
-
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "隱私"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "輸入資料夾名稱"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "移除捷徑"
 
-msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Battery low"
-
-msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 個檔案"
-
-msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
-msgstr "我的相簿"
-
-msgid "IDS_MF_BODY_ADD_FROM"
-msgstr "加自"
-
-msgid "IDS_MF_BODY_ALERTS"
-msgstr "提醒"
-
-msgid "IDS_MF_BODY_ANY"
-msgstr "任何"
-
-msgid "IDS_MF_BODY_AVAILABLE_USES"
-msgstr "可供使用"
-
 msgid "IDS_MF_BODY_BYTE"
 msgstr "位元"
 
-msgid "IDS_MF_BODY_CONTENTS"
-msgstr "內容"
-
-msgid "IDS_MF_BODY_CREATED_DATE"
-msgstr "建立日期"
-
-msgid "IDS_MF_BODY_DATE"
-msgstr "日期"
-
-msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "要刪除所選項目嗎？"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "文件"
-
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "執行"
-
-msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "檔案名稱"
-
-msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "檔案類型"
-
-msgid "IDS_MF_BODY_FOLDER_NAME"
-msgstr "資料夾名稱"
-
-msgid "IDS_MF_BODY_FORWARDING"
-msgstr "正在轉寄"
-
-msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "GPS 資訊"
-
-msgid "IDS_MF_BODY_GPS_LATITUDE"
-msgstr "GPS緯度"
-
-msgid "IDS_MF_BODY_GPS_LONGITUDE"
-msgstr "GPS經度"
-
-msgid "IDS_MF_BODY_GPS_VERSION"
-msgstr "GPS 版本"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "圖像"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "不可能"
@@ -202,68 +76,17 @@ msgstr "間隔"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "上次修改"
 
-msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "清單及詳情"
-
-msgid "IDS_MF_BODY_LOCATION"
-msgstr "位置"
-
-msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "正在初始化 MMC 資料..."
-
-msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
-msgstr "我的影片片段"
-
-msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "沒有足夠的記憶體在手機上。刪除某些項目，然後再試一次。"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "無檔案"
-
-msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "無最近開啟的檔案"
-
-msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "無最近使用的檔案"
-
-msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d 個檔案"
-
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d 項"
-
-msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d 個項目"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "可能"
 
-msgid "IDS_MF_BODY_PRINT"
-msgstr "列印"
-
-msgid "IDS_MF_BODY_RENAME_ABB"
-msgstr "重新命名"
-
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "版權狀態"
 
-msgid "IDS_MF_BODY_RINGTONES"
-msgstr "鈴聲"
-
-msgid "IDS_MF_BODY_SHARE"
+msgid "IDS_MF_OPT_SHARE"
 msgstr "分享"
-
-msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "顯示隱藏的檔案"
-
-msgid "IDS_MF_BODY_SOUNDS"
-msgstr "聲音"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "儲存裝置使用量"
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "時間"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "計時數"
@@ -271,35 +94,11 @@ msgstr "計時數"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "類型"
 
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "無限制"
-
-msgid "IDS_MF_BODY_UP"
-msgstr "上"
-
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "有效期"
 
-msgid "IDS_MF_BODY_VENDOR"
-msgstr "供應商"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "影片"
-
-msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "桌布"
-
-msgid "IDS_MF_BUTTON_ADD_TO_HOME"
-msgstr "新增至首頁"
-
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "於此匯出"
-
-msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "前往我的檔案"
-
-msgid "IDS_MF_BUTTON_HOME"
-msgstr "主目錄"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "取代"
@@ -307,92 +106,26 @@ msgstr "取代"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "搜尋所有資料夾"
 
-msgid "IDS_MF_BUTTON_SET_HERE"
-msgstr "設定於此"
-
-msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
-msgstr "進階搜尋"
-
-msgid "IDS_MF_HEADER_AUDIO"
-msgstr "音訊"
-
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "連接至行動網路"
-
-msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "連接至 Wi-Fi 網路"
-
-msgid "IDS_MF_HEADER_COUNT"
-msgstr "計數"
-
-msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "輸入資料夾名稱"
-
-msgid "IDS_MF_HEADER_LOCAL"
-msgstr "本機"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "新資料夾"
 
-msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "最近的檔案"
-
-msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "移除檔案"
-
-msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "分享有聲拍攝相片"
-
-msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
-msgstr "儲存裝置"
-
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "無法建立資料夾"
 
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "全選"
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "是"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "請輸入資料夾名稱"
 
-msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
-msgstr "新增至捷徑"
-
-msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "作為圖像檔案"
-
-msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "作為影片檔案"
-
-msgid "IDS_MF_OPT_CALLER_RINGTONE"
-msgstr "來電者鈴聲"
-
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "壓縮"
 
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "建立資料夾"
-
-msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
-msgstr "日期(最近的)"
-
-msgid "IDS_MF_OPT_DATE_HOLDEST"
-msgstr "日期(最舊的)"
-
-msgid "IDS_MF_OPT_DECOMPRESS_ABB"
-msgstr "解壓縮"
-
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "在此解壓縮"
-
-msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
-msgstr "預設鈴聲"
-
-msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "詳細查看"
-
-msgid "IDS_MF_OPT_EDIT"
-msgstr "編輯"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "解壓縮"
@@ -400,56 +133,17 @@ msgstr "解壓縮"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "解壓縮至目前資料夾"
 
-msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
-msgstr "前往資料夾"
-
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "隱藏副檔名"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "項目"
-
-msgid "IDS_MF_OPT_LISTBY_NAME"
-msgstr "名稱"
-
-msgid "IDS_MF_OPT_LIST_BY"
-msgstr "排列依據"
-
-msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "移到這裡"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "名稱"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "開啟檔案位置"
 
-msgid "IDS_MF_OPT_PERSONAL_PAGE"
-msgstr "私密檔案夾"
-
-msgid "IDS_MF_OPT_RECORD_SOUND"
-msgstr "錄音"
-
-msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "註冊到聯絡人"
-
-msgid "IDS_MF_OPT_RENAME"
-msgstr "重新命名"
-
-msgid "IDS_MF_OPT_RENAMED"
-msgstr "已重新命名"
-
-msgid "IDS_MF_OPT_RENAME_FOLDER"
-msgstr "重新命名資料夾"
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "無法連線到伺服器。"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "儲存這裡"
-
-msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
-msgstr "掃描附近裝置"
-
-msgid "IDS_MF_OPT_SELECTED"
-msgstr "已選擇"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "分享連結"
@@ -457,47 +151,14 @@ msgstr "分享連結"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "顯示文件擴展名"
 
-msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
-msgstr "分割"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "排序依"
-
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "縮圖檢視"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "檢視方式"
 
-msgid "IDS_MF_OPT_VIEW_BY_LIST"
-msgstr "依清單檢視"
-
-msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
-msgstr "以縮圖檢視"
-
-msgid "IDS_MF_OPT_ZIP"
-msgstr "壓縮檔"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "將刪除 1 個項目。"
-
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "遞增"
-
-msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "要刪除嗎？"
-
-msgid "IDS_MF_POP_CONTINUE"
-msgstr "繼續"
-
-msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "複製失敗"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "刪除失敗"
-
-msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "要刪除所選項目嗎？"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "遞減"
@@ -505,35 +166,8 @@ msgstr "遞減"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM 檔案。無法傳送。"
 
-msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "DRM 檔案無法使用。"
-
-msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "檔案名稱已被使用"
-
-msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
-msgstr "資料夾名稱已存在。"
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "格式"
-
-msgid "IDS_MF_POP_FROM"
-msgstr "自"
-
-msgid "IDS_MF_POP_INPUT_TEXT"
-msgstr "輸入文字"
-
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "檔案名稱無效"
-
-msgid "IDS_MF_POP_LOADING_ING"
-msgstr "正在載入..."
-
-msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
-msgstr "資料夾數目已達上限"
-
-msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "移動失敗"
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "名稱為空。"
@@ -544,41 +178,17 @@ msgstr "堆積記憶體不足"
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "沒有足夠的記憶體。請刪除部分項目然後重試。"
 
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "記憶體不足。%s 可用。"
-
-msgid "IDS_MF_POP_PASTE_HERE"
-msgstr "複製到這裡"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "將刪除%d 個項目。"
-
-msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "權限被拒絕。"
-
-msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "從最近使用的檔案清單中移除嗎？"
+msgid "IDS_MF_SK_OK"
+msgstr "確定"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
 msgstr "自捷徑移除嗎？"
 
-msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "要移除嗎？"
-
-msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "相同的檔案名稱已存在！"
-
-msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "相同名稱已在使用中"
-
-msgid "IDS_MF_POP_SELECT_ITEM"
-msgstr "選擇項目"
-
 msgid "IDS_MF_POP_SEND_FAILED"
 msgstr "傳送失敗。"
 
-msgid "IDS_MF_POP_SHORTCUT_ADDED"
-msgstr "捷徑已新增。"
+msgid "IDS_MF_OPT_DELETE"
+msgstr "刪除"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "目標資料夾為來源資料夾的子資料夾。"
@@ -586,11 +196,8 @@ msgstr "目標資料夾為來源資料夾的子資料夾。"
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
 msgstr "目標資料夾與來源資料夾相同。"
 
-msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
-msgstr "已中斷連接此裝置"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "此檔案不存在。"
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "搜尋"
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "無法複製。"
@@ -598,53 +205,17 @@ msgstr "無法複製。"
 msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "無法移動。"
 
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "設定"
+
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
 msgstr "無法執行此動作。發生網路錯誤。"
 
-msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
-msgstr "通話期間無法播放。"
+msgid "IDS_MF_BODY_TIME"
+msgstr "時間"
 
-msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "無法將受 DRM 保護的內容設為鈴聲或通知提醒。"
-
-msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "需連接至 Wi-Fi 網路才可搜尋附近裝置。經 Wi-Fi 連接然後重試。"
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "上一步"
-
-msgid "IDS_MF_SK3_COPY"
-msgstr "複製"
-
-msgid "IDS_MF_SK3_DELETE"
-msgstr "刪除"
-
-msgid "IDS_MF_SK3_EDIT"
-msgstr "編輯"
-
-msgid "IDS_MF_SK3_MOVE"
-msgstr "移動"
-
-msgid "IDS_MF_SK3_SEARCH"
-msgstr "搜尋"
-
-msgid "IDS_MF_SK3_SORT_BY"
-msgstr "排序依據"
-
-msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "檢視方式"
-
-msgid "IDS_MF_SK_CANCEL"
-msgstr "取消"
-
-msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "取消"
-
-msgid "IDS_MF_SK_DETAILS"
-msgstr "詳細資料"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "全部"
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "無限制"
 
 msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "外部儲存裝置"
@@ -652,20 +223,8 @@ msgstr "外部儲存裝置"
 msgid "IDS_MF_TAB_MEMORY_CARD"
 msgstr "記憶卡"
 
-msgid "IDS_MF_TAB_PHONE"
-msgstr "電話"
-
-msgid "IDS_MF_TAB_UP"
-msgstr "向上"
-
-msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "已壓縮"
-
-msgid "IDS_MF_TPOP_DECOMPRESSED"
-msgstr "已解壓縮"
-
-msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "正在下載檔案..."
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "影片"
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
 msgstr "檔案已壓縮"
@@ -673,38 +232,71 @@ msgstr "檔案已壓縮"
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "檔案已解壓縮"
 
-msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "檔案已匯入。"
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
 
-msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
-msgstr "找不到裝置。將於背景繼續掃描。"
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
 
-msgid "IDS_MF_TZTAB2_DIRECTORY"
-msgstr "目錄"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "全選"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "文件"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "圖像"
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "無檔案"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "儲存裝置使用量"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "此檔案不存在。"
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "上一步"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "全部"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "建立資料夾"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "項目"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "連線"
 
-msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "預設通知音效"
+msgid "IDS_MF_OPT_NAME"
+msgstr "名稱"
 
-msgid "IDS_ST_BODY_TO_JPN_SBM"
-msgstr "To"
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "排序依"
 
-msgid "IDS_ST_POP_ADD_SHORTCUT"
-msgstr "新增捷徑"
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "將刪除 1 個項目。"
 
-msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "要刪除項目嗎？"
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "刪除失敗"
 
-msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "重新命名"
+msgid "IDS_MF_POP_FORMAT"
+msgstr "格式"
 
-msgid "IDS_ST_BODY_SETTINGS"
-msgstr "設定"
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
+msgstr "將刪除%d 個項目。"
 
-msgid "IDS_ST_SK_REMOVE"
-msgstr "移除"
+msgid "IDS_MF_POP_PERMISSION_DENIED"
+msgstr "權限被拒絕。"
+
+msgid "IDS_MF_SK_CANCEL"
+msgstr "取消"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "刪除項目"
@@ -715,23 +307,11 @@ msgstr "選擇項目"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "無搜尋結果"
 
-msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "要刪除 %d 個項目嗎？"
-
-msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "要刪除項目嗎？"
-
-msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "已選擇 1 項目。"
-
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "輸入的字元無效。請重試。"
 
-msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "已選擇 %d 項目。"
-
-msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "靜音"
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "正在開始下載..."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "選擇項目"
@@ -739,32 +319,11 @@ msgstr "選擇項目"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "最多可以選擇 %d 個項目。"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "下載"
-
-msgid "IDS_MF_POP_DELETE_Q"
-msgstr "要刪除嗎？"
-
-msgid "IDS_MF_SK_MOVE"
-msgstr "移動"
-
-msgid "IDS_MF_SK_COPY"
-msgstr "複製"
-
 msgid "IDS_MF_POP_MOVING"
 msgstr "正在移動..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "正在複製..."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "正在刪除..."
-
-msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "操作失敗"
-
-msgid "IDS_MF_OPT_DELETE_SELECTED"
-msgstr "已選擇"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "已移動"
@@ -772,143 +331,35 @@ msgstr "已移動"
 msgid "IDS_MF_POP_COPIED"
 msgstr "已複製。"
 
-msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "排序依據"
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "失敗。"
-
-msgid "IDS_MUSIC_SK_DONE"
-msgstr "完成"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD 卡"
-
-msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "裝置記憶體"
-
-msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "新增至個人儲存空間"
-
-msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "自個人儲存空間移除"
-
-msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "刪除此項目嗎？"
-
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "從隱私資料夾中移除"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "移動至隱私資料夾"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "下載"
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "正在刪除..."
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "失敗"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD 卡"
+
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "已達字元數上限。"
-
-msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "正在移除..."
-
-msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "個人儲存空間"
-
-msgid "IDS_MF_POP_FORMAT_COMPLETED"
-msgstr "格式化完成"
-
-msgid "IDS_MF_OPT_NAME_HZ_TO_A"
-msgstr "名稱 (Z 至 A)"
-
-msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "名稱 (A 至 Z)"
-
-msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
-msgstr "螢幕擷取"
-
-msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "無搜尋結果。"
-
-msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "訊息提醒"
-
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "詳細資料"
-
-msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "輸入名稱。"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "我的檔案"
 
-msgid "IDS_MF_POP_ADDED"
-msgstr "已新增。"
-
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "正在處理..."
-
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "不支援的檔案類型。"
-
-msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "要移除嗎？"
-
-msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "私密內容"
-
-msgid "IDS_MF_OPT_COPY_TO"
-msgstr "複製到"
-
-msgid "IDS_MF_OPT_MOVE_TO"
-msgstr "移動到"
-
-msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "無法新增捷徑。"
-
-msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "記憶體不足。請刪除部分項目。"
-
-msgid "IDS_MF_POP_REMOVED"
-msgstr "已移除。"
-
-msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "私密儲存空間"
-
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "未選擇任何項目"
 
-msgid "IDS_MUSIC_SK_SHARE"
-msgstr "分享"
-
-msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "檢視方式"
-
-msgid "IDS_MUSIC_SK_LIST"
-msgstr "清單"
-
-msgid "IDS_MUSIC_SK_VIEW"
-msgstr "檢視"
-
-msgid "IDS_MUSIC_SK_SAVE_AS"
-msgstr "另存為"
-
-msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "無法移除"
-
-msgid "IDS_MF_BODY_DROPBOX_ABB"
-msgstr "Dropbox"
-
-msgid "IDS_MF_BODY_PARENT_RATING"
-msgstr "父級評分"
-
-msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "檔案名稱已被使用"
-
-msgid "IDS_VR_BODY_VOICE"
-msgstr "語音"
-
-msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi 無法使用。連接至行動網路可能根據您的資費方案產生額外費用。"
-
-msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
-msgstr "已達字元的最高數量 (%d)。"
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "不支援的檔案類型。"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "正在就緒..."
@@ -916,20 +367,8 @@ msgstr "正在就緒..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d已選擇"
 
-msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "刪除項目"
-
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "無下載"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "下載完成"
-
-msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "下載管理員"
-
-msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "項目將在您下載後顯示於此。"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "下載已取消"
@@ -938,16 +377,16 @@ msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
 msgstr "下載失敗"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
-msgstr "裝置儲存空間中的空間不足。前往 %s 設定來刪除部分資料或插入 SD 卡。"
+msgstr "裝置儲存空間中的空間不足。前往%s設定來刪除部分資料或插入 SD 卡。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
-msgstr "裝置儲存空間中的空間不足。前往 %s 設定來釋出部分儲存空間，然後重試。"
+msgstr "裝置儲存空間中的空間不足。前往%s設定來釋出部分儲存空間，然後重試。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
-msgstr "您的 SD 卡空間不足。前往 %s 設定來刪除部分儲存空間，或將預設儲存空間位置變更為裝置。"
+msgstr "您的 SD 卡空間不足。前往%s設定來刪除部分儲存空間，或將預設儲存空間位置變更為裝置。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
-msgstr "您的 SD 卡空間不足。前往 %s 設定來刪除部分資料，然後重試。"
+msgstr "您的 SD 卡空間不足。前往%s設定來刪除部分資料，然後重試。"
 
 msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
 msgstr "前往儲存空間"
@@ -958,14 +397,11 @@ msgstr "預設儲存空間已滿"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "較舊的"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "儲存位置"
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "詳細資料"
 
-msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "正在移除..."
-
-msgid "IDS_MF_BODY_SD_CARD"
-msgstr "記憶卡"
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "正在處理..."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "裝置儲存空間"
@@ -973,86 +409,20 @@ msgstr "裝置儲存空間"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "正在通知伺服器..."
 
-msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "將刪除%d 個項目。"
-
-msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "找不到此檔案。輕觸下載以重新嘗試下載。"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "無法開啟檔案"
 
-msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "找不到應用程式來開啟此檔案。"
-
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "輕觸下載以重試。"
-
-msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "將刪除 1 個項目。"
-
-msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "正在啟用 DRM 內容..."
-
-msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "找不到可執行此動作的應用程式。"
-
-msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "儲存裝置位置"
-
-msgid "IDS_PB_HEADER_IMPORT"
-msgstr "匯入"
-
-msgid "IDS_MF_BODY_M_DEGREE"
-msgstr "°"
+msgstr "輕觸 [下載] 以重試。"
 
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "取消"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "確定"
-
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "全選"
-
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "已選擇 %d 個"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "下載"
-
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "今天"
-
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "昨天"
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "刪除"
-
-msgid "IDS_MF_BUTTON_REPLACE_ABB4"
-msgstr "取代"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "套用至所有項目"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "建立 zip 檔案"
-
-msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "解壓縮 zip 檔案"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "我的檔案"
-
-msgid "IDS_BR_BODY_WEB_VODA"
-msgstr "網路"
-
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "下載歷程記錄"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "無記錄。"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "簡易分享"
@@ -1075,74 +445,11 @@ msgstr "移動這些項目也會跟著自 Dropbox 刪除。將移動 %d 個項�
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "移動此項目也會跟著自 Dropbox 刪除。將移動 1 個項目。"
 
-msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "選擇儲存位置"
-
-msgid "IDS_MF_BUTTON_STOP_ABB2"
-msgstr "停止"
-
-msgid "IDS_MF_BUTTON_UPLOAD"
-msgstr "上傳"
-
-msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "無法上傳檔案"
-
-msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "停止上傳"
-
-msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "輕觸上傳以重試。"
-
-msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "上傳將停止，但是檔案不會被刪除。"
-
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "最近檢視"
 
-msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
-msgstr "無法儲存資料"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "裝置儲存空間中的空間不足。前往設定 > 電力與儲存空間 > 儲存空間來刪除部分檔案，然後重試。"
-
-msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD 卡上的空間不足。前往設定 > 電力與儲存空間 > 儲存空間來刪除部分檔案，然後重試。"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
-msgstr "上傳至"
-
-msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
-msgstr "Dropbox 上傳"
-
-msgid "IDS_GALLERY_OPT_PRIVATE"
-msgstr "私人"
-
 msgid "IDS_ST_BODY_BYTES"
 msgstr "位元組"
-
-msgid "IDS_MF_SK_ADD_LITE"
-msgstr "新增"
-
-msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "住家"
-
-msgid "IDS_ST_OPT_ALARM"
-msgstr "鬧鐘"
-
-msgid "IDS_MF_BODY_OTHERS"
-msgstr "其他"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "更多"
-
-msgid "IDS_MF_OPT_OPEN"
-msgstr "開啟"
-
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "未知錯誤。"
-
-msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
-msgstr "資料夾名稱無法設為 「.」或「..」。"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "不要顯示隱藏檔案"
@@ -1150,104 +457,23 @@ msgstr "不要顯示隱藏檔案"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "顯示隱藏的檔案"
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "未知"
-
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "捷徑名稱已被使用。"
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "基本"
 
-msgid "IDS_MF_BODY_FILE"
-msgstr "檔案"
-
 msgid "IDS_MF_BODY_FILES"
 msgstr "檔案"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "資料夾"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "資料夾"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "系統"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "名稱"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "音訊檔案"
 
-msgid "IDS_MF_BUTTON2_DOCUMENTS"
-msgstr "文件"
-
-msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "已下載的應用程式"
-
-msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "圖像"
-
-msgid "IDS_MF_BUTTON2_VIDEOS"
-msgstr "影片"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "取消"
-
-msgid "IDS_MF_BUTTON_CANCEL_ABB3"
-msgstr "取消"
-
-msgid "IDS_MF_BUTTON_CREATE_ABB2"
-msgstr "建立"
-
-msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "刪除"
-
-msgid "IDS_MF_BUTTON_OK"
-msgstr "確認"
-
-msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "移除"
-
-msgid "IDS_MF_BUTTON_RENAME_ABB"
-msgstr "重新命名"
-
-msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "解除安裝"
-
-msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
-msgstr "新增捷徑"
-
-msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "音訊檔案"
-
-msgid "IDS_MF_HEADER_COPY"
-msgstr "複製"
-
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "複製到"
 
-msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "新增資料夾"
-
-msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "刪除捷徑"
-
-msgid "IDS_MF_HEADER_DETAILS"
-msgstr "詳細資料"
-
-msgid "IDS_MF_HEADER_DOCUMENTS"
-msgstr "文件"
-
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "已下載的應用程式"
-
-msgid "IDS_MF_HEADER_IMAGES"
-msgstr "圖像"
-
-msgid "IDS_MF_HEADER_MOVE"
-msgstr "移動"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "移至"
@@ -1255,43 +481,7 @@ msgstr "移至"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "已選擇 %d 個"
 
-msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "最近的檔案"
-
-msgid "IDS_MF_HEADER_REMOVE"
-msgstr "移除"
-
-msgid "IDS_MF_HEADER_RENAME"
-msgstr "重新命名"
-
-msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "設定"
-
-msgid "IDS_MF_HEADER_SHORTCUTS"
-msgstr "捷徑"
-
-msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "排序依"
-
-msgid "IDS_MF_HEADER_UNINSTALL"
-msgstr "解除安裝"
-
-msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
-msgstr "上傳至"
-
-msgid "IDS_MF_HEADER_VIDEOS"
-msgstr "影片"
-
-msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "檢視方式"
-
-msgid "IDS_MF_ITAB2_ALL"
-msgstr "全部"
-
 msgid "IDS_MF_ITAB2_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -1300,65 +490,11 @@ msgstr "捷徑"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "包含"
 
-msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "裝置儲存空間"
-
-msgid "IDS_MF_MBODY_DROPBOX"
-msgstr "Dropbox"
-
-msgid "IDS_MF_MBODY_FORMAT"
-msgstr "格式"
-
-msgid "IDS_MF_MBODY_LOCATION"
-msgstr "位置"
-
-msgid "IDS_MF_MBODY_SD_CARD"
-msgstr "SD 卡"
-
-msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "顯示檔案副檔名"
-
-msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "顯示隱藏的檔案"
-
-msgid "IDS_MF_MBODY_SIZE"
-msgstr "大小"
-
-msgid "IDS_MF_MBODY_TYPE"
-msgstr "類型"
-
-msgid "IDS_MF_MBODY_VENDOR"
-msgstr "廠商"
-
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "無檔案"
 
-msgid "IDS_MF_OPT_ASCENDING"
-msgstr "遞增"
-
 msgid "IDS_MF_OPT_COPY"
 msgstr "複製"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "建立資料夾"
-
-msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "遞減"
-
-msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
-msgstr "詳細清單"
-
-msgid "IDS_MF_OPT_DETAILS"
-msgstr "詳細資料"
-
-msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "不再顯示"
-
-msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "檔案類型"
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "清單"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "移動"
@@ -1366,50 +502,14 @@ msgstr "移動"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "移除"
 
-msgid "IDS_MF_OPT_SIZE"
-msgstr "大小"
-
-msgid "IDS_MF_OPT_TIME"
-msgstr "時間"
-
-msgid "IDS_MF_OPT_TYPE"
-msgstr "類型"
-
-msgid "IDS_MF_OPT_UNINSTALL"
-msgstr "解除安裝"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "將移除 1 個項目。"
-
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "將刪除 1 個捷徑。"
-
-msgid "IDS_MF_POP_COPYING_ING"
-msgstr "正在複製..."
-
-msgid "IDS_MF_POP_MOVING_ING"
-msgstr "正在移動..."
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "將移除 %d 個項目。"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "將刪除 %d 個捷徑。"
 
-msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "正在移除..."
-
-msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "漫遊時使用行動數據可能視您的付費方案而產生額外費用。"
-
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "可用方式："
-
-msgid "IDS_MF_TMBODY_DATE_CREATED"
-msgstr "建立日期"
-
-msgid "IDS_MF_TMBODY_DESCRIPTION"
-msgstr "說明"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "正在轉寄"
@@ -1423,29 +523,14 @@ msgstr "解析度"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "總大小"
 
-msgid "IDS_MF_TMBODY_VALIDITY"
-msgstr "有效性"
-
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "目的地資料夾為來源資料夾的子資料夾。"
-
-msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "目的地資料夾與來源資料夾相同。"
-
-msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
-msgstr "無法新增捷徑。"
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "無法複製項目。"
 
-msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "無法刪除項目。"
-
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "無法移動項目。"
-
-msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "無法移除項目。"
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "檔案名稱已被使用"
@@ -1459,23 +544,17 @@ msgstr "捷徑已新增。"
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "捷徑已存在"
 
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "重新整理"
-
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "將刪除%d 個項目。"
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "將解除安裝 %d 個應用程式。"
 
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "將會移除 %s。"
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "下載完成"
 
-msgid "IDS_MF_BODY_SIZE"
-msgstr "大小"
-
-msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "清單檢視"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "儲存位置"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "資料夾名稱已被使用。"
@@ -1483,23 +562,11 @@ msgstr "資料夾名稱已被使用。"
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "本機儲存空間"
 
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "裝置儲存空間"
-
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "尚未登入。"
 
-msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "所有檔案"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "雲端儲存"
-
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "順序"
-
-msgid "IDS_MF_OPT_SHORTCUTS"
-msgstr "捷徑"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "時間"
@@ -1507,44 +574,32 @@ msgstr "時間"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "解除安裝"
 
-msgid "IDS_MF_BODY_CONTAINS"
-msgstr "包含"
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "確定"
 
-msgid "IDS_MF_BODY_NO_FACE_DETECTED"
-msgstr "未偵測到臉部"
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "全選"
 
-msgid "IDS_MF_BUTTON2_AUDIO"
-msgstr "Audio"
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "下載"
 
-msgid "IDS_MF_POP_ALREADY_EXISTS"
-msgstr "已存在。"
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "今天"
 
-msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "無法移動。目標資料夾與來源資料夾相同。"
-
-msgid "IDS_MF_SK3_CREATE_FOLDER"
-msgstr "建立資料夾"
-
-msgid "IDS_MF_SK3_MORE"
-msgstr "查看更多"
-
-msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "移到這裡"
-
-msgid "IDS_MF_SK3_PASTE_HERE"
-msgstr "複製到這裡"
-
-msgid "IDS_PB_SK_SET"
-msgstr "設定"
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "昨天"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "裝置上沒有任何支援該檔案類型的應用程式。"
 
-msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "將刪除 %d 個檔案。"
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "未知錯誤。"
 
-msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "已傳送檔案"
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "系統"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "完成"
@@ -1555,53 +610,11 @@ msgstr "取消"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "刪除"
 
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "重新命名"
-
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "選取項目"
 
-msgid "IDS_MF_NPBODY_NO_UPLOADS"
-msgstr "無上傳檔案"
-
-msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "項目上傳後，將顯示於此。"
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "設定"
-
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "無法儲存資料"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD 卡上的空間不足。前往設定 > 電力與儲存空間 > 儲存空間來刪除部分檔案，然後重試。"
-
-msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "裝置儲存空間中的空間不足。前往設定 > 電力與儲存空間 > 儲存空間來刪除部分檔案，然後重試。"
-
-msgid "IDS_MF_POP_ERROR"
-msgstr "錯誤"
-
-msgid "IDS_MF_OPT_ALLSHARE"
-msgstr "數位連結中心"
-
-msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "記憶體已滿"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "將自 Dropbox 刪除 1 個項目。"
-
-msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "將自 Dropbox 刪除 %d 個項目。"
-
-msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "行動數據已關閉。連接至 Wi-Fi 網路或開啟行動數據並重試。"
-
-msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "設定"
-
-msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "個人儲存空間"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "路徑"
@@ -1612,23 +625,8 @@ msgstr "已達字元數量上限  %d"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "選擇儲存裝置"
 
-msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
-msgstr "下載歷程記錄"
-
-msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
-msgstr "下載歷程記錄"
-
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "正在下載…"
-
-msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
-msgstr "下載內容"
-
-msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
-msgstr "無下載"
-
-msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "下載失敗"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "到期日：%s"
@@ -1636,30 +634,114 @@ msgstr "到期日：%s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "到期日：%s"
 
-msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "檔案下載失敗"
-
-msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "請重新嘗試下載檔案，或從下載佇列中移除。"
-
-msgid "IDS_MF_BUTTON_RETRY_ABB2"
-msgstr "重試"
-
-msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "移除"
-
-msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "類別"
-
-msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
-msgstr "資料夾名稱已被使用"
-
-msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "此檔名已存在"
-
-msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "此檔案名稱 (%s) 已被目的地資料夾使用。"
-
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "此資料夾名稱 (%s) 已被目的地資料夾使用。"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "刪除"
+
+msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
+msgstr "清除歷程記錄"
+
+msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
+msgstr "正在壓縮..."
+
+msgid "IDS_MF_BODY_EXTRACTING_ING"
+msgstr "擷取中..."
+
+msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
+msgstr "從 ZIP 檔案解壓縮項目"
+
+msgid "IDS_MF_BODY_NEW_FOLDER_PD"
+msgstr "新資料夾 %d"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
+msgstr "資料夾名稱無法設為「.」或「..」。"
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "設定"
+
+msgid "IDS_MF_OPT_DETAILED_LIST"
+msgstr "詳細清單"
+
+msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
+msgstr "無法擷取項目"
+
+msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
+msgstr "空間不足"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
+msgstr "建立 zip 檔案"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "無記錄。"
+
+msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
+msgstr "不要再顯示"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "更多"
+
+msgid "IDS_CLOUD_BODY_CANCELLING_ING"
+msgstr "正在取消..."
+
+msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
+msgstr "無法執行動作"
+
+msgid "IDS_MF_BODY_FILE"
+msgstr "檔案"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "資料夾"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "資料夾"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "名稱"
+
+msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "您的裝置儲存空間不足。請前往 [設定] > [儲存空間與 RAM] > [儲存空間] > [詳細資料]，然後刪除部分檔案並重試。"
+
+msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "您的 SD 卡空間不足。請前往 [設定] > [儲存空間與 RAM] > [儲存空間] > [詳細資料]，然後刪除部分檔案並重試。"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "清單"
+
+msgid "IDS_MF_OPT_SIZE"
+msgstr "大小"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "將移除 1 個項目。"
+
+msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
+msgstr "資料夾名稱無法設為%s。"
+
+msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
+msgstr "檔案已遭刪除、移動或重新命名。輕觸 [下載] 來重新下載檔案，或輕觸 [移除] 來自下載歷程記錄移除。"
+
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "重新整理"
+
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "將會移除%s。"
+
+msgid "IDS_MF_BODY_SIZE"
+msgstr "大小"
+
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "裝置儲存空間"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "雲端儲存"
+
+msgid "IDS_PB_SK_SET"
+msgstr "設定"
+
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "重新命名"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "我的檔案"
 

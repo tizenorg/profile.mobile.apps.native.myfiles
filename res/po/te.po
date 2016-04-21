@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d విజయవంతం అయ్యాయి, %2$d విఫలం అయ్యాయి"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d విజయవంతమైంది"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "అన్ని అంశాలకు వర్తింపజేయి"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "డౌన్‌లోడ్‌కు సిద్ధం చేస్తోంది..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "మీ పరికరం Wi-Fi నెట్‌వర్క్‌కి అనుసంధానించబడలేదు. మొబైల్ నెట్‌వర్క్‌లకు అనుసంధానించడం వలన మీ చెల్లింపు ప్లాన్ ఆధారంగా అదనపు ఛార్జీలు వసూలు చేయవచ్చు."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "దీని ద్వారా భాగస్వామ్యం చేయి"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "దీని ద్వారా భాగస్వామ్యం చేయి"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "మొబైల్ డేటా ఆఫ్ చేయబడింది. బదులుగా Wi-Fi నెట్‌వర్క్‌కు కనెక్ట్ చేసి లేదా మొబైల్ డేటాను ఆన్ చేసి, మళ్లీ ప్రయత్నించండి."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "మెమరీ కార్డ్ తీసివేయబడింది."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d అంశాలు తొలగించబడతాయి."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "విజయం."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "ఈ అంశం తొలగిచబడుతుంది."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "డౌన్లోడ్ అవుతోంది..."
@@ -28,8 +22,50 @@ msgstr "డౌన్లోడ్ అవుతోంది..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "తగినంత మెమరీ లేదు."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "రద్దు అయింది."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "డౌన్లోడ్ అలభ్యం."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "విజయం."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "రూపొందించు"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "తొలగించబడింది."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "మెమరీ కార్డ్ తీసివేయబడింది."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "వెతుకుతోంది..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "నెట్‌వర్క్ కనెక్షన్ లోపం."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "ఫోల్డర్‌ను తొలగించు"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ఫోల్డర్ పేరును నమోదు చేయండి."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "డౌన్‌లోడ్ చేసిన అప్లికేషన్‌లు"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "నెట్‌వర్క్ కనెక్షన్ దోషం సంభవించింది. కాల్ ముగిసింది. నెట్‌వర్క్‌కి మళ్లీ కనెక్ట్ చేయాలా?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "సరే"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "సేవ్ చేయి"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "అవును"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "కాదు"
@@ -37,32 +73,122 @@ msgstr "కాదు"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "సత్వరమార్గాన్ని జోడించు"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "తొలగించు"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "సత్వరమార్గాన్ని తొలగించు"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "సత్వరమార్గానికి పేరు మార్చండి"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "శోధన"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "భాగస్వామ్యం చేయి"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "నిల్వ ఉపయోగం"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "మళ్లీ చూపించవద్దు"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "బైట్"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "సర్వర్‌కు కనెక్ట్ చేయడం సాధ్యం కాదు."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "ప్రైవేట్"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "ఫోల్డర్ పేరును నమోదు చేయండి."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "సత్వర మార్గాన్ని తీసివేయి"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "బ్యాటరీ తక్కువగా ఉంది"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 ఫైల్"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "నా ఆల్బమ్‌"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "దీని నుండి జోడించు"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "హెచ్చరికలు"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "ఏదైనా"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "లభ్యమయ్యే ఉపయోగాలు"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "బైట్"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "కంటెంట్స్"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "సృష్టిచిన తేదీ"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "తేదీ"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "కొన్ని ఐటమ్లను తొలగించవచ్చా?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "పత్రాలు"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "అమలుపరచుట"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "ఫైల్ పేరు"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "పెన్ రకం"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "ఫోల్డర్ పేరు"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "ఫార్వార్డ్ చేస్తోంది"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS సమాచారం"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS లాటిట్యూడ్"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS లాంగిట్యూడ్"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS వెర్షన్"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "చిత్రాలు"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "అసాధ్యం"
@@ -76,17 +202,68 @@ msgstr "విరామం"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "చివరిగా నవీకరించబడింది"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "జాబితా మరియు వివరాలు"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "స్థానం"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC డాటా ఇనిషియలైజింగ్..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "నా వీడియో క్లిప్‌లు"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "ఫోన్‌ మెమరీలో తగినంత మెమరీ లేదు. కొన్ని ఐటెమ్‌లను తొలగించండి మరియు మళ్ళీ ప్రయత్నించండి."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ఫైళ్లు లేవు"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "ఇటీవలి తెరిచిన ఫైల్‌లు లేవు"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "ఇటీవలి ఫైల్‌లు లేవు"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d ఫైళ్లు"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d ఐటెమ్"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d ఐటెమ్‌లు"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "సాధ్యం"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "ముద్రించు"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "పేరు మార్చు"
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "సరైన స్థితి"
 
-msgid "IDS_MF_OPT_SHARE"
-msgstr "భాగస్వామ్యం చేయి"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "రింగ్టోన్‌లు"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "పంచుకో"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "దాచిన ఫైళ్లును చూపండి"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "ధ్వనులు"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "నిల్వ ఉపయోగం"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "టైమ్"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "సమయానుకూల మొత్తం"
@@ -94,11 +271,35 @@ msgstr "సమయానుకూల మొత్తం"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "రకం"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "పరిమితంలేని"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "పైకి"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "వ్యాలిడిటీ"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "వెండర్"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "వీడియోలు"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "వాల్‌పేపర్‌లు"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "హోమ్‌కు జోడించండి"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "ఇక్కడకు ఎగుమతి చేయండి"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "నా ఫైళ్లకు వెళ్లండి"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "హోమ్"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "భర్తీ"
@@ -106,26 +307,92 @@ msgstr "భర్తీ"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "అన్ని ఫోల్డర్‌లను శోధించు"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "ఇక్కడ సెట్ చేయండి"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "ఆధునిక శోధన"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "ఆడియో"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "మొబైల్ నెట్‌వర్క్‌కి కనెక్ట్ చేయి"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi నెట్‌వర్క్‌‌కు అనుసంధానించండి"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "గణన"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "ఫోల్డర్ పేరును నమోదు చేయండి."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "లోకల్"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "కొత్త ఫోల్డర్"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "ఇటీవల ఫైళ్లు"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "ఫైల్‌ని తీసివేయి"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "సౌండ్ & షాట్ చిత్రాలను భాగస్వామ్యం చేయి"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "నిల్వచేయు"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "ఫోల్డర్‌ను సృష్టించడం సాధ్యం కాదు"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "అవును"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "అన్నింటినీ ఎన్నుకోండి"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "ఫోల్డర్ పేరు నమోదు చేయండి"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "సత్వరమార్గాలకు జోడించు"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "చిత్రం ఫైల్‌లు వలె"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "వీడియో ఫైళ్లు వలె"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "కాలర్ రింగ్టోన్"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "కుదించు"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "ఫోల్డర్‌ను రూపొందించు"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "తేదీ (చాలా ఇటీవల)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "తేదీ (పాత)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "కుదింపుని తీసివేయి"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "ఇక్కడ కుదింపుని తీసివేయి"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "డిఫాల్ట్ రింగ్‌టోన్"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "వివరంగా వీక్షణ"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "సవరించు"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "సంగ్రహించండి"
@@ -133,17 +400,56 @@ msgstr "సంగ్రహించండి"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "ప్రస్తుత ఫోల్డర్‌కు సంగ్రహించు"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "ఫోల్డర్‌కు వెళ్లు"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "ఫైల్ పొడిగింపును దాచు"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "అంశాలు"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "పేరు"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "దీని ద్వారా జాబితా చేయి"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "ఇక్కడకి తరలించు"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "పేరు"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "ఫైల్ స్థానాన్ని తెరవండి"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "సర్వర్‌కు కనెక్ట్ చేయడం సాధ్యం కాదు."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "వ్యక్తిగత పేజీ"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "ధ్వని రికార్డ్"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "పరిచయాలకు రిజిస్టర్"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "పేరుమార్చు"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "పేరు మార్చిన."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "ఫోల్డర్ పేరు మార్చు"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "ఇక్కడ సేవ్ చేయి"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "సమీపంలో ఉన్న పరికరాలు కోసం స్కాన్ చేయి"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "ఎంపికైంది"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "లింక్‌ని భాగస్వామ్యం చేయి"
@@ -151,14 +457,47 @@ msgstr "లింక్‌ని భాగస్వామ్యం చేయి"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "ఫైల్ పొడిగింపు చూపండి"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "విభజించు"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "దీని ద్వారా క్రమబద్ధీకరించు"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "థంబ్నెయిల్‌ వీక్షణ"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "ఈ క్రమంలో వీక్షించండి"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "జాబితా వారీ వీక్షణ"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "థంబ్నెయిల్ చే వీక్షణ"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "జిప్ చేయి"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ఐటెమ్ తొలగించబడుతుంది."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "ఆరోహణ క్రమంలో"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "తొలగించాలా?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "కొనసాగు"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "కాపీయింగ్ విఫలమైంది."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "తొలగింపు విఫలమైంది."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "ఎంచుకున్న ఐటెమ్‌ను తొలగించాలా?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "అవరోహణ క్రమంలో"
@@ -166,8 +505,35 @@ msgstr "అవరోహణ క్రమంలో"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM ఫైల్. పంపడం సాధ్యం కాదు."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM ఫైల్ లభ్యమవ్వట్లేదు."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "ఫైల్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "ఫోల్డర్ పేరు ఇప్పటికే ఉంది."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ఫార్మాట్"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "నుండి"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "టెక్స్ట్ను ఇన్పుట్ చేయండి"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "చెల్లని ఫైల్ పేరు."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "లోడ్ అవుతోంది..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "గరిష్ట ఫోల్డర్‌కు చేరుకున్నారు."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "తరలింపు విఫలమయింది."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "పేరు ఖాళీగా ఉంది."
@@ -178,116 +544,11 @@ msgstr "తగినంత ఎక్కువ మెమరీ లేదు."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "తగినంత మెమరీ లేదు. కొన్ని ఐటెమ్‌లను తొలగించండి మరియు మళ్ళీ ప్రయత్నించండి."
 
-msgid "IDS_MF_SK_OK"
-msgstr "సరే"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "తగినంత మెమరీ లేదు. %s అందుబాటులో ఉంది"
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "సత్వరమార్గల నుండి తీసివేయాలా?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "పంపడం విఫలమైంది."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "తొలగించు"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "గమ్య ఫోల్డర్ సోర్స్ ఫోల్డర్ యొక్క సబ్ ఫోల్డర్."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "గమ్య ఫోల్డర్ సోర్స్ ఫోల్డర్ వలె ఉంది."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "శోధన"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "కాపీ చేయడం సాధ్యం కాదు."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "తరలించడం సాధ్యం కాదు."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "సెట్టింగులు"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "ఈ చర్యను అమలు చేయడం సాధ్యం కాదు. నెట్‌వర్క్ దోషం సంభవించింది."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "టైమ్"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "పరిమితంలేని"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "బాహ్య నిల్వ"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "మెమరీ కార్డ్"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "వీడియోలు"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "ఫైళ్లు కుదించబడ్డాయి"
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "ఫైళ్లు విస్తరించబడ్డాయి"
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "అన్నింటినీ ఎన్నుకోండి"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "పత్రాలు"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "చిత్రాలు"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "ఫైళ్లు లేవు"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "నిల్వ ఉపయోగం"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "ఈ ఫైల్ ఉనికిలో లేదు."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "వెనుకకు"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "అన్ని"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "ఫోల్డర్‌ను రూపొందించు"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "అంశాలు"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "కనెక్ట్"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "పేరు"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "దీని ద్వారా క్రమబద్ధీకరించు"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 ఐటెమ్ తొలగించబడుతుంది."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "తొలగింపు విఫలమైంది."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "ఫార్మాట్"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "ఇక్కడ అతికించు"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d ఐటమ్లు తొలగించబడతాయి."
@@ -295,8 +556,155 @@ msgstr "%d ఐటమ్లు తొలగించబడతాయి."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "అనుమతి నిరాకరించబడింది."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "ఇటీవలి ఫైల్‌ల జాబితా నుండి తీసివేయాలా?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "సత్వరమార్గల నుండి తీసివేయాలా?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "తొలగించాలా?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "ఇదే ఫైల్ పేరు ఇప్పటికే ఉనికిలో ఉంది!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "ఒకే పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "ఐటెమ్‌ను ఎంచుకోండి"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "పంపడం విఫలమైంది."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "సత్వరమార్గం జోడించబడింది."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "గమ్య ఫోల్డర్ సోర్స్ ఫోల్డర్ యొక్క సబ్ ఫోల్డర్."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "గమ్య ఫోల్డర్ సోర్స్ ఫోల్డర్ వలె ఉంది."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "పరికరం అనుసంధానం తీసివేయబడింది."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ఈ ఫైల్ ఉనికిలో లేదు."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "కాపీ చేయడం సాధ్యం కాదు."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "తరలించడం సాధ్యం కాదు."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "ఈ చర్యను అమలు చేయడం సాధ్యం కాదు. నెట్‌వర్క్ దోషం సంభవించింది."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "కాల్ సమయంలో ప్లే చేయడం సాధ్యం కాదు."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM సంరక్షిత కంటెంట్‌ను ఒక రింగ్‌చోన్ లేదా నోటిఫికేషన్ హెచ్చరిక వలె సెట్ చేయలేము."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "సమీపంలో ఉన్న పరికరాలను స్కాన్ చేయడం కోసం మీరు Wi-Fi నెట్‌వర్క్‌కి కనెక్ట్ చేయాలి. Wi-Fi ద్వారా కనెక్ట్ చేసి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "వెనుకకు"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "కాపీ"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "తొలగించు"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "సవరించు"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "తరలించు"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "శోధన"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "దీని ద్వారా క్రమబద్ధీకరించు"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "దీని వలె వీక్షించండి"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "రద్దు"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "రద్దు"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "వివరాలు"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "అన్ని"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "బాహ్య నిల్వ"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "మెమరీ కార్డ్"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "ఫోన్"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "పైకి"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "కుదించబడింది"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "కుదింపు తీసివేయబడింది"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "ఫైల్‌ను డౌన్‌లోడ్ చేస్తోంది..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "ఫైళ్లు కుదించబడ్డాయి"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "ఫైళ్లు విస్తరించబడ్డాయి"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "ఫైల్ దిగుమతి చేయబడింది."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "పరికరాలేవీ గుర్తించబడలేదు. నేపథ్యంలో స్కానింగ్ కొనసాగుతుంది."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "డెరెక్టరీ"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "కనెక్ట్"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "డిఫాల్ట్ నోటిఫికేషన్ ధ్వని"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "సత్వరమార్గం జోడించు"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "ఐటెమ్‌లను తొలగించచ్చా?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "పేరు మార్చు"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "తొలగించు"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "ఐటెమ్‌ను తొలగించు"
@@ -307,11 +715,23 @@ msgstr "ఐటమ్‌లను ఎంచుకోండి"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "ఫలితాలు కనుగొనబడలేదు"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "%d ఐటెమ్‌లను తొలగించాలా?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "ఐటెమ్‌ను తొలగించచ్చా?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 ఐటెమ్‌ ఎంచుకోబడింది."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "చెల్లని అక్షరం నమోదు చేయబడింది. మళ్లీ ప్రయత్నించండి."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "డౌన్లోడ్ ప్రారంభమవుతోంది..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d ఐటెమ్‌లు ఎంపికైనవి."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "నిశ్శబ్దం"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "ఐటెమ్‌ను ఎంచుకోండి"
@@ -319,11 +739,32 @@ msgstr "ఐటెమ్‌ను ఎంచుకోండి"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "మీరు %d ఐటెమ్ల వరకు ఎంచుకోవచ్చు."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "డౌన్లోడ్‌లు"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "తొలగించాలా?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "తరలించు"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "కాపీ"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "తరలిస్తోంది..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "కాపీ అవుతోంది..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "తొలగిస్తోంది..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "ఆపరేషన్ విఫలమైంది."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "ఎంపికైంది"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "తరలించబడింది."
@@ -331,35 +772,143 @@ msgstr "తరలించబడింది."
 msgid "IDS_MF_POP_COPIED"
 msgstr "కాపీ అయింది."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "దీని ద్వారా క్రమబద్ధీకరించు"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "విఫలమైనది."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "పూర్తయింది"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD కార్డ్"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "పరికరం మెమరీ"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "మీ వ్యక్తిగత నిల్వకు జోడించండి"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "వ్యక్తిగత నిల్వ నుండి తీసివేయండి"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "ఈ అంశాన్ని తొలగించాలా?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "ప్రైవేట్ నుండి తీసివేయి"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "ప్రైవేట్‌కు తరలించు"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "డౌన్లోడ్‌లు"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "తొలగిస్తోంది..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "విఫలమైనది."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD కార్డ్"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "అక్షరాల గరిష్ఠ సంఖ్యకు చేరుకున్నారు."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "తొలగిస్తున్నది..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "వ్యక్తిగత నిల్వ"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "ఫార్మాట్ పూర్తయింది."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "పేరు (Z నుండి Aకు)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "పేరు (A నుండి Zకు)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "స్క్రీన్‌ను సంగ్రహించు"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "ఫలితాలు దొరకలేదు."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "సందేశం హెచ్చరిక"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "వివరాలు"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "పేరు నమోదు చేయండి."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "నా ఫైళ్లు"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "ఏదీ ఎంపిక కాలేదు."
+msgid "IDS_MF_POP_ADDED"
+msgstr "జోడించబడింది."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "ప్రాసెస్ చేస్తోంది..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "మద్దతులేని ఫైల్ రకం."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "తొలగించాలా?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "ప్రైవేట్ కంటెంట్"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "దీనికి కాపీ"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "దీనికి తరలించు"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "సత్వరమార్గాన్ని జోడించడంలో విఫలమైంది."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "తగినంత మెమరీ లేదు. కొన్ని ఐటెమ్‌లను తొలగించు."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "తొలగించబడినది."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "ప్రైవేట్ నిల్వ"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "ఏదీ ఎంపిక కాలేదు."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "పంచు"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "దీని వలె వీక్షిం."
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "జాబితా"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "వీక్షణ"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "ఇలా సేవ్ చే."
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "వైఫల్యమైనది తొలగింపు."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "డ్రాప్‌బాక్స్"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "పేరెంట్ రేటింగ్"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "ఫైల్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "వాయిస్"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi అందుబాటులో లేదు. మొబైల్ నెట్‌వర్క్‌లకు అనుసంధానించడం వలన మీ చెల్లింపు ప్లాన్ ఆధారంగా అదనపు చార్జీలు వసూలు చేయబడవచ్చు."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "అక్షరాల గరిష్ట సంఖ్యను (%d) చేరుకున్నారు."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "సిద్ధం అవుతోంది..."
@@ -367,8 +916,20 @@ msgstr "సిద్ధం అవుతోంది..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ఎన్నుకోబడింది"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "అంశాలను తొలగించు"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "డౌన్లోడ్‌లు లేవు"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "డౌన్‌లోడ్ పూర్తయింది"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "డౌన్‌లోడ్ మేనేజర్"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "మీరు ఐటెమ్‌లను డౌన్‌లోడ్ చేసిన తర్వాత, అవి ఇక్కడ చూపబడతాయి."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "డౌన్‌లోడ్ రద్దు చేయబడింది"
@@ -397,11 +958,14 @@ msgstr "డిఫాల్ట్ నిల్వ నిండింది"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "పాతది"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "వివరాలు"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "నిల్వచేయు"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "ప్రాసెస్ చేస్తోంది..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "తొలగిస్తున్నది..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD కార్డ్"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "పరికర నిల్వ"
@@ -409,20 +973,86 @@ msgstr "పరికర నిల్వ"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "సర్వర్‌ని గుర్తిస్తోంది..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d ఐటమ్లు తొలగించబడతాయి."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "ఈ ఫైల్ కనుగొనబడలేదు. దీన్ని మళ్లీ డౌన్‌లోడ్ చేయడాన్ని ప్రయత్నించడానికి డౌన్‌లోడ్ చేయిని ట్యాప్ చేయండి."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ఫైల్‌ని తెరవడం సాధ్యం కాదు"
 
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "ఈ ఫైల్‌ను తెరవడానికి అప్లికేషన్‌ని కనుగొనడం సాధ్యం కాదు."
+
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "మళ్లీ ప్రయత్నించడానికి “డౌన్‌లోడ్” చేయిని ట్యాప్ చేయండి."
+msgstr "మళ్లీ ప్రయత్నించడానికి డౌన్‌లోడ్ చేయిని ట్యాప్ చేయండి."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 ఐటెమ్ తొలగించబడుతుంది."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM కంటెంట్‌ను సక్రియం చేస్తోంది..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "ఈ చర్యని అమలు చేయడానికి అప్లికేషన్‌ని కనుగొనడం సాధ్యం కాదు."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "నిల్వ స్థానం"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "దిగుమతి చేయి"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
 
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "రద్దు చేయి"
 
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "సరే"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "అన్నింటినీ ఎన్నుకోండి"
+
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ఎంచుకోబడ్డారు"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "డౌన్‌లోడ్ చేయి"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "ఈరోజు"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "నిన్నటి రోజు"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "తొలగించు"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "భర్తీ చేయి"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "అన్ని అంశాలకు వర్తింపజేయి"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "zip ఫైల్‌ని సృష్టించండి"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "జిప్ ఫైల్‌ను సంగ్రహించండి"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "నా ఫైల్"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "వెబ్"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "డౌన్‌లోడ్ చరిత్ర"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "చరిత్ర లేదు"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "సరళమైన భాగస్వామ్యం"
@@ -445,11 +1075,74 @@ msgstr "ఈ అంశాలను తరలించడం ద్వారా �
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "ఈ అంశాన్ని తరలించడం ద్వారా ఇది డ్రాప్‌బాక్స్ నుండి తొలగించబడుతుంది. 1 అంశం తరలించబడుతుంది."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "నిల్వ స్థానాన్ని ఎంచుకోండి"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "ఆపివేయి"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "అప్‌లోడ్"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "ఫైల్‌ను అప్‌లోడ్ చేయడం విఫలమైంది"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "అప్‌లోడ్‌లను ఆపివేయి"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "మళ్లీ ప్రయత్నించడానికి అప్‌లోడ్ చేయి ట్యాప్ చేయండి."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "అప్‌లోడ్ ఆపివేయబడుతుంది, కానీ ఫైల్ తొలగించబడదు."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "ఇటీవల వీక్షించినవి"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "డేటాని సేవ్ చేయడం సాధ్యం కాదు"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "మీ పరికర నిల్వలో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > శక్తి మరియు నిల్వ > నిల్వకు వెళ్లి, ఆపై కొన్ని ఫైల్‌లను తొలగించి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "మీ SD కార్డ్‌లో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > శక్తి మరియు నిల్వ > నిల్వకు వెళ్లి, ఆపై కొన్ని ఫైల్‌లను తొలగించి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "దీనికి అప్‌లోడ్ చేయండి"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "డ్రాప్‌బాక్స్ అప్‌లోడ్‌లు"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "ప్రైవేట్"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "బైట్లు"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "జోడించు"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "హోమ్"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "అలారం"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "ఇతరులు"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "మరిన్ని"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "తెరుచు"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "తెలియని లోపం."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "ఫోల్డర్ పేరును ‘.’ లేదా ‘..’ వలె సెట్ చేయలేరు."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "దాచబడిన ఫైల్‌లను చూపవద్దు"
@@ -457,23 +1150,104 @@ msgstr "దాచబడిన ఫైల్‌లను చూపవద్దు"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "దాచిన ఫైల్‌లను చూపు"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "తెలియని"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "సత్వరమార్గం పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "ప్రాథమిక"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "ఫైల్"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "ఫైళ్లు"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "ఫోల్డర్"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "ఫోల్డర్‌లు"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "సిస్టమ్"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "పేరు"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "ఆడియో ఫైల్‌లు"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "పత్రాలు"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "డౌన్‌లోడ్ అయిన అప్లికేషన్‌లు"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "చిత్రాలు"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "వీడియోలు"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "రద్దు"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "రద్దు చేయి"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "సృష్టించండి"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "తొలగించు"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "సరే"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "తీసివేయి"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "పేరుమార్చు"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "అన్ఇన్‌స్టాల్ చేయండి"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "సత్వ. జోడించండి"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "ఆడియో ఫైల్‌లు"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "కాపీ చేయండి"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "దీనికి కాపీ చేయి"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "ఫోల్డర్‌ను సృష్టించండి"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "సత్వరమార్గాన్ని తొలగించు"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "వివరాలు"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "పత్రాలు"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "డౌన్‌లోడ్ అయిన అప్లికేషన్‌లు"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "చిత్రాలు"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "తరలించండి"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "దీనికి తరలించు"
@@ -481,7 +1255,43 @@ msgstr "దీనికి తరలించు"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ఎంచుకోబడ్డారు"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "ఇటీవలి ఫైల్‌లు"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "తీసివేయి"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "పేరు మార్చు"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "సత్వరమార్గాలు"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "దీని ద్వారా క్రమబద్ధీకరించు"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "అన్ఇన్‌స్టాల్ చేయండి"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "దీనికి అప్‌లోడ్ చేయండి"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "వీడియోలు"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "ఇలా వీక్షించండి"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "అన్నీ"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "డ్రాప్‌బాక్స్"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "డ్రాప్‌బాక్స్"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "సత్వరమార్గాలు"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "కలిగి ఉంటుంది"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "పరికర నిల్వ"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "డ్రాప్‌బాక్స్"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "ఫార్మాట్"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "స్థానం"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD కార్డ్"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "ఫైల్ పొడిగింపులను చూపు"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "దాచిన ఫైల్‌లను చూపు"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "పరిమాణం"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "రకం"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "విక్రేత"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "ఫైల్‌లు లేవు"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "ఆరోహణ క్రమంలో"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "కాపీ చేయి"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "ఫోల్డర్‌ను సృష్టించండి"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "అవరోహణ"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "వివరణాత్మక జాబితా"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "వివరాలు"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "మళ్లీ చూపవద్దు"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "ఫైల్ రకం"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "జాబితా"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "తరలించు"
@@ -502,14 +1366,50 @@ msgstr "తరలించు"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "తీసివేయి"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "పరిమాణం"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "టైమ్"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "రకం"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "అన్ఇన్‌స్టాల్ చేయి"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 ఐటమ్ తీసివేయబడుతుంది."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 సత్వరమార్గం తొలగించబడుతుంది."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "కాపీ అవుతోంది..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "తరలిస్తోంది..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d ఐటెమ్‌లు తీసివేయబడతాయి."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d సత్వరమార్గాలు తొలగించబడతాయి."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "తొలగిస్తున్నది..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "మీ చెల్లింపు ప్లాన్ ఆధారంగా రోమింగ్‌లో ఉన్నప్పుడు మొబైల్ డేటాను ఉపయోగించడం వల్ల అదనపు ఛార్జీలను చెల్లించాల్సి ఉండవచ్చు."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "అందుబాటులో ఉన్న ఉపయోగాలు"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "సృష్టించిన తేదీ"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "వివరణ"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "ఫార్వార్డ్ చేయడం"
@@ -523,14 +1423,29 @@ msgstr "స్పష్టత"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "మొత్తం పరిమాణం"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "చెల్లుబాటు"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "గమ్యం ఫోల్డర్ అనేది మూలం ఫోల్డర్ యొక్క ఉప ఫోల్డర్."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "గమ్యం ఫోల్డర్ మూలం ఫోల్డర్ వలె ఒకేలా ఉంది."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "సత్వరమార్గాన్ని జోడించడం విఫలమైంది."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "అంశాన్ని కాపీ చేయడం విఫలమైంది."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "అంశాన్ని తొలగించడం విఫలమైంది."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "అంశాన్ని తరలించడం విఫలమైంది."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "అంశాన్ని తీసివేయడం విఫలమైంది."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ఫైల్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
@@ -544,17 +1459,23 @@ msgstr "సత్వరమార్గం జోడించబడింది."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "త్వరితమార్గం ఇప్పటికే ఉంది."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "రిఫ్రెష్"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d అంశాలు తొలగించబడతాయి."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d అప్లికేషన్‌లు అన్ఇన్‌స్టాల్ చేయబడతాయి."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "డౌన్‌లోడ్ పూర్తయింది"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s తీసివెయ్యబడుతుంది."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "నిల్వచేయు"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "పరిమాణం"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "జాబితా వీక్షణ"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "ఫోల్డర్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
@@ -562,11 +1483,23 @@ msgstr "ఫోల్డర్ పేరు ఇప్పటికే ఉపయో
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "స్థానిక నిల్వ"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "పరికర నిల్వ"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "సైన్డ్ ఇన్ కాలేదు."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "అన్ని ఫైళ్లు"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "క్లౌడ్ నిల్వ"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "ఇతర"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "సత్వరమార్గాలు"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "సమయం"
@@ -574,32 +1507,44 @@ msgstr "సమయం"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "అన్ఇన్స్టాల్"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "సరే"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "కలిగివుండు"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "అన్నింటినీ ఎన్నుకోండి"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "ముఖం కనుగొనబడలేదు"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "డౌన్‌లోడ్ చేయి"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "ఈరోజు"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "ఇప్పటికే ఉంది."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "నిన్నటి రోజు"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "తరలించడం సాధ్యం కాదు. గమ్య ఫోల్డర్ సోర్స్ ఫోల్డర్ లాగా ఉంది."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "ఫోల్డర్‌ను రూపొందించు"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "మరిన్ని"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "ఇక్కడకు కదులు"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "ఇక్కడ అతికించు"
+
+msgid "IDS_PB_SK_SET"
+msgstr "సెట్ చేయి"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "ఈ ఫైల్ రకం మీ పరికరంలోని ఏ అప్లికేషన్ ద్వారా మద్దతివ్వబడదు."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "తెలియని లోపం."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d ఫైళ్లు తొలగించబడతాయి."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "తెలియని"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "సిస్టమ్"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "ఫైల్‌లు పంపబడ్డాయి"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "పూర్తయింది"
@@ -610,11 +1555,53 @@ msgstr "రద్దు చేయి"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "తొలగించు"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "పేరు మార్చు"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "అంశాన్ని ఎంచుకోండి"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "అప్‌లోడ్‌లు లేవు"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "మీరు అంశాలను అప్‌లోడ్ చేసిన తర్వాత, అవి ఇక్కడ చూపబడతాయి."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "సెట్టింగులు"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "డేటాని సేవ్ చేయడం సాధ్యం కాదు"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "మీ SD కార్డ్‌లో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > శక్తి మరియు నిల్వ > నిల్వకు వెళ్లి, ఆపై కొన్ని ఫైల్‌లను తొలగించి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "మీ పరికర నిల్వలో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > శక్తి మరియు నిల్వ > నిల్వకు వెళ్లి, ఆపై కొన్ని ఫైల్‌లను తొలగించి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "లోపం."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "మెమరీ నిండింది."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "డ్రాప్‌బాక్స్ నుండి 1 అంశం తొలగించబడుతుంది."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "డ్రాప్‌బాక్స్ నుండి %d అంశాలు తొలగించబడతాయి."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "మొబైల్ డేటా ఆఫ్ చేయబడింది. Wi-Fi నెట్‌వర్క్‌కి కనెక్ట్ చేసి లేదా మొబైల్ డేటాని ఆన్ చేసి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "వ్యక్తిగత నిల్వ"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "పాత్"
@@ -625,8 +1612,23 @@ msgstr "అక్షరాల గరిష్ట సంఖ్య %dని చే
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "నిల్వను ఎన్నుకోండి"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "డౌన్‌లోడ్ చరిత్ర"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "డౌన్‌లోడ్ చరిత్ర"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "డౌన్‌లోడ్ అవుతోంది..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "డౌన్‌లోడ్‌లు"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "డౌన్‌లోడ్‌లు లేవు"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "డౌన్‌లోడ్ విఫలమైంది"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "గడువు ముగిసే సమయం: %s"
@@ -634,114 +1636,30 @@ msgstr "గడువు ముగిసే సమయం: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "గడువు ముగింపు సమయం: %s"
 
-msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "ఈ ఫోల్డర్ పేరు (%s) ఇప్పటికే గమ్యస్థాన ఫోల్డర్‌లో ఉపయోగంలో ఉంది."
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "ఫైల్‌ను డౌన్‌లోడ్ చేయడం విఫలమైంది"
 
-msgid "IDS_DM_OPT_DELETE"
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "ఫైల్‌ను డౌన్‌లోడ్ చేయడానికి మళ్లీ ప్రయత్నించండి లేదా డౌన్‌లోడ్ వరుసక్రమం నుండి దీనిని తీసివేయండి."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "మళ్లీ ప్రయత్నిం."
+
+msgid "IDS_MF_BUTTON_REMOVE"
 msgstr "తొలగించు"
 
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "చరిత్రను క్లియర్ చేయి"
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "వర్గం"
 
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "కుదిస్తోంది..."
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "ఫోల్డర్ పేరు ఉపయోగంలో ఉంది"
 
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "సంగ్రహిస్తోంది..."
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "ఫైల్ పేరు ఉపయోగంలో ఉంది"
 
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "ZIP ఫైల్ నుండి అంశాలను సంగ్రహించండి"
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ఈ ఫైల్ పేరు (%s) ఇప్పటికే గమ్యస్థాన ఫోల్డర్‌లో ఉపయోగంలో ఉంది."
 
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "కొత్త ఫోల్డర్ %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "ఫోల్డర్ పేరుని ‘.’ లేదా ‘..’ వలె సెట్ చేయలేరు."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "సెట్టింగులు"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "వివరణాత్మక జాబితా"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "అంశాలను సంగ్రహించలేరు"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "తగినంత ఖాళీ లేదు"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "ZIP ఫైల్‌ను సృష్టించండి"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "చరిత్ర లేదు"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "మళ్లీ చూపవద్దు"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "మరిన్ని"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "రద్దు అవుతోంది..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "చర్య అమలు చేయబడదు"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "ఫైల్"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "ఫోల్డర్"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "ఫోల్డర్‌లు"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "పేరు"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "మీ పరికర నిల్వలో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > నిల్వ మరియు RAM > నిల్వ > వివరాలకు వెళ్లి, కొన్ని ఫైల్‌లను తొలగించి, ఆపై మళ్లీ ప్రయత్నించండి."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "మీ SD కార్డ్‌లో తగినంత ఖాళీ లేదు. సెట్టింగ్‌లు > నిల్వ మరియు RAM > నిల్వ > వివరాలకు వెళ్లి, కొన్ని ఫైల్‌లను తొలగించి, ఆపై మళ్లీ ప్రయత్నించండి."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "జాబితా"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "పరిమాణం"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 ఐటమ్ తీసివేయబడుతుంది."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "ఫోల్డర్ పేరును %s వలె సెట్ చేయలేరు."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "ఈ ఫైల్ తొలగించబడింది, తరలించబడింది లేదా పేరు మార్చబడింది. ఫైల్‌ను మళ్లీ డౌన్‌లోడ్ చేయడం కోసం “డౌన్‌లోడ్ చేయి” ట్యాప్ చేయండి లేదా “తీసివేయి ట్యాప్” చేయడం ద్వారా దీనిని డౌన్‌లోడ్ చరిత్ర నుండి తీసివేయండి."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "రిఫ్రెష్"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s తీసివెయ్యబడుతుంది."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "పరిమాణం"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "పరికర నిల్వ"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "క్లౌడ్ నిల్వ"
-
-msgid "IDS_PB_SK_SET"
-msgstr "సెట్ చేయి"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "పేరు మార్చు"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "నా ఫైల్"
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "ఈ ఫోల్డర్ పేరు (%s) ఇప్పటికే గమ్యస్థాన ఫోల్డర్‌లో ఉపయోగంలో ఉంది."
 

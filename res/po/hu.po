@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d sikeres, %2$d sikertelen"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d sikerült"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Az összes elemre érvényes"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Letöltés előkészítése..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Az eszköz nem kapcsolódik Wi-Fi hálózathoz. Mobilhálózati kapcsolat létesítése az előfizetési csomagtól függően további költséggel járhat."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Megosztás"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Megosztás"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "A mobil internetkapcsolat ki van kapcsolva. Kapcsolódjon Wi-Fi-hálózathoz, vagy kapcsolja be a mobil internetkapcsolatot, és próbálja újra."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Memóriakártya eltávolítva."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Töröl %d elemet."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Sikeres"
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Törli ezt az elemet."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Letöltés..."
@@ -28,8 +22,50 @@ msgstr "Letöltés..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Kevés a memória."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Megszakítva."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Sikertelen letöltés"
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Sikeres"
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Létrehoz"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Törölve."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Memóriakártya eltávolítva."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Keresés..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Hálózati kapcsolat hibája."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Mappa törlése"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Adja meg a mappa nevét."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Letöltött alk."
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Hálózati kapcsolódási hiba történt. A hívás befejeződött. Újból kapcsolódik a hálózathoz?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Ment"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Igen"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nem"
@@ -37,32 +73,122 @@ msgstr "Nem"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Parancsikon hozzáadása"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Törlés"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Parancsikon törlése"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Parancsikon átnevezése"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Keresés"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Megosztás"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Tárhelyhasználat"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ne jelenjen meg újra"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Bájt"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Nem lehet a szerverhez csatlakozni."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privát"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Adja meg a mappa nevét."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Parancsikon eltáv."
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Alacsony akkufeszültség"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 fájl"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Saját album"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Hozzáadás innen:"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Jelzések"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Bármely"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Lehetséges felhasználás"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Bájt"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Tartalom"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Létrehozás dátuma"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Dátum"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Törli a kiválasztott tételeket?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumentumok"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Végrehajt"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Fájlnév"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Fájltípus"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Mappa neve"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Továbbítás"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS-adatok"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS-szélesség"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS-hosszúság"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS-verzió"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Képek"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Nem lehetséges"
@@ -76,17 +202,68 @@ msgstr "Intervallum"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Legutóbbi módosítás"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Lista és részletek"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Hely"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-adatok inicializálása..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Saját videofelvételek"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Kevés a memória a telefonban. Töröljön néhány tételt, és próbálja újra."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Nincs fájl"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Nincs legutóbb megnyitott fájl"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "A legutóbbi fájlok listája üres"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d fájl"
+
 msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d tétel"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
 msgstr "%d tétel"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Lehetséges"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Nyomtatás"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Átnev."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Jogi státusz"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Csengőhangok"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Megosztás"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Rejtett fájlok megjelenítése"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Hangok"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Tárhelyhasználat"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Idő"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Időszámláló"
@@ -94,11 +271,35 @@ msgstr "Időszámláló"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Típus"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Korlátlan"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Fel"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Érvényesség"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Szállító"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videók"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Háttérképek"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Kezdőképernyőre"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Exportálás ide"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Saját fájlok megny."
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Kezdőkép."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Csere"
@@ -106,26 +307,92 @@ msgstr "Csere"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Ker. az összes mappában"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Beállítás ide"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Speciális keresés"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Hang"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Kapcsolódás mobilhálózathoz"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Kapcsolódás Wi-Fi hálózathoz"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Számláló"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Adja meg a mappa nevét."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Helyi"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Új mappa"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Legújabb fájlok"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Fájl eltávolítása"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Hangos képek megosztása"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Tárhely"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Nem lehet mappát létrehozni"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Igen"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Összes kijelölése"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Adja meg a mappa nevét"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Parancsikonok közé vétel"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Képfájlként"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Videofájlként"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Hívó csengőhangja"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Tömörítés"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Mappa létrehozása"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Dátum (legújabb)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Dátum (legrégebbi)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Kibontás"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Kibontás ide"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Alapértelmezett csengőhang"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Részletes nézet"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Szerkeszt"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Kibontás"
@@ -133,17 +400,56 @@ msgstr "Kibontás"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Kibontás az aktuális mappába"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Mappa megnyitása"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Kiterjesztés elrejtése"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Tétel"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Név"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Rendezés"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Áthelyezés ide"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Név"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Fájl helyének megnyitása"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Nem lehet a szerverhez csatlakozni."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Személyes oldal"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Hangfelvétel"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Rögzítés a Névjegyzékben"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Átnevezés"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Átnevezve."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Mappa átnevezése"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Mentés ide"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Közeli eszközök keresése"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Kiválasztott"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Hivatkozás megosztása"
@@ -151,14 +457,47 @@ msgstr "Hivatkozás megosztása"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Fájlkiterjesztés megjelenítése"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Kettéosztás"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Rendezés szempontja"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniatűrnézet"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Megtekintés"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Listanézet"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Megtekintés miniatűr képként"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Tömörítés"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Törölni fog 1 tételt."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Növekvő"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Törli?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Tovább"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "A másolás sikertelen."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Törlés sikertelen."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Törli a kiválasztott tételt?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Csökkenő"
@@ -166,8 +505,35 @@ msgstr "Csökkenő"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM-fájl. Küldés nem lehetséges."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "A DRM-fájl nem érhető el."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "A fájlnév már foglalt."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "A mappanév már létezik."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formátum"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Feladó"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Szöveg beírása"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Érvénytelen fájlnév"
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Betöltés..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Maximum mappaszám elérve."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Az áthelyezés sikertelen."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Név üres."
@@ -178,116 +544,11 @@ msgstr "Kevés a halommemória."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Kevés a memória. Töröljön tételeket, és próbálja újra."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Kevés a memória. A szabad memória %s."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Eltávolítja a Parancsikonokból?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Sikertelen küldés"
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Törlés"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "A célmappa a forrásmappa almappája."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "A célmappa azonos a forrásmappával."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Keresés"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Nem lehet átmásolni."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Nem helyezhető át."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Beállítások"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Nem lehet végrehajtani a műveletet. Hálózati hiba történt."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Idő"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Korlátlan"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Külső tároló"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Memória- kártya"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videók"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Fájlok tömörítve."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Fájlok kibontva."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Összes kijelölése"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumentumok"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Képek"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Nincs fájl"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Tárhelyhasználat"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "A fájl nem létezik."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Vissza"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Mind"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Mappa létrehozása"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Tétel"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Kapcsolód."
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Név"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Rendezés szempontja"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "Törölni fog 1 tételt."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Törlés sikertelen."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formátum"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Beillesztés ide"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d tételt törölni fog."
@@ -295,8 +556,155 @@ msgstr "%d tételt törölni fog."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Engedély megtagadva."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Eltávolítja a legutóbbi fájlok listájáról?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Eltávolítja a Parancsikonokból?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Törli?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Ugyanez a fájlnév már létezik!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Már van ilyen név."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Elem kiválasztása"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Sikertelen küldés"
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Parancsikon hozzáadva."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "A célmappa a forrásmappa almappája."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "A célmappa azonos a forrásmappával."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Eszköz leválasztva."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "A fájl nem létezik."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Nem lehet átmásolni."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Nem helyezhető át."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Nem lehet végrehajtani a műveletet. Hálózati hiba történt."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Hívás közben nem lehet lejátszani."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM-védett tartalom nem állítható be csengőhangként vagy értesítésként."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "A közeli eszközök kereséséhez Wi-Fi hálózati kapcsolat szükséges. Létesítsen Wi-Fi kapcsolatot, és próbálja újra."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Vissza"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Másol"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Töröl"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Szerkeszt"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Áthelyez"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Keres"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Rendezés szemp."
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Nézet"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Mégse"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Mégse"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Mind"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Külső tároló"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Memória- kártya"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefon"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Fel"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Tömörítve."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Kibontva."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Fájl letöltése..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Fájlok tömörítve."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Fájlok kibontva."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Fájl importálva."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Nem található eszköz. Folytatódik a közeli eszközök keresése."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Könyvtár"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Kapcsolód."
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Alapért. értesítési hang"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Gyorsgombot hozzáad"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Törli a tételeket?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Átnevez"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Eltávolít"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Tétel törlése"
@@ -307,11 +715,23 @@ msgstr "Tételek kijelölése"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Nincs találat"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Töröl %d elemet?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Törli a tételt?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 tétel kijelölve."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Érvénytelen karaktert vitt be. Próbálja újra"
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Letöltés indítása..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d tétel kijelölve."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Csendes"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Elem kiválasztása"
@@ -319,11 +739,32 @@ msgstr "Elem kiválasztása"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Legfeljebb %d tételt jelölhet ki."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Letöltések"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Törli?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Áthelyez"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Másol"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Áthelyezés..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Másolás..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Törlés..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Sikertelen művelet"
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Kiválasztott"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Áthelyezve."
@@ -331,35 +772,143 @@ msgstr "Áthelyezve."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Átmásolva."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Rendezés szempontja"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Sikertelen"
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Kész"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kártya"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Eszközmemória"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Személyes tárhelyhez adás"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Eltávolítás a személyes tárhelyről"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Törli a tételt?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Eltávolítás a Privátból"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Áthelyezés a Privátba"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Letöltések"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Törlés..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Sikertelen"
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kártya"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Nincs hely több karakternek."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Eltávolítás..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Személyes tárhely"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formázás kész."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Név (Z-től A-ig)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Név (A-tól Z-ig)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Képernyőfelvétel"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Nincs találat."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Üzenetjelzés"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Írja be a nevet."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Saját fájlok"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Semmi nincs kiválasztva."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Hozzáadva."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Feldolgozás folyamatban"
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "A fájltípus\nnem támogatott."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Törli?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Privát tartalom"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Másolás ide"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Áthelyezés ide"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nem sikerült hozzáadni a parancsikont."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Kevés a memória. Töröljön néhány tételt"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Törölve."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privát tárhely"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Semmi nincs kiválasztva."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Megosztás"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Nézet"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Lista"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Megnéz"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Mentés másként"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Az eltávolítás sikertelen."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Szülői értékelés"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "A fájlnév már foglalt."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Hang"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "A Wi-Fi nem elérhető. Mobilhálózati kapcsolat létesítése az előfizetéstől függően további költséggel járhat."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Elérte a karakterek maximális számát (%d)."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Előkész..."
@@ -367,8 +916,20 @@ msgstr "Előkész..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d kiválasztva"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Tételek törlése"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Nincsenek letöltések"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "A letöltés befejeződött"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Letöltéskezelő"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Itt jelennek majd meg a letöltött tételei."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Letöltés megszakítva"
@@ -397,11 +958,14 @@ msgstr "Az alapértelmezett tárhely megtelt"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Régebbi"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Részletek"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Tárhely"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Feldolgozás folyamatban"
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Eltávolítás..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD-kártya"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Eszköz tárhelye"
@@ -409,20 +973,86 @@ msgstr "Eszköz tárhelye"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Szerver értesítése..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d tételt törölni fog."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "A fájl nem található. A Letöltés megérintésével megpróbálhatja újból letölteni."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Nem lehet megnyitni a fájlt"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Nem található alkalmazás a fájl megnyitásához."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Érintse meg a Letöltés gombot az újabb próbálkozáshoz."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "Törölni fog 1 tételt."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM-tartalom aktiválása..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nem található alkalmazás a művelet végrehajtásához."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Mentési hely"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importálás"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Mégse"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Összes kijelölése"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d kijelölve"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Letöltés"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Ma"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Tegnap"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Törlés"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Csere"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Az összes elemre érvényes"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "ZIP-fájl létrehozása"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "ZIP-fájl kibontása"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Saját fájlok"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Letöltési előzmények"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Nincs előző oldal"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Egyszerű megosztás"
@@ -445,11 +1075,74 @@ msgstr "Az elemek áthelyezésével törli azokat a Dropboxból. %d elemet fog �
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Az elem áthelyezésével törli azt a Dropboxból. 1 elemet fog áthelyezni."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Mentési hely kiválasztása"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Leállítás"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Feltöltés"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Nem sik. feltölteni a fájlt"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Feltöltések leállítása"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Érintse meg a Feltöltés gombot az újabb próbálkozáshoz."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "A feltöltés leáll, de a fájl nem törlődik."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Legutóbb megtekintett"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Az adatok nem menthetők"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Nincs elég hely az eszköz tárhelyén. Válassza a Beállítások > Energia és tárhely > Tárhely pontot, töröljön fájlokat, majd próbálja újra."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Nincs elég hely az SD-kártyán. Válassza a Beállítások > Energia és tárhely > Tárhely pontot, töröljön fájlokat, majd próbálja újra."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Feltöltés célhelye"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox-feltöltések"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Magánbeszélgetés"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bájt"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Hozzáad"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Otthoni"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Jelzés"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Egyéb"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Egyebek"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Megnyitás"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Ismeretlen hiba"
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "„.” vagy „..” nem állítható be mappanévként."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Rejtett fájlok elrejtése"
@@ -457,23 +1150,104 @@ msgstr "Rejtett fájlok elrejtése"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Rejtett fájlok megjelenítése"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Ismeretlen"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Már van ilyen nevű parancsikon."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Alapvető"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fájl"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Fájlok"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mappa"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mappák"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Rendszer"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Név"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Hangfájlok"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokumentumok"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Letöltött alkalmazások"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Képek"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videók"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Mégse"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Mégse"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Létrehozás"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Törlés"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Eltávolítás"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Átnevezés"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Eltávolítás"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Par.ikon hozzáadása"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Hangfájlok"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Másolás"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Másolás ide"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Mappa létrehozása"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Parancsikon törlése"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokumentumok"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Letöltött alkalmazások"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Képek"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Áthelyezés"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Áthelyezés célhelye"
@@ -481,7 +1255,43 @@ msgstr "Áthelyezés célhelye"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d kijelölve"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Legutóbbi fájlok"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Eltávolítás"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Átnevezés"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Gyorsgombok"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Rendezés szempontja"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Eltávolítás"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Feltöltés célhelye"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Videók"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Megjelenítés módja"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Mind"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Par.ikonok"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Tartalom"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Eszköz tárhelye"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Formátum"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Hely"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD-kártya"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Kiterjesztés megjelenítése"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Rejtett fájlok megjelenít."
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Méret"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Típus"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Forgalmazó"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Nincs fájl"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Növekvő"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Másolás"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Mappa létrehozása"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Csökkenő"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Részletes lista"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ne jelenjen meg újra"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Fájl típusa"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Áthelyezés"
@@ -502,14 +1366,50 @@ msgstr "Áthelyezés"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Eltávolítás"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Méret"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Idő"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Típus"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Eltávolítás"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 tételt eltávolít."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Töröl 1 parancsikont."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Másolás..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Áthelyezés..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d tételt eltávolít."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d parancsikont törölni fog."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Eltávolítás..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Előfizetési csomagjától függően lehetséges, hogy a mobil internetkapcsolat roamingos használatáért további díjat kell fizetni."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Elérhető felhasználók"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Létrehozás dátuma"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Leírás"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Továbbítás"
@@ -523,14 +1423,29 @@ msgstr "Felbontás"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Teljes méret"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Érvényesség"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "A célmappa a forrásmappa almappája."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "A célmappa azonos a forrásmappával."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nem sikerült hozzáadni a parancsikont."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Nem sikerült átmásolni az elemet."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Nem sikerült törölni az elemet."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Nem sikerült áthelyezni az elemet."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Nem sikerült eltávolítani az elemet."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ilyen fájlnév már van."
@@ -544,17 +1459,23 @@ msgstr "Hozzáadta a parancsikont."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Már van ilyen parancsikon."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Frissítés"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Törölni fog %d elemet."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Eltávolít %d alkalmazást."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "A letöltés befejeződött"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "El fogja távolítani a(z) %s alkalmazást."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Tárhely"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Méret"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Lista- nézet"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Ilyen nevű mappa már van."
@@ -562,11 +1483,23 @@ msgstr "Ilyen nevű mappa már van."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Helyi tároló"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Eszk. tárhelye"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Nincs bejelentkezve."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Minden fájl"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Felhőtároló"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Sorrend"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Gyorsgombok"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Idő"
@@ -574,32 +1507,44 @@ msgstr "Idő"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Eltávolítás"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Tartalmazott elem"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Összes kijelölése"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Nincs észlelt arc"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Letöltés"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Ma"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Már létezik."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Tegnap"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Nem lehet áthelyezni. A célmappa azonos a forrásmappával."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Mappát létrehoz"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Egyebek"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Áthelyez ide"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Beilleszt ide"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Beállít"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Az eszköz egyetlen alkalmazása sem támogatja ezt a fájltípust."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Ismeretlen hiba"
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Törölni fog %d fájlt."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Ismeretlen"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Rendszer"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Elküldött fájlok"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "KÉSZ"
@@ -610,11 +1555,53 @@ msgstr "MÉGSE"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "TÖRLÉS"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Átnevez"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Vál. ki egy elemet"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Nincs feltöltés"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Itt jelennek majd meg a feltöltött elemek."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Beállítások"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Az adatok nem menthetők"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Nincs elég hely az SD-kártyán. Válassza a Beállítások > Energia és tárhely > Tárhely pontot, töröljön fájlokat, majd próbálja újra."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Nincs elég hely az eszköz tárhelyén. Válassza a Beállítások > Energia és tárhely > Tárhely pontot, töröljön fájlokat, majd próbálja újra."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Hiba"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Memória megtelt."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Töröl 1 elemet a Dropboxból."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Töröl %d elemet a Dropboxból."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "A mobil internetkapcsolat ki van kapcsolva. Kapcsolódjon Wi-Fi hálózathoz, vagy kapcsolja be a mobil internetkapcsolatot, és próbálja újra."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Személyes tárhely"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Útvonal"
@@ -625,8 +1612,23 @@ msgstr "Elérte a karakterek maximális számát (%d)."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Tárhely kiválasztása"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Letöltési előzmények"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Letöltési előzmények"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Letöltés..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Letöltések"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Nincsenek letöltések"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Sikertelen letöltés"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Elévül: %s"
@@ -634,114 +1636,30 @@ msgstr "Elévül: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Elévült: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Nem sikerült letölteni a fájlt"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Próbálja újból letölteni a fájlt, vagy távolítsa el a letöltési sorból."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Újra"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Eltávolítás"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategória"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Ilyen nevű mappa már van"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Ugyanez a fájlnév már létezik!"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Ilyen nevű (%s) fájl már van a célmappában."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ilyen nevű (%s) mappa már van a célmappában."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Törlés"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Előzmények törlése"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Tömörítés..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Kibontás..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "ZIP-fájl elemeinek kibontása"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Új mappa %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "„.” vagy „..” nem állítható be mappanévként."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Beállítások"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Részletes lista"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Nem bonthatók ki az elemek"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Nincs elég hely"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "ZIP-fájl létrehozása"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Nincs előző oldal"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Ne jelenjen meg újra"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Egyebek"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Megszakítás..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "A művelet nem hajtható végre"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fájl"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Mappa"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Mappák"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Név"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Nincs elég szabad terület az eszköz tárhelyén. Válassza a Beállítások > Tárhely és RAM > Tárhely > Részletek pontot, töröljön néhány fájlt, majd próbálja újra."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Nincs elég szabad terület az SD-kártyán. Válassza a Beállítások > Tárhely és RAM > Tárhely > Részletek pontot, töröljön néhány fájlt, majd próbálja újra."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Lista"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Méret"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 tételt eltávolít."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "%s nem állítható be mappanévként."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "A fájlt törölték, áthelyezték vagy átnevezték. A Letöltés gomb megérintésével újból letöltheti a fájlt, az Eltávolítás gombbal pedig törölheti a fájlt a letöltési előzményekből."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Frissítés"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "El fogja távolítani a(z) %s alkalmazást."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Méret"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Eszk. tárhelye"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Felhőtároló"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Beállít"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Átnevez"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Saját fájlok"
 

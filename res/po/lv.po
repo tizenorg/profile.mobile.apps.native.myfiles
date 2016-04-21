@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d izdevās, %2$d neizdevās"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d izdevās"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Lietot visiem objektiem"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Sagatavojas lejupielādei..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Ierīce nav savienota ar Wi-Fi tīklu. Savienojuma izveide ar mobilo sakaru tīklu var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Kopīgot, izmantojot"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Kopīgot, izmantojot"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobilie dati ir izslēgti. Izveidojiet savienojumu ar Wi-Fi tīklu vai ieslēdziet mobilos datus un mēģiniet vēlreiz."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Atmiņas karte izņemta."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Tiks izdzēsti %d objekti."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Veiksmīgi"
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Šis objekts tiks izdzēsts."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Ielādē..."
@@ -28,8 +22,50 @@ msgstr "Ielādē..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Atmiņa pilna."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Atcelts."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Lejupielāde neizdevās."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Veiksmīgi"
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Izveidot"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Izdzēsts."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Atmiņas karte izņemta."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Meklē..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Tīkla savienojuma kļūda."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Dzēst mapi"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Ievadiet mapes nosaukumu."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Lejupielādētās programmas"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Radās tīkla savienojuma kļūda. Zvans tika pārtraukts. Vai izveidot atkārtotu savienojumu ar tīklu?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Saglabāt"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Jā"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nē"
@@ -37,32 +73,122 @@ msgstr "Nē"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Pievienot īsceļu"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Dzēst"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Dzēst īsceļu"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Pārdēvēt īsceļu"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Meklēt"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Iestatījumi"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Kopīgot"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Krātuves lietojums"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Vairs nerādīt"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Baits"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Nevar savienoties ar serveri."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privāts"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Ievadiet mapes nosaukumu."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Noņemt īsceļu"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Zems akumulatora līmenis"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 fails"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Mans albums"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Pievienot no"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Brīdinājumi"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Jebkurš"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Atlikušās lietošanas reizes"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Baits"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Saturs"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Izveidošanas datums"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Datums"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Vai dzēst atlasītos objektus?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumenti"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Izpildīt"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Faila nosaukums"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Tips"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Mapes nosaukums"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Pārsūtīšana"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS informācija"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS ģeogrāfiskais platums"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS ģeogrāfiskais garums"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS versija"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Attēli"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Nav iespējams"
@@ -76,17 +202,68 @@ msgstr "Intervāls"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Pēdējo reizi mainīts"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Saraksts un dati"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Atrašanās vieta"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Tiek inicializēti MMC dati..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mani videoklipi"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Tālruņa atmiņā nepietiek vietas. Izdzēsiet dažus objektus un mēģiniet vēlreiz."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Nav failu"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Nav neviena nesen atvērta faila"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Nav nesen lietotu failu"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d faili"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d objekts"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d objekti"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Iespējams"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Drukāt"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Pārd."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Pareizais statuss"
 
-msgid "IDS_MF_OPT_SHARE"
-msgstr "Kopīgot"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Zvana signāli"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "Koplietot"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Rādīt slēptos failus"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Skaņas"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Krātuves lietojums"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Laiks"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Skaits ar laika uzskaiti"
@@ -94,11 +271,35 @@ msgstr "Skaits ar laika uzskaiti"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Veids"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Neierobežots"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Uz augšu"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Derīgums"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Piegādātājs"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Fona attēli"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Pievien. sākumam"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Eksportēt šeit"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Atv.mapi Mani faili"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Mājas"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Aizstāt"
@@ -106,26 +307,92 @@ msgstr "Aizstāt"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Meklēt visās mapēs"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Iestatīt šeit"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Papildu meklēšana"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Audio"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Savienojuma izveide ar mobilo tīklu"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Izveidot savienojumu ar Wi-Fi tīklu"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Skaits"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Ievadiet mapes nosaukumu."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Lokāls"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Jauna mape"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Jaunākie faili"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Noņemt failu"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Kop. skaņu un fotoatt."
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Krātuve"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Nevar izveidot mapi"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Jā"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Izvēlēties visu"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Ievadiet mapes nosaukumu"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Pievienot īsceļiem"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Kā attēlu failus"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Kā video failus"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Zvanītāja zvana signāls"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Saspiest"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Izveidot mapi"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Datums (jaunākās)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Datums (vecākās)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Atspiest"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Atspiest šeit"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Noklusējuma zvana signāls"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detalizēts skats"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Rediģēt"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Izvilkt"
@@ -133,17 +400,56 @@ msgstr "Izvilkt"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Izgūt pašreizējā mapē"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Atvērt mapi"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Slēpt faila paplaš."
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Objekti"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Vārds"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Kārtot pēc"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Pārvietot šeit"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Vārds"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Atv. faila atrašanās vietu"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Nevar savienoties ar serveri."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Privātā lapa"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Ierakstīt skaņu"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Reģistrēt kontaktos"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Pārdēvēt"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Pārdēvēts."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Pārdēvēt mapi"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Saglabāt šeit"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Meklēt tuv. esošās ierīces"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Izvēlēts"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Kopīgot saiti"
@@ -151,14 +457,47 @@ msgstr "Kopīgot saiti"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Rādīt faila paplašinājumu"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Atdalīt"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Kārtot pēc"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Sīktēlu skats"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Skatīt kā"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Skatīt pēc saraksta"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Skatīt sīktēlus"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Saspiest"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Tiks izdzēsts 1 objekts."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Augošā secībā"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Vai dzēst?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Turpināt"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Neizdevās kopēt."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Neizdevās izdzēst."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Vai izdzēst atlasīto objektu?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Dilstošā secībā"
@@ -166,8 +505,35 @@ msgstr "Dilstošā secībā"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM fails. Nevar nosūtīt."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM fails nav pieejams."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Faila nosaukums jau tiek lietots."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Mapes nosaukums jau pastāv."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formāts"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "No"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Ievadiet tekstu"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Nederīgs faila nosaukums."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Ielādē..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Sasniegts maksimālais mapes skaits."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Pārvietošana neizdevās."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Nosaukums ir tukšs."
@@ -178,116 +544,11 @@ msgstr "Nepietiekama sistēmas atmiņa."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Nepietiek atmiņas. Izdzēsiet dažus objektus un mēģiniet vēlreiz."
 
-msgid "IDS_MF_SK_OK"
-msgstr "Labi"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Nepietiek atmiņas. Pieejamā atmiņa: %s."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Vai noņemt no īsceļiem?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Neizdevās nosūtīt."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Dzēst"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Mērķa mape ir avota mapes apakšmape."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Mērķa mape ir tā pati, kas avota mape."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Meklēt"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Nevar kopēt."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Nevar pārvietot."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Iestatījumi"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Nevar veikt šo darbību. Radās tīkla kļūda."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Laiks"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Neierobežots"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Ārējā krātuve"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Atmiņas karte"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Video"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Faili ir saspiesti"
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Faili ir izvilkti"
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Izvēlēties visu"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumenti"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Attēli"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Nav failu"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Krātuves lietojums"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Šāda faila nav."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Atpakaļ"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Visas"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Izveidot mapi"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Objekti"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Savienot"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Vārds"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Kārtot pēc"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "Tiks izdzēsts 1 objekts."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Neizdevās izdzēst."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formāts"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Ielīmēt šeit"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d objekti tiks izdzēsti."
@@ -295,8 +556,155 @@ msgstr "%d objekti tiks izdzēsti."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Atļauja liegta."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Vai noņemt no jaunāko failu saraksta?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Vai noņemt no īsceļiem?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Vai noņemt?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Šāds faila nosaukums jau pastāv!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Šāds nosaukums jau tiek lietots."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Izvēlieties objektu"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Neizdevās nosūtīt."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Īsceļš ir pievienots."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Mērķa mape ir avota mapes apakšmape."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Mērķa mape ir tā pati, kas avota mape."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Ierīce ir atvienota"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Šāda faila nav."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Nevar kopēt."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Nevar pārvietot."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Nevar veikt šo darbību. Radās tīkla kļūda."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Sarunas laikā nevar veikt atskaņošanu."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Saturu, kas aizsargāts ar DRM, nevar iestatīt kā zvana signālu vai paziņojuma signālu."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Lai meklētu tuvumā esošās ierīces, ir jāizveido savienojums ar Wi-Fi tīklu. Izveidojiet savienojumu ar Wi-Fi tīklu un mēģiniet vēlreiz."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Atpakaļ"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopēt"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Dzēst"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Rediģēt"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Pārvietot"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Meklēt"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Kārtot pēc"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Skatīt kā"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Atcelt"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Atcelt"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Visas"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Ārējā krātuve"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Atmiņas karte"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Tālrunis"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Uz augšu"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Saspiests"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Atspiests"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Lejupielādē failu..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Faili ir saspiesti"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Faili ir izvilkti"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Fails ir importēts."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Nav atrasta neviena ierīce. Skenēšana tiks turpināta fonā."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Direktorijs"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Savienot"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Paziņojumu noklus. skaņa"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Pievienot īsceļu"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Vai dzēst objektus?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Pārdēvēt"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Iestatījumi"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Noņemt"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Dzēst objektu"
@@ -307,11 +715,23 @@ msgstr "Objektu izvēle"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Nav atrasts neviens rezultāts"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Vai izdzēst %d objektus?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Vai dzēst objektu?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "Ir izvēlēts 1 objekts."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Ievadīta nederīga rakstzīme. Mēģiniet vēlreiz"
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Sāk lejupielādi..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Ir izvēlēti %d objekti."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Klusums"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Izvēlieties vienumu"
@@ -319,11 +739,32 @@ msgstr "Izvēlieties vienumu"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Varat izvēlēties līdz pat %d objektiem."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Lejupielādes"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Vai dzēst?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Pārvietot"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopēt"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Pārvieto..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopē..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Dzēš..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Darbība neizdevās."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Izvēlēts"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Pārvietots."
@@ -331,35 +772,143 @@ msgstr "Pārvietots."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Nokopēts."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Kārtot pēc"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Neizdevās."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Gatavs"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD kartē"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Ierīces atmiņa"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Pievienot privātajai krātuvei"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Noņemt no privātās krātuves"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Vai izdzēst šo objektu?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Noņemt no mapes Privāti"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Pārvietot uz privāto krātuvi"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Lejupielādes"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Dzēš..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Neizdevās."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD kartē"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Sasniegts maksimālais rakstzīmju skaits."
 
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Noņem..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Personiskā krātuve"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formatēšana pabeigta."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Nosaukums (no Z līdz A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Nosaukums (no A līdz Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Ekrāna tvērums"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Nav atrasts neviens rezultāts."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Ziņas signāls"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Ievadiet vārdu."
+
 msgid "IDS_MF_HEADER_MYFILES"
-msgstr "Mani faili"
+msgstr "Mani Faili"
+
+msgid "IDS_MF_POP_ADDED"
+msgstr "Pievienots."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Notiek apstrāde..."
+
+msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
+msgstr "Neatbalstīts faila veids."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Vai noņemt?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Privāts saturs"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopēt uz"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Pārvietot uz"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Neizdevās pievienot īsceļu."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nepietiek atmiņas. Izdzēsiet dažus vienumus"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Noņemts."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privātā krātuve"
 
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Nekas nav izvēlēts."
 
-msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Neatbalstīts faila veids."
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Koplietot"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Skatīt kā"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Saraksts"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Skatīt"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Saglabāt kā"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Noņemšana neizdevās."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Vecāku novērtējums"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Faila nosaukums jau tiek lietots."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Balss"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi nav pieejams. Savienojuma izveide ar mobilajiem tīkliem var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Sasniegts maksimālais rakstzīmju skaits (%d)."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Sagatavo..."
@@ -367,8 +916,20 @@ msgstr "Sagatavo..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Izvēlēti: %d"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Dzēst objektus"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Nav lejupielāžu"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Lejupielāde pabeigta"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Lejupielāžu pārvaldn."
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Pēc objektu lejupielādes tie tiks parādīti šeit."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Lejupielāde ir atcelta"
@@ -397,11 +958,14 @@ msgstr "Noklusējuma krātuve ir pilna"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Vecāki"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Dati"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Krātuve"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Notiek apstrāde..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Noņem..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD karte"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Ierīces krātuve"
@@ -409,20 +973,86 @@ msgstr "Ierīces krātuve"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Paziņo serverim..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d objekti tiks izdzēsti."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Šis fails nav atrodams. Pieskarieties pie Lejupielādēt, lai lejupielādētu vēlreiz."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Nevar atvērt failu"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Nevar atrast programmu, ar ko atvērt šo failu."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Lai mēģinātu vēlreiz, pieskarieties pie Lejupielādēt."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "Tiks izdzēsts 1 objekts."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktivizē DRM saturu..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nevar atrast programmu, lai veiktu šo darbību."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Krātuves atrašanās vieta"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importēšana"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Atcelt"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Labi"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Izvēlēties visu"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "Izvēlēti %d"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Lejupielādēt"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Šodien"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Vakar"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Dzēst"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Aizstāt"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Lietot visiem objektiem"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Izveidot zip failu"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Izvilkt zip failu"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mani faili"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Lejupielādes vēsture"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Nav vēstures"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Vienkāršā kopīgošana"
@@ -445,11 +1075,74 @@ msgstr "Ja pārvietosit šos objektus, tie tiks izdzēsti no Dropbox krātuves. 
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Ja pārvietosit šo objektu, tas tiks izdzēsts no Dropbox krātuves. Tiks pārvietots 1 objekts."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Izvēlieties saglabāšanas vietu"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Pārtraukt"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Augšupielād."
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Neizdevās augšupielādēt failu"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Apturēt augšupielādes"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Pieskarieties pie Augšupielādēt, lai mēģinātu vēlreiz."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Augšupielāde tiks pārtraukta, taču fails netiks izdzēsts."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Pēdējie skatītie"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Nevar saglabāt datus"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ierīces krātuvē nepietiek vietas. Atveriet Iestatījumi > Enerģija un krātuve > Krātuve, izdzēsiet dažus failus un mēģiniet vēlreiz."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD kartē nepietiek vietas. Atveriet Iestatījumi > Enerģija un krātuve > Krātuve, izdzēsiet dažus failus un mēģiniet vēlreiz."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Kur augšupielādēt"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox augšupielādes"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Privāti"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "baiti"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Pievien."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Mājas"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Signāls"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Citi"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Citi"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Atvērt"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Nezināma kļūda."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Mapes nosaukums nevar būt ‘.’ vai ‘..’."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Nerādīt slēptos failus"
@@ -457,23 +1150,104 @@ msgstr "Nerādīt slēptos failus"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Rādīt slēptos failus"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Nezināms"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Īsceļa nosaukums jau tiek lietots."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Pamata"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fails"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Faili"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mape"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mapes"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistēma"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Vārds"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Audio faili"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokumenti"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Lejupielād. programmas"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Attēli"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videoklipi"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Atcelt"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Atcelt"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Izveidot"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Dzēst"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "Labi"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Noņemt"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Pārdēvēt"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Atinstalēt"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Pievienot īsceļu"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Audio faili"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopēt"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopēt uz"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Izveidot mapi"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Dzēst īsceļu"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokumenti"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Lejupielādētās programmas"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Attēli"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Pārvietot"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Pārvietot uz"
@@ -481,7 +1255,43 @@ msgstr "Pārvietot uz"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "Izvēlēti %d"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Jaunākie faili"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Noņemt"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Pārdēvēt"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Iestatījumi"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Īsceļi"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Kārtot pēc"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Atinstalēt"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Kur augšupielādēt"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Skatīt kā"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Visi"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Īsceļi"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Ietver"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Ierīces krātuve"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Formāts"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Atrašanās vieta"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD karte"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Rādīt failu paplašinājumus"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Rādīt slēptos failus"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Lielums"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Tips"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Nodrošinātājs"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Nav failu"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Augošā secībā"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopēt"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Izveidot mapi"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Dilstošā secībā"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Detalizēts saraksts"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Vairs nerādīt"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Faila veids"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Saraksts"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Pārvietot"
@@ -502,14 +1366,50 @@ msgstr "Pārvietot"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Noņemt"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Lielums"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Laiks"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Veids"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Atinstalēt"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "Tiks noņemts 1 objekts."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Tiks izdzēsts 1 īsceļš."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopē..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Pārvieto..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Tiks noņemti %d objekti."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Tiks izdzēsti %d īsceļi."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Noņem..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Mobilo datu lietošana viesabonēšanas laikā var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Pieejamie lietošanas veidi"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Izveides datums"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Apraksts"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Pārsūtīšana"
@@ -523,14 +1423,29 @@ msgstr "Izšķirtspēja"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Kopējais lielums"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Derīgums"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Mērķa mape ir avota mapes apakšmape."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Mērķa mape ir tā pati, kas avota mape."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Neizdevās pievienot īsceļu."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Neizdevās kopēt objektu."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Neizdevās izdzēst objektu."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Neizdevās pārvietot objektu."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Neizdevās noņemt objektu."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Faila nosaukums jau tiek lietots"
@@ -544,17 +1459,23 @@ msgstr "Īsceļš ir pievienots."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Šāds īsceļš jau pastāv"
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Atsvaidzināt"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Tiks izdzēsti %d objekti."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Tiks atinstalētas %d programmas."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Lejupielāde pabeigta"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s tiks atinstalēts."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Krātuve"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Lielums"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Saraksta skats"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Mapes nosaukums jau tiek lietots."
@@ -562,11 +1483,23 @@ msgstr "Mapes nosaukums jau tiek lietots."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Lokālā krātuve"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Ier. krātuve"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Nav veikta pierakstīšanās."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Visi faili"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Uzglabāšana mākonī"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Secība"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Īsceļi"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Laiks"
@@ -574,32 +1507,44 @@ msgstr "Laiks"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Atinstalēt"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "Labi"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Ietver"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Izvēlēties visu"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Neviena seja nav noteikta"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Lejupielādēt"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Šodien"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Jau pastāv."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Vakar"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Nevar pārvietot. Mērķa mape ir tāda pati kā avota mape."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Izveidot mapi"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Citi"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Pārvietot šeit"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Ielīmēt šeit"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Iestatīt"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Šī veida failu neatbalsta neviena no jūsu ierīces programmām."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Nezināma kļūda."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Tiks izdzēsti %d faili."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Nezināms"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Sistēma"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Nosūtītie faili"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "GATAVS"
@@ -610,11 +1555,53 @@ msgstr "ATCELT"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "DZĒST"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Pārdēvēt"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Izvēlēties objektu"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Nav augšupielāžu"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Pēc objektu augšupielādes tie tiks parādīti šeit."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Iestatījumi"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Nevar saglabāt datus"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD kartē nepietiek vietas. Atveriet Iestatījumi > Enerģija un krātuve > Krātuve, izdzēsiet dažus failus un mēģiniet vēlreiz."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ierīces krātuvē nepietiek vietas. Atveriet Iestatījumi > Enerģija un krātuve > Krātuve, izdzēsiet dažus failus un mēģiniet vēlreiz."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Kļūda."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Atmiņa pilna."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 objekts tiks izdzēsts no Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d objekti tiks izdzēsti no Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobilie dati ir izslēgti. Izveidojiet savienojumu ar Wi-Fi tīklu vai ieslēdziet mobilos datus un mēģiniet vēlreiz."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Iestatījumi"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Personiskā krātuve"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Ceļš"
@@ -625,8 +1612,23 @@ msgstr "Sasniegts maksimālais rakstzīmju skaits (%d)"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Izvēlēties krātuvi"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Lejupielādes vēsture"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Lejupielādes vēsture"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Lejupielādē..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Lejupielādes"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Nav lejupielāžu"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Lejupielāde neizdevās"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Derīguma termiņš beidzas: %s"
@@ -634,114 +1636,30 @@ msgstr "Derīguma termiņš beidzas: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Derīguma termiņš beidzās: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Neizdevās lejupielādēt failu"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Mēģiniet vēlreiz lejupielādēt failu vai noņemiet to no lejupielādes rindas."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Mēģ. vēl"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Noņemt"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategorija"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Mapes nosaukums tiek lietots"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Faila nosaukumu lieto"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Šis faila nosaukums (%s) jau tiek lietots mērķa mapē."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Šis mapes nosaukums (%s) jau tiek lietots mērķa mapē."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Dzēst"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Notīrīt vēsturi"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Saspiež..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Iegūst..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Izgūt objektus no ZIP faila"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Jauna mape %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Mapes nosaukums nevar būt “.” vai “..”."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Iestatījumi"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Detalizēts saraksts"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Nevar izgūt objektus"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Nepietiek vietas"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Izveidot ZIP failu"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Nav vēstures"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Vairs nerādīt"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Citi"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Atceļ..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Nevar veikt darbību"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fails"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Mape"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Mapes"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Vārds"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ierīces krātuvē nepietiek vietas. Izvēlieties Iestatījumi > Krātuve un RAM > Krātuve > Dati, pēc tam izdzēsiet dažus failus un mēģiniet vēlreiz."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD kartē nepietiek vietas. Izvēlieties Iestatījumi > Krātuve un RAM > Krātuve > Dati, pēc tam izdzēsiet dažus failus un mēģiniet vēlreiz."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Saraksts"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Lielums"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "Tiks noņemts 1 objekts."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Nevar iestatīt mapes nosaukumu %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Šis fails tika izdzēsts, pārvietots vai pārdēvēts. Pieskarieties pie Lejupielādēt, lai lejupielādētu failu vēlreiz, vai pie Noņemt, lai to noņemtu no lejupielāžu vēstures."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Atsvaidzināt"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s tiks atinstalēts."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Lielums"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Ier. krātuve"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Uzglabāšana mākonī"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Iestatīt"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Pārdēvēt"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mani faili"
 

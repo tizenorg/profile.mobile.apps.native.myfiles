@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d සාර්ථකයි, %2$d අසමත් විය"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d සාර්ථක විය"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "අයිතම සියල්ල වෙත යොදන්න"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "බාගැනීමට සූදානම් වෙමින්..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "ඔබගේ උපාංගය Wi-Fi ජාලයක් වෙත සබැඳී නැත. ඔබේ ගෙවීම් සැලැස්ම මත පදනම්ව ජංගම ජාලයකට සබැඳීම අතිරේක ගාස්තු අය වීමට හේතු විය හැක."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "හරහා බෙදාහදා ගන්න"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "හරහා බෙදාහදා ගන්න"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "ජංගම දත්ත ක්‍රියා විරහිතයි. ඒ වෙනුවට Wi-Fi ජාලයට සම්බන්ධ වන්න, නැතහොත් ජංගම දත්ත ක්‍රියාත්මක කර නැවත උත්සාහ කරන්න."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "ඉවත් කල මතකපත."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "අයිතම %d ක් මැකෙනු ඇත."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "සාර්ථකත්වය."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "මෙම අයිතමය මැකෙනු ඇත."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "බාගනිමින්..."
@@ -28,8 +22,50 @@ msgstr "බාගනිමින්..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "ප්‍රමාණවත් මතකයක් නොමැත."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "අවලංගු කෙරිණ."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "බාගැනීම අසාර්ථකයි."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "සාර්ථකත්වය."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "සාදන්න"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "මැකිණි."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "ඉවත් කල මතකපත."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "සොයමින්..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "ජාල සම්බන්ධතා දෝෂය."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "ෆෝල්ඩරය මකන්න"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "ෆෝල්ඩර නාමය ඇතුල් කරන්න."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "බාගත් යෙදුම්"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "ජාල සම්බන්ධතා දෝෂයක් මතුවිය. ඇමතුම අවසන් විය. නැවතත් ජාලයට සම්බන්ධ වන්නද?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "හරි"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "සුරකින්න"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "ඔව්"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "නැත"
@@ -37,32 +73,122 @@ msgstr "නැත"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "කෙටිමග එක් කරන්න"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "මකන්න"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "කෙටිමග මකන්න"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "කෙටිමග යළි නම් කරන්න"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "සොයන්න"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "සැකසුම්"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "බෙදාහදා ගන්න"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "ගබඩා භාවිතය"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "නැවත නොපෙන්වන්න"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "බයිට්"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "සර්වරයට සම්බන්ධ කිරීම අපහසුයි."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "පෞද්ගලික"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "ෆෝල්ඩර නාමය ඇතුල් කරන්න."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "කෙටිමඟ ඉවත් කරන්න"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "බැටරි මට්ටම අඩුයි"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "ගොනු 1"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "මගේ ඇල්බමය"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "ගෙන් එක් කරන්න"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "දැනුම්දීම්"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "ඕනෑම"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "පවතින ප්‍රයෝජන"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "බයිට්"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "අන්තර්ගතයන්"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "සාදන ලද දිනය"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "දිනය"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "තෝරාගත් අයිතම මකන්නද?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "ලේඛන"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "ක්‍රියාත්මක කරන්න"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "ගොනු නාමය"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "ගොනු ආකා."
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "ෆෝල්ඩර නාමය"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "යොමු කිරීම"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS තොරතුරු"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS අක්ෂාංශය"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS දේශාංශය"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS අනුවාදය"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "පින්තූර"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "විය නොහැකි"
@@ -76,17 +202,68 @@ msgstr "විවේකය"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "අවසන් වරට අලුත් කළේ"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "ලැයිස්තුව හා තොරතුරු"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "පිහිටීම"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC දත්ත අරඹමින්..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "මගේ දෘශ්‍ය පටි"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "දුරකථන මතකයේ ප්‍රමාණවත් මතකයක් නැත. අයිතම කීපයක් මකා නැවත උත්සහ කරන්න."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "ගොනු නොමැත"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "මැතකදී විවෘත කළ ගොනු නැත"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "මෑත කාලීන ගොනු නැත"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "ගොනු %d"
+
 msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "අයිතම %d"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
 msgstr "අයිතම %d"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "හැකි"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "මුද්‍රණය කරන්න"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "ප්‍රථිනම් කර."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "අයිති තත්ත්වය"
 
-msgid "IDS_MF_OPT_SHARE"
-msgstr "බෙදාහදා ගන්න"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "රිංග්ටෝන"
+
+msgid "IDS_MF_BODY_SHARE"
+msgstr "හුවමාරු කරන්න"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "සැඟවුනු ගොනු පෙන්වන්න"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "ශබ්දය"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "ගබඩා භාවිතය"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "වෙලාව"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "කාලගත ගණනය"
@@ -94,11 +271,35 @@ msgstr "කාලගත ගණනය"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "වර්ගය"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "අසීමිත"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "උඩ"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "වලංගු භාවය"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "ගනුදෙනුකරු"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "වීඩියෝ"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "බිතුපත්"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "මුල් පිටුවට එක් කරන්න"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "මෙතැනට නිර්යාත කරන්න"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "මගේ ගොනු වලට යන්න"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "මුල් පිටුව"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "ප්‍රතිස්."
@@ -106,26 +307,92 @@ msgstr "ප්‍රතිස්."
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "සියලු ෆෝල්ඩර්වල සොයන්න"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "මෙතැන සකසන්න"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "උසස් සෙවුම"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "ශ්‍රව්‍ය"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "ජංගම ජාලය වෙත සබඳින්න"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "‍Wi-Fi ජාලයක් වෙත සම්බන්ධ වන්න"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "ප්‍රමාණය"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "ෆෝල්ඩර නාමය ඇතුල් කරන්න."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "දේශීය"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "නව ෆෝල්ඩරය"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "මෑත ගොනු"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "ගොනුව ඉවත් කරන්න"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "හඬ සහ පහර ඡායාරූප හුව. ක."
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "ගබඩාව"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "ෆෝල්ඩරය තැනිය නොහැක"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "ඔව්"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "සියල්ල තෝරන්න"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "ෆෝල්ඩරයේ නම ඇතුල් කරන්න"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "කෙටිමං වෙත එක් කරන්න"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "රූප ගොනු ලෙස"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "වීඩියෝ ගොනු ලෙස"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "අමතන්නාගේ රිංග්ටෝනය"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "සම්පීඩනය"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "ෆෝල්ඩරයක් තනන්න"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "දිනය (වඩා මෑත)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "දිනය (පැරණිම)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "විසම්පීඩනය"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "මෙතනට විසම්පීඩනය කරන්න"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "පෙරනිමි රිංග්ටෝනය"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "විස්තරාත්මක දැක්ම"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "සංස්කරණය කරන්න"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "දිග හරින්න"
@@ -133,17 +400,56 @@ msgstr "දිග හරින්න"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "වර්තමාන ෆෝල්ඩරය වෙත දිග හරින්න"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "ෆෝල්ඩරය වෙත යන්න"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "ගොනු දිගුව සඟවන්න"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "අයිතම"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "නම"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "අනුව ලැයිස්තුගත කරන්න"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "මෙතනට ගෙන එන්න"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "නම"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "ගොනු පිහිටුම විවෘත කරන්න"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "සර්වරයට සම්බන්ධ කිරීම අපහසුයි."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "පුද්ගලික පිටුව"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "ශබ්දය සටහන් කරන්න"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "සබඳතා වෙත ලියාපදිංචි කරන්න"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "යළි නම් කරන්න"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "නැවත නම්කරන ලදී."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "ෆෝල්ඩරය නැවත නම් කරන්න"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "මෙතැන සුරකින්න"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "සමීපස්ථ උපාංග ස. පිරික්."
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "තෝරන ලදි"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "සබැඳිය බෙදාහදා ගන්න"
@@ -151,14 +457,47 @@ msgstr "සබැඳිය බෙදාහදා ගන්න"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "ගොනු දිගුව පෙන්වන්න"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "වෙන් කරන්න"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "මෙමගින් සුබෙදන්න"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "සංක්ෂිප්ත දැක්ම"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "ලෙස පෙන්වන්න"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "ලැයිස්තුව මගින් පෙන්වන්න"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "සංක්ෂිප්තව පෙන්."
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "අයිතම 1 ක් මැකෙනු ඇත."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "ආරෝහණ"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "මකන්නද?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "පවත්වාගෙන යන්න"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "පිටපත් කිරීම අසමත් විය."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "මැකීම අසාර්ථකයි."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "තෝරාගත් අයිතමය මකන්නද?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "අවරෝහණ"
@@ -166,8 +505,35 @@ msgstr "අවරෝහණ"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM ගොනුව. යැවිය නොහැක."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM ගොනුව නැත."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "ගොනු නාමය දැනටමත් භාවිතා වේ."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "ෆෝල්ඩර නාමය දැනටමත් පවතී."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "ආකෘතිය"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "යවන්නා"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "ආදාන පෙළ"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "අවලංගු ගොනු නාමය."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "ප්‍රෙව්ශනය කරමින්..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "උපරිම ෆෝල්ඩර ගණනට ලඟා විය."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "ගෙන යාම අසාර්ථකයි."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "නම හිස්."
@@ -178,116 +544,11 @@ msgstr "ප්‍රමාණවත් සමුහ මතකයක් නොම
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "ප්‍රමාණවත් මතකයක් නැත. අයිතම කීපයක් මකා නැවත උත්සහ කරන්න."
 
-msgid "IDS_MF_SK_OK"
-msgstr "හරි"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "ප්‍රමාණවත් මතකයක් නැත. %s ලබාගත හැක"
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "කෙටිමං වෙතින් ඉවත් කරන්නද?."
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "යැවීම අසාර්ථකයි."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "මකන්න"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "අවසන් ෆෝල්ඩරය මුලාශ්‍ර ෆෝල්ඩරයේ උප ෆෝල්ඩරය වේ."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "ඉලක්ක ෆෝල්ඩරය සහ මුල් ෆෝල්ඩරය සමානයි."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "සොයන්න"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "පිටපත් කළ නොහැක."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "ගෙන යා නොහැක."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "සැකසුම්"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "මෙම ක්‍රියාව සිදුකළ නොහැක. ජාල දෝෂයක් සිදු විය."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "වෙලාව"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "අසීමිත"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "බාහිර ගබඩාව"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "මතකපත"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "වීඩියෝ"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "ගොනු හකුළන ලදී"
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "ගොනු දිගහරින ලදී"
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "සියල්ල තෝරන්න"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "ලේඛන"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "පින්තූර"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "ගොනු නොමැත"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "ගබඩා භාවිතය"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "ගොනුව නොපවතී."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "ආපසු"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "සියල්ල"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "ෆෝල්ඩරයක් තනන්න"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "අයිතම"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "සම්බ. වීම"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "නම"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "මෙමගින් සුබෙදන්න"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "අයිතම 1 ක් මැකෙනු ඇත."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "මැකීම අසාර්ථකයි."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "ආකෘතිය"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "මෙහි අලවන්න"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "අයිතම %d මැකෙනු ඇත."
@@ -295,8 +556,155 @@ msgstr "අයිතම %d මැකෙනු ඇත."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "අවසරය ප්‍රතික්ෂේප විය."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "මෑතකාලීන ගොනු ලැයිස්තුව වෙතින් ඉවත් කරන්නද?."
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "කෙටිමං වෙතින් ඉවත් කරන්නද?."
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "ඉවත් කරන්න?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "සමාන ගොනු නාමයක් දැනටමත් පවතී!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "එකම නම දැනටමත් භාවිතයේ."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "අයිතමය තෝරන්න"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "යැවීම අසාර්ථකයි."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "කෙටිමග එක් කෙරිණි."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "අවසන් ෆෝල්ඩරය මුලාශ්‍ර ෆෝල්ඩරයේ උප ෆෝල්ඩරය වේ."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "ඉලක්ක ෆෝල්ඩරය සහ මුල් ෆෝල්ඩරය සමානයි."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "උපාංගය විසන්ධි වී ඇත."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "ගොනුව නොපවතී."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "පිටපත් කළ නොහැක."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "ගෙන යා නොහැක."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "මෙම ක්‍රියාව සිදුකළ නොහැක. ජාල දෝෂයක් සිදු විය."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "ඇමතුම අතරතුර වාදනය කළ නොහැක."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM ආරක්ෂිත අන්තර්ගත නාදරටාවක් හෝ දැනුම්දීම් සංඥාවක් ලෙස සැකසිය නොහැක."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "සමීපස්ථ උපාංග පිරික්සීම සඳහා ඔබ Wi-Fi ජාලයකට සබැඳිය යුතුය. Wi-Fi ඔස්සේ සබැඳී නැවත උත්සාහ කරන්න."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "ආපසු"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "පිටපත් කරන්න"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "මකන්න"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "සංස්ක. ක."
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "ගෙනයන්න"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "සොයන්න"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "පෙළගස්වන පිළිවෙළ"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "ලෙස පෙන්වන්න"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "අව. කර."
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "අව. ක."
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "විස්තර"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "සියල්ල"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "බාහිර ගබඩාව"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "මතකපත"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "දුරකථනය"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "ඉහළ"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "සම්පීඩිත"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "විසම්පීඩිත"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "ගොනුව බාගනිමින්..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "ගොනු හකුළන ලදී"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "ගොනු දිගහරින ලදී"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "ගොනුව ආයාත කෙ‍රිණි."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "උපාංග කිසිවක් හමු නොවිණි. පසුබිම තුළ පිරික්සීම දිගටම සිදුවනු ඇත."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "ඩිරෙක්ටරිය"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "සම්බ. වීම"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "පෙරනිමි දැනුම්දීම් හඬ"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "කෙටිමං එක් කරන්න"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "අයිතම මකන්නද?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "නැවත නම් කරන්න"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "සැකසුම්"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "ඉවත් කර."
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "අයිතමය මකන්න"
@@ -307,11 +715,23 @@ msgstr "අයිතම තෝරන්න"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "ප්‍රතිඵල හමු නොවිණි"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "අයිතම %d මකන්නද?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "අයිතමය මකන්නද?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "අයිතම 1 ක් තෝරා ඇත."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "වැරදි අකුරු ඇතුල් කර තිබේ. නැවත උත්සාහ කරන්න."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "බාගැනුම අරඹමින්..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "අයිතම %d ක් තෝරා ඇත."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "නිහඬ"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "අයිතමය තෝරන්න"
@@ -319,11 +739,32 @@ msgstr "අයිතමය තෝරන්න"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "ඔබට %d දක්වා අයිතම තේරිය හැකිය."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "බැගැනීම්"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "මකන්නද?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "ගෙනයන්න"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "පිටපත් ක."
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "ගෙනයමින්..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "පිටපත් වෙමින්..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "මකා දමමින්..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "මෙහෙයුම අසාර්ථකයි."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "තෝරන ලදි"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "ගෙන යැවිණි."
@@ -331,35 +772,143 @@ msgstr "ගෙන යැවිණි."
 msgid "IDS_MF_POP_COPIED"
 msgstr "පිටපත් විය."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "වශයෙන් වෙන් කරන්න"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "අසාර්ථකයි."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "නිමයි"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD කාඩ්පත"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "උපාංග මතකය"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "පුද්ගලික සංචිතයට එක් කරන්න"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "පුද්ගලික සංචිතයෙන් ඉවත් කරන්න"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "මෙම අයිතමය මකන්න ද?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "පෞද්ගලික වෙතින් ඉවත් කරන්න"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "පුද්ගලික වෙත ගෙන යන්න"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "බැගැනීම්"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "මකා දමමින්..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "අසාර්ථකයි."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD කාඩ්පත"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "උපරිම අක්ෂර ගණනට ලඟා විය."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "ඉවත් කරමින්..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "පුද්ගලික ගබඩාව"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "ෆෝමැට් කිරීම සම්පූර්ණ විය."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "නම (Z සිට A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "නම (A සිට Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "තිර ග්‍රහණය"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "ප්‍රතිඵල හමුවූයේ නැත."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "පණිවිඩ සංඥාව"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "විස්තර"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "නම ඇතුලත් කරන්න."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "මගේ ගොනු"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "කිසිවක් තෝරා නොමැත."
+msgid "IDS_MF_POP_ADDED"
+msgstr "එක් කෙරිණි."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "සකසමින්..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "සහාය නොලත් ගොනු වර්ගය."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "ඉවත් කරන්න?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "පෞද්ගලික අන්තර්ගතය"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "වෙත පිටපත් කරන්න"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "වෙත ගෙනයන්න"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "කෙටිමග එක් කිරීමට අසමත් විය."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "ප්‍රමාණවත් මතකයක් නොමැත. අයිතම කීපයක් මකා දමන්න."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "ඉවත් කෙරිණී."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "පෞද්ගලික සංචිතය"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "කිසිවක් තෝරා නොමැත."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "හුවමාරු ක."
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "ලෙස පෙ."
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "ලැයිස්තුව"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "පෙන්ව."
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "ලෙස සුර."
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "ඉවත් කිරීම අසාර්ථකයි."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "මවිපිය ඇගයුම"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "ගොනු නාමය දැනටමත් භාවිතා වේ."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "හඬ"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi නොමැත. ඔබේ ගෙවීම් සැලැස්ම අනුව ජංගම ජාල වෙත සම්බන්ධ වීමෙන් අතිරේක ගාස්තු අය වීමට ඉඩ තිබේ."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "උපරිම අනුලකුණු ගණන (%d) ළඟා වී තිබේ."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "පිළියෙළ කරමින්..."
@@ -367,8 +916,20 @@ msgstr "පිළියෙළ කරමින්..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ක් තෝරා ඇත"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "අයිතම මැකීම."
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "බාගැනීම් නොමැත"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "බාගැනීම සම්පූර්ණයි"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "බාගැනීම් කළමනාකරු"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "ඔබ අයිතම බාගත් පසු, ඒවා මෙහි පෙන්වනු ඇත."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "බාගැනීම අවලංගු විණි"
@@ -397,11 +958,14 @@ msgstr "පෙරනිමි ෆෝල්ඩරය පූර්ණයි"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "වඩා පැරණි"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "විස්තර"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "ගබඩාව"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "සකසමින්..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "ඉවත් කරමින්..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD කාඩ්පත"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "උපාංග ගබඩාව"
@@ -409,20 +973,86 @@ msgstr "උපාංග ගබඩාව"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "සර්වරයට දැනුම් දෙමින්..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "අයිතම %d මැකෙනු ඇත."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "මෙම ගොනුව සොයාගත නොහැකිය. එය නැවත බාගැනීමට උත්සාහ කිරීමට බාගන්න තට්ටු කරන්න."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ගොනුව විවෘත කළ නොහැක"
 
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "මෙම ගොනුව විවෘත කිරීමට යෙදුමක් සොයාගත නොහැකි විය."
+
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "නැවත උත්සාහ කිරීමට “බාගන්න” තට්ටු කරන්න."
+msgstr "නැවත උත්සාහ කිරීමට බාගන්න තට්ටු කරන්න."
+
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "අයිතම 1 ක් මැකෙනු ඇත."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM අන්තර්ගතය සක්‍රිය කරමින්..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "මෙම ක්‍රියාව ඉටු කිරීමට යෙදුම සොයා ගත නොහැක."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "සංචිත පිහිටුම"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "ආයාත කරන්න"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
 
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "අවලංගු ක."
 
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "හරි"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "සියල්ල තෝරන්න"
+
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ක් තෝරා ඇත"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "බාගන්න"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "අද"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "ඊයේ"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "මකන්න"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "ආදේශ ක."
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "අයිතම සියල්ල වෙත යොදන්න"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "zip ගොනුව තනන්න"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Zip ගොනුව දිග හැරීම"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "මගේ ගොනු"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "වෙබ්"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "බාගැනීම් ඉතිහාසය"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "ඉතිහාසය නැත"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "සරල බෙදා ගැනීම"
@@ -445,11 +1075,74 @@ msgstr "මෙම අයිතම ගෙන යාමෙන් ඒවා Dropbox
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "මෙම අයිතමය ගෙන යාමෙන් එය Dropbox වෙතින් මැකෙනු ඇත. අයිතම 1 ක් ගෙන යනු ඇත."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "ගබඩා ස්ථානය තෝරන්න"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "නවත්වන්න"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "උඩුගත කරන්න"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "ගොනුව උඩුගත කිරීම අසමත් විය"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "උඩුගත කිරීම් නැවැත්වීම"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "නැවත උත්සාහ කිරීමට උඩුගත කරන්න තට්ටු කරන්න."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "උඩුගත කිරීම නැවතෙනු ඇති නමුත් ගොනුව මැකෙනු නොලැබෙනු ඇත."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "මෑත දී බැලූ"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "දත්ත සුරැකිය නොහැකිය"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ඔබේ උපාංග ගබඩාවේ ප්‍රමාණවත් ඉඩක් නොමැත. සැකසුම් > බලය සහ ගබඩාව > ගබඩාව වෙත යන්න, ඉන්පසු ගොනු කිහිපයක් මකා දමා නැවත උත්සාහ කරන්න."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ඔබේ SD කාඩ්පතේ ප්‍රමාණවත් ඉඩක් නොමැත. සැකසුම් > බලය සහ ගබඩාව > ගබඩාව වෙත යන්න, ඉන්පසු ගොනු කිහිපයක් මකා දමා නැවත උත්සාහ කරන්න."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "උඩුගත කරන ස්ථානය"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox උඩුගත කිරීම්"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "පුද්ගලික"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "බයිට්"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "එක් කර."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "නිවස"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "එලාම්"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "අනෙකුත්"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "තවත්"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "විවෘත කරන්න"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "දෝෂය නොදනී."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "ෆෝල්ඩරයයේ නම ‘.’ හෝ ‘..’ ලෙස පිහිටුවිය නොහැක."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "සැඟවුණු ගොනු නොපෙන්වන්න"
@@ -457,23 +1150,104 @@ msgstr "සැඟවුණු ගොනු නොපෙන්වන්න"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "සැඟවුණු ගොනු පෙන්වන්න"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "නොදන්නා"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "කෙටිමං නාමය දැනටමත් භාවිතයේ පවතී."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "මූලික"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "ගොනුව"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "ගොනු"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "ෆෝල්ඩරය"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "ෆෝල්ඩර"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "පද්ධතිය"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "නම"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "ශ්‍රව්‍ය ගොනු"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "ලේඛ"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "බාගත් යෙදුම්"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "අනුරූ"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "වීඩියෝ"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "අවලංගු කරන්න"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "අවලංගු කරන්න"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "තනන්න"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "මකන්න"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "හරි"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "ඉවත් කරන්න"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "යළි නම් කරන්න"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "අස්ථාපනය කර."
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "කෙටිමග එක් කිරීම"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "ශ්‍රව්‍ය ගොනු"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "පිටපත් කිරීම"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "පිටපත් කළ යුත්තේ"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "ෆෝල්ඩරය තැනීම"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "කෙටිමග මකන්න"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "විස්තර"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "ලේඛන"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "බාගත් යෙදුම්"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "පින්තූර"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "ගෙන යාම"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "මේ වෙත යන්න"
@@ -481,7 +1255,43 @@ msgstr "මේ වෙත යන්න"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d ක් තෝරා ඇත"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "මෑත ගොනු"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "ඉවත් කරන්න"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "යලි නම් කරන්න"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "සැකසුම්"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "කෙටිමං"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "ලෙස සුබෙදන්න"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "අස්ථාපනය"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "උඩුගත කළ යුත්තේ"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "වීඩියෝ"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "ලෙස බලන්න"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "සියල්ල"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "කෙටිමං"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "අන්තර්ගතය"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "උපාංග ගබඩාව"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "ආකෘතිය"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "පිහිටීම"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD කාඩ්පත"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "ගොනු දිගු පෙන්වන්න"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "සැඟවුණු ගොනු පෙන්වන්න"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "විශාලත්වය"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "වර්ගය"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "විකුණුම්කරු"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "ගොනු නැත"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "ආරෝහණ"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "පිටපත් කරන්න"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "ෆෝල්ඩරය තනන්න"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "අවරෝහණ"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "විස්තරාත්මක ලැයිස්තුව"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "විස්තර"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "නැවත නොපෙන්වන්න"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "ගොනු වර්ගය"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "ලැයිස්තුව"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "ගෙන යන්න"
@@ -502,14 +1366,50 @@ msgstr "ගෙන යන්න"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "ඉවත් කරන්න"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "ප්‍රමාණය"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "වෙලාව"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "ආකාරය"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "අස්ථාපනය කරන්න"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "අයිතම 1 ක් ඉවත් වනු ඇත."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "කෙටිමං 1 ක් මැකෙනු ඇත."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "පිටපත් වෙමින්..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "ගෙනයමින්..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "අයිතම %d ක් ඉවත් කරනු ඇත."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "කෙටිමං %d ක් මැකෙනු ඇත."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "ඉවත් කරමින්..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "රෝමිං අතරතුර ජංගම දත්ත භාවිතා කිරීම ඔබගේ ගෙවීම් සැලසුම මත රඳා පවතිමින් අමතර ගාස්තු වලට හේතු විය හැක."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "ගත හැකි ප්‍රයෝජන"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "තැනූ දිනය"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "විස්තරය"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "යොමු කිරීම"
@@ -523,14 +1423,29 @@ msgstr "විභේදනය"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "මුළු විශාලත්වය"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "වලංගුභාවය"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "ඉලක්ක ෆෝල්ඩරය මූලාශ්‍ර ෆෝල්ඩරයේ අනු ෆෝල්ඩරයකි."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "ඉලක්ක ෆෝල්ඩරය මූලාශ්‍ර ෆෝල්ඩරයමයි."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "කෙටිමග එක් කිරීම අසාර්ථකයි."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "අයිතමය පිටපත් කිරීම අසාර්ථකයි."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "අයිතමය මැකීම අසාර්ථකයි."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "අයිතමය ගෙනයාම අසාර්ථකයි."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "අයිතමය ඉවත් කිරීම අසාර්ථකයි."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ගොනු නම දැනටමත් භාවිතයේ පවතී."
@@ -544,17 +1459,23 @@ msgstr "කෙටිමග එක් කෙරිණි."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "කෙටිමං දැනටමත් පවතී."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "නැවුම් කරන්න"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "අයිතම %d ක් මැකෙනු ඇත."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "යෙදුම් %d ක් අස්ථාපනය කෙරෙනු ඇත."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "බාගැනීම සම්පූර්ණයි"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s අස්ථාපනය කෙරෙනු ඇත."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "ගබඩාව"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "ප්‍රමාණය"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "ලැයිස්තු පෙනුම"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "ෆෝල්ඩර් නාමය දැනටමත් භාවිතයේ පවතී."
@@ -562,11 +1483,23 @@ msgstr "ෆෝල්ඩර් නාමය දැනටමත් භාවිත
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "ප්‍රාදේශීය ගබඩාව"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "උපාංග ගබඩාව"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "ඇතුල් වී නොමැත."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "සියලු ගොනු"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "ක්ලවුඩ් ගබඩාව"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "පිළිවෙළ"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "කෙටිමං"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "වේලාව"
@@ -574,32 +1507,44 @@ msgstr "වේලාව"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "අස්ථාපනය කරන්න"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "හරි"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "අන්තර්ගතයි"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "සියල්ල තෝරන්න"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "මුහුණක් නොපෙන්වයි"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "බාගන්න"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "අද"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "දැනටමත් පවතී."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "ඊයේ"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "රැගෙන යාම අපහසුයි. නියමිත ස්ථානයේ ෆෝල්ඩරයත් ප්‍රභව ස්ථානයේ ෆෝල්ඩරයත් එකමයි"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "ෆෝල්ඩරයක් සාදන්න"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "වැඩිදුර"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "මෙතනට ගෙන එන්න"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "මෙහි අලවන්න"
+
+msgid "IDS_PB_SK_SET"
+msgstr "සකසන්න"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "මෙම ගොනු වර්ගයට ඔබගේ උපාංගයේ ඇති කිසිදු යෙදුමක් සහාය නොදක්වයි."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "දෝෂය නොදනී."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "ගොනු %dක් මැකෙණි."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "නොදන්නා"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "පද්ධතිය"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "ගොනු යැවිණි"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "නිමයි"
@@ -610,11 +1555,53 @@ msgstr "අවලංගු කර."
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "මකන්න"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "නැවත නම් කරන්න"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "අයිතමය තේරීම"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "උඩුගත කිරීම් නොමැත"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "ඔබ අයිතම උඩුගත කළ පසු, ඒවා මෙහි දිස්වනු ඇත."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "සැකසුම්"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "දත්ත සුරැකිය නොහැකිය"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ඔබේ SD කාඩ්පතේ ප්‍රමාණවත් ඉඩක් නොමැත. සැකසුම් > බලය සහ ගබඩාව > ගබඩාව වෙත යන්න, ඉන්පසු ගොනු කිහිපයක් මකා දමා නැවත උත්සාහ කරන්න."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "ඔබේ උපාංග ගබඩාවේ ප්‍රමාණවත් ඉඩක් නොමැත. සැකසුම් > බලය සහ ගබඩාව > ගබඩාව වෙත යන්න, ඉන්පසු ගොනු කිහිපයක් මකා දමා නැවත උත්සාහ කරන්න."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "දෝෂය."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "මතකය සම්පූර්ණයි."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "අයිතම 1 ක් Dropbox වෙතින් මැකෙනු ඇත."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "අයිතම %d ක් Dropbox වෙතින් මැකෙනු ඇත."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ජංගම දත්ත ක්‍රියා විරහිතයි. Wi-Fi ජාලයකට සම්බන්ධ වන්න නැතහොත් ජංගම දත්ත ක්‍රියාත්මක කර නැවත උත්සාහ කරන්න."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "සැකසුම්"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "පුද්ගලික ගබඩාව"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "මග"
@@ -625,8 +1612,23 @@ msgstr "උපරිම අනුලකුණු ගණන %d ළඟා වි�
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "ගබඩාව තෝරන්න"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "බාගැනීම් ඉතිහාසය"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "බාගැනීම් ඉතිහාසය"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "බාගනිමින්..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "බාගැනීම්"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "බාගැනීම් නැත"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "බාගැනීම අසමත් විය"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "කල් ඉකුත් වන්නේ: %s"
@@ -634,114 +1636,30 @@ msgstr "කල් ඉකුත් වන්නේ: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "කල් ඉකුත් වී ඇත්තේ: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "‍ගොනුව බාගැනීම අසාර්ථකයි"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "ගොනුව නැවත බාගැනීමට උත්සාහ කරන්න, හෝ බාගැනීමේ පෝලිමෙන් එය ඉවත් කරන්න."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "යළි උත්. ක."
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "ඉවත් කරන්න"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "ප්‍රවර්ගය‍"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "ෆෝල්ඩරයේ නම භාවිතයේ පවතී"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "ගොනු නාමය භාවිතයේ පවතී"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "මෙම ගොනු නම (%s) දැනටමත් ගමනාන්ත ෆෝල්ඩරයේ භාවිතයේ පවතී."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "මෙම ෆෝල්ඩරයේ නම (%s) දැනටමත් ගමනාන්ත ෆෝල්ඩරය තුළ භාවිතයේ පවතී."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "මකන්න"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "ඉතිහාසය හිස් කරන්න"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "හකුළමින්..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "උපුටා ගනිමින්..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "ZIP ගොනුවෙන් අයිතම දිග හැරීම"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "නව ෆෝල්ඩරය %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "ෆෝල්ඩරයේ නම “.” හෝ “..” ලෙස පිහිටුවිය නොහැක."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "සැකසුම්"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "විස්තරාත්මක ලැයිස්තුව"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "අයිතම දිගහැරිය නොහැක"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "ප්‍රමාණවත් ඉඩ නැත"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "ZIP ගොනුව තැනීම"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "ඉතිහාසය නැත"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "නැවත නොපෙන්වන්න"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "තවත්"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "අවලංගු කරමින්..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "ක්‍රියාව සිදු කළ නොහැක"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "ගොනුව"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "ෆෝල්ඩරය"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "ෆෝල්ඩර"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "නම"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ඔබේ උපාංග ගබඩාවේ ප්‍රමාණවත් ඉඩක් නැත. සැකසුම් > ගබඩාව සහ RAM > ගබඩාව > විස්තර වෙත යන්න, එවිට ඇතැම් ගොනු මකා නැවත උත්සාහ කරන්න."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "ඔබේ SD කාඩ්පතේ ප්‍රමාණවත් ඉඩක් නැත. සැකසුම් > ගබඩාව සහ RAM > ගබඩාව > විස්තර වෙත යන්න, එවිට ඇතැම් ගොනු මකා නැවත උත්සාහ කරන්න."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "ලැයිස්තුව"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "ප්‍රමාණය"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "අයිතම 1 ක් ඉවත් වනු ඇත."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "%s ලෙස ෆෝල්ඩරයේ නම පිහිටුවිය නොහැක."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "මෙම ගොනුව මකාදමා, ගෙන ගොස්, හෝ යළි නම් තබා ඇත. ගොනුව නැවත බාගැනීමට “බාගන්න” මත තට්ටු කරන්න, නැතිනම් එය බාගැනීම් ඉතිහාසයෙන් මැකීමට “ඉවත් කරන්න” තට්ටු කරන්න."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "නැවුම් කරන්න"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s අස්ථාපනය කෙරෙනු ඇත."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "ප්‍රමාණය"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "උපාංග ගබඩාව"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "ක්ලවුඩ් ගබඩාව"
-
-msgid "IDS_PB_SK_SET"
-msgstr "සකසන්න"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "නැවත නම් කරන්න"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "මගේ ගොනු"
 

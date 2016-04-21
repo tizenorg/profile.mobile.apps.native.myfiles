@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d onnistui, %2$d epäonnistui"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d onnistui"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Sovella kaikkiin kohteisiin"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Valmistellaan lataamista..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Laitetta ei ole yhdistetty Wi-Fi-verkkoon. Yhteyden muodostaminen matkapuhelinverkkoon voi aiheuttaa lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Jakotapa"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Jakotapa"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobiilidata on poistettu käytöstä. Muodosta sen sijaan yhteys Wi-Fi-verkon kautta tai ota mobiilidata käyttöön ja yritä uudelleen."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Muistikortti poistettu."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d kohdetta poistetaan."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Valmis."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Tämä kohde poistetaan."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Ladataan..."
@@ -28,8 +22,50 @@ msgstr "Ladataan..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ei tarpeeksi muistia."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Peruutettu."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Lataus epäonnistui."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Valmis."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Luo"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Poistettu."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Muistikortti poistettu."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Etsitään..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Verkkoyhteysvirhe"
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Poista kansio"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Kirjoita kansion nimi."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Ladatut sovellukset"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Verkkoyhteysvirhe. Puhelu on lopetettu. Muodostetaanko verkkoyhteys uudelleen?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Tallenna"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Kyllä"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ei"
@@ -37,32 +73,122 @@ msgstr "Ei"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Lisää pikavalinta"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Poista"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Poista pikavalinta"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Nimeä pikavalinta uudelleen"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Hae"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Jaa"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Tallennustilan käyttö"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Älä näytä uudelleen"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "t"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Tavu"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "Gt"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "Mt"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Yhteyttä palvelimeen ei saada."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Yksityinen"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Kirjoita kansion nimi."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Poista pikanäppäin"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Akku tyhjenemässä"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 tiedosto"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Oma albumi"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Lisää kohteesta"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Hälytykset"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Mikä tahansa"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Jäljellä olevat käyttökerrat"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Tavu"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Sisältö"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Luontipäivämäärä"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Päivämäärä"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Poistetaanko valitut kohteet?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "kt"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Asiakirjat"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Suorita"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Tiedoston nimi"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Tied.tyyppi"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Kansion nimi"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Edelleenlähetys"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS-tiedot"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS-leveysaste"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS-pituusaste"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS-versio"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Kuvat"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Mahdoton"
@@ -76,17 +202,68 @@ msgstr "Väli"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Muutettu viimeksi"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Luettelo ja tiedot"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Sijainti"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-tietoja alustetaan..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Omat videoleikkeet"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Puhelimen muisti ei riitä. Poista kohteita ja yritä uudelleen."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Ei tiedostoja"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Viimeksi avattuja tiedostoja ei ole"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Viimeksi käytettyjä tiedostoja ei ole"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d tiedostoa"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d kohde"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d kohdetta"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Mahdollinen"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Tulosta"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "N.uud."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Oikeustila"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Soittoäänet"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Jaa"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Näytä piilotetut tiedostot"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Äänet"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Tall.tilan käyttö"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Aika"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Ajoitettu määrä"
@@ -94,11 +271,35 @@ msgstr "Ajoitettu määrä"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tyyppi"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Rajoittamaton"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Ylös"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Kelpoisuus"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Toimittaja"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videot"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Taustakuvat"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Lisää etusivulle"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Vie tänne"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Siirry Omiin tiedostoihin"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Koti"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Korvaa"
@@ -106,26 +307,92 @@ msgstr "Korvaa"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Hae kaikista kansioista"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Aseta tänne"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Tarkennettu haku"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Ääni"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Yhdistä matkapuhelinverkkoon"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Yhdistä Wi-Fi-verkkoon"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Määrä"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Kirjoita kansion nimi."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Paikallinen"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Uusi kansio"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Viimeksi käytetyt tiedostot"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Poista tiedosto"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Jaa ääni ja kuva -kuvia"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Tallennustila"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Kansiota ei voi luoda"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Kyllä"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Valitse kaikki"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Anna kansion nimi"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Lisää pikanäppäimiin"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Kuvatiedostoina"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Videotiedostoina"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Soittajan soittoääni"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Pakkaa"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Luo kansio"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Päivämäärä (Uusimmat)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Päivämäärä (Vanhimmat)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Pura"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Pura tänne"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Oletussoittoääni"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Tarkka näkymä"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Muokkaa"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Pura"
@@ -133,17 +400,56 @@ msgstr "Pura"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Pura nykyiseen kansioon"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Siirry kansioon"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Piilota tiedostolaaj."
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Valittu"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Nimi"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Lajitteluperuste"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Siirrä tänne"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Nimi"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Avaa tiedostosijainti"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Yhteyttä palvelimeen ei saada."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Oma sivu"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Tallenna ääntä"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Rek. yht.tietoihin"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Nimeä uudelleen"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Nimetty uudelleen."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Nimeä kansio uudelleen"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Tallenna tänne"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Hae läh. olevia laitteita"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Valittu"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Jaa linkki"
@@ -151,14 +457,47 @@ msgstr "Jaa linkki"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Näytä tiedostotunniste"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Erota"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Lajitteluperuste"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Pikkukuvanäkymä"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Katsele muodossa"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Katso luettelossa"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Näytä pikkukuvina"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Pakkaa"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 kohde poistetaan."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Nouseva"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Jatka"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopiointi epäonnistui."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Poisto epäonnistui."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Poistetaanko valittu kohde?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Laskeva"
@@ -166,8 +505,35 @@ msgstr "Laskeva"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM-tiedosto. Ei voi lähettää."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM-tiedosto ei ole käytettävissä."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Tiedostonimi on jo käytössä."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Kansion nimi on jo olemassa."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Muoto"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Lähettäjä"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Kirjoita teksti"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Virheellinen tiedostonimi"
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Ladataan..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Kansioiden enimmäismäärä saavutettu."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Siirto epäonnistui."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Nimi on tyhjä."
@@ -178,116 +544,11 @@ msgstr "Kekomuisti ei riitä."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Muisti ei riitä. Poista joitain kohteita ja yritä uudelleen."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Muisti ei riitä. %s käytettävissä."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Poistetaanko pikavalinnoista?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Lähetys epäonnistui."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Poista"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Kohdekansio on lähdekansion alikansio."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Kohdekansio on sama kuin lähdekansio."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Hae"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Ei voi kopioida."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Ei voi siirtää."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Asetukset"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Tätä toimintoa ei voi suorittaa. Verkkovirhe."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Aika"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Rajoittamaton"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Ulk. tallennuslaite"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Muistik."
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videot"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Tiedostot pakattu."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Tiedostot purettu."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "Gt"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "Mt"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Valitse kaikki"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "kt"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Asiakirjat"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Kuvat"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Ei tiedostoja"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Tall.tilan käyttö"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Tiedostoa ei ole."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Takaisin"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Kaikki"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Luo kansio"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Valittu"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Yhdistä"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Nimi"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Lajitteluperuste"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 kohde poistetaan."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Poisto epäonnistui."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Muoto"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Liitä tänne"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d kohdetta poistetaan."
@@ -295,8 +556,155 @@ msgstr "%d kohdetta poistetaan."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Lupa evätty."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Poistetaanko viimeksi käytettyjen tiedostojen luettelosta?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Poistetaanko pikavalinnoista?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Sama tiedostonimi on jo olemassa."
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Sama nimi on jo käytössä."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Valitse kohde"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Lähetys epäonnistui."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Pikakuvake lisätty."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Kohdekansio on lähdekansion alikansio."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Kohdekansio on sama kuin lähdekansio."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Laitteen yhteys on katkaistu."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Tiedostoa ei ole."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Ei voi kopioida."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Ei voi siirtää."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Tätä toimintoa ei voi suorittaa. Verkkovirhe."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Puhelun aikana ei voi toistaa."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM-suojattua sisältöä ei voi määrittää soittoääneksi tai ilmoitusääneksi."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Sinun on muodostettava yhteys Wi-Fi-verkkoon lähellä olevien laitteiden hakua varten. Muodosta Wi-Fi-yhteys ja yritä uudelleen."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Takaisin"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopioi"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Poista"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Muokkaa"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Siirrä"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Etsi"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Laj.per."
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "N.tapa"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Peruuta"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Peruuta"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Lisätiedot"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Kaikki"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Ulk. tallennuslaite"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Muistik."
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Puhelin"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Ylös"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Pakattu."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Purettu."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Ladataan tiedostoa..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Tiedostot pakattu."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Tiedostot purettu."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Tiedosto tuotu."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Laitteita ei löydy. Hakua jatketaan taustalla."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Hakemisto"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Yhdistä"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Oletusilmoitusääni"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Lisää pikanäppäin"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Poistetaanko kohteet?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Nimeä uudelleen"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Poista"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Poista kohde"
@@ -307,11 +715,23 @@ msgstr "Valitse kohteet"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Tuloksia ei löytynyt"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Poistetaanko %d kohdetta?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Poistetaanko kohde?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 kohde valittu."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Annettu virheellinen merkki. Yritä uudelleen."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Lataus käynnistetään..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d kohdetta valittu."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Äänetön"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Valitse kohde"
@@ -319,11 +739,32 @@ msgstr "Valitse kohde"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Voit valita enintään %d kohdetta."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Lataukset"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Siirrä"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopioi"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Siirretään..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopioidaan..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Poistetaan..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Toiminto epäonnistui."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Valittu"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Siirretty."
@@ -331,35 +772,143 @@ msgstr "Siirretty."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Kopioitu."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Lajitteluperuste"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Epäonnistui."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Valmis"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kortti"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Laitteen muisti"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Lisää henkilökohtaiseen tallennustilaan"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Poista henkilökohtaisesta tallennustilasta"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Poistetaanko tämä kohde?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Poista Yksityiset-kansiosta"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Siirrä Yksityiset-kansioon"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Lataukset"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Poistetaan..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Epäonnistui."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kortti"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Merkkien enimmäismäärä saavutettu."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Poistetaan..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Henkilökohtainen tallennustila"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Alustus valmis."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Nimi (Ö–A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Nimi (A–Ö)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Ruudunkaappaus"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Tuloksia ei löytynyt."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Viestihälytys"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Lisätiedot"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Kirjoita nimi."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Omat tiedostot"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Mitään ei valittu."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Lisätty."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Käsitellään..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Tiedostotyyppiä ei tueta."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Yksityinen sisältö"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopioi kohteeseen"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Siirrä kohteeseen"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Pikakuvakkeen lisääminen epäonnistui."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Muisti ei riitä. Poista joitain kohteita."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Poistettu."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Yksityinen tallennustila"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Mitään ei valittu."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Jaa"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "N.tapa"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Luettelo"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Näytä"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Tallenna nimellä"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Poistaminen epäonnistui."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Aikuisluokitus"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Tiedostonimi on jo käytössä."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Ääni"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi ei ole käytettävissä. Yhteyden muodostaminen matkapuhelinverkkoihin voi aiheuttaa lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Merkkien enimmäismäärä (%d) on saavutettu."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Valmistelu..."
@@ -367,8 +916,20 @@ msgstr "Valmistelu..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valittu"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Poista kohteet"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Latauksia ei ole"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Lataus valmis"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Latauksen hallinta"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Kohteet näytetään täällä, kun olet ladannut ne."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Lataus peruutettu"
@@ -397,11 +958,14 @@ msgstr "Oletustallennussijainti täynnä"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Vanhempi"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Lisätiedot"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Tallennustila"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Käsitellään..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Poistetaan..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD-kort."
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Laitteen muisti"
@@ -409,20 +973,86 @@ msgstr "Laitteen muisti"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Ilmoitetaan palvelimelle..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d kohdetta poistetaan."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Tätä tiedostoa ei löydy. Yritä ladata se uudelleen napauttamalla Lataa."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Tiedostoa ei voi avata"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Tiedoston avaamiseen soveltuvaa sovellusta ei löydy."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Yritä uudelleen napauttamalla Lataa."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 kohde poistetaan."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktivoidaan DRM-sisältöä..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Toiminnon suorittamiseen tarvittavaa sovellusta ei löydy."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Tallennuspaikka"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Tuo"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Peruuta"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Valitse kaikki"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valittu"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Lataa"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Tänään"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Eilen"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Poista"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Korvaa"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Sovella kaikkiin kohteisiin"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Luo zip-tiedosto"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Pura zip-tiedosto"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Omat tiedostot"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Lataushistoria"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Historiaa ei ole"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Helppo jako"
@@ -445,11 +1075,74 @@ msgstr "Jos siirrät nämä kohteet, ne poistetaan myös Dropboxista. %d kohdett
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Jos siirrät tämän kohteen, se poistetaan myös Dropboxista. 1 kohde siirretään."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Valitse tallennuspaikka"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Pysäytä"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Lähetä"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Tiedoston lähetys epäonnistui"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Pysäytä lähetykset"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Yritä uudelleen napauttamalla Lähetä."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Lähetys pysäytetään, mutta tiedostoa ei poisteta."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Viimeksi katsotut"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Tietoja ei voi tallentaa"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Laitteen muistissa ei ole tarpeeksi tilaa. Valitse Asetukset > Virta ja tallennus > Tallennus, poista joitain tiedostoja ja yritä uudelleen."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD-kortilla ei ole tarpeeksi tilaa. Valitse Asetukset > Virta ja tallennus > Tallennus, poista joitain tiedostoja ja yritä uudelleen."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Lähetä kohteeseen"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox-lähetykset"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Yksityinen"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "tavua"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Lisää"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Koti"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Hälytys"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Muut"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Lisää"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Avaa"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Tuntematon virhe"
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Kansion nimeksi ei voi asettaa ”.” tai ”..”."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Älä näytä piilot. tiedostoja"
@@ -457,23 +1150,104 @@ msgstr "Älä näytä piilot. tiedostoja"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Näytä piilotetut tiedostot"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Tuntematon"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Pikavalinnan nimi on jo käytössä."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Perus"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Tiedosto"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Tiedostot"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Kansio"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Kansiot"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Järjestelmä"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Nimi"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Ääni-\ntiedostot"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Asiakirjat"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Ladatut sovellukset"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Kuvat"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videot"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Peruuta"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Peruuta"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Luo"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Poista"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Poista"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Nimeä uud."
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Poista as."
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Lisää pikavalinta"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Äänitiedostot"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopioi"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopioi kohteeseen"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Luo kansio"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Poista pikakuvake"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Lisätiedot"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Asiakirjat"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Ladatut sovellukset"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Kuvat"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Siirrä"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Siirrä kohteeseen"
@@ -481,7 +1255,43 @@ msgstr "Siirrä kohteeseen"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valittu"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Viimeksi käytetyt tiedostot"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Poista"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Nimeä uudelleen"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Pikanäppäimet"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Lajitteluperuste"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Poista asennus"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Lähetä kohteeseen"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Videot"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Näyttötapa"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Kaikki"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Pikavalinnat"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Sisältö"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Laitteen muisti"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Muoto"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Sijainti"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD-kortti"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Näytä tiedostotunnisteet"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Näytä piilotetut tiedostot"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Koko"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Tyyppi"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Toimittaja"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Ei tiedostoja"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Nouseva"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopioi"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Luo kansio"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Laskeva"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Yksityiskohtainen luettelo"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Lisätiedot"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Älä näytä uudelleen"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Tiedostotyyppi"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Luettelo"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Siirrä"
@@ -502,14 +1366,50 @@ msgstr "Siirrä"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Poista"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Koko"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Aika"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Tyyppi"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Poista asennus"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 kohde poistetaan."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 pikavalinta poistetaan."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopioidaan..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Siirretään..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d kohdetta poistetaan."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d pikakuvaketta poistetaan."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Poistetaan..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Mobiilidatan käytöstä verkkovierailun aikana voidaan periä lisämaksuja tilauksesi mukaan."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Käytettävissä olevat toiminnot"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Luontipäivämäärä"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Kuvaus"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Siirto"
@@ -523,14 +1423,29 @@ msgstr "Tarkkuus"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Koko yhteensä"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Kelpoisuus"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Kohdekansio on lähdekansion alikansio."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Kohdekansio on sama kuin lähdekansio."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Pikavalinnan lisääminen epäonnistui."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Kohteen kopiointi epäonnistui."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Kohteen poistaminen epäonnistui."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Kohteen siirtäminen epäonnistui."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Kohteen poistaminen epäonnistui."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Tiedoston nimi jo käytössä."
@@ -544,17 +1459,23 @@ msgstr "Pikavalinta lisätty."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Pikanäppäin on jo olemassa."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Päivitä"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d kohdetta poistetaan."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d sovelluksen asennus poistetaan."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Lataus valmis"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Sovelluksen %s asennus poistetaan."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Tallennustila"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Koko"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Luett.näkymä"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Kansion nimi on jo käytössä."
@@ -562,11 +1483,23 @@ msgstr "Kansion nimi on jo käytössä."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Paikallinen tallennustila"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Laitt. muisti"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Ei kirjauduttu sisään."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Kaikki tiedostot"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Pilvisäilö"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Järjestys"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Pikanäppäimet"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Aika"
@@ -574,32 +1507,44 @@ msgstr "Aika"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Poista asennus"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Sisältää"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Valitse kaikki"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Kasvoja ei tunnistettu"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Lataa"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Tänään"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "On jo olemassa."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Eilen"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Ei voi siirtää. Kohdekansio on sama kuin lähdekansio"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Luo kansio"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Lisää"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Siirrä tänne"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Liitä tänne"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Aseta"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Yksikään laitteessa oleva sovellus ei tue tätä tiedostotyyppiä."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Tuntematon virhe"
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d tiedostoa poistetaan."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Tuntematon"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Järjestelmä"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Tiedostot lähetetty"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "VALMIS"
@@ -610,11 +1555,53 @@ msgstr "PERUUTA"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "POISTA"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Nimeä uudelleen"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Valitse kohde"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Ei lähetyksiä"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Kun olet lähettänyt kohteita, ne näytetään täällä."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Asetukset"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Tietoja ei voi tallentaa"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "SD-kortilla ei ole tarpeeksi tilaa. Valitse Asetukset > Virta ja tallennus > Tallennus, poista joitain tiedostoja ja yritä uudelleen."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Laitteen muistissa ei ole tarpeeksi tilaa. Valitse Asetukset > Virta ja tallennus > Tallennus, poista joitain tiedostoja ja yritä uudelleen."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Virhe"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Muisti on täynnä."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropboxista poistetaan 1 kohde."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Dropboxista poistetaan %d kohdetta."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobiilidata on poistettu käytöstä. Muodosta yhteys Wi-Fi-verkon kautta tai ota mobiilidata käyttöön ja yritä uudelleen."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Henkilökohtainen tallennustila"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Polku"
@@ -625,8 +1612,23 @@ msgstr "Merkkien enimmäismäärä %d on saavutettu."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Valitse tallennustapa"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Lataushistoria"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Lataushistoria"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Ladataan..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Lataukset"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Latauksia ei ole"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Lataus epäonnistui"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Vanhentuu: %s"
@@ -634,114 +1636,30 @@ msgstr "Vanhentuu: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Vanhentui: %s"
 
-msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Tämä kansionimi (%s) on jo käytössä kohdekansiossa."
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Tiedoston lataus epäonnistui"
 
-msgid "IDS_DM_OPT_DELETE"
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Yritä ladata tiedosto uudelleen tai poista se latausjonosta."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Yritä uudelleen"
+
+msgid "IDS_MF_BUTTON_REMOVE"
 msgstr "Poista"
 
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Tyhjennä historia"
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Luokka"
 
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Pakataan..."
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Kansion nimi käytössä"
 
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Puretaan..."
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Tiedostonimi on jo käytössä"
 
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Pura kohteita ZIP-tiedost."
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Tämä tiedostonimi (%s) on jo käytössä kohdekansiossa."
 
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Uusi kansio %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Kansion nimeksi ei voi asettaa ”.” tai ”..”."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Asetukset"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Yksityiskohtainen luettelo"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Kohteita ei voi purkaa"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Ei tarpeeksi tilaa"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Luo ZIP-tiedosto"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Historiaa ei ole"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Älä näytä uudelleen"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Lisää"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Peruutetaan..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Toimintoa ei voi suorittaa"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Tiedosto"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Kansio"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Kansiot"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Nimi"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Tallennuslaitteessa ei ole tarpeeksi tilaa. Valitse Asetukset > Muisti ja RAM > Tallennus > Tiedot, poista joitain tiedostoja ja yritä uudelleen."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD-kortilla ei ole tarpeeksi tilaa. Valitse Asetukset > Muisti ja RAM > Tallennus > Tiedot, poista joitain tiedostoja ja yritä uudelleen."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Luettelo"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Koko"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 kohde poistetaan."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Kansion nimenä ei voi olla %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Tämä tiedosto poistettiin, siirrettiin tai nimettiin uudelleen. Napauta Lataa, jos haluat ladata tiedoston uudelleen, tai napauta Poista, jos haluat poistaa sen lataushistoriasta."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Päivitä"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "Sovelluksen %s asennus poistetaan."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Koko"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Laitt. muisti"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Pilvisäilö"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Aseta"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Nimeä uudelleen"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Omat tiedostot"
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Tämä kansionimi (%s) on jo käytössä kohdekansiossa."
 

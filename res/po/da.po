@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d lykkedes, %2$d mislyk."
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d lykkedes"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Anvend på alle elementer"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Forbereder download ..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Din enhed er ikke sluttet til et Wi-Fi-netværk. Oprettelse af forbindelse til et mobilt netværk kan medføre yderligere gebyrer afhængig af dit abonnement."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Del via"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Del via"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobile data er slået fra. Opret forbindelse til et Wi-Fi-netværk i stedet, eller slå Mobile data til, og prøv igen."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Hukommelseskort fjernet."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d elementer bliver slettet."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Fuldført."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Dette element bliver slettet."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Downloader ..."
@@ -28,8 +22,50 @@ msgstr "Downloader ..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ikke nok hukommelse."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Annulleret."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Download mislykkedes."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Fuldført."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Opret"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Slettet."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Hukommelseskort fjernet."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Søger ..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Netværksforbindelsesfejl."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Slet mappe"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Angiv mappenavn"
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Downloadede apps"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Der opstod en netværksfejl. Dette opkald er afsluttet. Slut til netværket igen?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Gem"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ja"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nej"
@@ -37,32 +73,122 @@ msgstr "Nej"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Tilføj genvej"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Slet"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Slet genvej"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Omdøb genvej"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Søg"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Indstillinger"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Del"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Brug af lagerplads"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Vis ikke igen"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Kan ikke oprette forbindelse til server."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privat"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Angiv mappenavn"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Fjern genvej"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Lavt batteriniveau"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 fil"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Mit album"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Tilføj fra"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Varsler"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Vilkårlig"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Gange tilbage"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Indhold"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Oprettelsesdato"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Dato"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Vil du slette de valgte elementer?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumenter"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Udfør"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Filnavn"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Filtype"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Mappenavn"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Viderestilling"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS-oplysninger"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS-breddegrad"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS-længdegrad"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS Version"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Billeder"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Ikke mulig"
@@ -76,17 +202,68 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Sidst ændret"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Liste og detaljer"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Placering"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-data initialiserer..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mine videoklip"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Ikke tilstrækkelig telefonhukommelse. Slet nogle elementer, og prøv igen."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Ingen filer"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Ingen nyligt åbnede filer"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Ingen seneste filer"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d filer"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d element"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d elementer"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Muligt"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Udskriv"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Omdøb"
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Status for rettigheder"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Ringetoner"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Del"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Vis skjulte filer"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Lyde"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Brugt lagerplads"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Tid"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Tidsforbrug"
@@ -94,11 +271,35 @@ msgstr "Tidsforbrug"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Type"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Ubegrænset"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Op"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Gyldighed"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Sælger"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Baggrunde"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Føj til start"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
-msgstr "Eksporter her"
+msgstr "Eksportér her"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Gå til Mine filer"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Hjem"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Erstat"
@@ -106,26 +307,92 @@ msgstr "Erstat"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Søg i alle mapper"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Angiv her"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Avanceret søgning"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Lyd"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Opret forbindelse til mobilt netværk"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Opret forbindelse til Wi-Fi-netværk"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Antal"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Angiv mappenavn"
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Lokal"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Ny mappe"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Seneste filer"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Fjern fil"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Del Lyd & billede-fotos"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Lagring"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Kan ikke oprette mappen"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Ja"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Vælg alle"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Angiv mappenavn"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Føj til genveje"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Som billedfiler"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Som videofiler"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Kontaktringetone"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Komprimér"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Opret mappe"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Dato (nyeste)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Dato (ældste)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Dekomprimér"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Dekomprimér her"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Standardringetone"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detaljeret visning"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Redigér"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Udtræk"
@@ -133,17 +400,56 @@ msgstr "Udtræk"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Udpak til aktuel mappe"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Gå til mappe"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Skjul filtypenavn"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Elementer"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Navn"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Sortér efter"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Flyt hertil"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Navn"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Åbn filplacering"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Kan ikke oprette forbindelse til server."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Personlig side"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Optag lyd"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Registrér i Kontakter"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Omdøb"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Omdøbt."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Omdøb mappe"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Gem her"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Scan efter enh. i nærheden"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Valgte"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Del link"
@@ -151,14 +457,47 @@ msgstr "Del link"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Vis filtypenavn"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Opdel"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sortér efter"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniaturevisning"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Vis som"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Vis efter liste"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Vis efter miniature"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Pak"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 element vil blive slettet."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Stigende"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Slet?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Fortsæt"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopiering mislykkedes."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Sletning mislykkedes."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Vil du slette det valgte element?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Faldende"
@@ -166,8 +505,35 @@ msgstr "Faldende"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM-fil. Kan ikke sende."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM-fil er ikke tilgængelig."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Filnavnet findes allerede."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Mappenavnet findes allerede."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Fra"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Indtast tekst"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Ugyldigt filnavn."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Indlæser data ..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Det maksimale antal mapper er nået."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Flytning mislykkedes."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Navnet er tomt."
@@ -178,116 +544,11 @@ msgstr "Der er ikke tilstrækkelig heap-hukommelse."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Ikke nok hukommelse. Slet nogle elementer, og prøv igen."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Ikke tilstrækkelig hukommelse. %s er tilgængelig."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Fjern fra Genveje?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Afsendelsen mislykkedes."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Slet"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Destinationsmappen er en undermappe til kildemappen."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Destinationsmappen er den samme som kildemappen."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Søg"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Kan ikke kopiere."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Kunne ikke flytte."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Indstillinger"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Kan ikke udføre denne handling. Der opstod netværksfejl."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Tid"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Ubegrænset"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Eksternt lager"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Hukommelseskort"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Video"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Filer komprimeret."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Filer udpakket."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Vælg alle"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumenter"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Billeder"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Ingen filer"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Brugt lagerplads"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Fil findes ikke."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Tilbage"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Alle"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Opret mappe"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Elementer"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Tilslut"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Navn"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sorter efter"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element vil blive slettet."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Sletning mislykkedes."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Format"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Indsæt her"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d elementer vil blive slettet."
@@ -295,8 +556,155 @@ msgstr "%d elementer vil blive slettet."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Tilladelse afslået."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Fjern fra listen over seneste filer?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Fjern fra Genveje?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Fjern?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Dette filnavn eksisterer allerede!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Det samme navn er allerede i brug."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Vælg element"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Afsendelsen mislykkedes."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Genvej tilføjet."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Destinationsmappen er en undermappe til kildemappen."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Destinationsmappen er den samme som kildemappen."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Denne enhed er blevet frakoblet."
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Fil findes ikke."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Kan ikke kopiere."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Kunne ikke flytte."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Kan ikke udføre denne handling. Der opstod netværksfejl."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Kunne ikke afspille under samtale."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "DRM-beskyttet indhold kunne ikke indstilles som ringetone eller varsel om besked."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Du skal have forbindelse til et Wi-Fi-netværk for at scanne for enheder i nærheden. Opret forbindelse via Wi-Fi-netværk, og prøv igen."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Tilbage"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopiér"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Slet"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Redigér"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Flyt"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Søg"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Sortér efter"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Vis som"
+
 msgid "IDS_MF_SK_CANCEL"
-msgstr "Annuller"
+msgstr "Annullér"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Annullér"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Alle"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Eksternt lager"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Hukommelseskort"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefon"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Op"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Komprimeret."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Dekomprimeret."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Overfører fil ..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Filer komprimeret."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Filer udpakket."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Fil ikke importeret."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Ingen enheder fundet. Scanning fortsætter i baggrunden."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Katalog"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Tilslut"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Standardmeddelelseslyd"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "Til"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Tilføj genvej"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Slet elementer?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Omdøb"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Indstillinger"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Fjern"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Slet element"
@@ -307,11 +715,23 @@ msgstr "Vælg elementer"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Ingen resultater fundet"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Vil du slette %d elementer?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Slet element?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 element valgt."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Ugyldigt tegn indtastet. Prøv igen."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Starter download..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d elementer valgt."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Lydløs"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vælg element"
@@ -319,11 +739,32 @@ msgstr "Vælg element"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Du kan vælge op til %d elementer."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Downloads"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Slet?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Flyt"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopiér"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Flytter ..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopierer ..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Sletter ..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Handlingen mislykkedes."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Valgte"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Flyttet."
@@ -331,35 +772,143 @@ msgstr "Flyttet."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Kopieret."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Sortér efter"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Mislykkedes."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Udført"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kort"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Telefonens hukommelse"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Føj til personligt lager"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Fjern fra personligt lager"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Slet dette element?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Fjern fra Privat"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Flyt til Privat"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Downloads"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Sletter ..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Mislykkedes."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kort"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Det maksimale antal tegn er nået."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Fjerner..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Personligt lager"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formatering afsluttet."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Navn (Z til A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Navn (A til Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Skærmbillede"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Ingen resultater fundet."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Beskedvarsel"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Angiv navn."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Mine filer"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Intet er valgt."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Tilføjet."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Behandler ..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Filtype understøttes ikke."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Fjern?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Privat indhold"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopiér til"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Flyt til"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kunne ikke tilføje genvej."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Der er ikke tilstrækkelig hukommelse. Slet nogle elementer."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Fjernet."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privat lager"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Intet er valgt."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Del"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Vis som"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Liste"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Vis"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Gem som"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Kunne ikke fjerne."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Forældrebedømmelse"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Filnavnet findes allerede."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Stemme"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi-netværk ikke tilgængeligt. Tilslutning til mobile netværk kan medføre yderligere gebyrer, afhængigt af dit abonnement."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Det maksimale antal tegn (%d) er nået."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Klargør ..."
@@ -367,8 +916,20 @@ msgstr "Klargør ..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valgt"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Slet elementer"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Ingen downloads"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Overførsel fuldført"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Downloadstyring"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Når du har hentet elementer, vises de her."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Overførsel annulleret"
@@ -397,11 +958,14 @@ msgstr "Standardlager fuldt"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Ældre"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Detaljer"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Lagring"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Behandler ..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Fjerner..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD-kort"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Enhedslager"
@@ -409,20 +973,86 @@ msgstr "Enhedslager"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Underretter server ..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d elementer vil blive slettet."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Denne fil kan ikke findes. Tryk på Download for at prøve at downloade den igen."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Kan ikke åbne filen"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Kan ikke finde en applikation, der kan åbne denne fil."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Tryk på Download for at prøve igen."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 element vil blive slettet."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktiverer DRM-indhold ..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Kan ikke finde en applikation til at udføre denne handling."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Lagerplacering"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importér"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
-msgstr "Annuller"
+msgstr "Annullér"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Vælg alle"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valgt"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Overfør"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "I dag"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "I går"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Slet"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Erstat"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Anvend på alle elementer"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Opret zip-fil"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Udpak zip-fil"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mine filer"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Downloadhistorik"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Ingen oversigt"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Enkel deling"
@@ -445,11 +1075,74 @@ msgstr "Flytning af disse elementer vil slette dem fra Dropbox. Der vil blive fl
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Flytning af dette element vil slette det fra Dropbox. Der vil blive flyttet 1 element."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Vælg lagerplacering"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Stop"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Upload"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Kunne ikke uploade filen"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Stop uploads"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Tryk på Upload for at prøve igen."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Upload stopper, men filen slettes ikke."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Senest gennemset"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Kan ikke gemme data"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Der er ikke tilstrækkelig ledig plads på din enheds lager. Gå til Indstillinger > Strøm og lager > Lagring, slet nogle filer, og prøv igen."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Der er ikke tilstrækkelig ledig plads på dit SD-kort. Gå til Indstillinger > Strøm og lager > Lagring, slet nogle filer, og prøv igen."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Upload til"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Dropbox-uploads"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Privat"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "byte"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Tilføj"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Privat"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Alarm"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Andre"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Mere"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Åbn"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Ukendt fejl."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Mappenavnet kan ikke blive angivet som '.' eller '..'."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Vis ikke skjulte filer"
@@ -457,23 +1150,104 @@ msgstr "Vis ikke skjulte filer"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Vis skjulte filer"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Ukendt"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Navnet på genvejen er allerede i brug."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Grundlæggende"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Fil"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Filer"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Mappe"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mapper"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "System"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Navn"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Lydfiler"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokumenter"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Downloadede apps"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Billeder"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videoer"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Annullér"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Annuller"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Opret"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Slet"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Fjern"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Omdøb"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Afinstallér"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Tilføj genvej"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Lydfiler"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopier"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopier til"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Opret mappe"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Slet genvej"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokumenter"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Downloadede applikationer"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Billeder"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Flyt"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Flyt til"
@@ -481,7 +1255,43 @@ msgstr "Flyt til"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d valgt"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Seneste filer"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Fjern"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Omdøb"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Indstillinger"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Genveje"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Sortér efter"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Afinstaller"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Upload til"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Se som"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Alle"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Genveje"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Indeholder"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Enhedslager"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Placering"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD-kort"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Vis filtypenavne"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Vis skjulte filer"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Størrelse"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Type"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Sælger"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Ingen filer"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Stigende"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopiér"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Opret mappe"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Faldende"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Detaljeret liste"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Vis ikke igen"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Filtype"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Liste"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Flyt"
@@ -502,14 +1366,50 @@ msgstr "Flyt"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Fjern"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Størrelse"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Tid"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Type"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Afinstaller"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 element vil blive fjernet."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 genvej vil blive slettet."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopierer ..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Flytter ..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d elementer vil blive fjernet."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d genveje vil blive slettet."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Fjerner..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Brug af mobile data under roaming kan medføre yderligere gebyrer afhængig af dit abonnement."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Tilgængelige brugsfunktioner"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Oprettelsesdato"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Beskrivelse"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Viderestilling"
@@ -523,14 +1423,29 @@ msgstr "Opløsning"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Størrelse i alt"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Gyldighed"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Destinationsmappen er en undermappe til kildemappen."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Destinationsmappen er den samme som kildemappen."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kunne ikke tilføje genvej."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Kunne ikke kopiere elementet."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Kunne ikke slette elementet."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Kunne ikke flytte elementet."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Kunne ikke fjerne elementet."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavn allerede i brug."
@@ -544,17 +1459,23 @@ msgstr "Genvej tilføjet."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Genvej findes allerede."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Opdatér"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d elementer vil blive slettet."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d apps afinstalleres."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Overførsel fuldført"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s bliver afinstalleret."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Lagring"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Størrelse"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Listevisning"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Mappenavnet er allerede i brug."
@@ -562,44 +1483,68 @@ msgstr "Mappenavnet er allerede i brug."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Lokalt lager"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Enhedslager"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Ikke logget på."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Alle filer"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Skylager"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Bestil"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Genveje"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Tid"
 
 msgid "IDS_ST_BODY_UNINSTALL"
-msgstr "Afinstaller"
+msgstr "Afinstallér"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Indeholder"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Vælg alle"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Intet ansigt detekteret"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Overfør"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "I dag"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Findes allerede."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "I går"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Kunne ikke flytte. Destinationsmappen er den samme som kildemappen"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Opret mappe"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Mere"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Flyt hertil"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Sæt ind her"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Indstil"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Denne filtype bliver ikke understøttet af nogen applikationer på din enhed."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Ukendt fejl."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d filer vil blive slettet."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Ukendt"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "System"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Filer sendt"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "UDFØRT"
@@ -610,11 +1555,53 @@ msgstr "ANNULLER"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "SLET"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Omdøb"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Vælg element"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Ingen uploads"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Når du har uploadet elementer, vises de her."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Indstillinger"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Kan ikke gemme data"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Der er ikke tilstrækkelig ledig plads på dit SD-kort. Gå til Indstillinger > Strøm og lager > Lagring, slet nogle filer, og prøv igen."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Der er ikke tilstrækkelig ledig plads på din enheds lager. Gå til Indstillinger > Strøm og lager > Lagring, slet nogle filer, og prøv igen."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Fejl."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Hukommelsen er fuld."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Der vil blive slettet 1 element fra Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Der vil blive slettet %d elementer fra Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobile data er slået fra. Opret forbindelse til et Wi-Fi-netværk, eller slå mobile data til, og prøv igen."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Indstillinger"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Personligt lager"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Sti"
@@ -625,8 +1612,23 @@ msgstr "Det maksimale antal tegn %d er nået."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Vælg lagre"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Downloadhistorik"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Downloadhistorik"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Downloader ..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Downloads"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Ingen downloads"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Download mislykkedes"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Udløber den: %s"
@@ -634,114 +1636,30 @@ msgstr "Udløber den: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Udløbet den: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Kunne ikke downloade fil"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Prøv at downloade filen igen, eller fjern den fra downloadkøen."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Prøv igen"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Fjern"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategori"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Mappenavnet er i brug"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Filnavn i brug"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Dette filnavn (%s) er allerede i brug i destinationsmappen."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Dette mappenavn (%s) er allerede i brug i destinationsmappen."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Slet"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Ryd oversigt"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Komprimerer ..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Pakker ud..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Udpak elementer fra ZIP-fil"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Ny mappe %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Kan ikke angive mappenavn til “.” eller “..”."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Indstillinger"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Detaljeret liste"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Kan ikke udtrække elementer"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Ikke plads nok"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Opret ZIP-fil"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Ingen oversigt"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Vis ikke igen"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Mere"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Annullerer ..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Kan ikke udføre handlingen"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Fil"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Mappe"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Mapper"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Navn"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Der er ikke tilstrækkelig ledig plads på din enheds lager. Gå til Indstillinger > Lager og RAM > Lager > Detaljer, slet nogle filer, og prøv igen."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Der er ikke tilstrækkelig ledig plads på dit SD-kort. Gå til Indstillinger > Lager og RAM > Lager > Detaljer, slet nogle filer, og prøv igen."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Liste"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Størrelse"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 element vil blive fjernet."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Kan ikke angive mappenavn til %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Denne fil blev slettet, flyttet eller omdøbt. Tryk på Download for at downloade filen og prøve igen, eller tryk på Fjern for at slette den fra downloadhistorikken."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Opdater"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s bliver afinstalleret."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Størrelse"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Enhedslager"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Skylager"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Indstil"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Omdøb"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mine filer"
 

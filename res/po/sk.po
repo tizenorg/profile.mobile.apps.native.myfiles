@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "Úspešné: %1$d, zlyhané: %2$d"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "Úspešné: %d"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Použiť pre všetky položky"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Pripravuje sa sťahovanie..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Vaše zariadenie nie je pripojené k sieti Wi-Fi. Pripojenie k mobilnej sieti môže znamenať ďalšie poplatky v závislosti od vášho tarifného programu."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Zdieľať cez"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Zdieľať cez"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobilné dátové pripojenie je vypnuté. Pripojte sa namiesto toho k sieti Wi-Fi alebo zapnite mobilné dátové pripojenie a skúste to znova."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Pamäťová karta vybraná."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Vykoná sa odstr. %d položiek."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Dokončené."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Táto položka sa odstráni."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Sťahovanie..."
@@ -28,8 +22,50 @@ msgstr "Sťahovanie..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Nedostatok pamäte."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Zrušené"
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Stiahnutie nedostupné."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Dokončené."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Vytvoriť"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Odstránené."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Pamäťová karta vybraná."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Hľadanie..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Chyba pripojenia k sieti."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Odstrániť priečinok"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Zadajte názov priečinka."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Stiahnuté aplikácie"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Vyskytla sa chyba sieťového pripojenia. Hovor sa ukončil. Znova pripojiť k sieti?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Uložiť"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Áno"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nie"
@@ -37,32 +73,122 @@ msgstr "Nie"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Pridať odkaz"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Odstrániť"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Odstrániť odkaz"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Premenovať odkaz"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Vyhľadávanie"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Zdieľať"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Využitie úložiska"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Nezobrazovať znova"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "B"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Nedá sa pripojiť na server."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Súkromné"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Zadajte názov priečinka."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Odstrániť odkaz"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Vybitá batéria"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 súbor"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Môj album"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Pridať z"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Výstrahy"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Všetko"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Počet použití k dispozícii"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "B"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Obsah na stiahnutie"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Dátum vytvorenia"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Dátum"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Vymazať vybraté položky?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "kB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumenty"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Vykonať"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Názov súboru"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Typ súb."
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Názov priečinka"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Preposlanie"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS informácie"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "Zemepisná šírka GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "Zemepisná dĺžka GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "Verzia GPS"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Obrázky"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Nemožné"
@@ -76,17 +202,68 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Naposledy upravené"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Zoznam a podrobnosti"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Miesto"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Inicializujú sa údaje MMC..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Moje videoklipy"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Nedostatok pamäte telefónu. Vymažte niektoré položky a skúste to znova."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Žiadne súbory"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Žiadne naposledy otvorené súbory"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Žiadne nedávne súbory"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "Počet súborov: %d"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d položka"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "Počet položiek: %d"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Možné"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Tlač"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Prem."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Stav práv"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Zvonenia"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Zdieľať"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Zobraziť skryté súbory"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Zvuky"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Využ. úlož. priest."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Čas"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Časovaný počet"
@@ -94,11 +271,35 @@ msgstr "Časovaný počet"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Typ"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Neobmedzené"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Hore"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Platnosť"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Dodávateľ"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Videá"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Tapety"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Prid. na dom. s."
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Exportovať sem"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Ísť na Moje súbory"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Domov"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Nahradiť"
@@ -106,26 +307,92 @@ msgstr "Nahradiť"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Hľadať vo všet. prieč."
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Nastaviť sem"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Rozšírené hľadanie"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Zvuk"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Pripojenie k mobilnej sieti"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Pripojenie k sieti Wi-Fi"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Počet"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Zadajte názov priečinka."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Lokálna"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Nový priečinok"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Najnovšie súbory"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Odstrániť súbor"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Zdieľ. zvuku a fotogr."
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "pamäť"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Priečinok sa nedá vytvoriť"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Áno"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Vybrať všetko"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Zadajte názov priečinka"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Pridať do odkazov"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Ako obrázkové súbory"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Ako video súbory"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Zvonenie volajúceho"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Komprimovať"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Vytvoriť priečinok"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Dátum (najnovšie)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Dátum (najstaršie)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Dekomprimovať"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Dekomprimovať sem"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Predvolené zvonenie"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detailné zobrazenie"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Upraviť"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Extrahovať"
@@ -133,17 +400,56 @@ msgstr "Extrahovať"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Extrahovať do aktuálneho priečinka"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Prejsť do priečinka"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Skryť príponu súboru"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Položky"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Meno"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Zoradiť podľa"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Presunúť sem"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Meno"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Otvoriť umiestnenie súboru"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Nedá sa pripojiť na server."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Osobná stránka"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Nahrať zvuk"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Zaregistrovať do kontaktov"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Premenovať"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Premenované."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Premenovať priečinok"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Uložiť sem"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Hľadať blízke zariadenia"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Vybrané"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Zdieľať prepojenie"
@@ -151,14 +457,47 @@ msgstr "Zdieľať prepojenie"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Zobraziť príponu súboru"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Rozdeliť"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Zoradiť podľa"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Zobrazenie miniatúr"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Zobraziť ako"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Zobraziť podľa zoznamu"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Zobraziť podľa miniatúr"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Komprimovať"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 položka sa vymaže."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Vzostupne"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Odstrániť?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Pokračovať"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopírovanie sa nepodarilo."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Vymazanie sa nepodarilo."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Vymazať vybratú položku?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Zostupne"
@@ -166,8 +505,35 @@ msgstr "Zostupne"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Súbor DRM. Nedá sa odoslať."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "Súbor DRM nie je k dispozícii."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Názov súboru už existuje."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Názov priečinka už existuje."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formát"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Od"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Zadaj text"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Neplatný názov súboru."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Načítava sa..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Dosiahol sa maximálny počet priečinkov."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Presunutie sa nepodarilo."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Názov je prázdny."
@@ -178,116 +544,11 @@ msgstr "Nedostatok odkladacej pamäte."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Nedostatok pamäte. Odstráňte niektoré položky a skúste to znova."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Nedostatok pamäte. K dispozícii je %s."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Odstrániť z odkazov?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Odoslanie zlyhalo."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Odstrániť"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Cieľový priečinok je podpriečinkom zdrojového priečinka."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Cieľový priečinok sa zhoduje so zdrojovým priečinkom."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Vyhľadávanie"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Nedá sa kopírovať."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Nedá sa presunúť."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Nastavenia"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Túto akciu nemožno vykonať. Došlo k chybe siete."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Čas"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Neobmedzené"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Exter. úložný priestor"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Pamäťová karta"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Videá"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Súbory boli skomprimované."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Súbory boli extrahované."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Vybrať všetko"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "kB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumenty"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Obrázky"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Žiadne súbory"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Využ. úlož. priest."
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Súbor neexistuje."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Späť"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Všetko"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Vytvoriť priečinok"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Položky"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Pripojiť"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Meno"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Zoradiť podľa"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 položka sa vymaže."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Vymazanie sa nepodarilo."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formát"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Vložiť sem"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d položky sa vymažú."
@@ -295,8 +556,155 @@ msgstr "%d položky sa vymažú."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Povolenie odmietnuté."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Odstrániť zo zoznamu nedávnych súborov?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Odstrániť z odkazov?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Odstrániť?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Rovnaký názov súboru už existuje."
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Rovnaký názov sa už používa."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Vybrať položku"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Odoslanie zlyhalo."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Odkaz bol pridaný."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Cieľový priečinok je podpriečinkom zdrojového priečinka."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Cieľový priečinok sa zhoduje so zdrojovým priečinkom."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Zariadenie bolo odpojené"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Súbor neexistuje."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Nedá sa kopírovať."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Nedá sa presunúť."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Túto akciu nemožno vykonať. Došlo k chybe siete."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Počas hovoru sa nedá prehrávať."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Obsah chránený technológiou DRM nemožno nastaviť ako vyzváňací tón ani upozornenie na oznámenie."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Ak chcete vyhľadať blízke zariadenia, musíte byť pripojení k sieti Wi-Fi. Pripojte sa cez sieť Wi-Fi a skúste to znova."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Späť"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopírovať"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Odstrániť"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Upraviť"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Presun."
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Hľadať"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Zoradiť podľa"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Zobr. ako"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Zrušiť"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Zruš."
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Všetko"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Exter. úložný priestor"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Pamäťová karta"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefón"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Hore"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Komprimované."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Dekomprimované."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Sťahuje sa súbor..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Súbory boli skomprimované."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Súbory boli extrahované."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Súbor bol importovaný."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Nenašli sa žiadne zariadenia. Vyhľadávanie bude pokračovať na pozadí."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Adresár"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Pripojiť"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Predvolený zvuk oznámení"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Pridať skratku"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Vymazať položky?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Premenovať"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Odstrániť"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Odstrániť položku"
@@ -307,11 +715,23 @@ msgstr "Vybrať položky"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Nenašli sa žiadne výsledky"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Vymazať %d položiek?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Vymazať položku?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 vybratá položka."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Zadali ste neplatný znak. Skúste to znova"
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Spúšťa sa sťahovanie..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Vybraté položky: %d."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Tichý"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vybrať položku"
@@ -319,11 +739,32 @@ msgstr "Vybrať položku"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Môžete vybrať maximálne %d položiek."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Stiahnuté položky"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Odstrániť?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Presun."
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopírovať"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Presúvanie..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopírovanie..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Odstraňovanie..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Operácia zlyhala."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Vybrané"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Presunuté."
@@ -331,35 +772,143 @@ msgstr "Presunuté."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Skopírované."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Zoradiť podľa"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Nepodarilo sa."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Hotovo"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Karta SD"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Pamäť zariadenia"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Pridať do osobného úložného priestoru"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Odstrániť z osobného úložného priestoru"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Odstrániť túto položku?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Odstrániť z priečinka Súkromné"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Premiestniť do priečinka Súkromné"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Stiahnuté položky"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Odstraňovanie..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Nepodarilo sa."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "Karta SD"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Bol dosiahnutý maximálny počet znakov."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Odstraňovanie..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Osobný úložný priestor"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formátovanie je dokončené."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Názov (od Z po A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Názov (od A po Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Snímka obrazovky"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Nenašli sa žiadne výsledky."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Upozornenie na správu"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Zadať meno"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Moje súbory"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Nič nie je vybrané."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Pridané."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Prebieha spracovanie..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Nepodporovaný typ súboru."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Odstrániť?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Súkromný obsah"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopírovať do"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Presunúť do"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nepodarilo sa pridať odkaz."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nedostatok pamäte. Vymažte niektoré položky"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Odstránené."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Súkromné úložisko"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Nič nie je vybrané."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Zdieľať"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Zobr. ako"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Zoznam"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Zobraziť"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Uložiť ako"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Odstránenie sa nepodarilo."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Rodičovské hodnotenie"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Názov súboru už existuje."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Hlas"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi nie je k dispozícii. Pripojenie k mobilným sieťam môže znamenať ďalšie poplatky v závislosti od vášho tarifného programu."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Dosiahol sa maximálny počet znakov (%d)."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Príprava..."
@@ -367,8 +916,20 @@ msgstr "Príprava..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Vybraté: %d"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Odstrániť položky"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Žiadne sťahovania"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Sťahovanie je dokončené"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Správca sťahovaní"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Po stiahnutí položiek sa zobrazia tu."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Sťahovanie bolo zrušené"
@@ -397,11 +958,14 @@ msgstr "Predvolený úložný priestor je plný"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Staršie"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Podrobnosti"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Úložisko"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Prebieha spracovanie..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Odstraňovanie..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "Karta SD"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Úložisko zariadenia"
@@ -409,20 +973,86 @@ msgstr "Úložisko zariadenia"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Oznamuje sa serveru..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d položky sa vymažú."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Tento súbor sa nedá nájsť. Ťuknutím na tlačidlo Stiahnuť ho skúste stiahnuť znova."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Súbor sa nedá otvoriť"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Nedá sa nájsť aplikácia na otvorenie tohto súboru."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Ťuknutím na tlačidlo Stiahnuť to skúste znova."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 položka sa vymaže."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktivuje sa obsah DRM..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nedá sa nájsť aplikácia na vykonanie tejto akcie."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Umiestnenie úložiska"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importovanie"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Zrušiť"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Vybrať všetko"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "Vybraté: %d"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Stiahnuť"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Dnes"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Včera"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Odstrániť"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Nahrad."
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Použiť pre všetky položky"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Vytvoriť komprimovaný súbor"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Extrahovanie komprimovaného súboru"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Moje súbory"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "História sťahovaní"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Žiadna história"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Jednoduché zdieľanie"
@@ -445,11 +1075,74 @@ msgstr "Tieto položky sa po premiestnení odstránia zo služby Dropbox. Vykon�
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Táto položka sa po premiestnení odstráni zo služby Dropbox. Premiestni sa 1 položka."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Vyberte umiest. úlož. priest."
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Zastaviť"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Odoslať"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Nepodarilo sa odoslať súbor"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Zastavenie odosielaní"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Ťuknutím na tlačidlo Odoslať to skúste znova."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Odosielanie sa zastaví, ale súbor sa neodstráni."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Nedávno zobrazené"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Údaje sa nedajú uložiť"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "V úložisku zariadenia nie je dostatok miesta. Prejdite do menu Nastavenia > Energia a úložisko > Úložisko a potom odstráňte niektoré súbory a skúste to znova."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Na karte SD nie je dostatok miesta. Prejdite do menu Nastavenia > Energia a úložisko > Úložisko a potom odstráňte niektoré súbory a skúste to znova."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Odoslať do"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Odosielania do sl. Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Súkromné"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "B"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Pridať"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Domov"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Budík"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Ostatné"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Ďalšie"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Otvoriť"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Neznáma chyba."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Ako názov priečinka sa nedá nastaviť „.“ ani „..“."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Nezobrazovať skryté súbory"
@@ -457,23 +1150,104 @@ msgstr "Nezobrazovať skryté súbory"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Zobraziť skryté súbory"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Neznáme"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Názov odkazu sa už používa."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Základný"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Súbor"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Súbory"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Priečinok"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Priečinky"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Systém"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Meno"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Zvukové súbory"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokumenty"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Stiahnuté aplikácie"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Fotografie"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Videá"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Zrušiť"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Zrušiť"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Vytvoriť"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Odstrániť"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Odstrániť"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Premenovať"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Odinštalovať"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Pridanie odkazu"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Zvukové súbory"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopírovanie"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopírovať do"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Vytvoriť priečinok"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Odstrániť odkaz"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokumenty"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Stiahnuté aplikácie"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Obrázky"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Premiestnenie"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Premiestniť do"
@@ -481,7 +1255,43 @@ msgstr "Premiestniť do"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "Vybraté: %d"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Najnovšie súbory"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Odstrániť"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Premenovať"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Skratky"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Zoradiť podľa"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Odinštalovať"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Odoslať do"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Videá"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Zobraziť ako"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Všetky"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Odkazy"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Obsahuje"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Pamäť zariadenia"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Formát"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Umiestnenie"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "Karta SD"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Zobraziť prípony súborov"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Zobraziť skryté súbory"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Veľkosť"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Typ"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Dodávateľ"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Žiadne súbory"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Vzostupne"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopírovať"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Vytvoriť priečinok"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Zostupne"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Podrobný zoznam"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Už nezobrazovať"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Typ súboru"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Zoznam"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Premiestniť"
@@ -502,14 +1366,50 @@ msgstr "Premiestniť"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Odstrániť"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Veľkosť"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Čas"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Typ"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Odinštalovať"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 položka sa odstráni."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Odstráni sa 1 odkaz."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopírovanie..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Presúvanie..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Položky v počte %d sa odstránia."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Vykoná sa odstránenie %d odkazov."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Odstraňovanie..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Používanie mobilného dátového pripojenia počas roamingu môže mať za následok ďalšie poplatky v závislosti od vášho tarifného programu."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Dostupné použitia"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Dátum vytvorenia"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Popis"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Presmerovanie"
@@ -523,14 +1423,29 @@ msgstr "Rozlíšenie"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Celková veľkosť"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Platnosť"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Cieľový priečinok je podpriečinkom zdrojového priečinka."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Cieľový priečinok je zhodný so zdrojovým priečinkom."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nepodarilo sa pridať odkaz."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Nepodarilo sa skopírovanie položku."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Nepodarilo sa odstrániť položku."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Nepodarilo sa premiestniť položku."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Nepodarilo sa odstrániť položku."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Názov súboru sa už používa."
@@ -544,17 +1459,23 @@ msgstr "Odkaz sa pridal."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Odkaz už existuje."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Obnoviť"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Vykoná sa odstránenie %d položiek."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Vykoná sa odinštalovanie %d aplikácií."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Sťahovanie je dokončené"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s sa odinštaluje."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Úložisko"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Veľkosť"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Zapnúť zoznam"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Názov priečinka sa už používa."
@@ -562,11 +1483,23 @@ msgstr "Názov priečinka sa už používa."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Lokálne úložisko"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Úlož. priest. zar."
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Nie ste prihlásení."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Všetky súbory"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Úložný priestor cloud"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Poradie"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Skratky"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Čas"
@@ -574,32 +1507,44 @@ msgstr "Čas"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Odinštalovať"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Obsahuje"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Vybrať všetko"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Nedetekovala sa žiadna tvár"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Stiahnuť"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Dnes"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Už existuje."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Včera"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Nedá sa premiestniť. Cieľový priečinok je zhodný so zdrojovým priečinkom."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Vytvoriť priečinok"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Ďalšie"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Presunúť sem"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Prilepiť sem"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Nastaviť"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Tento typ súborov nepodporuje žiadna aplikácia vo vašom zariadení."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Neznáma chyba."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Vykoná sa odstránenie %d súborov."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Neznáme"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Systém"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Súbory boli odoslané"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "HOTOVO"
@@ -610,11 +1555,53 @@ msgstr "ZRUŠIŤ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ODSTRÁNIŤ"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Premenovať"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Vyberte položku"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Žiadne odosielania"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Tu sa zobrazia položky po ich odoslaní."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Nastavenia"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Údaje sa nedajú uložiť"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Na karte SD nie je dostatok miesta. Prejdite do menu Nastavenia > Energia a úložisko > Úložisko a potom odstráňte niektoré súbory a skúste to znova."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "V úložisku zariadenia nie je dostatok miesta. Prejdite do menu Nastavenia > Energia a úložisko > Úložisko a potom odstráňte niektoré súbory a skúste to znova."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Chyba."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Pamäť plná."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Odstráni sa 1 položka z konta Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Vykoná sa odstránenie %d položiek z konta Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobilné dátové pripojenie je vypnuté. Pripojte sa k sieti Wi-Fi alebo zapnite mobilné dátové pripojenie a skúste to znova."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Osobný úložný priestor"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Cesta"
@@ -625,8 +1612,23 @@ msgstr "Dosiahol sa maximálny počet znakov (%d)."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Vybrať ukladací priestor"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "História sťahovaní"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "História sťahovaní"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Sťahuje sa..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Stiahnuté"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Žiadne stiahnuté súbory"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Sťahovanie zlyhalo"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Platnosť uplynie: %s"
@@ -634,114 +1636,30 @@ msgstr "Platnosť uplynie: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Platnosť uplynula: %s"
 
-msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Tento názov priečinka (%s) sa už v cieľovom priečinku používa."
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Nepodarilo sa stiahnuť súbor"
 
-msgid "IDS_DM_OPT_DELETE"
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Skúste stiahnuť súbor znova alebo ho odstráňte z frontu sťahovaní."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Zopakovať"
+
+msgid "IDS_MF_BUTTON_REMOVE"
 msgstr "Odstrániť"
 
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Vymazať históriu"
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategória"
 
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Komprimuje sa..."
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Názov priečinka sa používa"
 
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Extrahuje sa..."
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Soubor už existuje"
 
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Extrah. položiek súboru ZIP"
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Tento názov súboru (%s) sa už používa v cieľovom priečinku."
 
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Nový priečinok %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Ako názov priečinka sa nedá nastaviť „.“ ani „..“."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Nastavenia"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Podrobný zoznam"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Položky sa nedajú extrahovať"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Nedostatok miesta"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Vytvorenie súboru ZIP"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Žiadna história"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Už nezobrazovať"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Ďalšie"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Ruší sa..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Akcia sa nedá vykonať"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Súbor"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Priečinok"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Priečinky"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Meno"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "V úložisku zariadenia nie je dostatok miesta. Prejdite do menu Nastavenia > Úložisko a pamäť RAM > Úložisko > Podrobnosti a potom odstráňte niektoré súbory a skúste to znova."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Na karte SD nie je dostatok miesta. Prejdite do menu Nastavenia > Úložisko a pamäť RAM > Úložisko > Podrobnosti a potom odstráňte niektoré súbory a skúste to znova."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Zoznam"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Veľkosť"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 položka sa odstráni."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Priečinok sa nedá pomenovať ako %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Tento súbor bol odstránený, premiestnený alebo premenovaný. Ťuknutím na tlačidlo Stiahnuť ho môžete stiahnuť znova alebo ťuknutím na tlačidlo Odstrániť ho môžete odstrániť z histórie sťahovaní."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Obnoviť"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s sa odinštaluje."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Veľkosť"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Úlož. priest. zar."
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Úložný priestor cloud"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Nastaviť"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Premenovať"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Moje súbory"
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Tento názov priečinka (%s) sa už v cieľovom priečinku používa."
 

@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d gelukt, %2$d mislukt"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "%d gelukt"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Toepassen op alle items"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Voorber. voor downloaden..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Uw apparaat is niet verbonden met een Wi-Fi-netwerk. Voor verbinding met een mobiel netwerk kunnen afhankelijk van uw abonnement extra kosten gelden."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Delen via"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Delen via"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobiele gegevens zijn uitgeschakeld. Maak in plaats daarvan verbinding met een Wi-Fi-netwerk of schakel Mobiele gegevens in en probeer het opnieuw."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Geheugenkaart verwijderd."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "%d items worden verwijderd."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Voltooid."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Dit item wordt verwijderd."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Downloaden..."
@@ -28,8 +22,50 @@ msgstr "Downloaden..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Onvoldoende geheugen."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Geannuleerd."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Downloaden mislukt."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Voltooid."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Nieuw"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Verwijderd."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Geheugenkaart verwijderd."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Zoeken..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Netwerkverbindingsfout."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Map verwijderen"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Mapnaam invoeren"
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Gedownloade apps"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Netwerkverbindingsfout opgetreden. De oproep is beëindigd. Opnieuw verbinding maken met het netwerk?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Opslaan"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ja"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Nee"
@@ -37,32 +73,122 @@ msgstr "Nee"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Sneltoets toevoegen"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Wissen"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Sneltoets verwijderen"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Sneltoetsnaam wijzigen"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Zoeken"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Instellingen"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Delen"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Gebruikte opslag"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Niet meer tonen"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Kan niet verbinden met server."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privé"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Mapnaam invoeren"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Sneltoets verwijderd"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Batterij bijna leeg"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 bestand"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Mijn album"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Toevoegen vanuit"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Waarschuwingen"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Alle"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Aantal keer dat het gebruikt mag worden"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Inhoud"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Aanmaakdatum"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Datum"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Geselecteerde items verwijderen?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Documenten"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Uitvoeren"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Bestandsnaam"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Best.type"
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Mapnaam"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Doorsturen"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS informatie"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS-breedtegraad"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS-lengtegraad"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS-versie"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Afbeeldingen"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Niet mogelijk"
@@ -76,17 +202,68 @@ msgstr "Interval"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Laatst gewijzigd op"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Lijst en details"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Locatie"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-gegevens worden geïnitialiseerd..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mijn videoclips"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Onvoldoende ruimte in telefoongeheugen. Verwijder een aantal items en probeer het opnieuw."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Geen bestanden"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Geen onlangs geopende bestanden"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Geen recente bestanden"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d bestanden"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d item"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d items"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Mogelijk"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Afdrukken"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Wijzig"
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Status rechten"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Beltonen"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Delen"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Verborgen bestanden weergeven"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Geluiden"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Gebruikte opslag"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Tijd"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Speelduur"
@@ -94,11 +271,35 @@ msgstr "Speelduur"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Type"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Onbeperkt"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Omhoog"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Geldigheid"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Leverancier"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Video's"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Achtergrond"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Toev aan startpg"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Hiernaartoe exporteren"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Naar Mijn bestanden"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Startpagina"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Vervang"
@@ -106,26 +307,92 @@ msgstr "Vervang"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Zoeken in alle mappen"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Hier instellen"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Geavanceerde zoekopdracht"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Audio"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Verbinden met mobiel netwerk"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Verbind met Wi-Fi-netwerk"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Aantal"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Mapnaam invoeren"
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Lokaal"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Nieuwe map"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Recente bestanden"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Bestand verwijderen"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Foto'met geluid & opname delen"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Opslag"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Kan map niet maken"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Ja"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Alles selecteren"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Mapnaam invoeren"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Toevoegen aan sneltoetsen"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Als afbeeldingsbestanden"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Als videobestanden"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Beltoon beller"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Comprimeren"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Map maken"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Datum (meest recent)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Datum (oudste)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Decomprimeren"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Hier decomprimeren"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Standaardbeltoon"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detailweergave"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Bewerken"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Uitpakken"
@@ -133,17 +400,56 @@ msgstr "Uitpakken"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Extraheren naar huidige map"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Ga naar map"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Bestandsext. verbergen"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Items"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Naam"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Sorteren op"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Hier plaatsen"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Naam"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Bestandslocatie openen"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Kan niet verbinden met server."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Persoonlijke pagina"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Geluid opnemen"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Opslaan in Contacten"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Naam wijzigen"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Naam gewijzigd."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Naam map wijzigen"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Hier opslaan"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Zoek apparaten in de buurt"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Geselecteerd"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Koppeling delen"
@@ -151,14 +457,47 @@ msgstr "Koppeling delen"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Bestandsextensie weergeven"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Splitsen"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sorteren op"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniatuurweergave"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Tonen als"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Lijstweergave"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Miniatuurweergave"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Comprimeren"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 item wordt verwijderd."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Oplopend"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Doorgaan"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Kopiëren is mislukt."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Verwijderen mislukt."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Geselecteerd item verwijderen?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Aflopend"
@@ -166,8 +505,35 @@ msgstr "Aflopend"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM-bestand. Kan niet verzonden worden."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM-bestand is niet beschikbaar."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Bestandsnaam al in gebruik."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Mapnaam bestaat al."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formaat"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Van"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Tekst invoeren"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Ongeldige bestandsnaam."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Laden..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Maximum aantal mappen bereikt."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Verplaatsen is mislukt."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Naam is leeg."
@@ -178,116 +544,11 @@ msgstr "Onvoldoende heap-geheugen."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Onvoldoende geheugen. Verwijder een aantal items en probeer het opnieuw."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Onvoldoende geheugen. %s beschikbaar."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Verwijderen uit sneltoetsen?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Verzenden mislukt."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Wissen"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "De doelmap is een submap van de bronmap."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "De doelmap is hetzelfde als de bronmap."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Zoeken"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Kan niet kopiëren."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Kan niet verplaatsen."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Instellingen"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Kan deze actie niet uitvoeren. Netwerkfout opgetreden."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Tijd"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Onbeperkt"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Externe opslag"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Geheugenkaart"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Video's"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Bestanden gecomprimeerd."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Bestanden uitgepakt."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Alles selecteren"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Documenten"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Afbeeldingen"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Geen bestanden"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Gebruikte opslag"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Dit bestand bestaat niet."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Terug"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Alles"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Map maken"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Items"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Verbinden"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Naam"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sorteren op"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 item wordt verwijderd."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Verwijderen mislukt."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formaat"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Hier kopiëren"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d items worden verwijderd."
@@ -295,8 +556,155 @@ msgstr "%d items worden verwijderd."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Toestemming geweigerd."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Verwijderen uit lijst met recente bestanden?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Verwijderen uit sneltoetsen?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Deze bestandsnaam bestaat al."
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Naam is al in gebruik."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Item selecteren"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Verzenden mislukt."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Sneltoets toegevoegd."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "De doelmap is een submap van de bronmap."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "De doelmap is hetzelfde als de bronmap."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Het apparaat is losgekoppeld"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Dit bestand bestaat niet."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Kan niet kopiëren."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Kan niet verplaatsen."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Kan deze actie niet uitvoeren. Netwerkfout opgetreden."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Niet mogelijk tijdens gesprek."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Kan door DRM beveiligde inhoud niet instellen als beltoon of meldingsignaal."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "U moet verbinding hebben met een Wi-Fi-netwerk om apparaten in de buurt te zoeken. Maak verbinding met Wi-Fi en probeer het opnieuw."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Terug"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopiëren"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Wissen"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Wijzigen"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Verplaatsen"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Zoeken"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Sorteren op"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Weerg. als"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Annuleren"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Annul."
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Alles"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Externe opslag"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Geheugen-\nkaart"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefoon"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Omhoog"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Gecomprimeerd."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Gedecomprimeerd."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Bestand downloaden..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Bestanden gecomprimeerd."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Bestanden uitgepakt."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Bestand geïmporteerd."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Geen apparaten gevonden. Zoeken wordt in de achtergrond voortgezet."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Directory"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Verbinden"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Standaardgeluid melding"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Sneltoets toevoegen"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Items verwijderen?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Naam wijzigen"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Instellingen"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Verwijderen"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Item verwijderen"
@@ -307,11 +715,23 @@ msgstr "Items selecteren"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Geen resultaten gevonden"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "%d items verwijderen?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Item verwijderen?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 item geselecteerd."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Ongeldig teken ingevoerd. Probeer het opnieuw."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Downloaden starten..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d items geselecteerd."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Stil"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Item selecteren"
@@ -319,11 +739,32 @@ msgstr "Item selecteren"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "U kunt maximaal %d items selecteren."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Downloads"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Verplaatsen"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopiëren"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Verplaatsen..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopiëren..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Verwijderen..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Bewerking is mislukt."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Geselecteerd"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Verplaatst."
@@ -331,35 +772,143 @@ msgstr "Verplaatst."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Gekopieerd."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Sorteren op"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Mislukt."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Gereed"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD-kaart"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Apparaatgeheugen"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Toevoegen aan persoonlijke opslag"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Verwijderen uit persoonlijke opslag"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Dit item verwijderen?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Verwijderen uit Privé"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Verplaatsen naar Privé"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Downloads"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Verwijderen..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Mislukt."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD-kaart"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Maximumaantal tekens bereikt."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Verwijderen..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Persoonlijke opslag"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formatteren voltooid."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Naam (Z tot A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Naam (A tot Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Schermafbeelding"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Geen resultaten gevonden."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Berichtsignaal"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Naam invoeren."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Mijn bestanden"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Niets geselecteerd."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Toegevoegd."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Verwerken..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Niet-ondersteund bestandstype."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Privé-inhoud"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopiëren naar"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Verplaatsen naar"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kan sneltoets niet toevoegen."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Onvoldoende geheugen. Wis een aantal items."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Verwijderd."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privé-opslag"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Niets geselecteerd."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Delen"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Weergeven als"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Lijst"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Weergeven"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Opslaan als"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Verwijderen mislukt."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Leeftijdsclassificatie"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Bestandsnaam al in gebruik."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Spraak"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Wi-Fi-netwerk is niet beschikbaar. Voor verbindingen met mobiele netwerken kunnen afhankelijk van uw abonnement extra kosten gelden."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Het maximumaantal tekens (%d) is bereikt."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Voorber..."
@@ -367,8 +916,20 @@ msgstr "Voorber..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d geselecteerd"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Items verwijderen"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Geen downloads"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Downloaden voltooid"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Downloadmanager"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Nadat u items hebt gedownload, worden ze hier getoond."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Download geannuleerd"
@@ -397,11 +958,14 @@ msgstr "Standaardopslag vol"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Ouder"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Gegevens"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Opslag"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Verwerken..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Verwijderen..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD-kaart"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Apparaatopslag"
@@ -409,20 +973,86 @@ msgstr "Apparaatopslag"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Melden aan server..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "%d items worden verwijderd."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Dit bestand is niet gevonden. Tik op Downloaden om het opnieuw te proberen."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Kan het bestand niet openen"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Kan geen applicatie vinden om dit bestand te openen."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Tik op Downloaden om opnieuw te proberen."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 item wordt verwijderd."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "DRM-inhoud activeren..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Kan geen applicatie vinden om deze actie uit te voeren."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Opslaglocatie"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importeren"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Annul."
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Alles selecteren"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d geselecteerd"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Downloaden"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Vandaag"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Gisteren"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Wissen"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Vervang"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Toepassen op alle items"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Zipbestand maken"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Zipbestand uitpakken"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mijn bestanden"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Downloadgeschiedenis"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Geen geschiedenis"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Eenvoudig delen"
@@ -445,11 +1075,74 @@ msgstr "Als u deze items verplaatst, worden ze verwijderd uit Dropbox. %d items 
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Als u dit item verplaatst, wordt het verwijderd uit Dropbox. 1 item wordt verplaatst."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Opslaglocatie selecteren"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Stoppen"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Uploaden"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Kan bestand niet uploaden"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Uploads stoppen"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Tik op Uploaden om opnieuw te proberen."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Het uploaden wordt gestopt, maar het bestand wordt niet verwijderd."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Onlangs bekeken"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Kan gegevens niet opslaan"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Er is onvoldoende ruimte in uw apparaatopslag. Ga naar Instellingen > Energie en opslag > Opslag, verwijder een aantal bestanden en probeer het opnieuw."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Er is onvoldoende ruimte op uw SD-kaart. Ga naar de Instellingen > Energie en opslag > Opslag, verwijder een aantal bestanden en probeer het opnieuw."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Uploaden naar"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Uploads Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Privé"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bytes"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Voeg toe"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Privé"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Alarm"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Overige"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Meer"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Openen"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Onbekende fout."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Kan mapnaam niet instellen als '.' of '..'."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Verborgen best. niet weergeven"
@@ -457,23 +1150,104 @@ msgstr "Verborgen best. niet weergeven"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Verborgen bestanden weergeven"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Onbekend"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Naam sneltoets al in gebruik."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Basis"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Bestand"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Bestanden"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Map"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Mappen"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Systeem"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Naam"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Audio-\nbestanden"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Documenten"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Gedownloade applicaties"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Afbeeldingen"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Video's"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Annuleren"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Annuleren"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Maken"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Verwijderen"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Verwijderen"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Naam wijzigen"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Verwijderen"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Sneltoets toevoegen"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Audiobestanden"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopiëren"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopiëren naar"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Map maken"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Sneltoets verwijderen"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Documenten"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Gedownloade apps"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Afbeeldingen"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Verplaatsen"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Verplaatsen naar"
@@ -481,7 +1255,43 @@ msgstr "Verplaatsen naar"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d geselecteerd"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Recente bestanden"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Wissen"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Naam wijzigen"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Instellingen"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Sneltoetsen"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Sorteren op"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Verwijderen"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Uploaden naar"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Video's"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Weergeven als"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Alles"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Sneltoets"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Bevat"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Apparaatopslag"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Indeling"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Locatie"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD-kaart"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Bestandsext. weergeven"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Verborgen best. weergeven"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Omvang"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Type"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Leverancier"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Geen bestanden"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Oplopend"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopiëren"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Map maken"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Aflopend"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Gedetailleerde lijst"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Niet meer tonen"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Bestandstype"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Lijst"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Verplaatsen"
@@ -502,14 +1366,50 @@ msgstr "Verplaatsen"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Wissen"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Grootte"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Tijd"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Type"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Verwijderen"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 item wordt verwijderd."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 sneltoets wordt verwijderd."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopiëren..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Verplaatsen..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "%d items worden verwijderd."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "%d sneltoetsen worden verwijderd."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Verwijderen..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Als u Mobiele gegevens tijdens roaming gebruikt, kan dat afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Beschikbare toepassingen"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Datum gemaakt"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Beschrijving"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Doorsturen"
@@ -523,14 +1423,29 @@ msgstr "Resolutie"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Totale omvang"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Geldigheid"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Doelmap is een submap van de bronmap."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Doelmap zelfde als bronmap."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Kan sneltoets niet toevoegen."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Kan item niet kopiëren."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Kan item niet wissen."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Kan item niet verplaatsen."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Kan item niet verwijderen."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Bestandsnaam is al in gebruik."
@@ -544,17 +1459,23 @@ msgstr "Sneltoets toegevoegd."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Sneltoets bestaat al."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Vernieuwen"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d items worden verwijderd."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d apps worden verwijderd."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Downloaden voltooid"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s wordt verwijderd."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Opslag"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Grootte"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Lijstweergave"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Mapnaam al in gebruik."
@@ -562,11 +1483,23 @@ msgstr "Mapnaam al in gebruik."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Lokale opslag"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Apparaatopslag"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Niet aangemeld."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Alle bestanden"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Opslag in de cloud"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Volgorde"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Sneltoetsen"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Tijd"
@@ -574,32 +1507,44 @@ msgstr "Tijd"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Verwijderen"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Bevat"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Alles selecteren"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Geen gezicht gedetecteerd"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Downloaden"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Vandaag"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Bestaat al."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Gisteren"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Kan niet verplaatsen. Doelmap zelfde als bronmap"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Map maken"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Meer"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Hier plaatsen"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Hier kopiëren"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Instellen"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Dit bestandstype wordt door geen enkele applicatie op uw apparaat ondersteund."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Onbekende fout."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "%d bestanden worden verwijderd."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Onbekend"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Systeem"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Bestanden verzonden"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "GEREED"
@@ -610,11 +1555,53 @@ msgstr "ANNULEREN"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "VERWIJDEREN"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Naam wijzigen"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Item selecteren"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Geen uploads"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Nadat u items hebt geüpload, worden ze hier weergegeven."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Instellingen"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Kan gegevens niet opslaan"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Er is onvoldoende ruimte op uw SD-kaart. Ga naar de Instellingen > Energie en opslag > Opslag, verwijder een aantal bestanden en probeer het opnieuw."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Er is onvoldoende ruimte in uw apparaatopslag. Ga naar Instellingen > Energie en opslag > Opslag, verwijder een aantal bestanden en probeer het opnieuw."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Fout."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Geheugen vol."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 item wordt verwijderd uit Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d items worden verwijderd uit Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobiele gegevens zijn uitgeschakeld. Maak verbinding met een Wi-Fi-netwerk of schakel Mobiele gegevens in en probeer het opnieuw."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Instellingen"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Persoonlijke opslag"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Pad"
@@ -625,8 +1612,23 @@ msgstr "Maximumaantal tekens %d bereikt."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Opslag selecteren"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Downloadhistorie"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Downloadhistorie"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Downloaden..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Downloads"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Geen downloads"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Downloaden mislukt"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Verloopt op: %s"
@@ -634,114 +1636,30 @@ msgstr "Verloopt op: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Verlopen op: %s"
 
-msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Deze mapnaam (%s) is al in gebruik in de bestemmingsmap."
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Kan bestand niet downloaden"
 
-msgid "IDS_DM_OPT_DELETE"
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Probeer het bestand opnieuw te downloaden of verwijder het uit de downloadwachtrij."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Opnieuw"
+
+msgid "IDS_MF_BUTTON_REMOVE"
 msgstr "Wissen"
 
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Historie wissen"
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Categorie"
 
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Comprimeren..."
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Mapnaam in gebruik"
 
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Extraheren..."
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Bestandsnaam bestaat al"
 
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Items extr. uit zipbestand"
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Deze bestandsnaam (%s) is al in gebruik in de bestemmingsmap."
 
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Nieuwe map %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Kan “.” of “..” niet gebruiken in mapnaam."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Instellingen"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Gedetailleerde lijst"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Kan items niet extraheren"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Onvoldoende ruimte"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Zipbestand maken"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Geen geschiedenis"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Niet nogmaals weergeven"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Meer"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Annuleren..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Kan actie niet uitvoeren"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Bestand"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Map"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Mappen"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Naam"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Er is onvoldoende ruimte in uw apparaatopslag. Ga naar Instellingen > Opslag en RAM > Opslag > Details, verwijder een aantal bestanden en probeer het opnieuw."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Er is onvoldoende ruimte op uw SD-kaart. Ga naar Instellingen > Opslag en RAM > Opslag > Details, verwijder een aantal bestanden en probeer het opnieuw."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Lijst"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Grootte"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 item wordt verwijderd."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Kan %s niet gebruiken in mapnaam."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Dit bestand is verwijderd, verplaatst of de naam is gewijzigd. Tik op Downloaden om het bestand opnieuw te downloaden of tik op Verwijderen om het uit de Downloadhistorie te verwijderen."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Vernieuwen"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s wordt verwijderd."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Grootte"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Apparaatopslag"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Opslag in de cloud"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Instellen"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Naam wijzigen"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mijn bestanden"
+msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Deze mapnaam (%s) is al in gebruik in de bestemmingsmap."
 

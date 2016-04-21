@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "D'éirigh le %1$d, theip ar %2$d"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "D'éirigh le %d"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Cuir i bhfeidhm ar gach mír"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Ullmhú le híoslódáil..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Níl do ghléas nasctha le líonra Wi-Fi. Is féidir go ngearrfar táillí breise ar nascadh le líonra móibíleach ag brath ar do phlean íocaíochta."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Comhroinn le"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Comhroinn le"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Sonraí móibíleacha casta as. Nasc le líonra Wi-Fi ina ionad, nó cas Sonraí móibíleacha air agus triail arís."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Cárta cuimhne bainte."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Scriosfar %d mír."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "D’éirigh leis."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Scriosfar an mhír seo."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Ag íoslódáil..."
@@ -28,8 +22,50 @@ msgstr "Ag íoslódáil..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Easpa cuimhne."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Curtha ar ceal."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Theip ar íoslódáil."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "D’éirigh leis."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Cruthaigh"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Scriosta."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Cárta cuimhne bainte."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Ag cuardach..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Earráid leis an nasc líonra."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Scrios fillteán"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Iontráil ainm an fhillteáin"
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Feidhmchláir íoslódáilte"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Tharla earráid le nasc an líonra. Scoireadh an glao. Athnasc leis an líonra?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Sábháil"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Déan é"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ná déan é"
@@ -37,32 +73,122 @@ msgstr "Ná déan é"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Cuir aicearra leis"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Scrios"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Scrios aicearra"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Athainmnigh aicearra"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Cuardaigh"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Comhroinn"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Úsáid stórais"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Ná taispeáin arís"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Beart"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Ní féidir nascadh le freastalaí."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Príobháideach"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Iontráil ainm an fhillteáin"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Bain aicearra"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Ceallra lag"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 chomhad"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "M'albam"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Cuir leis ó"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Foláirimh"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Ceann ar bith"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Úsáidí atá ar fáil"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Beart"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Inneachar"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Dáta cruthaithe"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Dáta"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Scrios míreanna roghnaithe?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Doiciméid"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Rith"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Comhadainm"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Cineál comhd."
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Ainm an fhillteáin"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Seoladh ar aghaidh"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "Faisnéis faoi GPS"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "Domhanleithead GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "Domhanfhad GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "Leagan GPS"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Íomhánna"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Dodhéanta"
@@ -76,17 +202,68 @@ msgstr "Eatramh"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Mionathrú is déanaí"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Liosta agus sonraí"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Suíomh"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Sonraí MMC á dtúsú..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mo ghearrthóga físe"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Easpa cuimhne san fhón. Scrios roinnt míreanna agus triail arís."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Níl comhaid ann"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Níl comhaid a osclaíodh le déanaí ann"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Níl comhaid dheireanacha ann"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d comhad"
+
 msgid "IDS_MF_BODY_PD_ITEM"
+msgstr "%d mír"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
 msgstr "%d mír"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Indéanta"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Priontáil"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Athainm"
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Stádas ceart"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Clingthoin"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Comhroinn"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Taispeáin comhaid fholaithe"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Fuaimeanna"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Úsáid stórais"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Am"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Áireamh amaithe"
@@ -94,11 +271,35 @@ msgstr "Áireamh amaithe"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Cineál"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Gan teorainn"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Suas"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Bailíocht"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Díoltóir"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Físeáin"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Cúlbhrait"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Cuir le baile"
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Easpórtáil anseo"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Gabh go Mo Chomhaid"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Baile"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Ionadú"
@@ -106,26 +307,92 @@ msgstr "Ionadú"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Cuardaigh gach fillteán"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Socraigh anseo"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Cuardach casta"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Fuaim"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Nasc le líonra móibíleach"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Nasc le líonra Wi-Fi"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Áireamh"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Iontráil ainm an fhillteáin"
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Logánta"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Fillteán nua"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Comhaid le déanaí"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Bain an comhad"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "C.roinn pic. fuaime & seat"
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Stóras"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Ní féidir fillteán a chruthú"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Déan é"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Roghnaigh gach"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Iontráil ainm fillteáin"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Cuir le haicearraí"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Mar chomhaid íomhá"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Mar chomhaid físe"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Clingthon glaoiteora"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Comhbhrúigh"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Déan fillteán"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Dáta (Cinn is déanaí)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Dáta (Cinn is sine)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Dí-chomhbhrúigh"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Dí-chomhbhrúigh anseo"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Clingthon réamhshocraithe"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Amharc ar shonraí"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Cuir in eagar"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Asbhain"
@@ -133,17 +400,56 @@ msgstr "Asbhain"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Asbhain chuig an bhfillteán reatha"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Gabh chuig fillteán"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Fol. iarmhír comhaid"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Míreanna"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Ainm"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Liostaigh de réir"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Bog anseo"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Ainm"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Oscail suíomh an chomhaid"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Ní féidir nascadh le freastalaí."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Leathanach pearsanta"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Taifead fuaim"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Cláraigh le Teagmhálaithe"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Athainmnigh"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Athainmnithe."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Athainmnigh fillteán"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Sábháil anseo"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Scan do gharghléasanna"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Roghnaithe"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Comhroinn nasc"
@@ -151,14 +457,47 @@ msgstr "Comhroinn nasc"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Taispeáin iarmhír chomhadainm"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Scoilt"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Sórt de réir"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Radharc mionsamhla"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Amharc mar"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Amharc de réir liosta"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Amharc de réir mionsamhla"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zipeáil"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Scriosfar 1 mhír"
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Ardaitheach"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Scrios?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Ar aghaidh"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Theip ar chóipeáil."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Theip ar scriosadh."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Scrios mír roghnaithe?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "In ord íslitheach"
@@ -166,8 +505,35 @@ msgstr "In ord íslitheach"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Comhad DRL. Ní féidir seoladh."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "Níl comhad DRM ar fáil"
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Comhadainm in úsáid cheana."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Ainm an fhillteáin ann cheana"
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formáid"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Ó"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Ionchuir téacs"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Comhadainm neamhbhailí."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Ag lódáil..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Uaslíon na bhfillteán bainte amach."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Theip ar bhogadh."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Ainm folamh."
@@ -178,116 +544,11 @@ msgstr "Easpa carnchuimhne."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Easpa cuimhne. Scrios roinnt míreanna agus triail arís."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Easpa cuimhne. %s ar fáil."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Bain ó Aicearraí?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Theip ar sheoladh."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Scrios"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Is fo-fhillteán de chuid an fhillteáin fhoinsigh é an fillteán sprice"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Is ionann an fillteán sprice agus an fillteán foinse"
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Cuardaigh"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Ní féidir cóipeáil."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Ní féidir bogadh."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Socruithe"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Ní féidir an gníomh seo a dhéanamh. Tharla earráid líonra."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Am"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Gan teorainn"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Stóras seachtrach"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Cárta cuimhne"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Físeáin"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Comhaid comhbhrúite."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Comhaid asbhainte."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Roghnaigh gach"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Doiciméid"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Íomhánna"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Níl comhaid ann"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Úsáid stórais"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Níl an comhad seo ann"
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Siar"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Gach"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Déan fillteán"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Míreanna"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Nasc"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Ainm"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sórt de réir"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "Scriosfar 1 mhír"
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Theip ar scriosadh."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formáid"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Greamaigh anseo"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "Scriosfar %d mír"
@@ -295,8 +556,155 @@ msgstr "Scriosfar %d mír"
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Cead séanta."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Bain ó liosta na gcomhad deireanach?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Bain ó Aicearraí?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Bain?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Tá an comhadainm céanna ann cheana!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Ainm céanna in úsáid cheana."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Roghnaigh mír"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Theip ar sheoladh."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Aicearra curtha leis."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Is fo-fhillteán de chuid an fhillteáin fhoinsigh é an fillteán sprice"
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Is ionann an fillteán sprice agus an fillteán foinse"
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Dínascadh an gléas"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Níl an comhad seo ann"
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Ní féidir cóipeáil."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Ní féidir bogadh."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Ní féidir an gníomh seo a dhéanamh. Tharla earráid líonra."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Ní féidir seinm le linn glao."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Níorbh fhéidir inneachar faoi chosaint DRM a shocrú mar chlingthon nó mar fhógra foláirimh."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Ní foláir duit a bheith nasctha le líonra Wi-Fi le scanadh le haghaidh gléasanna i ngar duit. Nasc trí Wi-Fi agus triail arís."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Siar"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Cóipeáil"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Scrios"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Cuir in eagar"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Bog"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Cuardach"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Sórtáil de réir"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Amhc air mar"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Cuir ar ceal"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Ar Ceal"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Sonraí"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Gach"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Stóras seachtrach"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Cárta cuimhne"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Fón"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Suas"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Comhbhrúite."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Dí-chomhbhrúite."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Comhad á íoslódáil..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Comhaid comhbhrúite."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Comhaid asbhainte."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Comhad iompórtáilte."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Níor aimsíodh aon ghléas. Leanfar le scanadh sa chúlra."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Comhadlann"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Nasc"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Fuaim fógra réamhshoc."
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Cuir aicearra leis"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Scrios míreanna?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Athainmnigh"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Bain"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Scrios mír"
@@ -307,11 +715,23 @@ msgstr "Roghnaigh míreanna"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Níor aimsíodh torthaí"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Scrios míreanna %d?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Scrios mír?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "1 mhír roghnaithe."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Carachtar neamhbhailí iontráilte. Triail arís."
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Ag tosú ar íoslódáil..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "%d mír roghnaithe."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Tostach"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Roghnaigh mír"
@@ -319,11 +739,32 @@ msgstr "Roghnaigh mír"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Is féidir leat suas le %d mír a roghnú"
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Ioslódálacha"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Scrios?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Bog"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Cóipeáil"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Ag bogadh..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Ag cóipeáil..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Ag scriosadh..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Theip ar oibríocht."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Roghnaithe"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Bogtha."
@@ -331,35 +772,143 @@ msgstr "Bogtha."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Cóipeáilte."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Sórtáil de réir"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Theip air."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Déanta"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Cárta SD"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Cuimhne an ghléis"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Cuir le stóras pearsanta"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Bain ó stóras pearsanta"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Scrios an mhír seo?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Bain ó Phríobháideach"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Bog chuig Príobháideach"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Ioslódálacha"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Ag scriosadh..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Theip air."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "Cárta SD"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Uaslíon na gcarachtar bainte amach."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Ag baint..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Stóras pearsanta"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formáidithe."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Ainm (Z go A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Ainm (A go Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Gabháil scáileáin"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Níor aimsíodh torthaí."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Foláireamh teachtaireachta"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Sonraí"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Iontráil ainm"
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Mo Chomhaid"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Dada roghnaithe."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Curtha leis."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Ag próiseáil..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Cineál comhaid gan tacú."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Bain?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Inneachar príobháideach"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Cóipeáil chuig"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Bog chuig"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Theip ar chur aicearra leis."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Easpa cuimhne. Scrios roinnt míreanna."
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Bainte."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Stóras príobháideach"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Dada roghnaithe."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Comhroinn"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Féach mar"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Liosta"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Amharc air"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Sábháil mar"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Theip ar bhaint."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Rátáil tuismitheoirí"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Comhadainm in úsáid cheana."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Guth"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Níl Wi-Fi ar fáil. Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean íocaíochta."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Tá uaslíon na gcarachtar (%d) bainte amach"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Á ullmhú..."
@@ -367,8 +916,20 @@ msgstr "Á ullmhú..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d roghnaithe"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Scrios míreanna"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Níl íoslódálacha ann"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Íoslódáilte"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Bainisteoir íoslódála"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Tar éis duit míreanna a íoslódáil, taispeánfar anseo iad"
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Íoslódáil curtha ar ceal"
@@ -397,11 +958,14 @@ msgstr "Stóras réamhshocraithe lán"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Níos sine"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Sonraí"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Stóras"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Ag próiseáil..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Ag baint..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "Cárta SD"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Stóras gléis"
@@ -409,20 +973,86 @@ msgstr "Stóras gléis"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Á chur in iúl d'fhreastalaí..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Scriosfar %d mír"
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Ní féidir an comhad seo a aimsiú. Tapáil Íoslódáil le triail é a íoslódáil arís."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Ní féidir an comhad a oscailt"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Ní féidir feidhmchlár a aimsiú leis an gcomhad seo a oscailt."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Tapáil Íoslódáil le triail arís."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "Scriosfar 1 mhír"
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Inneachar DRM á chur i ngníomh..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Ní féidir feidhmchlár a aimsiú chun an gníomh seo a dhéanamh."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Suíomh an stórais"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Iompórtáil"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Cuir ar ceal"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Roghnaigh gach"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "%d roghnaithe"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Íoslódáil"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Inniu"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Inné"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Scrios"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Ionadaigh"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Cuir i bhfeidhm ar gach mír"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Cruthaigh zipchomhad"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Asbhain zipchomhad"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mo Chomhaid"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Láithreán Gréasáin"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Stair íoslódála"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Níl stair ann"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Comhroinnt shimplí"
@@ -445,11 +1075,74 @@ msgstr "Scriosfar na míreanna seo ó Dropbox ar a mbogadh. Scriosfar %d mír."
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Scriosfar an mhír seo ó Dropbox ar a bogadh. Scriosfar 1 mhír."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Roghnaigh suíomh stórais"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Stop"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Uaslódáil"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Theip ar uaslódáil an chomhaid"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Scoir uaslódáil"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Tapáil Uaslódáil le triail arís."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Scoirfear an uaslódáil, ach ní scriosfar an comhad."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Amharc orthu le déanaí"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Sonraí doshábháilte"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Níl go leor spáis i stóras do ghléis. Gabh chuig Socruithe > Cumhacht agus stóras > Stóras, ansin scrios roinnt comhad agus triail arís."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Níl go leor spáis ar do chárta SD. Gabh chuig Socruithe > Cumhacht agus stóras > Stóras, ansin scrios roinnt comhad agus triail arís."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Uaslódáil chuig"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Uaslódálacha Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Príobháideach"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "bearta"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Cuir leis"
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Baile"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Aláram"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Cinn Eile"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Tuilleadh"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Oscail"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Earráid anaithnid."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Ní féidir ainm an fhillteáin a shocrú mar '.' ná '..'."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Ná taispeáin comhaid fholaithe"
@@ -457,23 +1150,104 @@ msgstr "Ná taispeáin comhaid fholaithe"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Taispeáin comhaid fholaithe"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Anaithnid"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Tá ainm an aicearra in úsáid cheana féin."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Bunúsach"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Comhad"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Comhaid"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Fillteán"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Fillteáin"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Córas"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Ainm"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Comhaid fuaime"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Doiciméid"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Feidhmchláir íoslódáilte"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Íomhánna"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Físeáin"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Cruthaigh"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Scrios"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Bain"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Athainmnigh"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Díshuiteáil"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Cuir aicearra leis"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Comhaid fuaime"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Cóipeáil"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Cóipeáil chuig"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Cruthaigh fillteán"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Scrios aicearra"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Sonraí"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Doiciméid"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Feidhmchláir a íoslódáladh"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Íomhánna"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Bog"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Bog chuig"
@@ -481,7 +1255,43 @@ msgstr "Bog chuig"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d roghnaithe"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Comhaid dheireanacha"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Bain"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Athainmnigh"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Aicearraí"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Sórt de réir"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Díshuiteáil"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Uaslódáil chuig"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Físeáin"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Amharc air mar"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Gach"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Aicearraí"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Istigh ann"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Stóras gléis"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Formáid"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Suíomh"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "Cárta SD"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Tais. iarmhíreanna comhaid"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Taisp. comhaid fholaithe"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Méid"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Cineál"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Díoltóir"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Níl comhaid ann"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Ardaitheach"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Cóipeáil"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Cruthaigh fillteán"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Ord íslitheach"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Mionliosta"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Sonraí"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ná taispeáin arís"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Cineál comhaid"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Liostaigh"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Bog"
@@ -502,14 +1366,50 @@ msgstr "Bog"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Bain"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Méid"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Am"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Cineál"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Díshuiteáil"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "Bainfear 1 mhír"
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Scriosfar 1 aicearra."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Ag cóipeáil..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Ag bogadh..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Bainfear %d mír"
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Scriosfar %d aicearra."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Ag baint..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Is féidir go ngearrfar táillí breise ar úsáid sonraí móibíleacha ag brath ar do phlean sonraí má úsáidtear Sonraí móibíleacha le linn fánaíocht."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Úsáidí atá ar fáil"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Dáta a chruthaithe"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Cur síos"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Cur ar aghaidh"
@@ -523,14 +1423,29 @@ msgstr "Taifeach"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Méid iomlán"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Bailíocht"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Is fofhillteán de chuid an fhillteáin fhoinsigh é an fillteán sprice."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Is ionann an fillteán sprice agus an fillteán foinseach."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Theip ar chur aicearra leis."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Theip ar chóipeáil na míre."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Theip ar scriosadh na míre."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Theip ar bhogadh na míre."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Theip ar bhaint na míre."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Comhadainm in úsáid cheana."
@@ -544,17 +1459,23 @@ msgstr "Aicearra curtha leis."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Tá an t-aicearra ann cheana."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Athnuaigh"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Scriosfar %d mír."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Díshuiteálfar %d feidhmchlár."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Íoslódáilte"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Díshuiteálfar %s"
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Stóras"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Méid"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Liosta amhairc"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Ainm an fhillteáin in úsáid cheana."
@@ -562,11 +1483,23 @@ msgstr "Ainm an fhillteáin in úsáid cheana."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Stóras áitiúil"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Stóras gléis"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Gan a bheith sínithe isteach."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Gach comhad"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Néal-stóras"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Ordaigh"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Aicearraí"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Am"
@@ -574,32 +1507,44 @@ msgstr "Am"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Díshuiteáil"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Istigh tá:"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Roghnaigh gach"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Níor aimsíodh aghaidh"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Íoslódáil"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Inniu"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Ann cheana."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Inné"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Ní féidir bogadh. Is ionann an fillteán sprice agus an fillteán fuinseach"
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Déan fillteán"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Tuilleadh"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Bog anseo"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Greamaigh anseo"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Socraigh"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Níl tacú ann in aon fheidhmchlár ar do ghléas don chineál comhaid seo."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Earráid anaithnid."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Scriosfar %d comhad."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Anaithnid"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Córas"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Comhaid a seoladh"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "DÉANTA"
@@ -610,11 +1555,53 @@ msgstr "CUIR AR CEAL"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "SCRIOS"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Athainmnigh"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Roghnaigh mír"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Níl uaslódálacha ann"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Tar éis duit míreanna a uaslódáil, taispeánfar anseo iad."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Socruithe"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Sonraí doshábháilte"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Níl go leor spáis ar do chárta SD. Gabh chuig Socruithe > Cumhacht agus stóras > Stóras, ansin scrios roinnt comhad agus triail arís."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Níl go leor spáis i stóras do ghléis. Gabh chuig Socruithe > Cumhacht agus stóras > Stóras, ansin scrios roinnt comhad agus triail arís."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Earráid."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Cuimhne lán."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Scriosfar 1 mhír ó Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Scriosfar %d mír ó Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Sonraí móibíleacha casta as. Nasc le líonra Wi-Fi nó cas Sonraí móibíleacha air agus triail arís é."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Stóras pearsanta"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Cosán"
@@ -625,8 +1612,23 @@ msgstr "Uaslíon na gcarachtar %d bainte amach."
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Roghnaigh stóras"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Stair íoslódála"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Stair íoslódála"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Íoslódáil..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Íoslódálacha"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Níl íoslódálacha ann"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Theip ar íoslódáil"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "As feidhm ar: %s"
@@ -634,114 +1636,30 @@ msgstr "As feidhm ar: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "D'imigh as feidhm ar: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Theip ar íoslódáil an chomhaid"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Triail an comhad a íoslódáil arís, nó bain ó scuaine na n-íoslódálacha é."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Atriail"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Bain"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Catagóir"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Ainm an fhillteáin in úsáid"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Ainmcomhad in úsáid"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Tá ainm an chomhaid seo (%s) in úsáid cheana san fhillteán sprice."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Tá ainm an fhillteáin seo (%s) in úsáid cheana san fhillteán sprice."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Scrios"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Glan an stair"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Comhbhrú..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Ag asbhaint..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Asbhain míreanna ón ZIP"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Fillteán nua %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Ní féidir ainm an fhillteáin a shocrú mar “.” ná “..”."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Socruithe"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Liosta mionsonraithe"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Asbhaint dodhéanta"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Easpa spáis"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Cruthaigh comhad ZIP"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Níl stair ann"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Ná taispeáin arís"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Tuilleadh"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Ag cur ar ceal..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Ní féidir gníomh a dhéanamh"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Comhad"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Fillteán"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Fillteáin"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Ainm"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Níl go leor spáis i stóras do ghléis. Gabh chuig Socruithe > Stóras agus RAM > Stóras > Sonraí, ansin scrios roinnt comhad agus triail arís."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Níl go leor spáis i do chárta SD. Gabh chuig Socruithe > Stóras agus RAM > Stóras > Sonraí, ansin scrios roinnt comhad agus triail arís."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Liostaigh"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Méid"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "Bainfear 1 mhír"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Ní féidir ainm an fhillteáin a shocrú mar %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Scriosadh an comhad, bogadh é, nó athainmníodh é. Tapáil Íoslódáil leis an gcomhad a íoslódáil arís, nó tapáil Bain lena bhaint ón Stair íoslódála."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Athnuaigh"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "Díshuiteálfar %s"
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Méid"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Stóras gléis"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Néal-stóras"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Socraigh"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Athainmnigh"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mo Chomhaid"
 

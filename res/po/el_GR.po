@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "Ολοκληρ. %1$d, απέτυχαν %2$d"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "Επιτυχής λήψη %d αρχείων"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Εφαρμογή σε όλα τα στοιχεία"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Προετοιμασία για λήψη..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Η συσκευή σας δεν έχει συνδεθεί σε δίκτυο Wi-Fi. Η σύνδεση σε δίκτυο κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Κοινή χρήση μέσω"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Κοινή χρήση μέσω"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Τα δεδομένα κινητής τηλεφωνίας απενεργοποιήθηκαν. Συνδεθείτε σε ένα δίκτυο Wi-Fi ή ενεργοποιήστε τα δεδομένα κινητής τηλεφωνίας και δοκιμάστε ξανά."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Η κάρτα μνήμης αφαιρέθηκε."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Θα διαγραφούν %d στοιχεία."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Ολοκληρώθηκε."
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Αυτό το στοιχείο θα διαγραφεί."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Λήψη..."
@@ -28,8 +22,50 @@ msgstr "Λήψη..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Ανεπαρκής μνήμη."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Ακυρώθηκε."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Αποτυχία λήψης."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Ολοκληρώθηκε."
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Δημ/ργία"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Διαγράφηκε."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Η κάρτα μνήμης αφαιρέθηκε."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Αναζήτηση..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Σφάλμα σύνδεσης δικτύου."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Διαγραφή φακέλου"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Εισαγωγή ονόματος φακέλου."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Ληφθείσες εφαρμογές"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Προέκυψε σφάλμα σύνδεσης δικτύου. Η κλήση τερματίστηκε. Να γίνει επανασύνδεση στο δίκτυο;"
+
+msgid "IDS_MF_SK_OK"
+msgstr "OK"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Αποθ/ση"
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Ναι"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Όχι"
@@ -37,32 +73,122 @@ msgstr "Όχι"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Προσθήκη συντόμευσης"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Διαγραφή"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Διαγραφή συντόμευσης"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Μετονομασία συντόμευσης"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Αναζήτηση"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Ρυθμίσεις"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Κοινή χρήση"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Χρήση χώρου αποθήκευσης"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Να μην εμφανιστεί ξανά"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Δεν είναι δυνατή η σύνδεση με διακομιστή."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Προσωπικό"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Εισαγωγή ονόματος φακέλου."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Αφαίρεση συντόμευσης"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Χαμηλή μπαταρία"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 αρχείο"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Το άλμπουμ μου"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Προσθήκη από"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Ειδοποιήσεις"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Οποιοδήποτε"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Διαθέσιμες χρήσεις"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Byte"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Περιεχόμενα"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Ημερομηνία δημιουργίας"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Ημερομηνία"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Διαγραφή επιλεγμένων στοιχείων;"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Έγγραφα"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Εκτέλεση"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Όνομα αρχείου"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Τύπ. αρχ."
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Όνομα φακέλου"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Προώθηση"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "Πληροφορίες GPS"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "Γεωγραφικό πλάτος GPS"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "Γεωγραφικό μήκος GPS"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "Έκδοση GPS"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Εικόνες"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Αδύνατο"
@@ -76,17 +202,68 @@ msgstr "Διάστημα"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Τελευταία τροποποίηση"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Λίστα και λεπτομέρειες"
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Θέση"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Προετοιμασία των δεδομένων MMC..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Τα βίντεο κλιπ μου"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Η μνήμη του τηλεφώνου δεν επαρκεί. Διαγράψτε ορισμένα στοιχεία και προσπαθήστε ξανά."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Δεν βρέθηκαν αρχεία"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Δεν υπάρχουν πρόσφατα ανοιγμένα αρχεία"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Δεν υπάρχουν πρόσφατα αρχεία"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d αρχεία"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d στοιχείο"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d στοιχεία"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Δυνατό"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Εκτύπωση"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Μετον."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Κατάσταση δικαιώματος"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Ήχοι κλήσης"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Κοινή χρήση"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Προβολή κρυφών αρχείων"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Ήχοι"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Χρήση χώρου αποθήκ."
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Ώρα"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Χρονομετρημένη μέτρηση"
@@ -94,11 +271,35 @@ msgstr "Χρονομετρημένη μέτρηση"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Τύπος"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Απεριόριστες"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Πάνω"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Ισχύς"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Προμηθευτής"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Βίντεο"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Θέματα φόντου"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Προσθ. στην αρχ."
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Εξαγωγή εδώ"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Μετ. στα Αρχεία Μου"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Home"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Αντικατ."
@@ -106,26 +307,92 @@ msgstr "Αντικατ."
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Αναζ.σε όλους τους φακ."
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Τοποθέτηση εδώ"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Σύνθετη αναζήτηση"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Ήχος"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Σύνδεση σε δίκτυο κινητής τηλεφωνίας"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Σύνδεση στο δίκτυο Wi-Fi"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Πλήθος αρχείων"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Εισαγωγή ονόματος φακέλου."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Τοπικό"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Νέος φάκελος"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Πρόσφατα αρχεία"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Κατάργηση αρχείου"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Κοινή χρ.ήχου & φωτογρ."
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Αποθήκευση"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Αδυναμία δημιουργίας φακέλου"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Ναι"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Επιλογή όλων"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Εισαγωγή ονόματος φακέλου"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Προσθήκη στις συντομεύσεις"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Ως αρχεία εικόνων"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Ως αρχεία βίντεο"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Ήχος κλήσης καλούντος"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Συμπίεση"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Δημ/ργία φακέλου"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Ημερομηνία (Πιο πρόσφατο)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Ημερομηνία (Παλαιότερο)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Αποσυμπίεση"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Αποσυμπίεση εδώ"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Προεπιλεγμένος ήχος κλήσης"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Προβολή λεπτομερειών"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Επεξεργασία"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Εξαγωγή"
@@ -133,17 +400,56 @@ msgstr "Εξαγωγή"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Εξαγωγή σε τρέχοντα φάκελο"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Μετάβαση στον φάκελο"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Απόκρ. επέκτασης αρχ."
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Στοιχεία"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Όνομα"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Εμφάνιση ανά"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Μετακίνηση εδώ"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Όνομα"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Άνοιγμα θέσης αρχείου"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Δεν είναι δυνατή η σύνδεση με διακομιστή."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Προσωπική σελίδα"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Εγγραφή ήχου"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Εγγραφή στις επαφές"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Μετονομασία"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Μετονομάστηκε."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Μετονομασία φακέλου"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Αποθήκευση εδώ"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Σάρωση για κοντινές συσκ."
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Επιλεγμένο"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Κοινή χρήση σύνδεσης"
@@ -151,14 +457,47 @@ msgstr "Κοινή χρήση σύνδεσης"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Προβολή επέκτασης αρχείου"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Διαχωρισμός"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Ταξινόμηση κατά"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Προβολή μικρογραφιών"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Προβολή ως"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Προβολή ανά λίστα"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Προβολή μικρογραφιών"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Συμπίεση"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "Θα γίνει διαγραφή 1 στοιχείου."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Αύξουσα"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Διαγραφή;"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Συνέχεια;"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Αποτυχία αντιγραφής."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Αποτυχία διαγραφής."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Διαγραφή επιλεγμένου στοιχείου;"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Φθίνουσα"
@@ -166,8 +505,35 @@ msgstr "Φθίνουσα"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "Αδύνατη αποστολή αρχείου DRM."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "Το αρχείο DRM δεν είναι διαθέσιμο."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Το όνομα αρχείου υπάρχει ήδη."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Το όνομα φακέλου υπάρχει ήδη."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Μορφή"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Από"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Εισαγωγή κειμένου"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Μη έγκυρο όνομα αρχείου."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Φόρτωση..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Μέγιστος."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Αποτυχία μετακίνησης."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Όνομα κενό."
@@ -178,116 +544,11 @@ msgstr "Ο σωρός μνήμης δεν επαρκεί."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Ανεπαρκής μνήμη. Διαγράψτε μερικά στοιχεία και δοκιμάστε ξανά."
 
-msgid "IDS_MF_SK_OK"
-msgstr "OK"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Δεν υπάρχει αρκετή μνήμη. Το στοιχείο %s είναι διαθέσιμο."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Κατάργηση από τις συντομεύσεις;"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Αποτυχία αποστολής."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Διαγραφή"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Ο φάκελος προορισμού είναι υποφάκελος του φακέλου προέλευσης."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Ο φάκελος προορισμού είναι ο ίδιος με το φάκελο προέλευσης."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Αναζήτηση"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Δεν είναι δυνατή η αντιγραφή."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Δεν είναι δυνατή η μετακίνηση."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Ρυθμίσεις"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας. Προέκυψε σφάλμα δικτύου."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Ώρα"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Απεριόριστες"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Εξωτ. χώρος αποθήκ."
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Κάρτα μνήμης"
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Βίντεο"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Έγινε συμπίεση αρχείων."
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Έγινε εξαγωγή αρχείων."
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Επιλογή όλων"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Έγγραφα"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Εικόνες"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Δεν βρέθηκαν αρχεία"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Χρήση χώρου αποθήκ."
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Δεν υπάρχει αρχείο."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Πίσω"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Όλα"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Δημ/ργία φακέλου"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Στοιχεία"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Σύνδεση"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Όνομα"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Ταξινόμηση κατά"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "Θα γίνει διαγραφή 1 στοιχείου."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Αποτυχία διαγραφής."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Μορφή"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Επικόλληση εδώ"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "Θα διαγραφούν %d στοιχεία."
@@ -295,8 +556,155 @@ msgstr "Θα διαγραφούν %d στοιχεία."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Δεν έχετε δικαίωμα πρόσβασης."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Κατάργηση από τη λίστα πρόσφατων αρχείων;"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Κατάργηση από τις συντομεύσεις;"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Αφαίρεση;"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Υπάρχει ήδη αυτό το όνομα αρχείου!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Το όνομα χρησιμοποιείται ήδη."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Επιλογή στοιχείου"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Αποτυχία αποστολής."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Προστέθηκε συντόμευση."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Ο φάκελος προορισμού είναι υποφάκελος του φακέλου προέλευσης."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Ο φάκελος προορισμού είναι ο ίδιος με το φάκελο προέλευσης."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Η συσκευή αποσυνδέθηκε"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Δεν υπάρχει αρχείο."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Δεν είναι δυνατή η αντιγραφή."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Δεν είναι δυνατή η μετακίνηση."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας. Προέκυψε σφάλμα δικτύου."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Δεν είναι δυνατή η αναπαραγωγή παιχνιδιού κατά την κλήση."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Δεν είναι δυνατή η αποστολή περιεχομένου που προστατεύεται από DRM, ως ήχου κλήσης ή ειδοποίησης."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Πρέπει να είστε συνδεδεμένοι σε κάποιο δίκτυο Wi-Fi για να κάνετε σάρωση για κοντινές συσκευές. Συνδεθείτε μέσω Wi-Fi και δοκιμάστε ξανά."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Πίσω"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Αντιγραφή"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Διαγραφή"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Επεξεργ."
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Μετακίνηση"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Αναζήτηση"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Ταξινόμ. κατά"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Προβ. ως"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Άκυρο"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Ακύρωση"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Λεπτομ."
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Όλα"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Εξωτ. χώρος αποθήκ."
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Κάρτα μνήμης"
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Τηλέφωνο"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Πάνω"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Συμπιέστηκε."
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Αποσυμπιέστηκε."
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Λήψη αρχείου..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Έγινε συμπίεση αρχείων."
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Έγινε εξαγωγή αρχείων."
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Έγινε εισαγωγή του αρχείου."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Δεν βρέθηκαν συσκευές. Η σάρωση θα συνεχιστεί στο παρασκήνιο."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Κατάλογος"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Σύνδεση"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Προεπιλ. ήχος ειδοποιήσεων"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Προσθήκη συντόμευσης"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Διαγραφή στοιχείων;"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Μετονομασία"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Ρυθμίσεις"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Κατάργηση"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Διαγραφή στοιχείου"
@@ -307,11 +715,23 @@ msgstr "Επιλογή στοιχείων"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Δεν βρέθηκαν αποτελέσματα"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Διαγραφή των στοιχείων %d;"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Διαγραφή στοιχείου;"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "Επιλέχθηκε 1 στοιχείο."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Καταχωρίστηκε μη έγκυρος χαρακτήρας. Δοκιμάστε ξανά"
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Ξεκινά η λήψη..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Επιλέχθηκαν %d στοιχεία."
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Αθόρυβο"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Επιλογή στοιχείου"
@@ -319,11 +739,32 @@ msgstr "Επιλογή στοιχείου"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Μπορείτε να επιλέξετε μέχρι και %d στοιχεία."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Λήψεις"
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Διαγραφή;"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Μετακίνηση"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Αντιγραφή"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Μετακίνηση..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Αντιγραφή..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Διαγραφή..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Λειτουργία απέτυχε."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Επιλεγμένο"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Μετακινήθηκε."
@@ -331,35 +772,143 @@ msgstr "Μετακινήθηκε."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Αντιγράφηκε."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Ταξινόμηση κατά"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Αποτυχία."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Ok"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "Κάρτα SD"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Μνήμη συσκευής"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Προσθήκη στον προσωπικό χώρο αποθήκευσης"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Κατάργηση από τον προσωπικό χώρο αποθήκευσης"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Να διαγραφεί αυτό το στοιχείο;"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Κατάργηση από το φάκελο «Απόρρητο»"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Μετακίνηση στο φάκελο «Ιδιωτικό»"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Λήψεις"
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Διαγραφή..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Αποτυχία."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "Κάρτα SD"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Ο μέγιστος αριθμός χαρακτήρων συμπληρώθηκε."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Αφαίρεση..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Προσωπικός χώρος αποθήκευσης"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Η μορφοποίηση ολοκληρώθηκε."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Όνομα (Ω προς Α)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Όνομα (Α προς Ω)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Καταγραφή οθόνης"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Ειδοποίηση μηνύματος"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Λεπτομέρειες"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Εισαγωγή ονόματος."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Τα Αρχεία Μου"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Δεν έχει γίνει καμία επιλογή."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Προστέθηκε."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Επεξεργασία..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Μη υποστηριζόμενος τύπος αρχείου."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Αφαίρεση;"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Απόρρητο περιεχόμενο"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Αντιγραφή σε"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Μετακίνηση σε"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Αποτυχία προσθήκης συντόμευσης."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Δεν υπάρχει αρκετή μνήμη. Διαγράψτε ορισμένα στοιχεία"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Αφαιρέθηκε."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Απόρρητος χώρος αποθήκευσης"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Δεν έχει γίνει καμία επιλογή."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Κοινή χρήση"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Προβ. ως"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Λίστα"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Προβολή"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Αποθήκευση ως"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Αποτυχία αφαίρεσης."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Γονική αξιολόγηση"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Το όνομα αρχείου υπάρχει ήδη."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Φωνή"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Δεν είναι διαθέσιμο το Wi-Fi. Η σύνδεση σε δίκτυα κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Συμπληρώθηκε ο μέγιστος αριθμός χαρακτήρων (%d)."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Προετοιμ..."
@@ -367,8 +916,20 @@ msgstr "Προετοιμ..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d επιλέχθηκαν"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Διαγραφή στοιχείων"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Δεν υπάρχουν λήψεις"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Η λήψη ολοκληρώθηκε"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Διαχείριση λήψεων"
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Τα στοιχεία θα εμφανιστούν εδώ, με τα τη λήψη τους."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Η λήψη ακυρώθηκε"
@@ -397,11 +958,14 @@ msgstr "Ο προεπιλεγμένος χώρος αποθήκευσης είν
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Παλαιότερα"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Λεπτομέρειες"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Αποθήκευση"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Επεξεργασία..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Αφαίρεση..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "Κάρτα SD"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Χώρος αποθήκευσης συσκευής"
@@ -409,20 +973,86 @@ msgstr "Χώρος αποθήκευσης συσκευής"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Ειδοποίηση διακομιστή..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Θα διαγραφούν %d στοιχεία."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Δεν είναι δυνατή η εύρεση αυτού του αρχείου. Πατήστε «Λήψη», για να επαναλάβετε τη λήψη."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Δεν είναι δυνατό το άνοιγμα αρχείου"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Δεν είναι δυνατή η εύρεση εφαρμογής για το άνοιγμα αυτού του αρχείου."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Πατήστε «Λήψη» για να δοκιμάσετε ξανά."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "Θα γίνει διαγραφή 1 στοιχείου."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Ενεργοποίηση περιεχομένου DRM..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Δεν είναι δυνατή η εύρεση εφαρμογής για την εκτέλεση αυτής της ενέργειας."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Θέση αποθήκευσης"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Εισαγωγή"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Ακύρωση"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Επιλογή όλων"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "Επιλέχθηκαν %d"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Λήψη"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Σήμερα"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Xθές"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Διαγραφή"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Αντικ."
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Εφαρμογή σε όλα τα στοιχεία"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Δημιουργία αρχείου zip"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Εξαγωγή αρχείου zip"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Αρχεία"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Web"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Ιστορικό λήψεων"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Κανένα ιστορικό"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Απλή κοινή χρήση"
@@ -445,11 +1075,74 @@ msgstr "Η μετακίνηση αυτών των στοιχείων θα οδη
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Η μετακίνηση αυτού του στοιχείου θα οδηγήσει στη διαγραφή του από το Dropbox. 1 στοιχείο θα μετακινηθεί."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Επιλογή θέσης αποθήκευσης"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Διακοπή"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Αποστολή"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Η αποστολή του αρχείου απέτυχε"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Διακοπή αποστολών"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Πατήστε «Αποστολή» για να δοκιμάσετε ξανά."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Η αποστολή θα διακοπεί, αλλά το αρχείο δεν θα διαγραφεί."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Προβλήθηκαν πρόσφατα"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Αδύνατη η αποθήκ. δεδομ."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ο χώρος αποθήκευσης της συσκευής σας δεν επαρκεί. Μεταβείτε στις Ρυθμίσεις > Ενέργεια και χώρος αποθήκευσης > Χώρος αποθήκευσης και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ο χώρος αποθήκευσης της κάρτας SD δεν επαρκεί. Μεταβείτε στις Ρυθμίσεις > Ενέργεια και χώρος αποθήκευσης > Χώρος αποθήκευσης και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Αποστολή σε"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "Αποστολές Dropbox"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Προσωπικό"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "byte"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Προσθ."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Σπίτι"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Ειδοπ/ση"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Άλλα"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Περισσότερα"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Άνοιγμα"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Άγνωστο σφάλμα."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Δεν είναι δυνατή η ρύθμιση του ονόματος φακέλου στην τιμή «.» ή «..»."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Απόκρυψη κρυφών αρχείων"
@@ -457,23 +1150,104 @@ msgstr "Απόκρυψη κρυφών αρχείων"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Εμφάνιση κρυφών αρχείων"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Άγνωστο"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα συντόμευσης χρησιμοποιείται ήδη."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Βασικός"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Αρχείο"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Αρχεία"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Φάκελος"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Φάκελοι"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Σύστημα"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Όνομα"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Αρχεία ήχου"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Έγγραφα"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Ληφθείσες\nεφαρμογές"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Εικόνες"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Βίντεο"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Ακύρωση"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Ακύρωση"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Δημιουργία"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Διαγραφή"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Κατάργηση"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Μετονομασία"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Κατάργ. εγκ."
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Προσθήκη συντόμευσ."
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Αρχεία ήχου"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Αντιγραφή"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Αντιγραφή σε"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Δημιουργία φακέλου"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Διαγραφή συντόμευσης"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Λεπτομέρειες"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Έγγραφα"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Ληφθείσες εφαρμογές"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Εικόνες"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Μετακίνηση"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Μετακίνηση σε"
@@ -481,7 +1255,43 @@ msgstr "Μετακίνηση σε"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "Επιλέχθηκαν %d"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Πρόσφατα αρχεία"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Κατάργηση"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Μετονομασία"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Ρυθμίσεις"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Συντομεύσεις"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Ταξινόμηση κατά"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Κατάργηση εγκατάστασης"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Αποστολή σε"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Βίντεο"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Προβολή ως"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Όλα"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Συντομεύσ."
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Περιέχει"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Χώρ.αποθ.συσκ."
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Μορφή"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Θέση"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "Κάρτα SD"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Εμφάν. επεκτάσεων αρχείων"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Εμφάνιση κρυφών αρχείων"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Μέγεθος"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Τύπος"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Προμηθευτής"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Δεν βρέθηκαν αρχεία"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Αύξουσα"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Αντιγραφή"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Δημιουργία φακέλου"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Φθίνουσα"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Αναλυτική λίστα"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Λεπτομέρειες"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Να μην εμφανιστεί ξανά"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Τύπος αρχείου"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Λίστα"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Μετακίνηση"
@@ -502,14 +1366,50 @@ msgstr "Μετακίνηση"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Κατάργηση"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Μέγεθος"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Ώρα"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Τύπος"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Κατάργηση εγκατάστασης"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "Θα καταργηθεί 1 στοιχείο."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Θα διαγραφεί 1 συντόμευση."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Αντιγραφή..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Μετακίνηση..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Θα καταργηθούν %d στοιχεία."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Θα διαγραφούν %d συντομεύσεις."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Αφαίρεση..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Η χρήση δεδομένων κινητής τηλεφωνίας κατά την περιαγωγή ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα πληρωμής σας."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Διαθέσιμες χρήσεις"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Ημερομηνία δημιουργίας"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Περιγραφή"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Προώθηση"
@@ -523,14 +1423,29 @@ msgstr "Ανάλυση"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Συνολικό μέγεθος"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Ισχύς"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Ο φάκελος προορισμού είναι υποφάκελος του φακέλου προέλευσης."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Ο φάκελος προορισμού είναι ο ίδιος με το φάκελο προέλευσης."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Απέτυχε η προσθήκη συντόμευσης."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Η αντιγραφή του στοιχείου απέτυχε."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Η διαγραφή του στοιχείου απέτυχε."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Η μετακίνηση του στοιχείου απέτυχε."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Η κατάργηση του στοιχείου απέτυχε."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα αρχείου χρησιμοποιείται ήδη."
@@ -544,17 +1459,23 @@ msgstr "Προστέθηκε συντόμευση."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Η συντόμευση υπάρχει ήδη."
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Ανανέωση"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Θα διαγραφούν %d στοιχεία."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Θα καταργηθεί η εγκατάσταση %d εφαρμογών."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Η λήψη ολοκληρώθηκε"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "Θα καταργηθεί η εγκατάσταση του %s."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Αποθήκευση"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Μέγεθος"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Προβολή λίστας"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα φακέλου χρησιμοποιείται ήδη."
@@ -562,11 +1483,23 @@ msgstr "Το όνομα φακέλου χρησιμοποιείται ήδη."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Τοπικός χώρος αποθήκευσης"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Χώρ.αποθ.συσκ."
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Δεν έχετε συνδεθεί."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Όλα τα αρχεία"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Χώρος αποθήκευσης Cloud"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Σειρά"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Συντομεύσεις"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Πρόσφατα"
@@ -574,32 +1507,44 @@ msgstr "Πρόσφατα"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Κατάργηση εγκατάστασης"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Περιέχει"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Επιλογή όλων"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Δεν ανιχνεύθηκε πρόσωπο"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Λήψη"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Σήμερα"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Υπάρχει ήδη."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Xθές"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Δεν είναι δυνατή η μετακίνηση. Ο φάκελος προορισμού είναι ο ίδιος με το φάκελο προέλευσης."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Δημ/ργία φακέλου"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Περισσότερα"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Μετακίνηση εδώ"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Επικόλληση εδώ"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Ορισμός"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Δεν υπάρχει εφαρμογή στη συσκευή σας η οποία να υποστηρίζει αυτόν τον τύπο αρχείου."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Άγνωστο σφάλμα."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Θα διαγραφούν %d αρχεία."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Άγνωστο"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Σύστημα"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Απεσταλμένα αρχεία"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ΤΕΛΟΣ"
@@ -610,11 +1555,53 @@ msgstr "ΑΚΥΡΟ"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "ΔΙΑΓΡΑΦΗ"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Μετονομασία"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Επιλογή στοιχείου"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Χωρίς αποστολές"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Όταν ολοκληρώσετε τη λήψη αρχείων, θα εμφανίζονται εδώ."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Ρυθμίσεις"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Αδύνατη η αποθήκ. δεδομ."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ο χώρος αποθήκευσης της κάρτας SD δεν επαρκεί. Μεταβείτε στις Ρυθμίσεις > Ενέργεια και χώρος αποθήκευσης > Χώρος αποθήκευσης και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Ο χώρος αποθήκευσης της συσκευής σας δεν επαρκεί. Μεταβείτε στις Ρυθμίσεις > Ενέργεια και χώρος αποθήκευσης > Χώρος αποθήκευσης και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Σφάλμα."
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "AllShare"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Μνήμη ημερολογίου πλήρης."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "1 στοιχείο θα διαγραφεί από το Dropbox."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "%d στοιχεία θα διαγραφούν από το Dropbox."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Τα δεδομένα κινητής τηλεφωνίας απενεργοποιήθηκαν. Συνδεθείτε σε ένα δίκτυο Wi-Fi ή ενεργοποιήστε τα δεδομένα κινητής τηλεφωνίας και δοκιμάστε ξανά."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Ρυθμίσεις"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Προσωπικός χώρος αποθήκευσης"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Διαδρομή"
@@ -625,8 +1612,23 @@ msgstr "Συμπληρώθηκε ο μέγιστος αριθμός %d χαρα�
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Επιλογή αποθήκευσης"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Ιστορικό λήψεων"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Ιστορικό λήψεων"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Λήψη..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Στοιχεία λήψης"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Δεν υπάρχουν λήψεις"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Η λήψη απέτυχε"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Λήγει στις: %s"
@@ -634,114 +1636,30 @@ msgstr "Λήγει στις: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Έληξε στις: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "H λήψη του αρχείου απέτυχε"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Δοκιμάστε να λάβετε το αρχείο ξανά ή καταργήστε το από την ουρά λήψης."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Επανάληψη"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Κατάργηση"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Κατηγορία"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Το όνομα φακέλου χρησιμοποιείται"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Υπάρχει ήδη αυτό το όνομα αρχείου"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Αυτό το όνομα αρχείου (%s) χρησιμοποιείται ήδη στο φάκελο προορισμού."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Αυτός ο φάκελος (%s) χρησιμοποιείται ήδη στο φάκελο προορισμού."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Διαγραφή"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Εκκαθάριση ιστορικού"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Συμπίεση..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Εξαγωγή..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Εξαγ. στοιχ. από αρχείο ZIP"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Νέος φάκελος %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Δεν είναι δυνατός ο ορισμός του ονόματος φακέλου σε «.» ή «..»."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Ρυθμίσεις"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Αναλυτική λίστα"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Αδυναμία εξαγωγής στοιχείων"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Ο χώρος δεν επαρκεί"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Δημιουργία αρχείου ZIP"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Κανένα ιστορικό"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Να μην εμφανιστεί ξανά"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Περισσότερα"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Ακύρωση..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Αδύνατη η εκτέλεση ενέργειας"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Αρχείο"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Φάκελος"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Φάκελοι"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Όνομα"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Ο χώρος αποθήκευσης της συσκευής σας δεν επαρκεί. Μεταβείτε στις Ρυθμίσεις > Χώρος αποθήκευσης και RAM > Χώρος αποθήκευσης > Λεπτομέρειες και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Η κάρτα SD δεν έχει αρκετό χώρο. Μεταβείτε στις Ρυθμίσεις > Χώρος αποθήκευσης και RAM > Χώρος αποθήκευσης > Λεπτομέρειες και, στη συνέχεια, διαγράψτε ορισμένα αρχεία και δοκιμάστε ξανά."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Λίστα"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Μέγεθος"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "Θα καταργηθεί 1 στοιχείο."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Δεν είναι δυνατός ο ορισμός του ονόματος φακέλου ως %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Το αρχείο διαγράφηκε, μετακινήθηκε ή μετονομάστηκε. Πατήστε «Λήψη» για να λάβετε ξανά το αρχείο ή πατήστε «Κατάργηση» για να το καταργήσετε από το ιστορικό λήψεων."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Ανανέωση"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "Θα καταργηθεί η εγκατάσταση του %s."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Μέγεθος"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Χώρ.αποθ.συσκ."
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Χώρος αποθήκευσης Cloud"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Ορισμός"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Μετονομασία"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Αρχεία"
 

@@ -1,26 +1,20 @@
-msgid "IDS_DM_SBODY_P1SD_SUCCEEDED_P2SD_FAILED_ABB"
-msgstr "%1$d pavyko, %2$d nepavyko"
-
-msgid "IDS_DM_SBODY_PD_SUCCEEDED_ABB"
-msgstr "Pavyko: %d"
-
-msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
-msgstr "Taikyti visiems elementams"
-
-msgid "IDS_DM_MBODY_PREPARING_TO_DOWNLOAD_ING_ABB"
-msgstr "Ruošiamasi atsisiųsti..."
-
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Jūsų įrenginys neprijungtas prie „Wi-Fi“ tinklo. Prisijungus prie mobiliojo tinklo gali būti taikomi papildomi mokesčiai – tai priklauso nuo mokėjimo plano."
+
+msgid "IDS_MF_HEADER_SHARE_VIA"
+msgstr "Bendrinti per"
+
+msgid "IDS_MF_OPT_SHARE_VIA"
+msgstr "Bendrinti per"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobilieji duomenys išjungti. Vietoj to prisijunkite prie „Wi-Fi“ tinklo arba įjunkite mobiliuosius duomenis ir bandykite dar kartą."
 
-msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
-msgstr "Atminties kortelė išimta."
+msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
+msgstr "Bus ištrinta elementų: %d."
 
-msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Pavyko"
+msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
+msgstr "Šis elementas bus ištrintas."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Atsisiunčiama..."
@@ -28,8 +22,50 @@ msgstr "Atsisiunčiama..."
 msgid "IDS_CALL_BODY_NOT_ENOUGH_MEMORY"
 msgstr "Nepakanka atminties."
 
+msgid "IDS_EMAIL_POP_CANCELLED"
+msgstr "Atšaukta."
+
+msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
+msgstr "Atsisiųsti nepavyko."
+
+msgid "IDS_EMAIL_POP_SUCCESS"
+msgstr "Pavyko"
+
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Kurti"
+
+msgid "IDS_MF_POP_DELETED"
+msgstr "Ištrinta."
+
+msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
+msgstr "Atminties kortelė išimta."
+
+msgid "IDS_MUSIC_POP_SEARCHING_ING"
+msgstr "Ieškoma..."
+
+msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
+msgstr "Jungimosi prie tinklo klaida."
+
+msgid "IDS_MF_OPT_DELETEFOLDER"
+msgstr "Trinti aplanką"
+
+msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
+msgstr "Įrašyti aplanko pavadinimą."
+
+msgid "IDS_HS_OPT_DOWNLOADED_APPS"
+msgstr "Atsisiųstos programos"
+
+msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
+msgstr "Įvyko tinklo ryšio klaida. Skambutis baigtas. Prisijungti prie tinklo iš naujo?"
+
+msgid "IDS_MF_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_MF_SK_SAVE"
+msgstr "Išsaug."
+
+msgid "IDS_MF_SK_YES_ABB"
+msgstr "Taip"
 
 msgid "IDS_MUSIC_SK_NO"
 msgstr "Ne"
@@ -37,32 +73,122 @@ msgstr "Ne"
 msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Pridėti trumpinį"
 
+msgid "IDS_MF_OPT_DELETE"
+msgstr "Trinti"
+
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
 msgstr "Trinti trumpinį"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Pervardyti trumpinį"
 
+msgid "IDS_MF_OPT_SEARCH"
+msgstr "Paieška"
+
+msgid "IDS_MF_OPT_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_MF_OPT_SHARE"
+msgstr "Dalytis"
+
+msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
+msgstr "Atminties naudojimas"
+
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
 msgstr "Neberodyti"
+
+msgid "IDS_EMAIL_BODY_B"
+msgstr "B"
 
 msgid "IDS_EMAIL_BODY_BYTE"
 msgstr "Baitas"
 
+msgid "IDS_EMAIL_BODY_GB"
+msgstr "GB"
+
+msgid "IDS_EMAIL_BODY_MB"
+msgstr "MB"
+
+msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
+msgstr "Neįmanoma prisijungti prie serverio."
+
 msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "Privatus"
-
-msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Įrašyti aplanko pavadinimą."
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "Šalinti trumpinį"
 
+msgid "IDS_MEMO_POP_BATTERY_LOW"
+msgstr "Senkanti baterija"
+
+msgid "IDS_MF_BODY_1_FILE"
+msgstr "1 failas"
+
+msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
+msgstr "Mano albumas"
+
+msgid "IDS_MF_BODY_ADD_FROM"
+msgstr "Pridėti iš"
+
+msgid "IDS_MF_BODY_ALERTS"
+msgstr "Perspėjimai"
+
+msgid "IDS_MF_BODY_ANY"
+msgstr "Bet kuris"
+
+msgid "IDS_MF_BODY_AVAILABLE_USES"
+msgstr "Galimi panaudojimai"
+
 msgid "IDS_MF_BODY_BYTE"
 msgstr "Baitas"
 
+msgid "IDS_MF_BODY_CONTENTS"
+msgstr "Turinys"
+
+msgid "IDS_MF_BODY_CREATED_DATE"
+msgstr "Sukurta data"
+
+msgid "IDS_MF_BODY_DATE"
+msgstr "Data"
+
+msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
+msgstr "Ištrinti pasirinktus elementus?"
+
+msgid "IDS_MF_BODY_DETAILS_KB"
+msgstr "KB"
+
+msgid "IDS_MF_BODY_DOCUMENTS"
+msgstr "Dokumentai"
+
 msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Vykdyti"
+
+msgid "IDS_MF_BODY_FILE_NAME"
+msgstr "Failo pavadinimas"
+
+msgid "IDS_MF_BODY_FILE_TYPE_ABB"
+msgstr "Fail.tip."
+
+msgid "IDS_MF_BODY_FOLDER_NAME"
+msgstr "Aplanko pavadinimas"
+
+msgid "IDS_MF_BODY_FORWARDING"
+msgstr "Persiuntimas"
+
+msgid "IDS_MF_BODY_GPS_INFORMATION"
+msgstr "GPS informacija"
+
+msgid "IDS_MF_BODY_GPS_LATITUDE"
+msgstr "GPS platuma"
+
+msgid "IDS_MF_BODY_GPS_LONGITUDE"
+msgstr "GPS ilguma"
+
+msgid "IDS_MF_BODY_GPS_VERSION"
+msgstr "GPS versija"
+
+msgid "IDS_MF_BODY_IMAGES"
+msgstr "Vaizdai"
 
 msgid "IDS_MF_BODY_IMPOSSIBLE"
 msgstr "Neįmanoma"
@@ -76,17 +202,68 @@ msgstr "Intervalas"
 msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Paskutinį kartą keista"
 
+msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
+msgstr "Sąrašas ir išsami inf."
+
+msgid "IDS_MF_BODY_LOCATION"
+msgstr "Vieta"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Inicijuojami MMC duomenys..."
+
+msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
+msgstr "Mano vaizdo įrašai"
+
+msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Nepakanka atminties telefone. Ištrinkite kai kuriuos elementus ir bandykite dar kartą."
+
+msgid "IDS_MF_BODY_NO_FILES"
+msgstr "Failų nėra"
+
+msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
+msgstr "Pastarąjį kartą atidarytų failų nėra"
+
+msgid "IDS_MF_BODY_NO_RECENT_FILES"
+msgstr "Nėra naujausių failų"
+
+msgid "IDS_MF_BODY_PD_FILES"
+msgstr "%d failai (-ų)"
+
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d elementas"
+
+msgid "IDS_MF_BODY_PD_ITEMS"
+msgstr "%d element."
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "Įmanoma"
 
+msgid "IDS_MF_BODY_PRINT"
+msgstr "Spausdinti"
+
+msgid "IDS_MF_BODY_RENAME_ABB"
+msgstr "Perv."
+
 msgid "IDS_MF_BODY_RIGHT_STATUS"
 msgstr "Teisių būsena"
 
-msgid "IDS_MF_OPT_SHARE"
+msgid "IDS_MF_BODY_RINGTONES"
+msgstr "Skambėjimo tonai"
+
+msgid "IDS_MF_BODY_SHARE"
 msgstr "Dalytis"
+
+msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
+msgstr "Rodyti slepiamus failus"
+
+msgid "IDS_MF_BODY_SOUNDS"
+msgstr "Garsai"
+
+msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
+msgstr "Atminties naudojimas"
+
+msgid "IDS_MF_BODY_TIME"
+msgstr "Laikas"
 
 msgid "IDS_MF_BODY_TIMED_COUNT"
 msgstr "Laiko skaičiavimas"
@@ -94,11 +271,35 @@ msgstr "Laiko skaičiavimas"
 msgid "IDS_MF_BODY_TYPE"
 msgstr "Tipas"
 
+msgid "IDS_MF_BODY_UNLIMITED"
+msgstr "Neribota"
+
+msgid "IDS_MF_BODY_UP"
+msgstr "Aukštyn"
+
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "Galiojimas"
 
+msgid "IDS_MF_BODY_VENDOR"
+msgstr "Tiekėjas"
+
+msgid "IDS_MF_BODY_VIDEOS"
+msgstr "Vaizdo įrašai"
+
+msgid "IDS_MF_BODY_WALLPAPERS"
+msgstr "Ekrano fonai"
+
+msgid "IDS_MF_BUTTON_ADD_TO_HOME"
+msgstr "Įd. į pradž.psl."
+
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Eksportuoti čia"
+
+msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
+msgstr "Eiti į „Mano failus“"
+
+msgid "IDS_MF_BUTTON_HOME"
+msgstr "Pradž."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB"
 msgstr "Pakeisti"
@@ -106,26 +307,92 @@ msgstr "Pakeisti"
 msgid "IDS_MF_BUTTON_SEARCH_ALL_FOLDERS"
 msgstr "Ieškoti visų aplankų"
 
+msgid "IDS_MF_BUTTON_SET_HERE"
+msgstr "Nustatyti čia"
+
+msgid "IDS_MF_HEADER_ADVANCED_SEARCH"
+msgstr "Išplėstinė paieška"
+
+msgid "IDS_MF_HEADER_AUDIO"
+msgstr "Garso"
+
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
 msgstr "Prisijungti prie mobiliojo tinklo"
+
+msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
+msgstr "Jungtis prie „Wi-Fi“ tinklo"
+
+msgid "IDS_MF_HEADER_COUNT"
+msgstr "Skaičiuoti"
+
+msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
+msgstr "Įrašyti aplanko pavadinimą."
+
+msgid "IDS_MF_HEADER_LOCAL"
+msgstr "Vietinis"
 
 msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Naujas aplankas"
 
+msgid "IDS_MF_HEADER_RECENT_FILES"
+msgstr "Naujausi failai"
+
+msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
+msgstr "Pašalinti failą"
+
+msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
+msgstr "Dalytis gars. ir nuotr."
+
+msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
+msgstr "Laikmena"
+
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
 msgstr "Neįmanoma sukurti aplanko"
 
-msgid "IDS_MF_SK_YES_ABB"
-msgstr "Taip"
+msgid "IDS_MF_MBODY_SELECT_ALL"
+msgstr "Rinktis viską"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
 msgstr "Įvesti aplanko pavadinimą"
 
+msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
+msgstr "Pridėti prie sparč. klavišų"
+
+msgid "IDS_MF_OPT_AS_IMAGE_FILES"
+msgstr "Kaip paveikslėlių failai"
+
+msgid "IDS_MF_OPT_AS_VIDEO_FILES"
+msgstr "Kaip vaizdo įrašų failai"
+
+msgid "IDS_MF_OPT_CALLER_RINGTONE"
+msgstr "Skambintojo skambėjimo tonas"
+
 msgid "IDS_MF_OPT_COMPRESS"
 msgstr "Suspausti"
 
+msgid "IDS_MF_OPT_CREATE_FOLDER"
+msgstr "Kurti aplanką"
+
+msgid "IDS_MF_OPT_DATE_HMOST_RECENT"
+msgstr "Data (naujausi)"
+
+msgid "IDS_MF_OPT_DATE_HOLDEST"
+msgstr "Data (seniausi)"
+
+msgid "IDS_MF_OPT_DECOMPRESS_ABB"
+msgstr "Išskleisti"
+
 msgid "IDS_MF_OPT_DECOMPRESS_HERE_ABB"
 msgstr "Išskleisti čia"
+
+msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
+msgstr "Numatytoji melodija"
+
+msgid "IDS_MF_OPT_DETAIL_VIEW"
+msgstr "Detalus rodinys"
+
+msgid "IDS_MF_OPT_EDIT"
+msgstr "Redaguoti"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Išskleisti"
@@ -133,17 +400,56 @@ msgstr "Išskleisti"
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Išskleisti dabartiniame aplanke"
 
+msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
+msgstr "Pereiti į aplanką"
+
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
 msgstr "Slėpti failo plėtinį"
+
+msgid "IDS_MF_OPT_ITEMS"
+msgstr "Elementai"
+
+msgid "IDS_MF_OPT_LISTBY_NAME"
+msgstr "Vardas"
+
+msgid "IDS_MF_OPT_LIST_BY"
+msgstr "Rūšiuoti pagal"
+
+msgid "IDS_MF_OPT_MOVE_HERE"
+msgstr "Perkelti čia"
+
+msgid "IDS_MF_OPT_NAME"
+msgstr "Vardas"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
 msgstr "Atidaryti failo vietą"
 
-msgid "IDS_EMAIL_POP_UNABLE_TO_CONNECT_TO_SERVER"
-msgstr "Neįmanoma prisijungti prie serverio."
+msgid "IDS_MF_OPT_PERSONAL_PAGE"
+msgstr "Asmeninis puslapis"
+
+msgid "IDS_MF_OPT_RECORD_SOUND"
+msgstr "Įrašyti garsą"
+
+msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
+msgstr "Registruoti adresatuose"
+
+msgid "IDS_MF_OPT_RENAME"
+msgstr "Pervardyti"
+
+msgid "IDS_MF_OPT_RENAMED"
+msgstr "Pervardyta."
+
+msgid "IDS_MF_OPT_RENAME_FOLDER"
+msgstr "Pervardyti aplanką"
 
 msgid "IDS_MF_OPT_SAVE_HERE"
 msgstr "Išsaugoti čia"
+
+msgid "IDS_MF_OPT_SCAN_FOR_NEARBY_DEVICES_ABB"
+msgstr "Ieškoti artimų įrenginių"
+
+msgid "IDS_MF_OPT_SELECTED"
+msgstr "Pasirinkta"
 
 msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Dalytis nuoroda"
@@ -151,14 +457,47 @@ msgstr "Dalytis nuoroda"
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
 msgstr "Rodyti failo plėtinį"
 
+msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
+msgstr "Atskirti"
+
+msgid "IDS_MF_OPT_SORT_BY"
+msgstr "Rūšiuoti pagal"
+
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniatiūrų rodinys"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "Peržiūrėti kaip"
 
+msgid "IDS_MF_OPT_VIEW_BY_LIST"
+msgstr "Peržiūrėti pagal sąrašą"
+
+msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
+msgstr "Žiūrėti miniatiūras"
+
+msgid "IDS_MF_OPT_ZIP"
+msgstr "Zip failas"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
+msgstr "1 elementas bus ištrintas."
+
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Didėjimo tvarka"
+
+msgid "IDS_MF_POP_CONF_DELETE_Q"
+msgstr "Ar trinti?"
+
+msgid "IDS_MF_POP_CONTINUE"
+msgstr "Tęsti"
+
+msgid "IDS_MF_POP_COPYING_FAILED"
+msgstr "Perkelti nepavyko."
+
+msgid "IDS_MF_POP_DELETE_FAILED"
+msgstr "Ištrinti nepavyko."
+
+msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
+msgstr "Trinti pasirinktą elementą?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Mažėjimo tvarka"
@@ -166,8 +505,35 @@ msgstr "Mažėjimo tvarka"
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM failas. Negalima siųsti."
 
+msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
+msgstr "DRM failas nepasiekiamas."
+
+msgid "IDS_MF_POP_DUPLICATED_FILE"
+msgstr "Failo pavadinimas jau naudojamas."
+
+msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
+msgstr "Toks aplanko pavadinimas jau yra."
+
+msgid "IDS_MF_POP_FORMAT"
+msgstr "Formatas"
+
+msgid "IDS_MF_POP_FROM"
+msgstr "Nuo"
+
+msgid "IDS_MF_POP_INPUT_TEXT"
+msgstr "Įvesti tekstą"
+
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "Neleistinas failo pavadinimas."
+
+msgid "IDS_MF_POP_LOADING_ING"
+msgstr "Įkeliama..."
+
+msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
+msgstr "Pasiektas maksimalus aplankų skaičius."
+
+msgid "IDS_MF_POP_MOVING_FAILED"
+msgstr "Perkelti nepavyko."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Pavadinimo nėra."
@@ -178,116 +544,11 @@ msgstr "Nepakanka kaupiamosios atminties."
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "Nepakanka atminties. Ištrinkite kai kuriuos elementus ir bandykite dar kartą."
 
-msgid "IDS_MF_SK_OK"
-msgstr "Gerai"
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
+msgstr "Nepakanka atminties. Liko %s."
 
-msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Pašalinti iš trumpinių?"
-
-msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Išsiųsti nepavyko."
-
-msgid "IDS_MF_OPT_DELETE"
-msgstr "Trinti"
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Paskirties aplankas yra vidinis originaliojo aplanko aplankas."
-
-msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Paskirties aplankas toks pat kaip ir originalus aplankas."
-
-msgid "IDS_MF_OPT_SEARCH"
-msgstr "Paieška"
-
-msgid "IDS_MF_POP_UNABLE_TO_COPY"
-msgstr "Negalima kopijuoti."
-
-msgid "IDS_MF_POP_UNABLE_TO_MOVE"
-msgstr "Negalima perkelti."
-
-msgid "IDS_MF_OPT_SETTINGS"
-msgstr "Nustatymai"
-
-msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Neįmanoma atlikti šio veiksmo. Įvyko tinklo klaida."
-
-msgid "IDS_MF_BODY_TIME"
-msgstr "Laikas"
-
-msgid "IDS_MF_BODY_UNLIMITED"
-msgstr "Neribota"
-
-msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
-msgstr "Išorinė laikmena"
-
-msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Atminties kort."
-
-msgid "IDS_MF_BODY_VIDEOS"
-msgstr "Vaizdo įrašai"
-
-msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Failai suglaudinti"
-
-msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Failai išskleisti"
-
-msgid "IDS_EMAIL_BODY_GB"
-msgstr "GB"
-
-msgid "IDS_EMAIL_BODY_MB"
-msgstr "MB"
-
-msgid "IDS_MF_MBODY_SELECT_ALL"
-msgstr "Rinktis viską"
-
-msgid "IDS_MF_BODY_DETAILS_KB"
-msgstr "KB"
-
-msgid "IDS_MF_BODY_DOCUMENTS"
-msgstr "Dokumentai"
-
-msgid "IDS_MF_BODY_IMAGES"
-msgstr "Vaizdai"
-
-msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Failų nėra"
-
-msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Atminties naudojimas"
-
-msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Tokio failo nėra."
-
-msgid "IDS_MF_SK3_BACK"
-msgstr "Atgal"
-
-msgid "IDS_MF_TAB_ALL"
-msgstr "Visi"
-
-msgid "IDS_MF_OPT_CREATE_FOLDER"
-msgstr "Kurti aplanką"
-
-msgid "IDS_MF_OPT_ITEMS"
-msgstr "Elementai"
-
-msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Jungtis"
-
-msgid "IDS_MF_OPT_NAME"
-msgstr "Vardas"
-
-msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Rūšiuoti pagal"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 elementas bus ištrintas."
-
-msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Ištrinti nepavyko."
-
-msgid "IDS_MF_POP_FORMAT"
-msgstr "Formatas"
+msgid "IDS_MF_POP_PASTE_HERE"
+msgstr "Įklijuoti čia"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "Bus ištrinta elementų: %d."
@@ -295,8 +556,155 @@ msgstr "Bus ištrinta elementų: %d."
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Leidimas atmestas."
 
+msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
+msgstr "Pašalinti iš naujausių failų sąrašo?"
+
+msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
+msgstr "Pašalinti iš trumpinių?"
+
+msgid "IDS_MF_POP_REMOVE_Q"
+msgstr "Ar šalinti?"
+
+msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
+msgstr "Toks failo vardas jau yra!"
+
+msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
+msgstr "Toks pavadinimas jau yra."
+
+msgid "IDS_MF_POP_SELECT_ITEM"
+msgstr "Pasirinkti elementą"
+
+msgid "IDS_MF_POP_SEND_FAILED"
+msgstr "Išsiųsti nepavyko."
+
+msgid "IDS_MF_POP_SHORTCUT_ADDED"
+msgstr "Trumpinys pridėtas."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
+msgstr "Paskirties aplankas yra vidinis originaliojo aplanko aplankas."
+
+msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
+msgstr "Paskirties aplankas toks pat kaip ir originalus aplankas."
+
+msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
+msgstr "Įrenginys atjungtas"
+
+msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
+msgstr "Tokio failo nėra."
+
+msgid "IDS_MF_POP_UNABLE_TO_COPY"
+msgstr "Negalima kopijuoti."
+
+msgid "IDS_MF_POP_UNABLE_TO_MOVE"
+msgstr "Negalima perkelti."
+
+msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
+msgstr "Neįmanoma atlikti šio veiksmo. Įvyko tinklo klaida."
+
+msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Negalima paleisti skambučio metu."
+
+msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
+msgstr "Neįmanoma nustatyti DRM apsaugoto turinio kaip skambėjimo tono ar pranešimo įspėjimo."
+
+msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
+msgstr "Jei norite ieškoti netoliese esančių įrenginių, turite būti prisijungę prie „Wi-Fi“ tinklo. Prisijunkite per „Wi-Fi“ ir bandykite dar kartą."
+
+msgid "IDS_MF_SK3_BACK"
+msgstr "Atgal"
+
+msgid "IDS_MF_SK3_COPY"
+msgstr "Kopijuoti"
+
+msgid "IDS_MF_SK3_DELETE"
+msgstr "Trinti"
+
+msgid "IDS_MF_SK3_EDIT"
+msgstr "Redaguoti"
+
+msgid "IDS_MF_SK3_MOVE"
+msgstr "Perkelti"
+
+msgid "IDS_MF_SK3_SEARCH"
+msgstr "Ieškoti"
+
+msgid "IDS_MF_SK3_SORT_BY"
+msgstr "Rūšiuoti pagal"
+
+msgid "IDS_MF_SK4_VIEW_AS"
+msgstr "Peržr. kaip"
+
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Atšaukti"
+
+msgid "IDS_MF_SK_CANCEL_LITE"
+msgstr "Atšaukti"
+
+msgid "IDS_MF_SK_DETAILS"
+msgstr "Išsami informacija"
+
+msgid "IDS_MF_TAB_ALL"
+msgstr "Visi"
+
+msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
+msgstr "Išorinė laikmena"
+
+msgid "IDS_MF_TAB_MEMORY_CARD"
+msgstr "Atminties kort."
+
+msgid "IDS_MF_TAB_PHONE"
+msgstr "Telefonas"
+
+msgid "IDS_MF_TAB_UP"
+msgstr "Į viršų"
+
+msgid "IDS_MF_TPOP_COMPRESSED"
+msgstr "Suspausta"
+
+msgid "IDS_MF_TPOP_DECOMPRESSED"
+msgstr "Išskleista"
+
+msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
+msgstr "Atsisiunčiamas failas..."
+
+msgid "IDS_MF_TPOP_FILES_COMPRESSED"
+msgstr "Failai suglaudinti"
+
+msgid "IDS_MF_TPOP_FILES_EXTRACTED"
+msgstr "Failai išskleisti"
+
+msgid "IDS_MF_TPOP_FILE_IMPORTED"
+msgstr "Failas importuotas."
+
+msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
+msgstr "Įrenginių nerasta. Nuskaitymas bus tęsiamas fone."
+
+msgid "IDS_MF_TZTAB2_DIRECTORY"
+msgstr "Katalogas"
+
+msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
+msgstr "Jungtis"
+
+msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
+msgstr "Numatyto pranešimo garsas"
+
+msgid "IDS_ST_BODY_TO_JPN_SBM"
+msgstr "To"
+
+msgid "IDS_ST_POP_ADD_SHORTCUT"
+msgstr "Įtraukti spartųjį mygtuką"
+
+msgid "IDS_ST_POP_DELETE_ITEMS_Q"
+msgstr "Ištrinti elementus?"
+
+msgid "IDS_VIDEO_OPT_RENAME"
+msgstr "Pervardyti"
+
+msgid "IDS_ST_BODY_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_ST_SK_REMOVE"
+msgstr "Pašalinti"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "Ištrinti elementą"
@@ -307,11 +715,23 @@ msgstr "Rinktis elementus"
 msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Rezultatų nerasta"
 
+msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
+msgstr "Ištrinti %d elementus?"
+
+msgid "IDS_ST_POP_DELETE_ITEM_Q"
+msgstr "Ištrinti elementą?"
+
+msgid "IDS_VR_POP_1_ITEM_SELECTED"
+msgstr "Pasirinktas 1 elementas."
+
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "Įvestas neteisingas simbolis. Bandykite vėl"
 
-msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
-msgstr "Pradeda siųsti..."
+msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
+msgstr "Pasirinkta elementų: %d"
+
+msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
+msgstr "Tylusis"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Pasirinkti elementą"
@@ -319,11 +739,32 @@ msgstr "Pasirinkti elementą"
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
 msgstr "Galite pasirinkti iki %d elementų."
 
+msgid "IDS_MF_BODY_DOWNLOADS"
+msgstr "Atsisiųsti elem."
+
+msgid "IDS_MF_POP_DELETE_Q"
+msgstr "Ar trinti?"
+
+msgid "IDS_MF_SK_MOVE"
+msgstr "Perkelti"
+
+msgid "IDS_MF_SK_COPY"
+msgstr "Kopijuoti"
+
 msgid "IDS_MF_POP_MOVING"
 msgstr "Perkeliama..."
 
 msgid "IDS_MF_POP_COPYING"
 msgstr "Kopijuojama..."
+
+msgid "IDS_MF_POP_DELETING_ING"
+msgstr "Trinama..."
+
+msgid "IDS_CAM_BODY_OPERATION_FAILED"
+msgstr "Veiksmas nepavyko."
+
+msgid "IDS_MF_OPT_DELETE_SELECTED"
+msgstr "Pasirinkta"
 
 msgid "IDS_MF_POP_MOVED"
 msgstr "Perkelta."
@@ -331,35 +772,143 @@ msgstr "Perkelta."
 msgid "IDS_MF_POP_COPIED"
 msgstr "Nukopijuota."
 
+msgid "IDS_MF_OPT_SORT_BY_ABB"
+msgstr "Rūšiuoti pagal"
+
+msgid "IDS_MUSIC_POP_FAILED"
+msgstr "Nepavyko."
+
+msgid "IDS_MUSIC_SK_DONE"
+msgstr "Atlikta"
+
+msgid "IDS_MF_BODY_SD_CARD_ABB"
+msgstr "SD kortelė"
+
+msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
+msgstr "Įrenginio atmintis"
+
+msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
+msgstr "Pridėti prie asmeninės saugyklos"
+
+msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
+msgstr "Pašalinti iš asmeninės saugyklos"
+
+msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
+msgstr "Trinti šį elementą?"
+
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Pašalinti iš privataus"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Perkelti į asmeninį"
 
-msgid "IDS_MF_BODY_DOWNLOADS"
-msgstr "Atsisiųsti elem."
-
-msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Trinama..."
-
-msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Nepavyko."
-
-msgid "IDS_MF_BODY_SD_CARD_ABB"
-msgstr "SD kortelė"
-
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Pasiektas didžiausias simbolių skaičius."
+
+msgid "IDS_MUSIC_POP_REMOVING"
+msgstr "Šalinama..."
+
+msgid "IDS_MF_BODY_PERSONAL_STORAGE"
+msgstr "Asmeninė saugykla"
+
+msgid "IDS_MF_POP_FORMAT_COMPLETED"
+msgstr "Formatavimas baigtas."
+
+msgid "IDS_MF_OPT_NAME_HZ_TO_A"
+msgstr "Pavadinimas (Z–A)"
+
+msgid "IDS_MF_OPT_NAME_HA_TO_Z"
+msgstr "Pavadinimas (A–Z)"
+
+msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
+msgstr "Ekrano nuotrauka"
+
+msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
+msgstr "Rezultatų nerasta."
+
+msgid "IDS_ST_BODY_MESSAGE_ALERT"
+msgstr "Įspėjimas apie žinutę"
+
+msgid "IDS_MEDIABR_OPT_DETAILS"
+msgstr "Išsami informacija"
+
+msgid "IDS_MF_HEADER_ENTER_NAME"
+msgstr "Įvesti vardą."
 
 msgid "IDS_MF_HEADER_MYFILES"
 msgstr "Mano failai"
 
-msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
-msgstr "Niekas nepasirinkta."
+msgid "IDS_MF_POP_ADDED"
+msgstr "Pridėta."
+
+msgid "IDS_MF_POP_PROCESSING_ING"
+msgstr "Apdorojama..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "Nepalaikomas failo tipas."
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Ar šalinti?"
+
+msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
+msgstr "Asmeninis turinys"
+
+msgid "IDS_MF_OPT_COPY_TO"
+msgstr "Kopijuoti į"
+
+msgid "IDS_MF_OPT_MOVE_TO"
+msgstr "Perkelti į"
+
+msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nepavyko pridėti trumpinio."
+
+msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nepakanka atminties. Ištrinkite kai kuriuos elementus"
+
+msgid "IDS_MF_POP_REMOVED"
+msgstr "Pašalinta."
+
+msgid "IDS_ST_BODY_PRIVATE_STORAGE"
+msgstr "Privati saugykla"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Niekas nepasirinkta."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Bendrinti"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Žr.kaip"
+
+msgid "IDS_MUSIC_SK_LIST"
+msgstr "Sąrašas"
+
+msgid "IDS_MUSIC_SK_VIEW"
+msgstr "Peržiūrėti"
+
+msgid "IDS_MUSIC_SK_SAVE_AS"
+msgstr "Išsaugoti kaip"
+
+msgid "IDS_MUSIC_POP_REMOVE_FAILED"
+msgstr "Nepavyko pašalinti."
+
+msgid "IDS_MF_BODY_DROPBOX_ABB"
+msgstr "Dropbox"
+
+msgid "IDS_MF_BODY_PARENT_RATING"
+msgstr "Tėvų vertinimas"
+
+msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
+msgstr "Failo pavadinimas jau naudojamas."
+
+msgid "IDS_VR_BODY_VOICE"
+msgstr "Balsas"
+
+msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "„Wi-Fi“ nepasiekiamas. Prisijungus prie mobiliųjų tinklų gali būti taikomi papildomi mokesčiai, priklausomai nuo mokėjimo plano."
+
+msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
+msgstr "Pasiektas didžiausias simbolių skaičius (%d)."
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Ruošiama..."
@@ -367,8 +916,20 @@ msgstr "Ruošiama..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Pasirinkta: %d"
 
+msgid "IDS_MF_HEADER_DELETE_ITEMS"
+msgstr "Trinti elementus"
+
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Nėra atsisiuntimų"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
+msgstr "Atsisiuntimas baigtas"
+
+msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
+msgstr "Atsisiuntimų tvarkyt."
+
+msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Atsisiuntus elementų, jie bus rodomi čia."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Atsisiuntimas atšauktas"
@@ -397,11 +958,14 @@ msgstr "Numatytoji saugykla pilna"
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Senesni"
 
-msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "Išsami informacija"
+msgid "IDS_DM_BODY_STORAGE"
+msgstr "Saugykla"
 
-msgid "IDS_MF_POP_PROCESSING_ING"
-msgstr "Apdorojama..."
+msgid "IDS_VIDEO_POP_REMOVING"
+msgstr "Šalinama..."
+
+msgid "IDS_MF_BODY_SD_CARD"
+msgstr "SD kortelė"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
 msgstr "Įrenginio atmintis"
@@ -409,20 +973,86 @@ msgstr "Įrenginio atmintis"
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Pranešama serveriui..."
 
+msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
+msgstr "Bus ištrinta elementų: %d."
+
+msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
+msgstr "Šio failo nepavyko rasti. Jei norite jį pabandyti atsisiųsti dar kartą, bakstelėkite „Atsisiųsti“."
+
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "Neįmanoma atidaryti failo"
+
+msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
+msgstr "Nepavyksta rasti programos, kuria būtų galima atidaryti šį failą."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
 msgstr "Bakstelėkite „Atsisiųsti“ ir bandykite dar kartą."
 
+msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
+msgstr "1 elementas bus ištrintas."
+
+msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
+msgstr "Aktyvinamas DRM turinys..."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Neįmanoma surasti programos šiam veiksmui atlikti."
+
+msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
+msgstr "Saugojimo vieta"
+
+msgid "IDS_PB_HEADER_IMPORT"
+msgstr "Importuoti"
+
+msgid "IDS_MF_BODY_M_DEGREE"
+msgstr "°"
+
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Atšaukti"
+
+msgid "IDS_DM_BUTTON_OK_ABB"
+msgstr "Gerai"
+
+msgid "IDS_DM_MBODY_SELECT_ALL"
+msgstr "Rinktis viską"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
 msgstr "Pasirinkta: %d"
 
+msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
+msgstr "Atsisiųsti"
+
+msgid "IDS_DM_HEADER_TODAY"
+msgstr "Šiandien"
+
+msgid "IDS_DM_HEADER_YESTERDAY"
+msgstr "Vakar"
+
+msgid "IDS_DM_OPT_DELETE"
+msgstr "Trinti"
+
+msgid "IDS_MF_BUTTON_REPLACE_ABB4"
+msgstr "Pakeist"
+
+msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
+msgstr "Taikyti visiems elementams"
+
+msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
+msgstr "Kurti zip failą"
+
+msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
+msgstr "Išskleisti zip failą"
+
+msgid "IDS_ST_BODY_MY_FILES_ABB"
+msgstr "Mano failai"
+
+msgid "IDS_BR_BODY_WEB_VODA"
+msgstr "Internetinis adresas"
+
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_M_NOUN"
 msgstr "Atsisiuntimų istorija"
+
+msgid "IDS_SSEARCH_BODY_NO_HISTORY"
+msgstr "Nėra istorijos"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Patogus bendrinimas"
@@ -445,11 +1075,74 @@ msgstr "Perkėlus šiuos elementus jie bus ištrinti iš „Dropbox“. Bus perk
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
 msgstr "Perkėlus šį elementą jis bus ištrintas iš „Dropbox“. Bus perkeltas 1 elementas."
 
+msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
+msgstr "Pasirinkite saugyklos vietą"
+
+msgid "IDS_MF_BUTTON_STOP_ABB2"
+msgstr "Stabdyti"
+
+msgid "IDS_MF_BUTTON_UPLOAD"
+msgstr "Įkelti"
+
+msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
+msgstr "Failo nepavyko įkelti"
+
+msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
+msgstr "Stabdyti įkėlimus"
+
+msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
+msgstr "Bakstelėkite „Įkelti“ ir bandykite dar kartą."
+
+msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
+msgstr "Įkėlimas bus sustabdytas, bet failas nebus ištrintas."
+
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Neseniai\nperžiūrėta"
 
+msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
+msgstr "Negalima išsaug. duomenų"
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Įrenginio atmintyje nepakanka vietos. Eikite į skirtuką Nustatymai > Maitinimas ir saugykla > Saugykla, tada ištrinkite kelis failus ir bandykite dar kartą."
+
+msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Jūsų SD kortelėje nepakanka vietos. Eikite į skirtuką Nustatymai > Maitinimas ir saugykla > Saugykla, tada ištrinkite kelis failus ir bandykite dar kartą."
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
+msgstr "Įkelti į"
+
+msgid "IDS_MF_HEADER_DROPBOX_UPLOADS_ABB"
+msgstr "„Dropbox“ įkėlimai"
+
+msgid "IDS_GALLERY_OPT_PRIVATE"
+msgstr "Privatus"
+
 msgid "IDS_ST_BODY_BYTES"
 msgstr "baitai"
+
+msgid "IDS_MF_SK_ADD_LITE"
+msgstr "Įtrauk."
+
+msgid "IDS_PB_OPT_HOME_ABB"
+msgstr "Namų"
+
+msgid "IDS_ST_OPT_ALARM"
+msgstr "Signalas"
+
+msgid "IDS_MF_BODY_OTHERS"
+msgstr "Kiti"
+
+msgid "IDS_MF_OPT_MORE"
+msgstr "Daugiau"
+
+msgid "IDS_MF_OPT_OPEN"
+msgstr "Atidaryti"
+
+msgid "IDS_ST_BODY_UNKNOWN_ERROR"
+msgstr "Nežinoma klaida."
+
+msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
+msgstr "Aplanko pavadinimas negali būti „.“ arba „..“."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Nerodyti paslėptų failų"
@@ -457,23 +1150,104 @@ msgstr "Nerodyti paslėptų failų"
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
 msgstr "Rodyti slepiamus failus"
 
+msgid "IDS_MF_POP_UNKNOWN"
+msgstr "Nežinomas"
+
 msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "Trumpinio pavadinimas jau naudojamas."
 
 msgid "IDS_MF_BODY_BASIC"
 msgstr "Pagrindinis"
 
+msgid "IDS_MF_BODY_FILE"
+msgstr "Failas"
+
 msgid "IDS_MF_BODY_FILES"
 msgstr "Failai"
+
+msgid "IDS_MF_BODY_FOLDER"
+msgstr "Aplankas"
+
+msgid "IDS_MF_BODY_FOLDERS"
+msgstr "Aplankai"
+
+msgid "IDS_MF_BODY_SYSTEM"
+msgstr "Sistema"
+
+msgid "IDS_MF_BODY_NAME"
+msgstr "Vardas"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
 msgstr "Garso failai"
 
+msgid "IDS_MF_BUTTON2_DOCUMENTS"
+msgstr "Dokumentai"
+
+msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
+msgstr "Atsisiųstos programos"
+
+msgid "IDS_MF_BUTTON2_IMAGES"
+msgstr "Vaizdai"
+
+msgid "IDS_MF_BUTTON2_VIDEOS"
+msgstr "Vaizdo\nįrašai"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB"
+msgstr "Atšaukti"
+
+msgid "IDS_MF_BUTTON_CANCEL_ABB3"
+msgstr "Atšaukti"
+
+msgid "IDS_MF_BUTTON_CREATE_ABB2"
+msgstr "Kurti"
+
+msgid "IDS_MF_BUTTON_DELETE_ABB4"
+msgstr "Trinti"
+
+msgid "IDS_MF_BUTTON_OK"
+msgstr "Gerai"
+
+msgid "IDS_MF_BUTTON_REMOVE_ABB2"
+msgstr "Šalinti"
+
+msgid "IDS_MF_BUTTON_RENAME_ABB"
+msgstr "Pervardyti"
+
+msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
+msgstr "Pašalinti"
+
+msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
+msgstr "Pridėti trumpinį"
+
+msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
+msgstr "Garso failai"
+
+msgid "IDS_MF_HEADER_COPY"
+msgstr "Kopijuoti"
+
 msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "Kopijuoti į"
 
+msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
+msgstr "Sukurti aplanką"
+
+msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
+msgstr "Trinti trumpinį"
+
+msgid "IDS_MF_HEADER_DETAILS"
+msgstr "Išsami informacija"
+
+msgid "IDS_MF_HEADER_DOCUMENTS"
+msgstr "Dokumentai"
+
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "Atsisiųstos programos"
+
+msgid "IDS_MF_HEADER_IMAGES"
+msgstr "Vaizdai"
+
+msgid "IDS_MF_HEADER_MOVE"
+msgstr "Perkelti"
 
 msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Eiti į"
@@ -481,7 +1255,43 @@ msgstr "Eiti į"
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "Pasirinkta: %d"
 
+msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
+msgstr "Naujausi failai"
+
+msgid "IDS_MF_HEADER_REMOVE"
+msgstr "Šalinti"
+
+msgid "IDS_MF_HEADER_RENAME"
+msgstr "Pervardyti"
+
+msgid "IDS_MF_HEADER_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_MF_HEADER_SHORTCUTS"
+msgstr "Sparčiosios prieigos mygtukai"
+
+msgid "IDS_MF_HEADER_SORT_BY"
+msgstr "Rūšiuoti pagal"
+
+msgid "IDS_MF_HEADER_UNINSTALL"
+msgstr "Pašalinti"
+
+msgid "IDS_MF_HEADER_UPLOAD_TO_ABB"
+msgstr "Įkelti į"
+
+msgid "IDS_MF_HEADER_VIDEOS"
+msgstr "Vaizdo įrašai"
+
+msgid "IDS_MF_HEADER_VIEW_AS"
+msgstr "Peržiūrėti kaip"
+
+msgid "IDS_MF_ITAB2_ALL"
+msgstr "Viskas"
+
 msgid "IDS_MF_ITAB2_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_ITAB2_DROPBOX_ABB"
 msgstr "Dropbox"
 
 msgid "IDS_MF_ITAB2_SHORTCUTS"
@@ -490,11 +1300,65 @@ msgstr "Trumpiniai"
 msgid "IDS_MF_MBODY_CONTAINS"
 msgstr "Yra"
 
+msgid "IDS_MF_MBODY_DEVICE_STORAGE"
+msgstr "Įrenginio atmintis"
+
+msgid "IDS_MF_MBODY_DROPBOX"
+msgstr "Dropbox"
+
+msgid "IDS_MF_MBODY_FORMAT"
+msgstr "Formatas"
+
+msgid "IDS_MF_MBODY_LOCATION"
+msgstr "Vieta"
+
+msgid "IDS_MF_MBODY_SD_CARD"
+msgstr "SD kortelė"
+
+msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
+msgstr "Rodyti failų plėtinius"
+
+msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
+msgstr "Rodyti slepiamus failus"
+
+msgid "IDS_MF_MBODY_SIZE"
+msgstr "Dydis"
+
+msgid "IDS_MF_MBODY_TYPE"
+msgstr "Tipas"
+
+msgid "IDS_MF_MBODY_VENDOR"
+msgstr "Teikėjas"
+
 msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "Failų nėra"
 
+msgid "IDS_MF_OPT_ASCENDING"
+msgstr "Didėjimo tvarka"
+
 msgid "IDS_MF_OPT_COPY"
 msgstr "Kopijuoti"
+
+msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
+msgstr "Kurti aplanką"
+
+msgid "IDS_MF_OPT_DESCENDING_ABB"
+msgstr "Mažėjimo tvarka"
+
+msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
+msgstr "Išsamus sąrašas"
+
+msgid "IDS_MF_OPT_DETAILS"
+msgstr "Išsami informacija"
+
+msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Neberodyti"
+
+msgid "IDS_MF_OPT_FILE_TYPE"
+msgstr "Failo tipas"
+
+msgid "IDS_MF_OPT_LIST"
+msgstr "Sąrašas"
 
 msgid "IDS_MF_OPT_MOVE"
 msgstr "Perkelti"
@@ -502,14 +1366,50 @@ msgstr "Perkelti"
 msgid "IDS_MF_OPT_REMOVE"
 msgstr "Šalinti"
 
+msgid "IDS_MF_OPT_SIZE"
+msgstr "Dydis"
+
+msgid "IDS_MF_OPT_TIME"
+msgstr "Laikas"
+
+msgid "IDS_MF_OPT_TYPE"
+msgstr "Tipas"
+
+msgid "IDS_MF_OPT_UNINSTALL"
+msgstr "Pašalinti"
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
+msgstr "1 elementas bus pašalintas."
+
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "1 trumpinys bus ištrintas."
+
+msgid "IDS_MF_POP_COPYING_ING"
+msgstr "Kopijuojama..."
+
+msgid "IDS_MF_POP_MOVING_ING"
+msgstr "Perkeliama..."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
+msgstr "Bus pašalinta elementų: %d."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Pašalinamų trumpinių skaičius: %d."
 
+msgid "IDS_MF_POP_REMOVING_ING"
+msgstr "Šalinama..."
+
+msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Naudojant mobiliuosius duomenis tarptinkliniu ryšiu gali būti taikomi papildomi mokesčiai – tai priklauso nuo mokėjimo plano."
+
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Galimi naudojimai"
+
+msgid "IDS_MF_TMBODY_DATE_CREATED"
+msgstr "Sukūrimo data"
+
+msgid "IDS_MF_TMBODY_DESCRIPTION"
+msgstr "Aprašymas"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
 msgstr "Persiuntimas"
@@ -523,14 +1423,29 @@ msgstr "Raiška"
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Bendras dydis"
 
+msgid "IDS_MF_TMBODY_VALIDITY"
+msgstr "Galiojimas"
+
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
 msgstr "Paskirties aplankas yra šaltinio aplanko poaplankis."
+
+msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Paskirties aplankas yra toks pat, kaip šaltinio aplankas."
+
+msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
+msgstr "Nepavyko pridėti trumpinio."
 
 msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Nepavyko nukopijuoti elemento."
 
+msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
+msgstr "Nepavyko ištrinti elemento."
+
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Nepavyko perkelti elemento."
+
+msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
+msgstr "Nepavyko pašalinti elemento."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failo pavadinimas jau naudojamas"
@@ -544,17 +1459,23 @@ msgstr "Trumpinys pridėtas."
 msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Trumpinys jau yra"
 
+msgid "IDS_ST_OPT_REFRESH"
+msgstr "Naujinti"
+
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "Bus ištrinta elementų: %d."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Bus pašalinta programų: %d."
 
-msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
-msgstr "Atsisiuntimas baigtas"
+msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
+msgstr "%s bus pašalinta."
 
-msgid "IDS_DM_BODY_STORAGE"
-msgstr "Saugykla"
+msgid "IDS_MF_BODY_SIZE"
+msgstr "Dydis"
+
+msgid "IDS_MF_SK3_LIST_VIEW"
+msgstr "Sąrašo vaizdas"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Toks aplanko pavadinimas jau naudojamas."
@@ -562,11 +1483,23 @@ msgstr "Toks aplanko pavadinimas jau naudojamas."
 msgid "IDS_MF_HEADER_LOCAL_STORAGE_ABB"
 msgstr "Vietinė talpykla"
 
+msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
+msgstr "Įreng.atmintis"
+
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
 msgstr "Neprisijungta."
 
+msgid "IDS_MF_HEADER_ALL_FILES"
+msgstr "Visi failai"
+
+msgid "IDS_MF_HEADER_CLOUD_STORAGE"
+msgstr "Debesies saugykla"
+
 msgid "IDS_MF_HEADER_ORDER"
 msgstr "Tvarka"
+
+msgid "IDS_MF_OPT_SHORTCUTS"
+msgstr "Sparčiosios prieigos mygtukai"
 
 msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Laikas"
@@ -574,32 +1507,44 @@ msgstr "Laikas"
 msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Pašalinti"
 
-msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "Gerai"
+msgid "IDS_MF_BODY_CONTAINS"
+msgstr "Yra"
 
-msgid "IDS_DM_MBODY_SELECT_ALL"
-msgstr "Rinktis viską"
+msgid "IDS_MF_BODY_NO_FACE_DETECTED"
+msgstr "Veidas neaptiktas"
 
-msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
-msgstr "Atsisiųsti"
+msgid "IDS_MF_BUTTON2_AUDIO"
+msgstr "Audio"
 
-msgid "IDS_DM_HEADER_TODAY"
-msgstr "Šiandien"
+msgid "IDS_MF_POP_ALREADY_EXISTS"
+msgstr "Jau yra."
 
-msgid "IDS_DM_HEADER_YESTERDAY"
-msgstr "Vakar"
+msgid "IDS_MF_POP_UNABLE_TO_MOVE_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
+msgstr "Neįmanoma perkelti. Paskirties aplankas yra toks pat kaip ir originalus aplankas."
+
+msgid "IDS_MF_SK3_CREATE_FOLDER"
+msgstr "Kurti aplanką"
+
+msgid "IDS_MF_SK3_MORE"
+msgstr "Daugiau"
+
+msgid "IDS_MF_SK3_MOVE_HERE"
+msgstr "Perkelti čia"
+
+msgid "IDS_MF_SK3_PASTE_HERE"
+msgstr "Įklijuoti čia"
+
+msgid "IDS_PB_SK_SET"
+msgstr "Nustatyti"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Šio failo tipo nepalaiko nei viena jūsų įrenginyje esanti programa."
 
-msgid "IDS_ST_BODY_UNKNOWN_ERROR"
-msgstr "Nežinoma klaida."
+msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
+msgstr "Bus ištrinta failų: %d."
 
-msgid "IDS_MF_POP_UNKNOWN"
-msgstr "Nežinomas"
-
-msgid "IDS_MF_BODY_SYSTEM"
-msgstr "Sistema"
+msgid "IDS_MF_MBODY_FILES_SENT"
+msgstr "Failai išsiųsti"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "ATLIKTA"
@@ -610,11 +1555,53 @@ msgstr "ATŠAUKTI"
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "IŠTRINTI"
 
+msgid "IDS_MUSIC_POP_RENAME"
+msgstr "Pervardyti"
+
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "Pasirinkit elementą"
 
+msgid "IDS_MF_NPBODY_NO_UPLOADS"
+msgstr "Įkėlimų nėra"
+
+msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Įkėlus elementų, jie bus rodomi čia."
+
+msgid "IDS_DM_BUTTON_SETTINGS"
+msgstr "Nustatymai"
+
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Negalima išsaug. duomenų"
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Jūsų SD kortelėje nepakanka vietos. Eikite į skirtuką Nustatymai > Maitinimas ir saugykla > Saugykla, tada ištrinkite kelis failus ir bandykite dar kartą."
+
+msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
+msgstr "Įrenginio atmintyje nepakanka vietos. Eikite į skirtuką Nustatymai > Maitinimas ir saugykla > Saugykla, tada ištrinkite kelis failus ir bandykite dar kartą."
+
+msgid "IDS_MF_POP_ERROR"
+msgstr "Klaida"
+
+msgid "IDS_MF_OPT_ALLSHARE"
+msgstr "„AllShare“"
+
+msgid "IDS_MF_POP_MEMORY_FULL"
+msgstr "Atmintis pilna."
+
+msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Iš „Dropbox“ bus ištrintas 1 elementas."
+
+msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
+msgstr "Iš „Dropbox“ bus ištrinta elementų: %d."
+
+msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Mobilieji duomenys išjungti. Prisijunkite prie „Wi-Fi“ tinklo arba įjunkite mobiliuosius duomenis ir pabandykite dar kartą."
+
+msgid "IDS_MF_BUTTON_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
+msgstr "Asmeninė saugykla"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Kelias"
@@ -625,8 +1612,23 @@ msgstr "Pasiektas didžiausias simbolių skaičius: %d"
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
 msgstr "Rinktis saugyklą"
 
+msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
+msgstr "Atsisiuntimų istorija"
+
+msgid "IDS_MF_MBODY_DOWNLOAD_HISTORY"
+msgstr "Atsisiuntimų istorija"
+
 msgid "IDS_MF_SBODY_DOWNLOADING_ING"
 msgstr "Atsisiunčiama..."
+
+msgid "IDS_MF_ITAB2_DOWNLOADS_ABB"
+msgstr "Atsisiuntimai"
+
+msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
+msgstr "Nėra atsisiuntimų"
+
+msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
+msgstr "Atsisiųsti nepavyko"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Galiojimas baigiasi: %s"
@@ -634,114 +1636,30 @@ msgstr "Galiojimas baigiasi: %s"
 msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Baigė galioti: %s"
 
+msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
+msgstr "Nepavyko atsisiųsti failo"
+
+msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
+msgstr "Pabandykite atsisiųsti failą dar kartą arba pašalinkite jį iš atsisiuntimo eilės."
+
+msgid "IDS_MF_BUTTON_RETRY_ABB2"
+msgstr "Kartoti"
+
+msgid "IDS_MF_BUTTON_REMOVE"
+msgstr "Pašalinti"
+
+msgid "IDS_GALLERY_BODY_CATEGORY"
+msgstr "Kategorija"
+
+msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
+msgstr "Aplanko pavadinimas naudojamas"
+
+msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
+msgstr "Toks failo pavadinimas jau naudojamas"
+
+msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
+msgstr "Toks failo pavadinimas (%s) jau naudojamas paskirties aplanke."
+
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Toks aplanko pavadinimas (%s) jau naudojamas paskirties aplanke."
-
-msgid "IDS_DM_OPT_DELETE"
-msgstr "Trinti"
-
-msgid "IDS_MF_OPT_CLEAR_HISTORY_ABB3"
-msgstr "Valyti istoriją"
-
-msgid "IDS_MF_BODY_COMPRESSING_ING_ABB"
-msgstr "Glaudinama..."
-
-msgid "IDS_MF_BODY_EXTRACTING_ING"
-msgstr "Išskleidžiama..."
-
-msgid "IDS_MF_HEADER_EXTRACT_ITEMS_FROM_ZIP_FILE_ABB"
-msgstr "Išskleist elem. iš ZIP failo"
-
-msgid "IDS_MF_BODY_NEW_FOLDER_PD"
-msgstr "Naujas aplankas %d"
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_OR_"
-msgstr "Aplanko pavadinimas negali būti „.“ arba „..“."
-
-msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "Nustatymai"
-
-msgid "IDS_MF_OPT_DETAILED_LIST"
-msgstr "Išsamus sąrašas"
-
-msgid "IDS_MF_HEADER_UNABLE_TO_EXTRACT_ITEMS_ABB"
-msgstr "Negalima išskleisti elementų"
-
-msgid "IDS_IDLE_HEADER_NOT_ENOUGH_SPACE_ABB2"
-msgstr "Nepakanka vietos"
-
-msgid "IDS_MF_HEADER_CREATE_ZIP_FILE_ABB"
-msgstr "Kurti ZIP failą"
-
-msgid "IDS_SSEARCH_BODY_NO_HISTORY"
-msgstr "Nėra istorijos"
-
-msgid "IDS_ST_OPT_DONT_SHOW_AGAIN_ABB"
-msgstr "Neberodyti"
-
-msgid "IDS_MF_OPT_MORE"
-msgstr "Daugiau"
-
-msgid "IDS_CLOUD_BODY_CANCELLING_ING"
-msgstr "Atšaukiama..."
-
-msgid "IDS_MF_HEADER_UNABLE_TO_PERFORM_ACTION_ABB2"
-msgstr "Neįmanoma atlikti veiksmo"
-
-msgid "IDS_MF_BODY_FILE"
-msgstr "Failas"
-
-msgid "IDS_MF_BODY_FOLDER"
-msgstr "Aplankas"
-
-msgid "IDS_MF_BODY_FOLDERS"
-msgstr "Aplankai"
-
-msgid "IDS_MF_BODY_NAME"
-msgstr "Vardas"
-
-msgid "IDS_IDLE_POP_YOUR_DEVICE_STORAGE_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Įrenginio atmintyje nepakanka vietos. Eiti į skirtuką „Nustatymai“ > Atmintis ir RAM > Saugykla > Išsamiai, tada ištrinkite kelis failus ir bandykite dar kartą."
-
-msgid "IDS_IDLE_POP_YOUR_SD_CARD_DOESNT_HAVE_ENOUGH_SPACE_GO_TO_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Jūsų SD kortelėje nepakanka vietos. Eiti į skirtuką „Nustatymai“ > Atmintis ir RAM > Saugykla > Išsamiai, tada ištrinkite kelis failus ir bandykite dar kartą."
-
-msgid "IDS_MF_OPT_LIST"
-msgstr "Sąrašas"
-
-msgid "IDS_MF_OPT_SIZE"
-msgstr "Dydis"
-
-msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "1 elementas bus pašalintas."
-
-msgid "IDS_MF_TPOP_CANT_SET_FOLDER_NAME_AS_PS"
-msgstr "Aplanko pavadinimas negali būti %s."
-
-msgid "IDS_MF_POP_THIS_FILE_WAS_DELETED_MOVED_OR_RENAMED_TAP_DOWNLOAD_TO_DOWNLOAD_THE_FILE_AGAIN_OR_TAP_REMOVE_TO_REMOVE_IT_FROM_DOWNLOAD_HISTORY"
-msgstr "Šis failas ištrintas, perkeltas arba pervardytas. Bakstelėkite „Atsisiųsti“, kad failą atsisiųstumėte dar kartą, arba bakstelėkite „Šalinti“, kad jį pašalintumėte iš atsisiuntimų istorijos."
-
-msgid "IDS_ST_OPT_REFRESH"
-msgstr "Naujinti"
-
-msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s bus pašalinta."
-
-msgid "IDS_MF_BODY_SIZE"
-msgstr "Dydis"
-
-msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
-msgstr "Įreng.atmintis"
-
-msgid "IDS_MF_HEADER_CLOUD_STORAGE"
-msgstr "Debesies saugykla"
-
-msgid "IDS_PB_SK_SET"
-msgstr "Nustatyti"
-
-msgid "IDS_MUSIC_POP_RENAME"
-msgstr "Pervardyti"
-
-msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mano failai"
 

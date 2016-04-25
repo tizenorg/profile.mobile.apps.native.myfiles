@@ -35,7 +35,8 @@
 
 #define ITEM_COUNT	6
 #define ITEM_MAX_COUNT	7
-#define MF_POPUP_MENUSTYLE_WIDTH 267
+#define ITEM_MAX_COUNT_LANDSCAPE	3
+#define MF_POPUP_MENUSTYLE_WIDTH 240
 #define MF_POPUP_MENUSTYLE_HEIGHT(x) (52*x)
 #define RADIO_POPUP_TIMEOUT	0.5
 #define VALUE 1000
@@ -1107,7 +1108,7 @@ Evas_Object *mf_popup_text(void *data,
 **    Modification : Created function
 **
 ******************************/
-static Evas_Object *__mf_popup_sort_by_box_set(Evas_Object *parent, Evas_Object *content, int item_cnt)
+static Evas_Object *__mf_popup_sort_by_box_set(Evas_Object *parent, Evas_Object *content, int item_cnt, bool is_landscape)
 {
 	mf_retvm_if(parent == NULL, NULL, "parent is NULL");
 	mf_retvm_if(content == NULL, NULL, "content is NULL");
@@ -1122,6 +1123,11 @@ static Evas_Object *__mf_popup_sort_by_box_set(Evas_Object *parent, Evas_Object 
 	int max_item_num = item_cnt;
 	if (max_item_num > ITEM_MAX_COUNT) {
 		max_item_num = ITEM_MAX_COUNT;
+	}
+	if (is_landscape) {
+		if (max_item_num > ITEM_MAX_COUNT_LANDSCAPE) {
+			max_item_num = ITEM_MAX_COUNT_LANDSCAPE;
+		}
 	}
 	evas_object_size_hint_min_set(box, -1,
 	                              ELM_SCALE_SIZE(MF_POPUP_MENUSTYLE_HEIGHT(max_item_num)));
@@ -1676,7 +1682,7 @@ Evas_Object *mf_popup_create_popup(void *data, ePopMode popupMode, char *title, 
 	//elm_object_signal_emit(popup, "elm,action,center_popup,entry", "");
 
 	mf_retvm_if(popup == NULL, NULL, "popup is NULL");
-	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
+//	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	elm_object_focus_set(popup, EINA_FALSE);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	if (title) {
@@ -2420,7 +2426,14 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	ap->label = label;
 	evas_object_show(label);
 	elm_object_part_content_set(layout, "elm.swallow.content", label);
-	Evas_Object *box = __mf_popup_sort_by_box_set(popup, layout, 3);
+	int h,w,x,y;
+	bool is_landscape = false;
+	evas_object_geometry_get(ap->mf_MainWindow.pWindow, &x, &y, &w, &h);
+
+	if (w > h) {
+		is_landscape = true;
+	}
+	Evas_Object *box = __mf_popup_sort_by_box_set(popup, layout, 3, is_landscape);
 	elm_object_content_set(popup, box);
 	Evas_Object *btn1 = NULL;
 	Evas_Object *btn2 = NULL;
@@ -2518,7 +2531,14 @@ Evas_Object *mf_popup_sort_by_create(char *title, Evas_Smart_Cb func, void *para
 		elm_genlist_item_append(genlist, ap->mf_gl_style.listby_itc, (void *)index, NULL,
 		                        ELM_GENLIST_ITEM_NONE, __mf_sort_by_gl_select, (void *)index);
 	}
-	box = __mf_popup_sort_by_box_set(popup, genlist, 6);
+	int h,w,x,y;
+	bool is_landscape = false;
+	evas_object_geometry_get(ap->mf_MainWindow.pWindow, &x, &y, &w, &h);
+
+	if (w > h) {
+		is_landscape = true;
+	}
+	box = __mf_popup_sort_by_box_set(popup, genlist, 6, is_landscape);
 	ap->mf_MainWindow.pPopupBox = box;
 	elm_object_content_set(popup, box);
 	evas_object_smart_callback_add(popup, "response", func, param);

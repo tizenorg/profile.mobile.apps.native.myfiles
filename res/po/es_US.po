@@ -10,6 +10,9 @@ msgstr "Compartir vía"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Los datos móviles están desactivados. Conéctese a una red Wi-Fi o active Datos móviles e inténtelo de nuevo."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Eliminar"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Se eliminarán %d elementos."
 
@@ -730,8 +733,26 @@ msgstr "Se ingresó un carácter no válido. Inténtelo de nuevo"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementos seleccionados."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imágenes"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencioso"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Todo"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiar"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seleccionado(s)"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar elemento"
@@ -901,6 +922,9 @@ msgstr "Evaluar pista"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nombre del archivo ya existe."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalles"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz"
 
@@ -915,6 +939,9 @@ msgstr "Preparando..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionado(s)"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Buscar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Eliminar elementos"
@@ -1029,6 +1056,12 @@ msgstr "Ayer"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Eliminar"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mis archivos"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mover"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Sustituir"

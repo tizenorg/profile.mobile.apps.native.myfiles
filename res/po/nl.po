@@ -10,6 +10,9 @@ msgstr "Delen via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobiele gegevens zijn uitgeschakeld. Maak in plaats daarvan verbinding met een Wi-Fi-netwerk of schakel Mobiele gegevens in en probeer het opnieuw."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Verwijderen"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d items worden verwijderd."
 
@@ -650,7 +653,7 @@ msgid "IDS_MF_TAB_EXTERNAL_STORAGE"
 msgstr "Externe opslag"
 
 msgid "IDS_MF_TAB_MEMORY_CARD"
-msgstr "Geheugen-\nkaart"
+msgstr "Geheugenkaart"
 
 msgid "IDS_MF_TAB_PHONE"
 msgstr "Telefoon"
@@ -730,8 +733,26 @@ msgstr "Ongeldig teken ingevoerd. Probeer het opnieuw."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d items geselecteerd."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Afbeeldingen"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Video's"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Annuleren"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Stil"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Alles selecteren"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiëren"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d geselecteerd"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Item selecteren"
@@ -901,6 +922,9 @@ msgstr "Leeftijdsclassificatie"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Bestandsnaam al in gebruik."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Gegevens"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Spraak"
 
@@ -915,6 +939,9 @@ msgstr "Voorber..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d geselecteerd"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Zoeken"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Items verwijderen"
@@ -1029,6 +1056,12 @@ msgstr "Gisteren"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Wissen"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mijn bestanden"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Verplaatsen"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Vervang"

@@ -10,6 +10,9 @@ msgstr "Quyidagi orqali ulashish"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobil ma’lumot o‘chirilgan. Uning o‘rniga Wi-Fi tarmoqqa ulaning yoki Mobil ma’lumotni yoqing va qayta urinib ko‘ring."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "O'chirish"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d ta element yo‘q qilinadi."
 
@@ -730,8 +733,26 @@ msgstr "Mumkin bo‘lmagan belgi kiritildi. Qayta urinib ko‘ring"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d element tanlangan."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Tasvirlar"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videolar"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Bekor qilish"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Ovozsiz"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Barchasini tanlash"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Nusxa olish"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d tanlangan"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Element tanlang"
@@ -901,6 +922,9 @@ msgstr "Qo'shimcha baholash"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl nomi avvaldan foydalanilmoqda."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Tafsilotlar"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ovoz"
 
@@ -915,6 +939,9 @@ msgstr "Tay-rlash..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d tanlangan"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Qidirish"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Elementlarni yo‘q qilish"
@@ -1030,6 +1057,12 @@ msgstr "Kecha"
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Yo‘q qilish"
 
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Fayllarim"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Ko‘chirish"
+
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Almash"
 
@@ -1043,7 +1076,7 @@ msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
 msgstr "ZIP faylni chiqarish"
 
 msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Mening fayllarim"
+msgstr "Fayllarim"
 
 msgid "IDS_BR_BODY_WEB_VODA"
 msgstr "Veb"
@@ -1655,7 +1688,7 @@ msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
 msgstr "Jild nomi ishlatilmoqda"
 
 msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "File name in use"
+msgstr "Fayl nomi ishlatilmoqda"
 
 msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ushbu fayl nomi (%s) avvaldan yakuniy jildda foydalanilmoqda."

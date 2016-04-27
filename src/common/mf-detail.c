@@ -34,11 +34,7 @@ void mf_detail_widget_object_text_set(Evas_Object *obj, const char *ID, const ch
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = "sys_string";
-	} else {
-		domain = DETAIL_UG_PKGNAME;
-	}
+	domain = DETAIL_UG_PKGNAME;
 
 	elm_object_domain_translatable_part_text_set(obj, part, domain, ID);
 }
@@ -48,11 +44,7 @@ void mf_detail_widget_object_item_text_set(Elm_Object_Item *item, const char *ID
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = "sys_string";
-	} else {
-		domain = DETAIL_UG_PKGNAME;
-	}
+	domain = DETAIL_UG_PKGNAME;
 	elm_object_item_domain_translatable_part_text_set(item, part, domain, ID);
 }
 
@@ -60,11 +52,7 @@ void mf_detail_widget_object_item_translate_set(Elm_Object_Item *item, const cha
 {
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = "sys_string";
-	} else {
-		domain = DETAIL_UG_PKGNAME;
-	}
+	domain = DETAIL_UG_PKGNAME;
 
 	elm_object_item_domain_text_translatable_set(item, domain, EINA_TRUE);
 }
@@ -72,11 +60,7 @@ void mf_detail_widget_object_item_translate_set(Elm_Object_Item *item, const cha
 char *mf_detail_widget_get_text(const char *ID)
 {
 	char *str;
-	if (strstr(ID, "IDS_COM") || strstr(ID, "IDS_IDLE")) {
-		str = dgettext("sys_string", ID);
-	} else {
-		str = gettext(ID);
-	}
+	str = gettext(ID);
 	return str;
 }
 

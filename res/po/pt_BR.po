@@ -10,6 +10,9 @@ msgstr "Compartilhar via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Dados móveis desligados. Conecte-se a uma rede Wi-Fi em seu lugar ou ligue os Dados móveis e tente novamente."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Excluir"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d itens serão apagados."
 
@@ -416,7 +419,7 @@ msgid "IDS_MF_OPT_LIST_BY"
 msgstr "Ordenar por"
 
 msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "Mover para cá"
+msgstr "Mover aqui"
 
 msgid "IDS_MF_OPT_NAME"
 msgstr "Nome"
@@ -617,7 +620,7 @@ msgid "IDS_MF_SK3_COPY"
 msgstr "Copiar"
 
 msgid "IDS_MF_SK3_DELETE"
-msgstr "Apagar"
+msgstr "Excluir"
 
 msgid "IDS_MF_SK3_EDIT"
 msgstr "Editar"
@@ -730,8 +733,26 @@ msgstr "Caractere inválido inserido. Tente novamente"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d itens selecionados."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imagens"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vídeos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencioso"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Selecionar tudo"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiar"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d selecionado(s)"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Selecionar item"
@@ -901,6 +922,9 @@ msgstr "Taxa anterior"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome de arquivo já utilizado."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalhes"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz"
 
@@ -915,6 +939,9 @@ msgstr "Prepar..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d selecionado(s)"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Pesquisar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Excluir itens"
@@ -1016,7 +1043,7 @@ msgid "IDS_DM_MBODY_SELECT_ALL"
 msgstr "Selec. tudo"
 
 msgid "IDS_DM_HEADER_PD_SELECTED_ABB3"
-msgstr "%d selecionados"
+msgstr "%d selecionado(s)"
 
 msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
 msgstr "Baixar"
@@ -1029,6 +1056,12 @@ msgstr "Ontem"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Excluir"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Meus Arquivos"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mover"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Subst."
@@ -1253,7 +1286,7 @@ msgid "IDS_MF_HEADER_MOVE_TO_ABB"
 msgstr "Mover para"
 
 msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
-msgstr "%d selecionados"
+msgstr "%d selecionado(s)"
 
 msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
 msgstr "Arquivos recentes"
@@ -1529,7 +1562,7 @@ msgid "IDS_MF_SK3_MORE"
 msgstr "Mais"
 
 msgid "IDS_MF_SK3_MOVE_HERE"
-msgstr "Mover para cá"
+msgstr "Mover aqui"
 
 msgid "IDS_MF_SK3_PASTE_HERE"
 msgstr "Colar aqui"

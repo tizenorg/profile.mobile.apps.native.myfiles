@@ -10,6 +10,9 @@ msgstr "Partajare prin"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Datele mobile sunt dezactivate. Conectaţi-vă în schimb la o reţea Wi-Fi sau activaţi Datele mobile şi încercaţi din nou."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Ştergere"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d elemente vor fi şterse."
 
@@ -730,8 +733,26 @@ msgstr "Aţi introdus un caracter nevalid. Încercaţi din nou"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elemente selectate"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imagini"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videoclipuri"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Anulare"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silenţios"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Selectare toate"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiere"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d selectate"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Selectaţi elementul"
@@ -901,6 +922,9 @@ msgstr "Evaluare părinte"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Numele fişierului există deja."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalii"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voce"
 
@@ -915,6 +939,9 @@ msgstr "Pregătire..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d selectate"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Căutare"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Ştergere elemente"
@@ -1029,6 +1056,12 @@ msgstr "Ieri"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Ştergere"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Fişierele mele"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mutare"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Înloc."

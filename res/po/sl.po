@@ -10,6 +10,9 @@ msgstr "Deli z drugimi prek"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Funkcija Prenos podatkov prek mobilnega omrežja je izklopljena. Namesto tega se povežite z omrežjem Wi-Fi, ali pa vklopite funkcijo Prenos podatkov prek mobilnega omrežja in poskusite znova."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Izbriši"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Izbrisan. bo toliko elem.: %d."
 
@@ -730,8 +733,26 @@ msgstr "Vnesli ste neveljaven znak. Poskusite znova"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d predmetov izbranih."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Slike"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videoposnetki"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Prekliči"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Tiho"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Izberi vse"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiraj"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d izbranih"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Izberi predmet"
@@ -901,6 +922,9 @@ msgstr "Starševska ocena"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke je že v uporabi."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Podrobnosti"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Glas"
 
@@ -915,6 +939,9 @@ msgstr "Priprava ..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d izbranih"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Iskanje"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Izbrišite elemente"
@@ -1029,6 +1056,12 @@ msgstr "Včeraj"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Izbriši"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Moje datoteke"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Premakni"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zamen."

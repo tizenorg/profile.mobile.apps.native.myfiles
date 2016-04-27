@@ -10,6 +10,9 @@ msgstr "Del via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobile data er slået fra. Opret forbindelse til et Wi-Fi-netværk i stedet, eller slå Mobile data til, og prøv igen."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Slet"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d elementer bliver slettet."
 
@@ -293,7 +296,7 @@ msgid "IDS_MF_BUTTON_ADD_TO_HOME"
 msgstr "Føj til start"
 
 msgid "IDS_MF_BUTTON_EXPORT_HERE"
-msgstr "Eksportér her"
+msgstr "Eksporter her"
 
 msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
 msgstr "Gå til Mine filer"
@@ -341,7 +344,7 @@ msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
 msgstr "Fjern fil"
 
 msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
-msgstr "Del Lyd & billede-fotos"
+msgstr "Del Lyd og foto-billeder"
 
 msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
 msgstr "Lagring"
@@ -392,7 +395,7 @@ msgid "IDS_MF_OPT_DETAIL_VIEW"
 msgstr "Detaljeret visning"
 
 msgid "IDS_MF_OPT_EDIT"
-msgstr "Redigér"
+msgstr "Rediger"
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Udtræk"
@@ -413,7 +416,7 @@ msgid "IDS_MF_OPT_LISTBY_NAME"
 msgstr "Navn"
 
 msgid "IDS_MF_OPT_LIST_BY"
-msgstr "Sortér efter"
+msgstr "Sorter efter"
 
 msgid "IDS_MF_OPT_MOVE_HERE"
 msgstr "Flyt hertil"
@@ -431,7 +434,7 @@ msgid "IDS_MF_OPT_RECORD_SOUND"
 msgstr "Optag lyd"
 
 msgid "IDS_MF_OPT_REGISTER_TO_CONTACTS"
-msgstr "Registrér i Kontakter"
+msgstr "Registrer i Kontakter"
 
 msgid "IDS_MF_OPT_RENAME"
 msgstr "Omdøb"
@@ -461,7 +464,7 @@ msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
 msgstr "Opdel"
 
 msgid "IDS_MF_OPT_SORT_BY"
-msgstr "Sortér efter"
+msgstr "Sorter efter"
 
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "Miniaturevisning"
@@ -620,7 +623,7 @@ msgid "IDS_MF_SK3_DELETE"
 msgstr "Slet"
 
 msgid "IDS_MF_SK3_EDIT"
-msgstr "Redigér"
+msgstr "Rediger"
 
 msgid "IDS_MF_SK3_MOVE"
 msgstr "Flyt"
@@ -629,16 +632,16 @@ msgid "IDS_MF_SK3_SEARCH"
 msgstr "Søg"
 
 msgid "IDS_MF_SK3_SORT_BY"
-msgstr "Sortér efter"
+msgstr "Sorter efter"
 
 msgid "IDS_MF_SK4_VIEW_AS"
 msgstr "Vis som"
 
 msgid "IDS_MF_SK_CANCEL"
-msgstr "Annullér"
+msgstr "Annuller"
 
 msgid "IDS_MF_SK_CANCEL_LITE"
-msgstr "Annullér"
+msgstr "Annuller"
 
 msgid "IDS_MF_SK_DETAILS"
 msgstr "Detaljer"
@@ -730,8 +733,26 @@ msgstr "Ugyldigt tegn indtastet. Prøv igen."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementer valgt."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Billeder"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Annuller"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Lydløs"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Vælg alle"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiér"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valgt"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vælg element"
@@ -773,7 +794,7 @@ msgid "IDS_MF_POP_COPIED"
 msgstr "Kopieret."
 
 msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "Sortér efter"
+msgstr "Sorter efter"
 
 msgid "IDS_MUSIC_POP_FAILED"
 msgstr "Mislykkedes."
@@ -818,7 +839,7 @@ msgid "IDS_MF_OPT_NAME_HZ_TO_A"
 msgstr "Navn (Z til A)"
 
 msgid "IDS_MF_OPT_NAME_HA_TO_Z"
-msgstr "Navn (A til Z)"
+msgstr "Navn (A til Å)"
 
 msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
 msgstr "Skærmbillede"
@@ -901,6 +922,9 @@ msgstr "Forældrebedømmelse"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavnet findes allerede."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detaljer"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Stemme"
 
@@ -916,6 +940,9 @@ msgstr "Klargør ..."
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valgt"
 
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Søg"
+
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Slet elementer"
 
@@ -926,7 +953,7 @@ msgid "IDS_DM_HEADER_DOWNLOAD_COMPLETE"
 msgstr "Overførsel fuldført"
 
 msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
-msgstr "Downloadstyring"
+msgstr "Downloadmanager"
 
 msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
 msgstr "Når du har hentet elementer, vises de her."
@@ -1001,13 +1028,13 @@ msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
 msgstr "Lagerplacering"
 
 msgid "IDS_PB_HEADER_IMPORT"
-msgstr "Importér"
+msgstr "Importer"
 
 msgid "IDS_MF_BODY_M_DEGREE"
 msgstr "°"
 
 msgid "IDS_DM_BUTTON_CANCEL_ABB2"
-msgstr "Annullér"
+msgstr "Annuller"
 
 msgid "IDS_DM_BUTTON_OK_ABB"
 msgstr "OK"
@@ -1029,6 +1056,12 @@ msgstr "I går"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Slet"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mine filer"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Flyt"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Erstat"
@@ -1193,7 +1226,7 @@ msgid "IDS_MF_BUTTON2_VIDEOS"
 msgstr "Videoer"
 
 msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "Annullér"
+msgstr "Annuller"
 
 msgid "IDS_MF_BUTTON_CANCEL_ABB3"
 msgstr "Annuller"
@@ -1214,7 +1247,7 @@ msgid "IDS_MF_BUTTON_RENAME_ABB"
 msgstr "Omdøb"
 
 msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "Afinstallér"
+msgstr "Afinstaller"
 
 msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
 msgstr "Tilføj genvej"
@@ -1271,7 +1304,7 @@ msgid "IDS_MF_HEADER_SHORTCUTS"
 msgstr "Genveje"
 
 msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "Sortér efter"
+msgstr "Sorter efter"
 
 msgid "IDS_MF_HEADER_UNINSTALL"
 msgstr "Afinstaller"
@@ -1460,7 +1493,7 @@ msgid "IDS_MF_TPOP_SHORTCUT_ALREADY_EXISTS"
 msgstr "Genvej findes allerede."
 
 msgid "IDS_ST_OPT_REFRESH"
-msgstr "Opdatér"
+msgstr "Opdater"
 
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
 msgstr "%d elementer vil blive slettet."
@@ -1505,7 +1538,7 @@ msgid "IDS_MF_OPT_TIME_M_SORT"
 msgstr "Tid"
 
 msgid "IDS_ST_BODY_UNINSTALL"
-msgstr "Afinstallér"
+msgstr "Afinstaller"
 
 msgid "IDS_MF_BODY_CONTAINS"
 msgstr "Indeholder"

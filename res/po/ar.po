@@ -10,6 +10,9 @@ msgstr "مشاركة عبر"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "تم إيقاف تشغيل بيانات الهاتف المحمول. بدلاً من ذلك، اتصل بشبكة Wi-Fi، أو شغّل بيانات الهاتف المحمول وحاول مرة أخرى."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "حذف"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "سيتم حذف %d من العناصر."
 
@@ -26,7 +29,7 @@ msgid "IDS_EMAIL_POP_CANCELLED"
 msgstr "تم الإلغاء."
 
 msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "التنزيل غير متوفر."
+msgstr "فشل في التنزيل."
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "تم النجاح."
@@ -35,7 +38,7 @@ msgid "IDS_MF_HEADER_CREATE"
 msgstr "إنشاء"
 
 msgid "IDS_MF_POP_DELETED"
-msgstr "تم المسح."
+msgstr "تم الحذف."
 
 msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
 msgstr "تم إخراج بطاقة الذاكرة."
@@ -233,7 +236,7 @@ msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d عنصر"
 
 msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d عناصر"
+msgstr "%d من العناصر"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "ممكن"
@@ -551,7 +554,7 @@ msgid "IDS_MF_POP_PASTE_HERE"
 msgstr "لصق هنا"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "سيتم حذف %d عناصر."
+msgstr "سيتم حذف %d من العناصر."
 
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "تم رفض الإذن."
@@ -674,7 +677,7 @@ msgid "IDS_MF_TPOP_FILES_EXTRACTED"
 msgstr "تم استخراج الملفات"
 
 msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "تم استيراد الملف"
+msgstr "تم استيراد الملف."
 
 msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
 msgstr "لم يتم العثور على أي أجهزة. سيستمر البحث في الخلفية."
@@ -728,10 +731,28 @@ msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "تم إدخال حرف غير صالح. حاول مرة أخرى."
 
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "تم تحديد %d عناصر."
+msgstr "تم تحديد %d من العناصر."
+
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "الصور"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "الفيديو"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "إلغاء"
 
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "صامت"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "اختيار الكل"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "نسخ"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "تم تحديد %d"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "اختيار عنصر"
@@ -901,6 +922,9 @@ msgstr "التصنيف الأصلي"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "تم استخدام اسم الملف مسبقا."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "التفاصيل"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "صوت"
 
@@ -915,6 +939,9 @@ msgstr "جارٍ التحضير..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "تم تحديد %d"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "بحث"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "حذف عناصر"
@@ -974,10 +1001,10 @@ msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "جارٍ إشعار الخادم..."
 
 msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "سيتم حذف %d عناصر."
+msgstr "سيتم حذف %d من العناصر."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "لا يمكن العثور على هذا الملف. انقر فوق تنزيل لمحاولة تنزيله مرة أخرى."
+msgstr "لا يمكن العثور على هذا الملف. انقر فوق ”تنزيل“ لمحاولة تنزيله مرة أخرى."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "يتعذّر فتح الملف"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "يتعذّر العثور على تطبيق لفتح هذا الملف."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "انقر فوق تنزيل للمحاولة مرة أخرى."
+msgstr "انقر فوق ”تنزيل“ للمحاولة مرة أخرى."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "سيتم حذف عنصر واحد."
@@ -1029,6 +1056,12 @@ msgstr "أمس"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "حذف"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "ملفاتي"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "نقل"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "استبدال"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "إيقاف التحميلات"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "انقر فوق تحميل للمحاولة مرة أخرى."
+msgstr "انقر فوق ”تحميل“ للمحاولة مرة أخرى."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "سيتوقف التحميل، لكن لن يتم حذف الملف."
@@ -1394,7 +1427,7 @@ msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
 msgstr "ستتم إزالة %d عناصر."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
-msgstr "سيتم حذف %d من الاختصارات"
+msgstr "سيتم حذف %d من الاختصارات."
 
 msgid "IDS_MF_POP_REMOVING_ING"
 msgstr "جاري الحذف..."
@@ -1586,7 +1619,7 @@ msgid "IDS_MF_OPT_ALLSHARE"
 msgstr "AllShare"
 
 msgid "IDS_MF_POP_MEMORY_FULL"
-msgstr "امتلأت الذاكرة."
+msgstr "الذاكرة ممتلئة."
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
 msgstr "سيتم حذف عنصر واحد من Dropbox."

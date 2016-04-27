@@ -10,6 +10,9 @@ msgstr "Κοινή χρήση μέσω"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Τα δεδομένα κινητής τηλεφωνίας απενεργοποιήθηκαν. Συνδεθείτε σε ένα δίκτυο Wi-Fi ή ενεργοποιήστε τα δεδομένα κινητής τηλεφωνίας και δοκιμάστε ξανά."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Διαγραφή"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Θα διαγραφούν %d στοιχεία."
 
@@ -730,8 +733,26 @@ msgstr "Καταχωρίστηκε μη έγκυρος χαρακτήρας. Δ�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Επιλέχθηκαν %d στοιχεία."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Εικόνες"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Βίντεο"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Άκυρο"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Αθόρυβο"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Επιλογή όλων"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Αντιγραφή"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d επιλέχθηκαν"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Επιλογή στοιχείου"
@@ -901,6 +922,9 @@ msgstr "Γονική αξιολόγηση"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα αρχείου υπάρχει ήδη."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Λεπτομέρειες"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Φωνή"
 
@@ -915,6 +939,9 @@ msgstr "Προετοιμ..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d επιλέχθηκαν"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Αναζήτηση"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Διαγραφή στοιχείων"
@@ -1029,6 +1056,12 @@ msgstr "Xθές"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Διαγραφή"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Τα Αρχεία Μου"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Μετακίνηση"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Αντικ."

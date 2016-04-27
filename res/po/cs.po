@@ -10,6 +10,9 @@ msgstr "Sdílet přes"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobilní data jsou vypnutá. Připojte se k síti Wi-Fi nebo zapněte Mobilní data a opakujte akci."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Odstranit"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Bude odstraněno %d položek."
 
@@ -50,7 +53,7 @@ msgid "IDS_MF_OPT_DELETEFOLDER"
 msgstr "Odstranit složku"
 
 msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Zadejte název složky."
+msgstr "Zadejte název složky"
 
 msgid "IDS_HS_OPT_DOWNLOADED_APPS"
 msgstr "Stažené aplikace"
@@ -326,7 +329,7 @@ msgid "IDS_MF_HEADER_COUNT"
 msgstr "Počet"
 
 msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Zadejte název složky."
+msgstr "Zadejte název složky"
 
 msgid "IDS_MF_HEADER_LOCAL"
 msgstr "Místní"
@@ -730,8 +733,26 @@ msgstr "Byl zadán neplatný znak. Opakujte akci"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Vybrané položky: %d."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Obrázky"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videa"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Zrušit"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Tichý"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Vybrat vše"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopírovat"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Vybráno: %d"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vybrat položku"
@@ -901,6 +922,9 @@ msgstr "Obecné hodnocení"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Název souboru již existuje."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Podrobnosti"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Hlas"
 
@@ -915,6 +939,9 @@ msgstr "Příprava..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Vybráno: %d"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Hledat"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Odstranit položky"
@@ -1029,6 +1056,12 @@ msgstr "Včera"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Odstranit"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Moje soubory"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Přesunout"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Nahr."

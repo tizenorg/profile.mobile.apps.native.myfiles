@@ -10,6 +10,9 @@ msgstr "Compartir mitjançant"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Dades mòbils desactivades. Connecti's a una xarxa Wi-Fi o activi les dades mòbils i torni-ho a intentar."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Esborrar"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "S'esborraran %d elements."
 
@@ -32,7 +35,7 @@ msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "Correcte"
 
 msgid "IDS_MF_HEADER_CREATE"
-msgstr "Crea"
+msgstr "Crear"
 
 msgid "IDS_MF_POP_DELETED"
 msgstr "Esborrat"
@@ -617,7 +620,7 @@ msgid "IDS_MF_SK3_COPY"
 msgstr "Copiar"
 
 msgid "IDS_MF_SK3_DELETE"
-msgstr "Esborra"
+msgstr "Esborrar"
 
 msgid "IDS_MF_SK3_EDIT"
 msgstr "Editar"
@@ -635,7 +638,7 @@ msgid "IDS_MF_SK4_VIEW_AS"
 msgstr "Veure com"
 
 msgid "IDS_MF_SK_CANCEL"
-msgstr "Cancel"
+msgstr "Cancel·lar"
 
 msgid "IDS_MF_SK_CANCEL_LITE"
 msgstr "Canc"
@@ -730,8 +733,26 @@ msgstr "Caràcter introduït no vàlid. Torni-ho a intentar."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elements seleccionats"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imatges"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vídeos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancel·lar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silenci"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Seleccioni-ho tot"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copia"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seleccionat"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar element"
@@ -901,6 +922,9 @@ msgstr "Classificació dels pares"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ja s'està utilitzant aquest nom de fitxer"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalls"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Veu/Fax"
 
@@ -915,6 +939,9 @@ msgstr "Preparant..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionat"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Cercar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Esborrar elements"
@@ -1030,6 +1057,12 @@ msgstr "Ahir"
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Esborrar"
 
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Els meus fitxers"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Moure"
+
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Substit"
 
@@ -1055,7 +1088,7 @@ msgid "IDS_SSEARCH_BODY_NO_HISTORY"
 msgstr "No hi ha historial"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
-msgstr "Compartició simple"
+msgstr "Compartir fàcil"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
 msgstr "No es pot instal·lar l'aplic"

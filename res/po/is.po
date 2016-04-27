@@ -10,6 +10,9 @@ msgstr "Deila um"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Slökkt er á farsímagögnum. Tengstu Wi-Fi neti í staðinn eða kveiktu á farsímagögnum og reyndu aftur."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Eyða"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d atriðum verður eytt."
 
@@ -730,8 +733,26 @@ msgstr "Ógildur stafur sleginn inn. Reyndu aftur."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d atriði valin."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Myndir"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Myndskeið"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Hætta við"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Án hljóðs"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Velja allt"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Afrita"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valið"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Velja hlut"
@@ -901,6 +922,9 @@ msgstr "Einkunn foreldra"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Skráarheitið er þegar í notkun."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Upplýsingar"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Tal"
 
@@ -915,6 +939,9 @@ msgstr "Undirbý..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valið"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Leit"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Eyða atriðum"
@@ -1029,6 +1056,12 @@ msgstr "Í gær"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Eyða"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Skrárnar mínar"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Færa"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Skipta"

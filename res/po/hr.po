@@ -10,6 +10,9 @@ msgstr "Dijeli preko"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobilni su podaci isključeni. Spojite se na Wi-Fi mrežu ili uključite Mobilne podatke i pokušajte ponovno."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Obriši"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Izbr. će se više stavki (%d)."
 
@@ -730,8 +733,26 @@ msgstr "Unesen neispravan znak. Pokušajte ponovno"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d odabranih stavki."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Slike"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Prekid"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Bešumno"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Odaberi sve"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiraj"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d odabrano"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Odaberite stavku"
@@ -901,6 +922,9 @@ msgstr "Roditeljska zaštita"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke već postoji."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalji"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Glas"
 
@@ -915,6 +939,9 @@ msgstr "Priprema..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d odabrano"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Traži"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Izbriši stavke"
@@ -1029,6 +1056,12 @@ msgstr "Jučer"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Obriši"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Moje Datoteke"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Premjesti"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zamij."

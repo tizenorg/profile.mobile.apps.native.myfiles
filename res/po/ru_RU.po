@@ -10,6 +10,9 @@ msgstr "Отправить через"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Мобильные данные включены. Подключитесь к сети Wi-Fi или включите мобильные данные и повторите попытку."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Удалить"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Элементы (%d) будут удалены."
 
@@ -730,8 +733,26 @@ msgstr "Введен недопустимый символ. Повторите �
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Выбрано элементов: %d."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Картинки"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Видео"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Отмена"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Без звука"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Выделить все"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Копировать"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Выбрано: %d"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Выберите элемент"
@@ -800,7 +821,7 @@ msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Удалить из приватного режима"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
-msgstr "Добавить в приватный режим"
+msgstr "Переместить в приватный режим"
 
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Достигнуто максимальное число символов."
@@ -901,6 +922,9 @@ msgstr "Родительский контроль"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Имя файла уже используется."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Свойства"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Голос"
 
@@ -915,6 +939,9 @@ msgstr "Подготовка..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Выбрано: %d"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Поиск"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Удалить элементы"
@@ -1029,6 +1056,12 @@ msgstr "Вчера"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Удалить"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Мои файлы"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Переместить"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замен."
@@ -1553,7 +1586,7 @@ msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
 msgstr "ОТМЕНА"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
-msgstr "УДАЛИТЬ"
+msgstr "УДАЛ."
 
 msgid "IDS_MUSIC_POP_RENAME"
 msgstr "Переименовать"

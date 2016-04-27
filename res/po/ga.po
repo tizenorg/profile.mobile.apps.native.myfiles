@@ -10,6 +10,9 @@ msgstr "Comhroinn le"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Sonraí móibíleacha casta as. Nasc le líonra Wi-Fi ina ionad, nó cas Sonraí móibíleacha air agus triail arís."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Scrios"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Scriosfar %d mír."
 
@@ -730,8 +733,26 @@ msgstr "Carachtar neamhbhailí iontráilte. Triail arís."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d mír roghnaithe."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Íomhánna"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Físeáin"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Tostach"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Roghnaigh gach"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Cóipeáil"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d roghnaithe"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Roghnaigh mír"
@@ -901,6 +922,9 @@ msgstr "Rátáil tuismitheoirí"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Comhadainm in úsáid cheana."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Sonraí"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Guth"
 
@@ -915,6 +939,9 @@ msgstr "Á ullmhú..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d roghnaithe"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Cuardaigh"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Scrios míreanna"
@@ -1029,6 +1056,12 @@ msgstr "Inné"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Scrios"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mo Chomhaid"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Bog"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ionadaigh"

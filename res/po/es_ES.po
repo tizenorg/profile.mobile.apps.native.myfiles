@@ -10,6 +10,9 @@ msgstr "Compartir"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Los datos móviles están desactivados. En su lugar, conéctese a una red Wi-Fi o active los datos móviles y vuelva a intentarlo."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Eliminar"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Se eliminarán %d elementos."
 
@@ -730,8 +733,26 @@ msgstr "Carácter introducido no válido. Vuelva a intentarlo."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementos seleccionados"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imágenes"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vídeos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencio"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Seleccionar todo"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiar"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seleccionado(s)"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar elemento"
@@ -836,7 +857,7 @@ msgid "IDS_MF_HEADER_ENTER_NAME"
 msgstr "Introducir nombre"
 
 msgid "IDS_MF_HEADER_MYFILES"
-msgstr "Mis Archivos"
+msgstr "Mis archivos"
 
 msgid "IDS_MF_POP_ADDED"
 msgstr "Añadido"
@@ -901,6 +922,9 @@ msgstr "Clasificación parental"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "El nombre del archivo ya existe"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalles"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz"
 
@@ -915,6 +939,9 @@ msgstr "Preparand..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionado(s)"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Buscar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Eliminar artículos"
@@ -938,10 +965,10 @@ msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
 msgstr "Error de descarga"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
-msgstr "No hay espacio suficiente en el almacenamiento del dispositivo. Vaya a Ajustes de %s para eliminar algunos datos o inserte una tarjeta SD."
+msgstr "No hay espacio suficiente en la memoria del dispositivo. Vaya a Ajustes de %s para eliminar algunos datos o inserte una tarjeta SD."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
-msgstr "No hay espacio suficiente en el almacenamiento del dispositivo. Vaya a Ajustes de %s para liberar espacio y, a continuación, inténtelo de nuevo."
+msgstr "No hay espacio suficiente en la memoria del dispositivo. Vaya a Ajustes de %s para liberar espacio y, a continuación, inténtelo de nuevo."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
 msgstr "No hay espacio suficiente en la tarjeta SD. Vaya a Ajustes de %s para eliminar algunos datos o cambie la ubicación de almacenamiento predeterminada al dispositivo."
@@ -968,7 +995,7 @@ msgid "IDS_MF_BODY_SD_CARD"
 msgstr "Tarjeta SD"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
-msgstr "Almacenamiento del dispositivo"
+msgstr "Memoria del dispositivo"
 
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Notificando servidor..."
@@ -1022,13 +1049,19 @@ msgid "IDS_DM_BUTTON_DOWNLOAD_ABB2"
 msgstr "Descargar"
 
 msgid "IDS_DM_HEADER_TODAY"
-msgstr "Hoy"
+msgstr "Para hoy"
 
 msgid "IDS_DM_HEADER_YESTERDAY"
 msgstr "Ayer"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Eliminar"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mis archivos"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mover"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Sustituir"
@@ -1103,10 +1136,10 @@ msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Imposible guardar datos"
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No queda espacio suficiente en el almacenamiento del dispositivo. Vaya a Ajustes > Alimentación y almacenamiento > Almacenamiento y, a continuación, elimine algunos archivos e inténtelo de nuevo."
+msgstr "No hay espacio suficiente en la memoria del dispositivo. Vaya a Ajustes > Almacenamiento > Memoria de dispositivo y, a continuación, elimine algunos archivos e inténtelo de nuevo."
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No queda espacio suficiente en la tarjeta SD. Vaya a Ajustes > Alimentación y almacenamiento > Almacenamiento y, a continuación, elimine algunos archivos e inténtelo de nuevo."
+msgstr "No queda espacio suficiente en la tarjeta SD. Vaya a Ajustes > Almacenamiento > Memoria y, a continuación, elimine algunos archivos e inténtelo de nuevo."
 
 msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
 msgstr "Cargar en"
@@ -1574,10 +1607,10 @@ msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Imposible guardar datos"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No queda espacio suficiente en la tarjeta SD. Vaya a Ajustes > Alimentación y almacenamiento > Almacenamiento y, a continuación, elimine algunos archivos e inténtelo de nuevo."
+msgstr "No queda espacio suficiente en la tarjeta SD. Vaya a Ajustes > Almacenamiento > Memoria y, a continuación, elimine algunos archivos e inténtelo de nuevo."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "No queda espacio suficiente en el almacenamiento del dispositivo. Vaya a Ajustes > Alimentación y almacenamiento > Almacenamiento y, a continuación, elimine algunos archivos e inténtelo de nuevo."
+msgstr "No hay espacio suficiente en la memoria del dispositivo. Vaya a Ajustes > Almacenamiento > Memoria de dispositivo y, a continuación, elimine algunos archivos e inténtelo de nuevo."
 
 msgid "IDS_MF_POP_ERROR"
 msgstr "Error"

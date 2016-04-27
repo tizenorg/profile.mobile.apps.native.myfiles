@@ -10,6 +10,9 @@ msgstr "ਇਸਦੇ ਰਾਹੀਂ ਸਾਂਝਾ ਕਰੋ"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "ਮੋਬਾਈਲ ਡੈਟਾ ਬੰਦ ਹੈ। ਇਸਦੇ ਬਜਾਏ Wi-Fi ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ, ਜਾਂ ਮੋਬਾਈਲ ਡੈਟਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "ਮਿਟਾਓ"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d ਆਈਟਮਸ ਨੂੰ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।"
 
@@ -119,7 +122,7 @@ msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "ਸ਼ੌਰਟਕੱਟ ਹਟਾਉ"
 
 msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "ਬੈਟਰੀ ਲੋ"
+msgstr "ਬੈਟਰੀ ਘੱਟ ਹੈ"
 
 msgid "IDS_MF_BODY_1_FILE"
 msgstr "1 ਫਾਈਲ"
@@ -730,8 +733,26 @@ msgstr "ਅਵੈਧ ਵਰਣ ਦਾਖ਼ਲ ਹੋਇਆ। ਫਿਰ ਕੋਸ਼�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d ਆਈਟਮਸ ਚੁਣੀਆਂ।"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "ਚਿੱਤਰ"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "ਵੀਡਿਓਜ਼"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "ਰੱਦ ਕਰੋ"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "ਸ਼ਾਂਤ"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "ਸਭ ਚੁਣੋ"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "ਕਾਪੀ ਕਰੋ"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d ਚੁਣੇ।"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "ਆਈਟਮ ਚੁਣੋ"
@@ -901,6 +922,9 @@ msgstr "ਪੇਰੇਂਟ ਰੇਟਿੰਗ"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ਫਾਈਲ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "ਵੇਰਵੇ"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ਵਾੱਇਸ"
 
@@ -915,6 +939,9 @@ msgstr "ਤਿਆਰ ਹੋ ਰਿਹਾ ਹੈ..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ਚੁਣੇ"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "ਖੋਜੋ"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "ਆਈਟਮਸ ਮਿਟਾਓ"
@@ -977,7 +1004,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d ਆਈਟਮਸ ਮਿਟ ਜਾਣਗੀਆਂ।"
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "ਇਹ ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ। ਇਸਨੂੰ ਦੁਬਾਰਾ ਡਾਉਨਲੋਡ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਡਾਉਨਲੋਡ ਕਰੋ ਟੈਪ ਕਰੋ।"
+msgstr "ਇਹ ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ। ਇਸਨੂੰ ਦੁਬਾਰਾ ਡਾਉਨਲੋਡ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ “ਡਾਉਨਲੋਡ ਕਰੋ” ਟੈਪ ਕਰੋ।"
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ਫਾਈਲ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਮਰੱਥ"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "ਇਸ ਫਾਈਲ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਅਨੁਪ੍ਰਯੋਗ ਲੱਭਣ ਵਿੱਚ ਅਸਮਰੱਥ।"
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਡਾਉਨਲੋਡ ਕਰੋ ਟੈਪ ਕਰੋ।"
+msgstr "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ “ਡਾਉਨਲੋਡ ਕਰੋ” ਟੈਪ ਕਰੋ।"
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "1 ਆਈਟਮ ਮਿਟ ਜਾਵੇਗੀ।"
@@ -1029,6 +1056,12 @@ msgstr "ਬੀਤਿਆ ਕੱਲ੍ਹ"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "ਮਿਟਾਓ"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "ਮੇਰੀਆਂ ਫਾਈਲਾਂ"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "ਮੂਵ ਕਰੋ"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ਬਦਲੋ"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "ਅਪਲੋਡਸ ਰੋਕੋ"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਅਪਲੋਡ ਕਰੋ ਤੇ ਟੈਪ ਕਰੋ।"
+msgstr "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ “ਅਪਲੋਡ ਕਰੋ” ਤੇ ਟੈਪ ਕਰੋ।"
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "ਅਪਲੋਡ ਰੁਕ ਜਾਵੇਗਾ, ਪਰ ਫਾਈਲ ਮਿਟਾਈ ਨਹੀਂ ਜਾਵੇਗੀ।"
@@ -1157,7 +1190,7 @@ msgid "IDS_MF_TPOP_SHORTCUT_NAME_ALREADY_IN_USE"
 msgstr "ਸ਼ੌਰਟਕੱਟ ਨਾਂ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਉਪਯੋਗ ਵਿੱਚ ਹੈ।"
 
 msgid "IDS_MF_BODY_BASIC"
-msgstr "ਮੂੱਲ"
+msgstr "ਮੂਲ"
 
 msgid "IDS_MF_BODY_FILE"
 msgstr "ਫਾਈਲ"

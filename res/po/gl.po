@@ -10,6 +10,9 @@ msgstr "Compartir mediante"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Os datos móbiles están desactivados. Conéctate a unha rede Wi-Fi no seu lugar ou activa os datos móbiles e téntao de novo."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Eliminar"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Eliminaranse %d elementos."
 
@@ -730,8 +733,26 @@ msgstr "Inseriuse un carácter non válido. Téntao de novo."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementos seleccionados"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imaxes"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vídeos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencioso"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Seleccionar todo"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiar"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seleccionadas"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar elemento"
@@ -901,6 +922,9 @@ msgstr "Preferidos polos pais"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome do arquivo xa en uso"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalles"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz/Fax"
 
@@ -915,6 +939,9 @@ msgstr "Prepara. ..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionados"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Buscar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Eliminar elementos"
@@ -1030,6 +1057,12 @@ msgstr "Onte"
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Eliminar"
 
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Os Meus Arquivos"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mover"
+
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Substi."
 
@@ -1055,7 +1088,7 @@ msgid "IDS_SSEARCH_BODY_NO_HISTORY"
 msgstr "Sen historial"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
-msgstr "Compartir sinxelo"
+msgstr "Compartir fácil"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
 msgstr "Imposible instalar aplicación"
@@ -1352,7 +1385,7 @@ msgid "IDS_MF_OPT_DETAILS"
 msgstr "Detalles"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Non amosar outra vez"
+msgstr "Non volver amosar"
 
 msgid "IDS_MF_OPT_FILE_TYPE"
 msgstr "Tipo de arquivo"

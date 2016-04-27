@@ -1567,11 +1567,7 @@ char *mf_util_get_text(const char *ID)
 	MF_CHECK_NULL(ID);
 	char *str;
 
-	if (strstr(ID, "IDS_COM")) {
-		str = dgettext("sys_string", ID);
-	} else {
-		str = gettext(ID);
-	}
+	str = gettext(ID);
 
 	return str;
 }

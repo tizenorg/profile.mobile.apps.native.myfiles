@@ -10,6 +10,9 @@ msgstr "Jaga:"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobiilne andmeside on välja lülitatud. Looge selle asemel ühendus Wi-Fi võrguga või lülitage mobiilne andmeside sisse ja proovige uuesti."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Kustuta"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d üksust kustutatakse."
 
@@ -730,8 +733,26 @@ msgstr "Sisestati vale tähemärk. Proovige uuesti"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d üksust on valitud."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Pildid"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videod"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Tühista"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Vaikne"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Vali kõik"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopeeri"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valitud"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Vali üksus"
@@ -901,6 +922,9 @@ msgstr "Vanemate hinnang"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failinimi on juba kasutusel."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Üksikasjad"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Hääl"
 
@@ -915,6 +939,9 @@ msgstr "Valmistum..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valitud"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Otsi"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Kustuta üksused"
@@ -1029,6 +1056,12 @@ msgstr "Eile"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Kustuta"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Minu Failid"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Teisalda"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Asenda"

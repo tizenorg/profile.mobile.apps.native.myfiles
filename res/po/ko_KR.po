@@ -10,6 +10,9 @@ msgstr "공유"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "[모바일 데이터]가 해제된 상태입니다. Wi-Fi 네트워크에 연결하거나, [모바일 데이터]를 실행한 후 다시 시도하세요."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "삭제"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "항목 %d개를 삭제합니다."
 
@@ -26,7 +29,7 @@ msgid "IDS_EMAIL_POP_CANCELLED"
 msgstr "취소하였습니다."
 
 msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "다운로드하지 못하였습니다."
+msgstr "다운로드할 수 없습니다."
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "완료하였습니다."
@@ -116,7 +119,7 @@ msgid "IDS_GALLERY_OPT_PRIVATE_M_CONTENT"
 msgstr "프라이빗"
 
 msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
-msgstr "바로가기 제거"
+msgstr "바로가기 삭제"
 
 msgid "IDS_MEMO_POP_BATTERY_LOW"
 msgstr "배터리가 부족합니다."
@@ -275,7 +278,7 @@ msgid "IDS_MF_BODY_UNLIMITED"
 msgstr "제한 없음"
 
 msgid "IDS_MF_BODY_UP"
-msgstr "위쪽"
+msgstr "상위"
 
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "유효 횟수"
@@ -338,7 +341,7 @@ msgid "IDS_MF_HEADER_RECENT_FILES"
 msgstr "최근 파일"
 
 msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "파일 제거"
+msgstr "파일 삭제"
 
 msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
 msgstr "사운드&샷 사진 공유"
@@ -461,7 +464,7 @@ msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
 msgstr "분할"
 
 msgid "IDS_MF_OPT_SORT_BY"
-msgstr "정렬 방식"
+msgstr "정렬"
 
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "썸네일 보기"
@@ -527,7 +530,7 @@ msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "파일 이름이 바르지 않습니다."
 
 msgid "IDS_MF_POP_LOADING_ING"
-msgstr "불러오는 중..."
+msgstr "로딩 중..."
 
 msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
 msgstr "최대 폴더 수에 도달하였습니다."
@@ -557,13 +560,13 @@ msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "승인되지 않았습니다."
 
 msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "최근 파일 목록에서 제거할까요?"
+msgstr "최근 파일 목록에서 삭제할까요?"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "바로가기에서 제거할까요?"
+msgstr "바로가기에서 삭제할까요?"
 
 msgid "IDS_MF_POP_REMOVE_Q"
-msgstr "제거할까요?"
+msgstr "삭제할까요?"
 
 msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
 msgstr "같은 파일 이름이 있습니다."
@@ -686,7 +689,7 @@ msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
 msgstr "연결"
 
 msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
-msgstr "기본 알림음"
+msgstr "기본 알림 소리"
 
 msgid "IDS_ST_BODY_TO_JPN_SBM"
 msgstr "수신"
@@ -704,7 +707,7 @@ msgid "IDS_ST_BODY_SETTINGS"
 msgstr "설정"
 
 msgid "IDS_ST_SK_REMOVE"
-msgstr "제거"
+msgstr "삭제"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
 msgstr "항목 삭제"
@@ -730,8 +733,26 @@ msgstr "입력한 문자가 바르지 않습니다. 다시 시도하세요."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "항목 %d개를 선택하였습니다."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "이미지"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "동영상"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "취소"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "무음"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "모두 선택"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "복사"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d개 선택"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "항목 선택"
@@ -785,19 +806,19 @@ msgid "IDS_MF_BODY_SD_CARD_ABB"
 msgstr "SD 카드"
 
 msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "디바이스 저장공간"
+msgstr "디바이스 메모리"
 
 msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
 msgstr "퍼스널 저장공간에 추가"
 
 msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "퍼스널 저장공간에서 제거"
+msgstr "퍼스널 저장공간에서 삭제"
 
 msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
 msgstr "이 항목을 삭제할까요?"
 
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
-msgstr "프라이빗에서 제거"
+msgstr "프라이빗에서 삭제"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "프라이빗으로 이동"
@@ -806,7 +827,7 @@ msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "최대 글자 수에 도달하였습니다."
 
 msgid "IDS_MUSIC_POP_REMOVING"
-msgstr "제거 중..."
+msgstr "삭제 중..."
 
 msgid "IDS_MF_BODY_PERSONAL_STORAGE"
 msgstr "퍼스널 저장공간"
@@ -830,7 +851,7 @@ msgid "IDS_ST_BODY_MESSAGE_ALERT"
 msgstr "메시지 알림"
 
 msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "상세정보"
+msgstr "상세 정보"
 
 msgid "IDS_MF_HEADER_ENTER_NAME"
 msgstr "이름을 입력하세요."
@@ -848,7 +869,7 @@ msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
 msgstr "지원되지 않는 파일 형식입니다."
 
 msgid "IDS_MUSIC_POP_REMOVE_Q"
-msgstr "제거할까요?"
+msgstr "삭제할까요?"
 
 msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
 msgstr "프라이빗 컨텐츠"
@@ -866,7 +887,7 @@ msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
 msgstr "저장공간이 부족합니다. 일부 항목을 삭제하세요."
 
 msgid "IDS_MF_POP_REMOVED"
-msgstr "제거하였습니다."
+msgstr "삭제하였습니다."
 
 msgid "IDS_ST_BODY_PRIVATE_STORAGE"
 msgstr "개인 저장공간"
@@ -890,7 +911,7 @@ msgid "IDS_MUSIC_SK_SAVE_AS"
 msgstr "저장 옵션"
 
 msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "제거하지 못하였습니다."
+msgstr "삭제하지 못하였습니다."
 
 msgid "IDS_MF_BODY_DROPBOX_ABB"
 msgstr "Dropbox"
@@ -900,6 +921,9 @@ msgstr "부모의 시청 지도가 필요한 등급"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "사용 중인 파일 이름입니다."
+
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "상세 정보"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "음성"
@@ -915,6 +939,9 @@ msgstr "준비 중..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d개 선택"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "검색"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "항목 삭제"
@@ -959,10 +986,10 @@ msgid "IDS_DM_HEADER_OLDER"
 msgstr "오래된 항목"
 
 msgid "IDS_DM_BODY_STORAGE"
-msgstr "저장공간"
+msgstr "저장소"
 
 msgid "IDS_VIDEO_POP_REMOVING"
-msgstr "제거 중..."
+msgstr "삭제 중..."
 
 msgid "IDS_MF_BODY_SD_CARD"
 msgstr "SD 카드"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "이 파일을 열 수 있는 앱을 찾을 수 없습니다."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "다시 시도하려면 [다운로드]를 누르세요."
+msgstr "다시 시도하려면 다운로드 버튼을 누르세요."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "항목 1개를 삭제합니다."
@@ -1030,6 +1057,12 @@ msgstr "어제"
 msgid "IDS_DM_OPT_DELETE"
 msgstr "삭제"
 
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "내 파일"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "이동"
+
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "대체"
 
@@ -1037,7 +1070,7 @@ msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
 msgstr "모든 항목에 적용"
 
 msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "새 압축파일 추가"
+msgstr "압축 파일 만들기"
 
 msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
 msgstr "파일 압축 풀기"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "업로드 중지"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "다시 시도하려면 [업로드]를 누르세요."
+msgstr "다시 시도하려면 업로드 버튼을 누르세요."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "업로드를 중지하지만 파일은 삭제되지 않습니다."
@@ -1103,10 +1136,10 @@ msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "데이터를 저장할 수 없음"
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "디바이스에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+msgstr "디바이스에 저장공간이 부족합니다. [설정 > 전원 및 저장공간 > 저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD 카드에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+msgstr "SD 카드에 저장공간이 부족합니다. [설정 > 전원 및 저장공간 > 저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
 
 msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
 msgstr "업로드"
@@ -1208,13 +1241,13 @@ msgid "IDS_MF_BUTTON_OK"
 msgstr "확인"
 
 msgid "IDS_MF_BUTTON_REMOVE_ABB2"
-msgstr "제거"
+msgstr "삭제"
 
 msgid "IDS_MF_BUTTON_RENAME_ABB"
 msgstr "이름 변경"
 
 msgid "IDS_MF_BUTTON_UNINSTALL_ABB2"
-msgstr "삭제"
+msgstr "설치 삭제"
 
 msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
 msgstr "바로가기 추가"
@@ -1235,7 +1268,7 @@ msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
 msgstr "바로가기 삭제"
 
 msgid "IDS_MF_HEADER_DETAILS"
-msgstr "상세정보"
+msgstr "상세 정보"
 
 msgid "IDS_MF_HEADER_DOCUMENTS"
 msgstr "문서"
@@ -1259,10 +1292,10 @@ msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
 msgstr "최근 실행 파일"
 
 msgid "IDS_MF_HEADER_REMOVE"
-msgstr "제거"
+msgstr "삭제"
 
 msgid "IDS_MF_HEADER_RENAME"
-msgstr "이름 변경"
+msgstr "이름 바꾸기"
 
 msgid "IDS_MF_HEADER_SETTINGS"
 msgstr "설정"
@@ -1349,7 +1382,7 @@ msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
 msgstr "목록(자세히)"
 
 msgid "IDS_MF_OPT_DETAILS"
-msgstr "상세정보"
+msgstr "상세 정보"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
 msgstr "다시 보지 않기"
@@ -1364,7 +1397,7 @@ msgid "IDS_MF_OPT_MOVE"
 msgstr "이동"
 
 msgid "IDS_MF_OPT_REMOVE"
-msgstr "제거"
+msgstr "삭제"
 
 msgid "IDS_MF_OPT_SIZE"
 msgstr "크기"
@@ -1379,7 +1412,7 @@ msgid "IDS_MF_OPT_UNINSTALL"
 msgstr "삭제"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "항목 1개를 제거합니다."
+msgstr "항목 1개를 삭제합니다."
 
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "바로가기 1개를 삭제합니다."
@@ -1391,13 +1424,13 @@ msgid "IDS_MF_POP_MOVING_ING"
 msgstr "이동 중..."
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "항목 %d개를 제거합니다."
+msgstr "항목 %d개를 삭제합니다."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "바로가기 %d개를 삭제합니다."
 
 msgid "IDS_MF_POP_REMOVING_ING"
-msgstr "제거 중..."
+msgstr "삭제 중..."
 
 msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "로밍 중에 모바일 데이터를 사용하면 데이터 요금제에 따라 추가요금이 부과될 수 있습니다."
@@ -1445,7 +1478,7 @@ msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "항목을 이동하지 못하였습니다."
 
 msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "항목을 제거하지 못하였습니다."
+msgstr "항목을 삭제하지 못하였습니다."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "사용 중인 파일 이름입니다."
@@ -1574,10 +1607,10 @@ msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "데이터를 저장할 수 없음"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "SD 카드에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+msgstr "SD 카드에 저장공간이 부족합니다. [설정 > 전원 및 저장공간 > 저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "디바이스에 저장공간이 부족합니다. [설정] > [전원 및 저장공간] > [저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
+msgstr "디바이스에 저장공간이 부족합니다. [설정 > 전원 및 저장공간 > 저장공간]에서 일부 파일을 삭제한 후 다시 시도하세요."
 
 msgid "IDS_MF_POP_ERROR"
 msgstr "오류가 발생하였습니다."
@@ -1640,13 +1673,13 @@ msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
 msgstr "파일 다운로드 안 됨"
 
 msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "파일 다운로드를 다시 시도하거나 다운로드 대기 목록에서 항목을 제거하세요."
+msgstr "파일 다운로드를 다시 시도하거나 다운로드 대기 목록에서 항목을 삭제하세요."
 
 msgid "IDS_MF_BUTTON_RETRY_ABB2"
 msgstr "다시 시도"
 
 msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "제거"
+msgstr "삭제"
 
 msgid "IDS_GALLERY_BODY_CATEGORY"
 msgstr "카테고리"

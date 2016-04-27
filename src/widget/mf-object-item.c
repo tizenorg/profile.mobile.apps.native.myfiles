@@ -33,11 +33,7 @@ void mf_object_item_text_set(Elm_Object_Item *item, const char *ID, const char *
 	mf_retm_if(item == NULL, "item is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = PKGNAME_SYSTEM;
-	} else {
-		domain = NULL;    //PKGNAME_MYFILE;
-	}
+	domain = NULL;    //PKGNAME_MYFILE;
 	elm_object_item_domain_translatable_part_text_set(item, part, domain, ID);
 	MF_TRACE_END;
 }
@@ -48,11 +44,7 @@ void mf_object_item_translate_set(Elm_Object_Item *item, const char *ID)
 	mf_retm_if(item == NULL, "item is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = PKGNAME_SYSTEM;
-	} else {
-		domain = NULL;
-	}
+	domain = NULL;
 
 	SECURE_DEBUG(">>>>>>>>>>>>>>> ID is [%s] domain is [%s]", ID, domain);
 	elm_object_item_domain_text_translatable_set(item, domain, EINA_TRUE);

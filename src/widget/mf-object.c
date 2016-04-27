@@ -421,11 +421,7 @@ void mf_object_text_set(Evas_Object *obj, const char *ID, const char *part)
 	mf_retm_if(obj == NULL, "obj is NULL");
 	const char *domain;
 
-	if (strstr(ID, "IDS_COM")) {
-		domain = PKGNAME_SYSTEM;
-	} else {
-		domain = NULL;    //PKGNAME_MYFILE;
-	}
+	domain = NULL;    //PKGNAME_MYFILE;
 
 	elm_object_domain_translatable_part_text_set(obj, part, domain, ID);
 	//elm_object_domain_part_text_translatable_set(obj, part, domain, EINA_TRUE);

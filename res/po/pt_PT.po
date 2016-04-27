@@ -10,6 +10,9 @@ msgstr "Partilhar via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Dados móveis desligados. Em alternativa, ligue-se a uma rede Wi-Fi ou ligue os Dados móveis e tente de novo."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Eliminar"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d itens serão eliminados."
 
@@ -683,7 +686,7 @@ msgid "IDS_MF_TZTAB2_DIRECTORY"
 msgstr "Directório"
 
 msgid "IDS_STORYALBUM_BUTTON_CONNECT_ABB"
-msgstr "Ligar"
+msgstr "Ligado"
 
 msgid "IDS_ST_BODY_DEFAULT_NOTIFICATION_SOUND_ABB"
 msgstr "Som padrão p/ notificações"
@@ -730,8 +733,26 @@ msgstr "Introduzidos caracteres inválidos. Tente novamente."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d itens seleccionados."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Imagens"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vídeos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencioso"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Seleccionar tudo"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiar"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seleccionada(s)"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Seleccionar item"
@@ -901,6 +922,9 @@ msgstr "Classificação parental"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome de ficheiro já existe."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detalhes"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz"
 
@@ -915,6 +939,9 @@ msgstr "A prep..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d seleccionado(s)"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Procurar"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Eliminar itens"
@@ -1029,6 +1056,12 @@ msgstr "Ontem"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Eliminar"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Os Meus Ficheiros"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mover"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Substituir"

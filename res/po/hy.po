@@ -10,6 +10,9 @@ msgstr "Համօգտ. հետևյալով՝"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Շարժական տվյալներն անջատված են: Փոխարենը միացեք Wi-Fi ցանցի կամ միացրեք Շարժական տվյալներն ու նորից փորձեք:"
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Ջնջել"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d տարրեր կվերացվեն:"
 
@@ -730,8 +733,26 @@ msgstr "Անվավեր նիշ է մուտքագրվել: Նորից փորձեք
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d տարր է ընտրվել:"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Պատկերներ"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Տեսահոլովակներ"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Չեղարկել"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Անձայն"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Ընտրել բոլորը"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Պատճենել"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d ընտրվել է"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Ընտրել տարրը"
@@ -901,6 +922,9 @@ msgstr "Ծնողի գնահատական"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ֆայլի անունն արդեն օգտագործման մեջ է:"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Մանրամասներ"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ձայն"
 
@@ -915,6 +939,9 @@ msgstr "Պտրստվմ է..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ընտրվել է"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Որոնում"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Վերացնել տարրեր"
@@ -1010,7 +1037,7 @@ msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "Դադարեցնել"
 
 msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgstr "Ընդունել"
 
 msgid "IDS_DM_MBODY_SELECT_ALL"
 msgstr "Ընտրել բոլորը"
@@ -1029,6 +1056,12 @@ msgstr "Երեկ"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Վերացնել"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Իմ Ֆայլերը"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Տեղափոխել"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Փոխրնել"
@@ -1205,7 +1238,7 @@ msgid "IDS_MF_BUTTON_DELETE_ABB4"
 msgstr "Ջնջել"
 
 msgid "IDS_MF_BUTTON_OK"
-msgstr "OK"
+msgstr "Ընդունել"
 
 msgid "IDS_MF_BUTTON_REMOVE_ABB2"
 msgstr "Հեռացնել"

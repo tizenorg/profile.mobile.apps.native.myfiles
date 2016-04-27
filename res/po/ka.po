@@ -10,6 +10,9 @@ msgstr "გაზიარება მეთოდით"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "მობილურ მონაცემთა ქსელი გამორთულია. სანაცვლოდ, დაუკავშირდით Wi-Fi ქსელს, ან ჩართეთ მობილური მონაცემები და ისევ სცადეთ."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "წაშლა"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d ელემენტი წაიშლება."
 
@@ -698,7 +701,7 @@ msgid "IDS_ST_POP_DELETE_ITEMS_Q"
 msgstr "წაშლით ელემენტებს?"
 
 msgid "IDS_VIDEO_OPT_RENAME"
-msgstr "ხელახლა დასათაურება"
+msgstr "სახელის გადარქმევა"
 
 msgid "IDS_ST_BODY_SETTINGS"
 msgstr "პარამეტრები"
@@ -730,8 +733,26 @@ msgstr "აკრეფილია არასწორი სიმბოლ�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "არჩეულია %d ელემენტი."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "გამოსახულებები"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "ვიდეოები"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "გაუქმება"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "ჩუმი"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "ყველას არჩევა"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "ასლი"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d არჩეულია"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "ელემენტის არჩევა"
@@ -901,6 +922,9 @@ msgstr "მშობლის შეფასება"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ფაილის სახელი უკვე გამოყენებულია."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "დეტალები"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ხმა"
 
@@ -915,6 +939,9 @@ msgstr "მზადდება..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d არჩეულია"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "ძიება"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "ელემენტების წაშლა"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "პროგრამა ვერ მოიძებნა ამ ფაილის გასახსნელად."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "მცდელობის გასამეორებლად, შეეხეთ ჩამოტვირთვის ნიშანს."
+msgstr "მცდელობის გასამეორებლად, ისევ შეეხეთ „ჩამოტვირთვა“-ს."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "1 ელემენტი წაიშლება."
@@ -1010,7 +1037,7 @@ msgid "IDS_DM_BUTTON_CANCEL_ABB2"
 msgstr "გაუქმება"
 
 msgid "IDS_DM_BUTTON_OK_ABB"
-msgstr "OK"
+msgstr "კი"
 
 msgid "IDS_DM_MBODY_SELECT_ALL"
 msgstr "ყველას არჩევა"
@@ -1029,6 +1056,12 @@ msgstr "გუშინ"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "წაშლა"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "ჩემი ფაილები"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "გადატანა"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "შეცვლა"
@@ -1556,7 +1589,7 @@ msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
 msgstr "წაშლა"
 
 msgid "IDS_MUSIC_POP_RENAME"
-msgstr "ხელახლა დასათაურება"
+msgstr "სახელის გადარქმევა"
 
 msgid "IDS_MF_HEADER_SELECT_ITEM_ABB"
 msgstr "აირჩიეთ ელემენტი"

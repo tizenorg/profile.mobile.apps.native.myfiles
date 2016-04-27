@@ -10,6 +10,9 @@ msgstr "හරහා බෙදාහදා ගන්න"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "ජංගම දත්ත ක්‍රියා විරහිතයි. ඒ වෙනුවට Wi-Fi ජාලයට සම්බන්ධ වන්න, නැතහොත් ජංගම දත්ත ක්‍රියාත්මක කර නැවත උත්සාහ කරන්න."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "මකන්න"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "අයිතම %d ක් මැකෙනු ඇත."
 
@@ -730,8 +733,26 @@ msgstr "වැරදි අකුරු ඇතුල් කර තිබේ. න
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "අයිතම %d ක් තෝරා ඇත."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "පින්තූර"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "වීඩියෝ"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "අව. කර."
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "නිහඬ"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "සියල්ල තෝරන්න"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "පිටපත් කරන්න"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d ක් තෝරා ඇත."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "අයිතමය තෝරන්න"
@@ -901,6 +922,9 @@ msgstr "මවිපිය ඇගයුම"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ගොනු නාමය දැනටමත් භාවිතා වේ."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "විස්තර"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "හඬ"
 
@@ -915,6 +939,9 @@ msgstr "පිළියෙළ කරමින්..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d ක් තෝරා ඇත"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "සොයන්න"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "අයිතම මැකීම."
@@ -977,7 +1004,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "අයිතම %d මැකෙනු ඇත."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "මෙම ගොනුව සොයාගත නොහැකිය. එය නැවත බාගැනීමට උත්සාහ කිරීමට බාගන්න තට්ටු කරන්න."
+msgstr "මෙම ගොනුව සොයාගත නොහැකිය. එය නැවත බාගැනීමට උත්සාහ කිරීමට “බාගන්න” තට්ටු කරන්න."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ගොනුව විවෘත කළ නොහැක"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "මෙම ගොනුව විවෘත කිරීමට යෙදුමක් සොයාගත නොහැකි විය."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "නැවත උත්සාහ කිරීමට බාගන්න තට්ටු කරන්න."
+msgstr "නැවත උත්සාහ කිරීමට “බාගන්න” තට්ටු කරන්න."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "අයිතම 1 ක් මැකෙනු ඇත."
@@ -1029,6 +1056,12 @@ msgstr "ඊයේ"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "මකන්න"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "මගේ ගොනු"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "ගෙනයන්න"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ආදේශ ක."
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "උඩුගත කිරීම් නැවැත්වීම"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "නැවත උත්සාහ කිරීමට උඩුගත කරන්න තට්ටු කරන්න."
+msgstr "නැවත උත්සාහ කිරීමට “උඩුගත කරන්න” තට්ටු කරන්න."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "උඩුගත කිරීම නැවතෙනු ඇති නමුත් ගොනුව මැකෙනු නොලැබෙනු ඇත."

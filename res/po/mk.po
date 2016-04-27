@@ -10,6 +10,9 @@ msgstr "Сподели преку"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Мобилните податоци се исклучени. Поврзете се со мрежа Wi-Fi или вклучете Мобилни податоци и обидете се повторно."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Избриши"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d записи ќе се избришат."
 
@@ -730,8 +733,26 @@ msgstr "Внесен е неважечки знак. Обидете се пов�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Избрани се %d записи."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Слики"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Видео-записи"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Откажи"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Нечујно"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Избери ги сите"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Копирај"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Избрани се %d"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Избери запис"
@@ -901,6 +922,9 @@ msgstr "Родителска оцена"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Името на фајл веќе се користи."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Детали"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Гласовни"
 
@@ -915,6 +939,9 @@ msgstr "Се подгот..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Избрани се %d"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Пребарај"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Избриши записи"
@@ -1029,6 +1056,12 @@ msgstr "Вчера"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Избриши"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Мои фајлови"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Премести"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замени"

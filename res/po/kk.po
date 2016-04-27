@@ -10,6 +10,9 @@ msgstr "Бөлісу құралы"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Ұялы деректер өшірілді. Оның орнына Wi-Fi желісіне қосылыңыз немесе ұялы деректерді қосып, әрекетті қайталаңыз."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Жою"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d элемент жойылады."
 
@@ -730,8 +733,26 @@ msgstr "Қате таңба енгізілді. Әрекетті қайтала�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d элемент таңдалды."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Суреттер"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Бейнежазбалар"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Тоқтату"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Дыбыссыз"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Бәрін бөлектеу"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Көшіру"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d таңдалды"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Элемент таңдау"
@@ -901,6 +922,9 @@ msgstr "Ата-ана қамқорлығы"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Файл аты қолданылады."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Өзгешеліктері"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Дауыс"
 
@@ -915,6 +939,9 @@ msgstr "Дай-да..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d таңдалды"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Тізім"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Элементтерді жою"
@@ -1029,6 +1056,12 @@ msgstr "Кеше"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Жою"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Менің файлдарым"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Орналастыру"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ауыст-у"

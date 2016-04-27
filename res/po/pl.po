@@ -10,6 +10,9 @@ msgstr "Udostępnij przez"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Funkcja Dane komórkowe jest wyłączona. Połącz się z siecią Wi-Fi lub włącz funkcję Dane komórkowe i spróbuj ponownie."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Usuń"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "Elementów: %d zostanie usun."
 
@@ -89,7 +92,7 @@ msgid "IDS_MF_OPT_SETTINGS"
 msgstr "Ustawienia"
 
 msgid "IDS_MF_OPT_SHARE"
-msgstr "Udostępniaj"
+msgstr "Udostępnij"
 
 msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
 msgstr "Wykorzystanie pamięci"
@@ -632,7 +635,7 @@ msgid "IDS_MF_SK3_SORT_BY"
 msgstr "Sortuj według"
 
 msgid "IDS_MF_SK4_VIEW_AS"
-msgstr "Widok"
+msgstr "Pokaż"
 
 msgid "IDS_MF_SK_CANCEL"
 msgstr "Anuluj"
@@ -730,8 +733,26 @@ msgstr "Wpisano nieprawidłowy znak. Spróbuj ponownie"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Wybrane elementy: %d."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Obrazy"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Filmy"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Anuluj"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Cichy"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Zaznacz wszystko"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiuj"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Wybrano %d"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Wybierz element"
@@ -878,7 +899,7 @@ msgid "IDS_MUSIC_SK_SHARE"
 msgstr "Udostęp."
 
 msgid "IDS_MUSIC_SK_VIEW_AS"
-msgstr "Widok"
+msgstr "Pokaż"
 
 msgid "IDS_MUSIC_SK_LIST"
 msgstr "Lista"
@@ -901,6 +922,9 @@ msgstr "Ocena rodzica"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nazwa pliku już istnieje."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Szczegóły"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Głos"
 
@@ -915,6 +939,9 @@ msgstr "Przyg.w toku..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "Wybrano %d"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Szukaj"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Usuwanie elementów"
@@ -1029,6 +1056,12 @@ msgstr "Wczoraj"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Usuń"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Moje pliki"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Przenieś"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zastąp"
@@ -1283,7 +1316,7 @@ msgid "IDS_MF_HEADER_VIDEOS"
 msgstr "Filmy"
 
 msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Widok"
+msgstr "Pokaż"
 
 msgid "IDS_MF_ITAB2_ALL"
 msgstr "Wszystkie"

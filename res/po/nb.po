@@ -10,6 +10,9 @@ msgstr "Del via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobildata er slått av. Koble til Wi-Fi-nettverk i stedet, eller slå på mobildata, og prøv på nytt."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Slett"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d elementer blir slettet."
 
@@ -730,8 +733,26 @@ msgstr "Ugyldig tegn angitt. Prøv på nytt."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementer valgt."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Bilder"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Video"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Avbryt"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Stille"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Merk alt"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopier"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valgt"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Velg objekt"
@@ -901,6 +922,9 @@ msgstr "Aldersgrense"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavn allerede i bruk."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Detaljer"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Tale"
 
@@ -915,6 +939,9 @@ msgstr "Forbered..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d valgt"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Søk"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Slett elementer"
@@ -1029,6 +1056,12 @@ msgstr "I går"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Slett"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mine filer"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Flytt"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Erstatt"

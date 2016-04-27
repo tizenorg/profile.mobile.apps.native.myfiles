@@ -1,5 +1,5 @@
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "您的设备未连接至 Wi-Fi 网络。连接至移动网络根据您的付费方案可能产生额外费用。"
+msgstr "您的设备未连接至 Wi-Fi 网络。根据您的资费套餐，连接至移动网络可能产生额外费用。"
 
 msgid "IDS_MF_HEADER_SHARE_VIA"
 msgstr "分享通过"
@@ -9,6 +9,9 @@ msgstr "分享通过"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "移动数据已关闭。改为连接至 Wi-Fi 网络或打开移动数据并重试。"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "删除"
 
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "将删除 %d 个项目。"
@@ -53,7 +56,7 @@ msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
 msgstr "输入文件夹名称"
 
 msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "已下载应用程序"
+msgstr "已下载的应用程序"
 
 msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
 msgstr "出现网络连接错误。通话已结束。是否重新连接至网络？"
@@ -86,7 +89,7 @@ msgid "IDS_MF_OPT_SEARCH"
 msgstr "搜索"
 
 msgid "IDS_MF_OPT_SETTINGS"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_MF_OPT_SHARE"
 msgstr "分享"
@@ -119,7 +122,7 @@ msgid "IDS_HS_HEADER_REMOVE_SHORTCUT_ABB"
 msgstr "移除快捷方式"
 
 msgid "IDS_MEMO_POP_BATTERY_LOW"
-msgstr "Battery low"
+msgstr "电量不足"
 
 msgid "IDS_MF_BODY_1_FILE"
 msgstr "1个文件"
@@ -221,7 +224,7 @@ msgid "IDS_MF_BODY_NO_FILES"
 msgstr "无文件"
 
 msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "无最近打开的文件"
+msgstr "没有最近打开的文件"
 
 msgid "IDS_MF_BODY_NO_RECENT_FILES"
 msgstr "无最近文件"
@@ -230,10 +233,10 @@ msgid "IDS_MF_BODY_PD_FILES"
 msgstr "%d 个文件"
 
 msgid "IDS_MF_BODY_PD_ITEM"
-msgstr "%d 项"
+msgstr "%d 个项目"
 
 msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%d个项目"
+msgstr "%d 个项目"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "可以"
@@ -287,7 +290,7 @@ msgid "IDS_MF_BODY_VIDEOS"
 msgstr "视频"
 
 msgid "IDS_MF_BODY_WALLPAPERS"
-msgstr "墙纸"
+msgstr "壁纸"
 
 msgid "IDS_MF_BUTTON_ADD_TO_HOME"
 msgstr "添加至主屏幕"
@@ -347,7 +350,7 @@ msgid "IDS_MF_HEADER_STORAGE_M_MEMORY"
 msgstr "存储器"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_CREATE_FOLDER_ABB"
-msgstr "无法创建文件夹"
+msgstr "无法新建文件夹"
 
 msgid "IDS_MF_MBODY_SELECT_ALL"
 msgstr "全选"
@@ -359,7 +362,7 @@ msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
 msgstr "添加至快捷方式"
 
 msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "作为图像文件"
+msgstr "作为图片文件"
 
 msgid "IDS_MF_OPT_AS_VIDEO_FILES"
 msgstr "作为视频文件"
@@ -476,7 +479,7 @@ msgid "IDS_MF_OPT_VIEW_BY_THUMBNAIL"
 msgstr "通过缩略图查看"
 
 msgid "IDS_MF_OPT_ZIP"
-msgstr "压缩文档"
+msgstr "压缩文件"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
 msgstr "将删除 1 个项目。"
@@ -545,7 +548,7 @@ msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
 msgstr "内存不足。删除一些项目并重试。"
 
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
-msgstr "存储空间不足。 剩余 %s。"
+msgstr "存储空间不足。剩余%s。"
 
 msgid "IDS_MF_POP_PASTE_HERE"
 msgstr "粘贴至此"
@@ -584,7 +587,7 @@ msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
 msgstr "目标文件夹是源文件夹的子文件夹。"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "目的地文件夹与源文件夹相同。"
+msgstr "目标文件夹与源文件夹相同。"
 
 msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
 msgstr "设备已断开连接"
@@ -695,13 +698,13 @@ msgid "IDS_ST_POP_ADD_SHORTCUT"
 msgstr "添加快捷键"
 
 msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "删除项目？"
+msgstr "是否删除项目？"
 
 msgid "IDS_VIDEO_OPT_RENAME"
 msgstr "重命名"
 
 msgid "IDS_ST_BODY_SETTINGS"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_ST_SK_REMOVE"
 msgstr "移除"
@@ -719,25 +722,43 @@ msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
 msgstr "删除 %d 个项目吗？"
 
 msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "删除项目？"
+msgstr "是否删除项目？"
 
 msgid "IDS_VR_POP_1_ITEM_SELECTED"
-msgstr "已选择1个项目。"
+msgstr "已选择 1 个项目。"
 
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
 msgstr "输入的字符无效。请重试。"
 
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
-msgstr "已选择%d个项目"
+msgstr "已选择 %d 个项目。"
+
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "图片"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "视频"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "取消"
 
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "静音"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "全选"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "复制"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d 已选择"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "选择项目"
 
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
-msgstr "最多可选择%d个项目。"
+msgstr "最多可选择 %d 个视频。"
 
 msgid "IDS_MF_BODY_DOWNLOADS"
 msgstr "下载列表"
@@ -827,10 +848,10 @@ msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
 msgstr "未找到结果"
 
 msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "消息通知"
+msgstr "信息通知"
 
 msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "详情"
+msgstr "详细信息"
 
 msgid "IDS_MF_HEADER_ENTER_NAME"
 msgstr "输入名字。"
@@ -863,7 +884,7 @@ msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
 msgstr "添加快捷方式失败。"
 
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "存储空间不足。请删除部分项目。"
+msgstr "存储空间不足。请删除部分内容。"
 
 msgid "IDS_MF_POP_REMOVED"
 msgstr "已移除"
@@ -901,11 +922,14 @@ msgstr "父速率"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "文件名已被使用中"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "详细信息"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "语音"
 
 msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "WLAN不可用。连接至移动网络根据您的付费方案可能产生额外费用。"
+msgstr "WLAN 不可用。连接至移动网络根据您的资费套餐可能产生额外费用。"
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "已达最大字符数（%d）。"
@@ -915,6 +939,9 @@ msgstr "正在准备..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d 已选择"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "搜索"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "删除项目"
@@ -938,16 +965,16 @@ msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
 msgstr "下载失败"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
-msgstr "您的设备存储空间不足。进入 %s 设定以删除部分数据或插入 SD 卡。"
+msgstr "您的设备存储空间不足。进入%s设置以删除部分数据或插入 SD 卡。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
-msgstr "您的设备存储空间不足。进入 %s 设定以释放部分存储空间，然后重试。"
+msgstr "您的设备存储空间不足。进入%s设置以释放部分存储空间，然后重试。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
-msgstr "您的 SD 卡上空间不足。进入 %s 设定以删除部分数据或将默认存储位置更改为设备。"
+msgstr "您的 SD 卡存储空间不足。进入%s设置以删除部分数据或将默认存储位置更改为设备。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
-msgstr "您的 SD 卡上空间不足。进入 %s 设定以删除部分数据，然后重试。"
+msgstr "您的 SD 卡存储空间不足。进入%s设置以删除部分数据，然后重试。"
 
 msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
 msgstr "进入存储"
@@ -977,7 +1004,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "将删除 %d 个项目。"
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "该文件无法找到。点击下载以重新尝试下载。"
+msgstr "该文件无法找到。点击【下载】，重新尝试下载。"
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "无法打开文件"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "无法找到用于打开该文件的应用程序。"
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "点击下载以重试。"
+msgstr "点击【下载】以重试。"
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "将删除 1 个项目。"
@@ -1030,6 +1057,12 @@ msgstr "昨天"
 msgid "IDS_DM_OPT_DELETE"
 msgstr "删除"
 
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "我的文件"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "移动"
+
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "替换"
 
@@ -1055,7 +1088,7 @@ msgid "IDS_SSEARCH_BODY_NO_HISTORY"
 msgstr "无历史记录"
 
 msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
-msgstr "轻松共享"
+msgstr "轻松分享"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
 msgstr "无法安装应用程序"
@@ -1070,10 +1103,10 @@ msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_
 msgstr "从此处删除的该项目也将从 Dropbox 中删除。将删除 1 个项目。"
 
 msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
-msgstr "移动这些项目也会将它们从 Dropbox 中删除。将移动 %d 个项目。"
+msgstr "移动这些文件也会将它们从 Dropbox 中删除。将移动 %d 个文件。"
 
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
-msgstr "移动该项目也会将它从 Dropbox 中删除。将移动 1 个项目。"
+msgstr "移动该文件也会将它从 Dropbox 中删除。将移动 1 个文件。"
 
 msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
 msgstr "选择存储位置"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "停止上传"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "点击上传以重试。"
+msgstr "点击【上传】，重试。"
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "上传将停止，但不会删除文件。"
@@ -1103,10 +1136,10 @@ msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "无法保存数据"
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "您的设备存储空间不足。请进入设定 > 电源和存储 > 存储，然后删除部分文件并重试。"
+msgstr "您的设备存储空间不足。请进入【设置】>【电源和存储】>【存储】，然后删除部分文件并重试。"
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "您的 SD 卡存储空间不足。请进入设定 > 电源和存储 > 存储，然后删除部分文件并重试。"
+msgstr "您的 SD 卡存储空间不足。请进入【设置】>【电源和存储】>【存储】，然后删除部分文件并重试。"
 
 msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
 msgstr "上传至"
@@ -1124,13 +1157,13 @@ msgid "IDS_MF_SK_ADD_LITE"
 msgstr "添加"
 
 msgid "IDS_PB_OPT_HOME_ABB"
-msgstr "家"
+msgstr "家庭"
 
 msgid "IDS_ST_OPT_ALARM"
 msgstr "闹钟"
 
 msgid "IDS_MF_BODY_OTHERS"
-msgstr "其它"
+msgstr "其他"
 
 msgid "IDS_MF_OPT_MORE"
 msgstr "更多"
@@ -1187,7 +1220,7 @@ msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
 msgstr "已下载应用程序"
 
 msgid "IDS_MF_BUTTON2_IMAGES"
-msgstr "图像"
+msgstr "图片"
 
 msgid "IDS_MF_BUTTON2_VIDEOS"
 msgstr "视频"
@@ -1229,13 +1262,13 @@ msgid "IDS_MF_HEADER_COPY_TO_ABB"
 msgstr "复制至"
 
 msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
-msgstr "创建文件夹"
+msgstr "新建文件夹"
 
 msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
 msgstr "删除快捷方式"
 
 msgid "IDS_MF_HEADER_DETAILS"
-msgstr "详情"
+msgstr "详细信息"
 
 msgid "IDS_MF_HEADER_DOCUMENTS"
 msgstr "文档"
@@ -1265,7 +1298,7 @@ msgid "IDS_MF_HEADER_RENAME"
 msgstr "重命名"
 
 msgid "IDS_MF_HEADER_SETTINGS"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_MF_HEADER_SHORTCUTS"
 msgstr "快捷键"
@@ -1340,7 +1373,7 @@ msgid "IDS_MF_OPT_COPY"
 msgstr "复制"
 
 msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
-msgstr "创建文件夹"
+msgstr "新建文件夹"
 
 msgid "IDS_MF_OPT_DESCENDING_ABB"
 msgstr "降序"
@@ -1349,7 +1382,7 @@ msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
 msgstr "详细列表"
 
 msgid "IDS_MF_OPT_DETAILS"
-msgstr "详情"
+msgstr "详细信息"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
 msgstr "不再显示"
@@ -1400,7 +1433,7 @@ msgid "IDS_MF_POP_REMOVING_ING"
 msgstr "正在移除..."
 
 msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "根据您的付费方案，漫游时使用移动数据可能产生额外费用。"
+msgstr "根据您的资费套餐，漫游时使用移动数据可能产生额外费用。"
 
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "可用使用方式"
@@ -1445,7 +1478,7 @@ msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "移动项目失败"
 
 msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
-msgstr "移除项目失败"
+msgstr "移除文件失败"
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
 msgstr "文件名已被使用"
@@ -1535,7 +1568,7 @@ msgid "IDS_MF_SK3_PASTE_HERE"
 msgstr "粘贴到此处"
 
 msgid "IDS_PB_SK_SET"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "您设备上的任何应用程序均不支持该文件类型。"
@@ -1568,16 +1601,16 @@ msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
 msgstr "上传项目后，其将显示在此处。"
 
 msgid "IDS_DM_BUTTON_SETTINGS"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "无法保存数据"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "您的 SD 卡存储空间不足。请进入设定 > 电源和存储 > 存储，然后删除部分文件并重试。"
+msgstr "您的 SD 卡存储空间不足。请进入【设置】>【电源和存储】>【存储】，然后删除部分文件并重试。"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "您的设备存储空间不足。请进入设定 > 电源和存储 > 存储，然后删除部分文件并重试。"
+msgstr "您的设备存储空间不足。请进入【设置】>【电源和存储】>【存储】，然后删除部分文件并重试。"
 
 msgid "IDS_MF_POP_ERROR"
 msgstr "出错"
@@ -1589,16 +1622,16 @@ msgid "IDS_MF_POP_MEMORY_FULL"
 msgstr "内存已满"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "将从 Dropbox 中删除 1 个项目。"
+msgstr "将从 Dropbox 中删除 1 个文件。"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "将从 Dropbox 中删除 %d 个项目。"
+msgstr "将从 Dropbox 中删除 %d 个文件。"
 
 msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "移动数据已关闭。连接至 Wi-Fi 网络或打开移动数据并重试。"
 
 msgid "IDS_MF_BUTTON_SETTINGS"
-msgstr "设定"
+msgstr "设置"
 
 msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
 msgstr "个人存储空间"
@@ -1649,7 +1682,7 @@ msgid "IDS_MF_BUTTON_REMOVE"
 msgstr "移除"
 
 msgid "IDS_GALLERY_BODY_CATEGORY"
-msgstr "类别"
+msgstr "分类"
 
 msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
 msgstr "文件夹名称已使用"

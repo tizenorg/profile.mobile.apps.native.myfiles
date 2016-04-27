@@ -10,6 +10,9 @@ msgstr "Споделяне с"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Мобилните данни са изключени. Вместо това се свържете към Wi-Fi мрежа или включете мобилните данни и опитайте отново."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Изтриване"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d елемента ще бъдат изтрити."
 
@@ -392,7 +395,7 @@ msgid "IDS_MF_OPT_DETAIL_VIEW"
 msgstr "Подробен изглед"
 
 msgid "IDS_MF_OPT_EDIT"
-msgstr "Редактиране"
+msgstr "Редакт."
 
 msgid "IDS_MF_OPT_EXTRACT"
 msgstr "Извличане"
@@ -730,8 +733,26 @@ msgstr "Въведен е невалиден знак. Опитайте отно
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "Избрани са %d елемента."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Изображения"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Видеоклипове"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Отмени"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Тих"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Избери всички"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Копиране"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d избрани"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Изберете елемент"
@@ -901,6 +922,9 @@ msgstr "Родителска оценка"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Името на файла вече е заето."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Детайли"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Обаждане"
 
@@ -915,6 +939,9 @@ msgstr "Подготв..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d избрани"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Търсене"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Изтриване на елементи"
@@ -1029,6 +1056,12 @@ msgstr "Вчера"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Изтриване"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Моите файлове"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Премести"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замест."

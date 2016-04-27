@@ -10,6 +10,9 @@ msgstr "Partager via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Données mobiles désactivées. Connectez-vous à un réseau wifi ou activez les données mobiles, puis réessayez."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Supprimer"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d éléments seront supprimés."
 
@@ -730,8 +733,26 @@ msgstr "Caractère non valide saisi. Réessayez"
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d éléments sélectionnés."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Images"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Vidéos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Annuler"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silencieux"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Sélectionner tout"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copier"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d sélectionné(s)"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Sélectionner un élément"
@@ -901,6 +922,9 @@ msgstr "Classement parental"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nom de fichier existe déjà"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Détails"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Vocal"
 
@@ -915,6 +939,9 @@ msgstr "Préparation..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d sélect."
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Rechercher"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Supprimer des éléments"
@@ -1029,6 +1056,12 @@ msgstr "Hier"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Supprimer"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Mes fichiers"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Déplacer"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Remplacer"

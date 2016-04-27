@@ -10,6 +10,9 @@ msgstr "Share via"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Mobile data off. Connect to Wi-Fi network instead, or turn on Mobile data and try again."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Delete"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d items will be deleted."
 
@@ -29,7 +32,7 @@ msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
 msgstr "Download unavailable."
 
 msgid "IDS_EMAIL_POP_SUCCESS"
-msgstr "Success."
+msgstr "Success"
 
 msgid "IDS_MF_HEADER_CREATE"
 msgstr "Create"
@@ -730,8 +733,26 @@ msgstr "Invalid character entered. Try again."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d items selected."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Images"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Videos"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancel"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Silent"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Select all"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copy"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d selected"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Select item"
@@ -776,7 +797,7 @@ msgid "IDS_MF_OPT_SORT_BY_ABB"
 msgstr "Sort by"
 
 msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Failed."
+msgstr "Failed"
 
 msgid "IDS_MUSIC_SK_DONE"
 msgstr "Done"
@@ -901,11 +922,15 @@ msgstr "Parent rating"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "File name already in use."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Details"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voice"
 
 msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan."
+msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.
+"
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "The maximum number of characters (%d) has been reached."
@@ -915,6 +940,9 @@ msgstr "Preparing..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d selected"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Search"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Delete items"
@@ -1029,6 +1057,12 @@ msgstr "Yesterday"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Delete"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "My Files"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Move"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Replace"

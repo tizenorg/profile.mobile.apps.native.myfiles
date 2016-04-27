@@ -10,6 +10,9 @@ msgstr "Partekatu honen bidez"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "Datu mugikorrak itzalita. Konektatu Wi-Fi sare batera edo piztu datu mugikorrak eta saiatu berriz."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Ezabatu"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d elementu ezabatuko dira."
 
@@ -730,8 +733,26 @@ msgstr "Karaktere baliogabea adierazi dituzu. Saiatu berriz."
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elementu hautatu dira"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "Irudiak"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "Bideoak"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Ezeztatu"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "Isila"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Hautatu denak"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Kopiatu"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d aukeratuta"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "Elementua aukeratu"
@@ -803,7 +824,7 @@ msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Mugitu pribatura"
 
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
-msgstr "Gehienezko karaktere kopurura heldu zara"
+msgstr "Gehienezko karaktere kopurura heldu zara."
 
 msgid "IDS_MUSIC_POP_REMOVING"
 msgstr "Ezabatzen..."
@@ -901,6 +922,9 @@ msgstr "Gurasoen balorazioa"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fitxategiaren izena dagoeneko erabileran"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "Xehetasunak"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ahotsa/Fax"
 
@@ -915,6 +939,9 @@ msgstr "Prestatzen..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d aukeratuta"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "Bilatu"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "Ezabatu elementuak"
@@ -1029,6 +1056,12 @@ msgstr "Atzo"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "Ezabatu"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "Nire fitxategiak"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "Mugitu"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ordeztu"

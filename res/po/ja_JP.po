@@ -10,6 +10,9 @@ msgstr "共有"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "モバイルデータがOFFになっています。Wi-Fiネットワークに接続するか、モバイルデータをONにしてから再度お試しください。"
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "削除"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d件のアイテムを削除します。"
 
@@ -233,7 +236,7 @@ msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%dアイテム"
 
 msgid "IDS_MF_BODY_PD_ITEMS"
-msgstr "%dアイテム"
+msgstr "%d件"
 
 msgid "IDS_MF_BODY_POSSIBLE"
 msgstr "可能"
@@ -488,7 +491,7 @@ msgid "IDS_MF_POP_CONF_DELETE_Q"
 msgstr "削除しますか？"
 
 msgid "IDS_MF_POP_CONTINUE"
-msgstr "次へ"
+msgstr "続行"
 
 msgid "IDS_MF_POP_COPYING_FAILED"
 msgstr "コピーに失敗しました。"
@@ -730,8 +733,26 @@ msgstr "無効な文字が入力されました。再度実行してください
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d件選択"
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "画像"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "動画"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "キャンセル"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "サイレント"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "全て選択"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "コピー"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d件選択"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "アイテムを選択"
@@ -824,7 +845,7 @@ msgid "IDS_MF_BODY_SCREEN_CAPTURE_M_NOUN"
 msgstr "画面キャプチャ"
 
 msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
-msgstr "検索結果がありません。"
+msgstr "結果が見つかりません。"
 
 msgid "IDS_ST_BODY_MESSAGE_ALERT"
 msgstr "メッセージ通知"
@@ -901,6 +922,9 @@ msgstr "保護者の指導が必要"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ファイル名は既に使用されています。"
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "詳細"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "音声"
 
@@ -915,6 +939,9 @@ msgstr "準備中..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d件選択"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "検索"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "アイテムを削除"
@@ -1029,6 +1056,12 @@ msgstr "昨日"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "削除"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "マイファイル"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "移動"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "置換"
@@ -1298,7 +1331,7 @@ msgid "IDS_MF_ITAB2_SHORTCUTS"
 msgstr "ｼｮｰﾄｶｯﾄ"
 
 msgid "IDS_MF_MBODY_CONTAINS"
-msgstr "合計数"
+msgstr "アイテム数"
 
 msgid "IDS_MF_MBODY_DEVICE_STORAGE"
 msgstr "システムメモリ(本体)"
@@ -1469,7 +1502,7 @@ msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "%d件のアプリケーションをアンインストールします。"
 
 msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%sをアンインストールします。"
+msgstr "%sを​アンインストールします。"
 
 msgid "IDS_MF_BODY_SIZE"
 msgstr "サイズ"
@@ -1658,7 +1691,7 @@ msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
 msgstr "使用中のファイル名"
 
 msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "このファイル名(%s)は移動先のフォルダで既に使用されています。"
+msgstr "このファイル名(%s)は対象フォルダで既に使用されています。"
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "このフォルダ名(%s)は移動先のフォルダで既に使用されています。"

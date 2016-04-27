@@ -10,6 +10,9 @@ msgstr "द्वारे सहभागी करा"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "मोबाईल डेटा बंद केला. नेटवर्कऐवजी Wi-Fi शी कनेक्‍ट करा किंवा मोबाईल डेटा चालू करा आणि पुन्‍हा प्रयत्‍न करा."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "काढून टाका"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d आयटम्‍स हटवले जातील."
 
@@ -730,8 +733,26 @@ msgstr "अवैध वर्ण प्रविष्ट केले. पु�
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d आयटम्स निवडले."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "प्रतिमा"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "व्हिडिओ"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "रद्द"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "शांत"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "सर्व निवडा"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "कॉपी"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d निवडले."
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "आयटम निवडा"
@@ -901,6 +922,9 @@ msgstr "पॅरेन्ट दर"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "फाईल नाव यापूर्वीच वापरात आहे."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "तपशील"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "आवाज"
 
@@ -915,6 +939,9 @@ msgstr "तयार होत आहे..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d निवडले"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "शोधा"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "आयटेम्‍स हटवा"
@@ -977,7 +1004,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d बाबी हटवल्या जातील."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "ही फाइल सापडू शकत नाही. हे पुन्हा डाउनलोड करण्याचा प्रयत्न करण्यासाठी डाउनलोड करा टॅप करा."
+msgstr "ही फाइल सापडू शकत नाही. हे पुन्हा डाउनलोड करण्याचा प्रयत्न करण्यासाठी “डाउनलोड करा” टॅप करा."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "फाइल उघडण्‍यात अक्षम"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "ही फाइल उघडण्यासाठी अनुप्रयोग शोधण्‍यात अक्षम."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "पुन्हा प्रयत्न करण्यासाठी डाउनलोड करा टॅप करा."
+msgstr "पुन्हा प्रयत्न करण्यासाठी “डाउनलोड करा” टॅप करा."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "1 आयटेम हटवला जाईल."
@@ -1029,6 +1056,12 @@ msgstr "काल"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "हटवा"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "माझ्या फाईली"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "हलवा"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "बदला"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "अपलोड्स थांबवा"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "पुन्हा प्रयत्न करण्यासाठी अपलोड टॅप करा."
+msgstr "पुन्हा प्रयत्न करण्यासाठी “अपलोड” टॅप करा."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "अपलोड थांबेल, परंतु फाइल हटवली जाणार नाही."
@@ -1133,7 +1166,7 @@ msgid "IDS_MF_BODY_OTHERS"
 msgstr "इतर"
 
 msgid "IDS_MF_OPT_MORE"
-msgstr "जास्त"
+msgstr "अधिक"
 
 msgid "IDS_MF_OPT_OPEN"
 msgstr "उघडा"

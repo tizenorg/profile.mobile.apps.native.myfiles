@@ -10,6 +10,9 @@ msgstr "આના દ્વારા શેર કરો"
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
 msgstr "મોબાઇલ ડેટા બંધ થયું. તેને બદલે Wi-Fi નેટવર્કથી જોડો અથવા મોબાઇલ ડેટા ચાલુ કરો અને ફરી પ્રયાસ કરો."
 
+msgid "IDS_COM_BODY_DELETE"
+msgstr "કાઢી નાખો"
+
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
 msgstr "%d વસ્તુઓ હટાવવામાં આવશે."
 
@@ -416,7 +419,7 @@ msgid "IDS_MF_OPT_LIST_BY"
 msgstr "દ્વારા યાદી"
 
 msgid "IDS_MF_OPT_MOVE_HERE"
-msgstr "અહીં ખસો"
+msgstr "અહીં ખસેડો"
 
 msgid "IDS_MF_OPT_NAME"
 msgstr "નામ"
@@ -461,7 +464,7 @@ msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
 msgstr "વિભાજન"
 
 msgid "IDS_MF_OPT_SORT_BY"
-msgstr "ના દ્વારા ગોઠવો"
+msgstr "ના દ્વારા સેટ કરો"
 
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "થંબનેલ દૃષ્ટિ"
@@ -482,7 +485,7 @@ msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
 msgstr "1 વસ્તુ હટાવવામાં આવશે."
 
 msgid "IDS_MF_POP_ASCENDING"
-msgstr "ચઢતાં"
+msgstr "ચઢતાં ક્રમમાં"
 
 msgid "IDS_MF_POP_CONF_DELETE_Q"
 msgstr "કાઢી નાખવું?"
@@ -500,7 +503,7 @@ msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
 msgstr "પસંદ કરેલ વસ્તુઓને હટાવીએ?"
 
 msgid "IDS_MF_POP_DESCENDING"
-msgstr "ઉતરતાં"
+msgstr "ઉતરતાં ક્રમમાં"
 
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
 msgstr "DRM ફાઇલ. મોકલાય નથી."
@@ -629,7 +632,7 @@ msgid "IDS_MF_SK3_SEARCH"
 msgstr "શોધો"
 
 msgid "IDS_MF_SK3_SORT_BY"
-msgstr "ના દ્વારા ગોઠવો"
+msgstr "ના દ્વારા સેટ કરો"
 
 msgid "IDS_MF_SK4_VIEW_AS"
 msgstr "આ રીતે જુઓ"
@@ -730,8 +733,26 @@ msgstr "અમાન્ય અક્ષર દાખલ કર્યો છે. 
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d વસ્તુઓ પસંદ કર્યુ."
 
+msgid "IDS_COM_BODY_IMAGES"
+msgstr "છબીઓ"
+
+msgid "IDS_COM_BODY_VIDEOS"
+msgstr "વિડિયોઝ"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "રદ કરો"
+
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "શાંત"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "બધું પસંદ કરો"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "કૉપિ કરો"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d પસંદ કર્યા"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
 msgstr "વસ્તુ પસંદ કરો"
@@ -773,7 +794,7 @@ msgid "IDS_MF_POP_COPIED"
 msgstr "નકલ થઇ."
 
 msgid "IDS_MF_OPT_SORT_BY_ABB"
-msgstr "ના દ્વારા ગોઠવો"
+msgstr "ના દ્વારા સેટ કરો"
 
 msgid "IDS_MUSIC_POP_FAILED"
 msgstr "નિષ્ફળ."
@@ -901,6 +922,9 @@ msgstr "પેરેંટ રેટિંગ"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ફાઇલનું નામ પહેલેથી ઉપયોગમાં છે."
 
+msgid "IDS_COM_BODY_DETAILS"
+msgstr "વિગતો"
+
 msgid "IDS_VR_BODY_VOICE"
 msgstr "અવાજ"
 
@@ -915,6 +939,9 @@ msgstr "તૈયારી કરી રહ્યું છે..."
 
 msgid "IDS_MF_HEADER_PD_SELECTED"
 msgstr "%d પસંદ કર્યા"
+
+msgid "IDS_COM_SK_SEARCH"
+msgstr "શોધો"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
 msgstr "વસ્તુઓ હટાવો"
@@ -977,7 +1004,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "%d વસ્તુ હટાવવામાં આવશે."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "આ ફાઇલને શોધી શકાતી નથી. તેને ફરીથી ડાઉનલોડ કરવાનો પ્રયાસ કરવા માટે ડાઉનલોડ કરો ટેપ કરો."
+msgstr "આ ફાઇલને શોધી શકાતી નથી. તેને ફરીથી ડાઉનલોડ કરવાનો પ્રયાસ કરવા માટે “ડાઉનલોડ કરો” ટેપ કરો."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "ફાઇલ ખોલવામાં અસમર્થ"
@@ -986,7 +1013,7 @@ msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
 msgstr "આ ફાઇલ ખોલવા માટેની એક એપ્લિકેશન શોધવામાં અસમર્થ."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "ફરી પ્રયાસ કરવા માટે ડાઉનલોડ ટેપ કરો."
+msgstr "ફરી પ્રયાસ કરવા માટે “ડાઉનલોડ” ટેપ કરો."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
 msgstr "1 વસ્તુ હટાવવામાં આવશે."
@@ -1029,6 +1056,12 @@ msgstr "ગઈકાલે"
 
 msgid "IDS_DM_OPT_DELETE"
 msgstr "હટાવો"
+
+msgid "IDS_COM_BODY_MY_FILES"
+msgstr "મારી ફાઇલ્સ"
+
+msgid "IDS_COM_BODY_MOVE"
+msgstr "ખસેડો"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "બદલો"
@@ -1091,7 +1124,7 @@ msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
 msgstr "અપલોડ્સ રોકો"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "ફરી પ્રયાસ કરવા માટે અપલોડ કરો ટેપ કરો."
+msgstr "ફરી પ્રયાસ કરવા માટે “અપલોડ કરો” ટેપ કરો."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
 msgstr "અપલોડ રોકવામાં આવશે, પરંતુ ફાઇલને હટાવામાં આવશે નહીં."
@@ -1271,7 +1304,7 @@ msgid "IDS_MF_HEADER_SHORTCUTS"
 msgstr "શોર્ટકટ્સ"
 
 msgid "IDS_MF_HEADER_SORT_BY"
-msgstr "આના દ્વારા અલગ કરો"
+msgstr "ના દ્વારા સેટ કરો"
 
 msgid "IDS_MF_HEADER_UNINSTALL"
 msgstr "અનઇન્સ્ટોલ કરો"
@@ -1334,7 +1367,7 @@ msgid "IDS_MF_NPBODY_NO_FILES"
 msgstr "કોઈ ફાઇલો નથી"
 
 msgid "IDS_MF_OPT_ASCENDING"
-msgstr "ચઢતાં"
+msgstr "ચઢતાં ક્રમમાં"
 
 msgid "IDS_MF_OPT_COPY"
 msgstr "કૉપિ કરો"
@@ -1343,7 +1376,7 @@ msgid "IDS_MF_OPT_CREATE_FOLDER_ABB2"
 msgstr "ફોલ્ડર બનાવો"
 
 msgid "IDS_MF_OPT_DESCENDING_ABB"
-msgstr "ઉતરતા ક્રમમાં"
+msgstr "ઉતરતાં ક્રમમાં"
 
 msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
 msgstr "વિગતવાર યાદી"
@@ -1535,7 +1568,7 @@ msgid "IDS_MF_SK3_PASTE_HERE"
 msgstr "અહીં ચોંટાડો"
 
 msgid "IDS_PB_SK_SET"
-msgstr "ગોઠવો"
+msgstr "સેટ કરો"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "આ ફાઇલ પ્રકાર તમારા ઉપકરણ પર કોઈપણ એપ્લિકેશન દ્વારા સમર્થિત નથી."

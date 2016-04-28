@@ -194,10 +194,10 @@ styles{
                                 to: part_name"_bg";                     \
                         }                                               \
                         text {                                          \
-                                size: 24;                     \
+                                size: 28;                     \
                                 align: 0 0;                           \
                         }                                               \
-                        color: 36 87 148 255;                            \
+                        color: 50 150 166 255;                            \
                 }                                                       \
         }                                                               \
 

@@ -739,6 +739,9 @@ msgstr "Bilder"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoklipp"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Avbryt"
 
@@ -750,6 +753,9 @@ msgstr "Välj alla"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiera"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Ta bort"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d valda"
@@ -1695,4 +1701,10 @@ msgstr "Filnamnet (%s) används redan i målmappen."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Det här mappnamnet (%s) används redan i målmappen."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Flyttad."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Flyttar..."
 

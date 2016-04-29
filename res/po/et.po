@@ -739,6 +739,9 @@ msgstr "Pildid"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videod"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Tühista"
 
@@ -750,6 +753,9 @@ msgstr "Vali kõik"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopeeri"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Eemalda"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d valitud"
@@ -1695,4 +1701,10 @@ msgstr "See failinimi (%s) on sihtkaustas juba kasutusel."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "See kaustanimi (%s) on sihtkaustas juba kasutusel."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Teisaldatud."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Teisaldamine..."
 

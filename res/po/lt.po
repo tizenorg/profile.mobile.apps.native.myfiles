@@ -739,6 +739,9 @@ msgstr "Vaizdai"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vaizdo įrašai"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Gerai"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Atšaukti"
 
@@ -750,6 +753,9 @@ msgstr "Pasirinkti visus"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopijuoti"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Pašalinti"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Pasirinkta: %d"
@@ -1695,4 +1701,10 @@ msgstr "Toks failo pavadinimas (%s) jau naudojamas paskirties aplanke."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Toks aplanko pavadinimas (%s) jau naudojamas paskirties aplanke."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Perkelta."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Perkeliama..."
 

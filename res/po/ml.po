@@ -739,6 +739,9 @@ msgstr "ഇമേജുകള്‍"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "വീഡിയോകള്‍"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ശരി"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "റദ്ദാക്കു."
 
@@ -750,6 +753,9 @@ msgstr "എല്ലാം തിരഞ്ഞെടുക്കുക"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "പകര്‍ത്തുക"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "നീക്കുക"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d തിരഞ്ഞെടുത്തു"
@@ -1695,4 +1701,10 @@ msgstr "ഈ ഫയൽ പേര് (%s) ലക്ഷ്യസ്ഥാന ഫോ
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ഈ ഫോൾഡർ പേര് (%s) ലക്ഷ്യസ്ഥാന ഫോൾഡറിൽ നേരത്തേതന്നെ ഉപയോഗത്തിലുണ്ട്."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "നീക്കി."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "നീക്കുന്നു..."
 

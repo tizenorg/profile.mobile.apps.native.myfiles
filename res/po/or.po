@@ -739,6 +739,9 @@ msgstr "ଫଟୋଗୁଡିକ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ଭିଡିଓ‌ଗୁଡିକ"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ଓକେ"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "ବାତିଲ୍"
 
@@ -750,6 +753,9 @@ msgstr "ସମସ୍ତ ଚୟନ"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "କପି"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "ଅପସାରଣ"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%dଟି ଚୟନିତ"
@@ -1695,4 +1701,10 @@ msgstr "ଏହି ଫାଇଲ୍ ନାମ (%s) ଲକ୍ଷ୍ୟସ୍ଥଳ 
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ଏହି ଫୋଲ୍ଡର୍ ନାମ (%s) ଲକ୍ଷ୍ୟସ୍ଥଳ ଫୋଲ୍ଡର୍ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ରହିଛି।"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "ଘୁଞ୍ଚିଛି।"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "ଘୁଞ୍ଚୁଛି..."
 

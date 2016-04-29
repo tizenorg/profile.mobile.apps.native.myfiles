@@ -739,6 +739,9 @@ msgstr "გამოსახულებები"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ვიდეოები"
 
+msgid "IDS_COM_SK_OK"
+msgstr "კი"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "გაუქმება"
 
@@ -750,6 +753,9 @@ msgstr "ყველას არჩევა"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "ასლი"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "წაშლა"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d არჩეულია"
@@ -1695,4 +1701,10 @@ msgstr "ამ ფაილის სახელი (%s) უკვე გამ
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ამ საქაღალდის სახელი (%s) უკვე გამოყენებულია სამიზნე საქაღალდეში."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "გადატანილია."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "გადატანა..."
 

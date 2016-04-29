@@ -739,6 +739,9 @@ msgstr "ਚਿੱਤਰ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ਵੀਡਿਓਜ਼"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ਓਕੇ"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "ਰੱਦ ਕਰੋ"
 
@@ -750,6 +753,9 @@ msgstr "ਸਭ ਚੁਣੋ"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "ਕਾਪੀ ਕਰੋ"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "ਹਟਾਉ"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ਚੁਣੇ।"
@@ -1695,4 +1701,10 @@ msgstr "ਇਹ ਫਾਈਲ ਨਾਂ (%s) ਪਹਿਲਾਂ ਹੀ ਮੁਕ�
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ਇਹ ਫੋਲਡਰ ਨਾਂ (%s) ਮੁਕਾਮ ਫੋਲਡਰ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "ਮੂਵ ਹੋਇਆ।"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "ਮੂਵ ਹੋ ਰਿਹਾ ਹੈ..."
 

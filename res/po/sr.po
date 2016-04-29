@@ -739,6 +739,9 @@ msgstr "Slike"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video zapisi"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Otkaži"
 
@@ -750,6 +753,9 @@ msgstr "Izaberi sve"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiraj"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Ukloni"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Izabrano %d"
@@ -1695,4 +1701,10 @@ msgstr "Ovaj fajl je (%s) već u upotrebi u odredišnom folderu."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ovaj naziv foldera (%s) je već u upotrebi u odredišnom folderu."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Premešteno."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Premeštanje"
 

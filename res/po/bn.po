@@ -739,6 +739,9 @@ msgstr "চিত্রগুলি"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ভিডিওগুলি"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ওকে"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "বাতিল"
 
@@ -750,6 +753,9 @@ msgstr "সমস্ত নির্বাচন করুন"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "অনুলিপি করুন"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "অপসারণ"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%dটি নির্বাচিত।"
@@ -1695,4 +1701,10 @@ msgstr "এই ফাইল নাম (%s) গন্তব্য ফোল্ড
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "এই ফোল্ডার নাম (%s) গন্তব্য ফোল্ডারে ইতিমধ্যে ব্যবহার হচ্ছে।"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "সরানো হয়েছে।"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "সরানো হচ্ছে.."
 

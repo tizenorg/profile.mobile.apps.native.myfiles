@@ -739,6 +739,9 @@ msgstr "Tasvirlar"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videolar"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Bekor qilish"
 
@@ -750,6 +753,9 @@ msgstr "Barchasini tanlash"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Nusxa olish"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Olib tashlash"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d tanlangan"
@@ -1695,4 +1701,10 @@ msgstr "Ushbu fayl nomi (%s) avvaldan yakuniy jildda foydalanilmoqda."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ushbu jild nomi (%s) avvaldan yakuniy jildda foydalanilmoqda."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Ko‘chirilgan."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Ko‘chirilmoqda..."
 

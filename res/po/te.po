@@ -739,6 +739,9 @@ msgstr "చిత్రాలు"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "వీడియోలు"
 
+msgid "IDS_COM_SK_OK"
+msgstr "సరే"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "రద్దు"
 
@@ -750,6 +753,9 @@ msgstr "అన్నీ ఎంచుకోండి"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "కాపీ"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "తొలగించు"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ఎన్నుకోబడింది."
@@ -1695,4 +1701,10 @@ msgstr "ఈ ఫైల్ పేరు (%s) ఇప్పటికే గమ్య
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ఈ ఫోల్డర్ పేరు (%s) ఇప్పటికే గమ్యస్థాన ఫోల్డర్‌లో ఉపయోగంలో ఉంది."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "తరలించబడింది."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "తరలిస్తోంది..."
 

@@ -739,6 +739,9 @@ msgstr "Təsvirlər"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Ləğv et"
 
@@ -750,6 +753,9 @@ msgstr "Hamısını seç"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Köçür"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Sil"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d seçilmişdir"
@@ -1695,4 +1701,10 @@ msgstr "Bu adda fayl (%s) artıq təyinat qovluğunda istifadə edilir."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Bu qovluğun adı (%s) artıq təyinat qovluğunda istifadədədir."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Göndərildi."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Göndərilmə..."
 

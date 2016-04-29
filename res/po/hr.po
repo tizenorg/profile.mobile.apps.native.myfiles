@@ -739,6 +739,9 @@ msgstr "Slike"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
+msgid "IDS_COM_SK_OK"
+msgstr "U redu"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Prekid"
 
@@ -750,6 +753,9 @@ msgstr "Odaberi sve"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiraj"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Ukloni"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d odabrano"
@@ -1695,4 +1701,10 @@ msgstr "Naziv datoteke (%s) već se upotrebljava u odredišnoj mapi."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Naziv mape (%s) već se upotrebljava u odredišnoj mapi."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Premješteno."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Premještanje..."
 

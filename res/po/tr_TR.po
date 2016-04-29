@@ -739,6 +739,9 @@ msgstr "Resimler"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videolar"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "İptal"
 
@@ -750,6 +753,9 @@ msgstr "Hepsini seç"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopyala"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Kaldır"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d seçildi"
@@ -1695,4 +1701,10 @@ msgstr "Bu dosya ismi (%s) zaten hedef klasörde kullanılıyor."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Bu klasör ismi (%s) zaten hedef klasörde kullanılıyor."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Taşındı."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Taşıyor..."
 

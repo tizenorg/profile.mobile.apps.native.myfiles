@@ -739,6 +739,9 @@ msgstr "ಚಿತ್ರಗಳು"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ವೀಡಿಯೊಗಳು"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ಸರಿ"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "ರದ್ದು"
 
@@ -750,6 +753,9 @@ msgstr "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "ನಕಲಿಸಿ"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "ತೆಗೆಯಿರಿ"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ಆರಿಸಿದೆ."
@@ -1695,4 +1701,10 @@ msgstr "ಈ ಫೈಲ್ ಹೆಸರು (%s) ಈಗಾಗಲೇ ಗಮ್ಯಸ
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "ಈ ಫೋಲ್ಡರ್ ಹೆಸರು (%s) ಗಮ್ಯಸ್ಥಾನದ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "ಚಲಿಸಲಾಗಿದೆ."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "ಚಲಿಸಲಾಗುತ್ತಿದೆ..."
 

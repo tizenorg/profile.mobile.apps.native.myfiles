@@ -739,6 +739,9 @@ msgstr "Слики"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Видео-записи"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Откажи"
 
@@ -750,6 +753,9 @@ msgstr "Избери ги сите"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копирај"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Отстрани"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Избрани се %d"
@@ -1695,4 +1701,10 @@ msgstr "Името на фајлот (%s) веќе се користи во од
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Името на папката (%s) веќе се користи во одредишната папка."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Преместено."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Се преместува..."
 

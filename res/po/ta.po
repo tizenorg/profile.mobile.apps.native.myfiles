@@ -739,6 +739,9 @@ msgstr "படிமங்கள்"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "நிகழ்படங்கள்"
 
+msgid "IDS_COM_SK_OK"
+msgstr "சரி"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "ரத்து"
 
@@ -750,6 +753,9 @@ msgstr "எல்லாம் தேர்வு"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "நகல்"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "அகற்றுக"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d தேர்வுசெய்யப்பட்டன"
@@ -1695,4 +1701,10 @@ msgstr "கோப்புப் பெயர் (%s) ஆனது இலக்�
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "கோப்புறை பெயர் (%s) ஆனது இலக்கிட கோப்புறையில் ஏற்கனவே பயனில் உள்ளது."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "நகர்ந்தது."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "நகர்கிறது..."
 

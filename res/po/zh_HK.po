@@ -739,6 +739,9 @@ msgstr "圖像"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "影片"
 
+msgid "IDS_COM_SK_OK"
+msgstr "確定"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "取消"
 
@@ -750,6 +753,9 @@ msgstr "選擇全部"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "複製"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "移除"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d 已選擇"
@@ -1695,4 +1701,10 @@ msgstr "此檔案名稱 (%s) 已在目的地資料夾中使用。"
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "此資料夾名稱 (%s) 已在目的地資料夾中使用。"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "已移動"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "正在移動..."
 

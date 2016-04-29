@@ -739,6 +739,9 @@ msgstr "છબીઓ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "વિડિયોઝ"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ઓકે"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "રદ કરો"
 
@@ -750,6 +753,9 @@ msgstr "બધું પસંદ કરો"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "કૉપિ કરો"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "દૂર કરો"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d પસંદ કર્યા"
@@ -1695,4 +1701,10 @@ msgstr "આ ફાઇલ નામ (%s) ગંતવ્ય ફોલ્ડરમ
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "આ ફોલ્ડર નામ (%s) ગંતવ્ય ફોલ્ડરમાં પહેલેથી જ ઉપયોગમાં છે."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "ખસેડ્યા."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "ખસી રહ્યા છે..."
 

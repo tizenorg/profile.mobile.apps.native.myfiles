@@ -739,6 +739,9 @@ msgstr "Attēli"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Labi"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Atcelt"
 
@@ -750,6 +753,9 @@ msgstr "Izv. visu"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopēt"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Noņemt"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d izvēlētas"
@@ -1695,4 +1701,10 @@ msgstr "Šis faila nosaukums (%s) jau tiek lietots mērķa mapē."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Šis mapes nosaukums (%s) jau tiek lietots mērķa mapē."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Pārvietots."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Pārvieto..."
 

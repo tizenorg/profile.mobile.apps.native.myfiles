@@ -739,6 +739,9 @@ msgstr "Irudiak"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Bideoak"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Ados"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Ezeztatu"
 
@@ -750,6 +753,9 @@ msgstr "Hautatu denak"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiatu"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Kendu"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d aukeratuta"
@@ -1695,4 +1701,10 @@ msgstr "Fitxategi izen hau (%s) helburuko karpetan erabiltzen ari zara lehendik.
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Karpeta izen hau (%s) helmugako karpetan erabiltzen ari da lehendik."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Mugitua"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Mugitzen..."
 

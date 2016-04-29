@@ -739,6 +739,9 @@ msgstr "이미지"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "동영상"
 
+msgid "IDS_COM_SK_OK"
+msgstr "확인"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "취소"
 
@@ -750,6 +753,9 @@ msgstr "모두 선택"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "복사"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "삭제"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d개 선택"
@@ -1695,4 +1701,10 @@ msgstr "대상 폴더에 동일한 파일 이름(%s)이 있습니다."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "대상 폴더에 동일한 폴더 이름(%s)이 있습니다."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "이동하였습니다."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "이동 중..."
 

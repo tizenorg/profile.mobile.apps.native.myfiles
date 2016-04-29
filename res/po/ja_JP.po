@@ -739,6 +739,9 @@ msgstr "画像"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "動画"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "キャンセル"
 
@@ -750,6 +753,9 @@ msgstr "全て選択"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "コピー"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "削除"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d件選択"
@@ -1695,4 +1701,10 @@ msgstr "このファイル名(%s)は対象フォルダで既に使用されて�
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "このフォルダ名(%s)は移動先のフォルダで既に使用されています。"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "移動しました。"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "移動中..."
 

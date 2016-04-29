@@ -739,6 +739,9 @@ msgstr "Képek"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videók"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Mégse"
 
@@ -750,6 +753,9 @@ msgstr "Összes kijelölése"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Másol"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Eltávolít"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d kiválasztva"
@@ -1695,4 +1701,10 @@ msgstr "Ilyen nevű (%s) fájl már van a célmappában."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ilyen nevű (%s) mappa már van a célmappában."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Áthelyezve."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Áthelyezés..."
 

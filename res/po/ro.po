@@ -739,6 +739,9 @@ msgstr "Imagini"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoclipuri"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Anulare"
 
@@ -750,6 +753,9 @@ msgstr "Selectare toate"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copiere"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Eliminare"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d selectate"
@@ -1695,4 +1701,10 @@ msgstr "Acest nume de fişier (%s) este deja utilizat în folderul de destinaţi
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Acest nume (%s) este deja utilizat în folderul de destinaţie."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Mutat"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Mutare"
 

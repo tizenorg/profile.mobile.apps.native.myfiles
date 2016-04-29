@@ -739,6 +739,9 @@ msgstr "Imatges"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Acceptar"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Cancel·lar"
 
@@ -750,6 +753,9 @@ msgstr "Seleccioni-ho tot"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copia"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Eliminar"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d seleccionat"
@@ -1695,4 +1701,10 @@ msgstr "Aquest nom de fitxer (%s) ja està en ús a la carpeta de destí."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Aquest nom de carpeta (%s) ja està en ús a la carpeta de destí."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Mogut"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Movent..."
 

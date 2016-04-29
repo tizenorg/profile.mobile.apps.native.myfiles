@@ -739,6 +739,9 @@ msgstr "Картинки"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Видео"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Отмена"
 
@@ -750,6 +753,9 @@ msgstr "Выделить все"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копировать"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Удалить"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Выбрано: %d"
@@ -1695,4 +1701,10 @@ msgstr "Файл с таким именем (%s) уже есть в папке �
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Папка с таким именем (“%s”) уже есть в конечной папке."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Перемещено."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Перемещение..."
 

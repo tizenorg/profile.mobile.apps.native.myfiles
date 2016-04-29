@@ -739,6 +739,9 @@ msgstr "Суреттер"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Бейнежазбалар"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Тоқтату"
 
@@ -750,6 +753,9 @@ msgstr "Бәрін бөлектеу"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Көшіру"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Жоғалту"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d таңдалды"
@@ -1695,4 +1701,10 @@ msgstr "Бұл файл атауы (%s) белгіленген қалтада б
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Бұл қалта атауы (%s) белгіленген қалтада бұрыннан бар."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Орналастырылды."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Орналастырылды"
 

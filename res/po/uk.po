@@ -739,6 +739,9 @@ msgstr "Зображення"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Відео"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ОК"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Скасувати"
 
@@ -750,6 +753,9 @@ msgstr "Вибрати всі"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копіювати"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Видалення"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Вибрано %d"
@@ -1695,4 +1701,10 @@ msgstr "Така назва файлу (%s) вже використовуєть�
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Ім'я папки (%s) вже використовується у папці призначення."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Переміщено."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Переміщення..."
 

@@ -739,6 +739,9 @@ msgstr "Պատկերներ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Տեսահոլովակներ"
 
+msgid "IDS_COM_SK_OK"
+msgstr "Ընդունել"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Չեղարկել"
 
@@ -750,6 +753,9 @@ msgstr "Ընտրել բոլորը"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Պատճենել"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Հեռացնել"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ընտրվել է"
@@ -1695,4 +1701,10 @@ msgstr "Այս ֆայլի անունը (%s) արդեն գործածվում է �
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Այս պանակի անունը (%s) արդեն գործածվում է նպատակային պանակում:"
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Տեղափոխված է"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Տեղափոխում..."
 

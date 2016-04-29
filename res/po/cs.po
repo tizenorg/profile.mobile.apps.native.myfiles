@@ -739,6 +739,9 @@ msgstr "Obrázky"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videa"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Zrušit"
 
@@ -750,6 +753,9 @@ msgstr "Vybrat vše"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopírovat"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Odstranit"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "Vybráno: %d"
@@ -1695,4 +1701,10 @@ msgstr "Název souboru (%s) je již v cílové složce použit."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Název složky (%s) je již v cílové složce použit."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Přesunuto."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Probíhá přesouvání"
 

@@ -739,6 +739,9 @@ msgstr "Eigene Bilder"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videos"
 
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "Abbrechen"
 
@@ -750,6 +753,9 @@ msgstr "Alle auswählen"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopieren"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "Entfernen"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ausgewählt"
@@ -1695,4 +1701,10 @@ msgstr "Dieser Dateiname (%s) wird bereits im Zielordner verwendet."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "Dieser Ordnername (%s) wird bereits im Zielordner verwendet."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "Verschoben"
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "Verschiebevorgang aktiv..."
 

@@ -739,6 +739,9 @@ msgstr "පින්තූර"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "වීඩියෝ"
 
+msgid "IDS_COM_SK_OK"
+msgstr "හරි"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "අව. කර."
 
@@ -750,6 +753,9 @@ msgstr "සියල්ල තෝරන්න"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "පිටපත් කරන්න"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "ඉවත් කර."
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d ක් තෝරා ඇත."
@@ -1695,4 +1701,10 @@ msgstr "මෙම ගොනු නම (%s) දැනටමත් ගමනාන
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "මෙම ෆෝල්ඩරයේ නම (%s) දැනටමත් ගමනාන්ත ෆෝල්ඩරය තුළ භාවිතයේ පවතී."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "ගෙන යැවිණි."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "ගෙනයමින්..."
 

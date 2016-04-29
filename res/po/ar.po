@@ -739,6 +739,9 @@ msgstr "الصور"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "الفيديو"
 
+msgid "IDS_COM_SK_OK"
+msgstr "موافق"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "إلغاء"
 
@@ -750,6 +753,9 @@ msgstr "اختيار الكل"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "نسخ"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "حذف"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "تم تحديد %d"
@@ -1695,4 +1701,10 @@ msgstr "اسم الملف هذا (%s) مستخدم مسبقاً في المجل�
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "اسم المجلد هذا (%s) مستخدم مسبقاً في المجلد الوجهة."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "تم النقل."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "جاري النقل..."
 

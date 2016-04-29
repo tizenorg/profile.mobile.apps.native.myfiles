@@ -739,6 +739,9 @@ msgstr "प्रतिमा"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "व्हिडिओ"
 
+msgid "IDS_COM_SK_OK"
+msgstr "ठीक"
+
 msgid "IDS_COM_SK_CANCEL"
 msgstr "रद्द"
 
@@ -750,6 +753,9 @@ msgstr "सर्व निवडा"
 
 msgid "IDS_COM_BODY_COPY"
 msgstr "कॉपी"
+
+msgid "IDS_COM_SK_REMOVE"
+msgstr "काढून टाका"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d निवडले."
@@ -1695,4 +1701,10 @@ msgstr "हे फाइल नाव (%s) लक्षित फोल्‍ड
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
 msgstr "हे फोल्‍डर नाव (%s) लक्षित फोल्‍डरमध्‍ये आधीपासूनच वापरात आहे."
+
+msgid "IDS_COM_POP_MOVED"
+msgstr "हलवले."
+
+msgid "IDS_COM_POP_MOVING"
+msgstr "हलवत आहे..."
 

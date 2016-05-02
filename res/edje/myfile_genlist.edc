@@ -1858,9 +1858,19 @@ action: RUN_PLUGIN "touch_sound"; \
 		max: (LITE_GENLIST_ICON_CUSTOM_THUMBNAIL_WIDTH) (LITE_GENLIST_ICON_CUSTOM_THUMBNAIL_HEIGHT);
 				)
 		)
-		PART(SWALLOW, "elm.icon.2",
-				DSC_FROM_R("default" 0.0, )
-		)
+		part { name: "elm.icon.2";
+		 type: SWALLOW;
+		 scale: 1;
+		 description {
+			state: "default" 0.0;
+			fixed: 1 0;
+			align: 0.5 0.5;
+			rel1 { relative: 1 0.0; offset: -70 0;}
+			min: 50 0;
+			max: 50 -1;
+		 	}
+	      }
+	      
 		PART(SPACER, "elm.padding.center.left",
 				DSC_L("default" 0.0,
 						"_bg",

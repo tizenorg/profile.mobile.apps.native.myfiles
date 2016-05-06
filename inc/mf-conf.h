@@ -42,7 +42,7 @@
 #define GRP_TRAY_ITEM			"apptray.item"
 
 #define MYFILE_DATEFORMAT_12		"yMdhm"//"MMddyyyyhm"
-#define MYFILE_DATEFORMAT_24		"yMdhm"
+#define MYFILE_DATEFORMAT_24		"yMdHm"
 
 
 #define MYFILE_LABEL_STRING_LENGTH	128

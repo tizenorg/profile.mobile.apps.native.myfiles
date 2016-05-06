@@ -390,7 +390,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 		&& params->ap->mf_Status.more != MORE_EDIT_DELETE
 		&& !(params->ap->mf_Status.more == MORE_RENAME && mf_view_get_pre_state(params->ap) == MORE_EDIT))*/
 		if (!params->create_date && params->modify_time) {
-			char *tempdate = mf_util_icu_translate(params->ap, params->modify_time, false);
+			char *tempdate = mf_util_icu_translate(params->ap, params->modify_time, true);
 			SAFE_FREE_CHAR(params->create_date);
 			params->create_date = tempdate;
 			return g_strdup(params->create_date);
@@ -398,7 +398,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 			i18n_udate date = 0;
 			mf_file_attr_get_file_mdate(params->m_ItemName->str, &date);
 			params->modify_time = date;
-			char *tempdate = mf_util_icu_translate(params->ap, params->modify_time, false);
+			char *tempdate = mf_util_icu_translate(params->ap, params->modify_time, true);
 			SAFE_FREE_CHAR(params->create_date);
 			params->create_date = tempdate;
 			return g_strdup(params->create_date);

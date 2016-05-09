@@ -45,9 +45,31 @@
 #define FONT_COLOR_CYAN     "\033[36m"
 #define FONT_COLOR_GRAY     "\033[37m"
 
-#define SECURE_DEBUG(fmt, args...)	SECURE_LOGD(FONT_COLOR_BLUE fmt FONT_COLOR_RESET, ##args)
-#define SECURE_INFO(fmt, args...)	SECURE_LOGI(FONT_COLOR_GREEN fmt FONT_COLOR_RESET, ##args)
-#define SECURE_ERROR(fmt, args...)	SECURE_LOGW(FONT_COLOR_RED fmt FONT_COLOR_RESET, ##args)//SECURE_LOGE
+#ifndef LOGD
+#define LOGD(fmt, arg...) dlog_print(DLOG_DEBUG, LOG_TAG, ##arg)
+#endif
+#ifndef LOGI
+#define LOGI(fmt, arg...) dlog_print(DLOG_INFO, LOG_TAG, ##arg)
+#endif
+#ifndef LOGW
+#define LOGW(fmt, arg...) dlog_print(DLOG_ERROR, LOG_TAG, ##arg)
+#endif
+#ifndef LOGE
+#define LOGE(fmt, arg...) dlog_print(DLOG_ERROR, LOG_TAG, ##arg)
+#endif
+#ifndef SECURE_LOGD
+#define SECURE_LOGD(fmt, arg...) dlog_print(DLOG_DEBUG, LOG_TAG, ##arg)
+#endif
+#ifndef SECURE_LOGI
+#define SECURE_LOGI(fmt, arg...) dlog_print(DLOG_DEBUG, LOG_TAG, ##arg)
+#endif
+#ifndef SECURE_LOGW
+#define SECURE_LOGW(fmt, arg...) dlog_print(DLOG_DEBUG, LOG_TAG, ##arg)
+#endif
+
+#define SECURE_DEBUG(fmt, args...)	SECURE_LOGD(true, FONT_COLOR_BLUE fmt FONT_COLOR_RESET, ##args)
+#define SECURE_INFO(fmt, args...)	SECURE_LOGI(true, FONT_COLOR_GREEN fmt FONT_COLOR_RESET, ##args)
+#define SECURE_ERROR(fmt, args...)	SECURE_LOGW(true, FONT_COLOR_RED fmt FONT_COLOR_RESET, ##args)//SECURE_LOGE
 
 #define MYFILE_TRACE_DEBUG(fmt, arg...) do { LOGD("[%s][%d] "fmt "\n", __func__, __LINE__, ##arg); } while (0)
 #define MYFILE_TRACE_ERROR(fmt, arg...) do { LOGW("[%s][%d] "fmt"\n", __func__, __LINE__, ##arg); } while (0)//LOGE
@@ -59,10 +81,10 @@
 #define mf_info(fmt, args...)		do { LOGI("[%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)
 #define mf_assert(fmt, args...)	do { LOGW("[ASSERT][%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)//LOGE
 
-#define t_start 	LOG(LOG_DEBUG, "LAUNCH", "[myfile:Application:%s:IN]",__func__)
+#define t_start 	dlog_print(DLOG_DEBUG, "LAUNCH", "[myfile:Application:%s:IN]",__func__)
 
 
-#define t_end		LOG(LOG_DEBUG, "LAUNCH", "[myfile:Application:%s:OUT]",__func__)
+#define t_end		dlog_print(DLOG_DEBUG, "LAUNCH", "[myfile:Application:%s:OUT]",__func__)
 
 #define MF_TRACE_BEGIN  while (0) {\
 					{\

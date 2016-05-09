@@ -935,8 +935,7 @@ msgid "IDS_VR_BODY_VOICE"
 msgstr "Voice"
 
 msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.
-"
+msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan."
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "The maximum number of characters (%d) has been reached."

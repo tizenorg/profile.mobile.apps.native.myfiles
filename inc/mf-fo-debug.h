@@ -24,24 +24,24 @@
 #include <mf-dlog.h>
 #include <mf-log.h>
 
-#define mf_fo_logd(fmt , args...)		do { LOGD("[%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)
+#define mf_fo_logd(fmt , arg...)		do { dlog_print(DLOG_DEBUG, LOG_TAG, "[%s : %05d]" fmt "\n", __func__, __LINE__, ##arg); } while (0)
 #define mf_fo_loge(fmt , args...)		do {\
-							LOGW("[%s][%d] "fmt"\n", __func__, __LINE__, ##args); \
+							dlog_print(DLOG_WARN, LOG_TAG, "[%s][%d] "fmt"\n", __func__, __LINE__, ##args); \
 							MF_LOG_RECORD(fmt,##args); \
 						   } while (0)//LOGE
-#define mf_fo_logw(fmt , args...)		do { LOGW("[%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)
-#define mf_fo_logi(fmt , args...)		do { LOGI("[%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)
-#define mf_fo_loga(fmt , args...)		do { LOGW("[ASSERT][%s][%d] "fmt"\n", __func__, __LINE__, ##args); } while (0)//LOGE
+#define mf_fo_logw(fmt , arg...)		do { dlog_print(DLOG_WARN, LOG_TAG, "[%s : %05d]" fmt "\n", __func__, __LINE__, ##arg); } while (0)
+#define mf_fo_logi(fmt , arg...)		do { dlog_print(DLOG_INFO, LOG_TAG, "[%s : %05d]" fmt "\n", __func__, __LINE__, ##arg); } while (0)
+#define mf_fo_loga(fmt , arg...)		do { dlog_print(DLOG_WARN, LOG_TAG, "[%s : %05d]" fmt "\n", __func__, __LINE__, ##arg); } while (0)//LOGE
 #define FO_TRACE_BEGIN 		do {\
 					{\
-						LOGD("\n\033[0;35mENTER FUNCTION: %s. \033[0m\t%s:%d\n", \
+						dlog_print(DLOG_WARN, LOG_TAG, "\n\033[0;35mENTER FUNCTION: %s. \033[0m\t%s:%d\n", \
 						__FUNCTION__, (char *)(strrchr(__FILE__, '/')+1), __LINE__);\
 					} \
 				} while (0) ;
 
 #define FO_TRACE_END  		do {\
 					{\
-						LOGD("\n\033[0;35mEXIT FUNCTION: %s. \033[0m\t%s:%d\n", \
+						dlog_print(DLOG_WARN, LOG_TAG, "\n\033[0;35mEXIT FUNCTION: %s. \033[0m\t%s:%d\n", \
 						__FUNCTION__, (char *)(strrchr(__FILE__, '/')+1), __LINE__);\
 					} \
 				} while (0) ;

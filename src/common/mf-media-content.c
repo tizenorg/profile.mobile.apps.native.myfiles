@@ -36,7 +36,7 @@ mf_condition_s *mf_media_content_condition_create(char *condition)
 
 	memset(filter, 0, sizeof(mf_condition_s));
 
-	SECURE_LOGD("condition [%s]", condition);
+	SECURE_DEBUG("condition [%s]", condition);
 	filter->cond = condition;
 	filter->collate_type = MEDIA_CONTENT_COLLATE_DEFAULT;
 	filter->sort_type = MEDIA_CONTENT_ORDER_DESC;

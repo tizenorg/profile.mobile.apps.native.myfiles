@@ -32,12 +32,12 @@
 
 #if DLOG_ON
 
-#define ug_detail_debug(fmt , args...)    LOGD("[%s][%d]debug message from ug-myfile-efl is : "fmt"\n", __func__, __LINE__, ##args)
-#define myfile_dlog(fmt , args...)        LOGD("[%s][%d]: "fmt"\n", __func__, __LINE__, ##args)
-#define myfile_dlog_assert(fmt , args...) LOGE("[%s]: "fmt"\n", __func__, ##args)
-#define myfile_dlog_func_line()           LOGD("[%s][%d]\n", __func__, __LINE__)
-#define myfile_dlog_func_start()          LOGD("[%s][%d][  START  ]\n", __func__, __LINE__)
-#define myfile_dlog_func_end()            LOGD("[%s][%d][  END  ]\n", __func__, __LINE__)
+#define ug_detail_debug(fmt , args...)    dlog_print(DLOG_WARN, LOG_TAG,"[%s][%d]debug message from ug-myfile-efl is : "fmt"\n", __func__, __LINE__, ##args)
+#define myfile_dlog(fmt , args...)        dlog_print(DLOG_WARN, LOG_TAG,"[%s][%d]: "fmt"\n", __func__, __LINE__, ##args)
+#define myfile_dlog_assert(fmt , args...) dlog_print(DLOG_ERROR, LOG_TAG,"[%s]: "fmt"\n", __func__, ##args)
+#define myfile_dlog_func_line()           dlog_print(DLOG_WARN, LOG_TAG,("[%s][%d]\n", __func__, __LINE__)
+#define myfile_dlog_func_start()          dlog_print(DLOG_WARN, LOG_TAG,"[%s][%d][  START  ]\n", __func__, __LINE__)
+#define myfile_dlog_func_end()            dlog_print(DLOG_WARN, LOG_TAG,"[%s][%d][  END  ]\n", __func__, __LINE__)
 #else
 #define myfile_dlog(fmt , args...)        printf("[MYFILE][%40s:%4d] "fmt"\n", __func__, __LINE__, ##args)
 #define myfile_dlog_assert(fmt , args...) printf("[MYFILE][%40s:%4d][###assert###] "fmt"\n", __func__, __LINE__, ##args)
@@ -50,7 +50,7 @@
 
 #define ug_detail_trace_error(fmt, arg...) \
 	do { \
-		LOGE("[%s][%d] "fmt"\n", strrchr(__FILE__, '/')+1, __LINE__, ##arg); \
+		dlog_print(DLOG_ERROR, LOG_TAG,"[%s][%d] "fmt"\n", strrchr(__FILE__, '/')+1, __LINE__, ##arg); \
 	} while (0)
 
 #define ug_detail_retvm_if(expr, val, fmt, arg...) \
@@ -79,7 +79,7 @@
 #define UG_DETAIL_TRACE_BEGIN \
 	do {\
 		{\
-			LOGD("\n\033[0;35mENTER FUNCTION: %s. \033[0m\t%s:%d\n", \
+			dlog_print(DLOG_DEBUG, LOG_TAG, "\n\033[0;35mENTER FUNCTION: %s. \033[0m\t%s:%d\n", \
 			__FUNCTION__, (char *)(strrchr(__FILE__, '/')+1), __LINE__);\
 		} \
 	} while (0);
@@ -87,7 +87,7 @@
 #define UG_DETAIL_TRACE_END  \
 	do {\
 		{\
-			LOGD("\n\033[0;35mEXIT FUNCTION: %s. \033[0m\t%s:%d\n", \
+			dlog_print(DLOG_DEBUG, LOG_TAG, "\n\033[0;35mEXIT FUNCTION: %s. \033[0m\t%s:%d\n", \
 			__FUNCTION__, (char *)(strrchr(__FILE__, '/')+1), __LINE__);\
 		} \
 	} while (0);

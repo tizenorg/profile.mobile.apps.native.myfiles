@@ -31,7 +31,7 @@
 #include <utils_i18n.h>
 #include <Eina.h>
 #include <Elementary.h>
-#include <storage.h>
+#include <storage/storage.h>
 #include "media_content.h"
 #include "mf-dlog.h"
 #include "mf-error.h"

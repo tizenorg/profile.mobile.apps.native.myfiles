@@ -2410,7 +2410,7 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	/* check */
 	Evas_Object *check = elm_check_add(popup);
 	mf_retvm_if(check == NULL, NULL, "check is NULL");
-	mf_object_text_set(check, MF_LABEL_APPLY_ALL, NULL);
+	//mf_object_text_set(check, MF_LABEL_APPLY_ALL, NULL);
 	evas_object_size_hint_align_set(check, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_smart_callback_add(check, "changed", __mf_check_clicked_cb, ap);
@@ -2425,7 +2425,18 @@ Evas_Object *mf_popup_replace_create(char *title, char *label_text, Evas_Smart_C
 	evas_object_size_hint_align_set(label, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	ap->label = label;
 	evas_object_show(label);
+	/*apply all label*/
+	Evas_Object *apply_all_label = elm_label_add(layout);
+	mf_retvm_if(apply_all_label == NULL, NULL, "apply_all_label is NULL");
+	elm_object_style_set(apply_all_label, "popup/default");
+	elm_label_line_wrap_set(apply_all_label, ELM_WRAP_MIXED);
+	mf_object_text_set(apply_all_label, MF_LABEL_APPLY_ALL, NULL);
+	evas_object_size_hint_weight_set(apply_all_label, EVAS_HINT_EXPAND, EVAS_HINT_FILL);
+	evas_object_size_hint_align_set(apply_all_label, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	evas_object_show(apply_all_label);
+
 	elm_object_part_content_set(layout, "elm.swallow.content", label);
+	elm_object_part_content_set(layout, "elm.swallow.apply", apply_all_label);
 	int h,w,x,y;
 	bool is_landscape = false;
 	evas_object_geometry_get(ap->mf_MainWindow.pWindow, &x, &y, &w, &h);

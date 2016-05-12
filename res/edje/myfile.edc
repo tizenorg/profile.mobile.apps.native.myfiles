@@ -2449,6 +2449,27 @@ group { name : "default_thumb_bg";
 					}
 				}
 			}
+			part {
+				name: "elm.swallow.apply";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.0 1.0;
+					rel1 {
+						relative: 1.0 0.35;
+						to_x: "pad_l";
+						to_y: "pad_b";
+						offset: 40 0;
+					
+					}
+					rel2 {
+						relative: 0.0 0.35;
+						to_x: "pad_r";
+						to_y: "pad_b";
+					}
+				}
+			}
 		}
 	}
 }

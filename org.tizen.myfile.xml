@@ -3,7 +3,7 @@
 	<label>My Files</label>
 	<author email="gliang.wang@samsung.com" href="www.samsung.com">Guangliang Wang</author>
 	<description>Myfiles Application</description>
-	<ui-application appid="org.tizen.myfile" exec="/usr/apps/org.tizen.myfile/bin/myfile"  nodisplay="false" multiple="false" type="capp" taskmanage="true" process-pool="false" hw-acceleration="use-GL" indicatordisplay="false" effectimage-type="edj-dark" portrait-effectimage="/usr/apps/org.tizen.myfile/shared/res/myfile-fake-effect.edj">
+	<ui-application appid="org.tizen.myfile" exec="/usr/apps/org.tizen.myfile/bin/myfile"  nodisplay="false" multiple="false" type="capp" taskmanage="true" hw-acceleration="on" process-pool="true" indicatordisplay="false" effectimage-type="edj-dark" portrait-effectimage="/usr/apps/org.tizen.myfile/shared/res/myfile-fake-effect.edj">
 		<icon>org.tizen.myfile.png</icon>
 		<label>My Files</label>
 		<label xml:lang="bn-in">আমার ফাইল</label>

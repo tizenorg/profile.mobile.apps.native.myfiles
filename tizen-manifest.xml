@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.tizen.myfile" version="1.0.0">
-	<profile name="mobile" />
-	<ui-application appid="org.tizen.myfile" exec="myfile" type="capp" multiple="false" taskmanage="true" nodisplay="false">
-		<icon>org.tizen.myfile.png</icon>
-		<label>My Files</label>
-		<label xml:lang="bn-in">আমার ফাইল</label>
-		<label xml:lang="gu-in">મારી ફાઇલ્સ</label>
-		<label xml:lang="kn-in">ನನ್ನ ಫೈ ಲ್ಗಳು</label>
-		<label xml:lang="en-gb">My Files</label>
-		<label xml:lang="ml-in">എന് റെ   ഫയലുകള്</label>
-		<label xml:lang="si-in">මගේ ගොනු</label>
-		<label xml:lang="te-in">నా ఫైళ్లు</label>
-		<label xml:lang="hi-in">मेरी फाइलें</label>
-		<label xml:lang="ur-in">میری ف ئلیں</label>
-		<label xml:lang="ta-in">எனது கோப்புகள்</label>
-		<label xml:lang="hy-am">Իմ Ֆայլերը</label>
-		<label xml:lang="az-az">Mənim fayllarım</label>
-		<label xml:lang="eu-es">Nire Fitxategiak</label>
-		<label xml:lang="bg-bg">Моите файлове</label>
-		<label xml:lang="ca-es">Els meus fitxers</label>
-		<label xml:lang="zh-cn">我的文件</label>
-		<label xml:lang="zh-hk">我的檔案</label>
-		<label xml:lang="zh-tw">我的檔案</label>
-		<label xml:lang="hr-hr">Moje datoteke</label>
-		<label xml:lang="cs-cz">Moje soubory</label>
-		<label xml:lang="da-dk">Mine filer</label>
-		<label xml:lang="nl-nl">Mijn bestanden</label>
-		<label xml:lang="en-us">My Files</label>
-		<label xml:lang="et-ee">Minu Failid</label>
-		<label xml:lang="fi-fi">Omat tiedostot</label>
-		<label xml:lang="fr-fr">Mes fichiers</label>
-		<label xml:lang="gl-es">Os Meus Arquivos</label>
-		<label xml:lang="ka-ge">ჩემი ფაილები</label>
-		<label xml:lang="de-de">Eigene Dateien</label>
-		<label xml:lang="el-gr">Τα Αρχεία Μου</label>
-		<label xml:lang="hu-hu">Saját fájlok</label>
-		<label xml:lang="is-is">Skrárnar mínar</label>
-		<label xml:lang="ga-ie">Mo Chomhaid</label>
-		<label xml:lang="it-it">Archivio</label>
-		<label xml:lang="ja-jp">マイ​ファイル</label>
-		<label xml:lang="kk-kz">Менің файлдарым</label>
-		<label xml:lang="ko-kr">내 파일</label>
-		<label xml:lang="lv-lv">Mani faili</label>
-		<label xml:lang="lt-lt">Mano failai</label>
-		<label xml:lang="mk-mk">Мои фајлови</label>
-		<label xml:lang="nb-no">Mine Filer</label>
-		<label xml:lang="pl-pl">Moje pliki</label>
-		<label xml:lang="pt-pt">Os Meus Ficheiros</label>
-		<label xml:lang="pt-br">Meus Arquivos</label>
-		<label xml:lang="ro-ro">Fişierele mele</label>
-		<label xml:lang="ru-ru">Мои файлы</label>
-		<label xml:lang="sr-rs">Moji fajlovi</label>
-		<label xml:lang="sk-sk">Moje súbory</label>
-		<label xml:lang="sl-si">Moje datoteke</label>
-		<label xml:lang="es-es">Mis archivos</label>
-		<label xml:lang="es-us">Mis Archivos</label>
-		<label xml:lang="sv-se">Mina filer</label>
-		<label xml:lang="tr-tr">Dosyalarım</label>
-		<label xml:lang="uk-ua">Мої файли</label>
-		<label xml:lang="uz-uz">Mening fayllarim</label>
-		<label xml:lang="ar-ae">ملفاتي</label>
-		<label xml:lang="zh-sg">我的文件</label>
-		<label xml:lang="en-ph">My Files</label>
-		<label xml:lang="fr-ca">Mes fichiers</label>
-		<label xml:lang="es-mx">Mis Archivos</label>
-	</ui-application>
-	<privileges>
-		<privilege>http://tizen.org/privilege/mediastorage</privilege>
-		<privilege>http://tizen.org/privilege/appmanager.launch</privilege>
-		<privilege>http://tizen.org/privilege/datasharing</privilege>
-		<privilege>http://tizen.org/privilege/packagemanager.info</privilege>
-		<privilege>http://tizen.org/privilege/externalstorage</privilege>
-		<privilege>http://tizen.org/privilege/content.write</privilege>
-	</privileges>
+    <profile name="mobile"/>
+    <ui-application appid="org.tizen.myfile" exec="myfile" hw-acceleration="on" process-pool="true" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>My Files</label>
+        <label xml:lang="bn-in">আমার ফাইল</label>
+        <label xml:lang="gu-in">મારી ફાઇલ્સ</label>
+        <label xml:lang="kn-in">ನನ್ನ ಫೈ ಲ್ಗಳು</label>
+        <label xml:lang="en-gb">My Files</label>
+        <label xml:lang="ml-in">എന് റെ   ഫയലുകള്</label>
+        <label xml:lang="si-in">මගේ ගොනු</label>
+        <label xml:lang="te-in">నా ఫైళ్లు</label>
+        <label xml:lang="hi-in">मेरी फाइलें</label>
+        <label xml:lang="ur-in">میری ف ئلیں</label>
+        <label xml:lang="ta-in">எனது கோப்புகள்</label>
+        <label xml:lang="hy-am">Իմ Ֆայլերը</label>
+        <label xml:lang="az-az">Mənim fayllarım</label>
+        <label xml:lang="eu-es">Nire Fitxategiak</label>
+        <label xml:lang="bg-bg">Моите файлове</label>
+        <label xml:lang="ca-es">Els meus fitxers</label>
+        <label xml:lang="zh-cn">我的文件</label>
+        <label xml:lang="zh-hk">我的檔案</label>
+        <label xml:lang="zh-tw">我的檔案</label>
+        <label xml:lang="hr-hr">Moje datoteke</label>
+        <label xml:lang="cs-cz">Moje soubory</label>
+        <label xml:lang="da-dk">Mine filer</label>
+        <label xml:lang="nl-nl">Mijn bestanden</label>
+        <label xml:lang="en-us">My Files</label>
+        <label xml:lang="et-ee">Minu Failid</label>
+        <label xml:lang="fi-fi">Omat tiedostot</label>
+        <label xml:lang="fr-fr">Mes fichiers</label>
+        <label xml:lang="gl-es">Os Meus Arquivos</label>
+        <label xml:lang="ka-ge">ჩემი ფაილები</label>
+        <label xml:lang="de-de">Eigene Dateien</label>
+        <label xml:lang="el-gr">Τα Αρχεία Μου</label>
+        <label xml:lang="hu-hu">Saját fájlok</label>
+        <label xml:lang="is-is">Skrárnar mínar</label>
+        <label xml:lang="ga-ie">Mo Chomhaid</label>
+        <label xml:lang="it-it">Archivio</label>
+        <label xml:lang="ja-jp">マイ​ファイル</label>
+        <label xml:lang="kk-kz">Менің файлдарым</label>
+        <label xml:lang="ko-kr">내 파일</label>
+        <label xml:lang="lv-lv">Mani faili</label>
+        <label xml:lang="lt-lt">Mano failai</label>
+        <label xml:lang="mk-mk">Мои фајлови</label>
+        <label xml:lang="nb-no">Mine Filer</label>
+        <label xml:lang="pl-pl">Moje pliki</label>
+        <label xml:lang="pt-pt">Os Meus Ficheiros</label>
+        <label xml:lang="pt-br">Meus Arquivos</label>
+        <label xml:lang="ro-ro">Fişierele mele</label>
+        <label xml:lang="ru-ru">Мои файлы</label>
+        <label xml:lang="sr-rs">Moji fajlovi</label>
+        <label xml:lang="sk-sk">Moje súbory</label>
+        <label xml:lang="sl-si">Moje datoteke</label>
+        <label xml:lang="es-es">Mis archivos</label>
+        <label xml:lang="es-us">Mis Archivos</label>
+        <label xml:lang="sv-se">Mina filer</label>
+        <label xml:lang="tr-tr">Dosyalarım</label>
+        <label xml:lang="uk-ua">Мої файли</label>
+        <label xml:lang="uz-uz">Mening fayllarim</label>
+        <label xml:lang="ar-ae">ملفاتي</label>
+        <label xml:lang="zh-sg">我的文件</label>
+        <label xml:lang="en-ph">My Files</label>
+        <label xml:lang="fr-ca">Mes fichiers</label>
+        <label xml:lang="es-mx">Mis Archivos</label>
+        <icon>org.tizen.myfile.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+        <privilege>http://tizen.org/privilege/datasharing</privilege>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/content.write</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage</privilege>
+    </privileges>
 </manifest>

@@ -736,6 +736,9 @@ msgstr "%d atriði valin."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Myndir"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Leit"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Myndskeið"
 
@@ -786,6 +789,9 @@ msgstr "Afritun stendur yfir..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Verið er að eyða..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Listi"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Aðgerð mistókst."
@@ -928,8 +934,14 @@ msgstr "Einkunn foreldra"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Skráarheitið er þegar í notkun."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Möppur"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Upplýsingar"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Búa til"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Tal"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi er ekki í boði. Ef tengst er í gegnum farsímakerfi kann það 
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Hámarksfjölda stafa (%d) hefur verið náð."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Stærð"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Undirbý..."
@@ -1068,6 +1083,9 @@ msgstr "Skrárnar mínar"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Færa"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Afritað."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Skipta"
@@ -1707,4 +1725,7 @@ msgstr "Flutt."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Verið er að flytja..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tegund"
 

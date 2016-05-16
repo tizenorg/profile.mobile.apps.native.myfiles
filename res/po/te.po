@@ -736,6 +736,9 @@ msgstr "%d ఐటెమ్‌లు ఎంపికైనవి."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "చిత్రాలు"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "వెతుకు"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "వీడియోలు"
 
@@ -786,6 +789,9 @@ msgstr "కాపీ అవుతోంది..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "తొలగిస్తోంది..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "జాబితా"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ఆపరేషన్ విఫలమైంది."
@@ -928,8 +934,14 @@ msgstr "పేరెంట్ రేటింగ్"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ఫైల్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ఫోల్డర్‌లు"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "వివరాలు"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "రూపొందించు"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "వాయిస్"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi అందుబాటులో లేదు. మొబైల్ �
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "అక్షరాల గరిష్ట సంఖ్యను (%d) చేరుకున్నారు."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "పరిమాణం"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "సిద్ధం అవుతోంది..."
@@ -1068,6 +1083,9 @@ msgstr "నా ఫైళ్లు"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "తరలించు"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "కాపీ అయింది."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "భర్తీ చేయి"
@@ -1707,4 +1725,7 @@ msgstr "తరలించబడింది."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "తరలిస్తోంది..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "రకం"
 

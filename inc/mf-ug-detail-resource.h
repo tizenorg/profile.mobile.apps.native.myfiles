@@ -51,7 +51,7 @@ char *mf_detail_widget_get_text(const char *ID);
 #define MF_UG_DETAIL_LABEL_SYSTEM		mf_detail_widget_get_text("IDS_COM_BODY_SYSTEM")
 #define MF_UG_DETAIL_LABEL_UNKNOWN		mf_detail_widget_get_text("IDS_COM_BODY_UNKNOWN")
 #define MF_UG_DETAIL_LABEL_DETAILS		mf_detail_widget_get_text("IDS_COM_BODY_DETAILS")
-#define MF_UG_DETAIL_LABEL_NAME			"IDS_COM_BODY_DETAILS_NAME"
+#define MF_UG_DETAIL_LABEL_NAME			"IDS_MF_BODY_NAME"
 #define MF_UG_DETAIL_LABEL_SIZE			"IDS_COM_BODY_SIZE"
 #define MF_UG_DETAIL_LABEL_FORMAT		mf_detail_widget_get_text("IDS_MF_MBODY_FORMAT") //"IDS_MF_POP_FORMAT" //"IDS_COM_BODY_FORMAT"
 #define MF_UG_DETAIL_LABEL_RESOLUTION		"IDS_IDLE_BODY_RESOLUTION"
@@ -65,8 +65,8 @@ char *mf_detail_widget_get_text(const char *ID);
 #define MF_UG_DETAIL_LABEL_TYPE			"IDS_COM_BODY_DETAILS_TYPE"
 #define MF_UG_DETAIL_LABEL_BASIC		"IDS_COM_BODY_BASIC"
 #define MF_UG_DETAIL_LABEL_INFORMATION		"IDS_COM_BODY_INFORMATION"
-#define MF_UG_DETAIL_LABELL_FILES		mf_detail_widget_get_text("IDS_COM_OPT_FILES")
-#define MF_UG_DETAIL_LABELL_FILE		mf_detail_widget_get_text("IDS_COM_POP_FILE")
+#define MF_UG_DETAIL_LABELL_FILES		mf_detail_widget_get_text("IDS_MF_BODY_FILES")
+#define MF_UG_DETAIL_LABELL_FILE		mf_detail_widget_get_text("IDS_MF_BODY_FILE")
 #define MF_UG_DETAIL_LABELL_FOLDER		mf_detail_widget_get_text("IDS_COM_POP_FOLDER")
 #define MF_UG_DETAIL_LABELL_FOLDERS		mf_detail_widget_get_text("IDS_COM_BODY_FOLDERS")
 #define MF_UG_DETAIL_LABEL_DEVICE_MEMORY	mf_detail_widget_get_text("IDS_VIDEO_SBODY_DEVICE_STORAGE") //mf_detail_widget_get_text("IDS_MF_BODY_DEVICE_MEMORY_ABB")

@@ -736,6 +736,9 @@ msgstr "%d mír roghnaithe."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Íomhánna"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Cuardaigh"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Físeáin"
 
@@ -786,6 +789,9 @@ msgstr "Ag cóipeáil..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Ag scriosadh..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Liostaigh"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Theip ar oibríocht."
@@ -928,8 +934,14 @@ msgstr "Rátáil tuismitheoirí"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Comhadainm in úsáid cheana."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Fillteáin"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Sonraí"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Cruthaigh"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Guth"
@@ -939,6 +951,9 @@ msgstr "Níl Wi-Fi ar fáil. Is féidir go ngearrfar táillí breise ar nascadh 
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Tá uaslíon na gcarachtar (%d) bainte amach"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Méid"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Á ullmhú..."
@@ -1068,6 +1083,9 @@ msgstr "Mo Chomhaid"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Bog"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Cóipeáilte."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ionadaigh"
@@ -1707,4 +1725,7 @@ msgstr "Bogtha."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Ag bogadh..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Cineál"
 

@@ -736,6 +736,9 @@ msgstr "Wybrane elementy: %d."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Obrazy"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Szukaj"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Filmy"
 
@@ -786,6 +789,9 @@ msgstr "Kopiowanie..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Usuwanie..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operacja nie powiodła się."
@@ -928,8 +934,14 @@ msgstr "Ocena rodzica"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nazwa pliku już istnieje."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Katalogi"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Szczegóły"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Utwórz"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Głos"
@@ -939,6 +951,9 @@ msgstr "Sieć Wi-Fi jest niedostępna. Połączenie z sieciami telefonii komórk
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Osiągnięto maksymalną liczbę znaków (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Rozmiar"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Przyg.w toku..."
@@ -1068,6 +1083,9 @@ msgstr "Moje pliki"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Przenieś"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Skopiowano."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zastąp"
@@ -1707,4 +1725,7 @@ msgstr "Przeniesiono."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Przenoszenie..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Typ"
 

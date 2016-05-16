@@ -736,6 +736,9 @@ msgstr "已選擇 %d 項目。"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "圖像"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "搜尋"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "影片"
 
@@ -786,6 +789,9 @@ msgstr "正在複製..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "正在刪除..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "清單"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "操作失敗"
@@ -928,8 +934,14 @@ msgstr "父級評分"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "檔案名稱已被使用"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "資料夾"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "詳細資料"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "建立"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "語音"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi 無法使用。連接至行動網路可能根據您的資費方案
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "已達字元的最高數量 (%d)。"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "大小"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "正在就緒..."
@@ -1068,6 +1083,9 @@ msgstr "我的檔案"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "移動"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "已複製。"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "取代"
@@ -1707,4 +1725,7 @@ msgstr "已移動"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "正在移動..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "類型"
 

@@ -736,6 +736,9 @@ msgstr "%d элемент таңдалды."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Суреттер"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Іздеу"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Бейнежазбалар"
 
@@ -786,6 +789,9 @@ msgstr "Көшірілуде..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Жойылуда..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Тізім"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Әрекет сәтсіз аяқталды."
@@ -928,8 +934,14 @@ msgstr "Ата-ана қамқорлығы"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Файл аты қолданылады."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Қалталар"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Өзгешеліктері"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Құру"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Дауыс"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi қол жетімді емес. Ұялы байланыс желі
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Таңбалардың ең көп саны (%d) шегіне жетті."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Өлшемі"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Дай-да..."
@@ -1068,6 +1083,9 @@ msgstr "Менің файлдарым"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Орналастыру"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Хабар(лар) көшірілді"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ауыст-у"
@@ -1707,4 +1725,7 @@ msgstr "Орналастырылды."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Орналастырылды"
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Түрі"
 

@@ -736,6 +736,9 @@ msgstr "%d itens selecionados."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Imagens"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Pesquisar"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
@@ -786,6 +789,9 @@ msgstr "Copiando..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Apagando…"
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operação falhou."
@@ -928,8 +934,14 @@ msgstr "Taxa anterior"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome de arquivo já utilizado."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Pastas"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detalhes"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Criar"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi não está disponível. A conexão às redes móveis pode resultar
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "O número máximo de caracteres (%d) foi atingido."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Tamanho"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Prepar..."
@@ -1068,6 +1083,9 @@ msgstr "Meus Arquivos"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Mover"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copiado."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Subst."
@@ -1322,7 +1340,7 @@ msgid "IDS_MF_HEADER_VIDEOS"
 msgstr "Vídeos"
 
 msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Visualize como"
+msgstr "Ver como"
 
 msgid "IDS_MF_ITAB2_ALL"
 msgstr "Todas"
@@ -1707,4 +1725,7 @@ msgstr "Movido."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Movendo…"
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tipo"
 

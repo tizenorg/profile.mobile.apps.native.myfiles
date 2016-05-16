@@ -736,6 +736,9 @@ msgstr "%d odabranih stavki."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Slike"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Traži"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
@@ -786,6 +789,9 @@ msgstr "Kopiranje..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Brisanje..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Popis"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Neuspješno."
@@ -928,8 +934,14 @@ msgstr "Roditeljska zaštita"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke već postoji."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Mape"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detalji"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Novi"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Glas"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi nije dostupan. Povezivanje s mobilnim mrežama može uzrokovati do
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Dosegnut je maksimalan broj znakova (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Veličina"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Priprema..."
@@ -1068,6 +1083,9 @@ msgstr "Moje Datoteke"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Premjesti"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopirano."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zamij."
@@ -1707,4 +1725,7 @@ msgstr "Premješteno."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Premještanje..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Vrsta"
 

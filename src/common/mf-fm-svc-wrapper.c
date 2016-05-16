@@ -753,7 +753,7 @@ static void __mf_fm_svc_wrapper_path_info_node_free(Eina_List *list)
 char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 {
 
-	mf_retvm_if(path_info == NULL, g_strdup(dgettext("sys_string", "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
+	mf_retvm_if(path_info == NULL, g_strdup(dgettext(MYFILE_STRING_PACKAGE, "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
 
 	int top = 0;
 	bool flag = TRUE;
@@ -778,7 +778,7 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 	if (result == NULL) {
 		SAFE_FREE_CHAR(path_info);
 		SAFE_FREE_CHAR(omit);
-		return g_strdup(dgettext("sys_string", "IDS_COM_BODY_UNKNOWN"));
+		return g_strdup(dgettext(MYFILE_STRING_PACKAGE, "IDS_COM_BODY_UNKNOWN"));
 	}
 
 	params = result;
@@ -1057,7 +1057,7 @@ Exception:
 char *mf_fm_svc_path_info_get(const char *original_path)
 {
 	MF_TRACE_BEGIN;
-	mf_retvm_if(original_path == NULL, g_strdup(dgettext("sys_string", "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
+	mf_retvm_if(original_path == NULL, g_strdup(dgettext(MYFILE_STRING_PACKAGE, "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
 	char *path_info = NULL;
 	int len = 0;
 
@@ -1076,7 +1076,7 @@ char *mf_fm_svc_path_info_get(const char *original_path)
 char *mf_fm_svc_wrapper_translate_path(const char *original_path, MF_TRANS_OPTION option)
 {
 	MF_TRACE_BEGIN;
-	mf_retvm_if(original_path == NULL, g_strdup(dgettext("sys_string", "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
+	mf_retvm_if(original_path == NULL, g_strdup(dgettext(MYFILE_STRING_PACKAGE, "IDS_COM_BODY_UNKNOWN")), "input path is NULL");
 
 	char *new_path = NULL;
 	int root_len = 0;

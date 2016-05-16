@@ -736,6 +736,9 @@ msgstr "تم تحديد %d من العناصر."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "الصور"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "بحث"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "الفيديو"
 
@@ -786,6 +789,9 @@ msgstr "جاري النسخ..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "جاري المسح..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "اللائحة"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "فشلت العملية."
@@ -928,8 +934,14 @@ msgstr "التصنيف الأصلي"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "تم استخدام اسم الملف مسبقا."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "المجلدات"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "التفاصيل"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "إنشاء"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "صوت"
@@ -939,6 +951,9 @@ msgstr "شبكة Wi-Fi غير متاحة. قد يترتب على الاتصال 
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "تم الوصول إلى الحد الأقصى لعدد الأحرف (%d)"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "الحجم"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "جارٍ التحضير..."
@@ -1068,6 +1083,9 @@ msgstr "ملفاتي"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "نقل"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "تم النسخ."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "استبدال"
@@ -1707,4 +1725,7 @@ msgstr "تم النقل."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "جاري النقل..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "النوع"
 

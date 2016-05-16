@@ -736,6 +736,9 @@ msgstr "%d ਆਈਟਮਸ ਚੁਣੀਆਂ।"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "ਚਿੱਤਰ"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "ਖੋਜੋ"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ਵੀਡਿਓਜ਼"
 
@@ -786,6 +789,9 @@ msgstr "ਕਾਪੀ ਹੋ ਰਹੇ ਹਨ..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "ਮਿਟਾ ਰਿਹਾ ਹੈ..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "ਸੂਚੀ"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ਕਾਰਵਾਈ ਅਸਫਲ।"
@@ -928,8 +934,14 @@ msgstr "ਪੇਰੇਂਟ ਰੇਟਿੰਗ"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ਫਾਈਲ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ਫੋਲਡਰਸ"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "ਵੇਰਵੇ"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "ਬਣਾਉ"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ਵਾੱਇਸ"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਤੁਹਾਡੀ ਭੁ�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "ਵਰਣਾਂ ਦੀ ਅਧਿਕਤਮ ਸੰਖਿਆ (%d) ਤੇ ਪਹੁੰਚ ਗਈ ਹੈ।"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "ਆਕਾਰ"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "ਤਿਆਰ ਹੋ ਰਿਹਾ ਹੈ..."
@@ -1068,6 +1083,9 @@ msgstr "ਮੇਰੀਆਂ ਫਾਈਲਾਂ"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "ਮੂਵ ਕਰੋ"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "ਕਾਪੀ ਹੋਇਆ।"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ਬਦਲੋ"
@@ -1707,4 +1725,7 @@ msgstr "ਮੂਵ ਹੋਇਆ।"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "ਮੂਵ ਹੋ ਰਿਹਾ ਹੈ..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "ਪ੍ਰਕਾਰ"
 

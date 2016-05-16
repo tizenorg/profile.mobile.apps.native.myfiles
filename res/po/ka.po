@@ -736,6 +736,9 @@ msgstr "არჩეულია %d ელემენტი."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "გამოსახულებები"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "ძიება"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ვიდეოები"
 
@@ -786,6 +789,9 @@ msgstr "კოპირდება..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "წაშლა..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "სია"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ოპერაცია ვერ შესრულდა."
@@ -928,8 +934,14 @@ msgstr "მშობლის შეფასება"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ფაილის სახელი უკვე გამოყენებულია."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "საქაღალდეები"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "დეტალები"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "შექმნა"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ხმა"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi მიუწვდომელია. მობილურ ქს
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "მიღწეულია სიმბოლოთა მაქსიმალური რაოდენობა (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "ზომა"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "მზადდება..."
@@ -1068,6 +1083,9 @@ msgstr "ჩემი ფაილები"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "გადატანა"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "დაკოპირდა."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "შეცვლა"
@@ -1707,4 +1725,7 @@ msgstr "გადატანილია."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "გადატანა..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "ტიპი"
 

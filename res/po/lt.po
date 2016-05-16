@@ -736,6 +736,9 @@ msgstr "Pasirinkta elementų: %d"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Vaizdai"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Ieškoti"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vaizdo įrašai"
 
@@ -786,6 +789,9 @@ msgstr "Kopijuojama..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Trinama..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Sąrašas"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Veiksmas nepavyko."
@@ -928,8 +934,14 @@ msgstr "Tėvų vertinimas"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failo pavadinimas jau naudojamas."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Aplankai"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Išsami informacija"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Kurti"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Balsas"
@@ -939,6 +951,9 @@ msgstr "„Wi-Fi“ nepasiekiamas. Prisijungus prie mobiliųjų tinklų gali bū
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Pasiektas didžiausias simbolių skaičius (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Dydis"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Ruošiama..."
@@ -1068,6 +1083,9 @@ msgstr "Mano failai"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Perkelti"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Nukopijuota."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Pakeist"
@@ -1707,4 +1725,7 @@ msgstr "Perkelta."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Perkeliama..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tipas"
 

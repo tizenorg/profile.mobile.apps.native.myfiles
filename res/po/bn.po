@@ -736,6 +736,9 @@ msgstr "%dটি আইটেম নির্বাচিত হয়েছে।"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "চিত্রগুলি"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "অনুসন্ধান"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ভিডিওগুলি"
 
@@ -786,6 +789,9 @@ msgstr "অনুলিপি হচ্ছে..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "মোছা হচ্ছে...."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "তালিকা"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "অপারেশন ব্যর্থ।"
@@ -928,8 +934,14 @@ msgstr "অভিভাবকীয় রেটিং"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ফাইল নাম ইতিমধ্যেই ব্যবহারে আছে।"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ফোল্ডারগুলি"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "বিশদ"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "তৈরি করুন"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ভয়েস"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi সুলভ নেই। মোবাইল নেটওয়ার
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "অক্ষরের সর্বাধিক সংখ্যায় (%dটি) পৌঁছেছে।"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "আকার"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "প্রস্তুত হ..."
@@ -1068,6 +1083,9 @@ msgstr "আমার ফাইল"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "সরান"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "অনুলিপি হয়েছে।"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "প্রতিস্থাপন"
@@ -1707,4 +1725,7 @@ msgstr "সরানো হয়েছে।"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "সরানো হচ্ছে.."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "প্রকার"
 

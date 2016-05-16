@@ -736,6 +736,9 @@ msgstr "%d tétel kijelölve."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Képek"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Keresés"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videók"
 
@@ -786,6 +789,9 @@ msgstr "Másolás..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Törlés..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Sikertelen művelet"
@@ -928,8 +934,14 @@ msgstr "Szülői értékelés"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "A fájlnév már foglalt."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Mappák"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Részletek"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Létrehoz"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Hang"
@@ -939,6 +951,9 @@ msgstr "A Wi-Fi nem elérhető. Mobilhálózati kapcsolat létesítése az előf
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Elérte a karakterek maximális számát (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Méret"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Előkész..."
@@ -1068,6 +1083,9 @@ msgstr "Saját fájlok"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Áthelyez"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Átmásolva."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Csere"
@@ -1707,4 +1725,7 @@ msgstr "Áthelyezve."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Áthelyezés..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Típus"
 

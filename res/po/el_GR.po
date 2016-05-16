@@ -736,6 +736,9 @@ msgstr "Επιλέχθηκαν %d στοιχεία."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Εικόνες"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Αναζήτηση"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Βίντεο"
 
@@ -786,6 +789,9 @@ msgstr "Αντιγραφή..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Διαγραφή..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Λίστα"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Λειτουργία απέτυχε."
@@ -928,8 +934,14 @@ msgstr "Γονική αξιολόγηση"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα αρχείου υπάρχει ήδη."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Φάκελοι"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Λεπτομέρειες"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Δημ/ργία"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Φωνή"
@@ -939,6 +951,9 @@ msgstr "Δεν είναι διαθέσιμο το Wi-Fi. Η σύνδεση σε 
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Συμπληρώθηκε ο μέγιστος αριθμός χαρακτήρων (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Μέγεθος"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Προετοιμ..."
@@ -1068,6 +1083,9 @@ msgstr "Τα Αρχεία Μου"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Μετακίνηση"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Αντιγράφηκε."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Αντικ."
@@ -1707,4 +1725,7 @@ msgstr "Μετακινήθηκε."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Μετακίνηση..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Τύπος"
 

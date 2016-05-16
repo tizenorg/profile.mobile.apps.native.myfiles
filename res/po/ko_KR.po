@@ -736,6 +736,9 @@ msgstr "항목 %d개를 선택하였습니다."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "이미지"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "검색"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "동영상"
 
@@ -786,6 +789,9 @@ msgstr "복사 중..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "삭제 중..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "목록"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "작업을 수행하지 못하였습니다."
@@ -928,8 +934,14 @@ msgstr "부모의 시청 지도가 필요한 등급"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "사용 중인 파일 이름입니다."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "폴더"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "상세 정보"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "추가"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "음성"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi를 사용할 수 없습니다. 모바일 네트워크에 연결하
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "최대 글자 수(%d)에 도달하였습니다."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "크기"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "준비 중..."
@@ -1068,6 +1083,9 @@ msgstr "내 파일"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "이동"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "복사하였습니다."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "대체"
@@ -1707,4 +1725,7 @@ msgstr "이동하였습니다."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "이동 중..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "종류"
 

@@ -736,6 +736,9 @@ msgstr "%d element seçildi."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Təsvirlər"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Axtarış"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
@@ -786,6 +789,9 @@ msgstr "Köçürülmə..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Silinmə"
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Siyahı"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Əməliyyat alınmadı."
@@ -928,8 +934,14 @@ msgstr "Valideyn reytinqi"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl adından artıq istifadə edilir."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Qovluqlar"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Təfsilatlar"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Yarat"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Səs"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi mümkün deyil. Tarif planınızdan asılı olaraq mobil şəbək�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Simvolların sayı maksimuma (%d) çatıb."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Ölçü"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Hazırl..."
@@ -1068,6 +1083,9 @@ msgstr "Mənim fayllarım"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Göndər"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Surəti saxlanıldı."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Əvəz et"
@@ -1707,4 +1725,7 @@ msgstr "Göndərildi."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Göndərilmə..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tip"
 

@@ -736,6 +736,9 @@ msgstr "අයිතම %d ක් තෝරා ඇත."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "පින්තූර"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "සොයන්න"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "වීඩියෝ"
 
@@ -786,6 +789,9 @@ msgstr "පිටපත් වෙමින්..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "මකා දමමින්..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "ලැයිස්තුව"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "මෙහෙයුම අසාර්ථකයි."
@@ -928,8 +934,14 @@ msgstr "මවිපිය ඇගයුම"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ගොනු නාමය දැනටමත් භාවිතා වේ."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ෆෝල්ඩර"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "විස්තර"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "සාදන්න"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "හඬ"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi නොමැත. ඔබේ ගෙවීම් සැලැස්�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "උපරිම අනුලකුණු ගණන (%d) ළඟා වී තිබේ."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "ප්‍රමාණය"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "පිළියෙළ කරමින්..."
@@ -1068,6 +1083,9 @@ msgstr "මගේ ගොනු"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "ගෙනයන්න"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "පිටපත් විය."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ආදේශ ක."
@@ -1707,4 +1725,7 @@ msgstr "ගෙන යැවිණි."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "ගෙනයමින්..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "වර්ගය"
 

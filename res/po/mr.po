@@ -736,6 +736,9 @@ msgstr "%d आयटम्स निवडले."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "प्रतिमा"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "शोध"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "व्हिडिओ"
 
@@ -786,6 +789,9 @@ msgstr "कॉपी करत आहे..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "काढले जात आहे..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "यादी"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ऑपरेशन अयशस्वी."
@@ -928,8 +934,14 @@ msgstr "पॅरेन्ट दर"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "फाईल नाव यापूर्वीच वापरात आहे."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "फोल्डर"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "तपशील"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "तयार करा"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "आवाज"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi उपलब्ध नाही. आपल्या देय य�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "वर्णांची अधिकतम संख्‍या (%d) गाठली."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "आकार"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "तयार होत आहे..."
@@ -1068,6 +1083,9 @@ msgstr "माझ्या फाईली"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "हलवा"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "कॉपी केले."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "बदला"
@@ -1707,4 +1725,7 @@ msgstr "हलवले."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "हलवत आहे..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "प्रकार"
 

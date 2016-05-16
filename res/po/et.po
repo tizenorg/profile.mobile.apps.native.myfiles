@@ -736,6 +736,9 @@ msgstr "%d üksust on valitud."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Pildid"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Otsi"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videod"
 
@@ -786,6 +789,9 @@ msgstr "Kopeerimine..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Kustutamine..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Loend"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Toiming nurjus."
@@ -928,8 +934,14 @@ msgstr "Vanemate hinnang"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failinimi on juba kasutusel."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Kaustad"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Üksikasjad"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Loo"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Hääl"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi pole saadaval. Sõltuvalt teie paketist võivad mobiilsidevõrguga
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Tahemarkide maksimaalne arv (%d) on saavutatud."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Suurus"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Valmistum..."
@@ -1068,6 +1083,9 @@ msgstr "Minu Failid"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Teisalda"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopeeritud."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Asenda"
@@ -1707,4 +1725,7 @@ msgstr "Teisaldatud."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Teisaldamine..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tüüp"
 

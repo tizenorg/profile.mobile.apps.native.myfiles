@@ -736,6 +736,9 @@ msgstr "Vybraté položky: %d."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Obrázky"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Hľadať"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videá"
 
@@ -786,6 +789,9 @@ msgstr "Kopírovanie..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Odstraňovanie..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Zoznam"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operácia zlyhala."
@@ -928,8 +934,14 @@ msgstr "Rodičovské hodnotenie"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Názov súboru už existuje."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Priečinky"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Podrobnosti"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Vytvoriť"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Hlas"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi nie je k dispozícii. Pripojenie k mobilným sieťam môže znamen
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Dosiahol sa maximálny počet znakov (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Veľkosť"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Príprava..."
@@ -1068,6 +1083,9 @@ msgstr "Moje súbory"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Presunúť"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Skopírované."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Nahrad."
@@ -1707,4 +1725,7 @@ msgstr "Presunuté."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Presúvanie..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Typ"
 

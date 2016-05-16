@@ -736,6 +736,9 @@ msgstr "%d predmetov izbranih."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Slike"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Iskanje"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoposnetki"
 
@@ -786,6 +789,9 @@ msgstr "Kopiram ..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Brišem"
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Seznam"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Postopek ni uspel."
@@ -928,8 +934,14 @@ msgstr "Starševska ocena"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke je že v uporabi."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Mape"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Podrobnosti"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Ustvari"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Glas"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ni na voljo. Povezava z mobilnim omrežjem lahko povzroči dodatne
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Doseženo je največje dovoljeno število znakov (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Velikost"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Priprava ..."
@@ -1068,6 +1083,9 @@ msgstr "Moje datoteke"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Premakni"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopirano."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Zamen."
@@ -1707,4 +1725,7 @@ msgstr "Premaknjeno."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Premikam"
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Vrsta"
 

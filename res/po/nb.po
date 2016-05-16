@@ -736,6 +736,9 @@ msgstr "%d elementer valgt."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Bilder"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Søk"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
@@ -786,6 +789,9 @@ msgstr "Kopierer..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Sletter..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Liste"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operasjonen mislyktes."
@@ -928,8 +934,14 @@ msgstr "Aldersgrense"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavn allerede i bruk."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Mapper"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detaljer"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Opprett"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Tale"
@@ -939,6 +951,9 @@ msgstr "Det er ingen Wi-Fi-nettverk tilgjengelig. Tilkobling til mobilnett kan m
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Det maksimale antallet tegn (%d) er nådd."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Størrelse"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Forbered..."
@@ -1068,6 +1083,9 @@ msgstr "Mine filer"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Flytt"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopiert."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Erstatt"
@@ -1707,4 +1725,7 @@ msgstr "Flyttet."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Flytter..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Type"
 

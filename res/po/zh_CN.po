@@ -736,6 +736,9 @@ msgstr "已选择 %d 个项目。"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "图片"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "搜索"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "视频"
 
@@ -786,6 +789,9 @@ msgstr "正在复制..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "删除中.."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "列表"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "操作失败"
@@ -928,8 +934,14 @@ msgstr "父速率"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "文件名已被使用中"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "文件夹"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "详细信息"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "新建"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "语音"
@@ -939,6 +951,9 @@ msgstr "WLAN 不可用。连接至移动网络根据您的资费套餐可能产�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "已达最大字符数（%d）。"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "大小"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "正在准备..."
@@ -1068,6 +1083,9 @@ msgstr "我的文件"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "移动"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "已复制"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "替换"
@@ -1707,4 +1725,7 @@ msgstr "已移动"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "移动中..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "类型"
 

@@ -736,6 +736,9 @@ msgstr "%d element tanlangan."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Tasvirlar"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Qidirish"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videolar"
 
@@ -786,6 +789,9 @@ msgstr "Nusxa ko‘chirilmoqda..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "O'chirilmoqda…"
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Ro‘yxat"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operatsiya bajarilmadi."
@@ -928,8 +934,14 @@ msgstr "Qo'shimcha baholash"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl nomi avvaldan foydalanilmoqda."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Jildlar"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Tafsilotlar"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Yaratish"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ovoz"
@@ -939,6 +951,9 @@ msgstr "Wi-Fidan foydalanib bo‘lmaydi. Mobil tarmoqlarga ulanish uchun, to‘l
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Belgilar soni maksimal miqdorga (%d) yetdi."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "O‘lcham"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Tay-rlash..."
@@ -1068,6 +1083,9 @@ msgstr "Fayllarim"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Ko‘chirish"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Nusxa olindi."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Almash"
@@ -1707,4 +1725,7 @@ msgstr "Ko‘chirilgan."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Ko‘chirilmoqda..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tur"
 

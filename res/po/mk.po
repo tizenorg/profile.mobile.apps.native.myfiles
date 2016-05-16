@@ -736,6 +736,9 @@ msgstr "Избрани се %d записи."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Слики"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Пребарување"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Видео-записи"
 
@@ -786,6 +789,9 @@ msgstr "Се копира..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Се брише..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Листа"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Неуспешна операција."
@@ -928,8 +934,14 @@ msgstr "Родителска оцена"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Името на фајл веќе се користи."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Папки"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Детали"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Ново"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Гласовни"
@@ -939,6 +951,9 @@ msgstr "Не е достапно Wi-Fi. Поврзувањето со мобил
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Достигнат е максималниот број знаци (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Големина"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Се подгот..."
@@ -1068,6 +1083,9 @@ msgstr "Мои фајлови"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Премести"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Копирано."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замени"
@@ -1707,4 +1725,7 @@ msgstr "Преместено."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Се преместува..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Тип"
 

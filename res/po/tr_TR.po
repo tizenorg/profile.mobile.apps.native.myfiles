@@ -736,6 +736,9 @@ msgstr "%d öğe seçildi."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Resimler"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Ara"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videolar"
 
@@ -786,6 +789,9 @@ msgstr "Kopyalanıyor..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Siliniyor..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Listele"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "İşlem başarısız."
@@ -928,8 +934,14 @@ msgstr "Ebeveyn sıralaması"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Dosya adı kullanılıyor."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Klasörler"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Ayrıntılar"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Oluştur"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ses"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ağı yok. Mobil ağlara bağlanmak ödeme planınıza bağlı ola
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Maksimum karakter sayısına (%d) ulaşıldı"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Boyut"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Hzrlnıyor..."
@@ -1068,6 +1083,9 @@ msgstr "Dosyalarım"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Taşı"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopyalandı."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Değiştr"
@@ -1707,4 +1725,7 @@ msgstr "Taşındı."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Taşıyor..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tür"
 

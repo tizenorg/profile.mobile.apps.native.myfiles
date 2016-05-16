@@ -736,6 +736,9 @@ msgstr "Выбрано элементов: %d."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Картинки"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Поиск"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Видео"
 
@@ -786,6 +789,9 @@ msgstr "Копирование..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Удаление..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Список"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Сбой операции."
@@ -928,8 +934,14 @@ msgstr "Родительский контроль"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Имя файла уже используется."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Папки"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Свойства"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Создать"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Голос"
@@ -939,6 +951,9 @@ msgstr "Сеть Wi-Fi недоступна. За подключение к мо
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Достигнуто максимальное число символов (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Размер"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Подготовка..."
@@ -1068,6 +1083,9 @@ msgstr "Мои файлы"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Переместить"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Скопировано."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замен."
@@ -1707,4 +1725,7 @@ msgstr "Перемещено."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Перемещение..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Тип"
 

@@ -736,6 +736,9 @@ msgstr "%d elementi selezionati."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Immagini"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Cerca"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
@@ -786,6 +789,9 @@ msgstr "Copia..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Eliminazione..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Elenco"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operazione non eseguita."
@@ -928,8 +934,14 @@ msgstr "Valutazione genitori"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome del file già in uso."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Cartelle"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Dettagli"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Crea"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voce"
@@ -939,6 +951,9 @@ msgstr "Rete Wi-Fi non disponibile. La connessione a reti mobili potrebbe compor
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Il numero massimo di caratteri (%d) è stato raggiunto."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Dimensioni"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Preparazione..."
@@ -1068,6 +1083,9 @@ msgstr "Archivio"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Sposta"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copiato."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Sostit."
@@ -1707,4 +1725,7 @@ msgstr "Spostato."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Spostamento..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tipo"
 

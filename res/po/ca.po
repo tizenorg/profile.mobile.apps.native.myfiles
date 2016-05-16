@@ -736,6 +736,9 @@ msgstr "%d elements seleccionats"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Imatges"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Cercar"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
@@ -786,6 +789,9 @@ msgstr "Copiant..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Esborrant..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Llista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operació fallida"
@@ -928,8 +934,14 @@ msgstr "Classificació dels pares"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ja s'està utilitzant aquest nom de fitxer"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Carpetes"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detalls"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Crear"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Veu/Fax"
@@ -939,6 +951,9 @@ msgstr "El Wi-Fi no està disponible. Connectar a xarxes mòbils pot comportar c
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "S'ha assolit el nombre màxim de caràcters (%d)"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Mida"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Preparant..."
@@ -1068,6 +1083,9 @@ msgstr "Els meus fitxers"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Moure"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copiat"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Substit"
@@ -1707,4 +1725,7 @@ msgstr "Mogut"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Movent..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tipus"
 

@@ -736,6 +736,9 @@ msgstr "%d elementu hautatu dira"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Irudiak"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Bilatu"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Bideoak"
 
@@ -786,6 +789,9 @@ msgstr "Kopiatzen..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Ezabatzen..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Zerrenda"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Eragiketak huts egin du"
@@ -928,8 +934,14 @@ msgstr "Gurasoen balorazioa"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fitxategiaren izena dagoeneko erabileran"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Karpetak"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Xehetasunak"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Sortu"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ahotsa/Fax"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ez dago erabilgarri. Baliteke sare mugikorretara konektatzeak kost
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Karaktereen gehieneko kopurura (%d) iritsi zara"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Tamaina"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Prestatzen..."
@@ -1068,6 +1083,9 @@ msgstr "Nire fitxategiak"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Mugitu"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopiatuta"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ordeztu"
@@ -1707,4 +1725,7 @@ msgstr "Mugitua"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Mugitzen..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Mota"
 

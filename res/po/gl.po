@@ -736,6 +736,9 @@ msgstr "%d elementos seleccionados"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Imaxes"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Buscar"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
@@ -786,6 +789,9 @@ msgstr "Copiando..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Eliminando..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Fallo na operación"
@@ -928,8 +934,14 @@ msgstr "Preferidos polos pais"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome do arquivo xa en uso"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Carpetas"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detalles"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Crear"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voz/Fax"
@@ -939,6 +951,9 @@ msgstr "A Wi-Fi non está dispoñible. Se te conectas a redes móbiles, isto pod
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Alcanzouse o número máximo de carácteres (%d)"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Tamaño"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Prepara. ..."
@@ -1068,6 +1083,9 @@ msgstr "Os Meus Arquivos"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Mover"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copiado"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Substi."
@@ -1707,4 +1725,7 @@ msgstr "Movido"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Movendo..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tipo"
 

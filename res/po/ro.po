@@ -736,6 +736,9 @@ msgstr "%d elemente selectate"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Imagini"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Căutare"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoclipuri"
 
@@ -786,6 +789,9 @@ msgstr "Copiere..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Se şterge..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Listă"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operaţie nereuşită"
@@ -928,8 +934,14 @@ msgstr "Evaluare părinte"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Numele fişierului există deja."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Directoare"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detalii"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Creare"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voce"
@@ -939,6 +951,9 @@ msgstr "Reţeaua Wi-Fi nu este disponibilă. Conectarea la reţele mobile poate 
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "S-a atins numărul maxim de caractere (%d)."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Dimensiune"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Pregătire..."
@@ -1068,6 +1083,9 @@ msgstr "Fişierele mele"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Mutare"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copiat"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Înloc."
@@ -1707,4 +1725,7 @@ msgstr "Mutat"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Mutare"
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tip"
 

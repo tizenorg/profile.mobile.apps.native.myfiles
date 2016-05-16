@@ -145,7 +145,7 @@ Evas_Object *mf_search_view_create_search_bar(Evas_Object * parent, void *data)
 	//elm_layout_theme_set(sb, "layout", "searchbar", "cancel_button");
 
 	en = elm_entry_add(sb);
-	elm_object_domain_translatable_part_text_set(en, "elm.guide", "sys_string", "IDS_COM_BODY_SEARCH");
+	elm_object_domain_translatable_part_text_set(en, "elm.guide", MYFILE_STRING_PACKAGE, "IDS_COM_BODY_SEARCH");
 
 	elm_entry_input_panel_return_key_type_set(en, ELM_INPUT_PANEL_RETURN_KEY_TYPE_SEARCH);
 

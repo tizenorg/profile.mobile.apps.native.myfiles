@@ -736,6 +736,9 @@ msgstr "%d ಅಂಶಗಳನ್ನು ಆರಿಸಿದೆ."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "ಚಿತ್ರಗಳು"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "ಶೋಧಿಸಿ"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ವೀಡಿಯೊಗಳು"
 
@@ -786,6 +789,9 @@ msgstr "ನಕಲು ಮಾಡುತ್ತಿರುವುದು..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "ಅಳಿಸಲಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "ಪಟ್ಟಿ"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ಕಾರ್ಯಾಚರಣೆ ವಿಫಲವಾಗಿದೆ."
@@ -928,8 +934,14 @@ msgstr "ಪೇರೆಂಟ್ ರೇಟಿಂಗ್"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ಫೈಲ್ ಹೆಸರು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ಫೋಲ್ಡರ್‌ಗಳು"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "ವಿವರಗಳು"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "ರಚಿಸಿರಿ"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ಧ್ವನಿ"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ಲಭ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಹಣಪಾವತಿ
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "ಅಕ್ಷರಗಳ ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯು (%d) ತಲುಪಿದೆ."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "ಗಾತ್ರ"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "ಸಿದ್ದ..."
@@ -1068,6 +1083,9 @@ msgstr "ನನ್ನ ಫೈಲ್‌ಗಳು"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "ಚಲಿಸು"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "ನಕಲಿಸಲಾಗಿದೆ."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ಬದಲಿಸಿ"
@@ -1707,4 +1725,7 @@ msgstr "ಚಲಿಸಲಾಗಿದೆ."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "ಚಲಿಸಲಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "ವಿಧ"
 

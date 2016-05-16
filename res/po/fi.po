@@ -736,6 +736,9 @@ msgstr "%d kohdetta valittu."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Kuvat"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Etsi"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videot"
 
@@ -786,6 +789,9 @@ msgstr "Kopioidaan..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Poistetaan..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Luettelo"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Toiminto epäonnistui."
@@ -928,8 +934,14 @@ msgstr "Aikuisluokitus"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Tiedostonimi on jo käytössä."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Kansiot"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Lisätiedot"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Luo"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ääni"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ei ole käytettävissä. Yhteyden muodostaminen matkapuhelinverkko
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Merkkien enimmäismäärä (%d) on saavutettu."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Koko"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Valmistelu..."
@@ -1068,6 +1083,9 @@ msgstr "Omat tiedostot"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Siirrä"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopioitu."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Korvaa"
@@ -1707,4 +1725,7 @@ msgstr "Siirretty."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Siirretään..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Tyyppi"
 

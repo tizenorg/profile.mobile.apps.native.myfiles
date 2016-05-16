@@ -736,6 +736,9 @@ msgstr "Вибрано %d об’єктів."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Зображення"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Пошук"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Відео"
 
@@ -786,6 +789,9 @@ msgstr "Копіювання..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Видалення..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Список"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Збій операції."
@@ -928,8 +934,14 @@ msgstr "Основний рейтинг"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Назва файла вже використовується."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Папки"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Деталі"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Створити"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Голос"
@@ -939,6 +951,9 @@ msgstr "Мережа Wi-Fi недоступна. Підключення до м�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Перевищено максимальну кількість нагадувань, які можна надрукувати: (%d)"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Розмір"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Підготов..."
@@ -1068,6 +1083,9 @@ msgstr "Мої файли"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Перемістити"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Скопійовано."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Замін."
@@ -1707,4 +1725,7 @@ msgstr "Переміщено."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Переміщення..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Тип"
 

@@ -736,6 +736,9 @@ msgstr "%d տարր է ընտրվել:"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Պատկերներ"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Որոնել"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Տեսահոլովակներ"
 
@@ -786,6 +789,9 @@ msgstr "Պատճենում է..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Ջնջվում է..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Ցանկ"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Գործողությունը ձախողվեց:"
@@ -928,8 +934,14 @@ msgstr "Ծնողի գնահատական"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ֆայլի անունն արդեն օգտագործման մեջ է:"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Թղթապանակներ"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Մանրամասներ"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Ստեղծել"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Ձայն"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi-ը մատչելի չէ: Շարժական կապի ցանցերին
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Հասել է նիշերի առավելագույն քանակին (%d):"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Չափս"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Պտրստվմ է..."
@@ -1068,6 +1083,9 @@ msgstr "Իմ Ֆայլերը"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Տեղափոխել"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Պատճենված է:"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Փոխրնել"
@@ -1707,4 +1725,7 @@ msgstr "Տեղափոխված է"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Տեղափոխում..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Տեսակ"
 

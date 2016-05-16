@@ -736,6 +736,9 @@ msgstr "%d objekt valda."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Bilder"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Sök"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoklipp"
 
@@ -786,6 +789,9 @@ msgstr "Kopierar..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Raderar..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "Lista"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Åtgärden misslyckades."
@@ -928,8 +934,14 @@ msgstr "Förälderrankning"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnamnet används redan."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Mappar"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Detaljer"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Skapa"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Röst"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi är inte tillgängligt. Att ansluta till mobilnät kan medföra yt
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "Högsta antalet tecken (%d) har uppnåtts."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Storlek"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Förber..."
@@ -1068,6 +1083,9 @@ msgstr "Mina filer"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Flytta"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Kopierad."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Ersätt"
@@ -1707,4 +1725,7 @@ msgstr "Flyttad."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Flyttar..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Typ"
 

@@ -736,6 +736,9 @@ msgstr "%d items selected."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "Images"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "Search"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videos"
 
@@ -786,6 +789,9 @@ msgstr "Copying..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "Deleting..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "List"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "Operation failed."
@@ -928,17 +934,27 @@ msgstr "Parent rating"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "File name already in use."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "Folders"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "Details"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "Create"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "Voice"
 
 msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan."
+msgstr "Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.
+"
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "The maximum number of characters (%d) has been reached."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "Size"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "Preparing..."
@@ -1068,6 +1084,9 @@ msgstr "My Files"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Move"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "Copied."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "Replace"
@@ -1707,4 +1726,7 @@ msgstr "Moved."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "Moving..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "Type"
 

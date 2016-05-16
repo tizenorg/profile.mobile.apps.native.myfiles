@@ -134,7 +134,7 @@ msgid "IDS_MF_BODY_ADD_FROM"
 msgstr "માંથી ઉમેરો"
 
 msgid "IDS_MF_BODY_ALERTS"
-msgstr "એલર્ટ્સ"
+msgstr "ચેતવણીઓ"
 
 msgid "IDS_MF_BODY_ANY"
 msgstr "કોઈ"
@@ -608,7 +608,7 @@ msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
 msgstr "કૉલ દરમ્યાન ચલાવવામાં અક્ષમ."
 
 msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "DRM સંરક્ષિત સામગ્રીને રિંગટોન અથવા સૂચના એલર્ટ તરીકે ગોઠવવાવામાં અસમર્થ."
+msgstr "DRM સંરક્ષિત સામગ્રીને રિંગટોન અથવા સૂચના ચેતવણી તરીકે ગોઠવવાવામાં અસમર્થ."
 
 msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
 msgstr "નજીકના ઉપકરણો માટે સ્કેન કરવા તમારે Wi-Fi નેટવર્ક સાથે જોડાણ કરવું આવશ્યક છે. Wi-Fi મારફતે જોડો અને ફરી પ્રયાસ કરો."
@@ -736,6 +736,9 @@ msgstr "%d વસ્તુઓ પસંદ કર્યુ."
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "છબીઓ"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "શોધો"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "વિડિયોઝ"
 
@@ -786,6 +789,9 @@ msgstr "કૉપિ થાય છે..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "ભૂસાઇ રહ્યું છે..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "યાદી"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ઓપરેશન નિષ્ફળ."
@@ -854,7 +860,7 @@ msgid "IDS_ST_BODY_NO_RESULTS_FOUND"
 msgstr "કોઈ પરિણામો મળ્યા નથી."
 
 msgid "IDS_ST_BODY_MESSAGE_ALERT"
-msgstr "સંદેશ એલર્ટ"
+msgstr "સંદેશ ચેતવણી"
 
 msgid "IDS_MEDIABR_OPT_DETAILS"
 msgstr "વિગતો"
@@ -928,8 +934,14 @@ msgstr "પેરેંટ રેટિંગ"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ફાઇલનું નામ પહેલેથી ઉપયોગમાં છે."
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ફોલ્ડર્સ"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "વિગતો"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "બનાવો"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "અવાજ"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ઉપલબ્ધ નથી. મોબાઇલ નેટવર�
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "વર્ણોની મહત્તમ સંખ્યા (%d) પર પહોંચ્યા."
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "કદ"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "તૈયારી કરી રહ્યું છે..."
@@ -1068,6 +1083,9 @@ msgstr "મારી ફાઇલ્સ"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "ખસેડો"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "નકલ થઇ."
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "બદલો"
@@ -1707,4 +1725,7 @@ msgstr "ખસેડ્યા."
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "ખસી રહ્યા છે..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "પ્રકાર"
 

@@ -736,6 +736,9 @@ msgstr "%dଟି ଆଇଟମ୍‌ ଚୟନ ହୋଇଛି।"
 msgid "IDS_COM_BODY_IMAGES"
 msgstr "ଫଟୋଗୁଡିକ"
 
+msgid "IDS_COM_BODY_SEARCH"
+msgstr "ସନ୍ଧାନ"
+
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ଭିଡିଓ‌ଗୁଡିକ"
 
@@ -786,6 +789,9 @@ msgstr "କପି କରୁଛି..."
 
 msgid "IDS_MF_POP_DELETING_ING"
 msgstr "ବିଲୋପ ହେଉଛି..."
+
+msgid "IDS_COM_OPT_LIST"
+msgstr "ତାଲିକା"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
 msgstr "ସଞ୍ଚାଳନ ବିଫଳ ହୋଇଛି।"
@@ -928,8 +934,14 @@ msgstr "ପ୍ୟାରେଣ୍ଟ ରେଟିଂ"
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ଫାଇଲ୍ ନାମ ପୂର୍ବରୁ ବ୍ୟବହାରରେ ଅଛି।"
 
+msgid "IDS_COM_BODY_FOLDERS"
+msgstr "ଫୋଲ୍ଡରଗୁଡିକ"
+
 msgid "IDS_COM_BODY_DETAILS"
 msgstr "ବିବରଣୀ"
+
+msgid "IDS_COM_BODY_CREATE"
+msgstr "ସୃଷ୍ଟି"
 
 msgid "IDS_VR_BODY_VOICE"
 msgstr "ଭଏସ୍‍"
@@ -939,6 +951,9 @@ msgstr "Wi-Fi ଉପଲବ୍ଧ ନାହିଁ। ମୋବାଇଲ୍ ନେ
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "ସର୍ବାଧିକ ସଂଖ୍ୟକର ବର୍ଣ୍ଣ (%d)ରେ ପହଞ୍ଚିଛି।"
+
+msgid "IDS_COM_BODY_SIZE"
+msgstr "ଆକାର"
 
 msgid "IDS_DM_BODY_PREPARING_ING_M_STATUS_ABB"
 msgstr "ପ୍ରସ୍ତୁତ କରୁଛି..."
@@ -1068,6 +1083,9 @@ msgstr "ମୋ ଫାଇଲଗୁଡିକ"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "ଘୁଞ୍ଚାନ୍ତୁ"
+
+msgid "IDS_COM_POP_COPIED_P"
+msgstr "କପି ହୋଇଛି"
 
 msgid "IDS_MF_BUTTON_REPLACE_ABB4"
 msgstr "ବିସ୍ଥାପନ"
@@ -1707,4 +1725,7 @@ msgstr "ଘୁଞ୍ଚିଛି।"
 
 msgid "IDS_COM_POP_MOVING"
 msgstr "ଘୁଞ୍ଚୁଛି..."
+
+msgid "IDS_COM_POP_TYPE"
+msgstr "ପ୍ରକାର"
 

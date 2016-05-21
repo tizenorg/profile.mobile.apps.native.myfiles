@@ -1179,6 +1179,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 		}
 	}
 	MF_TRACE_END;
+	SAFE_FREE_CHAR(current_path);
 	return path_list;
 }
 

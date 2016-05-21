@@ -547,7 +547,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 			off_t size = 0;
 			int isOriginalImage = (params->m_ItemName->str && params->thumb_path &&
-			                       strcmp(params->thumb_path, params->m_ItemName->str) == 0);
+					strcmp(params->thumb_path, params->m_ItemName->str) == 0);
 
 			if (isOriginalImage == 0) {
 				mf_file_attr_get_file_size(params->thumb_path, &size);
@@ -668,7 +668,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 			return layout;
 		}
 
-		if (strstr(params->m_ItemName->str, "/.") != NULL) {
+		if (params->m_ItemName->str && strstr(params->m_ItemName->str, "/.") != NULL) {
 			if (params->file_type == FILE_TYPE_IMAGE) {
 				elm_image_file_set(thumb, edj_path, MF_ICON_IMAGE);
 			} else if (params->file_type == FILE_TYPE_VIDEO) {

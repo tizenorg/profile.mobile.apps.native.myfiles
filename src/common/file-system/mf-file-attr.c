@@ -1026,6 +1026,9 @@ int mf_file_attr_get_file_icon(const char *file_path, int *error_code, int view_
 	int thumbnail_type = MF_THUMBNAIL_TYPE_DEFAULT;
 	int retcode = -1;
 	char *ext = NULL;
+	if (file_path == NULL) {
+		SAFE_FREE_CHAR(icon_path);
+	}
 	mf_retvm_if(file_path == NULL, thumbnail_type, "file_path is NULL");
 
 	int ret = mf_file_attr_get_file_category(file_path, &ftype);

@@ -1,6 +1,6 @@
 Name:       org.tizen.myfile
 #VCS_FROM:   profile/mobile/apps/native/myfiles#d8a2ed953de88f6604a6aca059b46d2c812eff54
-#RS_Ver:    20160520_1 
+#RS_Ver:    20160523_6 
 Summary:    Myfile Application v1.0
 Version:    1.0.0
 Release:    1
@@ -8,6 +8,7 @@ Group:      Applications
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 
+ExcludeArch:  aarch64 x86_64
 BuildRequires:  pkgconfig(libtzplatform-config)
 Requires(post):  /usr/bin/tpk-backend
 

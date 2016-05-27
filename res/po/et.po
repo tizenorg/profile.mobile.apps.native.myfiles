@@ -757,6 +757,9 @@ msgstr "Vali kõik"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopeeri"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Seaded"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Eemalda"
 
@@ -933,6 +936,15 @@ msgstr "Vanemate hinnang"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failinimi on juba kasutusel."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Tundmatu"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Lae alla"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Seda faili pole olemas."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Kaustad"
@@ -1594,6 +1606,12 @@ msgstr "Kleebi siia"
 msgid "IDS_PB_SK_SET"
 msgstr "Määra"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Jah"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ei"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Seda failitüüpi ei toeta ükski teie seadmes olev rakendus."
 
@@ -1728,4 +1746,7 @@ msgstr "Teisaldamine..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tüüp"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Mälukaart"
 

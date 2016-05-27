@@ -757,6 +757,9 @@ msgstr "Seleccioni-ho tot"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copia"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ajustaments"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Eliminar"
 
@@ -933,6 +936,15 @@ msgstr "Classificació dels pares"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ja s'està utilitzant aquest nom de fitxer"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Desconegut"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Descarreg"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Aquest fitxer no existeix"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Carpetes"
@@ -1594,6 +1606,12 @@ msgstr "Enganxar aquí"
 msgid "IDS_PB_SK_SET"
 msgstr "Definir"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Sí"
+
+msgid "IDS_COM_SK_NO"
+msgstr "No"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Cap aplicació del seu dispositiu no admet aquest tipus de fitxer."
 
@@ -1728,4 +1746,7 @@ msgstr "Movent..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tipus"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Targeta de memòria"
 

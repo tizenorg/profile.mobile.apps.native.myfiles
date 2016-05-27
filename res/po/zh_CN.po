@@ -757,6 +757,9 @@ msgstr "全选"
 msgid "IDS_COM_BODY_COPY"
 msgstr "复制"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "设置"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "移除"
 
@@ -933,6 +936,15 @@ msgstr "父速率"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "文件名已被使用中"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "下载"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "此文件不存在"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "文件夹"
@@ -1594,6 +1606,12 @@ msgstr "粘贴到此处"
 msgid "IDS_PB_SK_SET"
 msgstr "设置"
 
+msgid "IDS_COM_SK_YES"
+msgstr "是"
+
+msgid "IDS_COM_SK_NO"
+msgstr "否"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "您设备上的任何应用程序均不支持该文件类型。"
 
@@ -1728,4 +1746,7 @@ msgstr "移动中..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "类型"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "存储卡"
 

@@ -757,6 +757,9 @@ msgstr "అన్నీ ఎంచుకోండి"
 msgid "IDS_COM_BODY_COPY"
 msgstr "కాపీ"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "సెట్టింగులు"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "తొలగించు"
 
@@ -933,6 +936,15 @@ msgstr "పేరెంట్ రేటింగ్"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ఫైల్ పేరు ఇప్పటికే ఉపయోగంలో ఉంది."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "తెలియని"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "డౌన్లోడ్‌"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ఈ ఫైల్ ఉనికిలో లేదు."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "ఫోల్డర్‌లు"
@@ -1594,6 +1606,12 @@ msgstr "ఇక్కడ అతికించు"
 msgid "IDS_PB_SK_SET"
 msgstr "సెట్ చేయి"
 
+msgid "IDS_COM_SK_YES"
+msgstr "అవును"
+
+msgid "IDS_COM_SK_NO"
+msgstr "కాదు"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "ఈ ఫైల్ రకం మీ పరికరంలోని ఏ అప్లికేషన్ ద్వారా మద్దతివ్వబడదు."
 
@@ -1728,4 +1746,7 @@ msgstr "తరలిస్తోంది..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "రకం"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "మెమరీ కార్డ్"
 

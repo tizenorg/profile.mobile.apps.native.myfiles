@@ -757,6 +757,9 @@ msgstr "Összes kijelölése"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Másol"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Beállítások"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Eltávolít"
 
@@ -933,6 +936,15 @@ msgstr "Szülői értékelés"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "A fájlnév már foglalt."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Ismeretlen"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Letöltés"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "A fájl nem létezik."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mappák"
@@ -1594,6 +1606,12 @@ msgstr "Beilleszt ide"
 msgid "IDS_PB_SK_SET"
 msgstr "Beállít"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Igen"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nem"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Az eszköz egyetlen alkalmazása sem támogatja ezt a fájltípust."
 
@@ -1728,4 +1746,7 @@ msgstr "Áthelyezés..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Típus"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Memóriakártya"
 

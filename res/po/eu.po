@@ -757,6 +757,9 @@ msgstr "Hautatu denak"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiatu"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ezarpenak"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Kendu"
 
@@ -933,6 +936,15 @@ msgstr "Gurasoen balorazioa"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fitxategiaren izena dagoeneko erabileran"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Ezezaguna"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Deskargatu"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Fitxategia ez dago"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Karpetak"
@@ -1594,6 +1606,12 @@ msgstr "Hemen erantsi"
 msgid "IDS_PB_SK_SET"
 msgstr "Ezarri"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Bai"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ez"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Gailuko aplikazio batek ere ez du fitxategi mota hau onartzen."
 
@@ -1728,4 +1746,7 @@ msgstr "Mugitzen..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Mota"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Memoria txartela"
 

@@ -757,6 +757,9 @@ msgstr "Selectare toate"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copiere"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Setări"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Eliminare"
 
@@ -933,6 +936,15 @@ msgstr "Evaluare părinte"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Numele fişierului există deja."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Necunoscut"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Descărc."
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Acest fişier nu există."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Directoare"
@@ -1594,6 +1606,12 @@ msgstr "Lipire aici"
 msgid "IDS_PB_SK_SET"
 msgstr "Afiş."
 
+msgid "IDS_COM_SK_YES"
+msgstr "Da"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nu"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Acest tip de fişier nu este acceptat de nicio aplicaţie de pe dispozitiv."
 
@@ -1728,4 +1746,7 @@ msgstr "Mutare"
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tip"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Cartelă de memorie"
 

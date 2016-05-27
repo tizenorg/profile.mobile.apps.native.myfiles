@@ -757,6 +757,9 @@ msgstr "Seleccionar todo"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copiar"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Axustes"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Eliminar"
 
@@ -933,6 +936,15 @@ msgstr "Preferidos polos pais"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome do arquivo xa en uso"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Descoñecido"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Descargar"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "O arquivo non existe"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Carpetas"
@@ -1594,6 +1606,12 @@ msgstr "Pegar aquí"
 msgid "IDS_PB_SK_SET"
 msgstr "Establ."
 
+msgid "IDS_COM_SK_YES"
+msgstr "Si"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Non"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Este tipo de arquivo non é compatible con ningunha aplicación do teu dispositivo."
 
@@ -1728,4 +1746,7 @@ msgstr "Movendo..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tipo"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Tarxeta de memoria"
 

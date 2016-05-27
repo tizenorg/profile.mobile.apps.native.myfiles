@@ -757,6 +757,9 @@ msgstr "Бәрін бөлектеу"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Көшіру"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Қондырғылар"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Жоғалту"
 
@@ -933,6 +936,15 @@ msgstr "Ата-ана қамқорлығы"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Файл аты қолданылады."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Белгісіз"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Жазу"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Файл жоқ."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Қалталар"
@@ -1594,6 +1606,12 @@ msgstr "Осында қою"
 msgid "IDS_PB_SK_SET"
 msgstr "Орнату"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Иә"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Жоқ"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Осы файл түріне құрылғыңыздағы ешбір бағдарлама қолдау көрсетпейді."
 
@@ -1728,4 +1746,7 @@ msgstr "Орналастырылды"
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Түрі"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Жад картасы"
 

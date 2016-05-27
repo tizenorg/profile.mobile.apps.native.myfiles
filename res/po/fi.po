@@ -757,6 +757,9 @@ msgstr "Valitse kaikki"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopioi"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Asetukset"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Poista"
 
@@ -933,6 +936,15 @@ msgstr "Aikuisluokitus"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Tiedostonimi on jo käytössä."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Tuntematon"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Lataa"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Tiedostoa ei ole."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Kansiot"
@@ -1594,6 +1606,12 @@ msgstr "Liitä tänne"
 msgid "IDS_PB_SK_SET"
 msgstr "Aseta"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Kyllä"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ei"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Yksikään laitteessa oleva sovellus ei tue tätä tiedostotyyppiä."
 
@@ -1728,4 +1746,7 @@ msgstr "Siirretään..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tyyppi"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Muistikortti"
 

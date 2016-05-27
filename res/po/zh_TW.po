@@ -757,6 +757,9 @@ msgstr "全選"
 msgid "IDS_COM_BODY_COPY"
 msgstr "複製"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "設定"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "移除"
 
@@ -933,6 +936,15 @@ msgstr "父級評分"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "檔案名稱已被使用"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "下載"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "此檔案不存在。"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "資料夾"
@@ -1594,6 +1606,12 @@ msgstr "複製到這裡"
 msgid "IDS_PB_SK_SET"
 msgstr "設定"
 
+msgid "IDS_COM_SK_YES"
+msgstr "是"
+
+msgid "IDS_COM_SK_NO"
+msgstr "否"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "裝置上沒有任何支援該檔案類型的應用程式。"
 
@@ -1728,4 +1746,7 @@ msgstr "正在移動..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "類型"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "記憶卡"
 

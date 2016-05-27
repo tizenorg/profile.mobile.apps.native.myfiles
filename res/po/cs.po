@@ -757,6 +757,9 @@ msgstr "Vybrat vše"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopírovat"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Nastavení"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Odstranit"
 
@@ -933,6 +936,15 @@ msgstr "Obecné hodnocení"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Název souboru již existuje."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Neznámé"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Stáhnout"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Soubor neexistuje."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Složky"
@@ -1594,6 +1606,12 @@ msgstr "Vložit sem"
 msgid "IDS_PB_SK_SET"
 msgstr "Nastavit"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ano"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Tento typ souboru není podporován žádnou aplikací v tomto zařízení."
 
@@ -1728,4 +1746,7 @@ msgstr "Probíhá přesouvání"
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Typ"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Paměťová karta"
 

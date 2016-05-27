@@ -757,6 +757,9 @@ msgstr "Hepsini seç"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopyala"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ayarlar"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Kaldır"
 
@@ -933,6 +936,15 @@ msgstr "Ebeveyn sıralaması"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Dosya adı kullanılıyor."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Bilinmeyen"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "İndir"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Dosya yok."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Klasörler"
@@ -1594,6 +1606,12 @@ msgstr "Buraya yapıştır"
 msgid "IDS_PB_SK_SET"
 msgstr "Ayarla"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Evet"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Hayır"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Bu dosya türü, cihazınızdaki hiçbir uygulama tarafından desteklenmiyor."
 
@@ -1728,4 +1746,7 @@ msgstr "Taşıyor..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tür"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Hafıza kartı"
 

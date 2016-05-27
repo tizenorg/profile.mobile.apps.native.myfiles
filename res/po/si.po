@@ -757,6 +757,9 @@ msgstr "සියල්ල තෝරන්න"
 msgid "IDS_COM_BODY_COPY"
 msgstr "පිටපත් කරන්න"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "සැකසුම්"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "ඉවත් කර."
 
@@ -933,6 +936,15 @@ msgstr "මවිපිය ඇගයුම"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ගොනු නාමය දැනටමත් භාවිතා වේ."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "නොදන්නා"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "බාගන්න"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ගොනුව නොපවතී."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "ෆෝල්ඩර"
@@ -1594,6 +1606,12 @@ msgstr "මෙහි අලවන්න"
 msgid "IDS_PB_SK_SET"
 msgstr "සකසන්න"
 
+msgid "IDS_COM_SK_YES"
+msgstr "ඔව්"
+
+msgid "IDS_COM_SK_NO"
+msgstr "නැත"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "මෙම ගොනු වර්ගයට ඔබගේ උපාංගයේ ඇති කිසිදු යෙදුමක් සහාය නොදක්වයි."
 
@@ -1728,4 +1746,7 @@ msgstr "ගෙනයමින්..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "වර්ගය"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "මතකපත"
 

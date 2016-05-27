@@ -757,6 +757,9 @@ msgstr "全て選択"
 msgid "IDS_COM_BODY_COPY"
 msgstr "コピー"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "設定"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "削除"
 
@@ -933,6 +936,15 @@ msgstr "保護者の指導が必要"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ファイル名は既に使用されています。"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "不明"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "ダウン​ロード"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "このファイルは存在しません。"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "フォルダ"
@@ -1594,6 +1606,12 @@ msgstr "ここに貼付"
 msgid "IDS_PB_SK_SET"
 msgstr "設定"
 
+msgid "IDS_COM_SK_YES"
+msgstr "はい"
+
+msgid "IDS_COM_SK_NO"
+msgstr "いいえ"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "このファイル形式は、端末のどのアプリケーションにも対応していません。"
 
@@ -1728,4 +1746,7 @@ msgstr "移動中..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "タイプ"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "外部SDカード"
 

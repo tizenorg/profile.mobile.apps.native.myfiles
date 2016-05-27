@@ -757,6 +757,9 @@ msgstr "Izaberi sve"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiraj"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Podešavanja"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Ukloni"
 
@@ -933,6 +936,15 @@ msgstr "Roditeljski rejting"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Naziv fajla već u upotrebi."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nepoznato"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Preuzmi"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Fajl ne postoji."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Folderi"
@@ -1594,6 +1606,12 @@ msgstr "Zalepi ovde"
 msgid "IDS_PB_SK_SET"
 msgstr "Podesi"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Da"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Ovaj tip fajla ne podržava nijedna aplikacija na tvom uređaju."
 
@@ -1728,4 +1746,7 @@ msgstr "Premeštanje"
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tip"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Memorijska kartica"
 

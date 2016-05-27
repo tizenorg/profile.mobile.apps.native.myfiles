@@ -757,6 +757,9 @@ msgstr "Επιλογή όλων"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Αντιγραφή"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ρυθμίσεις"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Κατάργηση"
 
@@ -933,6 +936,15 @@ msgstr "Γονική αξιολόγηση"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Το όνομα αρχείου υπάρχει ήδη."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Άγνωστο"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Λήψη"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Δεν υπάρχει αρχείο."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Φάκελοι"
@@ -1594,6 +1606,12 @@ msgstr "Επικόλληση εδώ"
 msgid "IDS_PB_SK_SET"
 msgstr "Ορισμός"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ναι"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Όχι"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Δεν υπάρχει εφαρμογή στη συσκευή σας η οποία να υποστηρίζει αυτόν τον τύπο αρχείου."
 
@@ -1728,4 +1746,7 @@ msgstr "Μετακίνηση..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Τύπος"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Κάρτα μνήμης"
 

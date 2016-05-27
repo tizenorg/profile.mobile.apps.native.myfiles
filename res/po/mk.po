@@ -757,6 +757,9 @@ msgstr "Избери ги сите"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копирај"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Поставувања"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Отстрани"
 
@@ -933,6 +936,15 @@ msgstr "Родителска оцена"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Името на фајл веќе се користи."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Непознато"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Преземи"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Фајлот не постои."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Папки"
@@ -1594,6 +1606,12 @@ msgstr "Пресликај тука"
 msgid "IDS_PB_SK_SET"
 msgstr "Постави"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Да"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Не"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Овој тип фајл не е поддржан од ниедна апликација на уредот."
 
@@ -1728,4 +1746,7 @@ msgstr "Се преместува..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Тип"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Мемориска картичка"
 

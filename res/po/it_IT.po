@@ -757,6 +757,9 @@ msgstr "Seleziona tutto"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Copia"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Impostaz."
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Rimuovi"
 
@@ -933,6 +936,15 @@ msgstr "Valutazione genitori"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Nome del file già in uso."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Sconosciuto"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Scarica"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "File inesistente."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Cartelle"
@@ -1594,6 +1606,12 @@ msgstr "Incolla qui"
 msgid "IDS_PB_SK_SET"
 msgstr "Imposta"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Sì"
+
+msgid "IDS_COM_SK_NO"
+msgstr "No"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Questo tipo di file non è supportato da nessuna applicazione sul dispositivo."
 
@@ -1728,4 +1746,7 @@ msgstr "Spostamento..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tipo"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Scheda di memoria"
 

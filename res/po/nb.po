@@ -757,6 +757,9 @@ msgstr "Merk alt"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopier"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Innstillinger"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Fjern"
 
@@ -933,6 +936,15 @@ msgstr "Aldersgrense"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavn allerede i bruk."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Ukjent"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Last ned"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Filen eksisterer ikke."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mapper"
@@ -1594,6 +1606,12 @@ msgstr "Lim inn her"
 msgid "IDS_PB_SK_SET"
 msgstr "Angi"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nei"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Denne filtypen støttes ikke av noen av appene på enheten."
 
@@ -1728,4 +1746,7 @@ msgstr "Flytter..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Type"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Minnekort"
 

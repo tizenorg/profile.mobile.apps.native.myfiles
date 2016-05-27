@@ -757,6 +757,9 @@ msgstr "എല്ലാം തിരഞ്ഞെടുക്കുക"
 msgid "IDS_COM_BODY_COPY"
 msgstr "പകര്‍ത്തുക"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "ക്രമീകരണങ്ങൾ"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "നീക്കുക"
 
@@ -933,6 +936,15 @@ msgstr "പാരന്‍റ്  റേറ്റിംഗ്"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ഫയല്‍ നാമം ഇതിനകം ഉപയോഗത്തിലുണ്ട്."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "അജ്ഞാതം"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "ഡൗണ്‍‌ലോ."
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ഈ ഫയല്‍ നിലവിലില്ല."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "ഫോള്‍ഡറുകള്‍"
@@ -1594,6 +1606,12 @@ msgstr "ഇവിടെ ഒട്ടിക്കുക"
 msgid "IDS_PB_SK_SET"
 msgstr "സജ്ജമാ."
 
+msgid "IDS_COM_SK_YES"
+msgstr "അതെ"
+
+msgid "IDS_COM_SK_NO"
+msgstr "ഇല്ല"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "നിങ്ങളുടെ ഉപകരണത്തിലെ ഏതെങ്കിലും ആപ്ലിക്കേഷൻ ഈ ഫയൽ തരത്തെ പിന്തുണയ്ക്കുന്നില്ല."
 
@@ -1728,4 +1746,7 @@ msgstr "നീക്കുന്നു..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "തരം"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "മെമ്മറി കാര്‍ഡ്"
 

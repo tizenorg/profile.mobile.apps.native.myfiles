@@ -757,6 +757,9 @@ msgstr "ყველას არჩევა"
 msgid "IDS_COM_BODY_COPY"
 msgstr "ასლი"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "პარამეტრები"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "წაშლა"
 
@@ -933,6 +936,15 @@ msgstr "მშობლის შეფასება"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ფაილის სახელი უკვე გამოყენებულია."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "უცნობი"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "ჩამოწერა"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ფაილი არ არსებობს."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "საქაღალდეები"
@@ -1594,6 +1606,12 @@ msgstr "ჩასვით აქ"
 msgid "IDS_PB_SK_SET"
 msgstr "დაყენება"
 
+msgid "IDS_COM_SK_YES"
+msgstr "კი"
+
+msgid "IDS_COM_SK_NO"
+msgstr "არა"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "ფაილი ამ ტიპს ვერ ხსნის ვერცერთი აპლიკაცია თქვენს მოწყობილობაში."
 
@@ -1728,4 +1746,7 @@ msgstr "გადატანა..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "ტიპი"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "მეხსიერების ბარათი"
 

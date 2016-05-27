@@ -757,6 +757,9 @@ msgstr "Выделить все"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копировать"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Настройки"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Удалить"
 
@@ -933,6 +936,15 @@ msgstr "Родительский контроль"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Имя файла уже используется."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Неизвестно"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Загрузить"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Файл не существует."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Папки"
@@ -1594,6 +1606,12 @@ msgstr "Вставить сюда"
 msgid "IDS_PB_SK_SET"
 msgstr "Применить"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Да"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Нет"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Этот тип файла не поддерживается приложениями на вашем устройстве."
 
@@ -1728,4 +1746,7 @@ msgstr "Перемещение..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Тип"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Карта памяти"
 

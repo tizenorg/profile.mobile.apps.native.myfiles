@@ -757,6 +757,9 @@ msgstr "Ընտրել բոլորը"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Պատճենել"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Պարամետրեր"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Հեռացնել"
 
@@ -933,6 +936,15 @@ msgstr "Ծնողի գնահատական"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ֆայլի անունն արդեն օգտագործման մեջ է:"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Անհայտ"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Ներբեռնել"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Այս ֆայլը գոյություն չունի:"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Թղթապանակներ"
@@ -1594,6 +1606,12 @@ msgstr "Տեղադրել այստեղ"
 msgid "IDS_PB_SK_SET"
 msgstr "Գործադրել"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Այո"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ոչ"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Այս ֆայլի տիպը չի ապահովվում սարքում առկա որևէ ծրագրի կողմից:"
 
@@ -1728,4 +1746,7 @@ msgstr "Տեղափոխում..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Տեսակ"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Հիշողության քարտ"
 

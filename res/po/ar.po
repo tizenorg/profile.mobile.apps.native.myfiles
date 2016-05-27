@@ -757,6 +757,9 @@ msgstr "اختيار الكل"
 msgid "IDS_COM_BODY_COPY"
 msgstr "نسخ"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "الضبط"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "حذف"
 
@@ -933,6 +936,15 @@ msgstr "التصنيف الأصلي"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "تم استخدام اسم الملف مسبقا."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "غير معروف"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "تنزيل"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "هذا الملف غير موجود."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "المجلدات"
@@ -1594,6 +1606,12 @@ msgstr "لصق هنا"
 msgid "IDS_PB_SK_SET"
 msgstr "ضبط"
 
+msgid "IDS_COM_SK_YES"
+msgstr "نعم"
+
+msgid "IDS_COM_SK_NO"
+msgstr "لا"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "إن نوع الملف هذا غير مدعوم من قبل أي تطبيق على جهازك."
 
@@ -1728,4 +1746,7 @@ msgstr "جاري النقل..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "النوع"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "بطاقة الذاكرة"
 

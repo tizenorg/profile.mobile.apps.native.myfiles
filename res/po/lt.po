@@ -757,6 +757,9 @@ msgstr "Pasirinkti visus"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopijuoti"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Nustatymai"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Pašalinti"
 
@@ -933,6 +936,15 @@ msgstr "Tėvų vertinimas"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Failo pavadinimas jau naudojamas."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nežinomas"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Atsisiųsti"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Tokio failo nėra."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Aplankai"
@@ -1594,6 +1606,12 @@ msgstr "Įklijuoti čia"
 msgid "IDS_PB_SK_SET"
 msgstr "Nustatyti"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Taip"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Šio failo tipo nepalaiko nei viena jūsų įrenginyje esanti programa."
 
@@ -1728,4 +1746,7 @@ msgstr "Perkeliama..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tipas"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Atminties kortelė"
 

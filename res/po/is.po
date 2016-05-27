@@ -757,6 +757,9 @@ msgstr "Velja allt"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Afrita"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Stillingar"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Fjarlægja"
 
@@ -933,6 +936,15 @@ msgstr "Einkunn foreldra"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Skráarheitið er þegar í notkun."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Óþekkt"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Niðurhal"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Skráin er ekki til."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Möppur"
@@ -1594,6 +1606,12 @@ msgstr "Líma hér"
 msgid "IDS_PB_SK_SET"
 msgstr "Stilla"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Já"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nei"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Ekkert forrit í tækinu þínu styður þessa skráargerð."
 
@@ -1728,4 +1746,7 @@ msgstr "Verið er að flytja..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tegund"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Minniskort"
 

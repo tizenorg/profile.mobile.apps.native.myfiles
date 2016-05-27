@@ -757,6 +757,9 @@ msgstr "Alle auswählen"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopieren"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Einstellungen"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Entfernen"
 
@@ -933,6 +936,15 @@ msgstr "Altersbeschränkung"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Dateiname wird bereits verwendet"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Unbekannt"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Download"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Datei nicht vorhanden"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Ordner"
@@ -1594,6 +1606,12 @@ msgstr "Hier einfügen"
 msgid "IDS_PB_SK_SET"
 msgstr "Einstellen"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nein"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Dieser Dateityp wird von keiner Anwendung auf Ihrem Gerät unterstützt."
 
@@ -1728,4 +1746,7 @@ msgstr "Verschiebevorgang aktiv..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Typ"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Speicherkarte"
 

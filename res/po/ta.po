@@ -757,6 +757,9 @@ msgstr "எல்லாம் தேர்வு"
 msgid "IDS_COM_BODY_COPY"
 msgstr "நகல்"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "அமைவுகள்"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "அகற்றுக"
 
@@ -933,6 +936,15 @@ msgstr "முதல் மதிப்பீடு"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "கோப்பின் பெயர் முன்பே பயனில் உள்ளது."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "தெரியாத"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "பதிவிற."
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "இந்த கோப்பு கிடைக்கவில்லை."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "உறைகள்"
@@ -1594,6 +1606,12 @@ msgstr "இங்கே ஒட்டு"
 msgid "IDS_PB_SK_SET"
 msgstr "அமை"
 
+msgid "IDS_COM_SK_YES"
+msgstr "ஆம்"
+
+msgid "IDS_COM_SK_NO"
+msgstr "இல்லை"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "உங்கள் சாதனத்தில் உள்ள எந்தவொரு பயன்பாட்டிலும் இந்தக் கோப்பு வகை ஆதரிக்கப்படவில்லை."
 
@@ -1728,4 +1746,7 @@ msgstr "நகர்கிறது..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "வகை"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "நினைவட்டை"
 

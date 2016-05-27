@@ -757,6 +757,9 @@ msgstr "Roghnaigh gach"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Cóipeáil"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Socruithe"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Bain"
 
@@ -933,6 +936,15 @@ msgstr "Rátáil tuismitheoirí"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Comhadainm in úsáid cheana."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Anaithnid"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Íoslódáil"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Níl an comhad seo ann"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Fillteáin"
@@ -1594,6 +1606,12 @@ msgstr "Greamaigh anseo"
 msgid "IDS_PB_SK_SET"
 msgstr "Socraigh"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Déan é"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ná déan é"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Níl tacú ann in aon fheidhmchlár ar do ghléas don chineál comhaid seo."
 
@@ -1728,4 +1746,7 @@ msgstr "Ag bogadh..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Cineál"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Cárta cuimhne"
 

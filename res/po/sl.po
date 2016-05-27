@@ -757,6 +757,9 @@ msgstr "Izberi vse"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiraj"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Nastavitve"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Odstrani"
 
@@ -933,6 +936,15 @@ msgstr "Starševska ocena"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Ime datoteke je že v uporabi."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Neznano"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Naloži"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Ta datoteka ne obstaja."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mape"
@@ -1594,6 +1606,12 @@ msgstr "Prilepi sem"
 msgid "IDS_PB_SK_SET"
 msgstr "Nastavi"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Da"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Nobena aplikacija v napravi ne podpira te vrste datoteke."
 
@@ -1728,4 +1746,7 @@ msgstr "Premikam"
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Vrsta"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Pomnilniška kartica"
 

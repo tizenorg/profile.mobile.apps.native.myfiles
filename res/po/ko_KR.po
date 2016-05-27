@@ -757,6 +757,9 @@ msgstr "모두 선택"
 msgid "IDS_COM_BODY_COPY"
 msgstr "복사"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "설정"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "삭제"
 
@@ -933,6 +936,15 @@ msgstr "부모의 시청 지도가 필요한 등급"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "사용 중인 파일 이름입니다."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "알 수 없음"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "다운로드"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "파일이 존재하지 않습니다."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "폴더"
@@ -1594,6 +1606,12 @@ msgstr "Paste here"
 msgid "IDS_PB_SK_SET"
 msgstr "설정"
 
+msgid "IDS_COM_SK_YES"
+msgstr "예"
+
+msgid "IDS_COM_SK_NO"
+msgstr "아니요"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "디바이스의 모든 앱에서 지원되지 않는 파일 형식입니다."
 
@@ -1728,4 +1746,7 @@ msgstr "이동 중..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "종류"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "SD 카드"
 

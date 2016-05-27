@@ -757,6 +757,9 @@ msgstr "Вибрати всі"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Копіювати"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Налаштування"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Видалення"
 
@@ -933,6 +936,15 @@ msgstr "Основний рейтинг"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Назва файла вже використовується."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Невідомо"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Завант."
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Файл не існує."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Папки"
@@ -1594,6 +1606,12 @@ msgstr "Вставити сюди"
 msgid "IDS_PB_SK_SET"
 msgstr "Установити"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Так"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ні"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Цей тип файла не підтримується жодною програмою на пристрої."
 
@@ -1728,4 +1746,7 @@ msgstr "Переміщення..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Тип"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Карта пам’яті"
 

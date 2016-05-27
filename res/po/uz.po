@@ -757,6 +757,9 @@ msgstr "Barchasini tanlash"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Nusxa olish"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Parametrlar"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Olib tashlash"
 
@@ -933,6 +936,15 @@ msgstr "Qo'shimcha baholash"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl nomi avvaldan foydalanilmoqda."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Noma’lum"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Yuklash"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Ushbu fayl mavjud emas."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Jildlar"
@@ -1594,6 +1606,12 @@ msgstr "Bu yerga qo‘yish"
 msgid "IDS_PB_SK_SET"
 msgstr "O‘rnatish"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ha"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Yo‘q"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Ushbu fayl turi qurilmangizdagi hech bir ilova tomonidan qo‘llab-quvvatlanmaydi."
 
@@ -1728,4 +1746,7 @@ msgstr "Ko‘chirilmoqda..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tur"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Xotira kartasi"
 

@@ -757,6 +757,9 @@ msgstr "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ"
 msgid "IDS_COM_BODY_COPY"
 msgstr "ನಕಲಿಸಿ"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "ಸಂಯೋಜನೆಗಳು"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "ತೆಗೆಯಿರಿ"
 
@@ -933,6 +936,15 @@ msgstr "ಪೇರೆಂಟ್ ರೇಟಿಂಗ್"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ಫೈಲ್ ಹೆಸರು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "ತಿಳಿಯದ"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "ಡೌನ್‌ಲೋಡ್"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ಈ ಫೈಲ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "ಫೋಲ್ಡರ್‌ಗಳು"
@@ -1594,6 +1606,12 @@ msgstr "ಇಲ್ಲಿ ಅಂಟಿಸಿ"
 msgid "IDS_PB_SK_SET"
 msgstr "ಹೊಂದಿಸು"
 
+msgid "IDS_COM_SK_YES"
+msgstr "ಹೌದು"
+
+msgid "IDS_COM_SK_NO"
+msgstr "ಇಲ್ಲ"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿರುವ ಯಾವುದೇ ಅನ್ವಯಿಸುವಿಕೆಯ ಮೂಲಕ ಈ ಫೈಲ್ ಪ್ರಕಾರ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."
 
@@ -1728,4 +1746,7 @@ msgstr "ಚಲಿಸಲಾಗುತ್ತಿದೆ..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "ವಿಧ"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "ಸ್ಮರಣೆ ಕಾರ್ಡ್"
 

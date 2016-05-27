@@ -757,6 +757,9 @@ msgstr "Izv. visu"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopēt"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Iestatījumi"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Noņemt"
 
@@ -933,6 +936,15 @@ msgstr "Vecāku novērtējums"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Faila nosaukums jau tiek lietots."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nezināms"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Lejupiel."
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Šāda faila nav."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mapes"
@@ -1594,6 +1606,12 @@ msgstr "Ielīmēt šeit"
 msgid "IDS_PB_SK_SET"
 msgstr "Iestatīt"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Jā"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nē"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Šī veida failu neatbalsta neviena no jūsu ierīces programmām."
 
@@ -1728,4 +1746,7 @@ msgstr "Pārvieto..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Veids"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Atmiņas karte"
 

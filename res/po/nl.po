@@ -757,6 +757,9 @@ msgstr "Alles selecteren"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiëren"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Instellingen"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Verwijderen"
 
@@ -933,6 +936,15 @@ msgstr "Leeftijdsclassificatie"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Bestandsnaam al in gebruik."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Onbekend"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Downloaden"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Dit bestand bestaat niet."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mappen"
@@ -1594,6 +1606,12 @@ msgstr "Hier kopiëren"
 msgid "IDS_PB_SK_SET"
 msgstr "Instellen"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nee"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Dit bestandstype wordt door geen enkele applicatie op uw apparaat ondersteund."
 
@@ -1728,4 +1746,7 @@ msgstr "Verplaatsen..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Type"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Geheugenkaart"
 

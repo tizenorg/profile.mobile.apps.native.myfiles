@@ -757,6 +757,9 @@ msgstr "সমস্ত নির্বাচন করুন"
 msgid "IDS_COM_BODY_COPY"
 msgstr "অনুলিপি করুন"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "সেটিংস"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "অপসারণ"
 
@@ -933,6 +936,15 @@ msgstr "অভিভাবকীয় রেটিং"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "ফাইল নাম ইতিমধ্যেই ব্যবহারে আছে।"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "অজানা"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "ডাউনলোড"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "ফাইলটি বিদ্যমান নেই।"
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "ফোল্ডারগুলি"
@@ -1594,6 +1606,12 @@ msgstr "এখানে প্রতিলেপন"
 msgid "IDS_PB_SK_SET"
 msgstr "সেট"
 
+msgid "IDS_COM_SK_YES"
+msgstr "হ্যাঁ"
+
+msgid "IDS_COM_SK_NO"
+msgstr "না"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "এই ফাইল ধরণটি আপনার ডিভাইসের কোনও অ্যাপ্লিকেশন দ্বারা সমর্থিত নয়।"
 
@@ -1728,4 +1746,7 @@ msgstr "সরানো হচ্ছে.."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "প্রকার"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "মেমোরি কার্ড"
 

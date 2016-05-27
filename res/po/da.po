@@ -757,6 +757,9 @@ msgstr "Vælg alle"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Kopiér"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Indstillinger"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Fjern"
 
@@ -933,6 +936,15 @@ msgstr "Forældrebedømmelse"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Filnavnet findes allerede."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Ukendt"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Overførsel"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Fil findes ikke."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Mapper"
@@ -1594,6 +1606,12 @@ msgstr "Sæt ind her"
 msgid "IDS_PB_SK_SET"
 msgstr "Indstil"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nej"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Denne filtype bliver ikke understøttet af nogen applikationer på din enhed."
 
@@ -1728,4 +1746,7 @@ msgstr "Flytter ..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Type"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Hukommelseskort"
 

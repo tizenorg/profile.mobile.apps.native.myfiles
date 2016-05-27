@@ -757,6 +757,9 @@ msgstr "Hamısını seç"
 msgid "IDS_COM_BODY_COPY"
 msgstr "Köçür"
 
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Parametrlər"
+
 msgid "IDS_COM_SK_REMOVE"
 msgstr "Sil"
 
@@ -933,6 +936,15 @@ msgstr "Valideyn reytinqi"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
 msgstr "Fayl adından artıq istifadə edilir."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Naməlum"
+
+msgid "IDS_COM_SK_DOWNLOAD"
+msgstr "Yükləyin"
+
+msgid "IDS_COM_POP_FILE_NOT_EXIST"
+msgstr "Bu fayl movcud deyil."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Qovluqlar"
@@ -1594,6 +1606,12 @@ msgstr "Buraya yapışdırın"
 msgid "IDS_PB_SK_SET"
 msgstr "Qur"
 
+msgid "IDS_COM_SK_YES"
+msgstr "Bəli"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Xeyr"
+
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
 msgstr "Bu fayl növü cihazdakı heç bir proqramla dəstəklənmir."
 
@@ -1728,4 +1746,7 @@ msgstr "Göndərilmə..."
 
 msgid "IDS_COM_POP_TYPE"
 msgstr "Tip"
+
+msgid "IDS_COM_BODY_MEMORY_CARD"
+msgstr "Yaddaş kartı"
 

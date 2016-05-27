@@ -949,7 +949,7 @@ void mf_edit_view_create(void *data)
 	mf_edit_select_info_func_set(mf_edit_view_select_info_create);
 	if (ap->mf_Status.extra != MORE_SEARCH) {
 		mf_edit_view_select_all_layout_prepend(ap);
-		title = g_strdup_printf(mf_util_get_text(MF_LABEL_SELECTED), 0);
+		title = mf_util_get_text(MF_LABEL_SELECT_ITEMS);
 	} else {
 		title = mf_util_get_text(MF_LABEL_SELECT_ITEMS);
 	}

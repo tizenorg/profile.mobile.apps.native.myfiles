@@ -1140,6 +1140,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 	char *current_path = g_strdup(original_path);
 	Eina_List *path_list = NULL;
 	const char *root_path = NULL;
+	gchar *path = current_path;
 
 	mf_error("original_path is [%s]", original_path);
 	int location = mf_fm_svc_wrapper_is_root_path(current_path);
@@ -1147,6 +1148,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 		mf_error();
 		if (location == MYFILE_NONE) {
 			location = mf_fm_svc_wrapper_get_location(current_path);
+			mf_error("locations:%d", location);
 			switch (location) {
 			case MYFILE_PHONE:
 				root_path = PHONE_FOLDER;
@@ -1155,6 +1157,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 				root_path = MEMORY_FOLDER;
 				break;
 			default:
+				g_free(path);
 				return NULL;
 			}
 			current_path = current_path + strlen(root_path) + 1;
@@ -1179,7 +1182,7 @@ Eina_List *mf_fm_svc_wrapper_level_path_get(const char *original_path, int view_
 		}
 	}
 	MF_TRACE_END;
-	SAFE_FREE_CHAR(current_path);
+	g_free(path);
 	return path_list;
 }
 

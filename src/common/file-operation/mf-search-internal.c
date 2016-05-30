@@ -562,6 +562,12 @@ int _mf_search_start(ms_handle_t *handle,
 
 	for (i = 0; i < path_num; i++) {
 		const char *path = root_path[i];
+
+		if (!strcmp(path, "(null)")) {
+			mf_debug("path is null");
+			continue;
+		}
+
 		mf_debug("%d th root path is %s", i, path);
 #ifdef CHECK_RESTRICTED_PATH
 		if (!__mf_search_check_licet_path(path)) {

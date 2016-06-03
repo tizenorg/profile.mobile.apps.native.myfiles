@@ -1,6 +1,6 @@
 Name:       org.tizen.myfile
-#VCS_FROM:   profile/mobile/apps/native/myfiles#1dab0b7a982978d986d4b50df5e2eafc8e9c478b
-#RS_Ver:    20160527_1 
+#VCS_FROM:   profile/mobile/apps/native/myfiles#2bf92e1d2e23609dc282e3c8ecc29c6a15760dac
+#RS_Ver:    20160603_2 
 Summary:    Myfile Application v1.0
 Version:    1.0.0
 Release:    1
@@ -26,7 +26,7 @@ Requires(post):  /usr/bin/tpk-backend
 %endif
 
 %description
-profile/mobile/apps/native/myfiles#1dab0b7a982978d986d4b50df5e2eafc8e9c478b
+profile/mobile/apps/native/myfiles#2bf92e1d2e23609dc282e3c8ecc29c6a15760dac
 This is a container package which have preload TPK files
 
 %prep

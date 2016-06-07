@@ -980,6 +980,7 @@ EXPORT_API int main(int argc, char *argv[])
 {
 	MF_TRACE_BEGIN;
 	t_start;
+	mf_error("Hi do your work");
 	MF_TA_INIT();
 	MF_TA_ACUM_ITEM_BEGIN("1 Launch myfile", 0);
 	MF_TA_ACUM_ITEM_BEGIN("12 Main", 0);

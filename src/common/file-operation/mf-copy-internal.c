@@ -182,13 +182,24 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 		const gchar *name = g_path_get_basename(dst);
 		storage_get_root_directory(STORAGE_TYPE_INTERNAL, &root_path);
 		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
+		if (!copy_folder) {
+			fclose(src_f);
+			return -1;
+		}
 		dst = g_strconcat(copy_folder, "/", name, NULL);
 	} else if (location == MYFILE_MMC) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
 		storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &root_path);
 		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
+		if (!copy_folder) {
+			fclose(src_f);
+			return -1;
+		}
 		dst = g_strconcat(copy_folder, "/", name, NULL);
+	}
+	if (!dst) {
+		return -1;
 	}
 	mf_error("===================== copy_dst is [%s], dst is [%s]", copy_dst, dst);
 	if (copy_folder && !mf_file_exists(copy_folder)) {

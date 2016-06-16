@@ -1388,7 +1388,7 @@ static char *__mf_genlist_cloud_title_get(char *curr_path, Eina_List *storage_li
 	Eina_List *l = storage_list;
 	storage_info* info = eina_list_data_get(l);
 	for (; l; l = eina_list_next(l), info = eina_list_data_get(l)) {
-		if ((info->type != STORAGE_TYPE_LABEL) && (!strncmp(info->root_path, curr_path, strlen(info->root_path)))) {
+		if (info && (info->type != STORAGE_TYPE_LABEL) && (!strncmp(info->root_path, curr_path, strlen(info->root_path)))) {
 			return strdup(info->root_name);
 		}
 	}
@@ -1402,6 +1402,9 @@ storage_type __mf_genlist_cloud_is_root_path(const char *fullpath, Eina_List *st
 	Eina_List *list = NULL;
 	void *item = NULL;
 	EINA_LIST_FOREACH(storage_list, list, item) {
+		if (!item) {
+			continue;
+		}
 		storage_info *info = item;
 		if ((info->type != STORAGE_TYPE_LABEL) && (!strcmp(info->root_path, fullpath))) {
 			return info->type;

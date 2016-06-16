@@ -875,16 +875,22 @@ char *mf_fm_svc_path_info_translate(char *path_info, int path_info_max_len)
 			}
 			if (ret == TRUE) {
 				d_value = last_len - strlen(end);
-				utf8_last[d_value] = '\0';
-				output = g_strconcat(output, sep, utf8_last, omit, NULL);
+				if (utf8_last) {
+					utf8_last[d_value] = '\0';
+					output = g_strconcat(output, sep, utf8_last, omit, NULL);
+				}
 				SAFE_FREE_CHAR(temp);
 			}
 		} else {
-			output = g_strconcat(output, sep, utf8_last, NULL);
+			if (utf8_last) {
+				output = g_strconcat(output, sep, utf8_last, NULL);
+			}
 			SAFE_FREE_CHAR(temp);
 		}
 	} else {
-		output = g_strdup(utf8_last);
+		if (utf8_last) {
+			output = g_strdup(utf8_last);
+		}
 		SAFE_FREE_CHAR(temp);
 	}
 	SAFE_FREE_CHAR(utf8_last);

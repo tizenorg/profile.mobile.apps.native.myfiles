@@ -742,6 +742,9 @@ msgstr "Pretraži"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video zapisi"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Obrada..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

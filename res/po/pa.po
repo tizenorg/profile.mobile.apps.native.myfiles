@@ -742,6 +742,9 @@ msgstr "ਖੋਜੋ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ਵੀਡਿਓਜ਼"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "ਪ੍ਰਕਿਰਿਆ ਹੋ ਰਹੀ ਹੈ..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "ਓਕੇ"
 

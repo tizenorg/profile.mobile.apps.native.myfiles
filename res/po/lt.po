@@ -742,6 +742,9 @@ msgstr "Ieškoti"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vaizdo įrašai"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Apdorojama..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "Gerai"
 

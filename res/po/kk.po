@@ -742,6 +742,9 @@ msgstr "Іздеу"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Бейнежазбалар"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Өңделуде..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

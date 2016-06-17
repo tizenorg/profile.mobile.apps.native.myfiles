@@ -638,7 +638,7 @@ msgid "IDS_MF_SK4_VIEW_AS"
 msgstr "ഇതുപോലെ കാണുക"
 
 msgid "IDS_MF_SK_CANCEL"
-msgstr "റദ്ദാക്കു."
+msgstr "റദ്ദാക്കുക"
 
 msgid "IDS_MF_SK_CANCEL_LITE"
 msgstr "റദ്ദ്"
@@ -742,11 +742,14 @@ msgstr "തിരയുക"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "വീഡിയോകള്‍"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "പ്രോസസ്സുചെയ്യുന്നു..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "ശരി"
 
 msgid "IDS_COM_SK_CANCEL"
-msgstr "റദ്ദാക്കു."
+msgstr "റദ്ദാക്കുക"
 
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
 msgstr "നിശബ്‌ദം"
@@ -1262,7 +1265,7 @@ msgid "IDS_MF_BUTTON2_VIDEOS"
 msgstr "വീഡിയോകൾ"
 
 msgid "IDS_MF_BUTTON_CANCEL_ABB"
-msgstr "റദ്ദ്"
+msgstr "റദ്ദാക്കുക"
 
 msgid "IDS_MF_BUTTON_CANCEL_ABB3"
 msgstr "റദ്ദാക്കുക"

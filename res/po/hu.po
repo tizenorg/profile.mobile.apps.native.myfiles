@@ -742,6 +742,9 @@ msgstr "Keresés"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videók"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Feldolgozás folyamatban"
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

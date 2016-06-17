@@ -554,7 +554,7 @@ msgid "IDS_MF_POP_PASTE_HERE"
 msgstr "Pegar aquí"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "Se eliminarán %d elementos"
+msgstr "Se eliminarán %d elementos."
 
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Permiso denegado"
@@ -742,6 +742,9 @@ msgstr "Buscar"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Procesando..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "Aceptar"
 
@@ -839,7 +842,7 @@ msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
 msgstr "Mover a Privado"
 
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
-msgstr "Alcanzado el número máximo de caracteres"
+msgstr "Alcanzado el número máximo de caracteres."
 
 msgid "IDS_MUSIC_POP_REMOVING"
 msgstr "Eliminando..."
@@ -1034,7 +1037,7 @@ msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Notificando servidor..."
 
 msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "Se eliminarán %d elementos"
+msgstr "Se eliminarán %d elementos."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
 msgstr "No se puede encontrar este archivo. Pulse Descargar para intentar descargarlo de nuevo."
@@ -1448,7 +1451,7 @@ msgid "IDS_MF_OPT_UNINSTALL"
 msgstr "Desinstalar"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
-msgstr "Se eliminará 1 elemento"
+msgstr "Se eliminará 1 elemento."
 
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
 msgstr "Se eliminará 1 acceso directo."
@@ -1460,7 +1463,7 @@ msgid "IDS_MF_POP_MOVING_ING"
 msgstr "Moviendo..."
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
-msgstr "Se eliminarán %d elementos"
+msgstr "Se eliminarán %d elementos."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
 msgstr "Se eliminarán %d accesos directos."

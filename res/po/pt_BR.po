@@ -742,6 +742,9 @@ msgstr "Pesquisar"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Vídeos"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Processando…"
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
@@ -833,10 +836,10 @@ msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
 msgstr "Excluir este item?"
 
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
-msgstr "Remover do Modo Privado"
+msgstr "Remover do Modo privado"
 
 msgid "IDS_GALLERY_OPT_MOVE_TO_PRIVATE"
-msgstr "Mover para o Modo Privado"
+msgstr "Mover para o Modo privado"
 
 msgid "IDS_MF_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Número máximo de caracteres atingido."
@@ -1355,7 +1358,7 @@ msgid "IDS_MF_HEADER_VIEW_AS"
 msgstr "Ver como"
 
 msgid "IDS_MF_ITAB2_ALL"
-msgstr "Todas"
+msgstr "Todos"
 
 msgid "IDS_MF_ITAB2_DROPBOX"
 msgstr "Dropbox"

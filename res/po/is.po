@@ -742,6 +742,9 @@ msgstr "Leit"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Myndskeið"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Vinnsla í gangi..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "Í lagi"
 

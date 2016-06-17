@@ -742,6 +742,9 @@ msgstr "Suche"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videos"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Verarbeitung läuft ..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

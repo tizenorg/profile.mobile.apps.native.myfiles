@@ -742,6 +742,9 @@ msgstr "Sök"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoklipp"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Bearbetar..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

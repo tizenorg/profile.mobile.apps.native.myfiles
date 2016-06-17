@@ -742,6 +742,9 @@ msgstr "ಶೋಧಿಸಿ"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ವೀಡಿಯೊಗಳು"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "ಪ್ರಕ್ರಿಯೆಗೊಳ್ಳುತ್ತಿದೆ..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "ಸರಿ"
 

@@ -742,6 +742,9 @@ msgstr "Etsi"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videot"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Käsitellään..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

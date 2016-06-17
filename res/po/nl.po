@@ -742,6 +742,9 @@ msgstr "Zoeken"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video's"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Verwerken..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

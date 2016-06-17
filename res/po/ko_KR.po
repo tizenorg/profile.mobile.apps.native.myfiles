@@ -29,7 +29,7 @@ msgid "IDS_EMAIL_POP_CANCELLED"
 msgstr "취소하였습니다."
 
 msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "다운로드할 수 없습니다."
+msgstr "다운로드하지 못하였습니다."
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "완료하였습니다."
@@ -278,7 +278,7 @@ msgid "IDS_MF_BODY_UNLIMITED"
 msgstr "제한 없음"
 
 msgid "IDS_MF_BODY_UP"
-msgstr "상위"
+msgstr "위쪽"
 
 msgid "IDS_MF_BODY_VALIDITY"
 msgstr "유효 횟수"
@@ -464,7 +464,7 @@ msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
 msgstr "분할"
 
 msgid "IDS_MF_OPT_SORT_BY"
-msgstr "정렬"
+msgstr "정렬 방식"
 
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
 msgstr "썸네일 보기"
@@ -530,7 +530,7 @@ msgid "IDS_MF_POP_INVALID_FILE_NAME"
 msgstr "파일 이름이 바르지 않습니다."
 
 msgid "IDS_MF_POP_LOADING_ING"
-msgstr "로딩 중..."
+msgstr "불러오는 중..."
 
 msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
 msgstr "최대 폴더 수에 도달하였습니다."
@@ -742,6 +742,9 @@ msgstr "검색"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "동영상"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "진행 중..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "확인"
 
@@ -821,7 +824,7 @@ msgid "IDS_MF_BODY_SD_CARD_ABB"
 msgstr "SD 카드"
 
 msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
-msgstr "디바이스 메모리"
+msgstr "디바이스 저장공간"
 
 msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
 msgstr "퍼스널 저장공간에 추가"
@@ -866,7 +869,7 @@ msgid "IDS_ST_BODY_MESSAGE_ALERT"
 msgstr "메시지 알림"
 
 msgid "IDS_MEDIABR_OPT_DETAILS"
-msgstr "상세 정보"
+msgstr "상세정보"
 
 msgid "IDS_MF_HEADER_ENTER_NAME"
 msgstr "이름을 입력하세요."
@@ -950,7 +953,7 @@ msgid "IDS_COM_BODY_FOLDERS"
 msgstr "폴더"
 
 msgid "IDS_COM_BODY_DETAILS"
-msgstr "상세 정보"
+msgstr "상세정보"
 
 msgid "IDS_COM_BODY_CREATE"
 msgstr "추가"
@@ -1019,7 +1022,7 @@ msgid "IDS_DM_HEADER_OLDER"
 msgstr "오래된 항목"
 
 msgid "IDS_DM_BODY_STORAGE"
-msgstr "저장소"
+msgstr "저장공간"
 
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "삭제 중..."
@@ -1037,7 +1040,7 @@ msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
 msgstr "항목 %d개를 삭제합니다."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "파일을 찾을 수 없습니다. 다시 다운로드하려면 [다운로드]를 누르세요."
+msgstr "파일을 찾을 수 없습니다. 다시 다운로드하려면 다운로드 버튼을 누르세요."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
 msgstr "파일을 열 수 없음"
@@ -1304,7 +1307,7 @@ msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
 msgstr "바로가기 삭제"
 
 msgid "IDS_MF_HEADER_DETAILS"
-msgstr "상세 정보"
+msgstr "상세정보"
 
 msgid "IDS_MF_HEADER_DOCUMENTS"
 msgstr "문서"
@@ -1331,7 +1334,7 @@ msgid "IDS_MF_HEADER_REMOVE"
 msgstr "삭제"
 
 msgid "IDS_MF_HEADER_RENAME"
-msgstr "이름 바꾸기"
+msgstr "이름 변경"
 
 msgid "IDS_MF_HEADER_SETTINGS"
 msgstr "설정"
@@ -1418,7 +1421,7 @@ msgid "IDS_MF_OPT_DETAILED_LIST_ABB"
 msgstr "목록(자세히)"
 
 msgid "IDS_MF_OPT_DETAILS"
-msgstr "상세 정보"
+msgstr "상세정보"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
 msgstr "다시 보지 않기"

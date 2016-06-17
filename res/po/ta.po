@@ -662,7 +662,7 @@ msgid "IDS_MF_TAB_UP"
 msgstr "மேலே"
 
 msgid "IDS_MF_TPOP_COMPRESSED"
-msgstr "குறுக்கப்பட்டது"
+msgstr "சுருக்கப்பட்டது"
 
 msgid "IDS_MF_TPOP_DECOMPRESSED"
 msgstr "சுருக்குதல் நீக்கப்பட்டது"
@@ -741,6 +741,9 @@ msgstr "தேடுக"
 
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "நிகழ்படங்கள்"
+
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "செயலில்..."
 
 msgid "IDS_COM_SK_OK"
 msgstr "சரி"

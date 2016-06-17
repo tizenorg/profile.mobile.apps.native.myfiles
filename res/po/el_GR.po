@@ -742,6 +742,9 @@ msgstr "Αναζήτηση"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Βίντεο"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Επεξεργασία..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

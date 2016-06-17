@@ -471,11 +471,14 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				params->pCheckBox = check;
 				elm_object_style_set(check, "default");
 				elm_object_focus_set(check, EINA_FALSE);
+				/*
+				//TODO if effect is required.
 				if (!params->m_checked) {
 					elm_object_signal_emit(check, "elm,activate,check,off", "elm");
 				} else {
 					elm_object_signal_emit(check, "elm,activate,check,on", "elm");
 				}
+				*/
 				elm_check_state_pointer_set(check, &params->m_checked);
 				evas_object_repeat_events_set(check, EINA_FALSE);
 				evas_object_propagate_events_set(check, EINA_FALSE);

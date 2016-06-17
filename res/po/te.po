@@ -742,6 +742,9 @@ msgstr "వెతుకు"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "వీడియోలు"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "ప్రాసెస్ చేస్తోంది..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "సరే"
 

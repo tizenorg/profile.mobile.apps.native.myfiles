@@ -742,6 +742,9 @@ msgstr "Որոնել"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Տեսահոլովակներ"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Ընթացքում է"
+
 msgid "IDS_COM_SK_OK"
 msgstr "Ընդունել"
 

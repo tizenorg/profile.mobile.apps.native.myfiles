@@ -1,23 +1,23 @@
 msgid "IDS_MF_POP_YOUR_DEVICE_IS_NOT_CONNECTED_TO_A_WI_FI_NETWORK_CONNECTING_TO_A_MOBILE_NETWORK_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Dispozitivul nu este conectat la o reţea Wi-Fi. Conectarea la o reţea mobilă poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Dispozitivul nu este conectat la o rețea Wi-Fi. Conectarea la o rețea mobilă poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_MF_HEADER_SHARE_VIA"
-msgstr "Partajaţi prin"
+msgstr "Partajați prin"
 
 msgid "IDS_MF_OPT_SHARE_VIA"
 msgstr "Partajare prin"
 
 msgid "IDS_VIDEO_TPOP_MOBILE_DATA_TURNED_OFF_CONNECT_TO_WI_FI_NETWORK_INSTEAD_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Datele mobile sunt dezactivate. Conectaţi-vă în schimb la o reţea Wi-Fi sau activaţi Datele mobile şi încercaţi din nou."
+msgstr "Datele mobile sunt dezactivate. Conectați-vă în schimb la o rețea Wi-Fi sau activați Datele mobile și încercați din nou."
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Ştergere"
+msgstr "Ștergere"
 
 msgid "IDS_DM_POP_PD_ITEMS_WILL_BE_DELETED_ABB2"
-msgstr "%d elemente vor fi şterse."
+msgstr "%d elemente vor fi șterse."
 
 msgid "IDS_DM_POP_THIS_ITEM_WILL_BE_DELETED_ABB"
-msgstr "Acest element va fi şters."
+msgstr "Acest element va fi șters."
 
 msgid "IDS_GALLERY_POP_DOWNLOADING_ING"
 msgstr "Se descarcă..."
@@ -29,7 +29,7 @@ msgid "IDS_EMAIL_POP_CANCELLED"
 msgstr "Anulat"
 
 msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Descărcare eşuată"
+msgstr "Descărcare eșuată"
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "Succes"
@@ -38,7 +38,7 @@ msgid "IDS_MF_HEADER_CREATE"
 msgstr "Creare"
 
 msgid "IDS_MF_POP_DELETED"
-msgstr "Şters"
+msgstr "Șters"
 
 msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
 msgstr "Cartelă de memorie scoasă"
@@ -47,19 +47,19 @@ msgid "IDS_MUSIC_POP_SEARCHING_ING"
 msgstr "Căutare..."
 
 msgid "IDS_VC_BODY_NETWORK_CONNECTION_ERROR"
-msgstr "Eroare la conectarea la reţea"
+msgstr "Eroare la conectarea la rețea"
 
 msgid "IDS_MF_OPT_DELETEFOLDER"
-msgstr "Ştergere Director"
+msgstr "Ștergere Director"
 
 msgid "IDS_MF_POP_ERR_FOLDER_NAME_EMPTY"
-msgstr "Introduceţi numele folderului."
+msgstr "Introduceți numele folderului."
 
 msgid "IDS_HS_OPT_DOWNLOADED_APPS"
-msgstr "Aplicaţii descărcate"
+msgstr "Aplicații descărcate"
 
 msgid "IDS_CALL_BODY_NETWORK_CONNECTION_ERROR_OCCURRED_THE_CALL_HAS_BEEN_ENDED_RECONNECT_TO_THE_NETWORK_Q_KOR"
-msgstr "A apărut o eroare de conexiune la reţea. Apelul a fost întrerupt. Vă reconectaţi la reţea?"
+msgstr "A apărut o eroare de conexiune la rețea. Apelul a fost întrerupt. Vă reconectați la rețea?"
 
 msgid "IDS_MF_SK_OK"
 msgstr "OK"
@@ -77,10 +77,10 @@ msgid "IDS_MF_OPT_ADD_SHORTCUT_ABB"
 msgstr "Adăugare comandă rapidă"
 
 msgid "IDS_MF_OPT_DELETE"
-msgstr "Ştergere"
+msgstr "Ștergere"
 
 msgid "IDS_MF_OPT_DELETE_SHORTCUT_ABB"
-msgstr "Ştergere comandă rapidă"
+msgstr "Ștergere comandă rapidă"
 
 msgid "IDS_MF_OPT_RENAME_SHORTCUT_ABB"
 msgstr "Redenumire comandă rapidă"
@@ -92,13 +92,13 @@ msgid "IDS_MF_OPT_SETTINGS"
 msgstr "Setări"
 
 msgid "IDS_MF_OPT_SHARE"
-msgstr "Partajaţi"
+msgstr "Partajați"
 
 msgid "IDS_MF_OPT_STORAGE_USAGE_ABB2"
-msgstr "Utilizare spaţiu de stocare"
+msgstr "Utilizare spațiu de stocare"
 
 msgid "IDS_CST_OPT_DO_NOT_SHOW_AGAIN"
-msgstr "Nu se afişează din nou"
+msgstr "Nu se afișează din nou"
 
 msgid "IDS_EMAIL_BODY_B"
 msgstr "B"
@@ -125,7 +125,7 @@ msgid "IDS_MEMO_POP_BATTERY_LOW"
 msgstr "Baterie descărcată"
 
 msgid "IDS_MF_BODY_1_FILE"
-msgstr "1 fişier"
+msgstr "1 fișier"
 
 msgid "IDS_MF_BODY_ACCESS_MORE_MY_ALBUM"
 msgstr "Albumul meu"
@@ -146,7 +146,7 @@ msgid "IDS_MF_BODY_BYTE"
 msgstr "Octet"
 
 msgid "IDS_MF_BODY_CONTENTS"
-msgstr "Conţinut"
+msgstr "Conținut"
 
 msgid "IDS_MF_BODY_CREATED_DATE"
 msgstr "Dată creare"
@@ -155,7 +155,7 @@ msgid "IDS_MF_BODY_DATE"
 msgstr "Dată"
 
 msgid "IDS_MF_BODY_DELETE_SELECTED_ITEMS_Q"
-msgstr "Ştergeţi elementele selectate?"
+msgstr "Ștergeți elementele selectate?"
 
 msgid "IDS_MF_BODY_DETAILS_KB"
 msgstr "KO"
@@ -167,19 +167,19 @@ msgid "IDS_MF_BODY_EXECUTE"
 msgstr "Executare"
 
 msgid "IDS_MF_BODY_FILE_NAME"
-msgstr "Nume fişier"
+msgstr "Nume fișier"
 
 msgid "IDS_MF_BODY_FILE_TYPE_ABB"
-msgstr "Tip fiş."
+msgstr "Tip fiș."
 
 msgid "IDS_MF_BODY_FOLDER_NAME"
 msgstr "Nume director"
 
 msgid "IDS_MF_BODY_FORWARDING"
-msgstr "Redirecţionare"
+msgstr "Redirecționare"
 
 msgid "IDS_MF_BODY_GPS_INFORMATION"
-msgstr "Informaţii GPS"
+msgstr "Informații GPS"
 
 msgid "IDS_MF_BODY_GPS_LATITUDE"
 msgstr "Latitudine GPS"
@@ -206,31 +206,31 @@ msgid "IDS_MF_BODY_LAST_MODIFIED_M_DATE_ABB"
 msgstr "Ultima modificare"
 
 msgid "IDS_MF_BODY_LIST_AND_DETAILS_ABB"
-msgstr "Listă şi detalii"
+msgstr "Listă și detalii"
 
 msgid "IDS_MF_BODY_LOCATION"
-msgstr "Locaţie"
+msgstr "Locație"
 
 msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "Se iniţializează datele MMC..."
+msgstr "Se inițializează datele MMC..."
 
 msgid "IDS_MF_BODY_MY_VIDEO_CLIPS"
 msgstr "Clipurile mele video"
 
 msgid "IDS_MF_BODY_NOT_ENOUGH_MEMORY_IN_PHONE_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Memoria telefonului este insuficientă. Ştergeţi câteva elemente şi încercaţi din nou."
+msgstr "Memoria telefonului este insuficientă. Ștergeți câteva elemente și încercați din nou."
 
 msgid "IDS_MF_BODY_NO_FILES"
-msgstr "Nu există fişiere"
+msgstr "Nu există fișiere"
 
 msgid "IDS_MF_BODY_NO_RECENTLY_OPENED_FILES"
-msgstr "Niciun fişier deschis recent"
+msgstr "Niciun fișier deschis recent"
 
 msgid "IDS_MF_BODY_NO_RECENT_FILES"
-msgstr "Nu aveţi fişiere recente"
+msgstr "Nu aveți fișiere recente"
 
 msgid "IDS_MF_BODY_PD_FILES"
-msgstr "%d fişiere"
+msgstr "%d fișiere"
 
 msgid "IDS_MF_BODY_PD_ITEM"
 msgstr "%d element"
@@ -257,13 +257,13 @@ msgid "IDS_MF_BODY_SHARE"
 msgstr "Partajare"
 
 msgid "IDS_MF_BODY_SHOW_HIDDEN_FILES"
-msgstr "Afişare fişiere ascunse"
+msgstr "Afișare fișiere ascunse"
 
 msgid "IDS_MF_BODY_SOUNDS"
 msgstr "Sunete"
 
 msgid "IDS_MF_BODY_STORAGE_USAGE_ABB"
-msgstr "Utiliz. spaţiu stoc."
+msgstr "Utiliz. spațiu stoc."
 
 msgid "IDS_MF_BODY_TIME"
 msgstr "Oră"
@@ -299,7 +299,7 @@ msgid "IDS_MF_BUTTON_EXPORT_HERE"
 msgstr "Export aici"
 
 msgid "IDS_MF_BUTTON_GO_TO_MY_FILES"
-msgstr "Accesare Fişierele mele"
+msgstr "Accesare Fișierele mele"
 
 msgid "IDS_MF_BUTTON_HOME"
 msgstr "Acasă"
@@ -320,16 +320,16 @@ msgid "IDS_MF_HEADER_AUDIO"
 msgstr "Audio"
 
 msgid "IDS_MF_HEADER_CONNECT_TO_MOBILE_NETWORK"
-msgstr "Conectaţi-vă la reţeaua mobilă"
+msgstr "Conectați-vă la rețeaua mobilă"
 
 msgid "IDS_MF_HEADER_CONNECT_TO_WI_FI_NETWORK"
-msgstr "Conectarea la reţeaua Wi-Fi"
+msgstr "Conectarea la rețeaua Wi-Fi"
 
 msgid "IDS_MF_HEADER_COUNT"
 msgstr "Contor"
 
 msgid "IDS_MF_HEADER_ENTER_FOLDER_NAME"
-msgstr "Introduceţi numele folderului."
+msgstr "Introduceți numele folderului."
 
 msgid "IDS_MF_HEADER_LOCAL"
 msgstr "Local"
@@ -338,10 +338,10 @@ msgid "IDS_MF_HEADER_NEW_FOLDER"
 msgstr "Folder nou"
 
 msgid "IDS_MF_HEADER_RECENT_FILES"
-msgstr "Fişiere recente"
+msgstr "Fișiere recente"
 
 msgid "IDS_MF_HEADER_REMOVE_FILE_ABB"
-msgstr "Eliminaţi fişierul"
+msgstr "Eliminați fișierul"
 
 msgid "IDS_MF_HEADER_SHARE_SOUND_N_SHOT_PICS_ABB"
 msgstr "Partaj. img. sunet&foto"
@@ -356,16 +356,16 @@ msgid "IDS_MF_MBODY_SELECT_ALL"
 msgstr "Select. totală"
 
 msgid "IDS_MF_NPBODY_ENTER_FOLDER_NAME"
-msgstr "Introduceţi numele folderului"
+msgstr "Introduceți numele folderului"
 
 msgid "IDS_MF_OPT_ADD_TO_SHORTCUTS_ABB"
 msgstr "Adăugare la comenzi rapide"
 
 msgid "IDS_MF_OPT_AS_IMAGE_FILES"
-msgstr "Ca fişiere imagine"
+msgstr "Ca fișiere imagine"
 
 msgid "IDS_MF_OPT_AS_VIDEO_FILES"
-msgstr "Ca fişiere video"
+msgstr "Ca fișiere video"
 
 msgid "IDS_MF_OPT_CALLER_RINGTONE"
 msgstr "Ton sonerie apelant"
@@ -392,13 +392,13 @@ msgid "IDS_MF_OPT_DEFAULT_RINGTONE"
 msgstr "Sonerie de apel implicită"
 
 msgid "IDS_MF_OPT_DETAIL_VIEW"
-msgstr "Afişare detaliată"
+msgstr "Afișare detaliată"
 
 msgid "IDS_MF_OPT_EDIT"
 msgstr "Editare"
 
 msgid "IDS_MF_OPT_EXTRACT"
-msgstr "Extrageţi"
+msgstr "Extrageți"
 
 msgid "IDS_MF_OPT_EXTRACT_TO_CURRENT_FOLDER"
 msgstr "Extragere în folderul actual"
@@ -407,7 +407,7 @@ msgid "IDS_MF_OPT_GO_TO_FOLDER_ABB"
 msgstr "Accesare folder"
 
 msgid "IDS_MF_OPT_HIDE_FILE_EXTENSION_ABB"
-msgstr "Ascundere ext. fişier"
+msgstr "Ascundere ext. fișier"
 
 msgid "IDS_MF_OPT_ITEMS"
 msgstr "Elemente"
@@ -425,7 +425,7 @@ msgid "IDS_MF_OPT_NAME"
 msgstr "Nume"
 
 msgid "IDS_MF_OPT_OPEN_FILE_LOCATION_ABB"
-msgstr "Deschidere locaţie fişier"
+msgstr "Deschidere locație fișier"
 
 msgid "IDS_MF_OPT_PERSONAL_PAGE"
 msgstr "Pagină personală"
@@ -458,7 +458,7 @@ msgid "IDS_MF_OPT_SHARE_LINK"
 msgstr "Partajare link"
 
 msgid "IDS_MF_OPT_SHOW_FILE_EXTENSION"
-msgstr "Afişare extensie de fişier"
+msgstr "Afișare extensie de fișier"
 
 msgid "IDS_MF_OPT_SLIDETRANSITIONS_SPLIT"
 msgstr "Scindare"
@@ -482,37 +482,37 @@ msgid "IDS_MF_OPT_ZIP"
 msgstr "Arhivare"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element va fi şters."
+msgstr "1 element va fi șters."
 
 msgid "IDS_MF_POP_ASCENDING"
 msgstr "Crescător"
 
 msgid "IDS_MF_POP_CONF_DELETE_Q"
-msgstr "Ştergeţi?"
+msgstr "Ștergeți?"
 
 msgid "IDS_MF_POP_CONTINUE"
 msgstr "Continuare"
 
 msgid "IDS_MF_POP_COPYING_FAILED"
-msgstr "Copierea nu a reuşit."
+msgstr "Copierea nu a reușit."
 
 msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Ştergerea nu a reuşit."
+msgstr "Ștergerea nu a reușit."
 
 msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
-msgstr "Ştergeţi elementul selectat?"
+msgstr "Ștergeți elementul selectat?"
 
 msgid "IDS_MF_POP_DESCENDING"
 msgstr "Descrescător"
 
 msgid "IDS_MF_POP_DRM_FILE_CANNOT_SEND"
-msgstr "Fişier DRM. Imposibil de trimis."
+msgstr "Fișier DRM. Imposibil de trimis."
 
 msgid "IDS_MF_POP_DRM_FILE_IS_NOT_AVAILABLE"
-msgstr "Fişierul DRM nu este disponibil."
+msgstr "Fișierul DRM nu este disponibil."
 
 msgid "IDS_MF_POP_DUPLICATED_FILE"
-msgstr "Numele fişierului există deja."
+msgstr "Numele fișierului există deja."
 
 msgid "IDS_MF_POP_FOLDER_NAME_ALREADY_EXISTS"
 msgstr "Numele directorului există deja."
@@ -527,7 +527,7 @@ msgid "IDS_MF_POP_INPUT_TEXT"
 msgstr "Introducere text"
 
 msgid "IDS_MF_POP_INVALID_FILE_NAME"
-msgstr "Nume fişier incorect"
+msgstr "Nume fișier incorect"
 
 msgid "IDS_MF_POP_LOADING_ING"
 msgstr "Încărcare..."
@@ -536,7 +536,7 @@ msgid "IDS_MF_POP_MAXIMUM_FOLDER_REACHED"
 msgstr "S-a atins nivelul maxim pentru folder."
 
 msgid "IDS_MF_POP_MOVING_FAILED"
-msgstr "Mutarea nu a reuşit."
+msgstr "Mutarea nu a reușit."
 
 msgid "IDS_MF_POP_NAME_IS_EMPTY"
 msgstr "Numele este gol."
@@ -545,7 +545,7 @@ msgid "IDS_MF_POP_NOT_ENOUGH_HEAP_MEMORY"
 msgstr "Memorie heap insuficientă"
 
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Nu există suficientă memorie. Ştergeţi câteva elemente şi încercaţi din nou."
+msgstr "Nu există suficientă memorie. Ștergeți câteva elemente și încercați din nou."
 
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_PS_AVAILABLE"
 msgstr "Memorie insuficientă. %s disponibil."
@@ -554,46 +554,46 @@ msgid "IDS_MF_POP_PASTE_HERE"
 msgstr "Lipire aici"
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elemente vor fi şterse."
+msgstr "%d elemente vor fi șterse."
 
 msgid "IDS_MF_POP_PERMISSION_DENIED"
 msgstr "Permisiunea a fost refuzată."
 
 msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
-msgstr "Eliminaţi de pe lista de fişiere recente?"
+msgstr "Eliminați de pe lista de fișiere recente?"
 
 msgid "IDS_MF_POP_REMOVE_FROM_SHORTCUTS_Q"
-msgstr "Eliminaţi Comenzile rapide?"
+msgstr "Eliminați Comenzile rapide?"
 
 msgid "IDS_MF_POP_REMOVE_Q"
 msgstr "Eliminare?"
 
 msgid "IDS_MF_POP_SAME_FILE_NAME_ALREADY_EXIST_E"
-msgstr "Acelaşi nume de fişier există deja!"
+msgstr "Același nume de fișier există deja!"
 
 msgid "IDS_MF_POP_SAME_NAME_ALREADY_IN_USE"
-msgstr "Acelaşi nume deja în uz"
+msgstr "Același nume deja în uz"
 
 msgid "IDS_MF_POP_SELECT_ITEM"
 msgstr "Selectare element"
 
 msgid "IDS_MF_POP_SEND_FAILED"
-msgstr "Trimitere nereuşită"
+msgstr "Trimitere nereușită"
 
 msgid "IDS_MF_POP_SHORTCUT_ADDED"
 msgstr "Comandă rapidă adăugată"
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_A_SUBFOLDER_OF_THE_SOURCE_FOLDER"
-msgstr "Fişierul de destinaţie este un subfişier al fişierului sursă."
+msgstr "Fișierul de destinație este un subfișier al fișierului sursă."
 
 msgid "IDS_MF_POP_THE_DESTINATION_FOLDER_IS_THE_SAME_AS_THE_SOURCE_FOLDER"
-msgstr "Fişierul de destinaţie este identic cu fişierul sursă."
+msgstr "Fișierul de destinație este identic cu fișierul sursă."
 
 msgid "IDS_MF_POP_THE_DEVICE_HAS_BEEN_DISCONNECTED"
 msgstr "Dispozitivul a fost deconectat"
 
 msgid "IDS_MF_POP_THIS_FILE_DOES_NOT_EXIST"
-msgstr "Acest fişier nu există."
+msgstr "Acest fișier nu există."
 
 msgid "IDS_MF_POP_UNABLE_TO_COPY"
 msgstr "Imposibil de copiat"
@@ -602,16 +602,16 @@ msgid "IDS_MF_POP_UNABLE_TO_MOVE"
 msgstr "Imposibil de mutat"
 
 msgid "IDS_MF_POP_UNABLE_TO_PERFORM_THIS_ACTION_NETWORK_ERROR_OCCURRED"
-msgstr "Această acţiune nu poate fi efectuată. S-a produs o eroare de reţea."
+msgstr "Această acțiune nu poate fi efectuată. S-a produs o eroare de rețea."
 
 msgid "IDS_MF_POP_UNABLE_TO_PLAY_DURING_CALL"
 msgstr "Imposibil de redat în timpul unui apel"
 
 msgid "IDS_MF_POP_UNABLE_TO_SET_DRM_PROTECTED_CONTENT_AS_RINGTONE_OR_NOTIFICATION_ALERT"
-msgstr "Imposibil de setat conţinutul protejat prin drepturi DRM ca ton de sonerie sau ca alertă de notificare"
+msgstr "Imposibil de setat conținutul protejat prin drepturi DRM ca ton de sonerie sau ca alertă de notificare"
 
 msgid "IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN"
-msgstr "Trebuie să fiţi conectat la o reţea Wi-Fi pentru a căuta dispozitive din apropiere. Conectaţi-vă la o reţea Wi-Fi şi încercaţi din nou."
+msgstr "Trebuie să fiți conectat la o rețea Wi-Fi pentru a căuta dispozitive din apropiere. Conectați-vă la o rețea Wi-Fi și încercați din nou."
 
 msgid "IDS_MF_SK3_BACK"
 msgstr "Înapoi"
@@ -620,7 +620,7 @@ msgid "IDS_MF_SK3_COPY"
 msgstr "Copiere"
 
 msgid "IDS_MF_SK3_DELETE"
-msgstr "Ştergere"
+msgstr "Ștergere"
 
 msgid "IDS_MF_SK3_EDIT"
 msgstr "Editare"
@@ -668,16 +668,16 @@ msgid "IDS_MF_TPOP_DECOMPRESSED"
 msgstr "S-a decomprimat."
 
 msgid "IDS_MF_TPOP_DOWNLOADING_FILE_ING"
-msgstr "Se descarcă fişierul..."
+msgstr "Se descarcă fișierul..."
 
 msgid "IDS_MF_TPOP_FILES_COMPRESSED"
-msgstr "Fişierele au fost comprimate."
+msgstr "Fișierele au fost comprimate."
 
 msgid "IDS_MF_TPOP_FILES_EXTRACTED"
-msgstr "Fişierele au fost extrase."
+msgstr "Fișierele au fost extrase."
 
 msgid "IDS_MF_TPOP_FILE_IMPORTED"
-msgstr "Fişier importat."
+msgstr "Fișier importat."
 
 msgid "IDS_MF_TPOP_NO_DEVICES_FOUND_SCANNING_WILL_CONTINUE_IN_BACKGROUND"
 msgstr "Nu s-au găsit dispozitive. Scanarea va continua în fundal."
@@ -698,7 +698,7 @@ msgid "IDS_ST_POP_ADD_SHORTCUT"
 msgstr "Adăugare comandă rapidă"
 
 msgid "IDS_ST_POP_DELETE_ITEMS_Q"
-msgstr "Ştergeţi elementele?"
+msgstr "Ștergeți elementele?"
 
 msgid "IDS_VIDEO_OPT_RENAME"
 msgstr "Redenumire"
@@ -710,7 +710,7 @@ msgid "IDS_ST_SK_REMOVE"
 msgstr "Eliminare"
 
 msgid "IDS_CST_HEADER_DELETE_ITEM_ABB"
-msgstr "Ştergere element"
+msgstr "Ștergere element"
 
 msgid "IDS_MF_HEADER_SELECT_ITEMS"
 msgstr "Selectare elemente"
@@ -719,16 +719,16 @@ msgid "IDS_MF_NPBODY_NO_RESULTS_FOUND"
 msgstr "Nu au fost găsite rezultate"
 
 msgid "IDS_MF_POP_DELETE_PD_ITEMS_Q"
-msgstr "Ştergeţi %d elemente?"
+msgstr "Ștergeți %d elemente?"
 
 msgid "IDS_ST_POP_DELETE_ITEM_Q"
-msgstr "Ştergeţi elementul?"
+msgstr "Ștergeți elementul?"
 
 msgid "IDS_VR_POP_1_ITEM_SELECTED"
 msgstr "1 element selectat"
 
 msgid "IDS_VR_POP_INVALID_CHARACTER_ENTERED_TRY_AGAIN"
-msgstr "Aţi introdus un caracter nevalid. Încercaţi din nou"
+msgstr "Ați introdus un caracter nevalid. Încercați din nou"
 
 msgid "IDS_VR_POP_PD_ITEMS_SELECTED"
 msgstr "%d elemente selectate"
@@ -742,6 +742,9 @@ msgstr "Căutare"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoclipuri"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Se procesează..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
@@ -749,7 +752,7 @@ msgid "IDS_COM_SK_CANCEL"
 msgstr "Anulare"
 
 msgid "IDS_ST_BODY_PHONEPROFILES_SILENT"
-msgstr "Silenţios"
+msgstr "Silențios"
 
 msgid "IDS_COM_BODY_SELECT_ALL"
 msgstr "Selectare toate"
@@ -767,16 +770,16 @@ msgid "IDS_COM_BODY_PD_SELECTED"
 msgstr "%d selectate"
 
 msgid "IDS_MEDIABR_HEADER_SELECT_ITEM"
-msgstr "Selectaţi elementul"
+msgstr "Selectați elementul"
 
 msgid "IDS_IV_POP_YOU_CAN_SELECT_UP_TO_PD_ITEMS"
-msgstr "Puteţi selecta maximum %d elemente."
+msgstr "Puteți selecta maximum %d elemente."
 
 msgid "IDS_MF_BODY_DOWNLOADS"
 msgstr "Descărcări"
 
 msgid "IDS_MF_POP_DELETE_Q"
-msgstr "Ştergeţi?"
+msgstr "Ștergeți?"
 
 msgid "IDS_MF_SK_MOVE"
 msgstr "Mutare"
@@ -791,13 +794,13 @@ msgid "IDS_MF_POP_COPYING"
 msgstr "Copiere..."
 
 msgid "IDS_MF_POP_DELETING_ING"
-msgstr "Se şterge..."
+msgstr "Se șterge..."
 
 msgid "IDS_COM_OPT_LIST"
 msgstr "Listă"
 
 msgid "IDS_CAM_BODY_OPERATION_FAILED"
-msgstr "Operaţie nereuşită"
+msgstr "Operație nereușită"
 
 msgid "IDS_MF_OPT_DELETE_SELECTED"
 msgstr "Selectat"
@@ -812,7 +815,7 @@ msgid "IDS_MF_OPT_SORT_BY_ABB"
 msgstr "Sortare după"
 
 msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Nereuşit"
+msgstr "Nereușit"
 
 msgid "IDS_MUSIC_SK_DONE"
 msgstr "Gata"
@@ -824,13 +827,13 @@ msgid "IDS_MF_BODY_DEVICE_MEMORY_ABB"
 msgstr "Memorie dispozitiv"
 
 msgid "IDS_ST_POP_ADD_TO_PERSONAL_STORAGE"
-msgstr "Adăugare în spaţiul de stocare personal"
+msgstr "Adăugare în spațiul de stocare personal"
 
 msgid "IDS_ST_OPT_REMOVE_FROM_PERSONAL_STORAGE"
-msgstr "Eliminare din spaţiul de stocare personal"
+msgstr "Eliminare din spațiul de stocare personal"
 
 msgid "IDS_GALLERY_POP_DELETE_THIS_ITEM_Q"
-msgstr "Ştergeţi acest element?"
+msgstr "Ștergeți acest element?"
 
 msgid "IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE"
 msgstr "Eliminare din Private"
@@ -845,7 +848,7 @@ msgid "IDS_MUSIC_POP_REMOVING"
 msgstr "Eliminare..."
 
 msgid "IDS_MF_BODY_PERSONAL_STORAGE"
-msgstr "Spaţiu de stocare personal"
+msgstr "Spațiu de stocare personal"
 
 msgid "IDS_MF_POP_FORMAT_COMPLETED"
 msgstr "Formatare terminată"
@@ -869,10 +872,10 @@ msgid "IDS_MEDIABR_OPT_DETAILS"
 msgstr "Detalii"
 
 msgid "IDS_MF_HEADER_ENTER_NAME"
-msgstr "Introduceţi numele."
+msgstr "Introduceți numele."
 
 msgid "IDS_MF_HEADER_MYFILES"
-msgstr "Fişierele mele"
+msgstr "Fișierele mele"
 
 msgid "IDS_MF_POP_ADDED"
 msgstr "Adăugat"
@@ -881,13 +884,13 @@ msgid "IDS_MF_POP_PROCESSING_ING"
 msgstr "Se procesează..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Tip fişier neacceptat"
+msgstr "Tip fișier neacceptat"
 
 msgid "IDS_MUSIC_POP_REMOVE_Q"
 msgstr "Eliminare?"
 
 msgid "IDS_GALLERY_OPT_PRIVATE_CONTENT"
-msgstr "Conţinut privat"
+msgstr "Conținut privat"
 
 msgid "IDS_MF_OPT_COPY_TO"
 msgstr "Copiere în"
@@ -896,16 +899,16 @@ msgid "IDS_MF_OPT_MOVE_TO"
 msgstr "Mutare în"
 
 msgid "IDS_MF_POP_FAILED_TO_ADD_SHORTCUT"
-msgstr "Adăugarea comenzii rapide nu a reuşit."
+msgstr "Adăugarea comenzii rapide nu a reușit."
 
 msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Memorie insuficientă. Ştergeţi câteva elemente"
+msgstr "Memorie insuficientă. Ștergeți câteva elemente"
 
 msgid "IDS_MF_POP_REMOVED"
 msgstr "Eliminat"
 
 msgid "IDS_ST_BODY_PRIVATE_STORAGE"
-msgstr "Spaţiu de stocare privat"
+msgstr "Spațiu de stocare privat"
 
 msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
 msgstr "Nimic selectat"
@@ -926,7 +929,7 @@ msgid "IDS_MUSIC_SK_SAVE_AS"
 msgstr "Salvare ca"
 
 msgid "IDS_MUSIC_POP_REMOVE_FAILED"
-msgstr "Eliminare nereuşită"
+msgstr "Eliminare nereușită"
 
 msgid "IDS_MF_BODY_DROPBOX_ABB"
 msgstr "Dropbox"
@@ -935,7 +938,7 @@ msgid "IDS_MF_BODY_PARENT_RATING"
 msgstr "Evaluare părinte"
 
 msgid "IDS_MF_POP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Numele fişierului există deja."
+msgstr "Numele fișierului există deja."
 
 msgid "IDS_COM_BODY_UNKNOWN"
 msgstr "Necunoscut"
@@ -944,7 +947,7 @@ msgid "IDS_COM_SK_DOWNLOAD"
 msgstr "Descărc."
 
 msgid "IDS_COM_POP_FILE_NOT_EXIST"
-msgstr "Acest fişier nu există."
+msgstr "Acest fișier nu există."
 
 msgid "IDS_COM_BODY_FOLDERS"
 msgstr "Directoare"
@@ -959,7 +962,7 @@ msgid "IDS_VR_BODY_VOICE"
 msgstr "Voce"
 
 msgid "IDS_VR_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Reţeaua Wi-Fi nu este disponibilă. Conectarea la reţele mobile poate duce la costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Rețeaua Wi-Fi nu este disponibilă. Conectarea la rețele mobile poate duce la costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_MF_POP_THE_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_HAS_BEEN_REACHED"
 msgstr "S-a atins numărul maxim de caractere (%d)."
@@ -977,7 +980,7 @@ msgid "IDS_COM_SK_SEARCH"
 msgstr "Căutare"
 
 msgid "IDS_MF_HEADER_DELETE_ITEMS"
-msgstr "Ştergere elemente"
+msgstr "Ștergere elemente"
 
 msgid "IDS_DM_BODY_NO_DOWNLOADS"
 msgstr "Nicio descărcare"
@@ -989,31 +992,31 @@ msgid "IDS_DM_HEADER_DOWNLOAD_MANAGER_ABB"
 msgstr "Manager descărcare"
 
 msgid "IDS_DM_BODY_AFTER_YOU_DOWNLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "După ce descărcaţi elemente, acestea vor fi afişate aici."
+msgstr "După ce descărcați elemente, acestea vor fi afișate aici."
 
 msgid "IDS_DM_BODY_DOWNLOAD_CANCELLED_M_STATUS_ABB"
 msgstr "Descărcarea a fost anulată"
 
 msgid "IDS_DM_BODY_DOWNLOAD_FAILED_M_STATUS_ABB"
-msgstr "Descărcarea nu a reuşit"
+msgstr "Descărcarea nu a reușit"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_INSERT_AN_SD_CARD"
-msgstr "Spaţiul din memoria dispozitivului este insuficient. Deschideţi setările %s pentru a şterge câteva date sau introduceţi un card SD."
+msgstr "Spațiul din memoria dispozitivului este insuficient. Deschideți setările %s pentru a șterge câteva date sau introduceți un card SD."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_PS_SETTINGS_TO_FREE_UP_SOME_STORAGE_SPACE_THEN_TRY_AGAIN"
-msgstr "Spaţiul din memoria dispozitivului este insuficient. Deschideţi setările %s pentru a elibera spaţiu, apoi încercaţi din nou."
+msgstr "Spațiul din memoria dispozitivului este insuficient. Deschideți setările %s pentru a elibera spațiu, apoi încercați din nou."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_OR_CHANGE_THE_DEFAULT_STORAGE_LOCATION_TO_DEVICE"
-msgstr "Spaţiul de pe cardul SD este insuficient. Deschideţi setările %s pentru a şterge câteva date sau schimbaţi locaţia implicită de stocare la Dispozitiv."
+msgstr "Spațiul de pe cardul SD este insuficient. Deschideți setările %s pentru a șterge câteva date sau schimbați locația implicită de stocare la Dispozitiv."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_PS_SETTINGS_TO_DELETE_SOME_DATA_THEN_TRY_AGAIN"
-msgstr "Spaţiul de pe cardul SD este insuficient. Deschideţi setările %s pentru a şterge date, apoi încercaţi din nou."
+msgstr "Spațiul de pe cardul SD este insuficient. Deschideți setările %s pentru a șterge date, apoi încercați din nou."
 
 msgid "IDS_DM_BUTTON_GO_TO_STORAGE_ABB"
 msgstr "Deschidere Stocare"
 
 msgid "IDS_DM_HEADER_DEFAULT_STROAGE_FULL"
-msgstr "Spaţiul de stocare implicit este plin"
+msgstr "Spațiul de stocare implicit este plin"
 
 msgid "IDS_DM_HEADER_OLDER"
 msgstr "Mai vechi"
@@ -1028,37 +1031,37 @@ msgid "IDS_MF_BODY_SD_CARD"
 msgstr "Cartelă SD"
 
 msgid "IDS_VIDEO_SBODY_DEVICE_STORAGE"
-msgstr "Spaţiu stocare dispozitiv"
+msgstr "Spațiu stocare dispozitiv"
 
 msgid "IDS_DM_BODY_NOTIFYING_SERVER_ING"
 msgstr "Se notifică serverul..."
 
 msgid "IDS_DM_BODY_PD_ITEMS_WILL_BE_DELETED"
-msgstr "%d elemente vor fi şterse."
+msgstr "%d elemente vor fi șterse."
 
 msgid "IDS_DM_BODY_THIS_FILE_CANNOT_BE_FOUND_TAP_DOWNLOAD_TO_TRY_DOWNLOADING_IT_AGAIN"
-msgstr "Fişierul nu poate fi găsit. Atingeţi Descărcare pentru a încerca din nou să-l descărcaţi."
+msgstr "Fișierul nu poate fi găsit. Atingeți Descărcare pentru a încerca din nou să-l descărcați."
 
 msgid "IDS_DM_HEADER_UNABLE_TO_OPEN_FILE"
-msgstr "Fişierul nu poate fi deschis"
+msgstr "Fișierul nu poate fi deschis"
 
 msgid "IDS_DM_BODY_UNABLE_TO_FIND_AN_APPLICATION_TO_OPEN_THIS_FILE"
-msgstr "Nu s-a putut găsi o aplicaţie pentru a deschide acest fişier."
+msgstr "Nu s-a putut găsi o aplicație pentru a deschide acest fișier."
 
 msgid "IDS_DM_BODY_TAP_DOWNLOAD_TO_TRY_AGAIN"
-msgstr "Atingeţi Descărcare pentru a încerca din nou."
+msgstr "Atingeți Descărcare pentru a încerca din nou."
 
 msgid "IDS_DM_BODY_1_ITEM_WILL_BE_DELETED"
-msgstr "1 element va fi şters."
+msgstr "1 element va fi șters."
 
 msgid "IDS_DM_BODY_ACTIVATING_DRM_CONTENT_ING"
-msgstr "Se activează conţinutul DRM..."
+msgstr "Se activează conținutul DRM..."
 
 msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
-msgstr "Nu se poate găsi aplicaţia pentru efectuarea acestei acţiuni."
+msgstr "Nu se poate găsi aplicația pentru efectuarea acestei acțiuni."
 
 msgid "IDS_IV_BODY_STORAGE_LOCATION_ABB2"
-msgstr "Locaţie stocare"
+msgstr "Locație stocare"
 
 msgid "IDS_PB_HEADER_IMPORT"
 msgstr "Import"
@@ -1088,10 +1091,10 @@ msgid "IDS_DM_HEADER_YESTERDAY"
 msgstr "Ieri"
 
 msgid "IDS_DM_OPT_DELETE"
-msgstr "Ştergere"
+msgstr "Ștergere"
 
 msgid "IDS_COM_BODY_MY_FILES"
-msgstr "Fişierele mele"
+msgstr "Fișierele mele"
 
 msgid "IDS_COM_BODY_MOVE"
 msgstr "Mutare"
@@ -1106,13 +1109,13 @@ msgid "IDS_MF_OPT_APPLY_TO_ALL_ITEMS_ABB"
 msgstr "Aplic. pt. toate elementele"
 
 msgid "IDS_MF_HEADER_CREATE_ZIP_FILE"
-msgstr "Creaţi un fişier zip"
+msgstr "Creați un fișier zip"
 
 msgid "IDS_MF_HEADER_EXTRACT_ZIP_FILE"
-msgstr "Extragere fişier zip"
+msgstr "Extragere fișier zip"
 
 msgid "IDS_ST_BODY_MY_FILES_ABB"
-msgstr "Fişierele mele"
+msgstr "Fișierele mele"
 
 msgid "IDS_BR_BODY_WEB_VODA"
 msgstr "Web"
@@ -1127,25 +1130,25 @@ msgid "MIDS_SCON_HEADER_SIMPLE_SHARING_ABB"
 msgstr "Partajare simplă"
 
 msgid "IDS_MF_HEADER_UNABLE_TO_INSTALL_APP_ABB"
-msgstr "Aplicaţia nu poate fi instal."
+msgstr "Aplicația nu poate fi instal."
 
 msgid "IDS_MF_POP_ONLY_TPK_FILES_CAN_BE_INSTALLED_WE_RECOMMEND_THAT_YOU_ONLY_INSTALL_APPS_DOWNLOADED_FROM_TIZEN_STORE"
-msgstr "Pot fi instalate doar fişiere TPK. Vă recomandăm să instalaţi doar aplicaţii descărcate din Magazinul Tizen."
+msgstr "Pot fi instalate doar fișiere TPK. Vă recomandăm să instalați doar aplicații descărcate din Magazinul Tizen."
 
 msgid "IDS_MF_POP_DELETING_THESE_ITEMS_FROM_HERE_WILL_ALSO_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_DELETED"
-msgstr "Dacă ştergeţi elementele de aici, acestea vor fi şterse şi din Dropbox. %d elemente vor fi şterse."
+msgstr "Dacă ștergeți elementele de aici, acestea vor fi șterse și din Dropbox. %d elemente vor fi șterse."
 
 msgid "IDS_MF_POP_DELETING_THIS_ITEM_FROM_HERE_WILL_ALSO_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_DELETED"
-msgstr "Dacă ştergeţi elementul de aici, acesta va fi şters şi din Dropbox. 1 element va fi şters."
+msgstr "Dacă ștergeți elementul de aici, acesta va fi șters și din Dropbox. 1 element va fi șters."
 
 msgid "IDS_MF_POP_MOVING_THESE_ITEMS_WILL_DELETE_THEM_FROM_DROPBOX_PD_ITEMS_WILL_BE_MOVED_DROPBOX"
-msgstr "Dacă mutaţi elementele, acestea vor fi şterse din Dropbox. %d elemente vor fi mutate."
+msgstr "Dacă mutați elementele, acestea vor fi șterse din Dropbox. %d elemente vor fi mutate."
 
 msgid "IDS_MF_POP_MOVING_THIS_ITEM_WILL_DELETE_IT_FROM_DROPBOX_1_ITEM_WILL_BE_MOVED_DROPBOX"
-msgstr "Dacă mutaţi elementul, acesta va fi şters din Dropbox. 1 element va fi mutat."
+msgstr "Dacă mutați elementul, acesta va fi șters din Dropbox. 1 element va fi mutat."
 
 msgid "IDS_MF_HEADER_SELECT_STORAGE_LOCATION_ABB"
-msgstr "Selectare locaţie de stocare"
+msgstr "Selectare locație de stocare"
 
 msgid "IDS_MF_BUTTON_STOP_ABB2"
 msgstr "Oprire"
@@ -1154,16 +1157,16 @@ msgid "IDS_MF_BUTTON_UPLOAD"
 msgstr "Încărcare"
 
 msgid "IDS_MF_HEADER_FAILED_TO_UPLOAD_FILE_ABB"
-msgstr "Încărcare fişier nereuşită"
+msgstr "Încărcare fișier nereușită"
 
 msgid "IDS_MF_HEADER_STOP_UPLOADS_ABB"
-msgstr "Opriţi încărcările"
+msgstr "Opriți încărcările"
 
 msgid "IDS_MF_POP_TAP_UPLOAD_TO_TRY_AGAIN"
-msgstr "Atingeţi Încărcare pentru a încerca din nou."
+msgstr "Atingeți Încărcare pentru a încerca din nou."
 
 msgid "IDS_MF_POP_THE_UPLOAD_WILL_STOP_BUT_THE_FILE_WILL_NOT_BE_DELETED"
-msgstr "Încărcarea se va opri, dar fişierul nu va fi şters."
+msgstr "Încărcarea se va opri, dar fișierul nu va fi șters."
 
 msgid "IDS_MF_BUTTON2_RECENTLY_VIEWED_M_FILE_ABB"
 msgstr "Vizualizate recent"
@@ -1172,10 +1175,10 @@ msgid "IDS_MF_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Datele nu pot fi salvate"
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Spaţiul din memoria dispozitivului este insuficient. Deschideţi meniul Setări > Energie şi stocare > Stocare, apoi ştergeţi câteva fişiere şi încercaţi din nou."
+msgstr "Spațiul din memoria dispozitivului este insuficient. Deschideți meniul Setări > Energie și stocare > Stocare, apoi ștergeți câteva fișiere și încercați din nou."
 
 msgid "IDS_MF_POP_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Spaţiul de pe cardul SD este insuficient. Deschideţi meniul Setări > Energie şi stocare > Stocare, apoi ştergeţi câteva fişiere şi încercaţi din nou."
+msgstr "Spațiul de pe cardul SD este insuficient. Deschideți meniul Setări > Energie și stocare > Stocare, apoi ștergeți câteva fișiere și încercați din nou."
 
 msgid "IDS_MF_HEADER_UPLOAD_TO_ABB2"
 msgstr "Încărcare pe"
@@ -1187,7 +1190,7 @@ msgid "IDS_GALLERY_OPT_PRIVATE"
 msgstr "Privat"
 
 msgid "IDS_ST_BODY_BYTES"
-msgstr "octeţi"
+msgstr "octeți"
 
 msgid "IDS_MF_SK_ADD_LITE"
 msgstr "Adăug."
@@ -1214,10 +1217,10 @@ msgid "IDS_MF_TPOP_CANNOT_SET_FOLDER_NAME_AS_OR"
 msgstr "Numele folderului nu poate fi „.” sau „..”."
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_HIDDEN_FILES_ABB"
-msgstr "Nu afişa fişierele ascunse"
+msgstr "Nu afișa fișierele ascunse"
 
 msgid "IDS_MF_OPT_SHOW_HIDDEN_FILES_ABB"
-msgstr "Afişare fişiere ascunse"
+msgstr "Afișare fișiere ascunse"
 
 msgid "IDS_MF_POP_UNKNOWN"
 msgstr "Necunoscut"
@@ -1229,10 +1232,10 @@ msgid "IDS_MF_BODY_BASIC"
 msgstr "De bază"
 
 msgid "IDS_MF_BODY_FILE"
-msgstr "Fişier"
+msgstr "Fișier"
 
 msgid "IDS_MF_BODY_FILES"
-msgstr "Fişiere"
+msgstr "Fișiere"
 
 msgid "IDS_MF_BODY_FOLDER"
 msgstr "Folder"
@@ -1247,13 +1250,13 @@ msgid "IDS_MF_BODY_NAME"
 msgstr "Nume"
 
 msgid "IDS_MF_BUTTON2_AUDIO_FILES_ABB"
-msgstr "Fişiere audio"
+msgstr "Fișiere audio"
 
 msgid "IDS_MF_BUTTON2_DOCUMENTS"
 msgstr "Documente"
 
 msgid "IDS_MF_BUTTON2_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Aplicaţii descărcate"
+msgstr "Aplicații descărcate"
 
 msgid "IDS_MF_BUTTON2_IMAGES"
 msgstr "Imagini"
@@ -1271,7 +1274,7 @@ msgid "IDS_MF_BUTTON_CREATE_ABB2"
 msgstr "Creare"
 
 msgid "IDS_MF_BUTTON_DELETE_ABB4"
-msgstr "Ştergere"
+msgstr "Ștergere"
 
 msgid "IDS_MF_BUTTON_OK"
 msgstr "OK"
@@ -1289,7 +1292,7 @@ msgid "IDS_MF_HEADER_ADD_SHORTCUT_ABB2"
 msgstr "Ad. comandă rapidă"
 
 msgid "IDS_MF_HEADER_AUDIO_FILES_ABB3"
-msgstr "Fişiere audio"
+msgstr "Fișiere audio"
 
 msgid "IDS_MF_HEADER_COPY"
 msgstr "Copiere"
@@ -1301,7 +1304,7 @@ msgid "IDS_MF_HEADER_CREATE_FOLDER_ABB"
 msgstr "Creare folder"
 
 msgid "IDS_MF_HEADER_DELETE_SHORTCUT_ABB"
-msgstr "Ştergeţi comanda rapidă"
+msgstr "Ștergeți comanda rapidă"
 
 msgid "IDS_MF_HEADER_DETAILS"
 msgstr "Detalii"
@@ -1310,7 +1313,7 @@ msgid "IDS_MF_HEADER_DOCUMENTS"
 msgstr "Documente"
 
 msgid "IDS_MF_HEADER_DOWNLOADED_APPLICATIONS_ABB"
-msgstr "Aplicaţii descărcate"
+msgstr "Aplicații descărcate"
 
 msgid "IDS_MF_HEADER_IMAGES"
 msgstr "Imagini"
@@ -1325,7 +1328,7 @@ msgid "IDS_MF_HEADER_PD_SELECTED_ABB3"
 msgstr "%d selectate"
 
 msgid "IDS_MF_HEADER_RECENT_FILES_ABB2"
-msgstr "Fişiere recente"
+msgstr "Fișiere recente"
 
 msgid "IDS_MF_HEADER_REMOVE"
 msgstr "Eliminare"
@@ -1352,7 +1355,7 @@ msgid "IDS_MF_HEADER_VIDEOS"
 msgstr "Videoclipuri"
 
 msgid "IDS_MF_HEADER_VIEW_AS"
-msgstr "Vizualizaţi ca"
+msgstr "Vizualizați ca"
 
 msgid "IDS_MF_ITAB2_ALL"
 msgstr "Toate"
@@ -1367,10 +1370,10 @@ msgid "IDS_MF_ITAB2_SHORTCUTS"
 msgstr "Com. rapide"
 
 msgid "IDS_MF_MBODY_CONTAINS"
-msgstr "Conţine"
+msgstr "Conține"
 
 msgid "IDS_MF_MBODY_DEVICE_STORAGE"
-msgstr "Spaţiu stocare dispozitiv"
+msgstr "Spațiu stocare dispozitiv"
 
 msgid "IDS_MF_MBODY_DROPBOX"
 msgstr "Dropbox"
@@ -1379,16 +1382,16 @@ msgid "IDS_MF_MBODY_FORMAT"
 msgstr "Formatare"
 
 msgid "IDS_MF_MBODY_LOCATION"
-msgstr "Locaţie"
+msgstr "Locație"
 
 msgid "IDS_MF_MBODY_SD_CARD"
 msgstr "Cartelă SD"
 
 msgid "IDS_MF_MBODY_SHOW_FILE_EXTENSIONS_ABB"
-msgstr "Afişare extensii fişiere"
+msgstr "Afișare extensii fișiere"
 
 msgid "IDS_MF_MBODY_SHOW_HIDDEN_FILES_ABB"
-msgstr "Afişare fişiere ascunse"
+msgstr "Afișare fișiere ascunse"
 
 msgid "IDS_MF_MBODY_SIZE"
 msgstr "Dimensiune"
@@ -1400,7 +1403,7 @@ msgid "IDS_MF_MBODY_VENDOR"
 msgstr "Distribuitor"
 
 msgid "IDS_MF_NPBODY_NO_FILES"
-msgstr "Niciun fişier"
+msgstr "Niciun fișier"
 
 msgid "IDS_MF_OPT_ASCENDING"
 msgstr "Crescător"
@@ -1421,10 +1424,10 @@ msgid "IDS_MF_OPT_DETAILS"
 msgstr "Detalii"
 
 msgid "IDS_MF_OPT_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Nu mai afişa"
+msgstr "Nu mai afișa"
 
 msgid "IDS_MF_OPT_FILE_TYPE"
-msgstr "Tip fişier"
+msgstr "Tip fișier"
 
 msgid "IDS_MF_OPT_LIST"
 msgstr "Listă"
@@ -1451,7 +1454,7 @@ msgid "IDS_MF_POP_1_ITEM_WILL_BE_REMOVED"
 msgstr "1 element va fi eliminat."
 
 msgid "IDS_MF_POP_1_SHORTCUT_WILL_BE_DELETED"
-msgstr "1 comandă rapidă va fi ştearsă."
+msgstr "1 comandă rapidă va fi ștearsă."
 
 msgid "IDS_MF_POP_COPYING_ING"
 msgstr "Copiere..."
@@ -1463,13 +1466,13 @@ msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_REMOVED"
 msgstr "%d elemente vor fi eliminate."
 
 msgid "IDS_MF_POP_PD_SHORTCUTS_WILL_BE_DELETED"
-msgstr "%d comenzi rapide vor fi şterse."
+msgstr "%d comenzi rapide vor fi șterse."
 
 msgid "IDS_MF_POP_REMOVING_ING"
 msgstr "Eliminare..."
 
 msgid "IDS_MF_POP_USING_MOBILE_DATA_WHILE_ROAMING_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Utilizarea Datelor mobile în roaming poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Utilizarea Datelor mobile în roaming poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_MF_TMBODY_AVAILABLE_USES"
 msgstr "Utilizatori disponibili"
@@ -1481,13 +1484,13 @@ msgid "IDS_MF_TMBODY_DESCRIPTION"
 msgstr "Descriere"
 
 msgid "IDS_MF_TMBODY_FORWARDING"
-msgstr "Redirecţionare"
+msgstr "Redirecționare"
 
 msgid "IDS_MF_TMBODY_LAST_MODIFIED"
 msgstr "Ultima modificare"
 
 msgid "IDS_MF_TMBODY_RESOLUTION"
-msgstr "Rezoluţie"
+msgstr "Rezoluție"
 
 msgid "IDS_MF_TMBODY_TOTAL_SIZE"
 msgstr "Dimensiune totală"
@@ -1496,10 +1499,10 @@ msgid "IDS_MF_TMBODY_VALIDITY"
 msgstr "Valabilitate"
 
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_IS_SUBFOLDER_OF_SOURCE_FOLDER"
-msgstr "Folderul de destinaţie este un subfolder al folderului sursă."
+msgstr "Folderul de destinație este un subfolder al folderului sursă."
 
 msgid "IDS_MF_TPOP_DESTINATION_FOLDER_SAME_AS_SOURCE_FOLDER"
-msgstr "Folderul de destinaţie este acelaşi cu folderul sursă."
+msgstr "Folderul de destinație este același cu folderul sursă."
 
 msgid "IDS_MF_TPOP_FAILED_TO_ADD_SHORTCUT"
 msgstr "Comanda rapidă nu a putut fi adăugată."
@@ -1508,7 +1511,7 @@ msgid "IDS_MF_TPOP_FAILED_TO_COPY_ITEM"
 msgstr "Elementul nu a putut fi copiat."
 
 msgid "IDS_MF_TPOP_FAILED_TO_DELETE_ITEM"
-msgstr "Elementul nu a putut fi şters."
+msgstr "Elementul nu a putut fi șters."
 
 msgid "IDS_MF_TPOP_FAILED_TO_MOVE_ITEM"
 msgstr "Elementul nu a putut fi mutat."
@@ -1517,7 +1520,7 @@ msgid "IDS_MF_TPOP_FAILED_TO_REMOVE_ITEM"
 msgstr "Elementul nu a putut fi eliminat."
 
 msgid "IDS_MF_TPOP_FILE_NAME_ALREADY_IN_USE"
-msgstr "Numele de fişier este deja utilizat."
+msgstr "Numele de fișier este deja utilizat."
 
 msgid "IDS_MF_TPOP_MAXIMUM_NUMBER_OF_SHORTCUTS_HPD_REACHED"
 msgstr "A fost atins numărul maxim de comenzi rapide (%d)."
@@ -1532,10 +1535,10 @@ msgid "IDS_ST_OPT_REFRESH"
 msgstr "Reîmprospătare"
 
 msgid "IDS_GALLERY_POP_PD_ITEMS_WILL_BE_DELETED_ABB"
-msgstr "%d elemente vor fi şterse."
+msgstr "%d elemente vor fi șterse."
 
 msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
-msgstr "%d aplicaţii vor fi dezinstalate."
+msgstr "%d aplicații vor fi dezinstalate."
 
 msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
 msgstr "%s va fi dezinstalat."
@@ -1544,7 +1547,7 @@ msgid "IDS_MF_BODY_SIZE"
 msgstr "Dimensiune"
 
 msgid "IDS_MF_SK3_LIST_VIEW"
-msgstr "Afişare listă"
+msgstr "Afișare listă"
 
 msgid "IDS_MF_TPOP_FOLDER_NAME_ALREADY_IN_USE"
 msgstr "Numele de folder este deja utilizat."
@@ -1556,16 +1559,16 @@ msgid "IDS_MF_BODY_DEVICE_STORAGE_ABB"
 msgstr "Stoc. pe disp."
 
 msgid "IDS_MF_BODY_NOT_SIGNED_IN"
-msgstr "Conectarea nu a reuşit."
+msgstr "Conectarea nu a reușit."
 
 msgid "IDS_MF_HEADER_ALL_FILES"
-msgstr "Toate fişierele"
+msgstr "Toate fișierele"
 
 msgid "IDS_MF_HEADER_CLOUD_STORAGE"
 msgstr "Stocare în cloud"
 
 msgid "IDS_MF_HEADER_ORDER"
-msgstr "Ordonaţi"
+msgstr "Ordonați"
 
 msgid "IDS_MF_OPT_SHORTCUTS"
 msgstr "Comenzi rapide"
@@ -1577,7 +1580,7 @@ msgid "IDS_ST_BODY_UNINSTALL"
 msgstr "Dezinstalare"
 
 msgid "IDS_MF_BODY_CONTAINS"
-msgstr "Conţine"
+msgstr "Conține"
 
 msgid "IDS_MF_BODY_NO_FACE_DETECTED"
 msgstr "Nicio faţă detectată"
@@ -1604,7 +1607,7 @@ msgid "IDS_MF_SK3_PASTE_HERE"
 msgstr "Lipire aici"
 
 msgid "IDS_PB_SK_SET"
-msgstr "Afiş."
+msgstr "Afiș."
 
 msgid "IDS_COM_SK_YES"
 msgstr "Da"
@@ -1613,13 +1616,13 @@ msgid "IDS_COM_SK_NO"
 msgstr "Nu"
 
 msgid "IDS_MF_POP_THIS_FILE_TYPE_IS_NOT_SUPPORTED_BY_ANY_APPLICATION_ON_YOUR_DEVICE"
-msgstr "Acest tip de fişier nu este acceptat de nicio aplicaţie de pe dispozitiv."
+msgstr "Acest tip de fișier nu este acceptat de nicio aplicație de pe dispozitiv."
 
 msgid "IDS_MF_POP_PD_FILES_WILL_BE_DELETED"
-msgstr "%d fişiere vor fi şterse."
+msgstr "%d fișiere vor fi șterse."
 
 msgid "IDS_MF_MBODY_FILES_SENT"
-msgstr "Fişiere trimise"
+msgstr "Fișiere trimise"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
 msgstr "EFECTUAT"
@@ -1628,7 +1631,7 @@ msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
 msgstr "ANULARE"
 
 msgid "IDS_TPLATFORM_ACBUTTON_DELETE_ABB"
-msgstr "ŞTERGERE"
+msgstr "ȘTERGERE"
 
 msgid "IDS_MUSIC_POP_RENAME"
 msgstr "Redenumire"
@@ -1640,7 +1643,7 @@ msgid "IDS_MF_NPBODY_NO_UPLOADS"
 msgstr "Fără încărcări"
 
 msgid "IDS_MF_BODY_AFTER_YOU_UPLOAD_ITEMS_THEY_WILL_BE_SHOWN_HERE"
-msgstr "După ce încărcaţi elemente, acestea se vor afişa aici."
+msgstr "După ce încărcați elemente, acestea se vor afișa aici."
 
 msgid "IDS_DM_BUTTON_SETTINGS"
 msgstr "Setări"
@@ -1649,10 +1652,10 @@ msgid "IDS_DM_HEADER_UNABLE_TO_SAVE_DATA_ABB"
 msgstr "Datele nu pot fi salvate"
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Spaţiul de pe cardul SD este insuficient. Deschideţi meniul Setări > Energie şi stocare > Stocare, apoi ştergeţi câteva fişiere şi încercaţi din nou."
+msgstr "Spațiul de pe cardul SD este insuficient. Deschideți meniul Setări > Energie și stocare > Stocare, apoi ștergeți câteva fișiere și încercați din nou."
 
 msgid "IDS_DM_BODY_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_GO_TO_SETTINGS_POWER_AND_STORAGE_STORAGE_THEN_DELETE_SOME_FILES_AND_TRY_AGAIN"
-msgstr "Spaţiul din memoria dispozitivului este insuficient. Deschideţi meniul Setări > Energie şi stocare > Stocare, apoi ştergeţi câteva fişiere şi încercaţi din nou."
+msgstr "Spațiul din memoria dispozitivului este insuficient. Deschideți meniul Setări > Energie și stocare > Stocare, apoi ștergeți câteva fișiere și încercați din nou."
 
 msgid "IDS_MF_POP_ERROR"
 msgstr "Eroare"
@@ -1664,19 +1667,19 @@ msgid "IDS_MF_POP_MEMORY_FULL"
 msgstr "Memorie plină"
 
 msgid "IDS_MF_POP_1_ITEM_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "1 element va fi şters din Dropbox."
+msgstr "1 element va fi șters din Dropbox."
 
 msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED_FROM_DROPBOX"
-msgstr "%d elemente vor fi şterse din Dropbox."
+msgstr "%d elemente vor fi șterse din Dropbox."
 
 msgid "IDS_MF_POP_MOBILE_DATA_IS_TURNED_OFF_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
-msgstr "Datele mobile sunt dezactivate. Conectaţi-vă la o reţea Wi-Fi sau activaţi Datele mobile şi încercaţi din nou."
+msgstr "Datele mobile sunt dezactivate. Conectați-vă la o rețea Wi-Fi sau activați Datele mobile și încercați din nou."
 
 msgid "IDS_MF_BUTTON_SETTINGS"
 msgstr "Setări"
 
 msgid "IDS_GALLERY_BODY_PERSONAL_STORAGE"
-msgstr "Spaţiu de stocare personal"
+msgstr "Spațiu de stocare personal"
 
 msgid "IDS_LBS_BODY_PATH"
 msgstr "Cale"
@@ -1685,7 +1688,7 @@ msgid "IDS_GALLERY_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
 msgstr "S-a atins numărul maxim de %d caractere."
 
 msgid "IDS_CLOG_HEADER_SELECT_STORAGE"
-msgstr "Selectare locaţie de stocare"
+msgstr "Selectare locație de stocare"
 
 msgid "IDS_MF_HEADER_DOWNLOAD_HISTORY_ABB"
 msgstr "Istoric descărcare"
@@ -1703,7 +1706,7 @@ msgid "IDS_MF_NPBODY_NO_DOWNLOADS"
 msgstr "Nicio descărcare"
 
 msgid "IDS_MF_SBODY_DOWNLOAD_FAILED_M_STATUS"
-msgstr "Descărcarea nu a reuşit"
+msgstr "Descărcarea nu a reușit"
 
 msgid "IDS_MF_SBODY_EXPIRES_ON_C_PS"
 msgstr "Expiră la: %s"
@@ -1712,10 +1715,10 @@ msgid "IDS_MF_SBODY_EXPIRED_ON_C_PS"
 msgstr "Expirat la: %s"
 
 msgid "IDS_MF_HEADER_FAILED_TO_DOWNLOAD_FILE_ABB"
-msgstr "Fişierul nu s-a descărcat"
+msgstr "Fișierul nu s-a descărcat"
 
 msgid "IDS_MF_POP_TRY_DOWNLOADING_THE_FILE_AGAIN_OR_REMOVE_IT_FROM_THE_DOWNLOAD_QUEUE"
-msgstr "Încercaţi să descărcaţi din nou fişierul sau eliminaţi-l din coada de descărcare."
+msgstr "Încercați să descărcați din nou fișierul sau eliminați-l din coada de descărcare."
 
 msgid "IDS_MF_BUTTON_RETRY_ABB2"
 msgstr "Reîncercare"
@@ -1730,13 +1733,13 @@ msgid "IDS_MF_HEADER_FOLDER_NAME_IN_USE"
 msgstr "Nume de folder utilizat"
 
 msgid "IDS_MF_HEADER_FILE_NAME_IN_USE"
-msgstr "Nume fişier în uz"
+msgstr "Nume fișier în uz"
 
 msgid "IDS_MF_POP_THIS_FILE_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Acest nume de fişier (%s) este deja utilizat în folderul de destinaţie."
+msgstr "Acest nume de fișier (%s) este deja utilizat în folderul de destinație."
 
 msgid "IDS_MF_POP_THIS_FOLDER_NAME_HPS_IS_ALREADY_IN_USE_IN_THE_DESTINATION_FOLDER"
-msgstr "Acest nume (%s) este deja utilizat în folderul de destinaţie."
+msgstr "Acest nume (%s) este deja utilizat în folderul de destinație."
 
 msgid "IDS_COM_POP_MOVED"
 msgstr "Mutat"

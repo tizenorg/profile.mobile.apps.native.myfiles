@@ -742,6 +742,9 @@ msgstr "Axtarış"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Emal edilir..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

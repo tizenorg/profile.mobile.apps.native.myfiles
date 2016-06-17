@@ -742,6 +742,9 @@ msgstr "ძიება"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ვიდეოები"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "მუშავდება..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "კი"
 

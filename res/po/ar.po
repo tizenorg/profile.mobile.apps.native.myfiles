@@ -742,6 +742,9 @@ msgstr "بحث"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "الفيديو"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "جاري المعالجة..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "موافق"
 

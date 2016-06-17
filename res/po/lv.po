@@ -742,6 +742,9 @@ msgstr "Meklēt"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Video"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Notiek apstrāde..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "Labi"
 

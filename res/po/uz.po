@@ -742,6 +742,9 @@ msgstr "Qidirish"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videolar"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Bajarilmoqda..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 

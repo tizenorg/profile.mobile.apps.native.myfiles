@@ -742,6 +742,9 @@ msgstr "खोजें"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "वीडियो"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "प्रक्रिया हो रही है..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "ओके"
 

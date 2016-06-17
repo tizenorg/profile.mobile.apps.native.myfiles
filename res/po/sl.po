@@ -742,6 +742,9 @@ msgstr "Iskanje"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "Videoposnetki"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "Obdelujem..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "V redu"
 

@@ -742,6 +742,9 @@ msgstr "অনুসন্ধান"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "ভিডিওগুলি"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "প্রক্রিয়াকরণ চলছে..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "ওকে"
 

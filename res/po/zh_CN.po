@@ -742,6 +742,9 @@ msgstr "搜索"
 msgid "IDS_COM_BODY_VIDEOS"
 msgstr "视频"
 
+msgid "IDS_COM_POP_PROCESSING"
+msgstr "处理中..."
+
 msgid "IDS_COM_SK_OK"
 msgstr "确定"
 

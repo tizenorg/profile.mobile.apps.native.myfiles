@@ -293,6 +293,18 @@ static void __mf_main_view_create(void *data)
 
 }
 
+bool __mf_util_get_all_Supported_Storageids_Callback(int storageId, storage_type_e type, storage_state_e state, const char *path, void *userData)
+{
+	struct appdata *ad = (struct appdata *)userData;
+	if (type == STORAGE_TYPE_EXTERNAL) {
+		ad->__mf_util_externalStorageId = storageId;
+	}
+	if (type == STORAGE_TYPE_INTERNAL) {
+		ad->__mf_util_internalStorageId = storageId;
+	}
+
+	return true;
+}
 
 static Eina_Bool
 __mf_main_app_init_idler_cb(void *data)
@@ -322,11 +334,25 @@ __mf_main_app_init_idler_cb(void *data)
 	/*** Add the media-db update callback ***********/
 	media_content_set_db_updated_cb(mf_category_list_update_cb, ap);
 
-	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
-	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
+	ap->__mf_util_externalStorageId = -1;
+	ap->__mf_util_internalStorageId = -1;
 
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	int error_code = storage_foreach_device_supported(__mf_util_get_all_Supported_Storageids_Callback, ap);
+	if (error_code != STORAGE_ERROR_NONE) {
+		mf_error("failed to get storage Id");
+	}
+	mf_info("internalstorageId: %d", ap->__mf_util_internalStorageId);
+	mf_info("externalstorageId: %d", ap->__mf_util_externalStorageId);
+
+	if(ap->__mf_util_internalStorageId != -1) {
+		storage_get_root_directory(ap->__mf_util_internalStorageId, &TEMP_FOLDER_FOR_COPY_PHONE);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
+	}
+
+	if(ap->__mf_util_externalStorageId != -1) {
+		storage_get_root_directory(ap->__mf_util_externalStorageId, &TEMP_FOLDER_FOR_COPY_MMC);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	}
 
 	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
 	g_free(TEMP_FOLDER_FOR_COPY_MMC);

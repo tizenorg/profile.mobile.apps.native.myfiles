@@ -37,22 +37,63 @@
 #include "mf-error.h"
 
 int mf_file_attr_get_parent_path(const char *path, char **parent_path);
+static int externalStorageId = -1;
+static int internalStorageId = -1;
 
-static inline char *Get_Root_Path(int storage_id)
+static bool __mf_file_get_all_Supported_Storageids_Callback(int storageId, storage_type_e type, storage_state_e state, const char *path, void *userData)
+{
+	externalStorageId = -1;
+	if (type == STORAGE_TYPE_EXTERNAL) {
+		externalStorageId = storageId;
+	}
+	if (type == STORAGE_TYPE_INTERNAL) {
+		internalStorageId = storageId;
+	}
+
+	return true;
+}
+
+static inline char *Get_Root_Path(int storage_type)
 {
 	char *path = NULL;
-	storage_get_root_directory(storage_id, &path) ;
+	int error_code = storage_foreach_device_supported(__mf_file_get_all_Supported_Storageids_Callback, NULL);
+	if (error_code != STORAGE_ERROR_NONE) {
+		mf_error("failed to get storage Id");
+		return NULL;
+	}
+	if (storage_type == STORAGE_TYPE_INTERNAL && internalStorageId != -1) {
+		storage_get_root_directory(internalStorageId, &path);
+	} else if (storage_type == STORAGE_TYPE_EXTERNAL && externalStorageId != -1) {
+		storage_get_root_directory(externalStorageId, &path);
+	} else {
+		mf_error("Invalid storage Id");
+		return NULL;
+	}
 	return path;
 }
 
-static inline char *Get_Parent_Path(int storage_id)
+static inline char *Get_Parent_Path(int storage_type)
 {
 	char *path = NULL;
 	char *storage_path = NULL;
-	storage_get_root_directory(storage_id, &path);
+	int error_code = storage_foreach_device_supported(__mf_file_get_all_Supported_Storageids_Callback, NULL);
+	if (error_code != STORAGE_ERROR_NONE) {
+		mf_error("failed to get storage Id");
+		return NULL;
+	}
+
+	if(storage_type == STORAGE_TYPE_INTERNAL && internalStorageId != -1) {
+		storage_get_root_directory(internalStorageId, &path);
+	} else if(storage_type == STORAGE_TYPE_EXTERNAL && externalStorageId != -1) {
+		storage_get_root_directory(externalStorageId, &path);
+	} else {
+		mf_error("Invalid storage Id");
+	}
 	if (path) {
 		mf_file_attr_get_parent_path(path, &storage_path);
 		free(path);
+	} else {
+		mf_error("path was NULL");
 	}
 	return storage_path;
 }

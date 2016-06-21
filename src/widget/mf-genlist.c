@@ -1055,10 +1055,10 @@ Evas_Object *mf_genlist_create_list(void *data, Evas_Object *parent)
 	}
 
 	/*      create Genlist*/
-	MF_TA_ACUM_ITEM_BEGIN("123456 mf_object_create_genlist", 0);
+	MF_TA_ACUM_ITEM_BEGIN("mf_object_create_genlist", 0);
 	genlist = mf_object_create_genlist(parent);
-	MF_TA_ACUM_ITEM_END("123456 mf_object_create_genlist", 0);
-	MF_TA_ACUM_ITEM_BEGIN("123456 register genlist callback functions", 0);
+	MF_TA_ACUM_ITEM_END("mf_object_create_genlist", 0);
+	MF_TA_ACUM_ITEM_BEGIN("register genlist callback functions", 0);
 	evas_object_smart_callback_add(genlist, "language,changed", mf_genlist_gl_lang_changed, data);
 	//evas_object_smart_callback_add(genlist, "longpressed", mf_genlist_gl_longpress, ap);
 
@@ -1088,10 +1088,10 @@ Evas_Object *mf_genlist_create_list(void *data, Evas_Object *parent)
 			mf_genlist_create_itc_style(&ap->mf_gl_style.itc, mf_item_itc_type_normal_list);
 			mf_genlist_create_itc_style(&ap->mf_gl_style.userfolderitc, mf_item_itc_type_normal_list);
 		}
-		MF_TA_ACUM_ITEM_END("123456 register genlist callback functions", 0);
-		MF_TA_ACUM_ITEM_BEGIN("123456 append genlist items", 0);
+		MF_TA_ACUM_ITEM_END("register genlist callback functions", 0);
+		MF_TA_ACUM_ITEM_BEGIN("append genlist items", 0);
 		mf_genlist_create_list_default_style(genlist, ap, dir_list, file_list);
-		MF_TA_ACUM_ITEM_END("123456 append genlist items", 0);
+		MF_TA_ACUM_ITEM_END("append genlist items", 0);
 		break;
 	default:
 		break;

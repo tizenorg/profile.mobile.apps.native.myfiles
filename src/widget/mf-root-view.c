@@ -421,11 +421,13 @@ void mf_root_view_append_mmc_item_after_phone(Evas_Object *parent, fsNodeInfo *p
 	struct appdata *ap = (struct appdata *)data;
 	//int view_style = mf_view_style_get(ap);
 
-	real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
+	//real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
+	real_name = MEMORY_FOLDER;
 	if (real_name == NULL) {
 		return ;
 	}
 
+	mf_debug("Real Name is: %s", real_name);
 	mf_genlist_create_data(&m_TempItem, real_name, data);
 
 	if (m_TempItem == NULL) {

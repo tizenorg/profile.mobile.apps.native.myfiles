@@ -34,6 +34,8 @@
 #include "mf-media-content.h"
 #include "mf-fo-debug.h"
 #include "mf-file-util.h"
+#include "mf-file-util.h"
+#include "mf-util.h"
 
 struct _mf_copy_handle_intenal {
 	GList *src_items;
@@ -180,7 +182,9 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	if (location == MYFILE_PHONE) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		storage_get_root_directory(STORAGE_TYPE_INTERNAL, &root_path);
+		if(mf_util_get_internal_storage_id() != -1) {
+			storage_get_root_directory(mf_util_get_internal_storage_id(), &root_path);
+		}
 		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
 		if (!copy_folder) {
 			fclose(src_f);
@@ -190,7 +194,9 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 	} else if (location == MYFILE_MMC) {
 		copy_dst = (char *)dst;
 		const gchar *name = g_path_get_basename(dst);
-		storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &root_path);
+		if(mf_util_get_external_storage_id() != -1) {
+			storage_get_root_directory(mf_util_get_external_storage_id(), &root_path);
+		}
 		copy_folder = g_strconcat(root_path, "/", ".operation_temp", NULL);
 		if (!copy_folder) {
 			fclose(src_f);
@@ -955,11 +961,14 @@ int _mf_copy_copy_internal(const char *src, const char *dst_dir, mf_cancel *canc
 
 ERROR_FREE_MEM:
 	mf_fo_logi("Copy error");
-	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
-	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
-
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	if(mf_util_get_internal_storage_id() != -1) {
+		storage_get_root_directory(mf_util_get_internal_storage_id(), &TEMP_FOLDER_FOR_COPY_PHONE);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
+	}
+	if(mf_util_get_external_storage_id() != -1) {
+		storage_get_root_directory(mf_util_get_external_storage_id(), &TEMP_FOLDER_FOR_COPY_MMC);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	}
 
 	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
 	g_free(TEMP_FOLDER_FOR_COPY_MMC);
@@ -972,11 +981,14 @@ ERROR_FREE_MEM:
 CANCEL_FREE_MEM:
 
 	mf_fo_logi("Copy cancelled");
-	storage_get_root_directory(STORAGE_TYPE_INTERNAL, &TEMP_FOLDER_FOR_COPY_PHONE);
-	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &TEMP_FOLDER_FOR_COPY_MMC);
-
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
-	mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	if(mf_util_get_internal_storage_id() != -1) {
+		storage_get_root_directory(mf_util_get_internal_storage_id(), &TEMP_FOLDER_FOR_COPY_PHONE);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_PHONE);
+	}
+	if(mf_util_get_external_storage_id() != -1) {
+		storage_get_root_directory(mf_util_get_external_storage_id(), &TEMP_FOLDER_FOR_COPY_MMC);
+		mf_file_recursive_rm(TEMP_FOLDER_FOR_COPY_MMC);
+	}
 
 	g_free(TEMP_FOLDER_FOR_COPY_PHONE);
 	g_free(TEMP_FOLDER_FOR_COPY_MMC);

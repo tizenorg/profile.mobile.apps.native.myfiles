@@ -185,9 +185,9 @@ Evas_Object *mf_navi_bar_create_view_content(void *data)
 			pContent = mf_gengrid_create_list(ap, ap->mf_MainWindow.pNaviBar);
 			ap->mf_MainWindow.pNaviGengrid = pContent;
 		} else {
-			MF_TA_ACUM_ITEM_BEGIN("123456 mf_genlist_create_list", 0);
+			MF_TA_ACUM_ITEM_BEGIN("mf_genlist_create_list", 0);
 			pContent = mf_genlist_create_list(ap, ap->mf_MainWindow.pNaviBar);
-			MF_TA_ACUM_ITEM_END("123456 mf_genlist_create_list", 0);
+			MF_TA_ACUM_ITEM_END("mf_genlist_create_list", 0);
 			ap->mf_MainWindow.pNaviGenlist = pContent;
 		}
 	}

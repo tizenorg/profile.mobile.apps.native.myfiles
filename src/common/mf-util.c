@@ -62,17 +62,24 @@
 #define MF_TIMER_INTERVAL_VIBRATION 0.5
 
 extern struct appdata *temp_data;
-static int __mf_util_externalStorageId = 0;
 
-int mf_util_get_storage_id()
+int mf_util_get_external_storage_id()
 {
-	return __mf_util_externalStorageId;
+	struct appdata *ap = mf_get_appdata();
+	return ap->__mf_util_externalStorageId;
+}
+
+int mf_util_get_internal_storage_id()
+{
+	struct appdata *ap = mf_get_appdata();
+	return ap->__mf_util_internalStorageId;
 }
 
 bool __mf_util_get_Supported_Storages_Callback(int storageId, storage_type_e type, storage_state_e state, const char *path, void *userData)
 {
+	struct appdata *ap = mf_get_appdata();
 	if (type == STORAGE_TYPE_EXTERNAL) {
-		__mf_util_externalStorageId = storageId;
+		ap->__mf_util_externalStorageId = storageId;
 		return false;
 	}
 
@@ -95,6 +102,7 @@ bool __mf_util_get_Supported_Storages_Callback(int storageId, storage_type_e typ
 ******************************/
 static int __mf_util_is_mmc_supported(int *supported)
 {
+	struct appdata *ap = mf_get_appdata();
 	int error_code = -1;
 
 	if (supported == NULL) {
@@ -103,10 +111,11 @@ static int __mf_util_is_mmc_supported(int *supported)
 	}
 
 	*supported = 0;
-	error_code = storage_foreach_device_supported(__mf_util_get_Supported_Storages_Callback, NULL);
+	ap->__mf_util_externalStorageId = -1;
+	error_code = storage_foreach_device_supported(__mf_util_get_Supported_Storages_Callback, ap);
 	if (error_code == STORAGE_ERROR_NONE) {
-		storage_state_e state;
-		storage_get_state(__mf_util_externalStorageId, &state);
+		storage_state_e state = STORAGE_STATE_REMOVED;
+		storage_get_state(ap->__mf_util_externalStorageId, &state);
 		if (state != STORAGE_STATE_MOUNTED) {
 			*supported = 0;
 		} else {
@@ -139,7 +148,7 @@ int mf_util_is_mmc_on(int *mmc_card)
 	int error_code = 0;
 
 	error_code = __mf_util_is_mmc_supported(mmc_card);
-	mf_debug("**************mmc_card is [%d]", *mmc_card);
+	mf_debug("mmc_card state is [%d]", *mmc_card);
 	return error_code;
 
 }
@@ -167,8 +176,7 @@ static Eina_Bool __mf_util_storage_exist_check(Evas_Object *genlist, int storage
 
 void mf_util_action_storage_insert(void *data, char *pItemLabel)
 {
-
-	mf_debug();
+	mf_debug("Mounting external storage...");
 	mf_retm_if(data == NULL, "passed data is NULL");
 	struct appdata *ap = (struct appdata *)data;
 
@@ -1354,6 +1362,7 @@ int mf_util_generate_file_list(void *data)
 	error_code = mf_util_generate_list_data(ap->mf_Status.path->str, &dir_list, &file_list);
 	if (error_code != MYFILE_ERR_NONE) {
 		/*Todo: we need to free all the Eina_List*/
+		mf_error("couldn't generate list data");
 		t_end;
 		return error_code;
 	}

@@ -3039,6 +3039,9 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 				if (entry != NULL) {
 					elm_object_focus_set(entry, EINA_TRUE);
 				}
+			} else if (ap->mf_Status.more == MORE_DEFAULT){
+				mf_navi_bar_reset(ap);
+				mf_view_update(ap);
 			}
 			break;
 		case MORE_SEARCH:
@@ -3191,16 +3194,23 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 	//mf_navi_bar_title_set(ap);
 
 }
-static void __mf_callback_storage_changed_cb(int storage_id, storage_state_e state, void *data)
+static void __mf_callback_storage_changed_cb(int storage_id,
+        storage_dev_e dev, storage_state_e state,
+        const char *fstype, const char *fsuuid, const char *mountpath,
+        bool primary, int flags, void *user_data)
 {
-	struct appdata *ap = (struct appdata *)data;
+	mf_debug("Storage Changed for memory card");
+	struct appdata *ap = (struct appdata *)user_data;
 	mf_retm_if(ap == NULL, "appdata is NULL");
 	mf_retm_if(ap->mf_Status.path == NULL || ap->mf_Status.path->str == NULL, "mf_Status.path is NULL");
 	int optStorage = MYFILE_NONE;
 
 	if (STORAGE_STATE_MOUNTED == state) {
+		mf_debug("Storage State Mounted");
 		if (!(ap->mf_Status.iStorageState & MYFILE_MMC)) {
 			__mf_callback_mmc_connected(ap);
+		} else {
+			mf_debug("No external storage detected... Returning... [%d]", ap->mf_Status.iStorageState);
 		}
 		return;
 	}
@@ -3224,21 +3234,20 @@ static void __mf_callback_storage_changed_cb(int storage_id, storage_state_e sta
 int mf_callback_set_mmc_state_cb(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
-	int mmc_state = 0;
 	int storage_id = 0;
+	int mmc_state = 0;
 	mf_retvm_if(ap == NULL, -1, "appdata is NULL");
 
 	mf_util_is_mmc_on(&mmc_state);
-	storage_id = mf_util_get_storage_id();
-
-	return storage_set_state_changed_cb(storage_id , __mf_callback_storage_changed_cb, ap);
+	mf_debug("external mmc state is: [%d]", mmc_state);
+	return storage_set_changed_cb(STORAGE_TYPE_EXTERNAL , __mf_callback_storage_changed_cb, ap);
 }
 
 void mf_callback_unregister_mmc_state_cb()
 {
 	int error_code = -1;
 	int storage_id = 0;
-	storage_id = mf_util_get_storage_id();
+	storage_id = mf_util_get_external_storage_id();
 	error_code = storage_unset_state_changed_cb(storage_id, __mf_callback_storage_changed_cb);
 	if (error_code != STORAGE_ERROR_NONE) {
 		mf_error("storage_unset_state_changed_cb() failed!! for storageid[%d]", storage_id);
@@ -3251,6 +3260,7 @@ void mf_callback_backbutton_clicked_cb(void *data, Evas_Object *obj, void *event
 {
 	MF_TRACE_BEGIN;
 	mf_retm_if(data == NULL, "data is NULL");
+	mf_debug("back button cb called");
 	struct appdata *ap = (struct appdata *)data;
 
 	if (ap->mf_Status.more == MORE_DEFAULT) {

@@ -19,6 +19,7 @@
 #include "mf-object-conf.h"
 #include "mf-callback.h"
 #include "mf-fm-svc-wrapper.h"
+#include "mf-storage-space.h"
 #include "mf-gengrid.h"
 #include "mf-util.h"
 #include "mf-resource.h"

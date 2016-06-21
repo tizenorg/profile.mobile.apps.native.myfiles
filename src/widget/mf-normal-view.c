@@ -47,6 +47,7 @@ static Evas_Object *__mf_normal_view_create_content(void *data)
 
 	error_code = mf_util_generate_file_list(ap);
 	if (error_code != MYFILE_ERR_NONE) {
+		mf_error("couldn't generate the file list");
 		ap->mf_Status.flagNoContent = EINA_TRUE;
 		pContent = mf_object_create_no_content(ap->mf_MainWindow.pNaviBar);
 		mf_object_text_set(pContent, MF_LABEL_NO_FILES, "elm.text");

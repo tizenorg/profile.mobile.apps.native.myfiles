@@ -214,6 +214,7 @@ int mf_fs_oper_read_dir(const char *path, Eina_List ** dir_list, Eina_List ** fi
 	pDir = opendir(path);
 
 	if (pDir == NULL) {
+		mf_error("could not open %s", path);
 		return MYFILE_ERR_DIR_OPEN_FAIL;
 	}
 
@@ -237,9 +238,11 @@ int mf_fs_oper_read_dir(const char *path, Eina_List ** dir_list, Eina_List ** fi
 			continue;
 		}
 		if ((ent->d_type & DT_DIR) != 0) {
-			if ((strlen(path) == strlen(PHONE_FOLDER)) && (strcmp(path, PHONE_FOLDER) == 0)
-			        && (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(ent->d_name, DEBUG_FOLDER) == 0)) {
-				continue;
+			if (PHONE_FOLDER != NULL) {
+				if ((strlen(path) == strlen(PHONE_FOLDER)) && (strcmp(path, PHONE_FOLDER) == 0)
+						&& (strlen(ent->d_name) == strlen(DEBUG_FOLDER)) && (strcmp(ent->d_name, DEBUG_FOLDER) == 0)) {
+					continue;
+				}
 			}
 		}
 

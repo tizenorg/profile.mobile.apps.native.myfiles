@@ -315,6 +315,7 @@ gboolean mf_util_NFD_strstr(const char *nor_str, const char *nor_needle);
 void mf_util_first_item_push(void *data);
 void mf_util_path_stack_free();
 char *mf_util_first_item_get(char *path);
-int mf_util_get_storage_id(void);
+int mf_util_get_external_storage_id(void);
+int mf_util_get_internal_storage_id(void);
 
 #endif /* __DEF_MYFILE_UTIL_H_ */

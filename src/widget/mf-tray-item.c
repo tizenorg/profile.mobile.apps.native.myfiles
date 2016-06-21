@@ -500,6 +500,7 @@ Eina_Bool mf_category_widgets_create_idle_cb(void *data)
 void mf_category_size_update(void *data)
 {
 	struct appdata *ap = (struct appdata *)data;
+	mf_debug("In category_size_update type: [%d] and more: [%d]", ap->mf_Status.view_type, ap->mf_Status.more);
 	if (ap->mf_Status.view_type == mf_view_root && ap->mf_Status.more == MORE_DEFAULT) {
 		if (g_mf_category_layout.category_idle) {
 			mf_ecore_idler_del(g_mf_category_layout.category_idle);

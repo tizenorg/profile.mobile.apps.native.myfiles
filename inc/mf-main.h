@@ -333,6 +333,8 @@ struct appdata {
 	char *nTemp_entry;
 	Evas_Object *label;
 	char *file_name;
+	int __mf_util_externalStorageId;
+	int __mf_util_internalStorageId;
 };
 
 

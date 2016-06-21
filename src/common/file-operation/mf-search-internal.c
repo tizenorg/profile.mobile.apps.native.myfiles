@@ -27,6 +27,7 @@
 #include "mf-search.h"
 #include "mf-search-internal.h"
 #include "mf-fs-util.h"
+#include "mf-util.h"
 
 #define APPEND_SIZE 2		/* for null and slash */
 
@@ -124,7 +125,9 @@ inline static void __mf_search_result_free(mf_search_result_t *result)
 gboolean __mf_search_check_licet_path(const char *path)
 {
 	char *mmc_root_path = NULL;
-	storage_get_root_directory(STORAGE_TYPE_EXTERNAL, &mmc_root_path);
+	if(mf_util_get_external_storage_id() != -1) {
+		storage_get_root_directory(mf_util_get_external_storage_id(), &mmc_root_path);
+	}
 	gboolean check = (gboolean)(strstr(path, ROOT_UMS) || strstr(path, mmc_root_path));
 	return check;
 }

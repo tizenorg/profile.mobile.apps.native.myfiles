@@ -311,9 +311,20 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 	int view_style = mf_view_style_get(ap);
 
 	real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
+
+	if (!strcmp(real_name, "/opt/media/sdcard")) {
+		if (!strcmp(pNode->name, PHONE_NAME)) {
+			real_name = g_strdup(PHONE_FOLDER);
+		} else if (!strcmp(pNode->name, MMC_NAME)) {
+			real_name = g_strdup(MEMORY_FOLDER);
+		}
+	}
 	if (real_name == NULL) {
+		mf_debug("Real Name is NULL");
 		return NULL;
 	}
+
+	mf_debug("Real name is : %s", real_name);
 
 	mf_genlist_create_data(&m_TempItem, real_name, data);
 
@@ -323,22 +334,12 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 		return NULL;
 	}
 
-	if (ap->mf_Status.view_type == mf_view_root) {
-		if (g_strcmp0(real_name, PHONE_FOLDER) == 0) {
-			m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_PHONE);
-			m_TempItem->real_thumb_flag = true;
-		} else if (g_strcmp0(real_name, MEMORY_FOLDER) == 0) {
-			m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_MMC);
-			m_TempItem->real_thumb_flag = true;
-		}
-	} else if (ap->mf_Status.view_type == mf_view_storage) {
-		if (g_strcmp0(real_name, PHONE_FOLDER) == 0) {
-			m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_PHONE);
-			m_TempItem->real_thumb_flag = true;
-		} else if (g_strcmp0(real_name, MEMORY_FOLDER) == 0) {
-			m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_MMC);
-			m_TempItem->real_thumb_flag = true;
-		}
+	if (g_strcmp0(real_name, PHONE_FOLDER) == 0) {
+		m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_PHONE);
+		m_TempItem->real_thumb_flag = true;
+	} else if (g_strcmp0(real_name, MEMORY_FOLDER) == 0) {
+		m_TempItem->thumb_path = strdup(MF_ICON_ITEM_ROOT_MMC);
+		m_TempItem->real_thumb_flag = true;
 	}
 
 	m_TempItem->file_type = pNode->type;

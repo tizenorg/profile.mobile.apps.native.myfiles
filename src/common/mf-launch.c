@@ -695,6 +695,7 @@ int mf_launch_service(void *data, char *path)
 
 			mf_debug("category  is sound");
 			app_control_add_extra_data(app_control, "View By", "By Folder");
+			app_control_add_extra_data(app_control, "App Exit", "false");
 			int sort_type = 0;
 			mf_util_get_pref_value(PREF_TYPE_SORT_TYPE, &sort_type);
 

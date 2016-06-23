@@ -3192,8 +3192,9 @@ static void __mf_callback_mmc_removed(void *data, MF_STORAGE storage)
 		ap->mf_MainWindow.pMmcRemovedPopup = NULL;
 	}
 	//mf_navi_bar_title_set(ap);
-
+	free(storage_loc);
 }
+
 static void __mf_callback_storage_changed_cb(int storage_id,
         storage_dev_e dev, storage_state_e state,
         const char *fstype, const char *fsuuid, const char *mountpath,

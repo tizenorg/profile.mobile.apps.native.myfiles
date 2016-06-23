@@ -264,7 +264,7 @@ mfItemData_s *mf_category_media_data_generate(media_data_s *media_data)
 					item_data->file_type = type;
 				} else {
 					item_data->thumb_path = g_strdup(media_data->thumbnail_path);
-					if (strlen(item_data->thumb_path) && item_data->thumb_path && strncmp(item_data->thumb_path, MF_IMAGE_HEAD, strlen(MF_IMAGE_HEAD))) {
+					if (item_data->thumb_path && strlen(item_data->thumb_path) && strncmp(item_data->thumb_path, MF_IMAGE_HEAD, strlen(MF_IMAGE_HEAD))) {
 						item_data->thumbnail_type = MF_THUMBNAIL_THUMB;
 					} else {
 						item_data->thumbnail_type = MF_THUMBNAIL_DEFAULT;

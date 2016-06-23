@@ -203,7 +203,7 @@ void mf_util_action_storage_insert(void *data, char *pItemLabel)
 		if ((ap->mf_Status.iStorageState & MYFILE_MMC) && !__mf_util_storage_exist_check(parent, MYFILE_MMC)) {
 			mf_root_view_append_mmc_item_after_phone(parent, pNode, ap);
 		}
-
+		free(STORAGE_PARENT);
 	}
 }
 

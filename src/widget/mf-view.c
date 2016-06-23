@@ -312,14 +312,15 @@ Elm_Object_Item *mf_view_item_append(Evas_Object *parent, fsNodeInfo *pNode, voi
 
 	real_name = g_strconcat(pNode->path, "/", pNode->name, NULL);
 
-	if (!strcmp(real_name, "/opt/media/sdcard")) {
-		if (!strcmp(pNode->name, PHONE_NAME)) {
-			real_name = g_strdup(PHONE_FOLDER);
-		} else if (!strcmp(pNode->name, MMC_NAME)) {
-			real_name = g_strdup(MEMORY_FOLDER);
+	if (real_name) {
+		if (!strcmp(real_name, "/opt/media/sdcard")) {
+			if (!strcmp(pNode->name, PHONE_NAME)) {
+				real_name = g_strdup(PHONE_FOLDER);
+			} else if (!strcmp(pNode->name, MMC_NAME)) {
+				real_name = g_strdup(MEMORY_FOLDER);
+			}
 		}
-	}
-	if (real_name == NULL) {
+	} else {
 		mf_debug("Real Name is NULL");
 		return NULL;
 	}

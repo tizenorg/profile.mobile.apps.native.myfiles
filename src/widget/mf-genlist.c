@@ -121,6 +121,11 @@ static Evas_Object *mf_rename_view_create_rename_bar(void *data, Evas_Object *pa
 	/* the below is sample code for control entry. It is not mandatory.*/
 	/* set guide text */
 	filename = mf_fm_svc_wrapper_get_file_name(ap->mf_FileOperation.to_rename);
+	if (filename == NULL || filename->len == 0) {
+		mf_error("Cannot get the filename");
+		return NULL;
+	}
+
 	char *guide_text = NULL;
 	SAFE_FREE_CHAR(ap->mf_FileOperation.file_name_suffix);
 	if (!mf_file_attr_is_dir(ap->mf_FileOperation.to_rename->str)) {
@@ -686,6 +691,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 	} else if (!strcmp(part, "elm.flip.content")) {	/* this is used when the rename mode is enabled.*/
 		Evas_Object *edit_field = NULL;
 		edit_field = mf_rename_view_create_rename_bar(params, obj);
+		MP_CHECK_NULL(edit_field);
 		evas_object_propagate_events_set(edit_field, EINA_FALSE);
 		free(path);
 		return edit_field;

@@ -801,6 +801,7 @@ int mf_navi_bar_get_disable_ctrlbar_item(Elm_Object_Item *navi_it)
 	return disable_item;
 }
 
+#if 0
 void mf_navi_bar_title_label_update(char **naviframe_title, const char *title_label)
 {
 	MF_TRACE_BEGIN;
@@ -816,6 +817,8 @@ void mf_navi_bar_title_label_update(char **naviframe_title, const char *title_la
 		title = NULL;
 	}
 }
+#endif
+
 Evas_Object *mf_navi_bar_content_create(void *data)
 {
 	MF_TRACE_BEGIN;

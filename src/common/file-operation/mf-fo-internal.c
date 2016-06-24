@@ -513,7 +513,10 @@ void _mf_fo_free_directory_hierarchies(GSList **glist)
 int _mf_fo_get_file_location(const char *path)
 {
 	int len_phone = strlen(PHONE_FOLDER);
-	int len_memory = strlen(MEMORY_FOLDER);
+	int len_memory = 0;
+	if (MEMORY_FOLDER) {
+		len_memory = strlen(MEMORY_FOLDER);
+	}
 	if (strncmp(path, PHONE_FOLDER, len_phone) == 0) {
 		return MYFILE_PHONE;
 	} else if (strncmp(path, MEMORY_FOLDER, len_memory) == 0) {

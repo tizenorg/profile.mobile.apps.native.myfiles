@@ -121,6 +121,11 @@ static Evas_Object *mf_rename_view_create_rename_bar(void *data, Evas_Object *pa
 	/* the below is sample code for control entry. It is not mandatory.*/
 	/* set guide text */
 	filename = mf_fm_svc_wrapper_get_file_name(ap->mf_FileOperation.to_rename);
+	if (filename == NULL || filename->len == 0) {
+		mf_error("Cannot get the filename");
+		return NULL;
+	}
+
 	char *guide_text = NULL;
 	SAFE_FREE_CHAR(ap->mf_FileOperation.file_name_suffix);
 	if (!mf_file_attr_is_dir(ap->mf_FileOperation.to_rename->str)) {

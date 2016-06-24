@@ -1,6 +1,6 @@
 Name:       org.tizen.myfile
-VCS:         profile/mobile/apps/native/myfiles#da725c50bc5704a3d376662aa843cc6a2df981b5
-#RS_Ver:    20160622_2 
+VCS:         profile/mobile/apps/native/myfiles#7cc137f8b06f85eba9ee6d03471bd43588c1d06b
+#RS_Ver:    20160623_1 
 Summary:    Myfile Application v1.0
 Version:    1.0.0
 Release:    1

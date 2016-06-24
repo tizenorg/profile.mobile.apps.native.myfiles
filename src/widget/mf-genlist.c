@@ -691,7 +691,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 	} else if (!strcmp(part, "elm.flip.content")) {	/* this is used when the rename mode is enabled.*/
 		Evas_Object *edit_field = NULL;
 		edit_field = mf_rename_view_create_rename_bar(params, obj);
-		MP_CHECK_NULL(edit_field);
+		MF_CHECK_NULL(edit_field);
 		evas_object_propagate_events_set(edit_field, EINA_FALSE);
 		free(path);
 		return edit_field;

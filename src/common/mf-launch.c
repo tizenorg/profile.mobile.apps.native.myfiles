@@ -491,6 +491,11 @@ void mf_launch_load_storage(void *data)
 			goto END;
 		}
 	*/
+	ret = app_control_set_launch_mode(app_control, APP_CONTROL_LAUNCH_MODE_GROUP);
+	if (ret != APP_CONTROL_ERROR_NONE) {
+		mf_debug("app_control_set_launch_mode()... [0x%x]", ret);
+		goto END;
+	}
 	ret = app_control_set_app_id(app_control, STORAGE_UG_NAME);
 	if (ret != APP_CONTROL_ERROR_NONE) {
 		mf_debug("app_control_set_uri()... [0x%x]", ret);

@@ -608,6 +608,7 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				      mf_file_attr_get_file_size(params->m_ItemName->str, &size);
 				      if (size < 4*1024*1024)
 				      elm_image_file_set(thumb, params->m_ItemName->str, NULL);*/
+				      g_is_refresh_at_glist = true;
 				if (g_is_refresh_at_glist == false) {
 					mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
 				} else {

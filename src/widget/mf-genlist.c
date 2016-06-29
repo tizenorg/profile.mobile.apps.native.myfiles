@@ -499,10 +499,11 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 
 		mf_debug("file type : %d / storage type : %d", params->file_type, params->storage_type);
 
+		params->real_thumb_flag = EINA_FALSE;
 		/* Make thumbnail for performance issue */
-		if (!(params->real_thumb_flag && params->thumb_path)) {
+	//	if (!(params->real_thumb_flag && params->thumb_path)) { TODO: Need to check more about this condition
 			mf_genlist_get_thumbnail(params);
-		}
+	//	}
 
 		if (params->file_type == FILE_TYPE_MUSIC || params->file_type == FILE_TYPE_SOUND) {
 			if (params->thumb_path && mf_file_exists(params->thumb_path) &&
@@ -608,9 +609,9 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 				      mf_file_attr_get_file_size(params->m_ItemName->str, &size);
 				      if (size < 4*1024*1024)
 				      elm_image_file_set(thumb, params->m_ItemName->str, NULL);*/
-				if (g_is_refresh_at_glist == false) {
+			/*	if (g_is_refresh_at_glist == false) {
 					mf_view_refresh_thumbnail_for_other_memory(ap, ap->mf_FileOperation.file_list);
-				} else {
+				} else {*/
 					mf_debug("52");
 					if (params->pNode && params->pNode->thumbnail_path) {//For supporting the otg thumbnail
 						mf_debug("53");
@@ -633,8 +634,10 @@ static Evas_Object *__mf_genlist_gl_default_icon_get_lite(void *data, Evas_Objec
 						elm_image_preload_disabled_set(thumb, EINA_FALSE);
 						//elm_layout_content_set(layout, "elm.swallow.content", thumb);
 					}
-				}
-				g_is_refresh_at_glist = true;
+			//	}
+				if (!g_is_refresh_at_glist) {
+						g_is_refresh_at_glist = true;
+					}
 			} else {
 				elm_image_file_set(thumb, params->thumb_path, NULL);
 			}

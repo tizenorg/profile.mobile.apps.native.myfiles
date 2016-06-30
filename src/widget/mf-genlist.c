@@ -1450,6 +1450,9 @@ static void __mf_genlist_widget_storage_selected_cb(void *data, Evas_Object *obj
 	cloud_data->navi_layout = __mf_genlist_cloud_layout_add(ap->mf_MainWindow.pNaviBar, NULL, cloud_data);
 	if (!cloud_data->layout) {
 		mf_error("Fail to create Layout");
+		if (cloud_data->curr_path) {
+			free(cloud_data->curr_path);
+		}
 		return;
 	}
 	char edj_path[1024] = {0};

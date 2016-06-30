@@ -1638,6 +1638,7 @@ void mf_util_generate_list_prepend(Eina_List **list, const char *path, int file_
 		pNode->ext = ext;
 		*list = eina_list_prepend(*list, pNode);
 	}
+	free(path);
 }
 
 void mf_util_remove_item_from_list_by_location(Eina_List **list, int location)

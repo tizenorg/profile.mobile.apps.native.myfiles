@@ -1024,6 +1024,9 @@ msgstr "Köhnə"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Ehtiyat"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Silmək mümkün olmadı."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Silinir..."
 

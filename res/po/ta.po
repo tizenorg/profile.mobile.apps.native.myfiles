@@ -1024,6 +1024,9 @@ msgstr "பழையது"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "சேமிப்பகம்"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "தோல்வியுற்றதை நீக்கு."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "நீக்கப்படுகிறது..."
 

@@ -1024,6 +1024,9 @@ msgstr "Eskiroq"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Xotira"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Yo‘q qilish bajarilmadi."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Olib tashlanmoqda..."
 

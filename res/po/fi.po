@@ -1024,6 +1024,9 @@ msgstr "Vanhempi"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Tallennustila"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Poisto epäonnistui."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Poistetaan..."
 

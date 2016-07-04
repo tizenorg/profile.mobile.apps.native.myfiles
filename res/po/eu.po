@@ -1024,6 +1024,9 @@ msgstr "Zaharragoa"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Biltegiratzea"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Akatsa ezabatzerakoan"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Ezabatzen..."
 

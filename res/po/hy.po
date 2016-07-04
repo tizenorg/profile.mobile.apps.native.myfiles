@@ -1024,6 +1024,9 @@ msgstr "Ավելի հին"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Պահոց"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Ջնջումը ձախողվեց:"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Հեռացնում է..."
 

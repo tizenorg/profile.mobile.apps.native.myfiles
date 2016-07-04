@@ -1024,6 +1024,9 @@ msgstr "Älter"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Speicher"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Löschen fehlgeschlagen"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Entferne..."
 

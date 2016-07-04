@@ -1024,6 +1024,9 @@ msgstr "పాతది"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "నిల్వచేయు"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "తొలగింపు విఫలమైంది."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "తొలగిస్తున్నది..."
 

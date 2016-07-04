@@ -1024,6 +1024,9 @@ msgstr "Mai vechi"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Stocare"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Ștergerea nu a reușit."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Eliminare..."
 

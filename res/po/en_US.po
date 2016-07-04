@@ -1024,6 +1024,9 @@ msgstr "Older"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Storage"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Delete failed."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Removing..."
 
@@ -1724,7 +1727,7 @@ msgid "IDS_MF_BUTTON_RETRY_ABB2"
 msgstr "Retry"
 
 msgid "IDS_MF_BUTTON_REMOVE"
-msgstr "Remove"
+msgstr "Delete"
 
 msgid "IDS_GALLERY_BODY_CATEGORY"
 msgstr "Category"

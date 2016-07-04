@@ -1024,6 +1024,9 @@ msgstr "Staršie"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Úložisko"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Vymazanie sa nepodarilo."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Odstraňovanie..."
 

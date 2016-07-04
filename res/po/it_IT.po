@@ -1024,6 +1024,9 @@ msgstr "Precedenti"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Memoria"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Eliminazione non riuscita."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Rimozione..."
 

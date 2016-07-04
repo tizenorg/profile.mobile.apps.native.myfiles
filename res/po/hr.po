@@ -1024,6 +1024,9 @@ msgstr "Starije"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Pohrana"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Brisanje neuspješno."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Uklanjanje..."
 

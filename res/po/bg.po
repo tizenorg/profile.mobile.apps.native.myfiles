@@ -1024,6 +1024,9 @@ msgstr "По-стари"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Устройство за съхранение на данни"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Неуспешно изтриване"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Премахване..."
 

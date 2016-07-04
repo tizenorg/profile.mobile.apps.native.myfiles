@@ -29,7 +29,7 @@ msgid "IDS_EMAIL_POP_CANCELLED"
 msgstr "Cancelado"
 
 msgid "IDS_EMAIL_POP_DOWNLOAD_FAILED"
-msgstr "Descarga no disponible"
+msgstr "Error de descarga."
 
 msgid "IDS_EMAIL_POP_SUCCESS"
 msgstr "Finalizado"
@@ -38,7 +38,7 @@ msgid "IDS_MF_HEADER_CREATE"
 msgstr "Crear"
 
 msgid "IDS_MF_POP_DELETED"
-msgstr "Eliminado"
+msgstr "Eliminado."
 
 msgid "IDS_MF_POP_MEMORY_CARD_REMOVED"
 msgstr "Tarjeta de memoria extraída"
@@ -497,7 +497,7 @@ msgid "IDS_MF_POP_COPYING_FAILED"
 msgstr "Error al copiar"
 
 msgid "IDS_MF_POP_DELETE_FAILED"
-msgstr "Error al borrar"
+msgstr "Error al eliminar."
 
 msgid "IDS_MF_POP_DELETE_SELECTED_ITEM_Q"
 msgstr "¿Eliminar el elemento seleccionado?"
@@ -557,7 +557,7 @@ msgid "IDS_MF_POP_PD_ITEMS_WILL_BE_DELETED"
 msgstr "Se eliminarán %d elementos."
 
 msgid "IDS_MF_POP_PERMISSION_DENIED"
-msgstr "Permiso denegado"
+msgstr "Permiso denegado."
 
 msgid "IDS_MF_POP_REMOVE_FROM_RECENT_FILES_LIST_Q"
 msgstr "¿Eliminar de la lista de archivos recientes?"
@@ -815,7 +815,7 @@ msgid "IDS_MF_OPT_SORT_BY_ABB"
 msgstr "Ordenar por"
 
 msgid "IDS_MUSIC_POP_FAILED"
-msgstr "Error"
+msgstr "Error."
 
 msgid "IDS_MUSIC_SK_DONE"
 msgstr "Hecho"
@@ -884,7 +884,7 @@ msgid "IDS_MF_POP_PROCESSING_ING"
 msgstr "Procesando..."
 
 msgid "IDS_MF_POP_UNSUPPORTED_FILE_TYPE"
-msgstr "Tipo de archivo no admitido"
+msgstr "Tipo de archivo no admitido."
 
 msgid "IDS_MUSIC_POP_REMOVE_Q"
 msgstr "¿Eliminar?"
@@ -905,7 +905,7 @@ msgid "IDS_MF_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
 msgstr "No hay memoria suficiente. Elimine algunos elementos."
 
 msgid "IDS_MF_POP_REMOVED"
-msgstr "Eliminado"
+msgstr "Eliminado."
 
 msgid "IDS_ST_BODY_PRIVATE_STORAGE"
 msgstr "Almacenamiento privado"
@@ -1023,6 +1023,9 @@ msgstr "Más antiguo"
 
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Almacenamiento"
+
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Error al eliminar."
 
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Eliminando..."
@@ -1541,7 +1544,7 @@ msgid "IDS_MF_POP_PD_APPS_WILL_BE_UNINSTALLED"
 msgstr "Se desinstalarán %d aplicaciones."
 
 msgid "IDS_MF_POP_PS_WILL_BE_UNINSTALLED"
-msgstr "%s se desinstalará"
+msgstr "%s se desinstalará."
 
 msgid "IDS_MF_BODY_SIZE"
 msgstr "Tamaño"

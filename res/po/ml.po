@@ -1024,6 +1024,9 @@ msgstr "പഴയവ"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "സംഭരണം"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "ഇല്ലാതാക്കല്‍ പരാജയപ്പെട്ടു."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "നീക്കംചെയ്യുന്നു..."
 

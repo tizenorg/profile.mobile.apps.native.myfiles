@@ -1024,6 +1024,9 @@ msgstr "較舊的"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "儲存位置"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "刪除失敗"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "正在移除..."
 

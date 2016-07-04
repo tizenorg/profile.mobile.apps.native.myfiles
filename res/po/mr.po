@@ -1024,6 +1024,9 @@ msgstr "जुने"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "संग्रह"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "हटविणे अयशस्वी."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "काढणे चालू आहे..."
 

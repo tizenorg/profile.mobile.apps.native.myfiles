@@ -467,7 +467,7 @@ msgid "IDS_MF_OPT_SORT_BY"
 msgstr "ના દ્વારા સેટ કરો"
 
 msgid "IDS_MF_OPT_THUMBNAIL_VIEW"
-msgstr "થંબનેલ દૃષ્ટિ"
+msgstr "થંબનેલ વ્યૂ"
 
 msgid "IDS_MF_OPT_VIEW_AS"
 msgstr "આ રીતે જુઓ"
@@ -923,7 +923,7 @@ msgid "IDS_MUSIC_SK_LIST"
 msgstr "યાદી"
 
 msgid "IDS_MUSIC_SK_VIEW"
-msgstr "જુઓ"
+msgstr "વ્યૂ"
 
 msgid "IDS_MUSIC_SK_SAVE_AS"
 msgstr "તરીકે સાચવો"
@@ -1023,6 +1023,9 @@ msgstr "જૂનું"
 
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "સંગ્રહ"
+
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "હટાવો નિષ્ફળ."
 
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "દૂર કરાય છે..."

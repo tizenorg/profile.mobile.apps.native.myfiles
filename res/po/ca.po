@@ -1024,6 +1024,9 @@ msgstr "Més antic"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Emmagatzematge"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Error en esborrar"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Eliminant..."
 

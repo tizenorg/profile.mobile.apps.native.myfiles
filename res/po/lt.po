@@ -1024,6 +1024,9 @@ msgstr "Senesni"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Saugykla"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Ištrinti nepavyko."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Šalinama..."
 

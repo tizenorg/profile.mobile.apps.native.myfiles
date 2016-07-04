@@ -1024,6 +1024,9 @@ msgstr "পুরানো"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "সঞ্চয়স্থান"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "মোছা ব্যর্থ।"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "অপসারিত হচ্ছে..."
 

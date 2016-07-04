@@ -1024,6 +1024,9 @@ msgstr "أقدم"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "مكان التخزين"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "فشل المسح."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "جاري الحذف..."
 

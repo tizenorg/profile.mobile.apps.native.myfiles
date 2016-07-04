@@ -1024,6 +1024,9 @@ msgstr "Starsze"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Domyślna pamięć"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Błąd usuwania"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Usuwanie..."
 

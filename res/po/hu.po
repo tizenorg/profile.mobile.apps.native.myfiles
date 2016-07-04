@@ -1024,6 +1024,9 @@ msgstr "Régebbi"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Tárhely"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Törlés sikertelen."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Eltávolítás..."
 

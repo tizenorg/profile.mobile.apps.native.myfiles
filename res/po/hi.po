@@ -1024,6 +1024,9 @@ msgstr "अधिक पुराना"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "स्टोरेज"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "हटाना विफल।"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "निकाल रहा है..."
 

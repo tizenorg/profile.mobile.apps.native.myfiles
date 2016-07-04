@@ -1024,6 +1024,9 @@ msgstr "Eldra"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Geymsla"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Ekki tókst að eyða."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Verið er að fjarlægja..."
 

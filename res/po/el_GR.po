@@ -1024,6 +1024,9 @@ msgstr "Παλαιότερα"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Αποθήκευση"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "Αποτυχία διαγραφής."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Αφαίρεση..."
 

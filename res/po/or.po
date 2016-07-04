@@ -1024,6 +1024,9 @@ msgstr "ପୁରୁଣା"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "ଷ୍ଟୋରେଜ୍"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "ବିଲୋପ ବିଫଳ ହୋଇଛି।"
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "ଅପସାରଣ କରୁଛି..."
 

@@ -1024,6 +1024,9 @@ msgstr "Vanemad"
 msgid "IDS_DM_BODY_STORAGE"
 msgstr "Hoiundamine"
 
+msgid "IDS_COM_POP_DELETE_FAILED"
+msgstr "BT-peakomplekt sees."
+
 msgid "IDS_VIDEO_POP_REMOVING"
 msgstr "Eemaldamine..."
 

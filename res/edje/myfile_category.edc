@@ -237,21 +237,22 @@ styles{
                         image { normal: image_path; }                   \
                        color: 77 77 77 255;                         \
                 }                                                       \
-                 description {                                           \
-                        state: "landscape" 0.0;                           \
-                        min: CATEGORY_ITEM_ICON_SIZE;                   \
-                        max: CATEGORY_ITEM_ICON_SIZE;                   \
-                        align: 0.5 0.5;                                 \
-                        rel1 {                                          \
-                                relative: 0.07 0.2;      \
-                                to: part_name"_bg";                     \
-                        }                                               \
-                        rel2 {                                          \
-                                relative: 0.02 0.6;      \
-                                to: part_name"_bg";                     \
-                        }                                               \
-                        image { normal: image_path; }                   \
-                       color: 77 77 77 255;                         \
+                description {                                           \
+                	state: "landscape" 0.0;                           \
+                	min: CATEGORY_ITEM_ICON_SIZE;                   \
+                	max: CATEGORY_ITEM_ICON_SIZE;                   \
+                	align: 0.5 0.5;                                 \
+                	fixed: 1 1;                                     \
+                	rel1 {                                          \
+                		relative: 0.02 0.2;                         \
+                		to: part_name"_bg";                         \
+                	}                                               \
+                	rel2 {                                          \
+                		relative: 0.07 0.6;                         \
+                		to: part_name"_bg";                         \
+                	}                                               \
+                	image { normal: image_path; }                   \
+                	color: 77 77 77 255;                         \
                 }                                                       \
                 description {                                           \
                         state: "press" 0.0;                             \

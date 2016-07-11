@@ -294,7 +294,7 @@ static char *__mf_genlist_gl_label_get_lite(void *data, Evas_Object *obj, const 
 			return mf_fm_svc_get_file_name(params->m_ItemName);
 
 		} else {
-			return g_strdup(mf_file_get(params->m_ItemName->str));
+			return g_strdup(elm_entry_utf8_to_markup(mf_file_get(params->m_ItemName->str)));
 		}
 	} else if (strcmp(part, "elm.text.sub.left.bottom") == 0) {
 

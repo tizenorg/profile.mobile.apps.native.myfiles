@@ -1,6 +1,6 @@
 Name:       org.tizen.myfile
-#VCS_FROM:   profile/mobile/apps/native/myfiles#b2f9556c1b67b39fa1ad12ccd29e91c53ddb599b
-#RS_Ver:    20160707_1 
+#VCS_FROM:   profile/mobile/apps/native/myfiles#caddb28c8ec8d59733047f6a892546b76a7ac2da
+#RS_Ver:    20160711_2 
 Summary:    Myfile Application v1.0
 Version:    1.0.0
 Release:    1
@@ -15,6 +15,8 @@ Requires(post):  /usr/bin/tpk-backend
 %define internal_name org.tizen.myfile
 %define preload_tpk_path %{TZ_SYS_RO_APP}/.preload-tpk 
 
+%define build_mode %{nil}
+
 %ifarch i386 i486 i586 i686 x86_64
 %define target i386
 %else
@@ -26,7 +28,7 @@ Requires(post):  /usr/bin/tpk-backend
 %endif
 
 %description
-profile/mobile/apps/native/myfiles#b2f9556c1b67b39fa1ad12ccd29e91c53ddb599b
+profile/mobile/apps/native/myfiles#caddb28c8ec8d59733047f6a892546b76a7ac2da
 This is a container package which have preload TPK files
 
 %prep
@@ -37,7 +39,7 @@ This is a container package which have preload TPK files
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/%{preload_tpk_path}
-install %{internal_name}-%{version}-%{target}.tpk %{buildroot}/%{preload_tpk_path}/
+install %{internal_name}-%{version}-%{target}%{build_mode}.tpk %{buildroot}/%{preload_tpk_path}/
 
 %post
 

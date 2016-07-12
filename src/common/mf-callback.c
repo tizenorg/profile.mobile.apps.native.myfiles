@@ -3686,7 +3686,7 @@ __mf_callback_thumb_created_idler_cb(void *user_data)
 		}
 	}
 	pListData->thumbnail_create = EINA_FALSE;
-	g_thumbnail_download_update_idle = NULL;
+	//g_thumbnail_download_update_idle = NULL;
 	MF_TRACE_END;
 	return ECORE_CALLBACK_CANCEL;
 }

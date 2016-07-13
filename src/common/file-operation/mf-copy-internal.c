@@ -205,6 +205,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 		dst = g_strconcat(copy_folder, "/", name, NULL);
 	}
 	if (!dst) {
+		fclose(src_f);
 		return -1;
 	}
 	mf_error("===================== copy_dst is [%s], dst is [%s]", copy_dst, dst);

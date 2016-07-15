@@ -776,7 +776,6 @@ static void __mf_main_resume_app(void *data)
 	t_start;
 	mf_retm_if(data == NULL, "data is NULL");
 	struct appdata *ap = (struct appdata *)data;
-	SAFE_FREE_OBJ(ap->mf_MainWindow.pContextPopup);
 	/*check if update search result*/
 
 	if (ap->mf_SharedGadget.ug) {

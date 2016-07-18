@@ -81,6 +81,7 @@ static void __mf_search_entry_changed_cb(void *data, Evas_Object * obj, void *ev
 	if (elm_entry_is_empty(entry)) {
 		elm_object_part_content_unset(searchbar, "elm.swallow.cross");
 		evas_object_hide(ap->mf_MainWindow.pSearchLayout);
+		elm_object_focus_set(entry, EINA_TRUE);
 		signal = "elm,state,eraser,hide";
 	} else {
 		elm_object_part_content_set(searchbar, "elm.swallow.cross", ap->mf_MainWindow.pSearchLayout);

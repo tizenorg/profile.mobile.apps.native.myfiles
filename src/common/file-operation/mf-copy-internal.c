@@ -372,7 +372,7 @@ int _mf_copy_copy_regfile(const char *src, struct stat *src_statp, const char *d
 		msg_size = 0;
 	}
 	free(buf);
-
+	buf = NULL;
 	fclose(src_f);
 	fclose(dst_f);
 	if (copy_dst) {
@@ -417,6 +417,7 @@ ERROR_CLOSE_FD:
 	}
 	if (buf) {
 		free(buf);
+		buf = NULL;
 	}
 	return err;
 
@@ -424,6 +425,7 @@ ERROR_CLOSE_FD:
 CANCEL_CLOSE_FD:
 	if (buf) {
 		free(buf);
+		buf = NULL;
 	}
 	if (src_f) {
 		fclose(src_f);
@@ -586,6 +588,7 @@ int _mf_copy_copy_directory(const char *src, struct stat *src_statp, const char 
 									msg_cb(MF_MSG_ERROR, new_dir, 0, err, msg_data);
 								}
 								free(new_dir);
+								new_dir = NULL;
 								goto ERROR_CLOSE_FD;
 							} else {
 								if (msg_cb) {
@@ -600,6 +603,7 @@ int _mf_copy_copy_directory(const char *src, struct stat *src_statp, const char 
 								msg_cb(MF_MSG_ERROR, ent->ftw_path, 0, err, msg_data);
 							}
 							free(new_dir);
+							new_dir = NULL;
 							goto ERROR_CLOSE_FD;
 						}
 					} else {
@@ -618,6 +622,7 @@ int _mf_copy_copy_directory(const char *src, struct stat *src_statp, const char 
 									msg_cb(MF_MSG_ERROR, new_dir, 0, err, msg_data);
 								}
 								free(new_dir);
+								new_dir = NULL;
 								goto ERROR_CLOSE_FD;
 							}
 						} else {
@@ -628,10 +633,12 @@ int _mf_copy_copy_directory(const char *src, struct stat *src_statp, const char 
 								msg_cb(MF_MSG_ERROR, new_dir, 0, err, msg_data);
 							}
 							free(new_dir);
+							new_dir = NULL;
 							goto ERROR_CLOSE_FD;
 						}
 					}
 					free(new_dir);
+					new_dir = NULL;
 				} else {
 					err = MF_FO_ERR_SET(MF_FO_ERR_COMMON_CLASS | MF_FO_ERR_MEM);
 					if (msg_cb) {
@@ -651,6 +658,7 @@ int _mf_copy_copy_directory(const char *src, struct stat *src_statp, const char 
 						//mf_media_content_scan_file(new_file);
 					}
 					free(new_file);
+					new_file = NULL;
 					if (err > 0) {
 						goto DO_CANCEL;
 					} else if (err < 0) {

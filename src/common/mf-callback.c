@@ -3600,7 +3600,9 @@ void mf_callback_more_button_cb(void *data, Evas_Object *obj, void *event_info)
 
 void mf_callback_eraser_clicked_cb(void *data, Evas_Object *obj, const char *emission, const char *source)
 {
+	mf_debug("shubham called the callback");
 	elm_entry_entry_set(data, "");
+//	elm_object_focus_set(data, EINA_TRUE);
 }
 
 void mf_callback_extension_cb(void *data, Evas_Object *obj, void *event_info)

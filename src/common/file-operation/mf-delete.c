@@ -76,6 +76,7 @@ static void __mf_delete_free_handle(struct _mf_del_handle *handle)
 			handle->msg.current_real = NULL;
 		}
 		free(handle);
+		handle = NULL;
 	}
 
 	return;

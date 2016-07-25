@@ -227,6 +227,7 @@ static void __mf_copy_free_handle(struct _mf_copy_handle *handle)
 			handle->msg.current_real = NULL;
 		}
 		free(handle);
+		handle = NULL;
 	}
 
 	return;

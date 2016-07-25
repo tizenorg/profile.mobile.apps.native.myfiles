@@ -92,6 +92,7 @@ static inline char *Get_Parent_Path(int storage_type)
 	if (path) {
 		mf_file_attr_get_parent_path(path, &storage_path);
 		free(path);
+		path = NULL;
 	} else {
 		mf_error("path was NULL");
 	}

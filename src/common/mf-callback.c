@@ -3247,11 +3247,9 @@ int mf_callback_set_mmc_state_cb(void *data)
 void mf_callback_unregister_mmc_state_cb()
 {
 	int error_code = -1;
-	int storage_id = 0;
-	storage_id = mf_util_get_external_storage_id();
-	error_code = storage_unset_state_changed_cb(storage_id, __mf_callback_storage_changed_cb);
+	error_code = storage_unset_changed_cb(STORAGE_TYPE_EXTERNAL, __mf_callback_storage_changed_cb);
 	if (error_code != STORAGE_ERROR_NONE) {
-		mf_error("storage_unset_state_changed_cb() failed!! for storageid[%d]", storage_id);
+		mf_error("storage_unset_state_changed_cb() failed!! for storageid");
 	}
 }
 

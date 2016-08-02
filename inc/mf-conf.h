@@ -23,7 +23,7 @@
 #define MYFILE_PACKAGE			"My Files"
 #define PKGNAME_MYFILE			"org.tizen.myfile"
 #define PKGNAME_SYSTEM			"sys_string"
-#define LOCALEDIR			"/usr/apps/org.tizen.myfile/res/locale"
+#define LOCALEDIR			"locale"
 #define MF_IMAGE_HEAD			"myfile_"
 #define EDJ_PATH			"/usr/apps/org.tizen.myfile/res/edje"
 #define ICON_PATH			"/usr/apps/org.tizen.myfile/res/images"

@@ -463,6 +463,10 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 
 			//1 Storage Usage
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_storage_usage);
+
+			//1 Hidden
+			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_show_hide_hidden);
+
 			//1 Setting
 			//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_setting);
 		} else if (ap->mf_Status.view_type == mf_view_storage) {
@@ -577,8 +581,9 @@ void mf_context_popup_create_more(void *data, Evas_Object *parent)
 				//1 Sort by
 				__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_sort_by);
 			}
-			// hidden
+			// Hidden
 			__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_show_hide_hidden);
+
 			//1 Setting
 
 			//__mf_context_popup_item_append(ctxpopup, ap, mf_context_popup_item_setting);

@@ -511,17 +511,25 @@ bool __mf_main_create_app(void *data)
 	struct appdata *ap = (struct appdata *)data;
 	int ret_value = 0;
 
-	bindtextdomain(MYFILE_STRING_PACKAGE, LOCALEDIR);
+	char locale_path[1024] = {0};
+	char *path = app_get_resource_path();
+	snprintf(locale_path, 1024, "%s%s", path, LOCALEDIR);
+	bindtextdomain(MYFILE_STRING_PACKAGE, locale_path);
 
 	textdomain(MYFILE_STRING_PACKAGE);
 
-//	ret_value = pthread_create(&thread_init, NULL, initialization, data);
-//	if (ret_value != 0) {
-//		initialization(data);
-//		mf_retvm_if(!initialization_done, -1, "Initialization failed");
-//	}
+/*
+ 	ret_value = pthread_create(&thread_init, NULL, initialization, data);
+	if (ret_value != 0) {
+		initialization(data);
+		mf_retvm_if(!initialization_done, -1, "Initialization failed");
+	}
+*/
+
 	initialization(data);
-	//elm_config_preferred_engine_set("opengl_x11");
+
+	/*	elm_config_preferred_engine_set("opengl_x11");	*/
+
 #if 0//Deprecated API
 	if (!g_thread_supported()) {
 		g_thread_init(NULL);
@@ -581,7 +589,6 @@ bool __mf_main_create_app(void *data)
 	MF_TA_ACUM_ITEM_END("1234 mf_object_create_layout_main", 0);
 
 	char edj_path[1024] = {0};
-	char *path = app_get_resource_path();
 	snprintf(edj_path, 1024, "%s%s/%s", path , "edje", EDJ_GENLIST_NAME);
 	elm_theme_extension_add(NULL, edj_path);
 
